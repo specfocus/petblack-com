@@ -9,11 +9,9 @@ const images = [
     // {alt: 'dog and cat', src: '/360_F_316422277_s4yn3aOAojJnQPZE1SfKOFIPvSKqCxjv.jpg', height: 360, width: 548}
 ];
 
-const index = (Date.now() >> Math.round((3 * Math.random()))) % images.length;
-const props = images[index];
-console.log(index, props);
-
 export default function Home() {
+    const index = (Date.now() >> Math.round((3 * Math.random()))) % images.length;
+    const props = images[index];
     return (
         <div className={styles.page}>
             <main className={styles.main}>
