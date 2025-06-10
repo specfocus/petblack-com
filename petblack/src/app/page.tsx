@@ -9,6 +9,9 @@ const images = [
     // {alt: 'dog and cat', src: '/360_F_316422277_s4yn3aOAojJnQPZE1SfKOFIPvSKqCxjv.jpg', height: 360, width: 548}
 ];
 
+// Export revalidate to regenerate page every 5 seconds
+export const revalidate = 5;
+
 export default function Home() {
     const index = (Date.now() >> Math.round((3 * Math.random()))) % images.length;
     const props = images[index];
