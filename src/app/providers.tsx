@@ -1,5 +1,4 @@
-import { AppRouterCacheProvider } from "@mui/material-nextjs/v15-appRouter";
-import Provider from "@/lib/components/providers";
+import { AppRouterCacheProvider } from "@mui/material-nextjs/v16-appRouter";
 import { type FC, type PropsWithChildren } from "react";
 
 const Providers: FC<PropsWithChildren> = ({
@@ -7,9 +6,7 @@ const Providers: FC<PropsWithChildren> = ({
 }) => {
     return (
         <AppRouterCacheProvider options={{ key: 'mui' }}>
-            <Provider>
-                {children}
-            </Provider>
+            {children}
         </AppRouterCacheProvider>
     );
 };
