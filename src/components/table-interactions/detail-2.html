@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jane Smith Details</title>
+    <script type="speculationrules">
+    {
+      "prerender": [
+        {
+          "urls": ["index.html", "detail-1.html", "detail-2.html", "detail-3.html", "detail-4.html", "detail-5.html"]
+        }
+      ]
+    }
+  </script>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div class="view-transition">
+        <div class="form-container">
+            <h1>Person Details</h1>
+            <form id="personForm">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" value="Jane Smith" readonly>
+                </div>
+                <div class="form-group">
+                    <label for="age">Age:</label>
+                    <input type="number" id="age" name="age" value="28" readonly>
+                </div>
+                <div class="form-group">
+                    <label for="address">Address:</label>
+                    <input type="text" id="address" name="address" value="456 Oak Ave" readonly>
+                </div>
+                <div class="form-group">
+                    <label for="city">City:</label>
+                    <input type="text" id="city" name="city" value="London" readonly>
+                </div>
+                <div class="form-group">
+                    <label for="country">Country:</label>
+                    <input type="text" id="country" name="country" value="UK" readonly>
+                </div>
+                <button type="button" onclick="goBack()">Save</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
