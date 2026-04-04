@@ -14,7 +14,8 @@ const images = [
 export const revalidate = 5;
 
 export default function Home() {
-    const index = (Date.now() >> Math.round((3 * Math.random()))) % images.length;
+    // Deterministic pick per revalidation window — avoids server/client hydration mismatch
+    const index = Math.floor(Date.now() / (revalidate * 1000)) % images.length;
     const props = images[index];
     return (
         <div className={styles.page}>
