@@ -22,9 +22,11 @@ import installPetSettingsSection from '@/dialogs/settings/pet/install';
 import installExploreView from '@/views/explore/install';
 import shopActorAtom from './shop-actor-atom';
 import installDebug from '@/widgets/debug/install';
+import agentForwardingEffectAtom from './agent-forwarding-effect-atom';
 
 const petblackEffectAtom: ReadonlyAtom<void> = atomEffect(
     (get: GetterWithPeek, set: SetterWithRecurse) => {
+        get(agentForwardingEffectAtom);
         const cleanupExplore = installExploreView(get, set);
         const cleanupBuddy = installBuddy(get, set);
         const cleanupCart = installCart(get, set);

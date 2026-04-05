@@ -4,12 +4,14 @@ import type {
     AgentBindBuddyProfileEvent,
     AgentChatRequestSubmittedEvent,
     AgentChatRequestSucceededEvent,
+    AgentEventEnvelope,
     AgentModelResponseReceivedEvent,
     AgentQueueEventsEvent,
     AgentUserMessageReceivedEvent,
 } from './agent-events';
 import type { BuddyProfile } from '@/widgets/buddy/domain/types';
 import { ShopEventTypes } from '../shop/shop-event-types';
+import type { ShopEventUnion } from '../shop/shop-events';
 
 const { assign } = agentSetup;
 
@@ -28,6 +30,68 @@ const serialize = (value: unknown): string => {
     } catch {
         return String(value);
     }
+};
+
+const toString = (value: unknown): string | null =>
+    typeof value === 'string' && value.length > 0 ? value : null;
+
+const toNumber = (value: unknown): number | null =>
+    typeof value === 'number' && Number.isFinite(value) ? value : null;
+
+const toBoolean = (value: unknown, fallback: boolean): boolean =>
+    typeof value === 'boolean' ? value : fallback;
+
+const translateProposedEventsToShopEvents = (events: AgentEventEnvelope[]): ShopEventUnion[] => {
+    const translated: ShopEventUnion[] = [];
+    for (const event of events) {
+        if (event.target !== 'shop') continue;
+        const payload = event.payload ?? {};
+        switch (event.eventType) {
+            case ShopEventTypes.OpenCart:
+                translated.push({ type: ShopEventTypes.OpenCart });
+                break;
+            case ShopEventTypes.OpenAutoship:
+                translated.push({ type: ShopEventTypes.OpenAutoship });
+                break;
+            case ShopEventTypes.ToggleListEnabled: {
+                const id = toString(payload.id) ?? 'cart';
+                const enabled = toBoolean(payload.enabled, true);
+                translated.push({ type: ShopEventTypes.ToggleListEnabled, id, enabled });
+                if (id === 'cart' && enabled) translated.push({ type: ShopEventTypes.OpenCart });
+                break;
+            }
+            case ShopEventTypes.AddItem: {
+                const listId = toString(payload.listId) ?? 'cart';
+                const sku = toString(payload.sku) ?? 'unknown-sku';
+                const name = toString(payload.name) ?? 'Unknown item';
+                const qty = toNumber(payload.qty) ?? 1;
+                translated.push({ type: ShopEventTypes.AddItem, listId, sku, name, qty });
+                break;
+            }
+            case ShopEventTypes.UpdateItemQty: {
+                const listId = toString(payload.listId) ?? 'cart';
+                const sku = toString(payload.sku) ?? 'unknown-sku';
+                const qty = toNumber(payload.qty) ?? 1;
+                translated.push({ type: ShopEventTypes.UpdateItemQty, listId, sku, qty });
+                break;
+            }
+            case ShopEventTypes.RemoveItem: {
+                const listId = toString(payload.listId) ?? 'cart';
+                const sku = toString(payload.sku) ?? 'unknown-sku';
+                translated.push({ type: ShopEventTypes.RemoveItem, listId, sku });
+                break;
+            }
+            case ShopEventTypes.ClearCart:
+                translated.push({ type: ShopEventTypes.ClearCart });
+                break;
+            case ShopEventTypes.SearchProducts:
+                translated.push({ type: ShopEventTypes.SearchProducts, query: toString(payload.query) ?? '' });
+                break;
+            default:
+                break;
+        }
+    }
+    return translated;
 };
 
 const agentActions = {
@@ -103,6 +167,10 @@ const agentActions = {
             ]
             : context.conversation;
 
+        const translatedShopEvents = parsed?.events
+            ? translateProposedEventsToShopEvents(parsed.events)
+            : [];
+
         return {
             isSending: false,
             lastReply: parsed?.reply ?? context.lastReply,
@@ -112,6 +180,7 @@ const agentActions = {
             pendingEvents: parsed?.events
                 ? [...context.pendingEvents, ...parsed.events]
                 : context.pendingEvents,
+            forwardedShopEvents: [...context.forwardedShopEvents, ...translatedShopEvents],
             debugTraces: [
                 ...context.debugTraces,
                 {
@@ -183,6 +252,14 @@ const agentActions = {
             forwardedShellEvents: [...context.forwardedShellEvents, event.shellEvent],
         };
     }),
+
+    consumeForwardedShopEvent: assign(({ context }) => ({
+        forwardedShopEvents: context.forwardedShopEvents.slice(1),
+    })),
+
+    consumeForwardedShellEvent: assign(({ context }) => ({
+        forwardedShellEvents: context.forwardedShellEvents.slice(1),
+    })),
 
     // Intents are intentionally scaffolded first and translated incrementally.
     // For now they emit placeholder shop events to guide future implementation.

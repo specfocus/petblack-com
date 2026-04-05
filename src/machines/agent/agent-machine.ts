@@ -37,6 +37,12 @@ const agentMachine = agentSetup.extend({ actions: agentActions }).createMachine(
                 [AgentEventTypes.ForwardShellEvent]: {
                     actions: ['enqueueForwardShellEvent'],
                 },
+                [AgentEventTypes.ConsumeForwardedShopEvent]: {
+                    actions: ['consumeForwardedShopEvent'],
+                },
+                [AgentEventTypes.ConsumeForwardedShellEvent]: {
+                    actions: ['consumeForwardedShellEvent'],
+                },
                 [AgentEventTypes.IntentOpenCart]: {
                     actions: ['translateIntentOpenCart'],
                 },

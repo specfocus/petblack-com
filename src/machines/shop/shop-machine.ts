@@ -26,6 +26,15 @@ const shopMachine = shopSetup.extend({ actions: shopActions }).createMachine({
                 [ShopEventTypes.Hydrate]: {
                     actions: ['hydrate'],
                 },
+                [ShopEventTypes.OpenCart]: {
+                    actions: ['openCart', 'persistLists', 'markPersisted'],
+                },
+                [ShopEventTypes.OpenAutoship]: {
+                    actions: ['openAutoship', 'persistLists', 'markPersisted'],
+                },
+                [ShopEventTypes.SearchProducts]: {
+                    actions: ['searchProducts'],
+                },
                 [ShopEventTypes.ToggleListEnabled]: {
                     actions: ['toggleListEnabled', 'persistLists', 'markPersisted'],
                 },
@@ -43,6 +52,9 @@ const shopMachine = shopSetup.extend({ actions: shopActions }).createMachine({
                 },
                 [ShopEventTypes.RemoveItem]: {
                     actions: ['removeListItem', 'persistLists', 'markPersisted'],
+                },
+                [ShopEventTypes.ClearCart]: {
+                    actions: ['clearCart', 'persistLists', 'markPersisted'],
                 },
                 [ShopEventTypes.PersistRequested]: {
                     actions: ['persistLists', 'markPersisted'],

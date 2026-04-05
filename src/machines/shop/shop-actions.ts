@@ -19,6 +19,7 @@ import type {
     ShopAddItemEvent,
     ShopCreateCustomListEvent,
     ShopHydrateEvent,
+    ShopSearchProductsEvent,
     ShopRemoveCustomListEvent,
     ShopRemoveItemEvent,
     ShopToggleListEnabledEvent,
@@ -108,6 +109,36 @@ const shopActions = {
         return {
             lists: removeItem(context.lists, removeEvent.listId, removeEvent.sku),
             dirty: true,
+        };
+    }),
+
+    openCart: assign(({ context }) => ({
+        lists: setListEnabled(context.lists, 'cart', true),
+        dirty: true,
+    })),
+
+    openAutoship: assign(({ context }) => {
+        return {
+            lists: setListEnabled(context.lists, 'auto', true),
+            dirty: true,
+        };
+    }),
+
+    clearCart: assign(({ context }) => {
+        return {
+        lists: context.lists.map(list => (
+            list.id === 'cart'
+                ? { ...list, items: [], updatedAt: new Date().toISOString() }
+                : list
+        )),
+        dirty: true,
+    };}),
+
+    searchProducts: assign(({ context, event }) => {
+        const searchEvent = event as ShopSearchProductsEvent;
+        return {
+            // placeholder orchestration marker for now
+            lastError: searchEvent.query ? null : context.lastError,
         };
     }),
 

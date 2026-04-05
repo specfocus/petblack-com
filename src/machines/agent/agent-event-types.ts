@@ -18,6 +18,8 @@ export enum AgentEventTypes {
     DispatchNext = 'agent.dispatchNext',
     EventDispatched = 'agent.eventDispatched',
     EventBlocked = 'agent.eventBlocked',
+    ConsumeForwardedShopEvent = 'agent.consumeForwardedShopEvent',
+    ConsumeForwardedShellEvent = 'agent.consumeForwardedShellEvent',
     ClearDebugTraces = 'agent.clearDebugTraces',
 }
 

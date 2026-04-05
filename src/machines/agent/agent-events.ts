@@ -116,6 +116,14 @@ export interface AgentEventBlockedEvent {
     message: string;
 }
 
+export interface AgentConsumeForwardedShopEvent {
+    type: `${AgentEventTypes.ConsumeForwardedShopEvent}`;
+}
+
+export interface AgentConsumeForwardedShellEvent {
+    type: `${AgentEventTypes.ConsumeForwardedShellEvent}`;
+}
+
 export interface AgentClearDebugTracesEvent {
     type: `${AgentEventTypes.ClearDebugTraces}`;
 }
@@ -148,6 +156,8 @@ export type AgentEventUnion =
     | AgentDispatchNextEvent
     | AgentEventDispatchedEvent
     | AgentEventBlockedEvent
+    | AgentConsumeForwardedShopEvent
+    | AgentConsumeForwardedShellEvent
     | AgentClearDebugTracesEvent
     | ShopEventUnion
     | ShellEventUnion;
