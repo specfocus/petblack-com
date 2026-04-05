@@ -12,7 +12,7 @@
 
 import CloseRoundedIcon from '@mui/icons-material/CloseRounded';
 import ShoppingCartRoundedIcon from '@mui/icons-material/ShoppingCartRounded';
-import { isToggleEntry, noopToggleAtom, ToggleAtom } from '@specfocus/atoms/lib/toggle';
+import { isToggleEntry, noopToggleAtom, type ToggleAtom } from '@specfocus/atoms/lib/toggle';
 import workspaceTreeAtom from '@specfocus/atoms/lib/workspace';
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
@@ -29,7 +29,6 @@ import StepLabel from '@mui/material/StepLabel';
 import Stepper from '@mui/material/Stepper';
 import TextField from '@mui/material/TextField';
 import Typography from '@mui/material/Typography';
-import type { WidgetProps } from '@specfocus/shelly/lib/widgets/widget';
 import Widget from '@specfocus/shelly/lib/widgets/widget';
 import { useAtom, useAtomValue, useSetAtom } from '@specfocus/atoms/lib/hooks';
 import { type FC, useMemo, useState } from 'react';
@@ -46,7 +45,7 @@ const STEPS = ['Cart', 'Delivery', 'Payment', 'Review', 'Confirmation'];
 const StepCart: FC<{ onNext: () => void; }> = ({ onNext }) => {
     const buckets = useAtomValue(shopSnapshotBucketsAtom);
     const sendShopEvent = useSetAtom(shopActorAtom);
-    const cart = buckets.find(l => l.id === PrefabBucketNames.Cart);
+    const cart = buckets[PrefabBucketNames.Cart];
     const items = cart?.items ?? [];
 
     return (
@@ -183,7 +182,7 @@ const StepPayment: FC<{ onNext: () => void; onBack: () => void; }> = ({ onNext, 
 
 const StepReview: FC<{ onNext: () => void; onBack: () => void; }> = ({ onNext, onBack }) => {
     const buckets = useAtomValue(shopSnapshotBucketsAtom);
-    const items = buckets.find(l => l.id === PrefabBucketNames.Cart)?.items ?? [];
+    const items = buckets[PrefabBucketNames.Cart]?.items ?? [];
     return (
         <Box sx={{ flex: 1, overflowY: 'auto' }}>
             <Typography variant="subtitle2" gutterBottom>Order summary</Typography>
@@ -224,19 +223,15 @@ const StepConfirmation: FC<{ onClose: () => void; }> = ({ onClose }) => (
 
 // ── Main widget ────────────────────────────────────────────────────────────────
 
-const fallbackCartOpenAtom: ToggleAtom = noopToggleAtom;
-const fallbackCartShowAtom: ToggleAtom = noopToggleAtom;
-
 const CartWidget: FC = () => {
     const cartOpenToggleEntry = useAtomValue(workspaceTreeAtom(CART_OPEN_TOGGLE_PATH));
     const cartShowToggleEntry = useAtomValue(workspaceTreeAtom(CART_SHOW_TOGGLE_PATH));
-    const cartOpenAtom = isToggleEntry(cartOpenToggleEntry) ? cartOpenToggleEntry.atom : fallbackCartOpenAtom;
-    const cartShowAtom = isToggleEntry(cartShowToggleEntry) ? cartShowToggleEntry.atom : fallbackCartShowAtom;
-    const [isOpen, setIsOpen] = useAtom(cartOpenAtom as never);
+    const cartShowAtom: ToggleAtom = isToggleEntry(cartShowToggleEntry) ? cartShowToggleEntry.atom : noopToggleAtom;
+    const [isOpen, setIsOpen] = useAtom(isToggleEntry(cartOpenToggleEntry) ? cartOpenToggleEntry.atom : noopToggleAtom);
     const [step, setStep] = useState(0);
     const buckets = useAtomValue(shopSnapshotBucketsAtom);
     const cartItemCount = useMemo(
-        () => (buckets.find((bucket) => bucket.id === PrefabBucketNames.Cart)?.items ?? []).reduce((sum, item) => sum + item.qty, 0),
+        () => (buckets[PrefabBucketNames.Cart]?.items ?? []).reduce((sum, item) => sum + item.qty, 0),
         [buckets]
     );
 
