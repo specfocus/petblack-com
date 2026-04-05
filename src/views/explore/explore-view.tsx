@@ -1,0 +1,77 @@
+'use client';
+
+import Box from '@mui/material/Box';
+import Container from '@mui/material/Container';
+import SearchBox from '@/components/search-box';
+import ProductGrid from '@/components/product-grid';
+import type { ProductJsonLd } from '@/types/product-jsonld';
+import { useState, useCallback, useEffect, type FC } from 'react';
+
+const ExploreView: FC = () => {
+    const [query, setQuery] = useState('');
+    const [results, setResults] = useState<ProductJsonLd[] | null>(null);
+    const [loading, setLoading] = useState(false);
+
+    const hasResults = results !== null;
+
+    useEffect(() => {
+        if (hasResults) {
+            document.body.setAttribute('data-results', '');
+        } else {
+            document.body.removeAttribute('data-results');
+        }
+        return () => document.body.removeAttribute('data-results');
+    }, [hasResults]);
+
+    const handleSearch = useCallback(async (q: string) => {
+        setQuery(q);
+        if (!q) {
+            setResults(null);
+            return;
+        }
+        setLoading(true);
+        try {
+            const res = await fetch('/api/search?q=' + encodeURIComponent(q));
+            const data = await res.json();
+            setResults(data['@graph'] ?? []);
+        } catch {
+            setResults([]);
+        } finally {
+            setLoading(false);
+        }
+    }, []);
+
+    return (
+        <>
+            <Box
+                component="header"
+                sx={{
+                    py: 1.5,
+                    px: 2,
+                    display: 'flex',
+                    justifyContent: 'center',
+                    bgcolor: 'transparent',
+                    borderBottom: 0,
+                    transition: 'none',
+                    position: 'sticky',
+                    top: 0,
+                    zIndex: 10,
+                }}
+            >
+                <SearchBox onSearch={handleSearch} loading={loading} />
+            </Box>
+
+            {hasResults ? (
+                <Container maxWidth="xl" sx={{ py: 3 }}>
+                    <ProductGrid products={results} loading={loading} query={query} />
+                </Container>
+            ) : (
+                <Box sx={{ flexGrow: 1 }} />
+            )}
+        </>
+    );
+};
+
+ExploreView.displayName = 'ExploreView';
+
+export default ExploreView;

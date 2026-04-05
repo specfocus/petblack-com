@@ -1,0 +1,238 @@
+import type { ProductJsonLd } from '@/types/product-jsonld';
+
+/**
+ * In-memory product catalogue for the petblack search engine.
+ *
+ * All products follow schema.org/Product JSON-LD.  Images point to freely
+ * available placeholder URLs so the app works without a CDN.
+ */
+export const PRODUCTS: ProductJsonLd[] = [
+    {
+        '@context': 'https://schema.org',
+        '@type': 'Product',
+        '@id': 'sku-001',
+        name: 'Royal Canin Maxi Adult Dry Dog Food',
+        description:
+            'Precisely balanced nutrition for large breed dogs weighing 26–44 kg. Supports healthy joints and digestive health with high-quality proteins and fibre.',
+        image: 'https://placedog.net/400/400?id=1',
+        sku: 'RC-MAXI-AD-15',
+        brand: { '@type': 'Brand', name: 'Royal Canin' },
+        offers: {
+            '@type': 'Offer',
+            price: 64.99,
+            priceCurrency: 'USD',
+            availability: 'https://schema.org/InStock',
+        },
+        aggregateRating: { '@type': 'AggregateRating', ratingValue: 4.7, reviewCount: 3482 },
+        keywords: ['dog', 'food', 'dry food', 'large breed', 'adult'],
+    },
+    {
+        '@context': 'https://schema.org',
+        '@type': 'Product',
+        '@id': 'sku-002',
+        name: 'Hill\'s Science Diet Kitten Dry Cat Food',
+        description:
+            'Optimal nutrition for kittens up to 1 year. Contains DHA from fish oil for healthy brain and eye development. Made with real chicken.',
+        image: 'https://placekitten.com/400/400',
+        sku: 'HS-KIT-DRY-7',
+        brand: { '@type': 'Brand', name: "Hill's Pet Nutrition" },
+        offers: {
+            '@type': 'Offer',
+            price: 32.99,
+            priceCurrency: 'USD',
+            availability: 'https://schema.org/InStock',
+        },
+        aggregateRating: { '@type': 'AggregateRating', ratingValue: 4.8, reviewCount: 1920 },
+        keywords: ['cat', 'kitten', 'food', 'dry food'],
+    },
+    {
+        '@context': 'https://schema.org',
+        '@type': 'Product',
+        '@id': 'sku-003',
+        name: 'KONG Classic Dog Toy – Large',
+        description:
+            'The KONG Classic is the gold standard of dog toys. Fill with KONG Easy Treat, peanut butter, or kibble to keep your dog busy for hours.',
+        image: 'https://placedog.net/400/400?id=2',
+        sku: 'KONG-CL-LG',
+        brand: { '@type': 'Brand', name: 'KONG' },
+        offers: {
+            '@type': 'Offer',
+            price: 14.99,
+            priceCurrency: 'USD',
+            availability: 'https://schema.org/InStock',
+        },
+        aggregateRating: { '@type': 'AggregateRating', ratingValue: 4.9, reviewCount: 58741 },
+        keywords: ['dog', 'toy', 'chew', 'enrichment'],
+    },
+    {
+        '@context': 'https://schema.org',
+        '@type': 'Product',
+        '@id': 'sku-004',
+        name: 'Tetra ColorFusion Tropical Flakes',
+        description:
+            'Enhances the natural colours of tropical fish. A balanced diet with vitamins, minerals and trace elements for daily feeding.',
+        image: 'https://via.placeholder.com/400x400/003366/FFFFFF?text=Fish+Food',
+        sku: 'TET-CF-200',
+        brand: { '@type': 'Brand', name: 'Tetra' },
+        offers: {
+            '@type': 'Offer',
+            price: 8.49,
+            priceCurrency: 'USD',
+            availability: 'https://schema.org/InStock',
+        },
+        aggregateRating: { '@type': 'AggregateRating', ratingValue: 4.5, reviewCount: 2341 },
+        keywords: ['fish', 'food', 'flakes', 'tropical', 'aquarium'],
+    },
+    {
+        '@context': 'https://schema.org',
+        '@type': 'Product',
+        '@id': 'sku-005',
+        name: 'Furhaven Orthopedic Dog Bed – Medium',
+        description:
+            'Medical-grade egg-crate foam supports aching joints and hips. Removable cover is machine-washable. Perfect for dogs with arthritis.',
+        image: 'https://placedog.net/400/400?id=3',
+        sku: 'FH-OBM-GRY',
+        brand: { '@type': 'Brand', name: 'Furhaven' },
+        offers: {
+            '@type': 'Offer',
+            price: 39.99,
+            priceCurrency: 'USD',
+            availability: 'https://schema.org/InStock',
+        },
+        aggregateRating: { '@type': 'AggregateRating', ratingValue: 4.4, reviewCount: 9832 },
+        keywords: ['dog', 'bed', 'orthopedic', 'sleep', 'accessory'],
+    },
+    {
+        '@context': 'https://schema.org',
+        '@type': 'Product',
+        '@id': 'sku-006',
+        name: 'Catit Flower Fountain – 3 L',
+        description:
+            'Encourages cats to drink more water. Triple-action filter removes impurities and softens water. Quiet pump, capacity 3 litres.',
+        image: 'https://placekitten.com/401/401',
+        sku: 'CAT-FF3L-WHT',
+        brand: { '@type': 'Brand', name: 'Catit' },
+        offers: {
+            '@type': 'Offer',
+            price: 29.99,
+            priceCurrency: 'USD',
+            availability: 'https://schema.org/InStock',
+        },
+        aggregateRating: { '@type': 'AggregateRating', ratingValue: 4.6, reviewCount: 14203 },
+        keywords: ['cat', 'water', 'fountain', 'hydration', 'accessory'],
+    },
+    {
+        '@context': 'https://schema.org',
+        '@type': 'Product',
+        '@id': 'sku-007',
+        name: 'Oxbow Essential Rabbit Pellets – 5 lb',
+        description:
+            'Uniform pellet prevents selective feeding. High-fibre timothy hay base supports healthy digestion for adult rabbits.',
+        image: 'https://via.placeholder.com/400x400/8B4513/FFFFFF?text=Rabbit+Food',
+        sku: 'OXB-RBT-5LB',
+        brand: { '@type': 'Brand', name: 'Oxbow' },
+        offers: {
+            '@type': 'Offer',
+            price: 18.99,
+            priceCurrency: 'USD',
+            availability: 'https://schema.org/InStock',
+        },
+        aggregateRating: { '@type': 'AggregateRating', ratingValue: 4.7, reviewCount: 5670 },
+        keywords: ['rabbit', 'food', 'pellets', 'small animal'],
+    },
+    {
+        '@context': 'https://schema.org',
+        '@type': 'Product',
+        '@id': 'sku-008',
+        name: 'Fluval Spec V Aquarium Kit – 5 Gallon',
+        description:
+            'Complete desktop aquarium with integrated filter and 37-LED lighting. Ideal for bettas, shrimp, and small tropical fish.',
+        image: 'https://via.placeholder.com/400x400/006994/FFFFFF?text=Aquarium',
+        sku: 'FLU-SPECV-5G',
+        brand: { '@type': 'Brand', name: 'Fluval' },
+        offers: {
+            '@type': 'Offer',
+            price: 119.99,
+            priceCurrency: 'USD',
+            availability: 'https://schema.org/InStock',
+        },
+        aggregateRating: { '@type': 'AggregateRating', ratingValue: 4.5, reviewCount: 3120 },
+        keywords: ['fish', 'aquarium', 'tank', 'betta', 'tropical'],
+    },
+    {
+        '@context': 'https://schema.org',
+        '@type': 'Product',
+        '@id': 'sku-009',
+        name: 'Ruffwear Front Range Dog Harness',
+        description:
+            'Two leash attachment points (chest and back) for training versatility. Padded foam chest and belly panel for all-day comfort.',
+        image: 'https://placedog.net/400/400?id=4',
+        sku: 'RW-FRH-BLU-M',
+        brand: { '@type': 'Brand', name: 'Ruffwear' },
+        offers: {
+            '@type': 'Offer',
+            price: 49.95,
+            priceCurrency: 'USD',
+            availability: 'https://schema.org/InStock',
+        },
+        aggregateRating: { '@type': 'AggregateRating', ratingValue: 4.8, reviewCount: 22401 },
+        keywords: ['dog', 'harness', 'walk', 'leash', 'accessory'],
+    },
+    {
+        '@context': 'https://schema.org',
+        '@type': 'Product',
+        '@id': 'sku-010',
+        name: 'Whisker City Sisal Scratching Post – 32"',
+        description:
+            'Natural sisal-wrapped post satisfies cats\' instinctive need to scratch. Solid base prevents tipping. Includes catnip spray.',
+        image: 'https://placekitten.com/402/402',
+        sku: 'WC-SP32-NAT',
+        brand: { '@type': 'Brand', name: 'Whisker City' },
+        offers: {
+            '@type': 'Offer',
+            price: 24.99,
+            priceCurrency: 'USD',
+            availability: 'https://schema.org/InStock',
+        },
+        aggregateRating: { '@type': 'AggregateRating', ratingValue: 4.3, reviewCount: 7801 },
+        keywords: ['cat', 'scratching', 'post', 'toy', 'accessory'],
+    },
+    {
+        '@context': 'https://schema.org',
+        '@type': 'Product',
+        '@id': 'sku-011',
+        name: 'Vetri-Science Composure Pro Dog Chews',
+        description:
+            'Veterinarian-formulated calming chews. Contains Thiamine B1, L-Theanine, and C3 colostrum calming complex for anxious dogs.',
+        image: 'https://placedog.net/400/400?id=5',
+        sku: 'VS-COMP-60CT',
+        brand: { '@type': 'Brand', name: 'Vetri-Science' },
+        offers: {
+            '@type': 'Offer',
+            price: 27.49,
+            priceCurrency: 'USD',
+            availability: 'https://schema.org/InStock',
+        },
+        aggregateRating: { '@type': 'AggregateRating', ratingValue: 4.2, reviewCount: 4315 },
+        keywords: ['dog', 'supplement', 'calming', 'anxiety', 'health'],
+    },
+    {
+        '@context': 'https://schema.org',
+        '@type': 'Product',
+        '@id': 'sku-012',
+        name: 'Zoo Med Repti Basking Spot Lamp 100W',
+        description:
+            'Creates a precise basking spot for reptiles. Increases ambient air temperature. Suitable for bearded dragons, iguanas, and tortoises.',
+        image: 'https://via.placeholder.com/400x400/FF6600/FFFFFF?text=Reptile+Lamp',
+        sku: 'ZM-BS100W',
+        brand: { '@type': 'Brand', name: 'Zoo Med' },
+        offers: {
+            '@type': 'Offer',
+            price: 11.99,
+            priceCurrency: 'USD',
+            availability: 'https://schema.org/InStock',
+        },
+        aggregateRating: { '@type': 'AggregateRating', ratingValue: 4.6, reviewCount: 8901 },
+        keywords: ['reptile', 'turtle', 'lamp', 'heating', 'terrarium', 'accessory'],
+    },
+];
