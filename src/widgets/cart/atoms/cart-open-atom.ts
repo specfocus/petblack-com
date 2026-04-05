@@ -6,7 +6,7 @@ import { ShellEventTypes } from '@specfocus/shelly/lib/shell/machine/shell-event
 const cartOpenAtom: ToggleAtom = atom(
     (get: Getter): boolean | undefined => get(shopSnapshotAtom).context.cartOpen,
     (_get: Getter, set: Setter, _next?: boolean): void => {
-        set(shopSnapshotAtom, { type: ShellEventTypes.ToggleFooter });
+        set(shopSnapshotAtom, { type: ShellEventTypes.ToggleCartOpen });
     }
 );
 

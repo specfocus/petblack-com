@@ -22,6 +22,7 @@ import atom, { Getter, Setter } from '@specfocus/atoms/lib/atom';
 import { ShopEventTypes } from '@/machines/shop/shop-event-types';
 import type { ToggleEntry } from '@specfocus/atoms/lib/toggle';
 import { ToggleVariants } from '@specfocus/atoms/lib/toggle';
+import type { Bucket } from '@/dialogs/settings/sections/shop/domain/types';
 
 // ── lazy component ────────────────────────────────────────────────────────────
 
@@ -36,7 +37,7 @@ const installBuckets = (get: GetterWithPeek, set: SetterWithRecurse): Cleanup =>
 
     for (const name in buckets) {
         const bucketOpenAtom: ToggleAtom = atom(
-            (get: Getter): boolean | undefined => get(shopSnapshotAtom).context.buddyOpen,
+            (get: Getter): boolean | undefined => get(shopSnapshotAtom).context.buckets.find((bucket: Bucket) => bucket.name === name)?.open,
             (_get: Getter, set: Setter, _next?: boolean): void => {
                 set(shopSnapshotAtom, { type: ShopEventTypes.ToggleBucketOpen, name });
             }
@@ -45,7 +46,7 @@ const installBuckets = (get: GetterWithPeek, set: SetterWithRecurse): Cleanup =>
         bucketOpenAtom.debugLabel = `${name}OpenAtom`;
 
         const bucketShowAtom: ToggleAtom = atom(
-            (get: Getter): boolean | undefined => get(shopSnapshotAtom).context.buddyOpen,
+            (get: Getter): boolean | undefined => get(shopSnapshotAtom).context.buckets.find((bucket: Bucket) => bucket.name === name)?.show,
             (_get: Getter, set: Setter, _next?: boolean): void => {
                 set(shopSnapshotAtom, { type: ShopEventTypes.ToggleBucketShow, name });
             }

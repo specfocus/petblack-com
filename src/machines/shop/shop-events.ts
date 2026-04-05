@@ -88,6 +88,16 @@ export interface ShopStorageLoadedEvent {
     value: unknown;
 }
 
+export interface ShopToggleBucketOpenEvent {
+    type: `${ShopEventTypes.ToggleBucketOpen}`;
+    name: string;
+}
+
+export interface ShopToggleBucketShowEvent {
+    type: `${ShopEventTypes.ToggleBucketShow}`;
+    name: string;
+}
+
 export interface ShopToggleAutoOpenEvent {
     type: `${ShopEventTypes.ToggleAutoOpen}`;
 }
@@ -142,6 +152,8 @@ export type ShopEventUnion =
     | ShopPersistFailedEvent
     | ShopStorageLoadedEvent
     | ShellyFeedbackEvent
+    | ShopToggleBucketOpenEvent
+    | ShopToggleBucketShowEvent
     | ShopToggleAutoOpenEvent
     | ShopToggleAutoShowEvent
     | ShopToggleBuddyOpenEvent

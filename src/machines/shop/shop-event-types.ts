@@ -15,6 +15,9 @@ export enum ShopEventTypes {
     PersistSucceeded = 'shop.persistSucceeded',
     PersistFailed = 'shop.persistFailed',
 
+    ToggleBucketOpen = 'shop.toggleBucketOpen',
+    ToggleBucketShow = 'shop.toggleBucketShow',
+
     ToggleAutoOpen = 'shop.toggleAutoOpen',
     ToggleAutoShow = 'shop.toggleAutoShow',
     ToggleBuddyOpen = 'shop.toggleBuddyOpen',

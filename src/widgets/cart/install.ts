@@ -13,7 +13,7 @@ import { lazy } from 'react';
 import type { Cleanup, GetterWithPeek, SetterWithRecurse } from '@specfocus/atoms/lib/effect';
 import workspaceTreeAtom, { WorkspaceEntryTypes } from '@specfocus/atoms/lib/workspace';
 import { installWidget, WIDGET, type WorkspaceWidgetEntry } from '@specfocus/shelly/lib/widgets/atoms/widget-entry';
-import { CART_WIDGET_PATH } from './cart-path';
+import { CART_WIDGET_PATH } from './cart-widget-path';
 import cartShowToggleEntry from './toggles/cart-show-toggle';
 import cartOpenToggleEntry from './toggles/cart-open-toggle';
 import { CART_SHOW_TOGGLE_PATH, CART_OPEN_TOGGLE_PATH } from './cart-widget-path';
@@ -32,7 +32,7 @@ const cartWidgetEntry: WorkspaceWidgetEntry = {
     tooltip: 'petblack.widgets.cart.tooltip',
     resource: { '@type': WIDGET, data: {}, name: 'cart' },
     component: LazyCartWidget,
-    toggle: [...CART_TOGGLE_PATH],
+    toggle: CART_SHOW_TOGGLE_PATH,
 };
 
 // ── install ───────────────────────────────────────────────────────────────────

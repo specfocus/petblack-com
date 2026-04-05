@@ -7,6 +7,9 @@
  * Each bucket is installed independently in the workspace tree.
  */
 
+import shopActorAtom from '@/atoms/shop-actor-atom';
+import shopSnapshotBucketsAtom from '@/atoms/shop-snapshot-buckets-atom';
+import { ShopEventTypes } from '@/machines/shop/shop-event-types';
 import AddRoundedIcon from '@mui/icons-material/AddRounded';
 import CloseRoundedIcon from '@mui/icons-material/CloseRounded';
 import DeleteRoundedIcon from '@mui/icons-material/DeleteRounded';
@@ -15,32 +18,26 @@ import IconButton from '@mui/material/IconButton';
 import InputBase from '@mui/material/InputBase';
 import Paper from '@mui/material/Paper';
 import Typography from '@mui/material/Typography';
-import type { WidgetProps } from '@specfocus/shelly/lib/widgets/widget';
-import Widget from '@specfocus/shelly/lib/widgets/widget';
+import { useAtom, useAtomValue, useSetAtom } from '@specfocus/atoms/lib/hooks';
 import { isToggleEntry, noopToggleAtom } from '@specfocus/atoms/lib/toggle';
 import workspaceTreeAtom from '@specfocus/atoms/lib/workspace';
-import { useAtom, useAtomValue, useSetAtom } from '@specfocus/atoms/lib/hooks';
+import type { WidgetProps } from '@specfocus/shelly/lib/widgets/widget';
+import Widget from '@specfocus/shelly/lib/widgets/widget';
 import { type FC, type ReactNode, useMemo, useState } from 'react';
-import shopSnapshotBucketsAtom from '@/atoms/shop-snapshot-buckets-atom';
-import shopActorAtom from '@/atoms/shop-actor-atom';
-import { ShopEventTypes } from '@/machines/shop/shop-event-types';
-import {
-    getShopListOpenTogglePath,
-    getShopListShowTogglePath,
-} from './shop-bucket-widget-registry';
+import { WIDGETS_PATH } from '../widgets-path';
 
-interface ListWidgetProps {
+interface BucketWidgetProps {
     bucketName?: string;
 }
 
 const fallbackListOpenAtom = noopToggleAtom;
 const fallbackListShowAtom = noopToggleAtom;
 
-const ListWidget: FC<ListWidgetProps> = ({ bucketName = 'want' }) => {
+const BucketWidget: FC<BucketWidgetProps> = ({ bucketName = 'want' }) => {
     const buckets = useAtomValue(shopSnapshotBucketsAtom);
     const sendShopEvent = useSetAtom(shopActorAtom);
-    const openTogglePath = useMemo(() => getShopListOpenTogglePath(bucketName), [bucketName]);
-    const showTogglePath = useMemo(() => getShopListShowTogglePath(bucketName), [bucketName]);
+    const openTogglePath = useMemo(() => [...WIDGETS_PATH, bucketName, 'toggles', 'open'], [bucketName]);
+    const showTogglePath = useMemo(() => [...WIDGETS_PATH, bucketName, 'toggles', 'show'], [bucketName]);
     const bucketOpenToggleEntry = useAtomValue(workspaceTreeAtom(openTogglePath));
     const bucketShowToggleEntry = useAtomValue(workspaceTreeAtom(showTogglePath));
     const bucketOpenAtom = isToggleEntry(bucketOpenToggleEntry) ? bucketOpenToggleEntry.atom : fallbackListOpenAtom;
@@ -216,4 +213,4 @@ const ListWidget: FC<ListWidgetProps> = ({ bucketName = 'want' }) => {
     );
 };
 
-export default ListWidget;
+export default BucketWidget;

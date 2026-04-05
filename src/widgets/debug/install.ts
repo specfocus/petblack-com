@@ -1,12 +1,11 @@
-import { lazy } from 'react';
 import type { Cleanup, GetterWithPeek, SetterWithRecurse } from '@specfocus/atoms/lib/effect';
-import workspaceTreeAtom, { WorkspaceEntryTypes } from '@specfocus/atoms/lib/workspace';
-import { installDialAction } from '@specfocus/shelly/lib/widgets/dial/actions/dial-action-entry';
+import { installWorkspaceEntry, WorkspaceEntryTypes } from '@specfocus/atoms/lib/workspace';
 import { installWidget, WIDGET, type WorkspaceWidgetEntry } from '@specfocus/shelly/lib/widgets/atoms/widget-entry';
-import { DEBUG_WIDGET_PATH } from './debug-widget-path';
+import { installDialAction } from '@specfocus/shelly/lib/widgets/dial/actions/dial-action-entry';
+import { lazy } from 'react';
+import { DEBUG_OPEN_TOGGLE_PATH, DEBUG_SHOW_TOGGLE_PATH } from './debug-widget-path';
 import debugOpenToggleEntry from './toggles/debug-open-toggle';
 import debugShowToggleEntry from './toggles/debug-show-toggle';
-import { DEBUG_WIDGET_PATH, DEBUG_OPEN_TOGGLE_PATH, DEBUG_SHOW_TOGGLE_PATH } from './debug-widget-path';
 
 const LazyDebugWidget = lazy(() => import('./debug-widget'));
 
@@ -17,7 +16,7 @@ const debugWidgetEntry: WorkspaceWidgetEntry = {
     tooltip: 'petblack.widgets.debug.tooltip',
     resource: { '@type': WIDGET, data: {}, name: 'debug' },
     component: LazyDebugWidget,
-    toggle: [...DEBUG_TOGGLE_PATH],
+    toggle: DEBUG_SHOW_TOGGLE_PATH,
 };
 
 const installDebug = (get: GetterWithPeek, set: SetterWithRecurse): Cleanup => {
@@ -30,7 +29,7 @@ const installDebug = (get: GetterWithPeek, set: SetterWithRecurse): Cleanup => {
         cleanupWidget();
         cleanupShowToggle();
         cleanupOpenToggle();
-        cleanupDialAction();
+        cleanupDialActionShow();
     };
 };
 
