@@ -29,6 +29,7 @@ import shopSnapshotAtom from '@/atoms/shop-snapshot-atom';
 import agentSnapshotConversationAtom from '@/atoms/agent-snapshot-conversation-atom';
 import agentSnapshotIsSendingAtom from '@/atoms/agent-snapshot-is-sending-atom';
 import { AgentEventTypes } from '@/machines/agent/agent-event-types';
+import agentActorAtom from '@/atoms/agent-actor-atom';
 import buddyShowAtom from './atoms/buddy-show-atom';
 import buddyOpenAtom from './atoms/buddy-open-atom';
 
