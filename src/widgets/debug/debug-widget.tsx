@@ -7,24 +7,34 @@ import agentActorAtom from '@/atoms/agent-actor-atom';
 import agentSnapshotDebugTracesAtom from '@/atoms/agent-snapshot-debug-traces-atom';
 import agentSnapshotIsSendingAtom from '@/atoms/agent-snapshot-is-sending-atom';
 import BugReportRoundedIcon from '@mui/icons-material/BugReportRounded';
+import CheckRoundedIcon from '@mui/icons-material/CheckRounded';
 import ClearAllRoundedIcon from '@mui/icons-material/ClearAllRounded';
 import CloseRoundedIcon from '@mui/icons-material/CloseRounded';
+import ContentCopyRoundedIcon from '@mui/icons-material/ContentCopyRounded';
+import KeyboardArrowDownRoundedIcon from '@mui/icons-material/KeyboardArrowDownRounded';
 import SendRoundedIcon from '@mui/icons-material/SendRounded';
 import Box from '@mui/material/Box';
 import IconButton from '@mui/material/IconButton';
 import InputBase from '@mui/material/InputBase';
+import Menu from '@mui/material/Menu';
+import MenuItem from '@mui/material/MenuItem';
 import Paper from '@mui/material/Paper';
 import Typography from '@mui/material/Typography';
 import { useAtomValue, useSetAtom } from '@specfocus/atoms/lib/hooks';
 import type { WidgetProps } from '@specfocus/shelly/lib/widgets/widget';
 import Widget from '@specfocus/shelly/lib/widgets/widget';
-import { useMemo, useState, type FC, type FormEvent } from 'react';
+import { useMemo, useState, type FC, type FormEvent, type MouseEvent } from 'react';
 import debugToggleAtom from './atoms/debug-toggle-atom';
 import { AgentEventTypes } from '@/machines/agent/agent-event-types';
+import { BUDDY_PREFAB_REQUESTS } from './prefab-requests';
+
+const PREFAB_TOKEN_REGEX = /^##([a-z0-9-]+)##$/i;
 
 const DebugWidget: FC = () => {
     const [isOpen, setIsOpen] = useState(false);
     const [message, setMessage] = useState('');
+    const [menuAnchorEl, setMenuAnchorEl] = useState<HTMLElement | null>(null);
+    const [copiedTraceId, setCopiedTraceId] = useState<string | null>(null);
     const lines = useAtomValue(agentSnapshotDebugTracesAtom);
     const isSending = useAtomValue(agentSnapshotIsSendingAtom);
     const shopSnapshot = useAtomValue(shopSnapshotAtom);
@@ -41,11 +51,53 @@ Allowed event families:
 - shop.addItem
 - shop.updateItemQty
 - shop.removeItem`;
+    const prefabItems = useMemo(
+        () => BUDDY_PREFAB_REQUESTS.map((request) => ({
+            id: request.id,
+            token: `##${request.id}##`,
+            message: request.message,
+        })),
+        []
+    );
+    const resolveInputToMessage = (rawInput: string): string => {
+        const trimmed = rawInput.trim();
+        const tokenMatch = trimmed.match(PREFAB_TOKEN_REGEX);
+        if (!tokenMatch?.[1]) return trimmed;
+        const match = prefabItems.find(item => item.id.toLowerCase() === tokenMatch[1].toLowerCase());
+        return match?.message ?? trimmed;
+    };
+    const isPrefabMenuOpen = Boolean(menuAnchorEl);
+
+    const handleOpenPrefabMenu = (event: MouseEvent<HTMLElement>) => {
+        setMenuAnchorEl(event.currentTarget);
+    };
+
+    const handleClosePrefabMenu = () => {
+        setMenuAnchorEl(null);
+    };
+
+    const handlePickPrefabMessage = (prefabToken: string) => {
+        setMessage(prefabToken);
+        setMenuAnchorEl(null);
+    };
+
+    const handleCopyTrace = async (traceId: string, text: string) => {
+        try {
+            await navigator.clipboard.writeText(text);
+            setCopiedTraceId(traceId);
+            window.setTimeout(() => {
+                setCopiedTraceId(prev => (prev === traceId ? null : prev));
+            }, 1200);
+        } catch {
+            // best-effort copy only
+        }
+    };
 
     const onSubmit = (event: FormEvent) => {
         event.preventDefault();
         const trimmed = message.trim();
-        if (!trimmed || isSending) return;
+        const resolvedMessage = resolveInputToMessage(trimmed);
+        if (!resolvedMessage || isSending) return;
 
         setMessage('');
         sendAgentEvent({
@@ -56,7 +108,7 @@ Allowed event families:
             type: AgentEventTypes.ChatRequestSubmitted,
             payload: {
                 visitorId: buddyProfile.visitorId,
-                message: trimmed,
+                message: resolvedMessage,
                 buddy: buddyProfile,
                 shopSnapshot: {
                     stateValue: String(shopSnapshot.value),
@@ -120,7 +172,16 @@ Allowed event families:
                         </Box>
                     </Box>
 
-                    <Box sx={{ p: 1, overflowY: 'auto', fontFamily: 'monospace', fontSize: 12 }}>
+                    <Box
+                        sx={{
+                            p: 1,
+                            overflowY: 'auto',
+                            fontFamily: 'monospace',
+                            fontSize: 12,
+                            userSelect: 'text',
+                            WebkitUserSelect: 'text',
+                        }}
+                    >
                         {lines.length === 0 ? (
                             <Typography variant="caption" color="text.secondary">
                                 Send a message to inspect raw request/response payloads.
@@ -132,6 +193,7 @@ Allowed event families:
                                     sx={{
                                         mb: 1,
                                         p: 1,
+                                        pb: 3.5,
                                         borderRadius: 1,
                                         bgcolor:
                                             line.direction === 'request'
@@ -142,12 +204,33 @@ Allowed event families:
                                         color: 'text.primary',
                                         whiteSpace: 'pre-wrap',
                                         wordBreak: 'break-word',
+                                        position: 'relative',
+                                        userSelect: 'text',
+                                        WebkitUserSelect: 'text',
                                     }}
                                 >
                                     <Typography variant="caption" sx={{ display: 'block', opacity: 0.75, mb: 0.5 }}>
                                         [{line.direction.toUpperCase()}] {line.timestamp}
                                     </Typography>
-                                    {line.text}
+                                    <Box component="pre" sx={{ m: 0, fontFamily: 'inherit', whiteSpace: 'pre-wrap' }}>
+                                        {line.text}
+                                    </Box>
+                                    <IconButton
+                                        size="small"
+                                        onClick={() => handleCopyTrace(line.id, line.text)}
+                                        title="Copy message"
+                                        sx={{
+                                            position: 'absolute',
+                                            right: 6,
+                                            bottom: 6,
+                                            bgcolor: 'rgba(0,0,0,0.08)',
+                                            '&:hover': { bgcolor: 'rgba(0,0,0,0.14)' },
+                                        }}
+                                    >
+                                        {copiedTraceId === line.id
+                                            ? <CheckRoundedIcon fontSize="inherit" />
+                                            : <ContentCopyRoundedIcon fontSize="inherit" />}
+                                    </IconButton>
                                 </Box>
                             ))
                         )}
@@ -166,21 +249,64 @@ Allowed event families:
                             alignItems: 'center',
                         }}
                     >
-                        <InputBase
-                            value={message}
-                            onChange={(e) => setMessage(e.target.value)}
-                            placeholder="Raw user message for /api/buddy/chat"
-                            inputProps={{ maxLength: 800 }}
-                            sx={{
-                                border: 1,
-                                borderColor: 'divider',
-                                borderRadius: 1.5,
-                                px: 1,
-                                py: 0.75,
-                                fontSize: 13,
-                                bgcolor: 'background.default',
-                            }}
-                        />
+                        <Box sx={{ width: '100%' }}>
+                            <Box
+                                sx={{
+                                    border: 1,
+                                    borderColor: 'divider',
+                                    borderRadius: 1.5,
+                                    bgcolor: 'background.default',
+                                    width: '100%',
+                                    display: 'flex',
+                                    alignItems: 'center',
+                                }}
+                            >
+                                <InputBase
+                                    value={message}
+                                    onChange={(e) => setMessage(e.target.value)}
+                                    placeholder="Type or select a debug request"
+                                    inputProps={{ maxLength: 800 }}
+                                    sx={{
+                                        px: 1,
+                                        py: 0.75,
+                                        fontSize: 13,
+                                        flex: 1,
+                                    }}
+                                />
+                                <IconButton
+                                    size="small"
+                                    onClick={handleOpenPrefabMenu}
+                                    title="Select prefab message"
+                                    sx={{ mr: 0.5 }}
+                                >
+                                    <KeyboardArrowDownRoundedIcon fontSize="small" />
+                                </IconButton>
+                            </Box>
+                            <Menu
+                                anchorEl={menuAnchorEl}
+                                open={isPrefabMenuOpen}
+                                onClose={handleClosePrefabMenu}
+                                anchorOrigin={{ vertical: 'top', horizontal: 'left' }}
+                                transformOrigin={{ vertical: 'bottom', horizontal: 'left' }}
+                            >
+                                {prefabItems.map((prefab) => (
+                                    <MenuItem
+                                        key={prefab.id}
+                                        onClick={() => handlePickPrefabMessage(prefab.token)}
+                                        dense
+                                    >
+                                        <Box sx={{ display: 'flex', flexDirection: 'column' }}>
+                                            <Typography variant="caption" sx={{ fontFamily: 'monospace' }}>
+                                                {prefab.token}
+                                            </Typography>
+                                            <Typography variant="body2">
+                                                {prefab.message}
+                                            </Typography>
+                                        </Box>
+                                    </MenuItem>
+                                ))}
+                            </Menu>
+                        </Box>
                         <IconButton
                             type="submit"
                             disabled={!message.trim() || isSending}

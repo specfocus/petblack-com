@@ -2,6 +2,10 @@ import test, { afterEach, beforeEach } from 'node:test';
 import assert from 'node:assert/strict';
 import { createActor } from '@specfocus/atoms/lib/machine';
 import { buildBuddyProfile } from '@/widgets/buddy/domain/deterministic';
+import {
+    BUDDY_PREFAB_REQUESTS,
+    BUDDY_PREFAB_REQUEST_MESSAGES,
+} from '@/widgets/debug/prefab-requests';
 import agentMachine from '@/machines/agent/agent-machine';
 import { AgentEventTypes } from '@/machines/agent/agent-event-types';
 
@@ -25,6 +29,8 @@ const makePayload = (message: string) => ({
 });
 
 const createTestAgentActor = () => createActor(agentMachine, { input: {} }).start();
+const getPrefabMessage = (id: string): string =>
+    BUDDY_PREFAB_REQUESTS.find((request) => request.id === id)?.message ?? id;
 
 const sleep = (ms: number) => new Promise(resolve => setTimeout(resolve, ms));
 
@@ -75,12 +81,12 @@ test('agent-machine controls chat request lifecycle and records response', async
     actor.send({ type: AgentEventTypes.BindBuddyProfile, profile });
     actor.send({
         type: AgentEventTypes.ChatRequestSubmitted,
-        payload: makePayload('open cart'),
+        payload: makePayload(getPrefabMessage('open-cart')),
     });
 
     await waitFor(() => actor.getSnapshot().context.isSending === false);
     const snapshot = actor.getSnapshot();
-    assert.equal(snapshot.context.lastUserMessage, 'open cart');
+    assert.equal(snapshot.context.lastUserMessage, getPrefabMessage('open-cart'));
     assert.equal(snapshot.context.lastReply, 'Sure, I can help with that.');
     assert.ok(snapshot.context.debugTraces.some(trace => trace.direction === 'request'));
     assert.ok(snapshot.context.debugTraces.some(trace => trace.direction === 'response'));
@@ -111,7 +117,7 @@ test('agent-machine queues model-proposed events from buddy response', async () 
     actor.send({ type: AgentEventTypes.BindBuddyProfile, profile });
     actor.send({
         type: AgentEventTypes.ChatRequestSubmitted,
-        payload: makePayload('add a toy to the cart'),
+        payload: makePayload(getPrefabMessage('add-toy-to-cart')),
     });
 
     await waitFor(() => actor.getSnapshot().context.isSending === false);
@@ -179,7 +185,7 @@ test('buddy should execute a multi-step plan for pickup flow', async () => {
     const actor = createTestAgentActor();
     actor.send({
         type: AgentEventTypes.ChatRequestSubmitted,
-        payload: makePayload('I want pickup in my area for dog food'),
+        payload: makePayload(getPrefabMessage('pickup-dog-food')),
     });
     await waitFor(() => actor.getSnapshot().context.isSending === false);
     const snapshot = actor.getSnapshot();
@@ -198,5 +204,13 @@ test('buddy should be able to open cart and autoship in one orchestration', asyn
         'expected two shell events for dual workflow orchestration'
     );
     actor.stop();
+});
+
+test('prefab request catalog should include core debug scenarios', () => {
+    assert.ok(BUDDY_PREFAB_REQUEST_MESSAGES.includes(getPrefabMessage('open-cart')));
+    assert.ok(BUDDY_PREFAB_REQUEST_MESSAGES.includes(getPrefabMessage('open-autoship')));
+    assert.ok(BUDDY_PREFAB_REQUEST_MESSAGES.includes(getPrefabMessage('add-toy-to-cart')));
+    assert.ok(BUDDY_PREFAB_REQUEST_MESSAGES.includes(getPrefabMessage('add-dog-food-to-cart')));
+    assert.ok(BUDDY_PREFAB_REQUEST_MESSAGES.includes(getPrefabMessage('clean-cart')));
 });
 
