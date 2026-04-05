@@ -262,14 +262,14 @@ const agentActions = {
     translateIntentOpenCart: assign(({ context }) => ({
         forwardedShopEvents: [
             ...context.forwardedShopEvents,
-            { type: ShopEventTypes.OpenCart },
+            { type: ShopEventTypes.OpenBucket, name: 'cart' },
         ],
     })),
 
     translateIntentOpenAutoship: assign(({ context }) => ({
         forwardedShopEvents: [
             ...context.forwardedShopEvents,
-            { type: ShopEventTypes.OpenAutoship },
+            { type: ShopEventTypes.OpenBucket, name: 'auto' },
         ],
     })),
 

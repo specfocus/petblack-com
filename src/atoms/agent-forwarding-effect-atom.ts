@@ -8,7 +8,6 @@ import agentActorAtom from './agent-actor-atom';
 import agentSnapshotAtom from './agent-snapshot-atom';
 import shopActorAtom from './shop-actor-atom';
 import { AgentEventTypes } from '@/machines/agent/agent-event-types';
-import { CART_OPEN_TOGGLE_PATH, CART_SHOW_TOGGLE_PATH } from '@/widgets/cart/cart-widget-path';
 import { WIDGETS_PATH } from '../widgets/widgets-path';
 
 const agentForwardingEffectAtom: ReadonlyAtom<void> = atomEffect((get, set) => {
@@ -16,35 +15,19 @@ const agentForwardingEffectAtom: ReadonlyAtom<void> = atomEffect((get, set) => {
 
     const nextShopEvent = snapshot.context.forwardedShopEvents[0];
     if (nextShopEvent) {
-        if (nextShopEvent.type === ShopEventTypes.OpenCart) {
+        if (nextShopEvent.type === ShopEventTypes.OpenBucket) {
+            const { name } = nextShopEvent as { type: string; name: string; };
             set(shellActorAtom, {
                 type: ShellEventTypes.EnqueueEffectTasks,
                 tasks: [
                     {
                         type: ShellEffectTaskTypes.ToggleWorkspacePath,
-                        path: [...CART_SHOW_TOGGLE_PATH],
+                        path: [...WIDGETS_PATH, name, 'toggles', 'show'],
                         value: true,
                     },
                     {
                         type: ShellEffectTaskTypes.ToggleWorkspacePath,
-                        path: [...CART_OPEN_TOGGLE_PATH],
-                        value: true,
-                    },
-                ],
-            });
-        }
-        if (nextShopEvent.type === ShopEventTypes.OpenAutoship) {
-            set(shellActorAtom, {
-                type: ShellEventTypes.EnqueueEffectTasks,
-                tasks: [
-                    {
-                        type: ShellEffectTaskTypes.ToggleWorkspacePath,
-                        path: [...WIDGETS_PATH, 'auto', 'toggles', 'show'],
-                        value: true,
-                    },
-                    {
-                        type: ShellEffectTaskTypes.ToggleWorkspacePath,
-                        path: [...WIDGETS_PATH, 'auto', 'toggles', 'open'],
+                        path: [...WIDGETS_PATH, name, 'toggles', 'open'],
                         value: true,
                     },
                 ],

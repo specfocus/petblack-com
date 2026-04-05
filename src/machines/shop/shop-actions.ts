@@ -115,10 +115,10 @@ const shopActions = {
     }),
 
     clearCart: assign(({ context }) => {
-        const cart = context.buckets[PrefabBucketNames.Cart];
+        const cart = context.buckets['cart'];
         if (!cart) return {};
         return {
-            buckets: { ...context.buckets, [PrefabBucketNames.Cart]: { ...cart, items: [], updatedAt: new Date().toISOString() } },
+            buckets: { ...context.buckets, ['cart']: { ...cart, items: [], updatedAt: new Date().toISOString() } },
             dirty: true,
         };
     }),
