@@ -52,6 +52,9 @@ export interface BucketItem {
 // ── bucket ──────────────────────────────────────────────────────────────────────
 
 export interface Bucket {
+    open?: boolean;
+    show?: boolean;
+
     /** Unique identifier — one of PrefabBucketName or a user-generated UUID */
     id: string;
     /** Display name */

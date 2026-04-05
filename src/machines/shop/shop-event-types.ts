@@ -14,6 +14,15 @@ export enum ShopEventTypes {
     PersistRequested = 'shop.persistRequested',
     PersistSucceeded = 'shop.persistSucceeded',
     PersistFailed = 'shop.persistFailed',
+
+    ToggleAutoOpen = 'shop.toggleAutoOpen',
+    ToggleAutoShow = 'shop.toggleAutoShow',
+    ToggleBuddyOpen = 'shop.toggleBuddyOpen',
+    ToggleBuddyShow = 'shop.toggleBuddyShow',
+    ToggleCartOpen = 'shop.toggleCartOpen',
+    ToggleCartShow = 'shop.toggleCartShow',
+    ToggleDebugOpen = 'shop.toggleDebugOpen',
+    ToggleDebugShow = 'shop.toggleDebugShow'
 }
 
 export type ShopEventType = `${ShopEventTypes}`;

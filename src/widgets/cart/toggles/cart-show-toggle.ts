@@ -2,7 +2,6 @@ import ShoppingCartRoundedIcon from '@mui/icons-material/ShoppingCartRounded';
 import type { ToggleEntry } from '@specfocus/atoms/lib/toggle';
 import { ToggleVariants } from '@specfocus/atoms/lib/toggle';
 import { WorkspaceEntryTypes, Sizes } from '@specfocus/atoms/lib/workspace';
-import { CART_TOGGLE_PATH } from '../cart-path';
 import cartShowAtom from '../atoms/cart-show-atom';
 
 export const cartShowToggleEntry: ToggleEntry = {
@@ -22,5 +21,4 @@ export const cartShowToggleEntry: ToggleEntry = {
     },
 };
 
-export { CART_TOGGLE_PATH };
 export default cartShowToggleEntry;

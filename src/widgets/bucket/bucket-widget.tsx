@@ -21,7 +21,7 @@ import { isToggleEntry, noopToggleAtom } from '@specfocus/atoms/lib/toggle';
 import workspaceTreeAtom from '@specfocus/atoms/lib/workspace';
 import { useAtom, useAtomValue, useSetAtom } from '@specfocus/atoms/lib/hooks';
 import { type FC, type ReactNode, useMemo, useState } from 'react';
-import shopSnapshotListsAtom from '@/atoms/shop-snapshot-buckets-atom';
+import shopSnapshotBucketsAtom from '@/atoms/shop-snapshot-buckets-atom';
 import shopActorAtom from '@/atoms/shop-actor-atom';
 import { ShopEventTypes } from '@/machines/shop/shop-event-types';
 import {
@@ -37,7 +37,7 @@ const fallbackListOpenAtom = noopToggleAtom;
 const fallbackListShowAtom = noopToggleAtom;
 
 const ListWidget: FC<ListWidgetProps> = ({ bucketName = 'want' }) => {
-    const buckets = useAtomValue(shopSnapshotListsAtom);
+    const buckets = useAtomValue(shopSnapshotBucketsAtom);
     const sendShopEvent = useSetAtom(shopActorAtom);
     const openTogglePath = useMemo(() => getShopListOpenTogglePath(bucketName), [bucketName]);
     const showTogglePath = useMemo(() => getShopListShowTogglePath(bucketName), [bucketName]);

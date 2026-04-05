@@ -1,5 +1,9 @@
 'use client';
 
+import shopActorAtom from '@/atoms/shop-actor-atom';
+import shopSnapshotBucketsAtom from '@/atoms/shop-snapshot-buckets-atom';
+import { ShopEventTypes } from '@/machines/shop/shop-event-types';
+import { CART_SHOW_TOGGLE_PATH } from '@/widgets/cart/cart-widget-path';
 import AddRoundedIcon from '@mui/icons-material/AddRounded';
 import DeleteRoundedIcon from '@mui/icons-material/DeleteRounded';
 import Box from '@mui/material/Box';
@@ -22,12 +26,8 @@ import { ToggleVariants } from '@specfocus/atoms/lib/toggle';
 import { Sizes } from '@specfocus/atoms/lib/workspace';
 import WorkspaceToggle from '@specfocus/shelly/lib/components/toggle';
 import { type FC, useState } from 'react';
-import { PET_ICONS, PrefabListIds } from '../domain/types';
-import shopSnapshotListsAtom from '@/atoms/shop-snapshot-lists-atom';
-import shopActorAtom from '@/atoms/shop-actor-atom';
-import { ShopEventTypes } from '@/machines/shop/shop-event-types';
-import { CART_SHOW_TOGGLE_PATH } from '@/widgets/cart/cart-path';
-import { getShopListShowTogglePath } from '@/widgets/list/shop-list-widget-registry';
+import { PET_ICONS, PrefabBucketNames } from '../domain/types';
+import { WIDGETS_PATH } from '@/widgets/widgets-path';
 
 // ── Icon picker dialog ─────────────────────────────────────────────────────────
 
@@ -69,7 +69,7 @@ const IconPicker: FC<IconPickerProps> = ({ open, onClose, onSelect, current }) =
     </Dialog>
 );
 
-// ── Add list dialog ────────────────────────────────────────────────────────────
+// ── Add bucket dialog ────────────────────────────────────────────────────────────
 
 interface AddListDialogProps {
     open: boolean;
@@ -131,12 +131,12 @@ const AddListDialog: FC<AddListDialogProps> = ({ open, onClose, onAdd }) => {
 // ── Main section ───────────────────────────────────────────────────────────────
 
 const ShopSettingsSection: FC = () => {
-    const lists = useAtomValue(shopSnapshotListsAtom);
+    const buckets = useAtomValue(shopSnapshotBucketsAtom);
     const sendShopEvent = useSetAtom(shopActorAtom);
     const [addOpen, setAddOpen] = useState(false);
 
-    const prefabs = lists.filter(l => l.prefab);
-    const custom = lists.filter(l => !l.prefab);
+    const prefabs = buckets.filter(l => l.prefab);
+    const custom = buckets.filter(l => !l.prefab);
 
     const handleAdd = (name: string, icon: string) => {
         sendShopEvent({
@@ -155,19 +155,19 @@ const ShopSettingsSection: FC = () => {
 
     return (
         <Box sx={{ p: 2, maxWidth: 480 }}>
-            {/* ── Prefab lists ── */}
+            {/* ── Prefab buckets ── */}
             <Typography variant="subtitle2" color="text.secondary" gutterBottom>
                 Built-in buckets
             </Typography>
             <List disablePadding dense>
-                {prefabs.map(list => (
-                    <ListItem key={list.id} disableGutters>
+                {prefabs.map(bucket => (
+                    <ListItem key={bucket.id} disableGutters>
                         <ListItemIcon sx={{ minWidth: 36, fontSize: 22 }}>
-                            {list.icon}
+                            {bucket.icon}
                         </ListItemIcon>
-                        <ListItemText primary={list.name} />
+                        <ListItemText primary={bucket.name} />
                         <WorkspaceToggle
-                            path={list.id === PrefabListIds.Cart ? CART_SHOW_TOGGLE_PATH : getShopListShowTogglePath(list.id)}
+                            path={bucket.id === PrefabBucketNames.Cart ? CART_SHOW_TOGGLE_PATH : [...WIDGETS_PATH, bucket.id, 'toggles', 'show']}
                             variant={ToggleVariants.Switch}
                             size={Sizes.Small}
                         />
@@ -177,7 +177,7 @@ const ShopSettingsSection: FC = () => {
 
             <Divider sx={{ my: 2 }} />
 
-            {/* ── Custom lists ── */}
+            {/* ── Custom buckets ── */}
             <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', mb: 1 }}>
                 <Typography variant="subtitle2" color="text.secondary">
                     My pet buckets
@@ -197,28 +197,28 @@ const ShopSettingsSection: FC = () => {
                 </Typography>
             ) : (
                 <List disablePadding dense>
-                    {custom.map(list => (
+                    {custom.map(bucket => (
                         <ListItem
-                            key={list.id}
+                            key={bucket.id}
                             disableGutters
                             secondaryAction={
                                 <IconButton
                                     edge="end"
                                     size="small"
-                                    aria-label={`Delete ${list.name}`}
-                                    onClick={() => handleDelete(list.id)}
+                                    aria-label={`Delete ${bucket.name}`}
+                                    onClick={() => handleDelete(bucket.id)}
                                 >
                                     <DeleteRoundedIcon fontSize="small" />
                                 </IconButton>
                             }
                         >
                             <ListItemIcon sx={{ minWidth: 36, fontSize: 22 }}>
-                                {list.icon}
+                                {bucket.icon}
                             </ListItemIcon>
-                            <ListItemText primary={list.name} />
+                            <ListItemText primary={bucket.name} />
                             <Chip label="custom" size="small" sx={{ mr: 1, fontSize: 10 }} />
                             <WorkspaceToggle
-                                path={getShopListShowTogglePath(list.id)}
+                                path={[...WIDGETS_PATH, bucket.id, 'toggles', 'show']}
                                 variant={ToggleVariants.Switch}
                                 size={Sizes.Small}
                             />

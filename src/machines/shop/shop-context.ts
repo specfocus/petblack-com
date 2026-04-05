@@ -5,6 +5,12 @@ import type { ShellyFeedbackEvent } from '@specfocus/shelly/lib/machines/feedbac
 
 export interface ShopContext {
     buckets: Bucket[];
+    buddyOpen?: boolean;
+    buddyShow?: boolean;
+    cartOpen?: boolean;
+    cartShow?: boolean;
+    debugOpen?: boolean;
+    debugShow?: boolean;
     dirty: boolean;
     lastError: string | null;
     activeViewId: string | null;

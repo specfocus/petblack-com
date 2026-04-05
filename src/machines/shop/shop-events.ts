@@ -88,6 +88,42 @@ export interface ShopStorageLoadedEvent {
     value: unknown;
 }
 
+export interface ShopToggleAutoOpenEvent {
+    type: `${ShopEventTypes.ToggleAutoOpen}`;
+}
+
+export interface ShopToggleAutoShowEvent {
+    type: `${ShopEventTypes.ToggleAutoShow}`;
+}
+
+export interface ShopToggleBuddyOpenEvent {
+    type: `${ShopEventTypes.ToggleBuddyOpen}`;
+}
+
+export interface ShopToggleBuddyShowEvent {
+    type: `${ShopEventTypes.ToggleBuddyShow}`;
+}
+
+export interface ShopToggleCartOpenEvent {
+    type: `${ShopEventTypes.ToggleCartOpen}`;
+}
+
+export interface ShopToggleCartOpenEvent {
+    type: `${ShopEventTypes.ToggleCartOpen}`;
+}
+
+export interface ShopToggleCartShowEvent {
+    type: `${ShopEventTypes.ToggleCartShow}`;
+}
+
+export interface ShopToggleDebugOpenEvent {
+    type: `${ShopEventTypes.ToggleDebugOpen}`;
+}
+
+export interface ShopToggleDebugShowEvent {
+    type: `${ShopEventTypes.ToggleDebugShow}`;
+}
+
 export type ShopEventUnion =
     | ShopBootstrapEvent
     | ShopHydrateEvent
@@ -105,4 +141,12 @@ export type ShopEventUnion =
     | ShopPersistSucceededEvent
     | ShopPersistFailedEvent
     | ShopStorageLoadedEvent
-    | ShellyFeedbackEvent;
+    | ShellyFeedbackEvent
+    | ShopToggleAutoOpenEvent
+    | ShopToggleAutoShowEvent
+    | ShopToggleBuddyOpenEvent
+    | ShopToggleBuddyShowEvent
+    | ShopToggleCartOpenEvent
+    | ShopToggleCartShowEvent
+    | ShopToggleDebugOpenEvent
+    | ShopToggleDebugShowEvent;

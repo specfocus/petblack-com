@@ -1,11 +1,12 @@
 "use client";
 
-import { buildBuddyProfile } from '@/widgets/buddy/domain/deterministic';
-import { getOrCreateVisitorId } from '@/widgets/buddy/domain/storage';
-import shopSnapshotAtom from '@/atoms/shop-snapshot-atom';
 import agentActorAtom from '@/atoms/agent-actor-atom';
 import agentSnapshotDebugTracesAtom from '@/atoms/agent-snapshot-debug-traces-atom';
 import agentSnapshotIsSendingAtom from '@/atoms/agent-snapshot-is-sending-atom';
+import shopSnapshotAtom from '@/atoms/shop-snapshot-atom';
+import { AgentEventTypes } from '@/machines/agent/agent-event-types';
+import { buildBuddyProfile } from '@/widgets/buddy/domain/deterministic';
+import { getOrCreateVisitorId } from '@/widgets/buddy/domain/storage';
 import BugReportRoundedIcon from '@mui/icons-material/BugReportRounded';
 import CheckRoundedIcon from '@mui/icons-material/CheckRounded';
 import ClearAllRoundedIcon from '@mui/icons-material/ClearAllRounded';
@@ -20,18 +21,17 @@ import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
 import Paper from '@mui/material/Paper';
 import Typography from '@mui/material/Typography';
-import { useAtomValue, useSetAtom } from '@specfocus/atoms/lib/hooks';
+import { useAtom, useAtomValue, useSetAtom } from '@specfocus/atoms/lib/hooks';
 import type { WidgetProps } from '@specfocus/shelly/lib/widgets/widget';
 import Widget from '@specfocus/shelly/lib/widgets/widget';
 import { useMemo, useState, type FC, type FormEvent, type MouseEvent } from 'react';
-import debugToggleAtom from './atoms/debug-toggle-atom';
-import { AgentEventTypes } from '@/machines/agent/agent-event-types';
+import { default as debugOpenAtom, default as debugShowAtom } from './atoms/debug-show-atom';
 import { BUDDY_PREFAB_REQUESTS } from './prefab-requests';
 
 const PREFAB_TOKEN_REGEX = /^##([a-z0-9-]+)##$/i;
 
 const DebugWidget: FC = () => {
-    const [isOpen, setIsOpen] = useState(false);
+    const [isOpen, setIsOpen] = useAtom(debugOpenAtom);
     const [message, setMessage] = useState('');
     const [menuAnchorEl, setMenuAnchorEl] = useState<HTMLElement | null>(null);
     const [copiedTraceId, setCopiedTraceId] = useState<string | null>(null);
@@ -124,7 +124,7 @@ Terminology:
 
     return (
         <Widget
-            openAtom={debugToggleAtom as WidgetProps['openAtom']}
+            openAtom={debugShowAtom as WidgetProps['openAtom']}
             defaultCorner="bottom-left"
             sx={isOpen ? undefined : { overflow: 'visible', background: 'transparent', boxShadow: 'none' }}
         >

@@ -24,6 +24,4 @@ const cartOpenToggleEntry: ToggleEntry = {
     },
 };
 
-cartOpenToggleEntry.debugLabel = 'cartOpenToggleEntry';
-
 export default cartOpenToggleEntry;

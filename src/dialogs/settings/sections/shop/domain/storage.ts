@@ -15,6 +15,17 @@ import {
 
 const STORAGE_KEY = 'petblack:shop-buckets';
 
+const COMMON_BUCKET_NAMES = new Set<string>([
+    'cart',
+    'want',
+    'need',
+    'have',
+    'pick',
+    'auto',
+    'drug',
+    'diet',
+]);
+
 // ── helpers ───────────────────────────────────────────────────────────────────
 
 function now(): string {
