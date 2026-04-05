@@ -18,12 +18,8 @@ export enum ShopEventTypes {
     ToggleBucketOpen = 'shop.toggleBucketOpen',
     ToggleBucketShow = 'shop.toggleBucketShow',
 
-    ToggleAutoOpen = 'shop.toggleAutoOpen',
-    ToggleAutoShow = 'shop.toggleAutoShow',
     ToggleBuddyOpen = 'shop.toggleBuddyOpen',
     ToggleBuddyShow = 'shop.toggleBuddyShow',
-    ToggleCartOpen = 'shop.toggleCartOpen',
-    ToggleCartShow = 'shop.toggleCartShow',
     ToggleDebugOpen = 'shop.toggleDebugOpen',
     ToggleDebugShow = 'shop.toggleDebugShow'
 }

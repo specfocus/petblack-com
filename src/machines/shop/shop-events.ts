@@ -9,7 +9,7 @@ export interface ShopBootstrapEvent {
 
 export interface ShopHydrateEvent {
     type: `${ShopEventTypes.Hydrate}`;
-    buckets: Bucket[];
+    buckets: Record<string, Bucket>;
 }
 
 export interface ShopOpenCartEvent {
@@ -98,32 +98,12 @@ export interface ShopToggleBucketShowEvent {
     name: string;
 }
 
-export interface ShopToggleAutoOpenEvent {
-    type: `${ShopEventTypes.ToggleAutoOpen}`;
-}
-
-export interface ShopToggleAutoShowEvent {
-    type: `${ShopEventTypes.ToggleAutoShow}`;
-}
-
 export interface ShopToggleBuddyOpenEvent {
     type: `${ShopEventTypes.ToggleBuddyOpen}`;
 }
 
 export interface ShopToggleBuddyShowEvent {
     type: `${ShopEventTypes.ToggleBuddyShow}`;
-}
-
-export interface ShopToggleCartOpenEvent {
-    type: `${ShopEventTypes.ToggleCartOpen}`;
-}
-
-export interface ShopToggleCartOpenEvent {
-    type: `${ShopEventTypes.ToggleCartOpen}`;
-}
-
-export interface ShopToggleCartShowEvent {
-    type: `${ShopEventTypes.ToggleCartShow}`;
 }
 
 export interface ShopToggleDebugOpenEvent {
@@ -154,11 +134,7 @@ export type ShopEventUnion =
     | ShellyFeedbackEvent
     | ShopToggleBucketOpenEvent
     | ShopToggleBucketShowEvent
-    | ShopToggleAutoOpenEvent
-    | ShopToggleAutoShowEvent
     | ShopToggleBuddyOpenEvent
     | ShopToggleBuddyShowEvent
-    | ShopToggleCartOpenEvent
-    | ShopToggleCartShowEvent
     | ShopToggleDebugOpenEvent
     | ShopToggleDebugShowEvent;

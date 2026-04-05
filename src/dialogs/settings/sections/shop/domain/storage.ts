@@ -63,6 +63,8 @@ function buildDefaultBuckets(): Record<string, Bucket> {
         [PrefabBucketNames.Have]: buildPrefab(PrefabBucketNames.Have, false),
         [PrefabBucketNames.Pick]: buildPrefab(PrefabBucketNames.Pick, false),
         [PrefabBucketNames.Auto]: buildPrefab(PrefabBucketNames.Auto, false),
+        [PrefabBucketNames.Drug]: buildPrefab(PrefabBucketNames.Drug, false),
+        [PrefabBucketNames.Diet]: buildPrefab(PrefabBucketNames.Diet, false),
     };
 }
 
@@ -74,39 +76,40 @@ export function loadBuckets(): Record<string, Bucket> {
         const raw = window.localStorage.getItem(STORAGE_KEY);
         if (!raw) return buildDefaultBuckets();
         const parsed: Bucket[] = JSON.parse(raw);
-        // Back-fill any prefab buckets that may have been added in a newer version
-        const existingIds = new Set(parsed.map(l => l.id));
-        const backfilled = [...parsed];
+        // Convert array to record, back-filling any new prefabs
+        const record: Record<string, Bucket> = {};
+        for (const bucket of parsed) {
+            record[bucket.id] = bucket;
+        }
         for (const id of Object.values(PrefabBucketNames)) {
-            if (!existingIds.has(id)) {
-                backfilled.push(buildPrefab(id as PrefabBucketName, id === PrefabBucketNames.Cart));
+            if (!(id in record)) {
+                record[id] = buildPrefab(id as PrefabBucketName, id === PrefabBucketNames.Cart);
             }
         }
-        return backfilled;
+        return record;
     } catch {
         return buildDefaultBuckets();
     }
 }
 
-export function saveBuckets(buckets: Bucket[]): void {
+export function saveBuckets(buckets: Record<string, Bucket>): void {
     if (typeof window === 'undefined') return;
-    window.localStorage.setItem(STORAGE_KEY, JSON.stringify(buckets));
+    window.localStorage.setItem(STORAGE_KEY, JSON.stringify(Object.values(buckets)));
     notifySubscribers();
 }
 
 // ── bucket mutations ────────────────────────────────────────────────────────────
 
-export function setListEnabled(buckets: Bucket[], id: string, enabled: boolean): Bucket[] {
-    return buckets.map(l => {
-        if (l.id !== id) return l;
-        if (l.enabled === enabled) return l;
-        return { ...l, enabled, updatedAt: now() };
-    });
+export function setListEnabled(buckets: Record<string, Bucket>, id: string, enabled: boolean): Record<string, Bucket> {
+    const bucket = buckets[id];
+    if (!bucket || bucket.enabled === enabled) return buckets;
+    return { ...buckets, [id]: { ...bucket, enabled, updatedAt: now() } };
 }
 
-export function addCustomList(buckets: Bucket[], name: string, icon: string): Bucket[] {
+export function addCustomList(buckets: Record<string, Bucket>, name: string, icon: string): Record<string, Bucket> {
+    const id = makeId();
     const next: Bucket = {
-        id: makeId(),
+        id,
         name,
         icon,
         enabled: true,
@@ -115,49 +118,51 @@ export function addCustomList(buckets: Bucket[], name: string, icon: string): Bu
         createdAt: now(),
         updatedAt: now(),
     };
-    return [...buckets, next];
+    return { ...buckets, [id]: next };
 }
 
-export function removeCustomList(buckets: Bucket[], id: string): Bucket[] {
-    return buckets.filter(l => l.id === id ? !l.prefab : true);
+export function removeCustomList(buckets: Record<string, Bucket>, id: string): Record<string, Bucket> {
+    const bucket = buckets[id];
+    if (!bucket || bucket.prefab) return buckets;
+    const { [id]: _removed, ...rest } = buckets;
+    return rest;
 }
 
-export function renameList(buckets: Bucket[], id: string, name: string): Bucket[] {
-    return buckets.map(l => l.id === id ? { ...l, name, updatedAt: now() } : l);
+export function renameList(buckets: Record<string, Bucket>, id: string, name: string): Record<string, Bucket> {
+    const bucket = buckets[id];
+    if (!bucket) return buckets;
+    return { ...buckets, [id]: { ...bucket, name, updatedAt: now() } };
 }
 
-export function setListIcon(buckets: Bucket[], id: string, icon: string): Bucket[] {
-    return buckets.map(l => l.id === id ? { ...l, icon, updatedAt: now() } : l);
+export function setListIcon(buckets: Record<string, Bucket>, id: string, icon: string): Record<string, Bucket> {
+    const bucket = buckets[id];
+    if (!bucket) return buckets;
+    return { ...buckets, [id]: { ...bucket, icon, updatedAt: now() } };
 }
 
 // ── item mutations ────────────────────────────────────────────────────────────
 
-export function addItem(buckets: Bucket[], bucketName: string, item: Omit<BucketItem, 'addedAt'>): Bucket[] {
-    return buckets.map(l => {
-        if (l.id !== bucketName) return l;
-        const existing = l.items.findIndex(i => i.sku === item.sku);
-        const items = existing >= 0
-            ? l.items.map((i, idx) => idx === existing ? { ...i, qty: i.qty + item.qty } : i)
-            : [...l.items, { ...item, addedAt: now() }];
-        return { ...l, items, updatedAt: now() };
-    });
+export function addItem(buckets: Record<string, Bucket>, bucketName: string, item: Omit<BucketItem, 'addedAt'>): Record<string, Bucket> {
+    const bucket = buckets[bucketName];
+    if (!bucket) return buckets;
+    const existing = bucket.items.findIndex(i => i.sku === item.sku);
+    const items = existing >= 0
+        ? bucket.items.map((i, idx) => idx === existing ? { ...i, qty: i.qty + item.qty } : i)
+        : [...bucket.items, { ...item, addedAt: now() }];
+    return { ...buckets, [bucketName]: { ...bucket, items, updatedAt: now() } };
 }
 
-export function removeItem(buckets: Bucket[], bucketName: string, sku: string): Bucket[] {
-    return buckets.map(l =>
-        l.id === bucketName
-            ? { ...l, items: l.items.filter(i => i.sku !== sku), updatedAt: now() }
-            : l
-    );
+export function removeItem(buckets: Record<string, Bucket>, bucketName: string, sku: string): Record<string, Bucket> {
+    const bucket = buckets[bucketName];
+    if (!bucket) return buckets;
+    return { ...buckets, [bucketName]: { ...bucket, items: bucket.items.filter(i => i.sku !== sku), updatedAt: now() } };
 }
 
-export function updateItemQty(buckets: Bucket[], bucketName: string, sku: string, qty: number): Bucket[] {
+export function updateItemQty(buckets: Record<string, Bucket>, bucketName: string, sku: string, qty: number): Record<string, Bucket> {
     if (qty <= 0) return removeItem(buckets, bucketName, sku);
-    return buckets.map(l =>
-        l.id === bucketName
-            ? { ...l, items: l.items.map(i => i.sku === sku ? { ...i, qty } : i), updatedAt: now() }
-            : l
-    );
+    const bucket = buckets[bucketName];
+    if (!bucket) return buckets;
+    return { ...buckets, [bucketName]: { ...bucket, items: bucket.items.map(i => i.sku === sku ? { ...i, qty } : i), updatedAt: now() } };
 }
 
 // ── simple pub/sub for cross-component reactivity ─────────────────────────────

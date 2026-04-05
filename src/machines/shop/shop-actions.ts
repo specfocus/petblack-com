@@ -125,12 +125,10 @@ const shopActions = {
     }),
 
     clearCart: assign(({ context }) => {
+        const cart = context.buckets['cart'];
+        if (!cart) return {};
         return {
-            buckets: context.buckets.map(bucket => (
-                bucket.id === 'cart'
-                    ? { ...bucket, items: [], updatedAt: new Date().toISOString() }
-                    : bucket
-            )),
+            buckets: { ...context.buckets, cart: { ...cart, items: [], updatedAt: new Date().toISOString() } },
             dirty: true,
         };
     }),

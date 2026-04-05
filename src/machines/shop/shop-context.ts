@@ -17,7 +17,7 @@ export interface ShopContext {
 }
 
 export interface CreateShopMachineParams {
-    initialLists?: Bucket[];
+    initialLists?: Record<string, Bucket>;
 }
 
 export const createInitialShopContext = (input?: CreateShopMachineParams): ShopContext => ({
