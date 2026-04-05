@@ -12,8 +12,7 @@
 
 import CloseRoundedIcon from '@mui/icons-material/CloseRounded';
 import ShoppingCartRoundedIcon from '@mui/icons-material/ShoppingCartRounded';
-import { isToggleEntry, noopToggleAtom, type ToggleAtom } from '@specfocus/atoms/lib/toggle';
-import workspaceTreeAtom from '@specfocus/atoms/lib/workspace';
+import type { ToggleAtom } from '@specfocus/atoms/lib/toggle';
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import Chip from '@mui/material/Chip';
@@ -36,7 +35,8 @@ import { PrefabBucketNames } from '@/dialogs/settings/sections/shop/domain/types
 import shopSnapshotBucketsAtom from '@/atoms/shop-snapshot-buckets-atom';
 import shopActorAtom from '@/atoms/shop-actor-atom';
 import { ShopEventTypes } from '@/machines/shop/shop-event-types';
-import { CART_OPEN_TOGGLE_PATH, CART_SHOW_TOGGLE_PATH } from './cart-widget-path';
+import cartShowAtom from './atoms/cart-show-atom';
+import cartOpenAtom from './atoms/cart-open-atom';
 
 const STEPS = ['Cart', 'Delivery', 'Payment', 'Review', 'Confirmation'];
 
@@ -224,10 +224,7 @@ const StepConfirmation: FC<{ onClose: () => void; }> = ({ onClose }) => (
 // ── Main widget ────────────────────────────────────────────────────────────────
 
 const CartWidget: FC = () => {
-    const cartOpenToggleEntry = useAtomValue(workspaceTreeAtom(CART_OPEN_TOGGLE_PATH));
-    const cartShowToggleEntry = useAtomValue(workspaceTreeAtom(CART_SHOW_TOGGLE_PATH));
-    const cartShowAtom: ToggleAtom = isToggleEntry(cartShowToggleEntry) ? cartShowToggleEntry.atom : noopToggleAtom;
-    const [isOpen, setIsOpen] = useAtom(isToggleEntry(cartOpenToggleEntry) ? cartOpenToggleEntry.atom : noopToggleAtom);
+    const [isOpen, setIsOpen] = useAtom(cartOpenAtom as ToggleAtom);
     const [step, setStep] = useState(0);
     const buckets = useAtomValue(shopSnapshotBucketsAtom);
     const cartItemCount = useMemo(

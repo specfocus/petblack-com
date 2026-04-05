@@ -21,18 +21,16 @@ import IconButton from "@mui/material/IconButton";
 import InputBase from "@mui/material/InputBase";
 import Paper from "@mui/material/Paper";
 import Typography from "@mui/material/Typography";
-import { isToggleEntry, noopToggleAtom } from '@specfocus/atoms/lib/toggle';
-import workspaceTreeAtom from '@specfocus/atoms/lib/workspace';
 import { useAtom, useAtomValue, useSetAtom } from '@specfocus/atoms/lib/hooks';
 import type { WidgetProps } from '@specfocus/shelly/lib/widgets/widget';
 import Widget from '@specfocus/shelly/lib/widgets/widget';
 import { FormEvent, useEffect, useMemo, useRef, useState, type FC } from "react";
-import { BUDDY_OPEN_TOGGLE_PATH, BUDDY_SHOW_TOGGLE_PATH } from './buddy-widget-path';
 import shopSnapshotAtom from '@/atoms/shop-snapshot-atom';
-import agentActorAtom from '@/atoms/agent-actor-atom';
 import agentSnapshotConversationAtom from '@/atoms/agent-snapshot-conversation-atom';
 import agentSnapshotIsSendingAtom from '@/atoms/agent-snapshot-is-sending-atom';
 import { AgentEventTypes } from '@/machines/agent/agent-event-types';
+import buddyShowAtom from './atoms/buddy-show-atom';
+import buddyOpenAtom from './atoms/buddy-open-atom';
 
 function speciesEmoji(species: BuddyProfile["species"]): string {
     const map: Record<BuddyProfile["species"], string> = {
@@ -49,10 +47,6 @@ function speciesEmoji(species: BuddyProfile["species"]): string {
 }
 
 const BuddyWidget: FC = () => {
-    const buddyOpenToggleEntry = useAtomValue(workspaceTreeAtom(BUDDY_OPEN_TOGGLE_PATH));
-    const buddyShowToggleEntry = useAtomValue(workspaceTreeAtom(BUDDY_SHOW_TOGGLE_PATH));
-    const buddyOpenAtom = isToggleEntry(buddyOpenToggleEntry) ? buddyOpenToggleEntry.atom : noopToggleAtom;
-    const buddyShowAtom = isToggleEntry(buddyShowToggleEntry) ? buddyShowToggleEntry.atom : noopToggleAtom;
     const [isOpen, setIsOpen] = useAtom(buddyOpenAtom as never);
     const [visitorId, setVisitorId] = useState<string | null>(null);
     const [message, setMessage] = useState("");
