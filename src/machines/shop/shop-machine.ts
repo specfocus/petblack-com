@@ -4,6 +4,7 @@ import shopActions from './shop-actions';
 import { ShopEventTypes } from './shop-event-types';
 import ShopStates from './shop-states';
 import { createInitialShopContext } from './shop-context';
+import { FeedbackActionKeys, feedbackOn } from '@specfocus/shelly/lib/machines/feedback';
 
 export const SHOP_MACHINE_PATH = ['petblack', 'machines', 'shop'] as const;
 export const SHOP_SYSTEM_ID = SHOP_MACHINE_PATH.join('/');
@@ -12,6 +13,13 @@ const shopMachine = shopSetup.extend({ actions: shopActions }).createMachine({
     id: SHOP_SYSTEM_ID,
     initial: ShopStates.Ready,
     context: ({ input }) => createInitialShopContext(input),
+    on: {
+        ...feedbackOn([
+            FeedbackActionKeys.RecordFeedback,
+            'setActiveViewFromFeedback',
+            'setBreadcrumbsFromFeedback',
+        ]),
+    },
     states: {
         [ShopStates.Ready]: {
             on: {

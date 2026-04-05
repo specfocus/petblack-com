@@ -1,5 +1,6 @@
 import type { StorageEventTypes } from '../storage/storage-event-types';
 import type { ShopList } from '@/dialogs/settings/sections/shop/domain/types';
+import type { ShellyFeedbackEvent } from '@specfocus/shelly/lib/machines/feedback';
 import type { ShopEventTypes } from './shop-event-types';
 
 export interface ShopBootstrapEvent {
@@ -82,4 +83,5 @@ export type ShopEventUnion =
     | ShopPersistRequestedEvent
     | ShopPersistSucceededEvent
     | ShopPersistFailedEvent
-    | ShopStorageLoadedEvent;
+    | ShopStorageLoadedEvent
+    | ShellyFeedbackEvent;

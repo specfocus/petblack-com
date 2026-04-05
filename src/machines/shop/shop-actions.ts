@@ -8,6 +8,11 @@ import {
     updateItemQty,
 } from '@/dialogs/settings/sections/shop/domain/storage';
 import type { ShopContext } from './shop-context';
+import {
+    FeedbackActionKeys,
+    FeedbackEventTypes,
+    type ShellyFeedbackEvent,
+} from '@specfocus/shelly/lib/machines/feedback';
 import { ShopEventTypes } from './shop-event-types';
 import shopSetup from './shop-setup';
 import type {
@@ -23,6 +28,28 @@ import type {
 const { assign } = shopSetup;
 
 const shopActions = {
+    [FeedbackActionKeys.RecordFeedback]: assign(({ event }) => ({
+        lastFeedbackEvent: event as ShellyFeedbackEvent,
+    })),
+
+    setActiveViewFromFeedback: assign(({ context, event }) => {
+        if (event.type !== FeedbackEventTypes.ActiveViewChanged) {
+            return { activeViewId: context.activeViewId };
+        }
+        return {
+            activeViewId: event.viewId,
+        };
+    }),
+
+    setBreadcrumbsFromFeedback: assign(({ context, event }) => {
+        if (event.type !== FeedbackEventTypes.BreadcrumbsChanged) {
+            return { breadcrumbs: context.breadcrumbs };
+        }
+        return {
+            breadcrumbs: event.items,
+        };
+    }),
+
     hydrate: assign(({ event }) => {
         const hydrateEvent = event as ShopHydrateEvent;
         return {
