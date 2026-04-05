@@ -27,7 +27,7 @@ const localStorageMachine = localStorageSetup.createMachine({
                 [StorageEventTypes.Remove]: {
                     actions: [localStorageActions.handleRemove as any],
                 },
-                [StorageEventTypes.ListKeys]: {
+                [StorageEventTypes.Buckets]: {
                     actions: [localStorageActions.handleListKeys as any],
                 },
                 [StorageEventTypes.ClearNamespace]: {

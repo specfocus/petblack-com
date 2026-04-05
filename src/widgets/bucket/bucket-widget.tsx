@@ -3,8 +3,8 @@
 /**
  * Shop List Widget
  *
- * Single-list widget instance.
- * Each list is installed independently in the workspace tree.
+ * Single-bucket widget instance.
+ * Each bucket is installed independently in the workspace tree.
  */
 
 import AddRoundedIcon from '@mui/icons-material/AddRounded';
@@ -21,44 +21,44 @@ import { isToggleEntry, noopToggleAtom } from '@specfocus/atoms/lib/toggle';
 import workspaceTreeAtom from '@specfocus/atoms/lib/workspace';
 import { useAtom, useAtomValue, useSetAtom } from '@specfocus/atoms/lib/hooks';
 import { type FC, type ReactNode, useMemo, useState } from 'react';
-import shopSnapshotListsAtom from '@/atoms/shop-snapshot-lists-atom';
+import shopSnapshotListsAtom from '@/atoms/shop-snapshot-buckets-atom';
 import shopActorAtom from '@/atoms/shop-actor-atom';
 import { ShopEventTypes } from '@/machines/shop/shop-event-types';
 import {
     getShopListOpenTogglePath,
     getShopListShowTogglePath,
-} from './shop-list-widget-registry';
+} from './shop-bucket-widget-registry';
 
 interface ListWidgetProps {
-    listId?: string;
+    bucketName?: string;
 }
 
 const fallbackListOpenAtom = noopToggleAtom;
 const fallbackListShowAtom = noopToggleAtom;
 
-const ListWidget: FC<ListWidgetProps> = ({ listId = 'want' }) => {
-    const lists = useAtomValue(shopSnapshotListsAtom);
+const ListWidget: FC<ListWidgetProps> = ({ bucketName = 'want' }) => {
+    const buckets = useAtomValue(shopSnapshotListsAtom);
     const sendShopEvent = useSetAtom(shopActorAtom);
-    const openTogglePath = useMemo(() => getShopListOpenTogglePath(listId), [listId]);
-    const showTogglePath = useMemo(() => getShopListShowTogglePath(listId), [listId]);
-    const listOpenToggleEntry = useAtomValue(workspaceTreeAtom(openTogglePath));
-    const listShowToggleEntry = useAtomValue(workspaceTreeAtom(showTogglePath));
-    const listOpenAtom = isToggleEntry(listOpenToggleEntry) ? listOpenToggleEntry.atom : fallbackListOpenAtom;
-    const listShowAtom = isToggleEntry(listShowToggleEntry) ? listShowToggleEntry.atom : fallbackListShowAtom;
-    const [isOpen, setIsOpen] = useAtom(listOpenAtom as never);
+    const openTogglePath = useMemo(() => getShopListOpenTogglePath(bucketName), [bucketName]);
+    const showTogglePath = useMemo(() => getShopListShowTogglePath(bucketName), [bucketName]);
+    const bucketOpenToggleEntry = useAtomValue(workspaceTreeAtom(openTogglePath));
+    const bucketShowToggleEntry = useAtomValue(workspaceTreeAtom(showTogglePath));
+    const bucketOpenAtom = isToggleEntry(bucketOpenToggleEntry) ? bucketOpenToggleEntry.atom : fallbackListOpenAtom;
+    const bucketShowAtom = isToggleEntry(bucketShowToggleEntry) ? bucketShowToggleEntry.atom : fallbackListShowAtom;
+    const [isOpen, setIsOpen] = useAtom(bucketOpenAtom as never);
     const [skuInput, setSkuInput] = useState('');
-    const list = lists.find((entry) => entry.id === listId);
+    const bucket = buckets.find((entry) => entry.id === bucketName);
 
-    if (!list) return null;
+    if (!bucket) return null;
 
-    const totalQty = list.items.reduce((sum, item) => sum + item.qty, 0);
+    const totalQty = bucket.items.reduce((sum, item) => sum + item.qty, 0);
 
     const handleAddSku = () => {
         const sku = skuInput.trim();
         if (!sku) return;
         sendShopEvent({
             type: ShopEventTypes.AddItem,
-            listId: list.id,
+            bucketName: bucket.id,
             sku,
             name: sku,
             qty: 1,
@@ -84,7 +84,7 @@ const ListWidget: FC<ListWidgetProps> = ({ listId = 'want' }) => {
 
     return (
         <Widget
-            openAtom={listShowAtom as WidgetProps['openAtom']}
+            openAtom={bucketShowAtom as WidgetProps['openAtom']}
             defaultCorner="bottom-right"
             sx={isOpen ? undefined : { overflow: 'visible', background: 'transparent', boxShadow: 'none' }}
         >
@@ -103,9 +103,9 @@ const ListWidget: FC<ListWidgetProps> = ({ listId = 'want' }) => {
                     {/* Header */}
                     <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', px: 2, py: 1.5, borderBottom: 1, borderColor: 'divider' }}>
                         <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
-                            <Typography sx={{ fontSize: 22 }}>{list.icon}</Typography>
-                            <Typography variant="subtitle2" fontWeight={700}>{list.name}</Typography>
-                            <Typography variant="caption" color="text.secondary">({list.items.length})</Typography>
+                            <Typography sx={{ fontSize: 22 }}>{bucket.icon}</Typography>
+                            <Typography variant="subtitle2" fontWeight={700}>{bucket.name}</Typography>
+                            <Typography variant="caption" color="text.secondary">({bucket.items.length})</Typography>
                         </Box>
                         <IconButton size="small" onClick={() => setIsOpen(false)}>
                             <CloseRoundedIcon fontSize="small" />
@@ -114,12 +114,12 @@ const ListWidget: FC<ListWidgetProps> = ({ listId = 'want' }) => {
 
                     {/* Items */}
                     <Box sx={{ overflowY: 'auto', flex: 1, px: 1.5, py: 1, display: 'flex', flexDirection: 'column', gap: 0.75 }}>
-                        {list.items.length === 0 ? (
+                        {bucket.items.length === 0 ? (
                             <Typography variant="body2" color="text.disabled" sx={{ py: 2, textAlign: 'center' }}>
                                 No items yet
                             </Typography>
                         ) : (
-                            list.items.map(item => (
+                            bucket.items.map(item => (
                                 <Box key={item.sku} sx={{ display: 'flex', alignItems: 'center', gap: 1, py: 0.5 }}>
                                     <Typography variant="body2" sx={{ flex: 1, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
                                         {item.name}
@@ -127,7 +127,7 @@ const ListWidget: FC<ListWidgetProps> = ({ listId = 'want' }) => {
                                     <QtyButton
                                         onClick={() => sendShopEvent({
                                             type: ShopEventTypes.UpdateItemQty,
-                                            listId: list.id,
+                                            bucketName: bucket.id,
                                             sku: item.sku,
                                             qty: item.qty - 1,
                                         })}
@@ -138,7 +138,7 @@ const ListWidget: FC<ListWidgetProps> = ({ listId = 'want' }) => {
                                     <QtyButton
                                         onClick={() => sendShopEvent({
                                             type: ShopEventTypes.UpdateItemQty,
-                                            listId: list.id,
+                                            bucketName: bucket.id,
                                             sku: item.sku,
                                             qty: item.qty + 1,
                                         })}
@@ -149,7 +149,7 @@ const ListWidget: FC<ListWidgetProps> = ({ listId = 'want' }) => {
                                         size="small"
                                         onClick={() => sendShopEvent({
                                             type: ShopEventTypes.RemoveItem,
-                                            listId: list.id,
+                                            bucketName: bucket.id,
                                             sku: item.sku,
                                         })}
                                     >
@@ -176,7 +176,7 @@ const ListWidget: FC<ListWidgetProps> = ({ listId = 'want' }) => {
                 </Paper>
             ) : (
                 <IconButton
-                    aria-label={`Open ${list.name} bucket`}
+                    aria-label={`Open ${bucket.name} bucket`}
                     onClick={() => setIsOpen(true)}
                     sx={{
                         width: 52,
@@ -188,7 +188,7 @@ const ListWidget: FC<ListWidgetProps> = ({ listId = 'want' }) => {
                         position: 'relative',
                     }}
                 >
-                    <Typography sx={{ fontSize: 22, lineHeight: 1 }}>{list.icon}</Typography>
+                    <Typography sx={{ fontSize: 22, lineHeight: 1 }}>{bucket.icon}</Typography>
                     {totalQty > 0 && (
                         <Box
                             sx={{

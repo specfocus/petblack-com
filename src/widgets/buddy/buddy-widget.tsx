@@ -58,7 +58,7 @@ const BuddyWidget: FC = () => {
     const [message, setMessage] = useState("");
     const isSending = useAtomValue(agentSnapshotIsSendingAtom);
     const chat = useAtomValue(agentSnapshotConversationAtom);
-    const listRef = useRef<HTMLDivElement>(null);
+    const bucketRef = useRef<HTMLDivElement>(null);
     const shopSnapshot = useAtomValue(shopSnapshotAtom);
     const sendAgentEvent = useSetAtom(agentActorAtom);
 
@@ -67,9 +67,9 @@ Allowed events include:
 - shop.toggleListEnabled { name (bucket id), enabled }
 - shop.createCustomList { name, icon }
 - shop.removeCustomList { name (bucket id) }
-- shop.addItem { bucketName (listId), sku, name, qty }
-- shop.updateItemQty { bucketName (listId), sku, qty }
-- shop.removeItem { bucketName (listId), sku }`;
+- shop.addItem { bucketName (bucketName), sku, name, qty }
+- shop.updateItemQty { bucketName (bucketName), sku, qty }
+- shop.removeItem { bucketName (bucketName), sku }`;
 
     useEffect(() => {
         const id = getOrCreateVisitorId();
@@ -94,7 +94,7 @@ Allowed events include:
     }, [profile]);
 
     useEffect(() => {
-        const node = listRef.current;
+        const node = bucketRef.current;
         if (node) {
             node.scrollTop = node.scrollHeight;
         }
@@ -187,7 +187,7 @@ Allowed events include:
 
                     {/* ── Messages ── */}
                     <Box
-                        ref={listRef}
+                        ref={bucketRef}
                         sx={{
                             overflowY: "auto",
                             p: 1.75,

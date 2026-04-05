@@ -53,8 +53,7 @@ Allowed event families:
 - shop.removeItem
 
 Terminology:
-- bucketName maps to listId in the current event contract
-- name maps to bucket id in toggle/remove events`;
+- bucketName maps to bucket id in toggle/remove events`;
     const prefabItems = useMemo(
         () => BUDDY_PREFAB_REQUESTS.map((request) => ({
             id: request.id,

@@ -21,7 +21,7 @@ const makePayload = (message: string) => ({
     shopSnapshot: {
         stateValue: 'ready',
         context: {
-            lists: [],
+            buckets: [],
             dirty: false,
         },
     },
@@ -107,7 +107,7 @@ test('agent-machine queues model-proposed events from buddy response', async () 
                             id: 'evt-1',
                             target: 'shop',
                             eventType: 'shop.addItem',
-                            payload: { listId: 'cart', sku: 'toy-001', qty: 1 },
+                            payload: { bucketName: 'cart', sku: 'toy-001', qty: 1 },
                         },
                     ],
                 }),

@@ -27,7 +27,7 @@ const storageMachine = storageSetup.extend({ actions: storageActions }).createMa
                 [StorageEventTypes.Remove]: {
                     actions: ['setLastRequest'],
                 },
-                [StorageEventTypes.ListKeys]: {
+                [StorageEventTypes.Buckets]: {
                     actions: ['setLastRequest'],
                 },
                 [StorageEventTypes.ClearNamespace]: {
@@ -42,7 +42,7 @@ const storageMachine = storageSetup.extend({ actions: storageActions }).createMa
                 [StorageEventTypes.Removed]: {
                     actions: ['recordStorageResult'],
                 },
-                [StorageEventTypes.ListedKeys]: {
+                [StorageEventTypes.BucketedKeys]: {
                     actions: ['recordStorageResult'],
                 },
                 [StorageEventTypes.ClearedNamespace]: {

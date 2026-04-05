@@ -1,15 +1,15 @@
 /**
  * Shop Lists — Domain Types
  *
- * A "shop list" is an ordered collection of product SKUs with quantities.
+ * A "shop bucket" is an ordered collection of product SKUs with quantities.
  * Lists come in two flavours:
  *
- *  - **Prefab** — built-in lists that are always available, each with a
+ *  - **Prefab** — built-in buckets that are always available, each with a
  *    fixed semantic meaning and default icon.
- *  - **Custom** — user-created lists, typically named after a specific pet
+ *  - **Custom** — user-created buckets, typically named after a specific pet
  *    ("Buddy", "Nemo"), with a freely chosen emoji icon.
  *
- * ## Prefab list semantics
+ * ## Prefab bucket semantics
  *
  * | id    | meaning                                    | qty meaning       |
  * |-------|--------------------------------------------|-------------------|
@@ -20,12 +20,12 @@
  * | pick  | Reserve for in-store pickup                | qty to pick up    |
  * | auto  | Autoship / subscription products           | qty per shipment  |
  *
- * Custom lists behave like "want" / "need" — the quantity is buyer intent.
+ * Custom buckets behave like "want" / "need" — the quantity is buyer intent.
  */
 
-// ── prefab list identifiers ───────────────────────────────────────────────────
+// ── prefab bucket names ───────────────────────────────────────────────────
 
-export enum PrefabListIds {
+export enum PrefabBucketNames {
     Want = 'want',
     Need = 'need',
     Have = 'have',
@@ -34,11 +34,11 @@ export enum PrefabListIds {
     Auto = 'auto',
 }
 
-export type PrefabListId = `${PrefabListIds}`;
+export type PrefabBucketName = `${PrefabBucketNames}`;
 
-// ── list item ─────────────────────────────────────────────────────────────────
+// ── bucket item ─────────────────────────────────────────────────────────────────
 
-export interface ShopListItem {
+export interface BucketItem {
     /** Product SKU as used in the JSON-LD catalogue */
     sku: string;
     /** Human-readable name (denormalised for display without catalogue lookup) */
@@ -49,23 +49,23 @@ export interface ShopListItem {
     addedAt: string;
 }
 
-// ── list ──────────────────────────────────────────────────────────────────────
+// ── bucket ──────────────────────────────────────────────────────────────────────
 
-export interface ShopList {
-    /** Unique identifier — one of PrefabListId or a user-generated UUID */
+export interface Bucket {
+    /** Unique identifier — one of PrefabBucketName or a user-generated UUID */
     id: string;
     /** Display name */
     name: string;
     /**
      * Emoji or icon key used in the FAB and widget header.
-     * Prefabs use a fixed default; custom lists let the user pick one.
+     * Prefabs use a fixed default; custom buckets let the user pick one.
      */
     icon: string;
-    /** Whether this list is currently shown as a widget + dial button */
+    /** Whether this bucket is currently shown as a widget + dial button */
     enabled: boolean;
-    /** true for the 6 built-in lists; false for user-created lists */
+    /** true for the 6 built-in buckets; false for user-created buckets */
     prefab: boolean;
-    items: ShopListItem[];
+    items: BucketItem[];
     /** ISO timestamp */
     createdAt: string;
     updatedAt: string;
@@ -73,16 +73,16 @@ export interface ShopList {
 
 // ── prefab defaults ───────────────────────────────────────────────────────────
 
-export const PREFAB_DEFAULTS: Record<PrefabListId, Pick<ShopList, 'name' | 'icon'>> = {
-    [PrefabListIds.Want]: { name: 'Want',      icon: '⭐' },
-    [PrefabListIds.Need]: { name: 'Need',      icon: '📋' },
-    [PrefabListIds.Have]: { name: 'Have',      icon: '🏠' },
-    [PrefabListIds.Cart]: { name: 'Cart',      icon: '🛒' },
-    [PrefabListIds.Pick]: { name: 'Pick Up',   icon: '🏪' },
-    [PrefabListIds.Auto]: { name: 'Autoship',  icon: '🔄' },
+export const PREFAB_DEFAULTS: Record<PrefabBucketName, Pick<Bucket, 'name' | 'icon'>> = {
+    [PrefabBucketNames.Want]: { name: 'Want', icon: '⭐' },
+    [PrefabBucketNames.Need]: { name: 'Need', icon: '📋' },
+    [PrefabBucketNames.Have]: { name: 'Have', icon: '🏠' },
+    [PrefabBucketNames.Cart]: { name: 'Cart', icon: '🛒' },
+    [PrefabBucketNames.Pick]: { name: 'Pick Up', icon: '🏪' },
+    [PrefabBucketNames.Auto]: { name: 'Autoship', icon: '🔄' },
 };
 
-// ── pet / animal icon palette for custom lists ────────────────────────────────
+// ── pet / animal icon palette for custom buckets ────────────────────────────────
 
 export const PET_ICONS: string[] = [
     '🐶', '🐱', '🐰', '🐹', '🐭', '🐮', '🐷',

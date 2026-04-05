@@ -2,7 +2,7 @@ export interface BuddyPrefabRequest {
     id: string;
     label: string;
     message: string;
-    category: 'cart' | 'autoship' | 'pickup' | 'lists' | 'pet-care' | 'agent';
+    category: 'cart' | 'autoship' | 'pickup' | 'buckets' | 'pet-care' | 'agent';
 }
 
 export const BUDDY_PREFAB_REQUESTS: BuddyPrefabRequest[] = [
@@ -49,16 +49,16 @@ export const BUDDY_PREFAB_REQUESTS: BuddyPrefabRequest[] = [
         category: 'autoship',
     },
     {
-        id: 'create-pet-list',
-        label: 'Create list for pet',
-        message: 'create a list for Luna with a dog icon',
-        category: 'lists',
+        id: 'create-pet-bucket',
+        label: 'Create bucket for pet',
+        message: 'create a bucket for Luna with a dog icon',
+        category: 'buckets',
     },
     {
-        id: 'open-need-list',
-        label: 'Open need list',
-        message: 'open my need list',
-        category: 'lists',
+        id: 'open-need-bucket',
+        label: 'Open need bucket',
+        message: 'open my need bucket',
+        category: 'buckets',
     },
     {
         id: 'pet-care-advice',

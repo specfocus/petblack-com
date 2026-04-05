@@ -3,7 +3,7 @@ import {
     addItem,
     removeCustomList,
     removeItem,
-    saveLists,
+    saveBuckets,
     setListEnabled,
     updateItemQty,
 } from '@/dialogs/settings/sections/shop/domain/storage';
@@ -54,7 +54,7 @@ const shopActions = {
     hydrate: assign(({ event }) => {
         const hydrateEvent = event as ShopHydrateEvent;
         return {
-            lists: hydrateEvent.lists,
+            buckets: hydrateEvent.buckets,
             dirty: false,
             lastError: null,
         };
@@ -63,7 +63,7 @@ const shopActions = {
     toggleListEnabled: assign(({ context, event }) => {
         const toggleEvent = event as ShopToggleListEnabledEvent;
         return {
-            lists: setListEnabled(context.lists, toggleEvent.id, toggleEvent.enabled),
+            buckets: setListEnabled(context.buckets, toggleEvent.id, toggleEvent.enabled),
             dirty: true,
         };
     }),
@@ -71,7 +71,7 @@ const shopActions = {
     createCustomList: assign(({ context, event }) => {
         const createEvent = event as ShopCreateCustomListEvent;
         return {
-            lists: addCustomList(context.lists, createEvent.name, createEvent.icon),
+            buckets: addCustomList(context.buckets, createEvent.name, createEvent.icon),
             dirty: true,
         };
     }),
@@ -79,7 +79,7 @@ const shopActions = {
     removeCustomList: assign(({ context, event }) => {
         const removeEvent = event as ShopRemoveCustomListEvent;
         return {
-            lists: removeCustomList(context.lists, removeEvent.id),
+            buckets: removeCustomList(context.buckets, removeEvent.id),
             dirty: true,
         };
     }),
@@ -87,7 +87,7 @@ const shopActions = {
     addItemToList: assign(({ context, event }) => {
         const addItemEvent = event as ShopAddItemEvent;
         return {
-            lists: addItem(context.lists, addItemEvent.listId, {
+            buckets: addItem(context.buckets, addItemEvent.bucketName, {
                 sku: addItemEvent.sku,
                 name: addItemEvent.name,
                 qty: addItemEvent.qty,
@@ -99,7 +99,7 @@ const shopActions = {
     updateListItemQty: assign(({ context, event }) => {
         const updateEvent = event as ShopUpdateItemQtyEvent;
         return {
-            lists: updateItemQty(context.lists, updateEvent.listId, updateEvent.sku, updateEvent.qty),
+            buckets: updateItemQty(context.buckets, updateEvent.bucketName, updateEvent.sku, updateEvent.qty),
             dirty: true,
         };
     }),
@@ -107,32 +107,33 @@ const shopActions = {
     removeListItem: assign(({ context, event }) => {
         const removeEvent = event as ShopRemoveItemEvent;
         return {
-            lists: removeItem(context.lists, removeEvent.listId, removeEvent.sku),
+            buckets: removeItem(context.buckets, removeEvent.bucketName, removeEvent.sku),
             dirty: true,
         };
     }),
 
     openCart: assign(({ context }) => ({
-        lists: setListEnabled(context.lists, 'cart', true),
+        buckets: setListEnabled(context.buckets, 'cart', true),
         dirty: true,
     })),
 
     openAutoship: assign(({ context }) => {
         return {
-            lists: setListEnabled(context.lists, 'auto', true),
+            buckets: setListEnabled(context.buckets, 'auto', true),
             dirty: true,
         };
     }),
 
     clearCart: assign(({ context }) => {
         return {
-        lists: context.lists.map(list => (
-            list.id === 'cart'
-                ? { ...list, items: [], updatedAt: new Date().toISOString() }
-                : list
-        )),
-        dirty: true,
-    };}),
+            buckets: context.buckets.map(bucket => (
+                bucket.id === 'cart'
+                    ? { ...bucket, items: [], updatedAt: new Date().toISOString() }
+                    : bucket
+            )),
+            dirty: true,
+        };
+    }),
 
     searchProducts: assign(({ context, event }) => {
         const searchEvent = event as ShopSearchProductsEvent;
@@ -143,7 +144,7 @@ const shopActions = {
     }),
 
     persistLists: ({ context }: { context: ShopContext; }) => {
-        saveLists(context.lists);
+        saveBuckets(context.buckets);
     },
 
     markPersisted: assign(() => ({

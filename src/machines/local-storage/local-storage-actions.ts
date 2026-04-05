@@ -111,36 +111,36 @@ const localStorageActions = {
     }),
 
     handleListKeys: sendParent(({ event }) => {
-        const listKeysEvent = event as StorageListKeysEvent;
+        const bucketKeysEvent = event as StorageListKeysEvent;
         if (!canUseLocalStorage()) {
             return {
                 type: StorageEventTypes.Failed,
-                requestId: listKeysEvent.requestId,
-                operation: StorageEventTypes.ListKeys,
+                requestId: bucketKeysEvent.requestId,
+                operation: StorageEventTypes.Buckets,
                 message: 'localStorage unavailable on this runtime',
             };
         }
         try {
-            const prefix = `${listKeysEvent.namespace}:`;
+            const prefix = `${bucketKeysEvent.namespace}:`;
             const keys: string[] = [];
-            for (let index = 0; index < window.localStorage.length; index += 1) {
+            for (let index = 0;index < window.localStorage.length;index += 1) {
                 const itemKey = window.localStorage.key(index);
                 if (itemKey?.startsWith(prefix)) {
                     keys.push(itemKey.slice(prefix.length));
                 }
             }
             return {
-                type: StorageEventTypes.ListedKeys,
-                requestId: listKeysEvent.requestId,
-                namespace: listKeysEvent.namespace,
+                type: StorageEventTypes.BucketedKeys,
+                requestId: bucketKeysEvent.requestId,
+                namespace: bucketKeysEvent.namespace,
                 keys,
             };
         } catch (error) {
             return {
                 type: StorageEventTypes.Failed,
-                requestId: listKeysEvent.requestId,
-                operation: StorageEventTypes.ListKeys,
-                message: error instanceof Error ? error.message : 'Failed to list keys',
+                requestId: bucketKeysEvent.requestId,
+                operation: StorageEventTypes.Buckets,
+                message: error instanceof Error ? error.message : 'Failed to bucket keys',
             };
         }
     }),
@@ -158,7 +158,7 @@ const localStorageActions = {
         try {
             const prefix = `${clearNamespaceEvent.namespace}:`;
             const keysToRemove: string[] = [];
-            for (let index = 0; index < window.localStorage.length; index += 1) {
+            for (let index = 0;index < window.localStorage.length;index += 1) {
                 const itemKey = window.localStorage.key(index);
                 if (itemKey?.startsWith(prefix)) {
                     keysToRemove.push(itemKey);

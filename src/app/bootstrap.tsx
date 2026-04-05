@@ -8,6 +8,7 @@ import { type FC } from 'react';
 import storageActorAtom from '@/atoms/storage-actor-atom';
 import shopActorAtom from '@/atoms/shop-actor-atom';
 import agentActorAtom from '@/atoms/agent-actor-atom';
+import agentForwardingEffectAtom from '@/atoms/agent-forwarding-effect-atom';
 
 const Bootstrap: FC = () => {
     useAtomValue(petblackEffectAtom);
@@ -15,6 +16,7 @@ const Bootstrap: FC = () => {
     useAtomValue(storageActorAtom);
     useAtomValue(shopActorAtom);
     useAtomValue(agentActorAtom);
+    useAtomValue(agentForwardingEffectAtom);
 
     return <ShellyBootstrap />;
 };

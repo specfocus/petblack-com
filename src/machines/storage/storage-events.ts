@@ -23,7 +23,7 @@ export interface StorageRemoveEvent {
 }
 
 export interface StorageListKeysEvent {
-    type: `${StorageEventTypes.ListKeys}`;
+    type: `${StorageEventTypes.Buckets}`;
     requestId: string;
     namespace: string;
 }
@@ -57,7 +57,7 @@ export interface StorageRemovedEvent {
 }
 
 export interface StorageListedKeysEvent {
-    type: `${StorageEventTypes.ListedKeys}`;
+    type: `${StorageEventTypes.BucketedKeys}`;
     requestId: string;
     namespace: string;
     keys: string[];

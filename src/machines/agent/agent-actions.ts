@@ -61,24 +61,24 @@ const translateProposedEventsToShopEvents = (events: AgentEventEnvelope[]): Shop
                 break;
             }
             case ShopEventTypes.AddItem: {
-                const listId = toString(payload.listId) ?? 'cart';
+                const bucketName = toString(payload.bucketName) ?? 'cart';
                 const sku = toString(payload.sku) ?? 'unknown-sku';
                 const name = toString(payload.name) ?? 'Unknown item';
                 const qty = toNumber(payload.qty) ?? 1;
-                translated.push({ type: ShopEventTypes.AddItem, listId, sku, name, qty });
+                translated.push({ type: ShopEventTypes.AddItem, bucketName, sku, name, qty });
                 break;
             }
             case ShopEventTypes.UpdateItemQty: {
-                const listId = toString(payload.listId) ?? 'cart';
+                const bucketName = toString(payload.bucketName) ?? 'cart';
                 const sku = toString(payload.sku) ?? 'unknown-sku';
                 const qty = toNumber(payload.qty) ?? 1;
-                translated.push({ type: ShopEventTypes.UpdateItemQty, listId, sku, qty });
+                translated.push({ type: ShopEventTypes.UpdateItemQty, bucketName, sku, qty });
                 break;
             }
             case ShopEventTypes.RemoveItem: {
-                const listId = toString(payload.listId) ?? 'cart';
+                const bucketName = toString(payload.bucketName) ?? 'cart';
                 const sku = toString(payload.sku) ?? 'unknown-sku';
-                translated.push({ type: ShopEventTypes.RemoveItem, listId, sku });
+                translated.push({ type: ShopEventTypes.RemoveItem, bucketName, sku });
                 break;
             }
             case ShopEventTypes.ClearCart:
@@ -282,7 +282,7 @@ const agentActions = {
             ...context.forwardedShopEvents,
             {
                 type: ShopEventTypes.AddItem,
-                listId: 'cart',
+                bucketName: 'cart',
                 sku: 'toy-placeholder',
                 name: 'Toy (placeholder)',
                 qty: 1,
@@ -299,7 +299,7 @@ const agentActions = {
             },
             {
                 type: ShopEventTypes.AddItem,
-                listId: 'cart',
+                bucketName: 'cart',
                 sku: 'dog-food-placeholder',
                 name: 'Dog food (placeholder)',
                 qty: 1,
@@ -330,9 +330,9 @@ const agentActions = {
         const selected = context.pendingEvents.find(item => item.id === event.eventId);
         if (!selected) return {};
         return {
-            allowlist: context.allowlist.includes(selected.eventType)
-                ? context.allowlist
-                : [...context.allowlist, selected.eventType],
+            allowbucket: context.allowbucket.includes(selected.eventType)
+                ? context.allowbucket
+                : [...context.allowbucket, selected.eventType],
         };
     }),
 
@@ -341,9 +341,9 @@ const agentActions = {
         const selected = context.pendingEvents.find(item => item.id === event.eventId);
         if (!selected) return {};
         return {
-            denylist: context.denylist.includes(selected.eventType)
-                ? context.denylist
-                : [...context.denylist, selected.eventType],
+            denybucket: context.denybucket.includes(selected.eventType)
+                ? context.denybucket
+                : [...context.denybucket, selected.eventType],
         };
     }),
 

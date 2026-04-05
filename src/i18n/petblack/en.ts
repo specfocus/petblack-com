@@ -98,7 +98,7 @@ const petblackEn = {
                     },
                 },
             },
-            list: {
+            bucket: {
                 label: 'Bucket',
                 tooltip: 'Open shopping bucket',
                 cart: {

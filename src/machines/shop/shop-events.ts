@@ -1,5 +1,5 @@
 import type { StorageEventTypes } from '../storage/storage-event-types';
-import type { ShopList } from '@/dialogs/settings/sections/shop/domain/types';
+import type { Bucket } from '@/dialogs/settings/sections/shop/domain/types';
 import type { ShellyFeedbackEvent } from '@specfocus/shelly/lib/machines/feedback';
 import type { ShopEventTypes } from './shop-event-types';
 
@@ -9,7 +9,7 @@ export interface ShopBootstrapEvent {
 
 export interface ShopHydrateEvent {
     type: `${ShopEventTypes.Hydrate}`;
-    lists: ShopList[];
+    buckets: Bucket[];
 }
 
 export interface ShopOpenCartEvent {
@@ -44,7 +44,7 @@ export interface ShopRemoveCustomListEvent {
 
 export interface ShopAddItemEvent {
     type: `${ShopEventTypes.AddItem}`;
-    listId: string;
+    bucketName: string;
     sku: string;
     name: string;
     qty: number;
@@ -52,14 +52,14 @@ export interface ShopAddItemEvent {
 
 export interface ShopUpdateItemQtyEvent {
     type: `${ShopEventTypes.UpdateItemQty}`;
-    listId: string;
+    bucketName: string;
     sku: string;
     qty: number;
 }
 
 export interface ShopRemoveItemEvent {
     type: `${ShopEventTypes.RemoveItem}`;
-    listId: string;
+    bucketName: string;
     sku: string;
 }
 
