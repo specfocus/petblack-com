@@ -55,24 +55,24 @@ function buildPrefab(id: PrefabBucketName, enabled: boolean): Bucket {
 
 // ── initialise default buckets ──────────────────────────────────────────────────
 
-function buildDefaultLists(): Bucket[] {
-    return [
-        buildPrefab(PrefabBucketNames.Cart, true),
-        buildPrefab(PrefabBucketNames.Want, false),
-        buildPrefab(PrefabBucketNames.Need, false),
-        buildPrefab(PrefabBucketNames.Have, false),
-        buildPrefab(PrefabBucketNames.Pick, false),
-        buildPrefab(PrefabBucketNames.Auto, false),
-    ];
+function buildDefaultBuckets(): Record<string, Bucket> {
+    return {
+        [PrefabBucketNames.Cart]: buildPrefab(PrefabBucketNames.Cart, true),
+        [PrefabBucketNames.Want]: buildPrefab(PrefabBucketNames.Want, false),
+        [PrefabBucketNames.Need]: buildPrefab(PrefabBucketNames.Need, false),
+        [PrefabBucketNames.Have]: buildPrefab(PrefabBucketNames.Have, false),
+        [PrefabBucketNames.Pick]: buildPrefab(PrefabBucketNames.Pick, false),
+        [PrefabBucketNames.Auto]: buildPrefab(PrefabBucketNames.Auto, false),
+    };
 }
 
 // ── read / write ──────────────────────────────────────────────────────────────
 
-export function loadBuckets(): Bucket[] {
-    if (typeof window === 'undefined') return buildDefaultLists();
+export function loadBuckets(): Record<string, Bucket> {
+    if (typeof window === 'undefined') return buildDefaultBuckets();
     try {
         const raw = window.localStorage.getItem(STORAGE_KEY);
-        if (!raw) return buildDefaultLists();
+        if (!raw) return buildDefaultBuckets();
         const parsed: Bucket[] = JSON.parse(raw);
         // Back-fill any prefab buckets that may have been added in a newer version
         const existingIds = new Set(parsed.map(l => l.id));
@@ -84,7 +84,7 @@ export function loadBuckets(): Bucket[] {
         }
         return backfilled;
     } catch {
-        return buildDefaultLists();
+        return buildDefaultBuckets();
     }
 }
 

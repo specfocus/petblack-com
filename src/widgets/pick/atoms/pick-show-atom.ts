@@ -4,9 +4,9 @@ import shopSnapshotAtom from '@/atoms/shop-snapshot-atom';
 import { ShellEventTypes } from '@specfocus/shelly/lib/shell/machine/shell-event-types';
 
 export const pickShowAtom: ToggleAtom = atom(
-    (get: Getter): boolean | undefined => get(shopSnapshotAtom).context.pickShow,
+    (get: Getter): boolean | undefined => get(shopSnapshotAtom).context.buckets['drug']?.show,
     (_get: Getter, set: Setter, _next?: boolean): void => {
-        set(shopSnapshotAtom, { type: ShellEventTypes.ToggleCartShow });
+        set(shopSnapshotAtom, { type: ShellEventTypes.ToggleBucketShow, name: 'drug' });
     }
 );
 

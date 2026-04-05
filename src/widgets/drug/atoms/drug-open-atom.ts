@@ -6,7 +6,7 @@ import { ShellEventTypes } from '@specfocus/shelly/lib/shell/machine/shell-event
 const drugOpenAtom: ToggleAtom = atom(
     (get: Getter): boolean | undefined => get(shopSnapshotAtom).context.drugOpen,
     (_get: Getter, set: Setter, _next?: boolean): void => {
-        set(shopSnapshotAtom, { type: ShellEventTypes.ToggleCartOpen });
+        set(shopSnapshotAtom, { type: ShellEventTypes.ToggleBucketOpen, name: 'drug' });
     }
 );
 

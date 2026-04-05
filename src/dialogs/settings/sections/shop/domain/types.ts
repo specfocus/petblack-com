@@ -26,12 +26,14 @@
 // ── prefab bucket names ───────────────────────────────────────────────────
 
 export enum PrefabBucketNames {
-    Want = 'want',
-    Need = 'need',
-    Have = 'have',
-    Cart = 'cart',
-    Pick = 'pick',
     Auto = 'auto',
+    Cart = 'cart',
+    Diet = 'diet',
+    Drug = 'drug',
+    Have = 'have',
+    Need = 'need',
+    Pick = 'pick',
+    Want = 'want'
 }
 
 export type PrefabBucketName = `${PrefabBucketNames}`;
@@ -77,12 +79,14 @@ export interface Bucket {
 // ── prefab defaults ───────────────────────────────────────────────────────────
 
 export const PREFAB_DEFAULTS: Record<PrefabBucketName, Pick<Bucket, 'name' | 'icon'>> = {
-    [PrefabBucketNames.Want]: { name: 'Want', icon: '⭐' },
-    [PrefabBucketNames.Need]: { name: 'Need', icon: '📋' },
-    [PrefabBucketNames.Have]: { name: 'Have', icon: '🏠' },
-    [PrefabBucketNames.Cart]: { name: 'Cart', icon: '🛒' },
-    [PrefabBucketNames.Pick]: { name: 'Pick Up', icon: '🏪' },
-    [PrefabBucketNames.Auto]: { name: 'Autoship', icon: '🔄' },
+    [PrefabBucketNames.Auto]: { name: 'auto', icon: '🔄' },
+    [PrefabBucketNames.Cart]: { name: 'cart', icon: '🛒' },
+    [PrefabBucketNames.Diet]: { name: 'diet', icon: '🥦' },
+    [PrefabBucketNames.Drug]: { name: 'drug', icon: '💊' },
+    [PrefabBucketNames.Want]: { name: 'want', icon: '⭐' },
+    [PrefabBucketNames.Need]: { name: 'need', icon: '📋' },
+    [PrefabBucketNames.Have]: { name: 'have', icon: '🏠' },
+    [PrefabBucketNames.Pick]: { name: 'pick', icon: '🏪' },
 };
 
 // ── pet / animal icon palette for custom buckets ────────────────────────────────

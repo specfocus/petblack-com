@@ -4,11 +4,9 @@ import type { BreadcrumbItem } from '@specfocus/shelly/lib/shell/breadcrumbs';
 import type { ShellyFeedbackEvent } from '@specfocus/shelly/lib/machines/feedback';
 
 export interface ShopContext {
-    buckets: Bucket[];
+    buckets: Record<string, Bucket>;
     buddyOpen?: boolean;
     buddyShow?: boolean;
-    cartOpen?: boolean;
-    cartShow?: boolean;
     debugOpen?: boolean;
     debugShow?: boolean;
     dirty: boolean;
