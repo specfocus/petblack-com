@@ -12,6 +12,19 @@ export interface ShopHydrateEvent {
     lists: ShopList[];
 }
 
+export interface ShopOpenCartEvent {
+    type: `${ShopEventTypes.OpenCart}`;
+}
+
+export interface ShopOpenAutoshipEvent {
+    type: `${ShopEventTypes.OpenAutoship}`;
+}
+
+export interface ShopSearchProductsEvent {
+    type: `${ShopEventTypes.SearchProducts}`;
+    query: string;
+}
+
 export interface ShopToggleListEnabledEvent {
     type: `${ShopEventTypes.ToggleListEnabled}`;
     id: string;
@@ -50,6 +63,10 @@ export interface ShopRemoveItemEvent {
     sku: string;
 }
 
+export interface ShopClearCartEvent {
+    type: `${ShopEventTypes.ClearCart}`;
+}
+
 export interface ShopPersistRequestedEvent {
     type: `${ShopEventTypes.PersistRequested}`;
 }
@@ -74,12 +91,16 @@ export interface ShopStorageLoadedEvent {
 export type ShopEventUnion =
     | ShopBootstrapEvent
     | ShopHydrateEvent
+    | ShopOpenCartEvent
+    | ShopOpenAutoshipEvent
+    | ShopSearchProductsEvent
     | ShopToggleListEnabledEvent
     | ShopCreateCustomListEvent
     | ShopRemoveCustomListEvent
     | ShopAddItemEvent
     | ShopUpdateItemQtyEvent
     | ShopRemoveItemEvent
+    | ShopClearCartEvent
     | ShopPersistRequestedEvent
     | ShopPersistSucceededEvent
     | ShopPersistFailedEvent

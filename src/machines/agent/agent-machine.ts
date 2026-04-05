@@ -15,6 +15,13 @@ const agentMachine = agentSetup.extend({ actions: agentActions }).createMachine(
     states: {
         [AgentStates.Ready]: {
             on: {
+                [AgentEventTypes.BindBuddyProfile]: {
+                    actions: ['bindBuddyProfile'],
+                },
+                [AgentEventTypes.ChatRequestSubmitted]: {
+                    target: AgentStates.ProcessingChat,
+                    actions: ['markRequestStarted'],
+                },
                 [AgentEventTypes.UserMessageReceived]: {
                     actions: ['setLastUserMessage'],
                 },
@@ -23,6 +30,27 @@ const agentMachine = agentSetup.extend({ actions: agentActions }).createMachine(
                 },
                 [AgentEventTypes.QueueEvents]: {
                     actions: ['queueEvents'],
+                },
+                [AgentEventTypes.ForwardShopEvent]: {
+                    actions: ['enqueueForwardShopEvent'],
+                },
+                [AgentEventTypes.ForwardShellEvent]: {
+                    actions: ['enqueueForwardShellEvent'],
+                },
+                [AgentEventTypes.IntentOpenCart]: {
+                    actions: ['translateIntentOpenCart'],
+                },
+                [AgentEventTypes.IntentOpenAutoship]: {
+                    actions: ['translateIntentOpenAutoship'],
+                },
+                [AgentEventTypes.IntentAddToyToCart]: {
+                    actions: ['translateIntentAddToyToCart'],
+                },
+                [AgentEventTypes.IntentAddDogFoodToCart]: {
+                    actions: ['translateIntentAddDogFoodToCart'],
+                },
+                [AgentEventTypes.IntentCleanCart]: {
+                    actions: ['translateIntentCleanCart'],
                 },
                 [AgentEventTypes.DecideAccept]: {
                     actions: ['removePendingEvent'],
@@ -39,6 +67,35 @@ const agentMachine = agentSetup.extend({ actions: agentActions }).createMachine(
                 [AgentEventTypes.EventDispatched]: {
                     actions: ['removePendingEvent'],
                 },
+                [AgentEventTypes.EventBlocked]: {
+                    actions: ['setBlockedMessage', 'removePendingEvent'],
+                },
+                [AgentEventTypes.ClearDebugTraces]: {
+                    actions: ['clearDebugTraces'],
+                },
+            },
+        },
+        [AgentStates.ProcessingChat]: {
+            always: {
+                guard: ({ context }) => context.pendingPayload === null,
+                target: AgentStates.Ready,
+            },
+            invoke: {
+                src: 'buddyChatRequest',
+                input: ({ context }) => ({
+                    type: AgentEventTypes.ChatRequestSubmitted,
+                    payload: context.pendingPayload!,
+                }),
+                onDone: {
+                    target: AgentStates.Ready,
+                    actions: ['applyChatSuccess'],
+                },
+                onError: {
+                    target: AgentStates.Ready,
+                    actions: ['applyChatError'],
+                },
+            },
+            on: {
                 [AgentEventTypes.EventBlocked]: {
                     actions: ['setBlockedMessage', 'removePendingEvent'],
                 },

@@ -11,9 +11,8 @@
  */
 
 import { buildBuddyProfile } from "@/widgets/buddy/domain/deterministic";
-import { createBuddySession, updateBuddySessionMood } from "@/widgets/buddy/domain/session";
 import { getOrCreateVisitorId } from "@/widgets/buddy/domain/storage";
-import type { BuddyChatOutput, BuddyProfile } from "@/widgets/buddy/domain/types";
+import type { BuddyProfile } from "@/widgets/buddy/domain/types";
 import CloseRoundedIcon from "@mui/icons-material/CloseRounded";
 import PetsRoundedIcon from "@mui/icons-material/PetsRounded";
 import SendRoundedIcon from "@mui/icons-material/SendRounded";
@@ -29,13 +28,9 @@ import { FormEvent, useEffect, useMemo, useRef, useState, type FC } from "react"
 import buddyToggleAtom from './atoms/buddy-toggle-atom';
 import shopSnapshotAtom from '@/atoms/shop-snapshot-atom';
 import agentActorAtom from '@/atoms/agent-actor-atom';
+import agentSnapshotConversationAtom from '@/atoms/agent-snapshot-conversation-atom';
+import agentSnapshotIsSendingAtom from '@/atoms/agent-snapshot-is-sending-atom';
 import { AgentEventTypes } from '@/machines/agent/agent-event-types';
-
-interface ChatLine {
-    id: string;
-    speaker: "buddy" | "user";
-    text: string;
-}
 
 function speciesEmoji(species: BuddyProfile["species"]): string {
     const map: Record<BuddyProfile["species"], string> = {
@@ -51,19 +46,12 @@ function speciesEmoji(species: BuddyProfile["species"]): string {
     return map[species];
 }
 
-function makeId(prefix: string): string {
-    if (typeof crypto !== "undefined" && "randomUUID" in crypto) {
-        return `${prefix}-${crypto.randomUUID()}`;
-    }
-    return `${prefix}-${Date.now()}-${Math.floor(Math.random() * 1000)}`;
-}
-
 const BuddyWidget: FC = () => {
     const [isOpen, setIsOpen] = useState(false);
     const [visitorId, setVisitorId] = useState<string | null>(null);
     const [message, setMessage] = useState("");
-    const [isSending, setIsSending] = useState(false);
-    const [chat, setChat] = useState<ChatLine[]>([]);
+    const isSending = useAtomValue(agentSnapshotIsSendingAtom);
+    const chat = useAtomValue(agentSnapshotConversationAtom);
     const listRef = useRef<HTMLDivElement>(null);
     const shopSnapshot = useAtomValue(shopSnapshotAtom);
     const sendAgentEvent = useSetAtom(agentActorAtom);
@@ -89,20 +77,14 @@ Allowed events include:
         return buildBuddyProfile(visitorId);
     }, [visitorId]);
 
-    const [session, setSession] = useState(() => (profile ? createBuddySession(profile) : null));
-
     useEffect(() => {
         if (!profile) {
             return;
         }
-        setSession(createBuddySession(profile));
-        setChat([
-            {
-                id: makeId("buddy"),
-                speaker: "buddy",
-                text: `Hi, I am ${profile.name} the ${profile.species}. Ask me anything about caring for your pet friends.`,
-            },
-        ]);
+        sendAgentEvent({
+            type: AgentEventTypes.BindBuddyProfile,
+            profile,
+        });
     }, [profile]);
 
     useEffect(() => {
@@ -118,73 +100,21 @@ Allowed events include:
             return;
         }
 
-        const userLine: ChatLine = { id: makeId("user"), speaker: "user", text: message.trim() };
-        setChat(prev => [...prev, userLine]);
+        const trimmed = message.trim();
         setMessage("");
-        setIsSending(true);
-        sendAgentEvent({ type: AgentEventTypes.UserMessageReceived, message: userLine.text });
-
-        try {
-            const response = await fetch("/api/buddy/chat", {
-                method: "POST",
-                headers: { "Content-Type": "application/json" },
-                body: JSON.stringify({
-                    visitorId: profile.visitorId,
-                    message: userLine.text,
-                    buddy: profile,
-                    shopSnapshot: {
-                        stateValue: String(shopSnapshot.value),
-                        context: shopSnapshot.context,
-                    },
-                    shopMachineDoc,
-                }),
-            });
-
-            let modelReply = "I had a little hiccup. Could you ask that again?";
-            let modelEmotion = session?.mood;
-            if (response.ok) {
-                const data = (await response.json()) as BuddyChatOutput;
-                modelReply = data.reply;
-                modelEmotion = data.emotion;
-                if (Array.isArray(data.events) && data.events.length > 0) {
-                    sendAgentEvent({
-                        type: AgentEventTypes.ModelResponseReceived,
-                        reply: data.reply,
-                        events: data.events.map(event => ({
-                            id: event.id,
-                            target: 'shop',
-                            eventType: event.eventType,
-                            payload: event.payload,
-                            reason: event.reason,
-                        })),
-                    });
-                }
-            }
-
-            if (modelEmotion) {
-                setSession(prev => (prev ? updateBuddySessionMood(prev, modelEmotion) : prev));
-            }
-
-            setChat(prev => [
-                ...prev,
-                {
-                    id: makeId("buddy"),
-                    speaker: "buddy",
-                    text: modelReply,
+        sendAgentEvent({
+            type: AgentEventTypes.ChatRequestSubmitted,
+            payload: {
+                visitorId: profile.visitorId,
+                message: trimmed,
+                buddy: profile,
+                shopSnapshot: {
+                    stateValue: String(shopSnapshot.value),
+                    context: shopSnapshot.context,
                 },
-            ]);
-        } catch {
-            setChat(prev => [
-                ...prev,
-                {
-                    id: makeId("buddy"),
-                    speaker: "buddy",
-                    text: "My whiskers lost signal for a moment. Try again in a second.",
-                },
-            ]);
-        } finally {
-            setIsSending(false);
-        }
+                shopMachineDoc,
+            },
+        });
     }
 
     if (!profile) {
@@ -260,7 +190,7 @@ Allowed events include:
                             gap: 1.25,
                         }}
                     >
-                        {chat.map(line => (
+                        {chat.map((line) => (
                             <Box
                                 key={line.id}
                                 sx={{

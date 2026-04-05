@@ -61,3 +61,47 @@ Security Warning: If you actually downloaded the leaked files on March 31, 2026,
 Would you like a Python or TypeScript code snippet to help you implement the deterministic hashing for your pet hatching system?
 For more details on the leaked features, you can check the full breakdown on [Towards AI](https://pub.towardsai.net/inside-claude-codes-leaked-source-what-512-000-lines-tell-us-about-building-ai-agents-9309c1d4da8c) or the technical analysis on [DEV Community](https://dev.to/varshithvhegde/the-great-claude-code-leak-of-2026-accident-incompetence-or-the-best-pr-stunt-in-ai-history-3igm).
 
+## Buddy + Agent machine architecture (petblack)
+
+### Source of truth
+
+- `agent-machine` owns Buddy chat lifecycle.
+- Widgets must not call `/api/buddy/chat` directly.
+- `buddy-widget` and `debug-widget` communicate through `agentActorAtom`.
+
+### Event model
+
+- `AgentEventUnion` includes:
+  - agent-native events (`agent.*`)
+  - `ShopEventUnion` (agent can eventually perform all shop operations)
+  - shell events when required for UI-level operations
+- Intents (`agent.intent.*`) may be translated into one or many downstream events.
+- Translation/orchestration belongs to `agent-machine`.
+
+### Forwarding mechanism
+
+- Agent accepts explicit forward envelopes:
+  - `agent.forwardShopEvent`
+  - `agent.forwardShellEvent`
+- Forwarding can be:
+  - direct pass-through
+  - translated
+  - expanded into multi-step orchestration
+
+### Policy and safety
+
+- Event execution must support:
+  - `Accept` (run once)
+  - `Always` (allowlist)
+  - `Cancel` (reject once)
+  - `Never` (denylist)
+- Allow/deny persistence currently targets local storage; keep interfaces swappable for backend storage.
+
+### Testing strategy
+
+- Behavioral fitting tests live in `src/buddy.test.ts`.
+- Keep a mix of:
+  - passing tests for currently implemented behavior
+  - intentionally failing tests that encode desired future capabilities
+- Use failures to track gap between current and target agent behavior.
+

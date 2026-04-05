@@ -2,8 +2,10 @@
 
 import { buildBuddyProfile } from '@/widgets/buddy/domain/deterministic';
 import { getOrCreateVisitorId } from '@/widgets/buddy/domain/storage';
-import type { BuddyChatOutput } from '@/widgets/buddy/domain/types';
 import shopSnapshotAtom from '@/atoms/shop-snapshot-atom';
+import agentActorAtom from '@/atoms/agent-actor-atom';
+import agentSnapshotDebugTracesAtom from '@/atoms/agent-snapshot-debug-traces-atom';
+import agentSnapshotIsSendingAtom from '@/atoms/agent-snapshot-is-sending-atom';
 import BugReportRoundedIcon from '@mui/icons-material/BugReportRounded';
 import ClearAllRoundedIcon from '@mui/icons-material/ClearAllRounded';
 import CloseRoundedIcon from '@mui/icons-material/CloseRounded';
@@ -13,40 +15,20 @@ import IconButton from '@mui/material/IconButton';
 import InputBase from '@mui/material/InputBase';
 import Paper from '@mui/material/Paper';
 import Typography from '@mui/material/Typography';
-import { useAtomValue } from '@specfocus/atoms/lib/hooks';
+import { useAtomValue, useSetAtom } from '@specfocus/atoms/lib/hooks';
 import type { WidgetProps } from '@specfocus/shelly/lib/widgets/widget';
 import Widget from '@specfocus/shelly/lib/widgets/widget';
 import { useMemo, useState, type FC, type FormEvent } from 'react';
 import debugToggleAtom from './atoms/debug-toggle-atom';
-
-interface TraceLine {
-    id: string;
-    direction: 'request' | 'response' | 'error';
-    text: string;
-    timestamp: string;
-}
-
-const makeId = (): string => {
-    if (typeof crypto !== 'undefined' && 'randomUUID' in crypto) {
-        return crypto.randomUUID();
-    }
-    return `${Date.now()}-${Math.floor(Math.random() * 10000)}`;
-};
-
-const serialize = (value: unknown): string => {
-    try {
-        return JSON.stringify(value, null, 2);
-    } catch {
-        return String(value);
-    }
-};
+import { AgentEventTypes } from '@/machines/agent/agent-event-types';
 
 const DebugWidget: FC = () => {
     const [isOpen, setIsOpen] = useState(false);
     const [message, setMessage] = useState('');
-    const [isSending, setIsSending] = useState(false);
-    const [lines, setLines] = useState<TraceLine[]>([]);
+    const lines = useAtomValue(agentSnapshotDebugTracesAtom);
+    const isSending = useAtomValue(agentSnapshotIsSendingAtom);
     const shopSnapshot = useAtomValue(shopSnapshotAtom);
+    const sendAgentEvent = useSetAtom(agentActorAtom);
 
     const visitorId = useMemo(() => getOrCreateVisitorId(), []);
     const buddyProfile = useMemo(() => buildBuddyProfile(visitorId), [visitorId]);
@@ -60,65 +42,29 @@ Allowed event families:
 - shop.updateItemQty
 - shop.removeItem`;
 
-    const pushLine = (direction: TraceLine['direction'], text: string) => {
-        setLines(prev => [
-            ...prev,
-            {
-                id: makeId(),
-                direction,
-                text,
-                timestamp: new Date().toISOString(),
-            },
-        ]);
-    };
-
-    const onSubmit = async (event: FormEvent) => {
+    const onSubmit = (event: FormEvent) => {
         event.preventDefault();
         const trimmed = message.trim();
         if (!trimmed || isSending) return;
 
-        const payload = {
-            visitorId: buddyProfile.visitorId,
-            message: trimmed,
-            buddy: buddyProfile,
-            shopSnapshot: {
-                stateValue: String(shopSnapshot.value),
-                context: shopSnapshot.context,
-            },
-            shopMachineDoc,
-        };
-
-        pushLine('request', serialize(payload));
         setMessage('');
-        setIsSending(true);
-
-        try {
-            const response = await fetch('/api/buddy/chat', {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify(payload),
-            });
-
-            const rawText = await response.text();
-            let parsed: BuddyChatOutput | null = null;
-            try {
-                parsed = JSON.parse(rawText) as BuddyChatOutput;
-            } catch {
-                parsed = null;
-            }
-
-            const responseTrace = {
-                status: response.status,
-                ok: response.ok,
-                parsed,
-                rawText,
-            };
-            pushLine('response', serialize(responseTrace));
-        } catch (error) {
-            pushLine('error', error instanceof Error ? error.message : 'Unknown request error');
-        } finally {
-            setIsSending(false);
-        }
+        sendAgentEvent({
+            type: AgentEventTypes.BindBuddyProfile,
+            profile: buddyProfile,
+        });
+        sendAgentEvent({
+            type: AgentEventTypes.ChatRequestSubmitted,
+            payload: {
+                visitorId: buddyProfile.visitorId,
+                message: trimmed,
+                buddy: buddyProfile,
+                shopSnapshot: {
+                    stateValue: String(shopSnapshot.value),
+                    context: shopSnapshot.context,
+                },
+                shopMachineDoc,
+            },
+        });
     };
 
     return (
@@ -161,7 +107,11 @@ Allowed event families:
                             <Typography variant="subtitle2">Buddy Debug Console</Typography>
                         </Box>
                         <Box>
-                            <IconButton size="small" onClick={() => setLines([])} title="Clear transcript">
+                            <IconButton
+                                size="small"
+                                onClick={() => sendAgentEvent({ type: AgentEventTypes.ClearDebugTraces })}
+                                title="Clear transcript"
+                            >
                                 <ClearAllRoundedIcon fontSize="small" />
                             </IconButton>
                             <IconButton size="small" onClick={() => setIsOpen(false)} title="Close">
