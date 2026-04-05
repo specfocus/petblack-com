@@ -16,8 +16,8 @@ export interface AgentContext {
     debugTraces: AgentDebugTrace[];
     isSending: boolean;
     buddyProfile: BuddyProfile | null;
-    allowlist: string[];
-    denylist: string[];
+    allowbucket: string[];
+    denybucket: string[];
     lastBlockedMessage: string | null;
     pendingPayloadJson: string | null;
     pendingPayload: BuddyChatInput | null;
@@ -26,8 +26,8 @@ export interface AgentContext {
 }
 
 export interface CreateAgentMachineParams {
-    allowlist?: string[];
-    denylist?: string[];
+    allowbucket?: string[];
+    denybucket?: string[];
 }
 
 export const createInitialAgentContext = (input?: CreateAgentMachineParams): AgentContext => ({
@@ -38,8 +38,8 @@ export const createInitialAgentContext = (input?: CreateAgentMachineParams): Age
     debugTraces: [],
     isSending: false,
     buddyProfile: null,
-    allowlist: input?.allowlist ?? [],
-    denylist: input?.denylist ?? [],
+    allowbucket: input?.allowbucket ?? [],
+    denybucket: input?.denybucket ?? [],
     lastBlockedMessage: null,
     pendingPayloadJson: null,
     pendingPayload: null,

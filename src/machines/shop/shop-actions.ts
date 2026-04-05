@@ -3,10 +3,10 @@ import {
     addItem,
     removeCustomList,
     removeItem,
-    saveLists,
-    setListEnabled,
+    saveBuckets,
+    showBucket,
     updateItemQty,
-} from '@/dialogs/settings/sections/shop/domain/storage';
+} from '@/domain/storage';
 import type { ShopContext } from './shop-context';
 import {
     FeedbackActionKeys,
@@ -22,8 +22,10 @@ import type {
     ShopSearchProductsEvent,
     ShopRemoveCustomListEvent,
     ShopRemoveItemEvent,
-    ShopToggleListEnabledEvent,
     ShopUpdateItemQtyEvent,
+    ShopOpenBucketEvent,
+    ShopToggleBucketOpenEvent,
+    ShopToggleBucketShowEvent,
 } from './shop-events';
 
 const { assign } = shopSetup;
@@ -54,24 +56,16 @@ const shopActions = {
     hydrate: assign(({ event }) => {
         const hydrateEvent = event as ShopHydrateEvent;
         return {
-            lists: hydrateEvent.lists,
+            buckets: hydrateEvent.buckets,
             dirty: false,
             lastError: null,
-        };
-    }),
-
-    toggleListEnabled: assign(({ context, event }) => {
-        const toggleEvent = event as ShopToggleListEnabledEvent;
-        return {
-            lists: setListEnabled(context.lists, toggleEvent.id, toggleEvent.enabled),
-            dirty: true,
         };
     }),
 
     createCustomList: assign(({ context, event }) => {
         const createEvent = event as ShopCreateCustomListEvent;
         return {
-            lists: addCustomList(context.lists, createEvent.name, createEvent.icon),
+            buckets: addCustomList(context.buckets, createEvent.name, createEvent.icon),
             dirty: true,
         };
     }),
@@ -79,7 +73,7 @@ const shopActions = {
     removeCustomList: assign(({ context, event }) => {
         const removeEvent = event as ShopRemoveCustomListEvent;
         return {
-            lists: removeCustomList(context.lists, removeEvent.id),
+            buckets: removeCustomList(context.buckets, removeEvent.id),
             dirty: true,
         };
     }),
@@ -87,7 +81,7 @@ const shopActions = {
     addItemToList: assign(({ context, event }) => {
         const addItemEvent = event as ShopAddItemEvent;
         return {
-            lists: addItem(context.lists, addItemEvent.listId, {
+            buckets: addItem(context.buckets, addItemEvent.bucketName, {
                 sku: addItemEvent.sku,
                 name: addItemEvent.name,
                 qty: addItemEvent.qty,
@@ -99,7 +93,7 @@ const shopActions = {
     updateListItemQty: assign(({ context, event }) => {
         const updateEvent = event as ShopUpdateItemQtyEvent;
         return {
-            lists: updateItemQty(context.lists, updateEvent.listId, updateEvent.sku, updateEvent.qty),
+            buckets: updateItemQty(context.buckets, updateEvent.bucketName, updateEvent.sku, updateEvent.qty),
             dirty: true,
         };
     }),
@@ -107,32 +101,61 @@ const shopActions = {
     removeListItem: assign(({ context, event }) => {
         const removeEvent = event as ShopRemoveItemEvent;
         return {
-            lists: removeItem(context.lists, removeEvent.listId, removeEvent.sku),
+            buckets: removeItem(context.buckets, removeEvent.bucketName, removeEvent.sku),
             dirty: true,
         };
     }),
 
-    openCart: assign(({ context }) => ({
-        lists: setListEnabled(context.lists, 'cart', true),
-        dirty: true,
-    })),
-
-    openAutoship: assign(({ context }) => {
+    openBucket: assign(({ context, event }) => {
+        const { name } = event as ShopOpenBucketEvent;
         return {
-            lists: setListEnabled(context.lists, 'auto', true),
+            buckets: showBucket(context.buckets, name),
             dirty: true,
         };
     }),
 
     clearCart: assign(({ context }) => {
+        const cart = context.buckets[PrefabBucketNames.Cart];
+        if (!cart) return {};
         return {
-        lists: context.lists.map(list => (
-            list.id === 'cart'
-                ? { ...list, items: [], updatedAt: new Date().toISOString() }
-                : list
-        )),
-        dirty: true,
-    };}),
+            buckets: { ...context.buckets, [PrefabBucketNames.Cart]: { ...cart, items: [], updatedAt: new Date().toISOString() } },
+            dirty: true,
+        };
+    }),
+
+    toggleBucketOpen: assign(({ context, event }) => {
+        const { name } = event as ShopToggleBucketOpenEvent;
+        const bucket = context.buckets[name];
+        if (!bucket) return {};
+        return {
+            buckets: { ...context.buckets, [name]: { ...bucket, open: !bucket.open } },
+        };
+    }),
+
+    toggleBucketShow: assign(({ context, event }) => {
+        const { name } = event as ShopToggleBucketShowEvent;
+        const bucket = context.buckets[name];
+        if (!bucket) return {};
+        return {
+            buckets: { ...context.buckets, [name]: { ...bucket, show: !bucket.show } },
+        };
+    }),
+
+    toggleBuddyOpen: assign(({ context }) => ({
+        buddyOpen: !context.buddyOpen,
+    })),
+
+    toggleBuddyShow: assign(({ context }) => ({
+        buddyShow: !context.buddyShow,
+    })),
+
+    toggleDebugOpen: assign(({ context }) => ({
+        debugOpen: !context.debugOpen,
+    })),
+
+    toggleDebugShow: assign(({ context }) => ({
+        debugShow: !context.debugShow,
+    })),
 
     searchProducts: assign(({ context, event }) => {
         const searchEvent = event as ShopSearchProductsEvent;
@@ -143,7 +166,7 @@ const shopActions = {
     }),
 
     persistLists: ({ context }: { context: ShopContext; }) => {
-        saveLists(context.lists);
+        saveBuckets(context.buckets);
     },
 
     markPersisted: assign(() => ({

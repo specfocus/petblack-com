@@ -1,10 +1,14 @@
-import type { ShopList } from '@/dialogs/settings/sections/shop/domain/types';
-import { loadLists } from '@/dialogs/settings/sections/shop/domain/storage';
+import type { Bucket } from '@/domain/types';
+import { loadBuckets } from '@/domain/storage';
 import type { BreadcrumbItem } from '@specfocus/shelly/lib/shell/breadcrumbs';
 import type { ShellyFeedbackEvent } from '@specfocus/shelly/lib/machines/feedback';
 
 export interface ShopContext {
-    lists: ShopList[];
+    buckets: Record<string, Bucket>;
+    buddyOpen?: boolean;
+    buddyShow?: boolean;
+    debugOpen?: boolean;
+    debugShow?: boolean;
     dirty: boolean;
     lastError: string | null;
     activeViewId: string | null;
@@ -13,11 +17,15 @@ export interface ShopContext {
 }
 
 export interface CreateShopMachineParams {
-    initialLists?: ShopList[];
+    initialLists?: Record<string, Bucket>;
 }
 
 export const createInitialShopContext = (input?: CreateShopMachineParams): ShopContext => ({
-    lists: input?.initialLists ?? loadLists(),
+    buckets: input?.initialLists ?? loadBuckets(),
+    buddyOpen: false,
+    buddyShow: true,
+    debugOpen: false,
+    debugShow: false,
     dirty: false,
     lastError: null,
     activeViewId: null,

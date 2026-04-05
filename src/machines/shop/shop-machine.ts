@@ -26,17 +26,11 @@ const shopMachine = shopSetup.extend({ actions: shopActions }).createMachine({
                 [ShopEventTypes.Hydrate]: {
                     actions: ['hydrate'],
                 },
-                [ShopEventTypes.OpenCart]: {
-                    actions: ['openCart', 'persistLists', 'markPersisted'],
-                },
-                [ShopEventTypes.OpenAutoship]: {
-                    actions: ['openAutoship', 'persistLists', 'markPersisted'],
+                [ShopEventTypes.OpenBucket]: {
+                    actions: ['openBucket', 'persistLists', 'markPersisted'],
                 },
                 [ShopEventTypes.SearchProducts]: {
                     actions: ['searchProducts'],
-                },
-                [ShopEventTypes.ToggleListEnabled]: {
-                    actions: ['toggleListEnabled', 'persistLists', 'markPersisted'],
                 },
                 [ShopEventTypes.CreateCustomList]: {
                     actions: ['createCustomList', 'persistLists', 'markPersisted'],
@@ -61,6 +55,24 @@ const shopMachine = shopSetup.extend({ actions: shopActions }).createMachine({
                 },
                 [ShopEventTypes.PersistFailed]: {
                     actions: ['setPersistError'],
+                },
+                [ShopEventTypes.ToggleBucketOpen]: {
+                    actions: ['toggleBucketOpen'],
+                },
+                [ShopEventTypes.ToggleBucketShow]: {
+                    actions: ['toggleBucketShow'],
+                },
+                [ShopEventTypes.ToggleBuddyOpen]: {
+                    actions: ['toggleBuddyOpen'],
+                },
+                [ShopEventTypes.ToggleBuddyShow]: {
+                    actions: ['toggleBuddyShow'],
+                },
+                [ShopEventTypes.ToggleDebugOpen]: {
+                    actions: ['toggleDebugOpen'],
+                },
+                [ShopEventTypes.ToggleDebugShow]: {
+                    actions: ['toggleDebugShow'],
                 },
             },
         },

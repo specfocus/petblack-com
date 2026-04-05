@@ -1,10 +1,8 @@
 export enum ShopEventTypes {
     Bootstrap = 'shop.bootstrap',
     Hydrate = 'shop.hydrate',
-    OpenCart = 'shop.openCart',
-    OpenAutoship = 'shop.openAutoship',
+    OpenBucket = 'shop.openBucket',
     SearchProducts = 'shop.searchProducts',
-    ToggleListEnabled = 'shop.toggleListEnabled',
     CreateCustomList = 'shop.createCustomList',
     RemoveCustomList = 'shop.removeCustomList',
     AddItem = 'shop.addItem',
@@ -14,6 +12,14 @@ export enum ShopEventTypes {
     PersistRequested = 'shop.persistRequested',
     PersistSucceeded = 'shop.persistSucceeded',
     PersistFailed = 'shop.persistFailed',
+
+    ToggleBucketOpen = 'shop.toggleBucketOpen',
+    ToggleBucketShow = 'shop.toggleBucketShow',
+
+    ToggleBuddyOpen = 'shop.toggleBuddyOpen',
+    ToggleBuddyShow = 'shop.toggleBuddyShow',
+    ToggleDebugOpen = 'shop.toggleDebugOpen',
+    ToggleDebugShow = 'shop.toggleDebugShow'
 }
 
 export type ShopEventType = `${ShopEventTypes}`;

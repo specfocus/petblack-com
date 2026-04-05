@@ -14,7 +14,7 @@ const storageActions = {
             event.type !== StorageEventTypes.Loaded &&
             event.type !== StorageEventTypes.Saved &&
             event.type !== StorageEventTypes.Removed &&
-            event.type !== StorageEventTypes.ListedKeys &&
+            event.type !== StorageEventTypes.BucketedKeys &&
             event.type !== StorageEventTypes.ClearedNamespace &&
             event.type !== StorageEventTypes.Failed
         ) return {};

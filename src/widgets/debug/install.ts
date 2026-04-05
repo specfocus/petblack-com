@@ -1,10 +1,11 @@
-import { lazy } from 'react';
 import type { Cleanup, GetterWithPeek, SetterWithRecurse } from '@specfocus/atoms/lib/effect';
-import workspaceTreeAtom, { WorkspaceEntryTypes } from '@specfocus/atoms/lib/workspace';
-import { installDialAction } from '@specfocus/shelly/lib/widgets/dial/actions/dial-action-entry';
+import { installWorkspaceEntry, WorkspaceEntryTypes } from '@specfocus/atoms/lib/workspace';
 import { installWidget, WIDGET, type WorkspaceWidgetEntry } from '@specfocus/shelly/lib/widgets/atoms/widget-entry';
-import { DEBUG_WIDGET_PATH } from './debug-widget-path';
-import debugWorkspaceEntry, { DEBUG_TOGGLE_PATH } from './toggles/debug-show-toggle';
+import { installDialAction } from '@specfocus/shelly/lib/widgets/dial/actions/dial-action-entry';
+import { lazy } from 'react';
+import { DEBUG_OPEN_TOGGLE_PATH, DEBUG_SHOW_TOGGLE_PATH } from './debug-widget-path';
+import debugOpenToggleEntry from './toggles/debug-open-toggle';
+import debugShowToggleEntry from './toggles/debug-show-toggle';
 
 const LazyDebugWidget = lazy(() => import('./debug-widget'));
 
@@ -15,18 +16,20 @@ const debugWidgetEntry: WorkspaceWidgetEntry = {
     tooltip: 'petblack.widgets.debug.tooltip',
     resource: { '@type': WIDGET, data: {}, name: 'debug' },
     component: LazyDebugWidget,
-    toggle: [...DEBUG_TOGGLE_PATH],
+    toggle: DEBUG_SHOW_TOGGLE_PATH,
 };
 
 const installDebug = (get: GetterWithPeek, set: SetterWithRecurse): Cleanup => {
-    set(workspaceTreeAtom(DEBUG_TOGGLE_PATH), debugWorkspaceEntry);
     const cleanupWidget = installWidget(get, set, debugWidgetEntry);
-    const cleanupDialAction = installDialAction(get, set, 'debug', debugWorkspaceEntry);
+    const cleanupShowToggle = installWorkspaceEntry(get, set, DEBUG_SHOW_TOGGLE_PATH, debugShowToggleEntry);
+    const cleanupOpenToggle = installWorkspaceEntry(get, set, DEBUG_OPEN_TOGGLE_PATH, debugOpenToggleEntry);
+    const cleanupDialActionShow = installDialAction(get, set, 'debug', debugShowToggleEntry);
 
     return () => {
-        cleanupDialAction();
         cleanupWidget();
-        workspaceTreeAtom.remove(DEBUG_TOGGLE_PATH);
+        cleanupShowToggle();
+        cleanupOpenToggle();
+        cleanupDialActionShow();
     };
 };
 

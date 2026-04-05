@@ -21,16 +21,17 @@ import IconButton from "@mui/material/IconButton";
 import InputBase from "@mui/material/InputBase";
 import Paper from "@mui/material/Paper";
 import Typography from "@mui/material/Typography";
-import { useAtomValue, useSetAtom } from '@specfocus/atoms/lib/hooks';
+import { useAtom, useAtomValue, useSetAtom } from '@specfocus/atoms/lib/hooks';
 import type { WidgetProps } from '@specfocus/shelly/lib/widgets/widget';
 import Widget from '@specfocus/shelly/lib/widgets/widget';
 import { FormEvent, useEffect, useMemo, useRef, useState, type FC } from "react";
-import buddyToggleAtom from './atoms/buddy-toggle-atom';
 import shopSnapshotAtom from '@/atoms/shop-snapshot-atom';
-import agentActorAtom from '@/atoms/agent-actor-atom';
 import agentSnapshotConversationAtom from '@/atoms/agent-snapshot-conversation-atom';
 import agentSnapshotIsSendingAtom from '@/atoms/agent-snapshot-is-sending-atom';
 import { AgentEventTypes } from '@/machines/agent/agent-event-types';
+import agentActorAtom from '@/atoms/agent-actor-atom';
+import buddyShowAtom from './atoms/buddy-show-atom';
+import buddyOpenAtom from './atoms/buddy-open-atom';
 
 function speciesEmoji(species: BuddyProfile["species"]): string {
     const map: Record<BuddyProfile["species"], string> = {
@@ -47,23 +48,23 @@ function speciesEmoji(species: BuddyProfile["species"]): string {
 }
 
 const BuddyWidget: FC = () => {
-    const [isOpen, setIsOpen] = useState(false);
+    const [isOpen, setIsOpen] = useAtom(buddyOpenAtom as never);
     const [visitorId, setVisitorId] = useState<string | null>(null);
     const [message, setMessage] = useState("");
     const isSending = useAtomValue(agentSnapshotIsSendingAtom);
     const chat = useAtomValue(agentSnapshotConversationAtom);
-    const listRef = useRef<HTMLDivElement>(null);
+    const bucketRef = useRef<HTMLDivElement>(null);
     const shopSnapshot = useAtomValue(shopSnapshotAtom);
     const sendAgentEvent = useSetAtom(agentActorAtom);
 
-    const shopMachineDoc = `Shop machine handles list toggles, custom lists, and sku quantity updates.
+    const shopMachineDoc = `Shop machine handles bucket toggles, custom buckets, and sku quantity updates.
 Allowed events include:
-- shop.toggleListEnabled { id, enabled }
+- shop.toggleBucketShow { name (bucket id) }
 - shop.createCustomList { name, icon }
-- shop.removeCustomList { id }
-- shop.addItem { listId, sku, name, qty }
-- shop.updateItemQty { listId, sku, qty }
-- shop.removeItem { listId, sku }`;
+- shop.removeCustomList { name (bucket id) }
+- shop.addItem { bucketName (bucketName), sku, name, qty }
+- shop.updateItemQty { bucketName (bucketName), sku, qty }
+- shop.removeItem { bucketName (bucketName), sku }`;
 
     useEffect(() => {
         const id = getOrCreateVisitorId();
@@ -88,7 +89,7 @@ Allowed events include:
     }, [profile]);
 
     useEffect(() => {
-        const node = listRef.current;
+        const node = bucketRef.current;
         if (node) {
             node.scrollTop = node.scrollHeight;
         }
@@ -123,7 +124,7 @@ Allowed events include:
 
     return (
         <Widget
-            openAtom={buddyToggleAtom as WidgetProps['openAtom']}
+            openAtom={buddyShowAtom as WidgetProps['openAtom']}
             defaultCorner="bottom-right"
             sx={isOpen ? undefined : { overflow: 'visible', background: 'transparent', boxShadow: 'none' }}
         >
@@ -181,7 +182,7 @@ Allowed events include:
 
                     {/* ── Messages ── */}
                     <Box
-                        ref={listRef}
+                        ref={bucketRef}
                         sx={{
                             overflowY: "auto",
                             p: 1.75,

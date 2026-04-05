@@ -1,11 +1,12 @@
 "use client";
 
-import { buildBuddyProfile } from '@/widgets/buddy/domain/deterministic';
-import { getOrCreateVisitorId } from '@/widgets/buddy/domain/storage';
-import shopSnapshotAtom from '@/atoms/shop-snapshot-atom';
 import agentActorAtom from '@/atoms/agent-actor-atom';
 import agentSnapshotDebugTracesAtom from '@/atoms/agent-snapshot-debug-traces-atom';
 import agentSnapshotIsSendingAtom from '@/atoms/agent-snapshot-is-sending-atom';
+import shopSnapshotAtom from '@/atoms/shop-snapshot-atom';
+import { AgentEventTypes } from '@/machines/agent/agent-event-types';
+import { buildBuddyProfile } from '@/widgets/buddy/domain/deterministic';
+import { getOrCreateVisitorId } from '@/widgets/buddy/domain/storage';
 import BugReportRoundedIcon from '@mui/icons-material/BugReportRounded';
 import CheckRoundedIcon from '@mui/icons-material/CheckRounded';
 import ClearAllRoundedIcon from '@mui/icons-material/ClearAllRounded';
@@ -13,6 +14,7 @@ import CloseRoundedIcon from '@mui/icons-material/CloseRounded';
 import ContentCopyRoundedIcon from '@mui/icons-material/ContentCopyRounded';
 import KeyboardArrowDownRoundedIcon from '@mui/icons-material/KeyboardArrowDownRounded';
 import SendRoundedIcon from '@mui/icons-material/SendRounded';
+import WorkspaceRoundedIcon from '@mui/icons-material/WorkspacesRounded';
 import Box from '@mui/material/Box';
 import IconButton from '@mui/material/IconButton';
 import InputBase from '@mui/material/InputBase';
@@ -20,18 +22,21 @@ import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
 import Paper from '@mui/material/Paper';
 import Typography from '@mui/material/Typography';
-import { useAtomValue, useSetAtom } from '@specfocus/atoms/lib/hooks';
+import { useAtom, useAtomValue, useSetAtom } from '@specfocus/atoms/lib/hooks';
+import { SwiperEventTypes } from '@specfocus/shelly/lib/layouts/swiper/machine/swiper-event-types';
+import shellActorAtom from '@specfocus/shelly/lib/shell/atoms/shell-actor-atom';
 import type { WidgetProps } from '@specfocus/shelly/lib/widgets/widget';
 import Widget from '@specfocus/shelly/lib/widgets/widget';
 import { useMemo, useState, type FC, type FormEvent, type MouseEvent } from 'react';
-import debugToggleAtom from './atoms/debug-toggle-atom';
-import { AgentEventTypes } from '@/machines/agent/agent-event-types';
+import debugOpenAtom from './atoms/debug-open-atom';
+import debugShowAtom from './atoms/debug-show-atom';
 import { BUDDY_PREFAB_REQUESTS } from './prefab-requests';
+import workspaceViewContext from '@specfocus/shelly/lib/views/workspace/workspace-view-context';
 
 const PREFAB_TOKEN_REGEX = /^##([a-z0-9-]+)##$/i;
 
 const DebugWidget: FC = () => {
-    const [isOpen, setIsOpen] = useState(false);
+    const [isOpen, setIsOpen] = useAtom(debugOpenAtom);
     const [message, setMessage] = useState('');
     const [menuAnchorEl, setMenuAnchorEl] = useState<HTMLElement | null>(null);
     const [copiedTraceId, setCopiedTraceId] = useState<string | null>(null);
@@ -39,18 +44,22 @@ const DebugWidget: FC = () => {
     const isSending = useAtomValue(agentSnapshotIsSendingAtom);
     const shopSnapshot = useAtomValue(shopSnapshotAtom);
     const sendAgentEvent = useSetAtom(agentActorAtom);
+    const sendShellEvent = useSetAtom(shellActorAtom);
 
     const visitorId = useMemo(() => getOrCreateVisitorId(), []);
     const buddyProfile = useMemo(() => buildBuddyProfile(visitorId), [visitorId]);
 
     const shopMachineDoc = `Debug helper for shop machine.
 Allowed event families:
-- shop.toggleListEnabled
+- shop.toggleBucketShow
 - shop.createCustomList
 - shop.removeCustomList
 - shop.addItem
 - shop.updateItemQty
-- shop.removeItem`;
+- shop.removeItem
+
+Terminology:
+- bucketName maps to bucket id in toggle/remove events`;
     const prefabItems = useMemo(
         () => BUDDY_PREFAB_REQUESTS.map((request) => ({
             id: request.id,
@@ -121,7 +130,7 @@ Allowed event families:
 
     return (
         <Widget
-            openAtom={debugToggleAtom as WidgetProps['openAtom']}
+            openAtom={debugShowAtom as WidgetProps['openAtom']}
             defaultCorner="bottom-left"
             sx={isOpen ? undefined : { overflow: 'visible', background: 'transparent', boxShadow: 'none' }}
         >
@@ -159,6 +168,13 @@ Allowed event families:
                             <Typography variant="subtitle2">Buddy Debug Console</Typography>
                         </Box>
                         <Box>
+                            <IconButton
+                                size="small"
+                                onClick={() => sendShellEvent({ type: SwiperEventTypes.PushView, view: workspaceViewContext })}
+                                title="Open workspace view"
+                            >
+                                <WorkspaceRoundedIcon fontSize="small" />
+                            </IconButton>
                             <IconButton
                                 size="small"
                                 onClick={() => sendAgentEvent({ type: AgentEventTypes.ClearDebugTraces })}

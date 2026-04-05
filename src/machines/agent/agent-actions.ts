@@ -12,6 +12,7 @@ import type {
 import type { BuddyProfile } from '@/widgets/buddy/domain/types';
 import { ShopEventTypes } from '../shop/shop-event-types';
 import type { ShopEventUnion } from '../shop/shop-events';
+import { PrefabBucketNames } from '@/domain/types';
 
 const { assign } = agentSetup;
 
@@ -38,47 +39,42 @@ const toString = (value: unknown): string | null =>
 const toNumber = (value: unknown): number | null =>
     typeof value === 'number' && Number.isFinite(value) ? value : null;
 
-const toBoolean = (value: unknown, fallback: boolean): boolean =>
-    typeof value === 'boolean' ? value : fallback;
-
 const translateProposedEventsToShopEvents = (events: AgentEventEnvelope[]): ShopEventUnion[] => {
     const translated: ShopEventUnion[] = [];
     for (const event of events) {
         if (event.target !== 'shop') continue;
         const payload = event.payload ?? {};
         switch (event.eventType) {
-            case ShopEventTypes.OpenCart:
-                translated.push({ type: ShopEventTypes.OpenCart });
+            case ShopEventTypes.OpenBucket: {
+                const name = toString(payload.name) ?? 'cart';
+                translated.push({ type: ShopEventTypes.OpenBucket, name });
                 break;
-            case ShopEventTypes.OpenAutoship:
-                translated.push({ type: ShopEventTypes.OpenAutoship });
-                break;
-            case ShopEventTypes.ToggleListEnabled: {
-                const id = toString(payload.id) ?? 'cart';
-                const enabled = toBoolean(payload.enabled, true);
-                translated.push({ type: ShopEventTypes.ToggleListEnabled, id, enabled });
-                if (id === 'cart' && enabled) translated.push({ type: ShopEventTypes.OpenCart });
+            }
+            case ShopEventTypes.ToggleBucketShow: {
+                const name = toString(payload.id ?? payload.name) ?? 'cart';
+                translated.push({ type: ShopEventTypes.ToggleBucketShow, name });
+                if (name === 'cart') translated.push({ type: ShopEventTypes.OpenBucket, name: 'cart' });
                 break;
             }
             case ShopEventTypes.AddItem: {
-                const listId = toString(payload.listId) ?? 'cart';
+                const bucketName = toString(payload.bucketName) ?? 'cart';
                 const sku = toString(payload.sku) ?? 'unknown-sku';
                 const name = toString(payload.name) ?? 'Unknown item';
                 const qty = toNumber(payload.qty) ?? 1;
-                translated.push({ type: ShopEventTypes.AddItem, listId, sku, name, qty });
+                translated.push({ type: ShopEventTypes.AddItem, bucketName, sku, name, qty });
                 break;
             }
             case ShopEventTypes.UpdateItemQty: {
-                const listId = toString(payload.listId) ?? 'cart';
+                const bucketName = toString(payload.bucketName) ?? 'cart';
                 const sku = toString(payload.sku) ?? 'unknown-sku';
                 const qty = toNumber(payload.qty) ?? 1;
-                translated.push({ type: ShopEventTypes.UpdateItemQty, listId, sku, qty });
+                translated.push({ type: ShopEventTypes.UpdateItemQty, bucketName, sku, qty });
                 break;
             }
             case ShopEventTypes.RemoveItem: {
-                const listId = toString(payload.listId) ?? 'cart';
+                const bucketName = toString(payload.bucketName) ?? 'cart';
                 const sku = toString(payload.sku) ?? 'unknown-sku';
-                translated.push({ type: ShopEventTypes.RemoveItem, listId, sku });
+                translated.push({ type: ShopEventTypes.RemoveItem, bucketName, sku });
                 break;
             }
             case ShopEventTypes.ClearCart:
@@ -282,7 +278,7 @@ const agentActions = {
             ...context.forwardedShopEvents,
             {
                 type: ShopEventTypes.AddItem,
-                listId: 'cart',
+                bucketName: PrefabBucketNames.Cart,
                 sku: 'toy-placeholder',
                 name: 'Toy (placeholder)',
                 qty: 1,
@@ -299,7 +295,7 @@ const agentActions = {
             },
             {
                 type: ShopEventTypes.AddItem,
-                listId: 'cart',
+                bucketName: PrefabBucketNames.Cart,
                 sku: 'dog-food-placeholder',
                 name: 'Dog food (placeholder)',
                 qty: 1,
@@ -330,9 +326,9 @@ const agentActions = {
         const selected = context.pendingEvents.find(item => item.id === event.eventId);
         if (!selected) return {};
         return {
-            allowlist: context.allowlist.includes(selected.eventType)
-                ? context.allowlist
-                : [...context.allowlist, selected.eventType],
+            allowbucket: context.allowbucket.includes(selected.eventType)
+                ? context.allowbucket
+                : [...context.allowbucket, selected.eventType],
         };
     }),
 
@@ -341,9 +337,9 @@ const agentActions = {
         const selected = context.pendingEvents.find(item => item.id === event.eventId);
         if (!selected) return {};
         return {
-            denylist: context.denylist.includes(selected.eventType)
-                ? context.denylist
-                : [...context.denylist, selected.eventType],
+            denybucket: context.denybucket.includes(selected.eventType)
+                ? context.denybucket
+                : [...context.denybucket, selected.eventType],
         };
     }),
 

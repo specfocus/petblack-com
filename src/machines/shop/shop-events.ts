@@ -1,5 +1,5 @@
 import type { StorageEventTypes } from '../storage/storage-event-types';
-import type { ShopList } from '@/dialogs/settings/sections/shop/domain/types';
+import type { Bucket } from '@/domain/types';
 import type { ShellyFeedbackEvent } from '@specfocus/shelly/lib/machines/feedback';
 import type { ShopEventTypes } from './shop-event-types';
 
@@ -9,26 +9,17 @@ export interface ShopBootstrapEvent {
 
 export interface ShopHydrateEvent {
     type: `${ShopEventTypes.Hydrate}`;
-    lists: ShopList[];
+    buckets: Record<string, Bucket>;
 }
 
-export interface ShopOpenCartEvent {
-    type: `${ShopEventTypes.OpenCart}`;
-}
-
-export interface ShopOpenAutoshipEvent {
-    type: `${ShopEventTypes.OpenAutoship}`;
+export interface ShopOpenBucketEvent {
+    type: `${ShopEventTypes.OpenBucket}`;
+    name: string;
 }
 
 export interface ShopSearchProductsEvent {
     type: `${ShopEventTypes.SearchProducts}`;
     query: string;
-}
-
-export interface ShopToggleListEnabledEvent {
-    type: `${ShopEventTypes.ToggleListEnabled}`;
-    id: string;
-    enabled: boolean;
 }
 
 export interface ShopCreateCustomListEvent {
@@ -44,7 +35,7 @@ export interface ShopRemoveCustomListEvent {
 
 export interface ShopAddItemEvent {
     type: `${ShopEventTypes.AddItem}`;
-    listId: string;
+    bucketName: string;
     sku: string;
     name: string;
     qty: number;
@@ -52,14 +43,14 @@ export interface ShopAddItemEvent {
 
 export interface ShopUpdateItemQtyEvent {
     type: `${ShopEventTypes.UpdateItemQty}`;
-    listId: string;
+    bucketName: string;
     sku: string;
     qty: number;
 }
 
 export interface ShopRemoveItemEvent {
     type: `${ShopEventTypes.RemoveItem}`;
-    listId: string;
+    bucketName: string;
     sku: string;
 }
 
@@ -88,13 +79,37 @@ export interface ShopStorageLoadedEvent {
     value: unknown;
 }
 
+export interface ShopToggleBucketOpenEvent {
+    type: `${ShopEventTypes.ToggleBucketOpen}`;
+    name: string;
+}
+
+export interface ShopToggleBucketShowEvent {
+    type: `${ShopEventTypes.ToggleBucketShow}`;
+    name: string;
+}
+
+export interface ShopToggleBuddyOpenEvent {
+    type: `${ShopEventTypes.ToggleBuddyOpen}`;
+}
+
+export interface ShopToggleBuddyShowEvent {
+    type: `${ShopEventTypes.ToggleBuddyShow}`;
+}
+
+export interface ShopToggleDebugOpenEvent {
+    type: `${ShopEventTypes.ToggleDebugOpen}`;
+}
+
+export interface ShopToggleDebugShowEvent {
+    type: `${ShopEventTypes.ToggleDebugShow}`;
+}
+
 export type ShopEventUnion =
     | ShopBootstrapEvent
     | ShopHydrateEvent
-    | ShopOpenCartEvent
-    | ShopOpenAutoshipEvent
+    | ShopOpenBucketEvent
     | ShopSearchProductsEvent
-    | ShopToggleListEnabledEvent
     | ShopCreateCustomListEvent
     | ShopRemoveCustomListEvent
     | ShopAddItemEvent
@@ -105,4 +120,10 @@ export type ShopEventUnion =
     | ShopPersistSucceededEvent
     | ShopPersistFailedEvent
     | ShopStorageLoadedEvent
-    | ShellyFeedbackEvent;
+    | ShellyFeedbackEvent
+    | ShopToggleBucketOpenEvent
+    | ShopToggleBucketShowEvent
+    | ShopToggleBuddyOpenEvent
+    | ShopToggleBuddyShowEvent
+    | ShopToggleDebugOpenEvent
+    | ShopToggleDebugShowEvent;
