@@ -139,7 +139,7 @@ const ShopSettingsSection: FC = () => {
 
     const handleAdd = (name: string, icon: string) => {
         sendShopEvent({
-            type: ShopEventTypes.CreateCustomList,
+            type: ShopEventTypes.CreateCustomBucket,
             name,
             icon,
         });
@@ -147,7 +147,7 @@ const ShopSettingsSection: FC = () => {
 
     const handleDelete = (id: string) => {
         sendShopEvent({
-            type: ShopEventTypes.RemoveCustomList,
+            type: ShopEventTypes.RemoveCustomBucket,
             id,
         });
     };

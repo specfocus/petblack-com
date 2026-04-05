@@ -108,7 +108,7 @@ export function addCustomList(buckets: Record<string, Bucket>, name: string, ico
     return { ...buckets, [name]: next };
 }
 
-export function removeCustomList(buckets: Record<string, Bucket>, id: string): Record<string, Bucket> {
+export function removeCustomBucket(buckets: Record<string, Bucket>, id: string): Record<string, Bucket> {
     const bucket = buckets[id];
     if (!bucket || PREFAB_BUCKET_NAMES.includes(bucket.name)) return buckets;
     const { [id]: _removed, ...rest } = buckets;

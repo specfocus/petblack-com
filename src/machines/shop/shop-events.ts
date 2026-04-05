@@ -22,14 +22,14 @@ export interface ShopSearchProductsEvent {
     query: string;
 }
 
-export interface ShopCreateCustomListEvent {
-    type: `${ShopEventTypes.CreateCustomList}`;
+export interface ShopCreateCustomBucketEvent {
+    type: `${ShopEventTypes.CreateCustomBucket}`;
     name: string;
     icon: string;
 }
 
-export interface ShopRemoveCustomListEvent {
-    type: `${ShopEventTypes.RemoveCustomList}`;
+export interface ShopRemoveCustomBucketEvent {
+    type: `${ShopEventTypes.RemoveCustomBucket}`;
     id: string;
 }
 
@@ -110,8 +110,8 @@ export type ShopEventUnion =
     | ShopHydrateEvent
     | ShopOpenBucketEvent
     | ShopSearchProductsEvent
-    | ShopCreateCustomListEvent
-    | ShopRemoveCustomListEvent
+    | ShopCreateCustomBucketEvent
+    | ShopRemoveCustomBucketEvent
     | ShopAddItemEvent
     | ShopUpdateItemQtyEvent
     | ShopRemoveItemEvent

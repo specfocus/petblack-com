@@ -27,31 +27,31 @@ const shopMachine = shopSetup.extend({ actions: shopActions }).createMachine({
                     actions: ['hydrate'],
                 },
                 [ShopEventTypes.OpenBucket]: {
-                    actions: ['openBucket', 'persistLists', 'markPersisted'],
+                    actions: ['openBucket', 'persistBuckets', 'markPersisted'],
                 },
                 [ShopEventTypes.SearchProducts]: {
                     actions: ['searchProducts'],
                 },
-                [ShopEventTypes.CreateCustomList]: {
-                    actions: ['createCustomList', 'persistLists', 'markPersisted'],
+                [ShopEventTypes.CreateCustomBucket]: {
+                    actions: ['createCustomBucket', 'persistBuckets', 'markPersisted'],
                 },
-                [ShopEventTypes.RemoveCustomList]: {
-                    actions: ['removeCustomList', 'persistLists', 'markPersisted'],
+                [ShopEventTypes.RemoveCustomBucket]: {
+                    actions: ['removeCustomBucket', 'persistBuckets', 'markPersisted'],
                 },
                 [ShopEventTypes.AddItem]: {
-                    actions: ['addItemToList', 'persistLists', 'markPersisted'],
+                    actions: ['addItemToBucket', 'persistBuckets', 'markPersisted'],
                 },
                 [ShopEventTypes.UpdateItemQty]: {
-                    actions: ['updateListItemQty', 'persistLists', 'markPersisted'],
+                    actions: ['updateBucketItemQty', 'persistBuckets', 'markPersisted'],
                 },
                 [ShopEventTypes.RemoveItem]: {
-                    actions: ['removeListItem', 'persistLists', 'markPersisted'],
+                    actions: ['removeBucketItem', 'persistBuckets', 'markPersisted'],
                 },
                 [ShopEventTypes.ClearCart]: {
-                    actions: ['clearCart', 'persistLists', 'markPersisted'],
+                    actions: ['clearCart', 'persistBuckets', 'markPersisted'],
                 },
                 [ShopEventTypes.PersistRequested]: {
-                    actions: ['persistLists', 'markPersisted'],
+                    actions: ['persistBuckets', 'markPersisted'],
                 },
                 [ShopEventTypes.PersistFailed]: {
                     actions: ['setPersistError'],

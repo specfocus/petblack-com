@@ -60,8 +60,8 @@ const BuddyWidget: FC = () => {
     const shopMachineDoc = `Shop machine handles bucket toggles, custom buckets, and sku quantity updates.
 Allowed events include:
 - shop.toggleBucketShow { name (bucket id) }
-- shop.createCustomList { name, icon }
-- shop.removeCustomList { name (bucket id) }
+- shop.createCustomBucket { name, icon }
+- shop.removeCustomBucket { name (bucket id) }
 - shop.addItem { bucketName (bucketName), sku, name, qty }
 - shop.updateItemQty { bucketName (bucketName), sku, qty }
 - shop.removeItem { bucketName (bucketName), sku }`;

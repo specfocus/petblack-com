@@ -1,7 +1,7 @@
 import {
     addCustomList,
     addItem,
-    removeCustomList,
+    removeCustomBucket,
     removeItem,
     saveBuckets,
     showBucket,
@@ -17,10 +17,10 @@ import { ShopEventTypes } from './shop-event-types';
 import shopSetup from './shop-setup';
 import type {
     ShopAddItemEvent,
-    ShopCreateCustomListEvent,
+    ShopCreateCustomBucketEvent,
     ShopHydrateEvent,
     ShopSearchProductsEvent,
-    ShopRemoveCustomListEvent,
+    ShopRemoveCustomBucketEvent,
     ShopRemoveItemEvent,
     ShopUpdateItemQtyEvent,
     ShopOpenBucketEvent,
@@ -62,23 +62,23 @@ const shopActions = {
         };
     }),
 
-    createCustomList: assign(({ context, event }) => {
-        const createEvent = event as ShopCreateCustomListEvent;
+    createCustomBucket: assign(({ context, event }) => {
+        const createEvent = event as ShopCreateCustomBucketEvent;
         return {
             buckets: addCustomList(context.buckets, createEvent.name, createEvent.icon),
             dirty: true,
         };
     }),
 
-    removeCustomList: assign(({ context, event }) => {
-        const removeEvent = event as ShopRemoveCustomListEvent;
+    removeCustomBucket: assign(({ context, event }) => {
+        const removeEvent = event as ShopRemoveCustomBucketEvent;
         return {
-            buckets: removeCustomList(context.buckets, removeEvent.id),
+            buckets: removeCustomBucket(context.buckets, removeEvent.id),
             dirty: true,
         };
     }),
 
-    addItemToList: assign(({ context, event }) => {
+    addItemToBucket: assign(({ context, event }) => {
         const addItemEvent = event as ShopAddItemEvent;
         return {
             buckets: addItem(context.buckets, addItemEvent.bucketName, {
@@ -90,7 +90,7 @@ const shopActions = {
         };
     }),
 
-    updateListItemQty: assign(({ context, event }) => {
+    updateBucketItemQty: assign(({ context, event }) => {
         const updateEvent = event as ShopUpdateItemQtyEvent;
         return {
             buckets: updateItemQty(context.buckets, updateEvent.bucketName, updateEvent.sku, updateEvent.qty),
@@ -98,7 +98,7 @@ const shopActions = {
         };
     }),
 
-    removeListItem: assign(({ context, event }) => {
+    removeBucketItem: assign(({ context, event }) => {
         const removeEvent = event as ShopRemoveItemEvent;
         return {
             buckets: removeItem(context.buckets, removeEvent.bucketName, removeEvent.sku),
@@ -165,7 +165,7 @@ const shopActions = {
         };
     }),
 
-    persistLists: ({ context }: { context: ShopContext; }) => {
+    persistBuckets: ({ context }: { context: ShopContext; }) => {
         saveBuckets(context.buckets);
     },
 

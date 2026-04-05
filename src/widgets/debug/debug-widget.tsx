@@ -52,8 +52,8 @@ const DebugWidget: FC = () => {
     const shopMachineDoc = `Debug helper for shop machine.
 Allowed event families:
 - shop.toggleBucketShow
-- shop.createCustomList
-- shop.removeCustomList
+- shop.createCustomBucket
+- shop.removeCustomBucket
 - shop.addItem
 - shop.updateItemQty
 - shop.removeItem
