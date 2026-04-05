@@ -46,6 +46,7 @@ function buildPrefab(id: PrefabBucketName, enabled: boolean): Bucket {
         name: defaults.name,
         icon: defaults.icon,
         enabled,
+        show: enabled,
         prefab: true,
         items: [],
         createdAt: now(),
@@ -79,7 +80,8 @@ export function loadBuckets(): Record<string, Bucket> {
         // Convert array to record, back-filling any new prefabs
         const record: Record<string, Bucket> = {};
         for (const bucket of parsed) {
-            record[bucket.id] = bucket;
+            // Backfill `show` from `enabled` for buckets persisted before `show` was added
+            record[bucket.id] = bucket.show !== undefined ? bucket : { ...bucket, show: bucket.enabled };
         }
         for (const id of Object.values(PrefabBucketNames)) {
             if (!(id in record)) {

@@ -25,7 +25,8 @@ import { useAtom, useAtomValue, useSetAtom } from '@specfocus/atoms/lib/hooks';
 import type { WidgetProps } from '@specfocus/shelly/lib/widgets/widget';
 import Widget from '@specfocus/shelly/lib/widgets/widget';
 import { useMemo, useState, type FC, type FormEvent, type MouseEvent } from 'react';
-import { default as debugOpenAtom, default as debugShowAtom } from './atoms/debug-show-atom';
+import debugOpenAtom from './atoms/debug-open-atom';
+import debugShowAtom from './atoms/debug-show-atom';
 import { BUDDY_PREFAB_REQUESTS } from './prefab-requests';
 
 const PREFAB_TOKEN_REGEX = /^##([a-z0-9-]+)##$/i;

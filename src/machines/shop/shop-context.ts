@@ -22,6 +22,10 @@ export interface CreateShopMachineParams {
 
 export const createInitialShopContext = (input?: CreateShopMachineParams): ShopContext => ({
     buckets: input?.initialLists ?? loadBuckets(),
+    buddyOpen: false,
+    buddyShow: true,
+    debugOpen: false,
+    debugShow: false,
     dirty: false,
     lastError: null,
     activeViewId: null,

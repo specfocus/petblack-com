@@ -15,13 +15,11 @@
 
 import { lazy } from 'react';
 import type { Cleanup, GetterWithPeek, SetterWithRecurse } from '@specfocus/atoms/lib/effect';
-import workspaceTreeAtom from '@specfocus/atoms/lib/workspace';
+import { installWorkspaceEntry, WorkspaceEntryTypes } from '@specfocus/atoms/lib/workspace';
 import { installWidget, WIDGET, type WorkspaceWidgetEntry } from '@specfocus/shelly/lib/widgets/atoms/widget-entry';
-import { WorkspaceEntryTypes } from '@specfocus/atoms/lib/workspace';
-import { BUDDY_WIDGET_PATH } from './buddy-widget-path';
+import { BUDDY_WIDGET_PATH, BUDDY_OPEN_TOGGLE_PATH, BUDDY_SHOW_TOGGLE_PATH } from './buddy-widget-path';
 import buddyShowToggleEntry from './toggles/buddy-show-toggle';
 import buddyOpenToggleEntry from './toggles/buddy-open-toggle';
-import { BUDDY_OPEN_TOGGLE_PATH, BUDDY_SHOW_TOGGLE_PATH } from './buddy-widget-path';
 
 // ── lazy component ────────────────────────────────────────────────────────────
 
@@ -43,16 +41,16 @@ const buddyWidgetEntry: WorkspaceWidgetEntry = {
 
 const installBuddy = (get: GetterWithPeek, set: SetterWithRecurse): Cleanup => {
     // 1. Toggle entries — must be in the tree before the widget reads them
-    set(workspaceTreeAtom(BUDDY_SHOW_TOGGLE_PATH), buddyShowToggleEntry);
-    set(workspaceTreeAtom(BUDDY_OPEN_TOGGLE_PATH), buddyOpenToggleEntry);
+    const cleanupShowToggle = installWorkspaceEntry(get, set, BUDDY_SHOW_TOGGLE_PATH, buddyShowToggleEntry);
+    const cleanupOpenToggle = installWorkspaceEntry(get, set, BUDDY_OPEN_TOGGLE_PATH, buddyOpenToggleEntry);
 
     // 2. Widget entry — <Widgets> renders <BuddyWidgetWrapper> when toggle is true
     const cleanupWidget = installWidget(get, set, buddyWidgetEntry);
 
     return () => {
         cleanupWidget();
-        workspaceTreeAtom.remove(BUDDY_OPEN_TOGGLE_PATH);
-        workspaceTreeAtom.remove(BUDDY_SHOW_TOGGLE_PATH);
+        cleanupOpenToggle();
+        cleanupShowToggle();
     };
 };
 
