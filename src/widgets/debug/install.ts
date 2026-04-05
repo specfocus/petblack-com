@@ -4,7 +4,9 @@ import workspaceTreeAtom, { WorkspaceEntryTypes } from '@specfocus/atoms/lib/wor
 import { installDialAction } from '@specfocus/shelly/lib/widgets/dial/actions/dial-action-entry';
 import { installWidget, WIDGET, type WorkspaceWidgetEntry } from '@specfocus/shelly/lib/widgets/atoms/widget-entry';
 import { DEBUG_WIDGET_PATH } from './debug-widget-path';
-import debugWorkspaceEntry, { DEBUG_TOGGLE_PATH } from './toggles/debug-show-toggle';
+import debugOpenToggleEntry from './toggles/debug-open-toggle';
+import debugShowToggleEntry from './toggles/debug-show-toggle';
+import { DEBUG_WIDGET_PATH, DEBUG_OPEN_TOGGLE_PATH, DEBUG_SHOW_TOGGLE_PATH } from './debug-widget-path';
 
 const LazyDebugWidget = lazy(() => import('./debug-widget'));
 
@@ -19,14 +21,16 @@ const debugWidgetEntry: WorkspaceWidgetEntry = {
 };
 
 const installDebug = (get: GetterWithPeek, set: SetterWithRecurse): Cleanup => {
-    set(workspaceTreeAtom(DEBUG_TOGGLE_PATH), debugWorkspaceEntry);
     const cleanupWidget = installWidget(get, set, debugWidgetEntry);
-    const cleanupDialAction = installDialAction(get, set, 'debug', debugWorkspaceEntry);
+    const cleanupShowToggle = installWorkspaceEntry(get, set, DEBUG_SHOW_TOGGLE_PATH, debugShowToggleEntry);
+    const cleanupOpenToggle = installWorkspaceEntry(get, set, DEBUG_OPEN_TOGGLE_PATH, debugOpenToggleEntry);
+    const cleanupDialActionShow = installDialAction(get, set, 'debug', debugShowToggleEntry);
 
     return () => {
-        cleanupDialAction();
         cleanupWidget();
-        workspaceTreeAtom.remove(DEBUG_TOGGLE_PATH);
+        cleanupShowToggle();
+        cleanupOpenToggle();
+        cleanupDialAction();
     };
 };
 

@@ -21,11 +21,13 @@ import IconButton from "@mui/material/IconButton";
 import InputBase from "@mui/material/InputBase";
 import Paper from "@mui/material/Paper";
 import Typography from "@mui/material/Typography";
-import { useAtomValue, useSetAtom } from '@specfocus/atoms/lib/hooks';
+import { isToggleEntry, noopToggleAtom } from '@specfocus/atoms/lib/toggle';
+import workspaceTreeAtom from '@specfocus/atoms/lib/workspace';
+import { useAtom, useAtomValue, useSetAtom } from '@specfocus/atoms/lib/hooks';
 import type { WidgetProps } from '@specfocus/shelly/lib/widgets/widget';
 import Widget from '@specfocus/shelly/lib/widgets/widget';
 import { FormEvent, useEffect, useMemo, useRef, useState, type FC } from "react";
-import buddyToggleAtom from './atoms/buddy-toggle-atom';
+import { BUDDY_OPEN_TOGGLE_PATH, BUDDY_SHOW_TOGGLE_PATH } from './buddy-widget-path';
 import shopSnapshotAtom from '@/atoms/shop-snapshot-atom';
 import agentActorAtom from '@/atoms/agent-actor-atom';
 import agentSnapshotConversationAtom from '@/atoms/agent-snapshot-conversation-atom';
@@ -47,7 +49,11 @@ function speciesEmoji(species: BuddyProfile["species"]): string {
 }
 
 const BuddyWidget: FC = () => {
-    const [isOpen, setIsOpen] = useState(false);
+    const buddyOpenToggleEntry = useAtomValue(workspaceTreeAtom(BUDDY_OPEN_TOGGLE_PATH));
+    const buddyShowToggleEntry = useAtomValue(workspaceTreeAtom(BUDDY_SHOW_TOGGLE_PATH));
+    const buddyOpenAtom = isToggleEntry(buddyOpenToggleEntry) ? buddyOpenToggleEntry.atom : noopToggleAtom;
+    const buddyShowAtom = isToggleEntry(buddyShowToggleEntry) ? buddyShowToggleEntry.atom : noopToggleAtom;
+    const [isOpen, setIsOpen] = useAtom(buddyOpenAtom as never);
     const [visitorId, setVisitorId] = useState<string | null>(null);
     const [message, setMessage] = useState("");
     const isSending = useAtomValue(agentSnapshotIsSendingAtom);
@@ -56,14 +62,14 @@ const BuddyWidget: FC = () => {
     const shopSnapshot = useAtomValue(shopSnapshotAtom);
     const sendAgentEvent = useSetAtom(agentActorAtom);
 
-    const shopMachineDoc = `Shop machine handles list toggles, custom lists, and sku quantity updates.
+    const shopMachineDoc = `Shop machine handles bucket toggles, custom buckets, and sku quantity updates.
 Allowed events include:
-- shop.toggleListEnabled { id, enabled }
+- shop.toggleListEnabled { name (bucket id), enabled }
 - shop.createCustomList { name, icon }
-- shop.removeCustomList { id }
-- shop.addItem { listId, sku, name, qty }
-- shop.updateItemQty { listId, sku, qty }
-- shop.removeItem { listId, sku }`;
+- shop.removeCustomList { name (bucket id) }
+- shop.addItem { bucketName (listId), sku, name, qty }
+- shop.updateItemQty { bucketName (listId), sku, qty }
+- shop.removeItem { bucketName (listId), sku }`;
 
     useEffect(() => {
         const id = getOrCreateVisitorId();
@@ -123,7 +129,7 @@ Allowed events include:
 
     return (
         <Widget
-            openAtom={buddyToggleAtom as WidgetProps['openAtom']}
+            openAtom={buddyShowAtom as WidgetProps['openAtom']}
             defaultCorner="bottom-right"
             sx={isOpen ? undefined : { overflow: 'visible', background: 'transparent', boxShadow: 'none' }}
         >

@@ -12,7 +12,6 @@
 import { lazy } from 'react';
 import type { Cleanup, GetterWithPeek, SetterWithRecurse } from '@specfocus/atoms/lib/effect';
 import workspaceTreeAtom, { WorkspaceEntryTypes } from '@specfocus/atoms/lib/workspace';
-import { installDialAction } from '@specfocus/shelly/lib/widgets/dial/actions/dial-action-entry';
 import { installWidget, WIDGET, type WorkspaceWidgetEntry } from '@specfocus/shelly/lib/widgets/atoms/widget-entry';
 import { LIST_WIDGET_PATH } from './list-path';
 import listWorkspaceEntry, { LIST_TOGGLE_PATH } from './toggles/list-show-toggle';
@@ -42,11 +41,7 @@ const installList = (get: GetterWithPeek, set: SetterWithRecurse): Cleanup => {
     // 2. Widget entry — <Widgets> renders <ListWidget> when toggle is true
     const cleanupWidget = installWidget(get, set, listWidgetEntry);
 
-    // 3. Dial button — adds the 📋 button to the speed-dial
-    const cleanupDialAction = installDialAction(get, set, 'list', listWorkspaceEntry);
-
     return () => {
-        cleanupDialAction();
         cleanupWidget();
         workspaceTreeAtom.remove(LIST_TOGGLE_PATH);
     };

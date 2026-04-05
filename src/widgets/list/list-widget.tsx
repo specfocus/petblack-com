@@ -1,10 +1,10 @@
 'use client';
 
 /**
- * Generic List Widget
+ * Shop List Widget
  *
- * Renders for: want / need / have / auto / custom lists.
- * FAB → expanded panel showing items with qty controls.
+ * Single-list widget instance.
+ * Each list is installed independently in the workspace tree.
  */
 
 import AddRoundedIcon from '@mui/icons-material/AddRounded';
@@ -17,29 +17,52 @@ import Paper from '@mui/material/Paper';
 import Typography from '@mui/material/Typography';
 import type { WidgetProps } from '@specfocus/shelly/lib/widgets/widget';
 import Widget from '@specfocus/shelly/lib/widgets/widget';
-import { useAtom } from '@specfocus/atoms/lib/hooks';
-import { type FC, type ReactNode, useState } from 'react';
-import shopListsAtom from '@/dialogs/settings/sections/shop/atoms/shop-lists-atom';
-import { addItem, removeItem, updateItemQty } from '@/dialogs/settings/sections/shop/domain/storage';
-import listToggleAtom from './atoms/list-toggle-atom';
-import { PrefabListIds } from '@/dialogs/settings/sections/shop/domain/types';
+import { isToggleEntry, noopToggleAtom } from '@specfocus/atoms/lib/toggle';
+import workspaceTreeAtom from '@specfocus/atoms/lib/workspace';
+import { useAtom, useAtomValue, useSetAtom } from '@specfocus/atoms/lib/hooks';
+import { type FC, type ReactNode, useMemo, useState } from 'react';
+import shopSnapshotListsAtom from '@/atoms/shop-snapshot-lists-atom';
+import shopActorAtom from '@/atoms/shop-actor-atom';
+import { ShopEventTypes } from '@/machines/shop/shop-event-types';
+import {
+    getShopListOpenTogglePath,
+    getShopListShowTogglePath,
+} from './shop-list-widget-registry';
 
 interface ListWidgetProps {
     listId?: string;
 }
 
-const ListWidget: FC<ListWidgetProps> = ({ listId = PrefabListIds.Want }) => {
-    const [lists, setLists] = useAtom(shopListsAtom);
-    const [isOpen, setIsOpen] = useState(false);
-    const [skuInput, setSkuInput] = useState('');
+const fallbackListOpenAtom = noopToggleAtom;
+const fallbackListShowAtom = noopToggleAtom;
 
-    const list = lists.find(l => l.id === listId);
+const ListWidget: FC<ListWidgetProps> = ({ listId = 'want' }) => {
+    const lists = useAtomValue(shopSnapshotListsAtom);
+    const sendShopEvent = useSetAtom(shopActorAtom);
+    const openTogglePath = useMemo(() => getShopListOpenTogglePath(listId), [listId]);
+    const showTogglePath = useMemo(() => getShopListShowTogglePath(listId), [listId]);
+    const listOpenToggleEntry = useAtomValue(workspaceTreeAtom(openTogglePath));
+    const listShowToggleEntry = useAtomValue(workspaceTreeAtom(showTogglePath));
+    const listOpenAtom = isToggleEntry(listOpenToggleEntry) ? listOpenToggleEntry.atom : fallbackListOpenAtom;
+    const listShowAtom = isToggleEntry(listShowToggleEntry) ? listShowToggleEntry.atom : fallbackListShowAtom;
+    const [isOpen, setIsOpen] = useAtom(listOpenAtom as never);
+    const [skuInput, setSkuInput] = useState('');
+    const list = lists.find((entry) => entry.id === listId);
+
     if (!list) return null;
+
+    const totalQty = list.items.reduce((sum, item) => sum + item.qty, 0);
 
     const handleAddSku = () => {
         const sku = skuInput.trim();
         if (!sku) return;
-        setLists(prev => addItem(prev, listId, { sku, name: sku, qty: 1 }));
+        sendShopEvent({
+            type: ShopEventTypes.AddItem,
+            listId: list.id,
+            sku,
+            name: sku,
+            qty: 1,
+        });
         setSkuInput('');
     };
 
@@ -61,7 +84,7 @@ const ListWidget: FC<ListWidgetProps> = ({ listId = PrefabListIds.Want }) => {
 
     return (
         <Widget
-            openAtom={listToggleAtom as WidgetProps['openAtom']}
+            openAtom={listShowAtom as WidgetProps['openAtom']}
             defaultCorner="bottom-right"
             sx={isOpen ? undefined : { overflow: 'visible', background: 'transparent', boxShadow: 'none' }}
         >
@@ -101,10 +124,35 @@ const ListWidget: FC<ListWidgetProps> = ({ listId = PrefabListIds.Want }) => {
                                     <Typography variant="body2" sx={{ flex: 1, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
                                         {item.name}
                                     </Typography>
-                                    <QtyButton onClick={() => setLists(prev => updateItemQty(prev, listId, item.sku, item.qty - 1))}>−</QtyButton>
+                                    <QtyButton
+                                        onClick={() => sendShopEvent({
+                                            type: ShopEventTypes.UpdateItemQty,
+                                            listId: list.id,
+                                            sku: item.sku,
+                                            qty: item.qty - 1,
+                                        })}
+                                    >
+                                        −
+                                    </QtyButton>
                                     <Typography variant="body2" sx={{ minWidth: 20, textAlign: 'center' }}>{item.qty}</Typography>
-                                    <QtyButton onClick={() => setLists(prev => updateItemQty(prev, listId, item.sku, item.qty + 1))}>+</QtyButton>
-                                    <IconButton size="small" onClick={() => setLists(prev => removeItem(prev, listId, item.sku))}>
+                                    <QtyButton
+                                        onClick={() => sendShopEvent({
+                                            type: ShopEventTypes.UpdateItemQty,
+                                            listId: list.id,
+                                            sku: item.sku,
+                                            qty: item.qty + 1,
+                                        })}
+                                    >
+                                        +
+                                    </QtyButton>
+                                    <IconButton
+                                        size="small"
+                                        onClick={() => sendShopEvent({
+                                            type: ShopEventTypes.RemoveItem,
+                                            listId: list.id,
+                                            sku: item.sku,
+                                        })}
+                                    >
                                         <DeleteRoundedIcon sx={{ fontSize: 16 }} />
                                     </IconButton>
                                 </Box>
@@ -128,11 +176,40 @@ const ListWidget: FC<ListWidgetProps> = ({ listId = PrefabListIds.Want }) => {
                 </Paper>
             ) : (
                 <IconButton
-                    aria-label={`Open ${list.name}`}
+                    aria-label={`Open ${list.name} bucket`}
                     onClick={() => setIsOpen(true)}
-                    sx={{ width: 52, height: 52, bgcolor: 'grey.900', color: 'common.white', boxShadow: '0 8px 24px rgba(0,0,0,0.3)', '&:hover': { bgcolor: 'grey.800' } }}
+                    sx={{
+                        width: 52,
+                        height: 52,
+                        bgcolor: 'grey.900',
+                        color: 'common.white',
+                        boxShadow: '0 8px 24px rgba(0,0,0,0.3)',
+                        '&:hover': { bgcolor: 'grey.800' },
+                        position: 'relative',
+                    }}
                 >
                     <Typography sx={{ fontSize: 22, lineHeight: 1 }}>{list.icon}</Typography>
+                    {totalQty > 0 && (
+                        <Box
+                            sx={{
+                                position: 'absolute',
+                                top: -2,
+                                right: -2,
+                                minWidth: 20,
+                                height: 20,
+                                borderRadius: '999px',
+                                px: 0.5,
+                                bgcolor: 'error.main',
+                                color: 'error.contrastText',
+                                fontSize: 11,
+                                display: 'grid',
+                                placeItems: 'center',
+                                fontWeight: 700,
+                            }}
+                        >
+                            {totalQty}
+                        </Box>
+                    )}
                 </IconButton>
             )}
         </Widget>

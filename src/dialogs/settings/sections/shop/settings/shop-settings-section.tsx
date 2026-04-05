@@ -2,31 +2,32 @@
 
 import AddRoundedIcon from '@mui/icons-material/AddRounded';
 import DeleteRoundedIcon from '@mui/icons-material/DeleteRounded';
-import ShoppingCartRoundedIcon from '@mui/icons-material/ShoppingCartRounded';
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
-import Checkbox from '@mui/material/Checkbox';
 import Chip from '@mui/material/Chip';
 import Dialog from '@mui/material/Dialog';
 import DialogActions from '@mui/material/DialogActions';
 import DialogContent from '@mui/material/DialogContent';
 import DialogTitle from '@mui/material/DialogTitle';
 import Divider from '@mui/material/Divider';
-import FormControlLabel from '@mui/material/FormControlLabel';
 import IconButton from '@mui/material/IconButton';
 import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
 import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
 import TextField from '@mui/material/TextField';
-import Tooltip from '@mui/material/Tooltip';
 import Typography from '@mui/material/Typography';
 import { useAtomValue, useSetAtom } from '@specfocus/atoms/lib/hooks';
+import { ToggleVariants } from '@specfocus/atoms/lib/toggle';
+import { Sizes } from '@specfocus/atoms/lib/workspace';
+import WorkspaceToggle from '@specfocus/shelly/lib/components/toggle';
 import { type FC, useState } from 'react';
 import { PET_ICONS, PrefabListIds } from '../domain/types';
 import shopSnapshotListsAtom from '@/atoms/shop-snapshot-lists-atom';
 import shopActorAtom from '@/atoms/shop-actor-atom';
 import { ShopEventTypes } from '@/machines/shop/shop-event-types';
+import { CART_SHOW_TOGGLE_PATH } from '@/widgets/cart/cart-path';
+import { getShopListShowTogglePath } from '@/widgets/list/shop-list-widget-registry';
 
 // ── Icon picker dialog ─────────────────────────────────────────────────────────
 
@@ -92,10 +93,10 @@ const AddListDialog: FC<AddListDialogProps> = ({ open, onClose, onAdd }) => {
     return (
         <>
             <Dialog open={open} onClose={onClose} maxWidth="xs" fullWidth>
-                <DialogTitle>New list</DialogTitle>
+                <DialogTitle>New bucket</DialogTitle>
                 <DialogContent sx={{ display: 'flex', flexDirection: 'column', gap: 2, pt: 2 }}>
                     <TextField
-                        label="List name"
+                        label="Bucket name"
                         value={name}
                         onChange={e => setName(e.target.value)}
                         autoFocus
@@ -137,57 +138,41 @@ const ShopSettingsSection: FC = () => {
     const prefabs = lists.filter(l => l.prefab);
     const custom = lists.filter(l => !l.prefab);
 
-    const handleToggle = (id: string, enabled: boolean) => {
-        sendShopEvent({ type: ShopEventTypes.ToggleListEnabled, id, enabled });
-    };
-
     const handleAdd = (name: string, icon: string) => {
-        sendShopEvent({ type: ShopEventTypes.CreateCustomList, name, icon });
+        sendShopEvent({
+            type: ShopEventTypes.CreateCustomList,
+            name,
+            icon,
+        } as never);
     };
 
     const handleDelete = (id: string) => {
-        sendShopEvent({ type: ShopEventTypes.RemoveCustomList, id });
+        sendShopEvent({
+            type: ShopEventTypes.RemoveCustomList,
+            id,
+        } as never);
     };
 
     return (
         <Box sx={{ p: 2, maxWidth: 480 }}>
             {/* ── Prefab lists ── */}
             <Typography variant="subtitle2" color="text.secondary" gutterBottom>
-                Built-in lists
+                Built-in buckets
             </Typography>
             <List disablePadding dense>
-                {prefabs.map(list => {
-                    const isCart = list.id === PrefabListIds.Cart;
-                    return (
-                        <ListItem key={list.id} disableGutters>
-                            <ListItemIcon sx={{ minWidth: 36, fontSize: 22 }}>
-                                {list.icon}
-                            </ListItemIcon>
-                            <ListItemText
-                                primary={list.name}
-                                secondary={isCart ? 'Always enabled' : undefined}
-                            />
-                            {isCart ? (
-                                <Tooltip title="Cart is always enabled">
-                                    <span>
-                                        <Checkbox checked disabled />
-                                    </span>
-                                </Tooltip>
-                            ) : (
-                                <FormControlLabel
-                                    control={
-                                        <Checkbox
-                                            checked={list.enabled}
-                                            onChange={e => handleToggle(list.id, e.target.checked)}
-                                        />
-                                    }
-                                    label=""
-                                    sx={{ m: 0 }}
-                                />
-                            )}
-                        </ListItem>
-                    );
-                })}
+                {prefabs.map(list => (
+                    <ListItem key={list.id} disableGutters>
+                        <ListItemIcon sx={{ minWidth: 36, fontSize: 22 }}>
+                            {list.icon}
+                        </ListItemIcon>
+                        <ListItemText primary={list.name} />
+                        <WorkspaceToggle
+                            path={list.id === PrefabListIds.Cart ? CART_SHOW_TOGGLE_PATH : getShopListShowTogglePath(list.id)}
+                            variant={ToggleVariants.Switch}
+                            size={Sizes.Small}
+                        />
+                    </ListItem>
+                ))}
             </List>
 
             <Divider sx={{ my: 2 }} />
@@ -195,20 +180,20 @@ const ShopSettingsSection: FC = () => {
             {/* ── Custom lists ── */}
             <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', mb: 1 }}>
                 <Typography variant="subtitle2" color="text.secondary">
-                    My pet lists
+                    My pet buckets
                 </Typography>
                 <Button
                     size="small"
                     startIcon={<AddRoundedIcon />}
                     onClick={() => setAddOpen(true)}
                 >
-                    New list
+                    New bucket
                 </Button>
             </Box>
 
             {custom.length === 0 ? (
                 <Typography variant="body2" color="text.disabled" sx={{ py: 1 }}>
-                    No custom lists yet. Create one for each of your pets!
+                    No custom buckets yet. Create one for each of your pets!
                 </Typography>
             ) : (
                 <List disablePadding dense>
@@ -232,6 +217,11 @@ const ShopSettingsSection: FC = () => {
                             </ListItemIcon>
                             <ListItemText primary={list.name} />
                             <Chip label="custom" size="small" sx={{ mr: 1, fontSize: 10 }} />
+                            <WorkspaceToggle
+                                path={getShopListShowTogglePath(list.id)}
+                                variant={ToggleVariants.Switch}
+                                size={Sizes.Small}
+                            />
                         </ListItem>
                     ))}
                 </List>

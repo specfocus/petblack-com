@@ -3,7 +3,7 @@ import type { ToggleEntry } from '@specfocus/atoms/lib/toggle';
 import { ToggleVariants } from '@specfocus/atoms/lib/toggle';
 import { WorkspaceEntryTypes, Sizes } from '@specfocus/atoms/lib/workspace';
 import { CART_TOGGLE_PATH } from '../cart-path';
-import cartToggleAtom from '../atoms/cart-toggle-atom';
+import cartShowAtom from '../atoms/cart-show-atom';
 
 export const cartShowToggleEntry: ToggleEntry = {
     type: WorkspaceEntryTypes.Ephemeral,
@@ -13,7 +13,7 @@ export const cartShowToggleEntry: ToggleEntry = {
     label: 'petblack.widgets.cart.toggles.show.label',
     tooltip: 'petblack.widgets.cart.toggles.show.tooltip',
     size: Sizes.Small,
-    atom: cartToggleAtom,
+    atom: cartShowAtom,
     resource: {
         '@type': 'toggle',
         data: {},
@@ -22,6 +22,5 @@ export const cartShowToggleEntry: ToggleEntry = {
     },
 };
 
-export const cartWorkspaceEntry = cartShowToggleEntry;
 export { CART_TOGGLE_PATH };
-export default cartWorkspaceEntry;
+export default cartShowToggleEntry;
