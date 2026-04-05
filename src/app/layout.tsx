@@ -26,8 +26,18 @@ export const metadata: Metadata = {
         title: 'PetBLACK',
     },
     icons: {
-        icon: [{ url: '/icon', type: 'image/png' }],
-        apple: [{ url: '/apple-icon', type: 'image/png' }],
+        icon: [
+            { url: '/icons/icon.svg', type: 'image/svg+xml' },
+            { url: '/icons/icon-192x192.png', sizes: '192x192', type: 'image/png' },
+            { url: '/icons/icon-512x512.png', sizes: '512x512', type: 'image/png' },
+        ],
+        apple: [
+            { url: '/icons/apple-icon-120x120.png', sizes: '120x120', type: 'image/png' },
+            { url: '/icons/apple-icon-152x152.png', sizes: '152x152', type: 'image/png' },
+            { url: '/icons/apple-icon-167x167.png', sizes: '167x167', type: 'image/png' },
+            { url: '/icons/apple-icon-180x180.png', sizes: '180x180', type: 'image/png' },
+        ],
+        shortcut: [{ url: '/icons/lowres.png', sizes: '48x48', type: 'image/png' }],
     },
 };
 
