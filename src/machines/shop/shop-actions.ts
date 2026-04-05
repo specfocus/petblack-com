@@ -24,6 +24,8 @@ import type {
     ShopRemoveItemEvent,
     ShopToggleListEnabledEvent,
     ShopUpdateItemQtyEvent,
+    ShopToggleBucketOpenEvent,
+    ShopToggleBucketShowEvent,
 } from './shop-events';
 
 const { assign } = shopSetup;
@@ -117,12 +119,10 @@ const shopActions = {
         dirty: true,
     })),
 
-    openAutoship: assign(({ context }) => {
-        return {
-            buckets: setListEnabled(context.buckets, 'auto', true),
-            dirty: true,
-        };
-    }),
+    openAutoship: assign(({ context }) => ({
+        buckets: setListEnabled(context.buckets, 'auto', true),
+        dirty: true,
+    })),
 
     clearCart: assign(({ context }) => {
         const cart = context.buckets['cart'];
@@ -132,6 +132,40 @@ const shopActions = {
             dirty: true,
         };
     }),
+
+    toggleBucketOpen: assign(({ context, event }) => {
+        const { name } = event as ShopToggleBucketOpenEvent;
+        const bucket = context.buckets[name];
+        if (!bucket) return {};
+        return {
+            buckets: { ...context.buckets, [name]: { ...bucket, open: !bucket.open } },
+        };
+    }),
+
+    toggleBucketShow: assign(({ context, event }) => {
+        const { name } = event as ShopToggleBucketShowEvent;
+        const bucket = context.buckets[name];
+        if (!bucket) return {};
+        return {
+            buckets: { ...context.buckets, [name]: { ...bucket, show: !bucket.show } },
+        };
+    }),
+
+    toggleBuddyOpen: assign(({ context }) => ({
+        buddyOpen: !context.buddyOpen,
+    })),
+
+    toggleBuddyShow: assign(({ context }) => ({
+        buddyShow: !context.buddyShow,
+    })),
+
+    toggleDebugOpen: assign(({ context }) => ({
+        debugOpen: !context.debugOpen,
+    })),
+
+    toggleDebugShow: assign(({ context }) => ({
+        debugShow: !context.debugShow,
+    })),
 
     searchProducts: assign(({ context, event }) => {
         const searchEvent = event as ShopSearchProductsEvent;

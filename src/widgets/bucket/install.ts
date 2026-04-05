@@ -17,12 +17,12 @@ import { installWidget, WIDGET, type WorkspaceWidgetEntry } from '@specfocus/she
 import { WIDGETS_PATH } from '../widgets-path';
 import { loadBuckets } from '../../dialogs/settings/sections/shop/domain/storage';
 import shopSnapshotAtom from '@/atoms/shop-snapshot-atom';
+import shopActorAtom from '@/atoms/shop-actor-atom';
 import { TOGGLE, type ToggleAtom } from '@specfocus/atoms/lib/toggle';
 import atom, { Getter, Setter } from '@specfocus/atoms/lib/atom';
 import { ShopEventTypes } from '@/machines/shop/shop-event-types';
 import type { ToggleEntry } from '@specfocus/atoms/lib/toggle';
 import { ToggleVariants } from '@specfocus/atoms/lib/toggle';
-import type { Bucket } from '@/dialogs/settings/sections/shop/domain/types';
 
 // ── lazy component ────────────────────────────────────────────────────────────
 
@@ -37,18 +37,18 @@ const installBuckets = (get: GetterWithPeek, set: SetterWithRecurse): Cleanup =>
 
     for (const name in buckets) {
         const bucketOpenAtom: ToggleAtom = atom(
-            (get: Getter): boolean | undefined => get(shopSnapshotAtom).context.buckets.find((bucket: Bucket) => bucket.name === name)?.open,
+            (get: Getter): boolean | undefined => get(shopSnapshotAtom).context.buckets[name]?.open,
             (_get: Getter, set: Setter, _next?: boolean): void => {
-                set(shopSnapshotAtom, { type: ShopEventTypes.ToggleBucketOpen, name });
+                set(shopActorAtom, { type: ShopEventTypes.ToggleBucketOpen, name });
             }
         );
 
         bucketOpenAtom.debugLabel = `${name}OpenAtom`;
 
         const bucketShowAtom: ToggleAtom = atom(
-            (get: Getter): boolean | undefined => get(shopSnapshotAtom).context.buckets.find((bucket: Bucket) => bucket.name === name)?.show,
+            (get: Getter): boolean | undefined => get(shopSnapshotAtom).context.buckets[name]?.show,
             (_get: Getter, set: Setter, _next?: boolean): void => {
-                set(shopSnapshotAtom, { type: ShopEventTypes.ToggleBucketShow, name });
+                set(shopActorAtom, { type: ShopEventTypes.ToggleBucketShow, name });
             }
         );
 

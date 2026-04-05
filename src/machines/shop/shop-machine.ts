@@ -62,6 +62,24 @@ const shopMachine = shopSetup.extend({ actions: shopActions }).createMachine({
                 [ShopEventTypes.PersistFailed]: {
                     actions: ['setPersistError'],
                 },
+                [ShopEventTypes.ToggleBucketOpen]: {
+                    actions: ['toggleBucketOpen'],
+                },
+                [ShopEventTypes.ToggleBucketShow]: {
+                    actions: ['toggleBucketShow'],
+                },
+                [ShopEventTypes.ToggleBuddyOpen]: {
+                    actions: ['toggleBuddyOpen'],
+                },
+                [ShopEventTypes.ToggleBuddyShow]: {
+                    actions: ['toggleBuddyShow'],
+                },
+                [ShopEventTypes.ToggleDebugOpen]: {
+                    actions: ['toggleDebugOpen'],
+                },
+                [ShopEventTypes.ToggleDebugShow]: {
+                    actions: ['toggleDebugShow'],
+                },
             },
         },
     },

@@ -135,22 +135,22 @@ const ShopSettingsSection: FC = () => {
     const sendShopEvent = useSetAtom(shopActorAtom);
     const [addOpen, setAddOpen] = useState(false);
 
-    const prefabs = buckets.filter(l => l.prefab);
-    const custom = buckets.filter(l => !l.prefab);
+    const prefabs = Object.values(buckets).filter(l => l.prefab);
+    const custom = Object.values(buckets).filter(l => !l.prefab);
 
     const handleAdd = (name: string, icon: string) => {
         sendShopEvent({
             type: ShopEventTypes.CreateCustomList,
             name,
             icon,
-        } as never);
+        });
     };
 
     const handleDelete = (id: string) => {
         sendShopEvent({
             type: ShopEventTypes.RemoveCustomList,
             id,
-        } as never);
+        });
     };
 
     return (

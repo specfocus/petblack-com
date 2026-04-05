@@ -44,7 +44,7 @@ const BucketWidget: FC<BucketWidgetProps> = ({ bucketName = 'want' }) => {
     const bucketShowAtom = isToggleEntry(bucketShowToggleEntry) ? bucketShowToggleEntry.atom : fallbackListShowAtom;
     const [isOpen, setIsOpen] = useAtom(bucketOpenAtom as never);
     const [skuInput, setSkuInput] = useState('');
-    const bucket = buckets.find((entry) => entry.id === bucketName);
+    const bucket = buckets[bucketName];
 
     if (!bucket) return null;
 

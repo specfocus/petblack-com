@@ -13,11 +13,11 @@ import {
 } from '../domain/storage';
 import type { Bucket } from '../domain/types';
 
-type Updater = (prev: Bucket[]) => Bucket[];
+type Updater = (prev: Record<string, Bucket>) => Record<string, Bucket>;
 
-const _bucketsStateAtom = atom<Bucket[]>(loadBuckets());
+const _bucketsStateAtom = atom<Record<string, Bucket>>(loadBuckets());
 
-const bucketsAtom = atom<Bucket[], [Bucket[] | Updater], void>(
+const bucketsAtom = atom<Record<string, Bucket>, [Record<string, Bucket> | Updater], void>(
     (get) => get(_bucketsStateAtom),
     (get, set, update) => {
         const prev = get(_bucketsStateAtom);
