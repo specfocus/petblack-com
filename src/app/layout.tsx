@@ -1,5 +1,6 @@
 import { AppRouterCacheProvider } from '@mui/material-nextjs/v16-appRouter';
 import type { Metadata } from "next";
+import type { Viewport } from 'next';
 import { Geist, Geist_Mono } from "next/font/google";
 import ShellProviders from './shell-providers';
 import './globals.css';
@@ -15,8 +16,23 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-    title: "petblack",
-    description: "petblack",
+    title: 'PetBLACK',
+    description: 'PetBLACK shopping and companion experience',
+    manifest: '/manifest.webmanifest',
+    applicationName: 'PetBLACK',
+    appleWebApp: {
+        capable: true,
+        statusBarStyle: 'black-translucent',
+        title: 'PetBLACK',
+    },
+    icons: {
+        icon: [{ url: '/icon', type: 'image/png' }],
+        apple: [{ url: '/apple-icon', type: 'image/png' }],
+    },
+};
+
+export const viewport: Viewport = {
+    themeColor: '#000000',
 };
 
 export default function RootLayout({
