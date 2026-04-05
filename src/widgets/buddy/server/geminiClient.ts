@@ -69,6 +69,20 @@ export async function generateBuddyResponseWithGemini(
               reply: { type: "STRING" },
               emotion: { type: "STRING" },
               action: { type: "STRING" },
+              events: {
+                type: "ARRAY",
+                items: {
+                  type: "OBJECT",
+                  properties: {
+                    id: { type: "STRING" },
+                    target: { type: "STRING" },
+                    eventType: { type: "STRING" },
+                    payload: { type: "OBJECT" },
+                    reason: { type: "STRING" },
+                  },
+                  required: ["id", "target", "eventType"],
+                },
+              },
             },
             required: ["reply", "emotion"],
           },

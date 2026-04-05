@@ -1,4 +1,4 @@
-import { BuddyEmotions, type BuddyChatOutput, type BuddyEmotion } from "../domain/types";
+import { BuddyEmotions, type BuddyChatOutput, type BuddyEmotion, type BuddyProposedEvent } from "../domain/types";
 
 const MAX_REPLY_LENGTH = 240;
 
@@ -70,15 +70,31 @@ export function parseBuddyModelResponse(rawText: string): Omit<BuddyChatOutput, 
         return null;
     }
 
-    const candidate = parsed as { reply?: unknown; emotion?: unknown; action?: unknown; };
+    const candidate = parsed as { reply?: unknown; emotion?: unknown; action?: unknown; events?: unknown; };
     const reply = toReply(candidate.reply);
     if (!reply) {
         return null;
     }
 
+    const events: BuddyProposedEvent[] = Array.isArray(candidate.events)
+        ? candidate.events.flatMap((event): BuddyProposedEvent[] => {
+            if (!event || typeof event !== 'object') return [];
+            const typedEvent = event as Record<string, unknown>;
+            const id = typeof typedEvent.id === 'string' ? typedEvent.id.trim() : '';
+            const target = typedEvent.target;
+            const eventType = typeof typedEvent.eventType === 'string' ? typedEvent.eventType.trim() : '';
+            const payload = typedEvent.payload;
+            const reason = typeof typedEvent.reason === 'string' ? typedEvent.reason.trim() : undefined;
+            if (!id || !eventType || target !== 'shop') return [];
+            const parsedPayload = payload && typeof payload === 'object' ? payload as Record<string, unknown> : undefined;
+            return [{ id, target: 'shop', eventType, payload: parsedPayload, reason }];
+        })
+        : [];
+
     return {
         reply,
         emotion: toEmotion(candidate.emotion),
         action: typeof candidate.action === "string" ? candidate.action.trim() : undefined,
+        events,
     };
 }

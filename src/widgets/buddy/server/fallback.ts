@@ -29,6 +29,7 @@ export function buildFallbackBuddyReply(
     reply: `${prefix} ${pickFallbackLine(`${buddy.visitorId}:${reason}`)}`,
     emotion: BuddyEmotions.curious,
     action: "tail_wag",
+    events: [],
     source: "fallback",
   };
 }

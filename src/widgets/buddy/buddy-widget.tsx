@@ -22,10 +22,14 @@ import IconButton from "@mui/material/IconButton";
 import InputBase from "@mui/material/InputBase";
 import Paper from "@mui/material/Paper";
 import Typography from "@mui/material/Typography";
+import { useAtomValue, useSetAtom } from '@specfocus/atoms/lib/hooks';
 import type { WidgetProps } from '@specfocus/shelly/lib/widgets/widget';
 import Widget from '@specfocus/shelly/lib/widgets/widget';
 import { FormEvent, useEffect, useMemo, useRef, useState, type FC } from "react";
 import buddyToggleAtom from './atoms/buddy-toggle-atom';
+import shopSnapshotAtom from '@/atoms/shop-snapshot-atom';
+import agentActorAtom from '@/atoms/agent-actor-atom';
+import { AgentEventTypes } from '@/machines/agent/agent-event-types';
 
 interface ChatLine {
     id: string;
@@ -61,6 +65,17 @@ const BuddyWidget: FC = () => {
     const [isSending, setIsSending] = useState(false);
     const [chat, setChat] = useState<ChatLine[]>([]);
     const listRef = useRef<HTMLDivElement>(null);
+    const shopSnapshot = useAtomValue(shopSnapshotAtom);
+    const sendAgentEvent = useSetAtom(agentActorAtom);
+
+    const shopMachineDoc = `Shop machine handles list toggles, custom lists, and sku quantity updates.
+Allowed events include:
+- shop.toggleListEnabled { id, enabled }
+- shop.createCustomList { name, icon }
+- shop.removeCustomList { id }
+- shop.addItem { listId, sku, name, qty }
+- shop.updateItemQty { listId, sku, qty }
+- shop.removeItem { listId, sku }`;
 
     useEffect(() => {
         const id = getOrCreateVisitorId();
@@ -107,6 +122,7 @@ const BuddyWidget: FC = () => {
         setChat(prev => [...prev, userLine]);
         setMessage("");
         setIsSending(true);
+        sendAgentEvent({ type: AgentEventTypes.UserMessageReceived, message: userLine.text });
 
         try {
             const response = await fetch("/api/buddy/chat", {
@@ -116,6 +132,11 @@ const BuddyWidget: FC = () => {
                     visitorId: profile.visitorId,
                     message: userLine.text,
                     buddy: profile,
+                    shopSnapshot: {
+                        stateValue: String(shopSnapshot.value),
+                        context: shopSnapshot.context,
+                    },
+                    shopMachineDoc,
                 }),
             });
 
@@ -125,6 +146,19 @@ const BuddyWidget: FC = () => {
                 const data = (await response.json()) as BuddyChatOutput;
                 modelReply = data.reply;
                 modelEmotion = data.emotion;
+                if (Array.isArray(data.events) && data.events.length > 0) {
+                    sendAgentEvent({
+                        type: AgentEventTypes.ModelResponseReceived,
+                        reply: data.reply,
+                        events: data.events.map(event => ({
+                            id: event.id,
+                            target: 'shop',
+                            eventType: event.eventType,
+                            payload: event.payload,
+                            reason: event.reason,
+                        })),
+                    });
+                }
             }
 
             if (modelEmotion) {

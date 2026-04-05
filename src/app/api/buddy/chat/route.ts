@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 import { buildFallbackBuddyReply } from "@/widgets/buddy/server/fallback";
 import { generateBuddyResponseWithGemini, hasGeminiConfig } from "@/widgets/buddy/server/geminiClient";
-import { buildBuddyPrompt } from "@/widgets/buddy/server/promptBuilder";
+import { buildBuddyPromptWithMachineContext } from "@/widgets/buddy/server/promptBuilder";
 import { parseBuddyModelResponse } from "@/widgets/buddy/server/responseSchema";
 import type { BuddyChatInput, BuddyProfile } from "@/widgets/buddy/domain/types";
 
@@ -39,7 +39,19 @@ function isBuddyChatInput(input: unknown): input is BuddyChatInput {
     return (
         typeof candidate.visitorId === "string" &&
         typeof candidate.message === "string" &&
-        isBuddyProfile(candidate.buddy)
+        isBuddyProfile(candidate.buddy) &&
+        (
+            typeof candidate.shopSnapshot === 'undefined' ||
+            (
+                candidate.shopSnapshot !== null &&
+                typeof candidate.shopSnapshot === 'object' &&
+                typeof (candidate.shopSnapshot as Record<string, unknown>).stateValue === 'string'
+            )
+        ) &&
+        (
+            typeof candidate.shopMachineDoc === 'undefined' ||
+            typeof candidate.shopMachineDoc === 'string'
+        )
     );
 }
 
@@ -98,7 +110,10 @@ export async function POST(req: Request) {
     }
 
     try {
-        const prompt = buildBuddyPrompt(input.buddy, input.message);
+        const prompt = buildBuddyPromptWithMachineContext(input.buddy, input.message, {
+            shopSnapshot: input.shopSnapshot,
+            shopMachineDoc: input.shopMachineDoc,
+        });
         const gemini = await generateBuddyResponseWithGemini(prompt);
         const raw = gemini.text;
         const parsed = parseBuddyModelResponse(raw);

@@ -21,15 +21,12 @@ import ListItemText from '@mui/material/ListItemText';
 import TextField from '@mui/material/TextField';
 import Tooltip from '@mui/material/Tooltip';
 import Typography from '@mui/material/Typography';
-import { useAtom } from '@specfocus/atoms/lib/hooks';
+import { useAtomValue, useSetAtom } from '@specfocus/atoms/lib/hooks';
 import { type FC, useState } from 'react';
-import shopListsAtom from '../atoms/shop-lists-atom';
-import {
-    addCustomList,
-    removeCustomList,
-    setListEnabled,
-} from '../domain/storage';
 import { PET_ICONS, PrefabListIds } from '../domain/types';
+import shopSnapshotListsAtom from '@/atoms/shop-snapshot-lists-atom';
+import shopActorAtom from '@/atoms/shop-actor-atom';
+import { ShopEventTypes } from '@/machines/shop/shop-event-types';
 
 // ── Icon picker dialog ─────────────────────────────────────────────────────────
 
@@ -133,22 +130,23 @@ const AddListDialog: FC<AddListDialogProps> = ({ open, onClose, onAdd }) => {
 // ── Main section ───────────────────────────────────────────────────────────────
 
 const ShopSettingsSection: FC = () => {
-    const [lists, setLists] = useAtom(shopListsAtom);
+    const lists = useAtomValue(shopSnapshotListsAtom);
+    const sendShopEvent = useSetAtom(shopActorAtom);
     const [addOpen, setAddOpen] = useState(false);
 
     const prefabs = lists.filter(l => l.prefab);
     const custom = lists.filter(l => !l.prefab);
 
     const handleToggle = (id: string, enabled: boolean) => {
-        setLists(prev => setListEnabled(prev, id, enabled));
+        sendShopEvent({ type: ShopEventTypes.ToggleListEnabled, id, enabled });
     };
 
     const handleAdd = (name: string, icon: string) => {
-        setLists(prev => addCustomList(prev, name, icon));
+        sendShopEvent({ type: ShopEventTypes.CreateCustomList, name, icon });
     };
 
     const handleDelete = (id: string) => {
-        setLists(prev => removeCustomList(prev, id));
+        sendShopEvent({ type: ShopEventTypes.RemoveCustomList, id });
     };
 
     return (

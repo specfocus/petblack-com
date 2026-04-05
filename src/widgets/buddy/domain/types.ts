@@ -53,11 +53,25 @@ export interface BuddyChatInput {
   visitorId: string;
   message: string;
   buddy: BuddyProfile;
+  shopSnapshot?: {
+    stateValue: string;
+    context: unknown;
+  };
+  shopMachineDoc?: string;
+}
+
+export interface BuddyProposedEvent {
+  id: string;
+  target: "shop";
+  eventType: string;
+  payload?: Record<string, unknown>;
+  reason?: string;
 }
 
 export interface BuddyChatOutput {
   reply: string;
   emotion: BuddyEmotion;
   action?: string;
+  events?: BuddyProposedEvent[];
   source: "gemini" | "fallback";
 }
