@@ -12,6 +12,7 @@ import type {
 import type { BuddyProfile } from '@/widgets/buddy/domain/types';
 import { ShopEventTypes } from '../shop/shop-event-types';
 import type { ShopEventUnion } from '../shop/shop-events';
+import { PrefabBucketNames } from '@/dialogs/settings/sections/shop/domain/types';
 
 const { assign } = agentSetup;
 
@@ -282,7 +283,7 @@ const agentActions = {
             ...context.forwardedShopEvents,
             {
                 type: ShopEventTypes.AddItem,
-                bucketName: 'cart',
+                bucketName: PrefabBucketNames.Cart,
                 sku: 'toy-placeholder',
                 name: 'Toy (placeholder)',
                 qty: 1,
@@ -299,7 +300,7 @@ const agentActions = {
             },
             {
                 type: ShopEventTypes.AddItem,
-                bucketName: 'cart',
+                bucketName: PrefabBucketNames.Cart,
                 sku: 'dog-food-placeholder',
                 name: 'Dog food (placeholder)',
                 qty: 1,

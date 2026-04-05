@@ -7,6 +7,7 @@ import {
     setListEnabled,
     updateItemQty,
 } from '@/dialogs/settings/sections/shop/domain/storage';
+import { PrefabBucketNames } from '@/dialogs/settings/sections/shop/domain/types';
 import type { ShopContext } from './shop-context';
 import {
     FeedbackActionKeys,
@@ -115,20 +116,20 @@ const shopActions = {
     }),
 
     openCart: assign(({ context }) => ({
-        buckets: setListEnabled(context.buckets, 'cart', true),
+        buckets: setListEnabled(context.buckets, PrefabBucketNames.Cart, true),
         dirty: true,
     })),
 
     openAutoship: assign(({ context }) => ({
-        buckets: setListEnabled(context.buckets, 'auto', true),
+        buckets: setListEnabled(context.buckets, PrefabBucketNames.Auto, true),
         dirty: true,
     })),
 
     clearCart: assign(({ context }) => {
-        const cart = context.buckets['cart'];
+        const cart = context.buckets[PrefabBucketNames.Cart];
         if (!cart) return {};
         return {
-            buckets: { ...context.buckets, cart: { ...cart, items: [], updatedAt: new Date().toISOString() } },
+            buckets: { ...context.buckets, [PrefabBucketNames.Cart]: { ...cart, items: [], updatedAt: new Date().toISOString() } },
             dirty: true,
         };
     }),

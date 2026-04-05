@@ -3,11 +3,12 @@ import type { ToggleAtom } from '@specfocus/atoms/lib/toggle';
 import shopSnapshotAtom from '@/atoms/shop-snapshot-atom';
 import shopActorAtom from '@/atoms/shop-actor-atom';
 import { ShopEventTypes } from '@/machines/shop/shop-event-types';
+import { PrefabBucketNames } from '@/dialogs/settings/sections/shop/domain/types';
 
 const drugOpenAtom: ToggleAtom = atom(
-    (get: Getter): boolean | undefined => get(shopSnapshotAtom).context.buckets['drug']?.open,
+    (get: Getter): boolean | undefined => get(shopSnapshotAtom).context.buckets[PrefabBucketNames.Drug]?.open,
     (_get: Getter, set: Setter, _next?: boolean): void => {
-        set(shopActorAtom, { type: ShopEventTypes.ToggleBucketOpen, name: 'drug' });
+        set(shopActorAtom, { type: ShopEventTypes.ToggleBucketOpen, name: PrefabBucketNames.Drug });
     }
 );
 
