@@ -15,6 +15,10 @@ import atomEffect, { type GetterWithPeek, type SetterWithRecurse } from '@specfo
 import { installFeedbackActor } from '@specfocus/shelly/lib/machines/feedback';
 import installBuddy from '@/widgets/buddy/install';
 import installCart from '@/widgets/cart/install';
+import installAuto from '@/widgets/auto/install';
+import installDiet from '@/widgets/diet/install';
+import installDrug from '@/widgets/drug/install';
+import installPick from '@/widgets/pick/install';
 import installBuckets from '@/widgets/bucket/install';
 import installShopSettingsSection from '@/dialogs/settings/shop/install';
 import installShopperSettingsSection from '@/dialogs/settings/shopper/install';
@@ -28,6 +32,10 @@ const petblackEffectAtom: ReadonlyAtom<void> = atomEffect(
         const cleanupExplore = installExploreView(get, set);
         const cleanupBuddy = installBuddy(get, set);
         const cleanupCart = installCart(get, set);
+        const cleanupAuto = installAuto(get, set);
+        const cleanupDiet = installDiet(get, set);
+        const cleanupDrug = installDrug(get, set);
+        const cleanupPick = installPick(get, set);
         const cleanupBuckets = installBuckets(get, set);
         const cleanupDebug = installDebug(get, set);
         const cleanupShopSettings = installShopSettingsSection(get, set);
@@ -42,6 +50,10 @@ const petblackEffectAtom: ReadonlyAtom<void> = atomEffect(
             cleanupShopSettings();
             cleanupBuckets();
             cleanupDebug();
+            cleanupPick();
+            cleanupDrug();
+            cleanupDiet();
+            cleanupAuto();
             cleanupCart();
             cleanupBuddy();
             cleanupExplore();
