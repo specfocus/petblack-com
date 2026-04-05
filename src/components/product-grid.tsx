@@ -15,7 +15,10 @@ import Divider from '@mui/material/Divider';
 import Grid from '@mui/material/Grid';
 import Skeleton from '@mui/material/Skeleton';
 import Typography from '@mui/material/Typography';
-import { type FC } from 'react';
+import { useSetAtom } from '@specfocus/atoms/lib/hooks';
+import { type FC, useCallback } from 'react';
+import shopActorAtom from '@/atoms/shop-actor-atom';
+import { ShopEventTypes } from '@/machines/shop/shop-event-types';
 import type { ProductJsonLd } from '@/types/product-jsonld';
 
 // ── Star rating helper ─────────────────────────────────────────────────────────
@@ -41,7 +44,7 @@ const StarRating: FC<{ value: number; count?: number; }> = ({ value, count }) =>
 
 // ── Single product card ────────────────────────────────────────────────────────
 
-const ProductCard: FC<{ product: ProductJsonLd; }> = ({ product }) => {
+const ProductCard: FC<{ product: ProductJsonLd; onAddToCart: () => void; }> = ({ product, onAddToCart }) => {
     const { name, description, image, brand, offers, aggregateRating } = product;
     const price = offers.price.toFixed(2);
     const [whole, cents] = price.split('.');
@@ -172,6 +175,7 @@ const ProductCard: FC<{ product: ProductJsonLd; }> = ({ product }) => {
                     size="small"
                     startIcon={<AddShoppingCartRoundedIcon />}
                     disabled={offers.availability === 'https://schema.org/OutOfStock'}
+                    onClick={onAddToCart}
                     sx={{
                         borderRadius: 999,
                         textTransform: 'none',
@@ -219,6 +223,17 @@ interface ProductGridProps {
 }
 
 const ProductGrid: FC<ProductGridProps> = ({ products, loading = false, query }) => {
+    const sendShopEvent = useSetAtom(shopActorAtom);
+
+    const handleAddToCart = useCallback((product: ProductJsonLd) => {
+        sendShopEvent({
+            type: ShopEventTypes.AddItem,
+            bucketName: 'cart',
+            sku: product.sku ?? product['@id'] ?? product.name,
+            name: product.name,
+            qty: 1,
+        });
+    }, [sendShopEvent]);
     if (loading) {
         return (
             <Grid container spacing={2} sx={{ mt: 2 }}>
@@ -253,7 +268,10 @@ const ProductGrid: FC<ProductGridProps> = ({ products, loading = false, query })
             <Grid container spacing={2}>
                 {products.map(product => (
                     <Grid key={product['@id'] ?? product.name} size={{ xs: 12, sm: 6, md: 4, lg: 3 }} sx={{ display: 'flex' }}>
-                        <ProductCard product={product} />
+                        <ProductCard
+                            product={product}
+                            onAddToCart={() => handleAddToCart(product)}
+                        />
                     </Grid>
                 ))}
             </Grid>

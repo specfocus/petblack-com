@@ -12,7 +12,6 @@ import shopSnapshotBucketsAtom from '@/atoms/shop-snapshot-buckets-atom';
 import { ShopEventTypes } from '@/machines/shop/shop-event-types';
 import AddRoundedIcon from '@mui/icons-material/AddRounded';
 import CloseRoundedIcon from '@mui/icons-material/CloseRounded';
-import DeleteRoundedIcon from '@mui/icons-material/DeleteRounded';
 import Box from '@mui/material/Box';
 import IconButton from '@mui/material/IconButton';
 import InputBase from '@mui/material/InputBase';
@@ -23,7 +22,8 @@ import { isToggleEntry, noopToggleAtom } from '@specfocus/atoms/lib/toggle';
 import workspaceTreeAtom from '@specfocus/atoms/lib/workspace';
 import type { WidgetProps } from '@specfocus/shelly/lib/widgets/widget';
 import Widget from '@specfocus/shelly/lib/widgets/widget';
-import { type FC, type ReactNode, useMemo, useState } from 'react';
+import { type FC, useMemo, useState } from 'react';
+import BucketDrilldown from './drilldown/bucket-drilldown';
 import { WIDGETS_PATH } from '../widgets-path';
 
 interface BucketWidgetProps {
@@ -63,22 +63,6 @@ const BucketWidget: FC<BucketWidgetProps> = ({ bucketName = 'want' }) => {
         setSkuInput('');
     };
 
-    const QtyButton = ({ onClick, children }: { onClick: () => void; children: ReactNode; }) => (
-        <Box
-            component="button"
-            onClick={onClick}
-            sx={{
-                width: 24, height: 24, border: 1, borderColor: 'divider',
-                borderRadius: 1, bgcolor: 'background.paper', cursor: 'pointer',
-                display: 'flex', alignItems: 'center', justifyContent: 'center',
-                color: 'text.primary', fontSize: 14, lineHeight: 1,
-                '&:hover': { bgcolor: 'action.hover' },
-            }}
-        >
-            {children}
-        </Box>
-    );
-
     return (
         <Widget
             openAtom={bucketShowAtom as WidgetProps['openAtom']}
@@ -110,51 +94,8 @@ const BucketWidget: FC<BucketWidgetProps> = ({ bucketName = 'want' }) => {
                     </Box>
 
                     {/* Items */}
-                    <Box sx={{ overflowY: 'auto', flex: 1, px: 1.5, py: 1, display: 'flex', flexDirection: 'column', gap: 0.75 }}>
-                        {bucket.items.length === 0 ? (
-                            <Typography variant="body2" color="text.disabled" sx={{ py: 2, textAlign: 'center' }}>
-                                No items yet
-                            </Typography>
-                        ) : (
-                            bucket.items.map(item => (
-                                <Box key={item.sku} sx={{ display: 'flex', alignItems: 'center', gap: 1, py: 0.5 }}>
-                                    <Typography variant="body2" sx={{ flex: 1, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
-                                        {item.name}
-                                    </Typography>
-                                    <QtyButton
-                                        onClick={() => sendShopEvent({
-                                            type: ShopEventTypes.UpdateItemQty,
-                                            bucketName: bucket.name,
-                                            sku: item.sku,
-                                            qty: item.qty - 1,
-                                        })}
-                                    >
-                                        −
-                                    </QtyButton>
-                                    <Typography variant="body2" sx={{ minWidth: 20, textAlign: 'center' }}>{item.qty}</Typography>
-                                    <QtyButton
-                                        onClick={() => sendShopEvent({
-                                            type: ShopEventTypes.UpdateItemQty,
-                                            bucketName: bucket.name,
-                                            sku: item.sku,
-                                            qty: item.qty + 1,
-                                        })}
-                                    >
-                                        +
-                                    </QtyButton>
-                                    <IconButton
-                                        size="small"
-                                        onClick={() => sendShopEvent({
-                                            type: ShopEventTypes.RemoveItem,
-                                            bucketName: bucket.name,
-                                            sku: item.sku,
-                                        })}
-                                    >
-                                        <DeleteRoundedIcon sx={{ fontSize: 16 }} />
-                                    </IconButton>
-                                </Box>
-                            ))
-                        )}
+                    <Box sx={{ overflowY: 'auto', flex: 1, px: 1, py: 0.5 }}>
+                        <BucketDrilldown bucketName={bucketName} />
                     </Box>
 
                     {/* Add by SKU */}
