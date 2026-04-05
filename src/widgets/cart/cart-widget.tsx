@@ -29,12 +29,11 @@ import Stepper from '@mui/material/Stepper';
 import TextField from '@mui/material/TextField';
 import Typography from '@mui/material/Typography';
 import Widget from '@specfocus/shelly/lib/widgets/widget';
-import { useAtom, useAtomValue, useSetAtom } from '@specfocus/atoms/lib/hooks';
+import { useAtom, useAtomValue } from '@specfocus/atoms/lib/hooks';
 import { type FC, useMemo, useState } from 'react';
 import { PrefabBucketNames } from '@/domain/types';
 import shopSnapshotBucketsAtom from '@/atoms/shop-snapshot-buckets-atom';
-import shopActorAtom from '@/atoms/shop-actor-atom';
-import { ShopEventTypes } from '@/machines/shop/shop-event-types';
+import BucketDrilldown from '@/widgets/bucket/drilldown/bucket-drilldown';
 import cartShowAtom from './atoms/cart-show-atom';
 import cartOpenAtom from './atoms/cart-open-atom';
 
@@ -44,66 +43,12 @@ const STEPS = ['Cart', 'Delivery', 'Payment', 'Review', 'Confirmation'];
 
 const StepCart: FC<{ onNext: () => void; }> = ({ onNext }) => {
     const buckets = useAtomValue(shopSnapshotBucketsAtom);
-    const sendShopEvent = useSetAtom(shopActorAtom);
     const cart = buckets[PrefabBucketNames.Cart];
     const items = cart?.items ?? [];
 
     return (
         <Box sx={{ flex: 1, overflowY: 'auto' }}>
-            {items.length === 0 ? (
-                <Typography variant="body2" color="text.disabled" sx={{ py: 4, textAlign: 'center' }}>
-                    Your cart is empty
-                </Typography>
-            ) : (
-                <Box sx={{ display: 'flex', flexDirection: 'column', gap: 1, pb: 1 }}>
-                    {items.map(item => (
-                        <Box key={item.sku} sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
-                            <Typography variant="body2" sx={{ flex: 1, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
-                                {item.name}
-                            </Typography>
-                            <Box sx={{ display: 'flex', alignItems: 'center', gap: 0.5 }}>
-                                <Button
-                                    size="small"
-                                    sx={{ minWidth: 24, px: 0 }}
-                                    onClick={() => sendShopEvent({
-                                        type: ShopEventTypes.UpdateItemQty,
-                                        bucketName: PrefabBucketNames.Cart,
-                                        sku: item.sku,
-                                        qty: item.qty - 1,
-                                    })}
-                                >
-                                    −
-                                </Button>
-                                <Typography variant="body2">{item.qty}</Typography>
-                                <Button
-                                    size="small"
-                                    sx={{ minWidth: 24, px: 0 }}
-                                    onClick={() => sendShopEvent({
-                                        type: ShopEventTypes.UpdateItemQty,
-                                        bucketName: PrefabBucketNames.Cart,
-                                        sku: item.sku,
-                                        qty: item.qty + 1,
-                                    })}
-                                >
-                                    +
-                                </Button>
-                            </Box>
-                            <Button
-                                size="small"
-                                color="error"
-                                sx={{ minWidth: 0, px: 0.5 }}
-                                onClick={() => sendShopEvent({
-                                    type: ShopEventTypes.RemoveItem,
-                                    bucketName: PrefabBucketNames.Cart,
-                                    sku: item.sku,
-                                })}
-                            >
-                                <CloseRoundedIcon fontSize="small" />
-                            </Button>
-                        </Box>
-                    ))}
-                </Box>
-            )}
+            <BucketDrilldown bucketName={PrefabBucketNames.Cart} />
             <Button variant="contained" fullWidth onClick={onNext} disabled={items.length === 0} sx={{ mt: 2 }}>
                 Continue to Delivery
             </Button>
