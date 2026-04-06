@@ -40,3 +40,8 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 .turbo/turbo-build.log
+
+# downloaded dataset images (mirrored from CDN — do not commit)
+# These now live inside the datasets4/ submodule; no petblack-com gitignore needed.
+# datasets4/datasets-server.huggingface.co/
+# datasets4/images.asos-media.com/
