@@ -97,6 +97,8 @@ const petblackEn = {
                         labelOff: 'Expand Cart',
                     },
                 },
+                continueToDelivery: 'Continue to delivery options',
+                empty: 'Your cart is empty',
             },
             bucket: {
                 label: 'Shopping Lists',

@@ -29,7 +29,7 @@ import Stepper from '@mui/material/Stepper';
 import TextField from '@mui/material/TextField';
 import Typography from '@mui/material/Typography';
 import Widget from '@specfocus/shelly/lib/widgets/widget';
-import { useAtom, useAtomValue } from '@specfocus/atoms/lib/hooks';
+import { useAtom, useAtomValue, useTranslations } from '@specfocus/atoms/lib/hooks';
 import { type FC, useMemo, useState } from 'react';
 import { PrefabBucketNames } from '@/domain/types';
 import shopSnapshotBucketsAtom from '@/atoms/shop-snapshot-buckets-atom';
@@ -42,6 +42,7 @@ const STEPS = ['Cart', 'Delivery', 'Payment', 'Review', 'Confirmation'];
 // ── Step 1: Cart ───────────────────────────────────────────────────────────────
 
 const StepCart: FC<{ onNext: () => void; }> = ({ onNext }) => {
+    const t = useTranslations();
     const buckets = useAtomValue(shopSnapshotBucketsAtom);
     const cart = buckets[PrefabBucketNames.Cart];
     const items = cart?.items ?? [];
@@ -68,14 +69,16 @@ const StepCart: FC<{ onNext: () => void; }> = ({ onNext }) => {
                         </Box>
                     </Box>
                     <Button variant="contained" fullWidth onClick={onNext}>
-                        Continue to Delivery
+                        {t('petblack.widgets.cart.continueToDelivery')}
                     </Button>
                 </Box>
             )}
             {items.length === 0 && (
-                <Button variant="contained" fullWidth onClick={onNext} disabled sx={{ mt: 2 }}>
-                    Continue to Delivery
-                </Button>
+                <Box sx={{ flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                    <Typography variant="body2" color="text.disabled">
+                        {t('petblack.widgets.cart.empty')}
+                    </Typography>
+                </Box>
             )}
         </Box>
     );
