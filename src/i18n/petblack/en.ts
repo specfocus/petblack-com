@@ -80,6 +80,7 @@ const petblackEn = {
                 label: 'Shopping Cart',
                 tooltip: 'View and manage your shopping cart',
                 addButton: 'Add to Cart',
+                addedConfirmation: 'Added to Cart',
                 toggles: {
                     show: {
                         label: 'Shopping Cart',
@@ -127,6 +128,7 @@ const petblackEn = {
                 label: 'Wish List',
                 tooltip: 'Items you want to buy in the future',
                 addButton: 'Add to Wish List',
+                addedConfirmation: 'Added to Wish List',
                 toggles: {
                     open: {
                         label: 'Wish List',
@@ -150,6 +152,7 @@ const petblackEn = {
                 label: 'Essentials',
                 tooltip: 'Essential items you need to purchase soon',
                 addButton: 'Add to Essentials',
+                addedConfirmation: 'Added to Essentials',
                 toggles: {
                     open: {
                         label: 'Essentials List',
@@ -173,6 +176,7 @@ const petblackEn = {
                 label: 'Inventory',
                 tooltip: 'Items you already own or have in stock',
                 addButton: 'Add to Inventory',
+                addedConfirmation: 'Added to Inventory',
                 toggles: {
                     open: {
                         label: 'Inventory List',
@@ -196,6 +200,7 @@ const petblackEn = {
                 label: 'Store Pickup',
                 tooltip: 'Items reserved for in-store pickup',
                 addButton: 'Add to Store Pickup',
+                addedConfirmation: 'Added to Store Pickup',
                 toggles: {
                     open: {
                         label: 'Pickup List',
@@ -219,6 +224,7 @@ const petblackEn = {
                 label: 'Auto-Ship',
                 tooltip: 'Items scheduled for automatic recurring delivery',
                 addButton: 'Add to Auto-Ship',
+                addedConfirmation: 'Added to Auto-Ship',
                 toggles: {
                     open: {
                         label: 'Auto-Ship List',
@@ -242,6 +248,7 @@ const petblackEn = {
                 label: 'Pharmacy',
                 tooltip: 'Prescription and OTC medications requiring verification',
                 addButton: 'Add to Pharmacy',
+                addedConfirmation: 'Added to Pharmacy',
                 toggles: {
                     open: {
                         label: 'Pharmacy List',
@@ -265,6 +272,7 @@ const petblackEn = {
                 label: 'Special Diet',
                 tooltip: 'Dietary items that may require special approval or handling',
                 addButton: 'Add to Special Diet',
+                addedConfirmation: 'Added to Special Diet',
                 toggles: {
                     open: {
                         label: 'Diet List',

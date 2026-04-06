@@ -4,7 +4,9 @@ import ExpandMoreRoundedIcon from '@mui/icons-material/ExpandMoreRounded';
 import StarRoundedIcon from '@mui/icons-material/StarRounded';
 import StarBorderRoundedIcon from '@mui/icons-material/StarBorderRounded';
 import StarHalfRoundedIcon from '@mui/icons-material/StarHalfRounded';
+import Alert from '@mui/material/Alert';
 import Box from '@mui/material/Box';
+import ButtonBase from '@mui/material/ButtonBase';
 import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
@@ -17,6 +19,7 @@ import MenuItem from '@mui/material/MenuItem';
 import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
 import Skeleton from '@mui/material/Skeleton';
+import Snackbar from '@mui/material/Snackbar';
 import Tooltip from '@mui/material/Tooltip';
 import Typography from '@mui/material/Typography';
 import { useAtomValue, useSetAtom, useTranslations } from '@specfocus/atoms/lib/hooks';
@@ -115,11 +118,11 @@ const ProductTagChip: FC<{ tag: string; }> = ({ tag }) => {
  */
 const BucketPickerButton: FC<{ product: ProductJsonLd; disabled?: boolean; }> = ({ product, disabled }) => {
     const t = useTranslations();
-    const chevronRef = useState<HTMLElement | null>(null);
-    const [chevronEl, setChevronEl] = chevronRef;
+    const [chevronEl, setChevronEl] = useState<HTMLElement | null>(null);
     const [menuOpen, setMenuOpen] = useState(false);
     const [containerEl, setContainerEl] = useState<HTMLElement | null>(null);
     const [selectedKey, setSelectedKey] = useState<string>('cart');
+    const [snackMsg, setSnackMsg] = useState<string | null>(null);
 
     const buckets = useAtomValue(shopSnapshotBucketsAtom);
     const sendShopEvent = useSetAtom(shopActorAtom);
@@ -129,10 +132,16 @@ const BucketPickerButton: FC<{ product: ProductJsonLd; disabled?: boolean; }> = 
 
     /** Resolve i18n label for a bucket key, falling back to the bucket's own name */
     const getBucketLabel = (key: string): string => {
-        const key18n = `petblack.widgets.${key}.addButton` as any;
-        const translated = t(key18n);
-        // t() returns the key itself when no translation is found
-        return translated && translated !== key18n ? translated : selectedBucket?.name ?? key;
+        const keyI18n = `petblack.widgets.${key}.addButton` as any;
+        const translated = t(keyI18n);
+        return translated && translated !== keyI18n ? translated : buckets[key]?.name ?? key;
+    };
+
+    /** Resolve i18n confirmation message for a bucket key */
+    const getConfirmation = (key: string): string => {
+        const keyI18n = `petblack.widgets.${key}.addedConfirmation` as any;
+        const translated = t(keyI18n);
+        return translated && translated !== keyI18n ? translated : `Added to ${buckets[key]?.name ?? key}`;
     };
 
     const doAdd = (bucketName: string) => {
@@ -145,6 +154,7 @@ const BucketPickerButton: FC<{ product: ProductJsonLd; disabled?: boolean; }> = 
             imageUrl: product.image,
             price: product.offers?.price,
         });
+        setSnackMsg(getConfirmation(bucketName));
     };
 
     const handleMainClick = () => doAdd(selectedKey);
@@ -156,7 +166,6 @@ const BucketPickerButton: FC<{ product: ProductJsonLd; disabled?: boolean; }> = 
     };
 
     return (
-        // Container: position:relative so the Menu can inherit its width
         <Box ref={setContainerEl} sx={{ width: '100%', position: 'relative' }}>
             {/* Split pill button */}
             <Box
@@ -170,8 +179,7 @@ const BucketPickerButton: FC<{ product: ProductJsonLd; disabled?: boolean; }> = 
                 }}
             >
                 {/* Main action — left side */}
-                <Box
-                    component="button"
+                <ButtonBase
                     onClick={handleMainClick}
                     disabled={disabled}
                     sx={{
@@ -180,30 +188,26 @@ const BucketPickerButton: FC<{ product: ProductJsonLd; disabled?: boolean; }> = 
                         alignItems: 'center',
                         justifyContent: 'center',
                         gap: 1,
-                        border: 'none',
-                        background: 'transparent',
-                        cursor: 'pointer',
                         px: 2,
                         py: '6px',
                         fontWeight: 700,
                         fontSize: '0.8125rem',
                         color: '#111827',
-                        '&:hover': { bgcolor: 'rgba(0,0,0,0.06)' },
-                        transition: 'background 0.15s',
+                        fontFamily: 'inherit',
+                        borderRadius: 0,
                     }}
                 >
                     <Box component="span" sx={{ fontSize: '1.1rem', lineHeight: 1 }}>
                         {selectedBucket?.icon}
                     </Box>
                     {getBucketLabel(selectedKey)}
-                </Box>
+                </ButtonBase>
 
                 {/* Divider */}
-                <Box sx={{ width: '1px', bgcolor: 'rgba(0,0,0,0.15)', my: '6px' }} />
+                <Box sx={{ width: '1px', bgcolor: 'rgba(0,0,0,0.15)', my: '6px', flexShrink: 0 }} />
 
                 {/* Chevron — opens the menu */}
-                <Box
-                    component="button"
+                <ButtonBase
                     ref={setChevronEl}
                     onClick={() => setMenuOpen(true)}
                     disabled={disabled}
@@ -212,17 +216,13 @@ const BucketPickerButton: FC<{ product: ProductJsonLd; disabled?: boolean; }> = 
                         display: 'flex',
                         alignItems: 'center',
                         justifyContent: 'center',
-                        border: 'none',
-                        background: 'transparent',
-                        cursor: 'pointer',
                         color: '#111827',
-                        '&:hover': { bgcolor: 'rgba(0,0,0,0.06)' },
-                        transition: 'background 0.15s',
+                        borderRadius: 0,
                         flexShrink: 0,
                     }}
                 >
                     <ExpandMoreRoundedIcon sx={{ fontSize: 18 }} />
-                </Box>
+                </ButtonBase>
             </Box>
 
             {/* Menu — anchored to the chevron, opens upward, width = container */}
@@ -258,6 +258,23 @@ const BucketPickerButton: FC<{ product: ProductJsonLd; disabled?: boolean; }> = 
                     </MenuItem>
                 ))}
             </Menu>
+
+            {/* Add confirmation snackbar */}
+            <Snackbar
+                open={snackMsg !== null}
+                autoHideDuration={2500}
+                onClose={() => setSnackMsg(null)}
+                anchorOrigin={{ vertical: 'bottom', horizontal: 'center' }}
+            >
+                <Alert
+                    onClose={() => setSnackMsg(null)}
+                    severity="success"
+                    variant="filled"
+                    sx={{ width: '100%' }}
+                >
+                    {snackMsg}
+                </Alert>
+            </Snackbar>
         </Box>
     );
 };
