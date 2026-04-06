@@ -24,6 +24,18 @@ export interface Brand {
     name: string;
 }
 
+/**
+ * Well-known product tag values rendered as coloured chips on the card.
+ * Any other keyword is treated as a plain filter tag and not rendered as a chip.
+ */
+export enum ProductTags {
+    InStock = 'in-stock',
+    OutOfStock = 'out-of-stock',
+    PreOrder = 'pre-order',
+    Sale = 'sale',
+    Last = 'last',
+}
+
 export interface ProductJsonLd {
     '@context': 'https://schema.org';
     '@type': 'Product';

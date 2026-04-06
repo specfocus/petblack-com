@@ -39,6 +39,8 @@ export interface ShopAddItemEvent {
     sku: string;
     name: string;
     qty: number;
+    imageUrl?: string;
+    price?: number;
 }
 
 export interface ShopUpdateItemQtyEvent {

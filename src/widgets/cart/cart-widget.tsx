@@ -29,12 +29,11 @@ import Stepper from '@mui/material/Stepper';
 import TextField from '@mui/material/TextField';
 import Typography from '@mui/material/Typography';
 import Widget from '@specfocus/shelly/lib/widgets/widget';
-import { useAtom, useAtomValue, useSetAtom } from '@specfocus/atoms/lib/hooks';
+import { useAtom, useAtomValue, useTranslations } from '@specfocus/atoms/lib/hooks';
 import { type FC, useMemo, useState } from 'react';
 import { PrefabBucketNames } from '@/domain/types';
 import shopSnapshotBucketsAtom from '@/atoms/shop-snapshot-buckets-atom';
-import shopActorAtom from '@/atoms/shop-actor-atom';
-import { ShopEventTypes } from '@/machines/shop/shop-event-types';
+import BucketDrillin from '@/widgets/bucket/drillin/bucket-drillin';
 import cartShowAtom from './atoms/cart-show-atom';
 import cartOpenAtom from './atoms/cart-open-atom';
 
@@ -43,70 +42,44 @@ const STEPS = ['Cart', 'Delivery', 'Payment', 'Review', 'Confirmation'];
 // ── Step 1: Cart ───────────────────────────────────────────────────────────────
 
 const StepCart: FC<{ onNext: () => void; }> = ({ onNext }) => {
+    const t = useTranslations();
     const buckets = useAtomValue(shopSnapshotBucketsAtom);
-    const sendShopEvent = useSetAtom(shopActorAtom);
     const cart = buckets[PrefabBucketNames.Cart];
     const items = cart?.items ?? [];
 
+    const total = items.reduce((sum, item) => sum + (item.price ?? 0) * item.qty, 0);
+    const hasTotal = items.some(item => item.price != null);
+
     return (
-        <Box sx={{ flex: 1, overflowY: 'auto' }}>
-            {items.length === 0 ? (
-                <Typography variant="body2" color="text.disabled" sx={{ py: 4, textAlign: 'center' }}>
-                    Your cart is empty
-                </Typography>
-            ) : (
-                <Box sx={{ display: 'flex', flexDirection: 'column', gap: 1, pb: 1 }}>
-                    {items.map(item => (
-                        <Box key={item.sku} sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
-                            <Typography variant="body2" sx={{ flex: 1, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
-                                {item.name}
+        <Box sx={{ flex: 1, display: 'flex', flexDirection: 'column' }}>
+            <Box sx={{ flex: 1, overflowY: 'auto' }}>
+                <BucketDrillin bucketName={PrefabBucketNames.Cart} />
+            </Box>
+            {items.length > 0 && (
+                <Box sx={{ borderTop: 1, borderColor: 'divider', pt: 1.5, mt: 1 }}>
+                    <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', mb: 1.5 }}>
+                        <Typography variant="subtitle2" color="text.secondary">
+                            {items.reduce((sum, i) => sum + i.qty, 0)} items
+                        </Typography>
+                        <Box sx={{ display: 'flex', alignItems: 'baseline', gap: 0.5 }}>
+                            <Typography variant="caption" color="text.secondary">Total</Typography>
+                            <Typography variant="h6" fontWeight={700} sx={{ lineHeight: 1 }}>
+                                {hasTotal ? `$${total.toFixed(2)}` : '—'}
                             </Typography>
-                            <Box sx={{ display: 'flex', alignItems: 'center', gap: 0.5 }}>
-                                <Button
-                                    size="small"
-                                    sx={{ minWidth: 24, px: 0 }}
-                                    onClick={() => sendShopEvent({
-                                        type: ShopEventTypes.UpdateItemQty,
-                                        bucketName: PrefabBucketNames.Cart,
-                                        sku: item.sku,
-                                        qty: item.qty - 1,
-                                    })}
-                                >
-                                    −
-                                </Button>
-                                <Typography variant="body2">{item.qty}</Typography>
-                                <Button
-                                    size="small"
-                                    sx={{ minWidth: 24, px: 0 }}
-                                    onClick={() => sendShopEvent({
-                                        type: ShopEventTypes.UpdateItemQty,
-                                        bucketName: PrefabBucketNames.Cart,
-                                        sku: item.sku,
-                                        qty: item.qty + 1,
-                                    })}
-                                >
-                                    +
-                                </Button>
-                            </Box>
-                            <Button
-                                size="small"
-                                color="error"
-                                sx={{ minWidth: 0, px: 0.5 }}
-                                onClick={() => sendShopEvent({
-                                    type: ShopEventTypes.RemoveItem,
-                                    bucketName: PrefabBucketNames.Cart,
-                                    sku: item.sku,
-                                })}
-                            >
-                                <CloseRoundedIcon fontSize="small" />
-                            </Button>
                         </Box>
-                    ))}
+                    </Box>
+                    <Button variant="contained" fullWidth onClick={onNext}>
+                        {t('petblack.widgets.cart.continueToDelivery')}
+                    </Button>
                 </Box>
             )}
-            <Button variant="contained" fullWidth onClick={onNext} disabled={items.length === 0} sx={{ mt: 2 }}>
-                Continue to Delivery
-            </Button>
+            {items.length === 0 && (
+                <Box sx={{ flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                    <Typography variant="body2" color="text.disabled">
+                        {t('petblack.widgets.cart.empty')}
+                    </Typography>
+                </Box>
+            )}
         </Box>
     );
 };
@@ -244,7 +217,7 @@ const CartWidget: FC = () => {
                 <Paper
                     elevation={12}
                     sx={{
-                        width: { xs: 'calc(100vw - 24px)', sm: 400 },
+                        width: { xs: 'calc(100vw - 24px)', sm: 560 },
                         maxHeight: { xs: 'calc(100vh - 24px)', sm: 600 },
                         display: 'flex',
                         flexDirection: 'column',
@@ -253,20 +226,42 @@ const CartWidget: FC = () => {
                     }}
                 >
                     {/* Header */}
-                    <Box sx={{ px: 2, pt: 2, pb: 1, borderBottom: 1, borderColor: 'divider' }}>
-                        <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', mb: 1.5 }}>
-                            <Typography variant="subtitle1" fontWeight={700}>🛒 Cart</Typography>
-                            <IconButton size="small" onClick={handleClose}>
+                    <Box sx={{ px: 2, pt: 1.5, pb: 1, borderBottom: 1, borderColor: 'divider' }}>
+                        <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
+                            {/* Cart icon */}
+                            <ShoppingCartRoundedIcon sx={{ fontSize: 20, color: 'text.secondary', flexShrink: 0 }} />
+
+                            {/* Stepper — fills remaining space */}
+                            {step < STEPS.length - 1 ? (
+                                <Stepper
+                                    activeStep={step}
+                                    sx={{ flex: 1, '& .MuiStepConnector-line': { borderTopWidth: 1 } }}
+                                >
+                                    {STEPS.slice(0, -1).map(label => (
+                                        <Step key={label}>
+                                            <StepLabel
+                                                sx={{
+                                                    '& .MuiStepLabel-label': {
+                                                        fontSize: 10,
+                                                        whiteSpace: 'nowrap',
+                                                    },
+                                                    '& .MuiStepLabel-iconContainer': { pr: 0.5 },
+                                                }}
+                                            >
+                                                {label}
+                                            </StepLabel>
+                                        </Step>
+                                    ))}
+                                </Stepper>
+                            ) : (
+                                <Box sx={{ flex: 1 }} />
+                            )}
+
+                            {/* Close button */}
+                            <IconButton size="small" onClick={handleClose} sx={{ flexShrink: 0 }}>
                                 <CloseRoundedIcon fontSize="small" />
                             </IconButton>
                         </Box>
-                        {step < STEPS.length - 1 && (
-                            <Stepper activeStep={step} alternativeLabel sx={{ '& .MuiStepLabel-label': { fontSize: 10 } }}>
-                                {STEPS.slice(0, -1).map(label => (
-                                    <Step key={label}><StepLabel>{label}</StepLabel></Step>
-                                ))}
-                            </Stepper>
-                        )}
                         <LinearProgress variant="determinate" value={(step / (STEPS.length - 1)) * 100} sx={{ mt: 1, borderRadius: 1 }} />
                     </Box>
 
