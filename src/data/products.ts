@@ -24,7 +24,7 @@ export const PRODUCTS: ProductJsonLd[] = [
             availability: 'https://schema.org/InStock',
         },
         aggregateRating: { '@type': 'AggregateRating', ratingValue: 4.7, reviewCount: 3482 },
-        keywords: ['dog', 'food', 'dry food', 'large breed', 'adult'],
+        keywords: ['dog', 'food', 'dry food', 'large breed', 'adult', 'sale'],
     },
     {
         '@context': 'https://schema.org',
@@ -81,7 +81,7 @@ export const PRODUCTS: ProductJsonLd[] = [
             availability: 'https://schema.org/InStock',
         },
         aggregateRating: { '@type': 'AggregateRating', ratingValue: 4.5, reviewCount: 2341 },
-        keywords: ['fish', 'food', 'flakes', 'tropical', 'aquarium'],
+        keywords: ['fish', 'food', 'flakes', 'tropical', 'aquarium', 'last'],
     },
     {
         '@context': 'https://schema.org',
