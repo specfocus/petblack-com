@@ -30,7 +30,8 @@ const drugWidgetEntry: WorkspaceWidgetEntry = {
     tooltip: 'petblack.widgets.drug.tooltip',
     resource: { '@type': WIDGET, data: {}, name: 'drug' },
     component: LazyDrugWidget,
-    toggle: DRUG_SHOW_TOGGLE_PATH,
+    toggle: DRUG_OPEN_TOGGLE_PATH,
+    showToggle: DRUG_SHOW_TOGGLE_PATH,
 };
 
 // ── install ───────────────────────────────────────────────────────────────────

@@ -122,7 +122,8 @@ const installBuckets = (get: GetterWithPeek, set: SetterWithRecurse): Cleanup =>
             tooltip: `petblack.widgets.${bucketName}.tooltip`,
             resource: { '@type': WIDGET, data: {}, name: bucketName },
             component: LazyBucketWidget,
-            toggle: bucketShowTogglePath,
+            toggle: bucketOpenTogglePath,
+            showToggle: bucketShowTogglePath,
         };
 
         cleanups.push(installWidget(get, set, bucketWidgetEntry));

@@ -30,7 +30,8 @@ const cartWidgetEntry: WorkspaceWidgetEntry = {
     tooltip: 'petblack.widgets.cart.tooltip',
     resource: { '@type': WIDGET, data: {}, name: 'cart' },
     component: LazyCartWidget,
-    toggle: CART_SHOW_TOGGLE_PATH,
+    toggle: CART_OPEN_TOGGLE_PATH,
+    showToggle: CART_SHOW_TOGGLE_PATH,
 };
 
 // ── install ───────────────────────────────────────────────────────────────────

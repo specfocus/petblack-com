@@ -34,7 +34,8 @@ const buddyWidgetEntry: WorkspaceWidgetEntry = {
     tooltip: 'petblack.widgets.buddy.tooltip',
     resource: { '@type': WIDGET, data: {}, name: 'buddy' },
     component: LazyBuddyWidget,
-    toggle: [...BUDDY_SHOW_TOGGLE_PATH],
+    toggle: [...BUDDY_OPEN_TOGGLE_PATH],
+    showToggle: [...BUDDY_SHOW_TOGGLE_PATH],
 };
 
 // ── install ───────────────────────────────────────────────────────────────────

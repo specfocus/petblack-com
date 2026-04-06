@@ -30,7 +30,8 @@ const pickWidgetEntry: WorkspaceWidgetEntry = {
     tooltip: 'petblack.widgets.pick.tooltip',
     resource: { '@type': WIDGET, data: {}, name: 'pick' },
     component: LazyPickWidget,
-    toggle: PICK_SHOW_TOGGLE_PATH,
+    toggle: PICK_OPEN_TOGGLE_PATH,
+    showToggle: PICK_SHOW_TOGGLE_PATH,
 };
 
 // ── install ───────────────────────────────────────────────────────────────────

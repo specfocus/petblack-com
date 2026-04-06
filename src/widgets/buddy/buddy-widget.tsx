@@ -14,15 +14,12 @@ import { buildBuddyProfile } from "@/widgets/buddy/domain/deterministic";
 import { getOrCreateVisitorId } from "@/widgets/buddy/domain/storage";
 import type { BuddyProfile } from "@/widgets/buddy/domain/types";
 import CloseRoundedIcon from "@mui/icons-material/CloseRounded";
-import PetsRoundedIcon from "@mui/icons-material/PetsRounded";
 import SendRoundedIcon from "@mui/icons-material/SendRounded";
 import Box from "@mui/material/Box";
 import IconButton from "@mui/material/IconButton";
 import InputBase from "@mui/material/InputBase";
-import Paper from "@mui/material/Paper";
 import Typography from "@mui/material/Typography";
 import { useAtom, useAtomValue, useSetAtom } from '@specfocus/atoms/lib/hooks';
-import type { WidgetProps } from '@specfocus/shelly/lib/widgets/widget';
 import Widget from '@specfocus/shelly/lib/widgets/widget';
 import { FormEvent, useEffect, useMemo, useRef, useState, type FC } from "react";
 import shopSnapshotAtom from '@/atoms/shop-snapshot-atom';
@@ -123,162 +120,122 @@ Allowed events include:
     }
 
     return (
-        <Widget
-            openAtom={buddyShowAtom as WidgetProps['openAtom']}
-            defaultCorner="bottom-right"
-            sx={isOpen ? undefined : { overflow: 'visible', background: 'transparent', boxShadow: 'none' }}
-        >
-            {isOpen ? (
-                <Paper
-                    component="section"
-                    aria-label="Buddy chat panel"
-                    elevation={12}
-                    sx={{
-                        width: { xs: "calc(100vw - 24px)", sm: 380 },
-                        height: { xs: "calc(100vh - 24px)", sm: 560 },
-                        maxWidth: 380,
-                        maxHeight: 560,
-                        display: "grid",
-                        gridTemplateRows: "auto 1fr auto",
-                        overflow: "hidden",
-                        borderRadius: 2,
-                        bgcolor: "background.paper",
-                    }}
-                >
-                    {/* ── Header ── */}
-                    <Box
-                        component="header"
-                        sx={{
-                            display: "flex",
-                            alignItems: "center",
-                            justifyContent: "space-between",
-                            px: 1.75,
-                            py: 1.5,
-                            borderBottom: 1,
-                            borderColor: "divider",
-                        }}
-                    >
-                        <Box sx={{ display: "flex", gap: 1.25, alignItems: "center", minWidth: 0 }}>
-                            <Typography component="span" sx={{ fontSize: 26, lineHeight: 1 }}>
-                                {speciesEmoji(profile.species)}
-                            </Typography>
-                            <Box>
-                                <Typography variant="subtitle2" fontWeight={700} noWrap>
-                                    {profile.name}
-                                </Typography>
-                                <Typography variant="caption" color="text.secondary" sx={{ textTransform: "capitalize" }}>
-                                    {profile.rarity} {profile.species}
-                                </Typography>
-                            </Box>
-                        </Box>
-                        <IconButton
-                            size="small"
-                            aria-label="Close Buddy"
-                            onClick={() => setIsOpen(false)}
-                        >
-                            <CloseRoundedIcon fontSize="small" />
-                        </IconButton>
+        <Widget showAtom={buddyShowAtom} openAtom={buddyOpenAtom}>
+            {/* ── Header ── */}
+            <Box
+                component="header"
+                sx={{
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "space-between",
+                    px: 1.75,
+                    py: 1.5,
+                    borderBottom: 1,
+                    borderColor: "divider",
+                    flexShrink: 0,
+                }}
+            >
+                <Box sx={{ display: "flex", gap: 1.25, alignItems: "center", minWidth: 0 }}>
+                    <Typography component="span" sx={{ fontSize: 26, lineHeight: 1 }}>
+                        {speciesEmoji(profile.species)}
+                    </Typography>
+                    <Box>
+                        <Typography variant="subtitle2" fontWeight={700} noWrap>
+                            {profile.name}
+                        </Typography>
+                        <Typography variant="caption" color="text.secondary" sx={{ textTransform: "capitalize" }}>
+                            {profile.rarity} {profile.species}
+                        </Typography>
                     </Box>
-
-                    {/* ── Messages ── */}
-                    <Box
-                        ref={bucketRef}
-                        sx={{
-                            overflowY: "auto",
-                            p: 1.75,
-                            display: "flex",
-                            flexDirection: "column",
-                            gap: 1.25,
-                        }}
-                    >
-                        {chat.map((line) => (
-                            <Box
-                                key={line.id}
-                                sx={{
-                                    alignSelf: line.speaker === "user" ? "flex-end" : "flex-start",
-                                    maxWidth: "82%",
-                                    bgcolor: line.speaker === "user" ? "primary.main" : "action.hover",
-                                    color: line.speaker === "user" ? "primary.contrastText" : "text.primary",
-                                    borderRadius:
-                                        line.speaker === "user" ? "12px 12px 2px 12px" : "12px 12px 12px 2px",
-                                    px: 1.5,
-                                    py: 1.25,
-                                    fontSize: 14,
-                                    lineHeight: 1.4,
-                                }}
-                            >
-                                <Typography variant="body2" sx={{ lineHeight: 1.4 }}>
-                                    {line.text}
-                                </Typography>
-                            </Box>
-                        ))}
-                    </Box>
-
-                    {/* ── Composer ── */}
-                    <Box
-                        component="form"
-                        onSubmit={onSubmit}
-                        sx={{
-                            borderTop: 1,
-                            borderColor: "divider",
-                            p: 1.25,
-                            display: "grid",
-                            gridTemplateColumns: "1fr auto",
-                            gap: 1,
-                            alignItems: "center",
-                        }}
-                    >
-                        <InputBase
-                            value={message}
-                            onChange={event => setMessage(event.target.value)}
-                            placeholder="Ask Buddy about pet care…"
-                            inputProps={{ maxLength: 800 }}
-                            sx={{
-                                border: 1,
-                                borderColor: "divider",
-                                borderRadius: 2.5,
-                                px: 1.5,
-                                py: 1.25,
-                                fontSize: 14,
-                                bgcolor: "background.default",
-                            }}
-                        />
-                        <IconButton
-                            type="submit"
-                            aria-label="Send"
-                            disabled={isSending || !message.trim()}
-                            color="success"
-                            sx={{
-                                bgcolor: "success.main",
-                                color: "common.white",
-                                borderRadius: 2.5,
-                                p: 1.25,
-                                "&:hover": { bgcolor: "success.dark" },
-                                "&.Mui-disabled": { bgcolor: "action.disabledBackground", color: "action.disabled" },
-                            }}
-                        >
-                            <SendRoundedIcon fontSize="small" />
-                        </IconButton>
-                    </Box>
-                </Paper>
-            ) : (
+                </Box>
                 <IconButton
-                    aria-label="Open Buddy"
-                    onClick={() => setIsOpen(true)}
+                    size="small"
+                    aria-label="Close Buddy"
+                    onClick={() => setIsOpen(false)}
+                >
+                    <CloseRoundedIcon fontSize="small" />
+                </IconButton>
+            </Box>
+
+            {/* ── Messages ── */}
+            <Box
+                ref={bucketRef}
+                sx={{
+                    overflowY: "auto",
+                    p: 1.75,
+                    display: "flex",
+                    flexDirection: "column",
+                    gap: 1.25,
+                    flex: 1,
+                }}
+            >
+                {chat.map((line) => (
+                    <Box
+                        key={line.id}
+                        sx={{
+                            alignSelf: line.speaker === "user" ? "flex-end" : "flex-start",
+                            maxWidth: "82%",
+                            bgcolor: line.speaker === "user" ? "primary.main" : "action.hover",
+                            color: line.speaker === "user" ? "primary.contrastText" : "text.primary",
+                            px: 1.5,
+                            py: 1.25,
+                            fontSize: 14,
+                            lineHeight: 1.4,
+                        }}
+                    >
+                        <Typography variant="body2" sx={{ lineHeight: 1.4 }}>
+                            {line.text}
+                        </Typography>
+                    </Box>
+                ))}
+            </Box>
+
+            {/* ── Composer ── */}
+            <Box
+                component="form"
+                onSubmit={onSubmit}
+                sx={{
+                    borderTop: 1,
+                    borderColor: "divider",
+                    p: 1.25,
+                    display: "grid",
+                    gridTemplateColumns: "1fr auto",
+                    gap: 1,
+                    alignItems: "center",
+                    flexShrink: 0,
+                }}
+            >
+                <InputBase
+                    value={message}
+                    onChange={event => setMessage(event.target.value)}
+                    placeholder="Ask Buddy about pet care…"
+                    inputProps={{ maxLength: 800 }}
                     sx={{
-                        width: 60,
-                        height: 60,
-                        bgcolor: "grey.900",
+                        border: 1,
+                        borderColor: "divider",
+                        px: 1.5,
+                        py: 1.25,
+                        fontSize: 14,
+                        bgcolor: "background.default",
+                    }}
+                />
+                <IconButton
+                    type="submit"
+                    aria-label="Send"
+                    disabled={isSending || !message.trim()}
+                    color="success"
+                    sx={{
+                        bgcolor: "success.main",
                         color: "common.white",
-                        boxShadow: "0 10px 30px rgba(0,0,0,0.35)",
-                        "&:hover": { bgcolor: "grey.800" },
+                        p: 1.25,
+                        "&:hover": { bgcolor: "success.dark" },
+                        "&.Mui-disabled": { bgcolor: "action.disabledBackground", color: "action.disabled" },
                     }}
                 >
-                    <PetsRoundedIcon sx={{ fontSize: 30 }} />
+                    <SendRoundedIcon fontSize="small" />
                 </IconButton>
-            )
-            }
-        </Widget >
+            </Box>
+        </Widget>
     );
 };
 

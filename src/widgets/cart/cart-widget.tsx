@@ -20,7 +20,6 @@ import Divider from '@mui/material/Divider';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import IconButton from '@mui/material/IconButton';
 import LinearProgress from '@mui/material/LinearProgress';
-import Paper from '@mui/material/Paper';
 import Radio from '@mui/material/Radio';
 import RadioGroup from '@mui/material/RadioGroup';
 import Step from '@mui/material/Step';
@@ -28,8 +27,8 @@ import StepLabel from '@mui/material/StepLabel';
 import Stepper from '@mui/material/Stepper';
 import TextField from '@mui/material/TextField';
 import Typography from '@mui/material/Typography';
-import Widget from '@specfocus/shelly/lib/widgets/widget';
 import { useAtom, useAtomValue, useTranslations } from '@specfocus/atoms/lib/hooks';
+import Widget from '@specfocus/shelly/lib/widgets/widget';
 import { type FC, useMemo, useState } from 'react';
 import { PrefabBucketNames } from '@/domain/types';
 import shopSnapshotBucketsAtom from '@/atoms/shop-snapshot-buckets-atom';
@@ -197,7 +196,7 @@ const StepConfirmation: FC<{ onClose: () => void; }> = ({ onClose }) => (
 // ── Main widget ────────────────────────────────────────────────────────────────
 
 const CartWidget: FC = () => {
-    const [isOpen, setIsOpen] = useAtom(cartOpenAtom as ToggleAtom);
+    const [, setIsOpen] = useAtom(cartOpenAtom as ToggleAtom);
     const [step, setStep] = useState(0);
     const buckets = useAtomValue(shopSnapshotBucketsAtom);
     const cartItemCount = useMemo(
@@ -208,102 +207,55 @@ const CartWidget: FC = () => {
     const handleClose = () => { setIsOpen(false); setStep(0); };
 
     return (
-        <Widget
-            openAtom={cartShowAtom}
-            defaultCorner="bottom-right"
-            sx={isOpen ? undefined : { overflow: 'visible', background: 'transparent', boxShadow: 'none' }}
-        >
-            {isOpen ? (
-                <Paper
-                    elevation={12}
-                    sx={{
-                        width: { xs: 'calc(100vw - 24px)', sm: 560 },
-                        maxHeight: { xs: 'calc(100vh - 24px)', sm: 600 },
-                        display: 'flex',
-                        flexDirection: 'column',
-                        borderRadius: 2,
-                        overflow: 'hidden',
-                    }}
-                >
-                    {/* Header */}
-                    <Box sx={{ px: 2, pt: 1.5, pb: 1, borderBottom: 1, borderColor: 'divider' }}>
-                        <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
-                            {/* Cart icon */}
-                            <ShoppingCartRoundedIcon sx={{ fontSize: 20, color: 'text.secondary', flexShrink: 0 }} />
+        <Widget showAtom={cartShowAtom} openAtom={cartOpenAtom}>
+            {/* Header */}
+            <Box sx={{ px: 2, pt: 1.5, pb: 1, borderBottom: 1, borderColor: 'divider', flexShrink: 0 }}>
+                <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
+                    {/* Cart icon */}
+                    <ShoppingCartRoundedIcon sx={{ fontSize: 20, color: 'text.secondary', flexShrink: 0 }} />
 
-                            {/* Stepper — fills remaining space */}
-                            {step < STEPS.length - 1 ? (
-                                <Stepper
-                                    activeStep={step}
-                                    sx={{ flex: 1, '& .MuiStepConnector-line': { borderTopWidth: 1 } }}
-                                >
-                                    {STEPS.slice(0, -1).map(label => (
-                                        <Step key={label}>
-                                            <StepLabel
-                                                sx={{
-                                                    '& .MuiStepLabel-label': {
-                                                        fontSize: 10,
-                                                        whiteSpace: 'nowrap',
-                                                    },
-                                                    '& .MuiStepLabel-iconContainer': { pr: 0.5 },
-                                                }}
-                                            >
-                                                {label}
-                                            </StepLabel>
-                                        </Step>
-                                    ))}
-                                </Stepper>
-                            ) : (
-                                <Box sx={{ flex: 1 }} />
-                            )}
-
-                            {/* Close button */}
-                            <IconButton size="small" onClick={handleClose} sx={{ flexShrink: 0 }}>
-                                <CloseRoundedIcon fontSize="small" />
-                            </IconButton>
-                        </Box>
-                        <LinearProgress variant="determinate" value={(step / (STEPS.length - 1)) * 100} sx={{ mt: 1, borderRadius: 1 }} />
-                    </Box>
-
-                    {/* Step content */}
-                    <Box sx={{ flex: 1, overflowY: 'auto', px: 2, py: 1.5, display: 'flex', flexDirection: 'column' }}>
-                        {step === 0 && <StepCart onNext={() => setStep(1)} />}
-                        {step === 1 && <StepDelivery onNext={() => setStep(2)} onBack={() => setStep(0)} />}
-                        {step === 2 && <StepPayment onNext={() => setStep(3)} onBack={() => setStep(1)} />}
-                        {step === 3 && <StepReview onNext={() => setStep(4)} onBack={() => setStep(2)} />}
-                        {step === 4 && <StepConfirmation onClose={handleClose} />}
-                    </Box>
-                </Paper>
-            ) : (
-                <IconButton
-                    aria-label="Open Cart"
-                    onClick={() => setIsOpen(true)}
-                    sx={{ width: 52, height: 52, bgcolor: 'primary.main', color: 'primary.contrastText', boxShadow: '0 8px 24px rgba(0,0,0,0.3)', '&:hover': { bgcolor: 'primary.dark' } }}
-                >
-                    <ShoppingCartRoundedIcon sx={{ fontSize: 24 }} />
-                    {cartItemCount > 0 && (
-                        <Box
-                            sx={{
-                                position: 'absolute',
-                                top: -2,
-                                right: -2,
-                                minWidth: 20,
-                                height: 20,
-                                borderRadius: '999px',
-                                px: 0.5,
-                                bgcolor: 'error.main',
-                                color: 'error.contrastText',
-                                fontSize: 11,
-                                display: 'grid',
-                                placeItems: 'center',
-                                fontWeight: 700,
-                            }}
+                    {/* Stepper — fills remaining space */}
+                    {step < STEPS.length - 1 ? (
+                        <Stepper
+                            activeStep={step}
+                            sx={{ flex: 1, '& .MuiStepConnector-line': { borderTopWidth: 1 } }}
                         >
-                            {cartItemCount}
-                        </Box>
+                            {STEPS.slice(0, -1).map(label => (
+                                <Step key={label}>
+                                    <StepLabel
+                                        sx={{
+                                            '& .MuiStepLabel-label': {
+                                                fontSize: 10,
+                                                whiteSpace: 'nowrap',
+                                            },
+                                            '& .MuiStepLabel-iconContainer': { pr: 0.5 },
+                                        }}
+                                    >
+                                        {label}
+                                    </StepLabel>
+                                </Step>
+                            ))}
+                        </Stepper>
+                    ) : (
+                        <Box sx={{ flex: 1 }} />
                     )}
-                </IconButton>
-            )}
+
+                    {/* Close button */}
+                    <IconButton size="small" onClick={handleClose} sx={{ flexShrink: 0 }}>
+                        <CloseRoundedIcon fontSize="small" />
+                    </IconButton>
+                </Box>
+                <LinearProgress variant="determinate" value={(step / (STEPS.length - 1)) * 100} sx={{ mt: 1 }} />
+            </Box>
+
+            {/* Step content */}
+            <Box sx={{ flex: 1, overflowY: 'auto', px: 2, py: 1.5, display: 'flex', flexDirection: 'column' }}>
+                {step === 0 && <StepCart onNext={() => setStep(1)} />}
+                {step === 1 && <StepDelivery onNext={() => setStep(2)} onBack={() => setStep(0)} />}
+                {step === 2 && <StepPayment onNext={() => setStep(3)} onBack={() => setStep(1)} />}
+                {step === 3 && <StepReview onNext={() => setStep(4)} onBack={() => setStep(2)} />}
+                {step === 4 && <StepConfirmation onClose={handleClose} />}
+            </Box>
         </Widget>
     );
 };

@@ -30,7 +30,8 @@ const autoWidgetEntry: WorkspaceWidgetEntry = {
     tooltip: 'petblack.widgets.auto.tooltip',
     resource: { '@type': WIDGET, data: {}, name: 'auto' },
     component: LazyAutoWidget,
-    toggle: AUTO_SHOW_TOGGLE_PATH,
+    toggle: AUTO_OPEN_TOGGLE_PATH,
+    showToggle: AUTO_SHOW_TOGGLE_PATH,
 };
 
 // ── install ───────────────────────────────────────────────────────────────────

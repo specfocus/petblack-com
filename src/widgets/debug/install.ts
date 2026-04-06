@@ -16,7 +16,8 @@ const debugWidgetEntry: WorkspaceWidgetEntry = {
     tooltip: 'petblack.widgets.debug.tooltip',
     resource: { '@type': WIDGET, data: {}, name: 'debug' },
     component: LazyDebugWidget,
-    toggle: DEBUG_SHOW_TOGGLE_PATH,
+    toggle: DEBUG_OPEN_TOGGLE_PATH,
+    showToggle: DEBUG_SHOW_TOGGLE_PATH,
 };
 
 const installDebug = (get: GetterWithPeek, set: SetterWithRecurse): Cleanup => {

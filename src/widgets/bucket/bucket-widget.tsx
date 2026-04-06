@@ -1,10 +1,9 @@
 'use client';
 
 /**
- * Shop List Widget
- *
- * Single-bucket widget instance.
- * Each bucket is installed independently in the workspace tree.
+ * Shop List Widget — inner content only.
+ * Widget (shelly) owns the container, background, drag handle and open/closed
+ * state. This component renders only the content for each state.
  */
 
 import shopActorAtom from '@/atoms/shop-actor-atom';
@@ -15,12 +14,10 @@ import CloseRoundedIcon from '@mui/icons-material/CloseRounded';
 import Box from '@mui/material/Box';
 import IconButton from '@mui/material/IconButton';
 import InputBase from '@mui/material/InputBase';
-import Paper from '@mui/material/Paper';
 import Typography from '@mui/material/Typography';
 import { useAtom, useAtomValue, useSetAtom } from '@specfocus/atoms/lib/hooks';
 import { isToggleEntry, noopToggleAtom } from '@specfocus/atoms/lib/toggle';
 import workspaceTreeAtom from '@specfocus/atoms/lib/workspace';
-import type { WidgetProps } from '@specfocus/shelly/lib/widgets/widget';
 import Widget from '@specfocus/shelly/lib/widgets/widget';
 import { type FC, useMemo, useState } from 'react';
 import BucketDrillin from './drillin/bucket-drillin';
@@ -30,19 +27,19 @@ interface BucketWidgetProps {
     bucketName?: string;
 }
 
-const fallbackListOpenAtom = noopToggleAtom;
-const fallbackListShowAtom = noopToggleAtom;
+const fallbackOpenAtom = noopToggleAtom;
+const fallbackShowAtom = noopToggleAtom;
 
 const BucketWidget: FC<BucketWidgetProps> = ({ bucketName = 'want' }) => {
     const buckets = useAtomValue(shopSnapshotBucketsAtom);
     const sendShopEvent = useSetAtom(shopActorAtom);
     const openTogglePath = useMemo(() => [...WIDGETS_PATH, bucketName, 'toggles', 'open'], [bucketName]);
     const showTogglePath = useMemo(() => [...WIDGETS_PATH, bucketName, 'toggles', 'show'], [bucketName]);
-    const bucketOpenToggleEntry = useAtomValue(workspaceTreeAtom(openTogglePath));
-    const bucketShowToggleEntry = useAtomValue(workspaceTreeAtom(showTogglePath));
-    const bucketOpenAtom = isToggleEntry(bucketOpenToggleEntry) ? bucketOpenToggleEntry.atom : fallbackListOpenAtom;
-    const bucketShowAtom = isToggleEntry(bucketShowToggleEntry) ? bucketShowToggleEntry.atom : fallbackListShowAtom;
-    const [isOpen, setIsOpen] = useAtom(bucketOpenAtom as never);
+    const openEntry = useAtomValue(workspaceTreeAtom(openTogglePath));
+    const showEntry = useAtomValue(workspaceTreeAtom(showTogglePath));
+    const bucketOpenAtom = isToggleEntry(openEntry) ? openEntry.atom : fallbackOpenAtom;
+    const bucketShowAtom = isToggleEntry(showEntry) ? showEntry.atom : fallbackShowAtom;
+    const [, setIsOpen] = useAtom(bucketOpenAtom as never);
     const [skuInput, setSkuInput] = useState('');
     const bucket = buckets[bucketName];
 
@@ -53,103 +50,37 @@ const BucketWidget: FC<BucketWidgetProps> = ({ bucketName = 'want' }) => {
     const handleAddSku = () => {
         const sku = skuInput.trim();
         if (!sku) return;
-        sendShopEvent({
-            type: ShopEventTypes.AddItem,
-            bucketName: bucket.name,
-            sku,
-            name: sku,
-            qty: 1,
-        });
+        sendShopEvent({ type: ShopEventTypes.AddItem, bucketName: bucket.name, sku, name: sku, qty: 1 });
         setSkuInput('');
     };
 
     return (
-        <Widget
-            openAtom={bucketShowAtom as WidgetProps['openAtom']}
-            defaultCorner="bottom-right"
-            sx={isOpen ? undefined : { overflow: 'visible', background: 'transparent', boxShadow: 'none' }}
-        >
-            {isOpen ? (
-                <Paper
-                    elevation={12}
-                    sx={{
-                        width: { xs: 'calc(100vw - 24px)', sm: 320 },
-                        maxHeight: 480,
-                        display: 'flex',
-                        flexDirection: 'column',
-                        borderRadius: 2,
-                        overflow: 'hidden',
-                    }}
-                >
-                    {/* Header */}
-                    <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', px: 2, py: 1.5, borderBottom: 1, borderColor: 'divider' }}>
-                        <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
-                            <Typography sx={{ fontSize: 22 }}>{bucket.icon}</Typography>
-                            <Typography variant="subtitle2" fontWeight={700}>{bucket.name}</Typography>
-                            <Typography variant="caption" color="text.secondary">({bucket.items.length})</Typography>
-                        </Box>
-                        <IconButton size="small" onClick={() => setIsOpen(false)}>
-                            <CloseRoundedIcon fontSize="small" />
-                        </IconButton>
+        <Widget showAtom={bucketShowAtom} openAtom={bucketOpenAtom}>
+            {/* ── open: header + items + SKU input ── */}
+            <>
+                {/* Header */}
+                <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', px: 2, py: 1.5, borderBottom: 1, borderColor: 'divider', flexShrink: 0 }}>
+                    <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
+                        <Typography sx={{ fontSize: 22 }}>{bucket.icon}</Typography>
+                        <Typography variant="subtitle2" fontWeight={700}>{bucket.name}</Typography>
+                        <Typography variant="caption" color="text.secondary">({bucket.items.length})</Typography>
                     </Box>
-
-                    {/* Items */}
-                    <Box sx={{ overflowY: 'auto', flex: 1, px: 1, py: 0.5 }}>
-                        <BucketDrillin bucketName={bucketName} />
-                    </Box>
-
-                    {/* Add by SKU */}
-                    <Box sx={{ borderTop: 1, borderColor: 'divider', p: 1.25, display: 'flex', gap: 1 }}>
-                        <InputBase
-                            value={skuInput}
-                            onChange={e => setSkuInput(e.target.value)}
-                            placeholder="Add SKU…"
-                            onKeyDown={e => e.key === 'Enter' && handleAddSku()}
-                            sx={{ flex: 1, border: 1, borderColor: 'divider', borderRadius: 1.5, px: 1.25, py: 0.75, fontSize: 13 }}
-                        />
-                        <IconButton size="small" onClick={handleAddSku} disabled={!skuInput.trim()}>
-                            <AddRoundedIcon fontSize="small" />
-                        </IconButton>
-                    </Box>
-                </Paper>
-            ) : (
-                <IconButton
-                    aria-label={`Open ${bucket.name} bucket`}
-                    onClick={() => setIsOpen(true)}
-                    sx={{
-                        width: 52,
-                        height: 52,
-                        bgcolor: 'grey.900',
-                        color: 'common.white',
-                        boxShadow: '0 8px 24px rgba(0,0,0,0.3)',
-                        '&:hover': { bgcolor: 'grey.800' },
-                        position: 'relative',
-                    }}
-                >
-                    <Typography sx={{ fontSize: 22, lineHeight: 1 }}>{bucket.icon}</Typography>
-                    {totalQty > 0 && (
-                        <Box
-                            sx={{
-                                position: 'absolute',
-                                top: -2,
-                                right: -2,
-                                minWidth: 20,
-                                height: 20,
-                                borderRadius: '999px',
-                                px: 0.5,
-                                bgcolor: 'error.main',
-                                color: 'error.contrastText',
-                                fontSize: 11,
-                                display: 'grid',
-                                placeItems: 'center',
-                                fontWeight: 700,
-                            }}
-                        >
-                            {totalQty}
-                        </Box>
-                    )}
-                </IconButton>
-            )}
+                    <IconButton size="small" onClick={() => setIsOpen(false)}>
+                        <CloseRoundedIcon fontSize="small" />
+                    </IconButton>
+                </Box>
+                {/* Items */}
+                <Box sx={{ overflowY: 'auto', flex: 1, px: 1, py: 0.5 }}>
+                    <BucketDrillin bucketName={bucketName} />
+                </Box>
+                {/* Add by SKU */}
+                <Box sx={{ borderTop: 1, borderColor: 'divider', p: 1.25, display: 'flex', gap: 1, flexShrink: 0 }}>
+                    <InputBase value={skuInput} onChange={e => setSkuInput(e.target.value)} placeholder="Add SKU…" onKeyDown={e => e.key === 'Enter' && handleAddSku()} sx={{ flex: 1, border: 1, borderColor: 'divider', px: 1.25, py: 0.75, fontSize: 13 }} />
+                    <IconButton size="small" onClick={handleAddSku} disabled={!skuInput.trim()}>
+                        <AddRoundedIcon fontSize="small" />
+                    </IconButton>
+                </Box>
+            </>
         </Widget>
     );
 };

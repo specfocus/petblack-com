@@ -30,7 +30,8 @@ const dietWidgetEntry: WorkspaceWidgetEntry = {
     tooltip: 'petblack.widgets.diet.tooltip',
     resource: { '@type': WIDGET, data: {}, name: 'diet' },
     component: LazyDietWidget,
-    toggle: DIET_SHOW_TOGGLE_PATH,
+    toggle: DIET_OPEN_TOGGLE_PATH,
+    showToggle: DIET_SHOW_TOGGLE_PATH,
 };
 
 // ── install ───────────────────────────────────────────────────────────────────

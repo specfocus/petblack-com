@@ -20,12 +20,10 @@ import IconButton from '@mui/material/IconButton';
 import InputBase from '@mui/material/InputBase';
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
-import Paper from '@mui/material/Paper';
 import Typography from '@mui/material/Typography';
 import { useAtom, useAtomValue, useSetAtom } from '@specfocus/atoms/lib/hooks';
 import { SwiperEventTypes } from '@specfocus/shelly/lib/layouts/swiper/machine/swiper-event-types';
 import shellActorAtom from '@specfocus/shelly/lib/shell/atoms/shell-actor-atom';
-import type { WidgetProps } from '@specfocus/shelly/lib/widgets/widget';
 import Widget from '@specfocus/shelly/lib/widgets/widget';
 import { useMemo, useState, type FC, type FormEvent, type MouseEvent } from 'react';
 import debugOpenAtom from './atoms/debug-open-atom';
@@ -129,226 +127,191 @@ Terminology:
     };
 
     return (
-        <Widget
-            openAtom={debugShowAtom as WidgetProps['openAtom']}
-            defaultCorner="bottom-left"
-            sx={isOpen ? undefined : { overflow: 'visible', background: 'transparent', boxShadow: 'none' }}
-        >
-            {isOpen ? (
-                <Paper
-                    component="section"
-                    aria-label="Debug chat panel"
-                    elevation={12}
-                    sx={{
-                        width: { xs: 'calc(100vw - 24px)', sm: 460 },
-                        height: { xs: 'calc(100vh - 24px)', sm: 560 },
-                        maxWidth: 460,
-                        maxHeight: 560,
-                        display: 'grid',
-                        gridTemplateRows: 'auto 1fr auto',
-                        overflow: 'hidden',
-                        borderRadius: 2,
-                        bgcolor: 'background.paper',
-                    }}
-                >
-                    <Box
-                        component="header"
-                        sx={{
-                            display: 'flex',
-                            alignItems: 'center',
-                            justifyContent: 'space-between',
-                            px: 1.5,
-                            py: 1,
-                            borderBottom: 1,
-                            borderColor: 'divider',
-                        }}
+        <Widget showAtom={debugShowAtom} openAtom={debugOpenAtom}>
+            {/* ── Header ── */}
+            <Box
+                component="header"
+                sx={{
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'space-between',
+                    px: 1.5,
+                    py: 1,
+                    borderBottom: 1,
+                    borderColor: 'divider',
+                    flexShrink: 0,
+                }}
+            >
+                <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
+                    <BugReportRoundedIcon fontSize="small" />
+                    <Typography variant="subtitle2">Buddy Debug Console</Typography>
+                </Box>
+                <Box>
+                    <IconButton
+                        size="small"
+                        onClick={() => sendShellEvent({ type: SwiperEventTypes.PushView, view: workspaceViewContext })}
+                        title="Open workspace view"
                     >
-                        <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
-                            <BugReportRoundedIcon fontSize="small" />
-                            <Typography variant="subtitle2">Buddy Debug Console</Typography>
-                        </Box>
-                        <Box>
-                            <IconButton
-                                size="small"
-                                onClick={() => sendShellEvent({ type: SwiperEventTypes.PushView, view: workspaceViewContext })}
-                                title="Open workspace view"
-                            >
-                                <WorkspaceRoundedIcon fontSize="small" />
-                            </IconButton>
-                            <IconButton
-                                size="small"
-                                onClick={() => sendAgentEvent({ type: AgentEventTypes.ClearDebugTraces })}
-                                title="Clear transcript"
-                            >
-                                <ClearAllRoundedIcon fontSize="small" />
-                            </IconButton>
-                            <IconButton size="small" onClick={() => setIsOpen(false)} title="Close">
-                                <CloseRoundedIcon fontSize="small" />
-                            </IconButton>
-                        </Box>
-                    </Box>
+                        <WorkspaceRoundedIcon fontSize="small" />
+                    </IconButton>
+                    <IconButton
+                        size="small"
+                        onClick={() => sendAgentEvent({ type: AgentEventTypes.ClearDebugTraces })}
+                        title="Clear transcript"
+                    >
+                        <ClearAllRoundedIcon fontSize="small" />
+                    </IconButton>
+                    <IconButton size="small" onClick={() => setIsOpen(false)} title="Close">
+                        <CloseRoundedIcon fontSize="small" />
+                    </IconButton>
+                </Box>
+            </Box>
 
-                    <Box
-                        sx={{
-                            p: 1,
-                            overflowY: 'auto',
-                            fontFamily: 'monospace',
-                            fontSize: 12,
-                            userSelect: 'text',
-                            WebkitUserSelect: 'text',
-                        }}
-                    >
-                        {lines.length === 0 ? (
-                            <Typography variant="caption" color="text.secondary">
-                                Send a message to inspect raw request/response payloads.
+            {/* ── Traces ── */}
+            <Box
+                sx={{
+                    p: 1,
+                    overflowY: 'auto',
+                    flex: 1,
+                    fontFamily: 'monospace',
+                    fontSize: 12,
+                    userSelect: 'text',
+                    WebkitUserSelect: 'text',
+                }}
+            >
+                {lines.length === 0 ? (
+                    <Typography variant="caption" color="text.secondary">
+                        Send a message to inspect raw request/response payloads.
+                    </Typography>
+                ) : (
+                    lines.map(line => (
+                        <Box
+                            key={line.id}
+                            sx={{
+                                mb: 1,
+                                p: 1,
+                                pb: 3.5,
+                                bgcolor:
+                                    line.direction === 'request'
+                                        ? 'action.hover'
+                                        : line.direction === 'response'
+                                            ? 'success.light'
+                                            : 'error.light',
+                                color: 'text.primary',
+                                whiteSpace: 'pre-wrap',
+                                wordBreak: 'break-word',
+                                position: 'relative',
+                                userSelect: 'text',
+                                WebkitUserSelect: 'text',
+                            }}
+                        >
+                            <Typography variant="caption" sx={{ display: 'block', opacity: 0.75, mb: 0.5 }}>
+                                [{line.direction.toUpperCase()}] {line.timestamp}
                             </Typography>
-                        ) : (
-                            lines.map(line => (
-                                <Box
-                                    key={line.id}
-                                    sx={{
-                                        mb: 1,
-                                        p: 1,
-                                        pb: 3.5,
-                                        borderRadius: 1,
-                                        bgcolor:
-                                            line.direction === 'request'
-                                                ? 'action.hover'
-                                                : line.direction === 'response'
-                                                    ? 'success.light'
-                                                    : 'error.light',
-                                        color: 'text.primary',
-                                        whiteSpace: 'pre-wrap',
-                                        wordBreak: 'break-word',
-                                        position: 'relative',
-                                        userSelect: 'text',
-                                        WebkitUserSelect: 'text',
-                                    }}
-                                >
-                                    <Typography variant="caption" sx={{ display: 'block', opacity: 0.75, mb: 0.5 }}>
-                                        [{line.direction.toUpperCase()}] {line.timestamp}
-                                    </Typography>
-                                    <Box component="pre" sx={{ m: 0, fontFamily: 'inherit', whiteSpace: 'pre-wrap' }}>
-                                        {line.text}
-                                    </Box>
-                                    <IconButton
-                                        size="small"
-                                        onClick={() => handleCopyTrace(line.id, line.text)}
-                                        title="Copy message"
-                                        sx={{
-                                            position: 'absolute',
-                                            right: 6,
-                                            bottom: 6,
-                                            bgcolor: 'rgba(0,0,0,0.08)',
-                                            '&:hover': { bgcolor: 'rgba(0,0,0,0.14)' },
-                                        }}
-                                    >
-                                        {copiedTraceId === line.id
-                                            ? <CheckRoundedIcon fontSize="inherit" />
-                                            : <ContentCopyRoundedIcon fontSize="inherit" />}
-                                    </IconButton>
-                                </Box>
-                            ))
-                        )}
-                    </Box>
-
-                    <Box
-                        component="form"
-                        onSubmit={onSubmit}
-                        sx={{
-                            borderTop: 1,
-                            borderColor: 'divider',
-                            p: 1,
-                            display: 'grid',
-                            gridTemplateColumns: '1fr auto',
-                            gap: 1,
-                            alignItems: 'center',
-                        }}
-                    >
-                        <Box sx={{ width: '100%' }}>
-                            <Box
+                            <Box component="pre" sx={{ m: 0, fontFamily: 'inherit', whiteSpace: 'pre-wrap' }}>
+                                {line.text}
+                            </Box>
+                            <IconButton
+                                size="small"
+                                onClick={() => handleCopyTrace(line.id, line.text)}
+                                title="Copy message"
                                 sx={{
-                                    border: 1,
-                                    borderColor: 'divider',
-                                    borderRadius: 1.5,
-                                    bgcolor: 'background.default',
-                                    width: '100%',
-                                    display: 'flex',
-                                    alignItems: 'center',
+                                    position: 'absolute',
+                                    right: 6,
+                                    bottom: 6,
+                                    bgcolor: 'rgba(0,0,0,0.08)',
+                                    '&:hover': { bgcolor: 'rgba(0,0,0,0.14)' },
                                 }}
                             >
-                                <InputBase
-                                    value={message}
-                                    onChange={(e) => setMessage(e.target.value)}
-                                    placeholder="Type or select a debug request"
-                                    inputProps={{ maxLength: 800 }}
-                                    sx={{
-                                        px: 1,
-                                        py: 0.75,
-                                        fontSize: 13,
-                                        flex: 1,
-                                    }}
-                                />
-                                <IconButton
-                                    size="small"
-                                    onClick={handleOpenPrefabMenu}
-                                    title="Select prefab message"
-                                    sx={{ mr: 0.5 }}
-                                >
-                                    <KeyboardArrowDownRoundedIcon fontSize="small" />
-                                </IconButton>
-                            </Box>
-                            <Menu
-                                anchorEl={menuAnchorEl}
-                                open={isPrefabMenuOpen}
-                                onClose={handleClosePrefabMenu}
-                                anchorOrigin={{ vertical: 'top', horizontal: 'left' }}
-                                transformOrigin={{ vertical: 'bottom', horizontal: 'left' }}
-                            >
-                                {prefabItems.map((prefab) => (
-                                    <MenuItem
-                                        key={prefab.id}
-                                        onClick={() => handlePickPrefabMessage(prefab.token)}
-                                        dense
-                                    >
-                                        <Box sx={{ display: 'flex', flexDirection: 'column' }}>
-                                            <Typography variant="caption" sx={{ fontFamily: 'monospace' }}>
-                                                {prefab.token}
-                                            </Typography>
-                                            <Typography variant="body2">
-                                                {prefab.message}
-                                            </Typography>
-                                        </Box>
-                                    </MenuItem>
-                                ))}
-                            </Menu>
+                                {copiedTraceId === line.id
+                                    ? <CheckRoundedIcon fontSize="inherit" />
+                                    : <ContentCopyRoundedIcon fontSize="inherit" />}
+                            </IconButton>
                         </Box>
+                    ))
+                )}
+            </Box>
+
+            {/* ── Composer ── */}
+            <Box
+                component="form"
+                onSubmit={onSubmit}
+                sx={{
+                    borderTop: 1,
+                    borderColor: 'divider',
+                    p: 1,
+                    display: 'grid',
+                    gridTemplateColumns: '1fr auto',
+                    gap: 1,
+                    alignItems: 'center',
+                    flexShrink: 0,
+                }}
+            >
+                <Box sx={{ width: '100%' }}>
+                    <Box
+                        sx={{
+                            border: 1,
+                            borderColor: 'divider',
+                            bgcolor: 'background.default',
+                            width: '100%',
+                            display: 'flex',
+                            alignItems: 'center',
+                        }}
+                    >
+                        <InputBase
+                            value={message}
+                            onChange={(e) => setMessage(e.target.value)}
+                            placeholder="Type or select a debug request"
+                            inputProps={{ maxLength: 800 }}
+                            sx={{
+                                px: 1,
+                                py: 0.75,
+                                fontSize: 13,
+                                flex: 1,
+                            }}
+                        />
                         <IconButton
-                            type="submit"
-                            disabled={!message.trim() || isSending}
-                            color="primary"
-                            sx={{ borderRadius: 1.5 }}
+                            size="small"
+                            onClick={handleOpenPrefabMenu}
+                            title="Select prefab message"
+                            sx={{ mr: 0.5 }}
                         >
-                            <SendRoundedIcon fontSize="small" />
+                            <KeyboardArrowDownRoundedIcon fontSize="small" />
                         </IconButton>
                     </Box>
-                </Paper>
-            ) : (
+                    <Menu
+                        anchorEl={menuAnchorEl}
+                        open={isPrefabMenuOpen}
+                        onClose={handleClosePrefabMenu}
+                        anchorOrigin={{ vertical: 'top', horizontal: 'left' }}
+                        transformOrigin={{ vertical: 'bottom', horizontal: 'left' }}
+                    >
+                        {prefabItems.map((prefab) => (
+                            <MenuItem
+                                key={prefab.id}
+                                onClick={() => handlePickPrefabMessage(prefab.token)}
+                                dense
+                            >
+                                <Box sx={{ display: 'flex', flexDirection: 'column' }}>
+                                    <Typography variant="caption" sx={{ fontFamily: 'monospace' }}>
+                                        {prefab.token}
+                                    </Typography>
+                                    <Typography variant="body2">
+                                        {prefab.message}
+                                    </Typography>
+                                </Box>
+                            </MenuItem>
+                        ))}
+                    </Menu>
+                </Box>
                 <IconButton
-                    aria-label="Open debug console"
-                    onClick={() => setIsOpen(true)}
-                    sx={{
-                        width: 54,
-                        height: 54,
-                        bgcolor: 'warning.dark',
-                        color: 'common.white',
-                        boxShadow: '0 8px 24px rgba(0,0,0,0.35)',
-                        '&:hover': { bgcolor: 'warning.main' },
-                    }}
+                    type="submit"
+                    disabled={!message.trim() || isSending}
+                    color="primary"
                 >
-                    <BugReportRoundedIcon />
+                    <SendRoundedIcon fontSize="small" />
                 </IconButton>
-            )}
+            </Box>
         </Widget>
     );
 };
