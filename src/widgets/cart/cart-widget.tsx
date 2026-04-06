@@ -46,12 +46,37 @@ const StepCart: FC<{ onNext: () => void; }> = ({ onNext }) => {
     const cart = buckets[PrefabBucketNames.Cart];
     const items = cart?.items ?? [];
 
+    const total = items.reduce((sum, item) => sum + (item.price ?? 0) * item.qty, 0);
+    const hasTotal = items.some(item => item.price != null);
+
     return (
-        <Box sx={{ flex: 1, overflowY: 'auto' }}>
-            <BucketDrillin bucketName={PrefabBucketNames.Cart} />
-            <Button variant="contained" fullWidth onClick={onNext} disabled={items.length === 0} sx={{ mt: 2 }}>
-                Continue to Delivery
-            </Button>
+        <Box sx={{ flex: 1, display: 'flex', flexDirection: 'column' }}>
+            <Box sx={{ flex: 1, overflowY: 'auto' }}>
+                <BucketDrillin bucketName={PrefabBucketNames.Cart} />
+            </Box>
+            {items.length > 0 && (
+                <Box sx={{ borderTop: 1, borderColor: 'divider', pt: 1.5, mt: 1 }}>
+                    <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', mb: 1.5 }}>
+                        <Typography variant="subtitle2" color="text.secondary">
+                            {items.reduce((sum, i) => sum + i.qty, 0)} items
+                        </Typography>
+                        <Box sx={{ display: 'flex', alignItems: 'baseline', gap: 0.5 }}>
+                            <Typography variant="caption" color="text.secondary">Total</Typography>
+                            <Typography variant="h6" fontWeight={700} sx={{ lineHeight: 1 }}>
+                                {hasTotal ? `$${total.toFixed(2)}` : '—'}
+                            </Typography>
+                        </Box>
+                    </Box>
+                    <Button variant="contained" fullWidth onClick={onNext}>
+                        Continue to Delivery
+                    </Button>
+                </Box>
+            )}
+            {items.length === 0 && (
+                <Button variant="contained" fullWidth onClick={onNext} disabled sx={{ mt: 2 }}>
+                    Continue to Delivery
+                </Button>
+            )}
         </Box>
     );
 };
