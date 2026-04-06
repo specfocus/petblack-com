@@ -60,6 +60,10 @@ export interface BucketItem {
     qty: number;
     /** ISO timestamp of when the item was added */
     addedAt: string;
+    /** Product thumbnail URL (denormalised from the catalogue at add-time) */
+    imageUrl?: string;
+    /** Unit price in the offer currency (denormalised from the catalogue at add-time) */
+    price?: number;
 }
 
 // ── bucket ──────────────────────────────────────────────────────────────────────

@@ -23,7 +23,7 @@ import workspaceTreeAtom from '@specfocus/atoms/lib/workspace';
 import type { WidgetProps } from '@specfocus/shelly/lib/widgets/widget';
 import Widget from '@specfocus/shelly/lib/widgets/widget';
 import { type FC, useMemo, useState } from 'react';
-import BucketDrilldown from './drilldown/bucket-drilldown';
+import BucketDrillin from './drillin/bucket-drillin';
 import { WIDGETS_PATH } from '../widgets-path';
 
 interface BucketWidgetProps {
@@ -95,7 +95,7 @@ const BucketWidget: FC<BucketWidgetProps> = ({ bucketName = 'want' }) => {
 
                     {/* Items */}
                     <Box sx={{ overflowY: 'auto', flex: 1, px: 1, py: 0.5 }}>
-                        <BucketDrilldown bucketName={bucketName} />
+                        <BucketDrillin bucketName={bucketName} />
                     </Box>
 
                     {/* Add by SKU */}

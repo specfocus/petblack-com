@@ -31,6 +31,15 @@ export const productsOptionsAtom: ReadonlyAtom<FieldOption[]> = atom(
 
 // ── field atoms ──────────────────────────────────────────────────────────────
 
+export const imageFieldAtom: FieldDefAtom<BucketItem, 'imageUrl'> = atom<FieldDef<BucketItem, 'imageUrl'>>({
+    key: 'imageUrl',
+    label: 'Photo',
+    inputVariant: 'image' as any,
+    editable: false,
+    align: 'left',
+    listFlex: '0 0 56px',
+});
+
 export const skuFieldAtom: FieldDefAtom<BucketItem, 'sku'> = atom<FieldDef<BucketItem, 'sku'>>({
     key: 'sku',
     label: 'SKU',
@@ -56,6 +65,16 @@ export const qtyFieldAtom: FieldDefAtom<BucketItem, 'qty'> = atom<FieldDef<Bucke
     align: 'right',
 });
 
+export const priceFieldAtom: FieldDefAtom<BucketItem, 'price'> = atom<FieldDef<BucketItem, 'price'>>({
+    key: 'price',
+    label: 'Price',
+    inputVariant: 'text',
+    editable: false,
+    align: 'right',
+    render: (value) => value != null ? `$${(value as number).toFixed(2)}` : '—',
+    listFlex: '0 0 72px',
+});
+
 export const addedAtFieldAtom: FieldDefAtom<BucketItem, 'addedAt'> = atom<FieldDef<BucketItem, 'addedAt'>>({
     key: 'addedAt',
     label: 'Added',
@@ -65,14 +84,14 @@ export const addedAtFieldAtom: FieldDefAtom<BucketItem, 'addedAt'> = atom<FieldD
 });
 
 /**
- * Field atoms shown in the list table (SKU, name, qty).
- * addedAt is intentionally omitted from the list to keep it compact.
+ * Field atoms shown in the list table (photo, name, qty).
+ * sku and addedAt are intentionally omitted from the list to keep it compact.
  */
 export const bucketItemListFieldsAtoms: [
-    FieldDefAtom<BucketItem, 'sku'>,
+    FieldDefAtom<BucketItem, 'imageUrl'>,
     FieldDefAtom<BucketItem, 'name'>,
     FieldDefAtom<BucketItem, 'qty'>,
-] = [skuFieldAtom, nameFieldAtom, qtyFieldAtom];
+] = [imageFieldAtom, nameFieldAtom, qtyFieldAtom];
 
 /**
  * All field atoms including addedAt — passed to Drilldown's fieldsAtoms so

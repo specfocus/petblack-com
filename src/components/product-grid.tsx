@@ -232,6 +232,8 @@ const ProductGrid: FC<ProductGridProps> = ({ products, loading = false, query })
             sku: product.sku ?? product['@id'] ?? product.name,
             name: product.name,
             qty: 1,
+            imageUrl: product.image,
+            price: product.offers?.price,
         });
     }, [sendShopEvent]);
     if (loading) {

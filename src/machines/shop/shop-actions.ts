@@ -85,6 +85,8 @@ const shopActions = {
                 sku: addItemEvent.sku,
                 name: addItemEvent.name,
                 qty: addItemEvent.qty,
+                imageUrl: addItemEvent.imageUrl,
+                price: addItemEvent.price,
             }),
             dirty: true,
         };

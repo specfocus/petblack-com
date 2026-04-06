@@ -33,7 +33,7 @@ import { useAtom, useAtomValue } from '@specfocus/atoms/lib/hooks';
 import { type FC, useMemo, useState } from 'react';
 import { PrefabBucketNames } from '@/domain/types';
 import shopSnapshotBucketsAtom from '@/atoms/shop-snapshot-buckets-atom';
-import BucketDrilldown from '@/widgets/bucket/drilldown/bucket-drilldown';
+import BucketDrillin from '@/widgets/bucket/drillin/bucket-drillin';
 import cartShowAtom from './atoms/cart-show-atom';
 import cartOpenAtom from './atoms/cart-open-atom';
 
@@ -48,7 +48,7 @@ const StepCart: FC<{ onNext: () => void; }> = ({ onNext }) => {
 
     return (
         <Box sx={{ flex: 1, overflowY: 'auto' }}>
-            <BucketDrilldown bucketName={PrefabBucketNames.Cart} />
+            <BucketDrillin bucketName={PrefabBucketNames.Cart} />
             <Button variant="contained" fullWidth onClick={onNext} disabled={items.length === 0} sx={{ mt: 2 }}>
                 Continue to Delivery
             </Button>
@@ -189,7 +189,7 @@ const CartWidget: FC = () => {
                 <Paper
                     elevation={12}
                     sx={{
-                        width: { xs: 'calc(100vw - 24px)', sm: 400 },
+                        width: { xs: 'calc(100vw - 24px)', sm: 560 },
                         maxHeight: { xs: 'calc(100vh - 24px)', sm: 600 },
                         display: 'flex',
                         flexDirection: 'column',
@@ -198,20 +198,42 @@ const CartWidget: FC = () => {
                     }}
                 >
                     {/* Header */}
-                    <Box sx={{ px: 2, pt: 2, pb: 1, borderBottom: 1, borderColor: 'divider' }}>
-                        <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', mb: 1.5 }}>
-                            <Typography variant="subtitle1" fontWeight={700}>🛒 Cart</Typography>
-                            <IconButton size="small" onClick={handleClose}>
+                    <Box sx={{ px: 2, pt: 1.5, pb: 1, borderBottom: 1, borderColor: 'divider' }}>
+                        <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
+                            {/* Cart icon */}
+                            <ShoppingCartRoundedIcon sx={{ fontSize: 20, color: 'text.secondary', flexShrink: 0 }} />
+
+                            {/* Stepper — fills remaining space */}
+                            {step < STEPS.length - 1 ? (
+                                <Stepper
+                                    activeStep={step}
+                                    sx={{ flex: 1, '& .MuiStepConnector-line': { borderTopWidth: 1 } }}
+                                >
+                                    {STEPS.slice(0, -1).map(label => (
+                                        <Step key={label}>
+                                            <StepLabel
+                                                sx={{
+                                                    '& .MuiStepLabel-label': {
+                                                        fontSize: 10,
+                                                        whiteSpace: 'nowrap',
+                                                    },
+                                                    '& .MuiStepLabel-iconContainer': { pr: 0.5 },
+                                                }}
+                                            >
+                                                {label}
+                                            </StepLabel>
+                                        </Step>
+                                    ))}
+                                </Stepper>
+                            ) : (
+                                <Box sx={{ flex: 1 }} />
+                            )}
+
+                            {/* Close button */}
+                            <IconButton size="small" onClick={handleClose} sx={{ flexShrink: 0 }}>
                                 <CloseRoundedIcon fontSize="small" />
                             </IconButton>
                         </Box>
-                        {step < STEPS.length - 1 && (
-                            <Stepper activeStep={step} alternativeLabel sx={{ '& .MuiStepLabel-label': { fontSize: 10 } }}>
-                                {STEPS.slice(0, -1).map(label => (
-                                    <Step key={label}><StepLabel>{label}</StepLabel></Step>
-                                ))}
-                            </Stepper>
-                        )}
                         <LinearProgress variant="determinate" value={(step / (STEPS.length - 1)) * 100} sx={{ mt: 1, borderRadius: 1 }} />
                     </Box>
 
