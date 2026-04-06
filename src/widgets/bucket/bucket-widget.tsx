@@ -55,7 +55,7 @@ const BucketWidget: FC<BucketWidgetProps> = ({ bucketName = 'want' }) => {
     };
 
     return (
-        <Widget showAtom={bucketShowAtom} openAtom={bucketOpenAtom}>
+        <Widget showAtom={bucketShowAtom} openAtom={bucketOpenAtom} closedLabel={bucket.icon} closedBadge={totalQty}>
             {/* ── open: header + items + SKU input ── */}
             <>
                 {/* Header */}

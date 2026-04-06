@@ -207,7 +207,7 @@ const CartWidget: FC = () => {
     const handleClose = () => { setIsOpen(false); setStep(0); };
 
     return (
-        <Widget showAtom={cartShowAtom} openAtom={cartOpenAtom}>
+        <Widget showAtom={cartShowAtom} openAtom={cartOpenAtom} closedIcon={ShoppingCartRoundedIcon} closedBadge={cartItemCount}>
             {/* Header */}
             <Box sx={{ px: 2, pt: 1.5, pb: 1, borderBottom: 1, borderColor: 'divider', flexShrink: 0 }}>
                 <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>

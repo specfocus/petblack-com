@@ -14,6 +14,7 @@ import { buildBuddyProfile } from "@/widgets/buddy/domain/deterministic";
 import { getOrCreateVisitorId } from "@/widgets/buddy/domain/storage";
 import type { BuddyProfile } from "@/widgets/buddy/domain/types";
 import CloseRoundedIcon from "@mui/icons-material/CloseRounded";
+import PetsRoundedIcon from "@mui/icons-material/PetsRounded";
 import SendRoundedIcon from "@mui/icons-material/SendRounded";
 import Box from "@mui/material/Box";
 import IconButton from "@mui/material/IconButton";
@@ -120,7 +121,7 @@ Allowed events include:
     }
 
     return (
-        <Widget showAtom={buddyShowAtom} openAtom={buddyOpenAtom}>
+        <Widget showAtom={buddyShowAtom} openAtom={buddyOpenAtom} closedIcon={PetsRoundedIcon}>
             {/* ── Header ── */}
             <Box
                 component="header"

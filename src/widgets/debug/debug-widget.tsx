@@ -127,7 +127,7 @@ Terminology:
     };
 
     return (
-        <Widget showAtom={debugShowAtom} openAtom={debugOpenAtom}>
+        <Widget showAtom={debugShowAtom} openAtom={debugOpenAtom} closedIcon={BugReportRoundedIcon}>
             {/* ── Header ── */}
             <Box
                 component="header"
