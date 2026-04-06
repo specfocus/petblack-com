@@ -130,7 +130,6 @@ Terminology:
         <Widget showAtom={debugShowAtom} openAtom={debugOpenAtom} closedIcon={BugReportRoundedIcon}>
             {/* ── Header ── */}
             <Box
-                component="header"
                 sx={{
                     display: 'flex',
                     alignItems: 'center',
@@ -140,6 +139,7 @@ Terminology:
                     borderBottom: 1,
                     borderColor: 'divider',
                     flexShrink: 0,
+                    width: '100%',
                 }}
             >
                 <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
@@ -177,6 +177,8 @@ Terminology:
                     fontSize: 12,
                     userSelect: 'text',
                     WebkitUserSelect: 'text',
+                    width: '100%',
+                    minWidth: 0,
                 }}
             >
                 {lines.length === 0 ? (
@@ -245,6 +247,8 @@ Terminology:
                     gap: 1,
                     alignItems: 'center',
                     flexShrink: 0,
+                    width: '100%',
+                    minWidth: 0,
                 }}
             >
                 <Box sx={{ width: '100%' }}>

@@ -20,7 +20,7 @@
     "@mui/system": "^7.1.1",
     "@mui/utils": "^7.1.1",
     "@specfocus/atoms": "^0.0.49",
-    "@specfocus/shelly": "^0.0.44",
+    "@specfocus/shelly": "^0.0.45",
     "@swc/helpers": "^0.5.21",
     "clsx": "^2.1.1",
     "input-otp": "^1.4.2",

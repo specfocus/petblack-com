@@ -124,7 +124,6 @@ Allowed events include:
         <Widget showAtom={buddyShowAtom} openAtom={buddyOpenAtom} closedIcon={PetsRoundedIcon}>
             {/* ── Header ── */}
             <Box
-                component="header"
                 sx={{
                     display: "flex",
                     alignItems: "center",
@@ -134,6 +133,7 @@ Allowed events include:
                     borderBottom: 1,
                     borderColor: "divider",
                     flexShrink: 0,
+                    width: '100%',
                 }}
             >
                 <Box sx={{ display: "flex", gap: 1.25, alignItems: "center", minWidth: 0 }}>
@@ -168,6 +168,8 @@ Allowed events include:
                     flexDirection: "column",
                     gap: 1.25,
                     flex: 1,
+                    width: '100%',
+                    minWidth: 0,
                 }}
             >
                 {chat.map((line) => (
@@ -204,6 +206,8 @@ Allowed events include:
                     gap: 1,
                     alignItems: "center",
                     flexShrink: 0,
+                    width: '100%',
+                    minWidth: 0,
                 }}
             >
                 <InputBase
