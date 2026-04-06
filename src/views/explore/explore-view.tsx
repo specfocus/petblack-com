@@ -62,9 +62,26 @@ const ExploreView: FC = () => {
             </Box>
 
             {hasResults ? (
-                <Container maxWidth="xl" sx={{ py: 3 }}>
+                <Box
+                    sx={{
+                        // On screens ≥ 1920 px (xl) the content sits in the
+                        // centre 3/5 of the viewport — 1/5 margin on each side.
+                        // Below that it behaves like a normal xl Container.
+                        width: '100%',
+                        mx: 'auto',
+                        px: { xs: 2, sm: 3 },
+                        py: 3,
+                        maxWidth: {
+                            xs: '100%',
+                            sm: '100%',
+                            md: '100%',
+                            lg: '100%',
+                            xl: '60vw',   // 3/5 of the viewport width
+                        },
+                    }}
+                >
                     <ProductGrid products={results} loading={loading} query={query} />
-                </Container>
+                </Box>
             ) : (
                 <Box sx={{ flexGrow: 1 }} />
             )}
