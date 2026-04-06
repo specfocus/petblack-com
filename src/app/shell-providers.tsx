@@ -1,6 +1,7 @@
 'use client';
 
 import AppThemeProvider from '@specfocus/shelly/lib/theme/theme-provider';
+import Alerts from '@specfocus/shelly/lib/alerts/alerts';
 import Shelly from '@specfocus/shelly/lib/shelly';
 import { Provider } from '@specfocus/atoms/lib/hooks/provider';
 import { type FC, type PropsWithChildren } from 'react';
@@ -15,6 +16,7 @@ const ShellProviders: FC<PropsWithChildren> = ({ children }) => (
             <Shelly>
                 {children}
             </Shelly>
+            <Alerts />
         </AppThemeProvider>
     </Provider>
 );

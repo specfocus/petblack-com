@@ -4,7 +4,6 @@ import ExpandMoreRoundedIcon from '@mui/icons-material/ExpandMoreRounded';
 import StarRoundedIcon from '@mui/icons-material/StarRounded';
 import StarBorderRoundedIcon from '@mui/icons-material/StarBorderRounded';
 import StarHalfRoundedIcon from '@mui/icons-material/StarHalfRounded';
-import Alert from '@mui/material/Alert';
 import Box from '@mui/material/Box';
 import ButtonBase from '@mui/material/ButtonBase';
 import Card from '@mui/material/Card';
@@ -19,10 +18,11 @@ import MenuItem from '@mui/material/MenuItem';
 import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
 import Skeleton from '@mui/material/Skeleton';
-import Snackbar from '@mui/material/Snackbar';
 import Tooltip from '@mui/material/Tooltip';
 import Typography from '@mui/material/Typography';
 import { useAtomValue, useSetAtom, useTranslations } from '@specfocus/atoms/lib/hooks';
+import useAlert from '@specfocus/shelly/lib/hooks/use-alert';
+import { AlertTypes } from '@specfocus/shelly/lib/alerts';
 import { type FC, useState } from 'react';
 import shopActorAtom from '@/atoms/shop-actor-atom';
 import shopSnapshotBucketsAtom from '@/atoms/shop-snapshot-buckets-atom';
@@ -118,11 +118,11 @@ const ProductTagChip: FC<{ tag: string; }> = ({ tag }) => {
  */
 const BucketPickerButton: FC<{ product: ProductJsonLd; disabled?: boolean; }> = ({ product, disabled }) => {
     const t = useTranslations();
+    const addAlert = useAlert();
     const [chevronEl, setChevronEl] = useState<HTMLElement | null>(null);
     const [menuOpen, setMenuOpen] = useState(false);
     const [containerEl, setContainerEl] = useState<HTMLElement | null>(null);
     const [selectedKey, setSelectedKey] = useState<string>('cart');
-    const [snackMsg, setSnackMsg] = useState<string | null>(null);
 
     const buckets = useAtomValue(shopSnapshotBucketsAtom);
     const sendShopEvent = useSetAtom(shopActorAtom);
@@ -154,7 +154,7 @@ const BucketPickerButton: FC<{ product: ProductJsonLd; disabled?: boolean; }> = 
             imageUrl: product.image,
             price: product.offers?.price,
         });
-        setSnackMsg(getConfirmation(bucketName));
+        addAlert(getConfirmation(bucketName), AlertTypes.Success);
     };
 
     const handleMainClick = () => doAdd(selectedKey);
@@ -258,23 +258,6 @@ const BucketPickerButton: FC<{ product: ProductJsonLd; disabled?: boolean; }> = 
                     </MenuItem>
                 ))}
             </Menu>
-
-            {/* Add confirmation snackbar */}
-            <Snackbar
-                open={snackMsg !== null}
-                autoHideDuration={2500}
-                onClose={() => setSnackMsg(null)}
-                anchorOrigin={{ vertical: 'bottom', horizontal: 'center' }}
-            >
-                <Alert
-                    onClose={() => setSnackMsg(null)}
-                    severity="success"
-                    variant="filled"
-                    sx={{ width: '100%' }}
-                >
-                    {snackMsg}
-                </Alert>
-            </Snackbar>
         </Box>
     );
 };
