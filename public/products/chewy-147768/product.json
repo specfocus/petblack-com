@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-147768",
+  "name": "Tiny Tiger Chunks in Gravy Beef & Poultry Recipes Variety Pack Grain-Free Canned Cat Food",
+  "description": "Feed your cat’s biggest dreams with a bowlful of delicious, grain-free nutrition. Tiny Tiger Chunks in Gravy recipes deliver the protein your mighty feline needs to perform at his best, with a variety of crave-able proteins—including real beef, chicken and turkey. It’s a complete and balanced diet in every can, and a total showstopper when it comes to flavor and nutrition. Your cat will love the taste of real meat and poultry in savory gravy, and you can feel good knowing each bite packs the nutrients he needs to stay in tip-top shape, like vitamins, minerals and essential amino acids like taurine. Plus, there’s real broth to add healthy hydration, and never any grains like corn, wheat or soy. Open up a can and feed the stripes within!",
+  "image": "https://image.chewy.com/is/image/catalog/147768_Main._AC_SS500_V1558459933_.jpg",
+  "sku": "chewy-147768",
+  "brand": {
+    "@type": "Brand",
+    "name": "Tiny Tiger"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 17.78,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 3.8004,
+    "reviewCount": 546
+  },
+  "keywords": [
+    "cat-wet-food",
+    "cat",
+    "food",
+    "wet-food",
+    "variety-packs"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-you want to feed them food that will care for them right back. The Honest Kitchen Food Clusters Whole Grain Chicken & Oat Recipe Dehydrated Dog Food provides added nutrition and flavor to any mealtime. The clusters are made from cage-free chicken that’s been cold-pressed and dehydrated. This honest recipe is free of artificial flavors or preservatives",
+  "name": "20-lb bag—When you care for your pets",
+  "description": "'https://image.chewy.com/is/image/catalog/715630_PT2._AC_SS500_V1669737050_.jpg'",
+  "image": "https://image.chewy.com/is/image/catalog/715630_PT4._AC_SS500_V1669738907_.jpg",
+  "sku": "chewy-you want to feed them food that will care for them right back. The Honest Kitchen Food Clusters Whole Grain Chicken & Oat Recipe Dehydrated Dog Food provides added nutrition and flavor to any mealtime. The clusters are made from cage-free chicken that’s been cold-pressed and dehydrated. This honest recipe is free of artificial flavors or preservatives",
+  "brand": {
+    "@type": "Brand",
+    "name": "meaning the clusters are made from whole foods you’d recognize from your own kitchen.,InStock,['https://image.chewy.com/is/image/catalog/715630_MAIN._AC_SS500_V1669734188_.jpg'"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 715630,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "keywords": [
+    "other-pet",
+    "gums"
+  ]
+}

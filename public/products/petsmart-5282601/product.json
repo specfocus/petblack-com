@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5282601",
+  "name": "Nature's Recipe Wet Dog Food All Ages - Chicken, Salmon, Turkey",
+  "description": "Nature's Recipe Wet Dog Food All Ages - Chicken, Salmon, Turkey",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5282601",
+  "brand": {
+    "@type": "Brand",
+    "name": "Nature's Recipe"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 14.89,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.6364,
+    "reviewCount": 11
+  },
+  "keywords": [
+    "dog-wet-food",
+    "dog",
+    "food",
+    "canned-food"
+  ]
+}

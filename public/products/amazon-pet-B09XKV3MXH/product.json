@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B09XKV3MXH",
+  "name": "Small Pet Hammock, Fine Workmanship Soft Material Small Pet Hanging Warm Habitat Simple Installation for Small Pets",
+  "description": "Features:1.Made of high quality cotton material, safe, soft, wear resistant, durable.2.Easy to clean, can be washed by water.3.Cute shape with leaves, let small pet to feel that stay in the forest.4.Convenient to install, can be in the nest.5.Wonderful accessory for your lovely small pet.Specifications:Material: cottonWeight: Approx. 61gColor: As picture shownSize: Approx. 21x19x3cm/8.27x7.48x1.18inPacking List:1 x Small Pet Hammock",
+  "image": "https://m.media-amazon.com/images/I/51vktTFUkiL._SS522_.jpg",
+  "sku": "amazon-pet-B09XKV3MXH",
+  "brand": {
+    "@type": "Brand",
+    "name": "01 02 015"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "small-pet-accessory",
+    "pet-supplies",
+    "small-animals",
+    "houses-habitats",
+    "beds"
+  ]
+}

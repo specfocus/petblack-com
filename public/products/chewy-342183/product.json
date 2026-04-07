@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-342183",
+  "name": "Optimeal Tender Morsels With Lamb & Veggies In Aspic Recipe Wet Cat Food, 3-oz pouch, case of 24",
+  "description": "Optimeal Tender Morsels With Lamb & Veggies In Aspic Recipe Cat Food is su-paw tasty and designed to give your kitty the nutrition he needs for optimal health. These tender morsels include a blend of highly digestible protein, prebiotics and fiber that helps to keep your furbaby’s tummy healthy and happy. Omega-3 and omega-6 fatty acids promote healthy skin and a shiny coat, so your kitty looks just as good as he feels. This food is free of bad stuff like corn, soy, eggs, potatoes and artificial flavors, colors and preservatives, so you can feel good about feeding it to your furbaby.",
+  "image": "https://image.chewy.com/is/image/catalog/342183_MAIN._AC_SS500_V1637363250_.jpg",
+  "sku": "chewy-342183",
+  "brand": {
+    "@type": "Brand",
+    "name": "Optimeal"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 39.59,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 5,
+    "reviewCount": 3
+  },
+  "keywords": [
+    "cat-wet-food",
+    "cat",
+    "food",
+    "wet-food"
+  ]
+}

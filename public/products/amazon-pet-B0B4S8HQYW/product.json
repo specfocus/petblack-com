@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B0B4S8HQYW",
+  "name": "Aswadh Pet Warm Guinea Pig Bed House Animals Hamster Hammock Cage Pink Red 14x12cm",
+  "description": "Description:Warm Enough for Winter: The thicken cotton hammock ensure your little fluffy pets get through the winter easily.Material: Soft and comfortable short plush fabric and cotton, this bed is very silky,not easy to lose hair, can not afford the ball, does not fade, no stimulation to the skin of the pet.Design: Easy and portable to hang with the bilateral hooks. Half door design with flexible function, fence door can be flat or raised.Easy to clean and hand wash, this pet hammock doesn't take up too much space from the cage but still provides her with plenty of privacy and room to move ar",
+  "image": "https://m.media-amazon.com/images/I/41ijQ+2catL._SS522_.jpg",
+  "sku": "amazon-pet-B0B4S8HQYW",
+  "brand": {
+    "@type": "Brand",
+    "name": "Generic"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 1.071,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "keywords": [
+    "bird-toy",
+    "pet-supplies",
+    "small-animals",
+    "houses-habitats",
+    "beds"
+  ]
+}

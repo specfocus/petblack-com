@@ -1,0 +1,12 @@
+{
+  "source": "petsmart",
+  "url": "https://www.petsmart.com/featured-shops/adoption-kit-cat/adult/whisker-city-hooded-cat-bed-5538.html",
+  "breadcrumb": "featured-shops > adoption-kit-cat > adult > whisker-city-hooded-cat-bed-5538.html",
+  "bucket": "cat-accessory",
+  "gtin13": "0737257185111",
+  "images": {
+    "large": "https://s7d2.scene7.com/is/image/PetSmart/5138724?$sclp-prd-main_large$",
+    "medium": "https://s7d2.scene7.com/is/image/PetSmart/5138724?$sclp-prd-main_medium$",
+    "small": "https://s7d2.scene7.com/is/image/PetSmart/5138724?$sclp-prd-main_small$"
+  }
+}

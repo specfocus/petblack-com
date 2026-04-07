@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5323730",
+  "name": "KONG® Double Handle Vest Dog Harness",
+  "description": "KONG&reg; Double Handle Vest Dog Harness",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5323730",
+  "brand": {
+    "@type": "Brand",
+    "name": "KONG"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 44.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "keywords": [
+    "dog-accessory",
+    "dog",
+    "collars-harnesses-and-leashes",
+    "harnesses"
+  ]
+}

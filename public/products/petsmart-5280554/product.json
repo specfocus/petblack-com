@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5280554",
+  "name": "Wellness® Shreds Adult Cat Food - Grain Free, Variety Pack",
+  "description": "Wellness&reg; Shreds Adult Cat Food - Grain Free, Variety Pack",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5280554",
+  "brand": {
+    "@type": "Brand",
+    "name": "Wellness"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 13.29,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 5,
+    "reviewCount": 1
+  },
+  "keywords": [
+    "cat-wet-food",
+    "cat",
+    "food-and-treats",
+    "wet-food"
+  ]
+}

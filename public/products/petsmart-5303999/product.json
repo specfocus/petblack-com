@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5303999",
+  "name": "Top Paw® Thermoplastic Rubber Figure 8 Dog Toy",
+  "description": "Top Paw&reg; Thermoplastic Rubber Figure 8 Dog Toy",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5303999",
+  "brand": {
+    "@type": "Brand",
+    "name": "Top Paw"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 5.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 2.9545,
+    "reviewCount": 22
+  },
+  "keywords": [
+    "dog-treat",
+    "dog",
+    "toys",
+    "chew-toys"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5072073",
+  "name": "Hill's® Prescription Diet® c/d Multicare Urinary Care Cat Food - Chicken",
+  "description": "Hill's&reg; Prescription Diet&reg; c/d Multicare Urinary Care Cat Food - Chicken",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5072073",
+  "brand": {
+    "@type": "Brand",
+    "name": "Hill's Prescription Diet"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 2.55,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.4931,
+    "reviewCount": 217
+  },
+  "keywords": [
+    "cat-health",
+    "cat",
+    "food-and-treats",
+    "veterinary-diets"
+  ]
+}

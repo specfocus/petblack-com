@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5317010",
+  "name": "Amitriptyline - 10 mg, 25 mg, 50 mg, 75 mg, 100 mg - Single Tablet",
+  "description": "Amitriptyline - 10 mg, 25 mg, 50 mg, 75 mg, 100 mg - Single Tablet",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5317010",
+  "brand": {
+    "@type": "Brand",
+    "name": "Sandoz"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 0.19,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "cat-health",
+    "pharmacy",
+    "cat",
+    "anxiety-and-calming"
+  ]
+}

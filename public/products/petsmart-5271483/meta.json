@@ -1,0 +1,12 @@
+{
+  "source": "petsmart",
+  "url": "https://www.petsmart.com/bird/wild-bird-food-and-supplies/wild-bird-food/wagners-cardinal-blend-bird-seed-44442.html",
+  "breadcrumb": "bird > wild-bird-food-and-supplies > wild-bird-food > wagners-cardinal-blend-bird-seed-44442.html",
+  "bucket": "bird-food",
+  "gtin13": "0070805620321",
+  "images": {
+    "large": "https://s7d2.scene7.com/is/image/PetSmart/5271483?$sclp-prd-main_large$",
+    "medium": "https://s7d2.scene7.com/is/image/PetSmart/5271483?$sclp-prd-main_medium$",
+    "small": "https://s7d2.scene7.com/is/image/PetSmart/5271483?$sclp-prd-main_small$"
+  }
+}

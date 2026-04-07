@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5258278",
+  "name": "Burt's Bees® Hydrating Dog Conditioner - Coconut Oil",
+  "description": "Burt's Bees&reg; Hydrating Dog Conditioner - Coconut Oil",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5258278",
+  "brand": {
+    "@type": "Brand",
+    "name": "Burt's Bees"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 13.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.25,
+    "reviewCount": 4
+  },
+  "keywords": [
+    "dog-accessory",
+    "dog",
+    "grooming-supplies",
+    "shampoos-and-conditioners"
+  ]
+}

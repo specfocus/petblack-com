@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5335307",
+  "name": "biOrb Coral Ridge Aquarium Ornament",
+  "description": "biOrb Coral Ridge Aquarium Ornament",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5335307",
+  "brand": {
+    "@type": "Brand",
+    "name": "biOrb"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 65.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "fish-accessory",
+    "fish",
+    "decor-gravel-and-substrate",
+    "ornaments"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B0993M5LLL",
+  "name": "Kapoor pets™ Paper Tough Toy for Cat Jumbo Size Scratching Board/Scratch Pad Cum Healthy Toy with Catnip for Cat/Kitten/Puppy",
+  "description": "Catnip brings the cat a sense of euphoria or overwhelming happiness Corrugated scratching surface to sharpen and remove the dead outer layer of the cats claws Satisfies cats natural scratching instincts and enables cats to stretch their bodies and to work of energy Helps protect furniture from claw damage",
+  "image": "https://m.media-amazon.com/images/I/312lX76WSNS._SS522_.jpg",
+  "sku": "amazon-pet-B0993M5LLL",
+  "brand": {
+    "@type": "Brand",
+    "name": "Kapoor pets"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 395,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "dog-toy",
+    "pet-supplies",
+    "cats",
+    "toys",
+    "catnip-toys"
+  ]
+}

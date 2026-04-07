@@ -1,0 +1,29 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5255966",
+  "name": "carefresh® Colorful Creations Small Pet Bedding - Blue",
+  "description": "carefresh&reg; Colorful Creations Small Pet Bedding - Blue",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5255966",
+  "brand": {
+    "@type": "Brand",
+    "name": "Carefresh"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 11.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.8927,
+    "reviewCount": 3776
+  },
+  "keywords": [
+    "small-pet-accessory",
+    "small-pet",
+    "litter-and-bedding"
+  ]
+}

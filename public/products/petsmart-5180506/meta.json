@@ -1,0 +1,12 @@
+{
+  "source": "petsmart",
+  "url": "https://www.petsmart.com/dog/food/dry-food/purina-one-%2Bplus-puppy-dog-dry-food---chicken-natural-high-protein-3507.html",
+  "breadcrumb": "dog > food > dry-food > purina-one-%2Bplus-puppy-dog-dry-food---chicken-natural-high-protein-3507.html",
+  "bucket": "dog-dry-food",
+  "gtin13": "0017800149358",
+  "images": {
+    "large": "https://s7d2.scene7.com/is/image/PetSmart/5180506?$sclp-prd-main_large$",
+    "medium": "https://s7d2.scene7.com/is/image/PetSmart/5180506?$sclp-prd-main_medium$",
+    "small": "https://s7d2.scene7.com/is/image/PetSmart/5180506?$sclp-prd-main_small$"
+  }
+}

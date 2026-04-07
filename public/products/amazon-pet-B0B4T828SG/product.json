@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B0B4T828SG",
+  "name": "Cat Pooper Lifter, Large Capacity Cat Litter Cleaning Tool PP Plastic Material for Cat Litter Boxes for Cleaning(Light Brown)",
+  "description": "Feature:1. The handle is with ergonomic design, save effort and comfortable.2. The between the shovel can just filter out the cat litter and leavethe feces, so that the cat litter will not be all over the place.3. The shovel mouth is large enough and the capacity is large, you can justshovel once every time you clean.4. With PP plastic material,it is non-toxic and tasteless and take care of you every day.5. With cute apprearance, you will have good emotions when shoveling the catt litter.Specification:Condition:100% Brand NewItemType: Cat Litter ShovelMaterial:PlasticColor:As Pictures Shown  P",
+  "image": "https://m.media-amazon.com/images/I/31p9y-ZNuFL._SS522_.jpg",
+  "sku": "amazon-pet-B0B4T828SG",
+  "brand": {
+    "@type": "Brand",
+    "name": "Worem"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 997,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "keywords": [
+    "cat-accessory",
+    "pet-supplies",
+    "cats",
+    "litter-housebreaking",
+    "litter"
+  ]
+}

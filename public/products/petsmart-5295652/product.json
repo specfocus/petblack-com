@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5295652",
+  "name": "Top Paw® Metal Slicker Pet Brush",
+  "description": "Top Paw&reg; Metal Slicker Pet Brush",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5295652",
+  "brand": {
+    "@type": "Brand",
+    "name": "Top Paw"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 15.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.2308,
+    "reviewCount": 26
+  },
+  "keywords": [
+    "pet-grooming",
+    "dog",
+    "grooming-supplies",
+    "brushes-combs-and-blowdryers"
+  ]
+}

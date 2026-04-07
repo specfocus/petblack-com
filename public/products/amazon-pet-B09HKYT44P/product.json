@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B09HKYT44P",
+  "name": "Outside Hanging Perch Birdhouse, Natural Wood Bird House Natural Wood with Ropes for Window Sill",
+  "description": "Feature:1. Made of natural wood and strong hemp rope, it is moisture‑proof, durable and not easy to be eaten by insects.2. The lower end is designed with an opening and a buckle, which is convenient for cleaning the bird feces.3. The roof of the bird house is equipped with ropes, which can be hung outdoors, or hung on the sturdy branches in the garden.4. It can be placed on the window sill or hung on the balcony, and the cute birdhouse is an ideal place for birds to sit down and feed.5. You can color the birdhouse by yourself, using colorful small accessories to decorate and innovate, and use ",
+  "image": "https://m.media-amazon.com/images/I/31TOJ40+3zL._SS522_.jpg",
+  "sku": "amazon-pet-B09HKYT44P",
+  "brand": {
+    "@type": "Brand",
+    "name": "yuye"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "bird-toy",
+    "pet-supplies",
+    "birds",
+    "birdcage-accessories",
+    "perches"
+  ]
+}

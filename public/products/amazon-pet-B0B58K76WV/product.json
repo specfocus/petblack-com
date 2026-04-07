@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B0B58K76WV",
+  "name": "Aswadh Cat Scratch Board Box Carton Pet Nest Bed Cat Scratching Mat Toy Bus",
+  "description": "Description:Eco-friendly material, nontoxic, scratch-resistant and durable, perfect for cats.Box design with scratch board in it, well attract cat interest and make them play a long time.Portable and lightweight, can also be used as a playing mat or bed for pets.Bring your cat much pleasure and feel less lonely when you are not at home.Material: Special carton + corrugated paper scratch board, Size(LxWxH): Approx. 37x25x16cm/14.57x9.84x6.30inchPackage Includes:1 Piece Scratch Board BoxNote:Since the size above is measured by hand, the size of the actual item you received could be slightly diff",
+  "image": "https://m.media-amazon.com/images/I/4145Zp33dEL._SS522_.jpg",
+  "sku": "amazon-pet-B0B58K76WV",
+  "brand": {
+    "@type": "Brand",
+    "name": "Generic"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 3.132,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "keywords": [
+    "cat-toy",
+    "pet-supplies",
+    "cats",
+    "beds-furniture",
+    "scratching-pads"
+  ]
+}

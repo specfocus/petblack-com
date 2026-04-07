@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B09C2H4WXV",
+  "name": "Belity 1/4\" AC R-12 to R-134a Retrofit Valve Quick Change Conversion Adapter High/Low Fitting A/C System Caps Kit",
+  "description": "These Low/High side retrofits will convert your old 1/4\" R12 charging port and allows you to connect the R134a hose.  Specifications: Material: ABS + Alloy Retrofit Length: 28mm / 1.1in (approx) Blue Cap Diameter: 18mm / 0.71in (approx) Red Cap Diameter: 20mm / 0.79in (approx) Package Size: 100 * 80 * 30mm / 3.94 * 3.15 * 1.18in Package Weight: 71g / 2.5ounces  Note: The real color of the item may be slightly different from the pictures shown on website caused by many factors such as brightness of your monitor and light brightness.  Package List: 1 * 7/16-20UNF (1/4\") R12/R134a Low Side Retrof",
+  "image": "https://m.media-amazon.com/images/I/418qv8nUwHL._SS522_.jpg",
+  "sku": "amazon-pet-B09C2H4WXV",
+  "brand": {
+    "@type": "Brand",
+    "name": "Belity"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 1.444,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "keywords": [
+    "other-pet",
+    "pet-supplies",
+    "birds",
+    "toys"
+  ]
+}

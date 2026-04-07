@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B0B187J8CK",
+  "name": "Meri Shopp Guinea Pig House, Hamster Hedgehog Winter Nest, Small Animals Warm Gray L",
+  "description": "Description:Suit for rabbit,squirrel, chinchilla, guinea pig, rat Pls check the size before you buy it.Material:Top quality fabric+soft fleece.No harm to your pet.Make you pet have a warm and soft night.Nice shed for its heat preservation to keep your rabbit,squirrel, chinchilla, guinea pig, rat away from the cold, especially in winter.Super cute design.You pet will like it.Offers a private, dark spot to rest and den-like security for your loving pet.The Bed will turn your pet's cage into a cozy home.Size Chart:S Size: 19x19x13cm / 7.48x7.48x5.11inchL Size: 25x25x16cm / 9.84x9.84x6.29inchXL Si",
+  "image": "https://m.media-amazon.com/images/I/411yIyOSEsL._SS522_.jpg",
+  "sku": "amazon-pet-B0B187J8CK",
+  "brand": {
+    "@type": "Brand",
+    "name": "Generic"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "small-pet-accessory",
+    "pet-supplies",
+    "small-animals",
+    "houses-habitats",
+    "beds"
+  ]
+}

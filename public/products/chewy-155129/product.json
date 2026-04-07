@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-155129",
+  "name": "Mighty Tequila Worm Squeaky Stuffing-Free Plush Dog Toy",
+  "description": "This Mighty Tequila Worm is the paw-fect toy for dogs who like to play a little “ruff”. This plush toy is reinforced with multiple layers of durable materials and several layers of stitching that’s flipped inside for added strength. It’s also made with zero stuffing—just squeaker balls! That means you don’t have to worry about any fluffy disasters spread across your floors, furniture or yard. It's great for fetching and tugging and it makes an excellent companion to accompany your pup during a game of toss and catch.  Once your long day of play is done, simply place your BFF’s new pal in the washing machine for easy cleaning.",
+  "image": "https://image.chewy.com/is/image/catalog/155129_MAIN._AC_SS500_V1589570233_.jpg",
+  "sku": "chewy-155129",
+  "brand": {
+    "@type": "Brand",
+    "name": "Mighty"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 23.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 3.3333,
+    "reviewCount": 6
+  },
+  "keywords": [
+    "dog-toy",
+    "dog",
+    "toys",
+    "plush-toys",
+    "unstuffed-toys"
+  ]
+}

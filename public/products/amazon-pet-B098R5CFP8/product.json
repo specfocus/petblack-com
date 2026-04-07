@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B098R5CFP8",
+  "name": "Soft Comfortable Cold Winter Small Animal Mat Hamster Pig Pet Hedgehog Warm Sleeping Bed Pad Mat L Cream",
+  "description": "Small animal play mat, soft and comfortable pad cushion, to keep pets clean and warm; | Cotton filler material, warm sleeping bed, perfect for hamster in the cold winter; | Great for small animals, hamsters, guinea pigs and dwarf bunnies, hedgehog; | Big enough, soft and comfortable for small animal; | Imagine your pets lay on mat lazily, very cute and adorable,come and get one!",
+  "image": "https://m.media-amazon.com/images/I/41Wt--zJkLL._SS522_.jpg",
+  "sku": "amazon-pet-B098R5CFP8",
+  "brand": {
+    "@type": "Brand",
+    "name": "Visit the IVELECT Store"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 866,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "keywords": [
+    "small-pet-toy",
+    "pet-supplies",
+    "small-animals",
+    "houses-habitats",
+    "bedding-litter"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5316871",
+  "name": "U-40 Insulin Syringes 29g x 0.5 cc, Box of 100 Needle 1/2 inch",
+  "description": "U-40 Insulin Syringes 29g x 0.5 cc, Box of 100 Needle 1/2 inch",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5316871",
+  "brand": {
+    "@type": "Brand",
+    "name": "Merck Animal Health"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 46.48,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "cat-health",
+    "pharmacy",
+    "cat",
+    "medical-supplies"
+  ]
+}

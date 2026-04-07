@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5299392",
+  "name": "Merrick® Backcountry® Large Breed Adult Dry Dog Food - Chicken, Corn Free, Wheat Free",
+  "description": "Merrick&reg; Backcountry&reg; Large Breed Adult Dry Dog Food - Chicken, Corn Free, Wheat Free",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5299392",
+  "brand": {
+    "@type": "Brand",
+    "name": "Merrick"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 81.98,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.4091,
+    "reviewCount": 22
+  },
+  "keywords": [
+    "dog-dry-food",
+    "dog",
+    "food",
+    "dry-food"
+  ]
+}

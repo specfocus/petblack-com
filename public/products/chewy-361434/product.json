@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-361434",
+  "name": "Doggy Do Good Certified Compostable Premium Dog & Cat Waste Bags, Small Handle Bags - On Rolls + Dispenser, 60 count",
+  "description": "Pick up after your furry friend with these Doggy Do Good Certified Compostable Premium Dog & Cat Waste Bags, Small Handle Bags - On Rolls + Dispenser! These scent-free, tear-free, leak-proof small waste bags are thick (20 microns thick) and tough, keeping the contents and unpleasant odors inside the bag where they belong. They are 38% vegetable based and made from corn starch, an annually renewable source, along with other bio-based proprietary components. Safer for the environment than polyethylene plastic bags, these Doggy Do Good bags break down in your properly managed Home Compost—this helps keep parks and neighborhoods clean and green! Since these waste bags are soft to the touch, they don’t stick to each other, which makes them paws-itively easy to open. And since they are scent-free they won’t bother pet parents who are sensitive to fragrances! These small bags measure 4.5 in. x 11.0 in. (folded) / 8.5 in. x 11.0 in with gusset expanded, making them a paw-fect option for small dogs, toy breeds and puppies. The gusseted side panels expand for maximum capacity! There are 15 bags per roll and the core of each roll is made from recycled materials. These rolls fit in any standard-sized poop bag dispenser. The included heavy-duty dispenser is built to last! It even has a stainless-steel carabiner clip, so you can clip it to your leash or doggie bag—keep it attached during walks, so you are always prepared! And you can feel extra good knowing that Doggy Do Good does good for the environment because they are part of a group of organizations that pledge a minimum of 1% of annual sales to environmental causes. Doggy Do Good donates an additional portion of proceeds to rescues and animal welfare organizations, too!",
+  "image": "https://image.chewy.com/is/image/catalog/361434_MAIN._AC_SS500_V1642635125_.jpg",
+  "sku": "chewy-361434",
+  "brand": {
+    "@type": "Brand",
+    "name": "Doggy Do Good"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 11.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 2,
+    "reviewCount": 1
+  },
+  "keywords": [
+    "dog-toy",
+    "dog",
+    "cleaning-potty",
+    "poop-bags-scoopers",
+    "poop-bags"
+  ]
+}

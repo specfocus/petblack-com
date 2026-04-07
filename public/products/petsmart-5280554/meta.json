@@ -1,0 +1,12 @@
+{
+  "source": "petsmart",
+  "url": "https://www.petsmart.com/cat/food-and-treats/wet-food/wellness-shreds-adult-cat-food---grain-free-variety-pack-50524.html",
+  "breadcrumb": "cat > food-and-treats > wet-food > wellness-shreds-adult-cat-food---grain-free-variety-pack-50524.html",
+  "bucket": "cat-wet-food",
+  "gtin13": "0076344886631",
+  "images": {
+    "large": "https://s7d2.scene7.com/is/image/PetSmart/5280554?$sclp-prd-main_large$",
+    "medium": "https://s7d2.scene7.com/is/image/PetSmart/5280554?$sclp-prd-main_medium$",
+    "small": "https://s7d2.scene7.com/is/image/PetSmart/5280554?$sclp-prd-main_small$"
+  }
+}

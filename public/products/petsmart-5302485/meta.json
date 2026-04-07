@@ -1,0 +1,12 @@
+{
+  "source": "petsmart",
+  "url": "https://www.petsmart.com/cat/food-and-treats/food-toppers/nulo-medalseries--dry-cat-food-topper---chicken-and-salmon-65267.html",
+  "breadcrumb": "cat > food-and-treats > food-toppers > nulo-medalseries--dry-cat-food-topper---chicken-and-salmon-65267.html",
+  "bucket": "cat-dry-food",
+  "gtin13": "0811939025138",
+  "images": {
+    "large": "https://s7d2.scene7.com/is/image/PetSmart/5302485?$sclp-prd-main_large$",
+    "medium": "https://s7d2.scene7.com/is/image/PetSmart/5302485?$sclp-prd-main_medium$",
+    "small": "https://s7d2.scene7.com/is/image/PetSmart/5302485?$sclp-prd-main_small$"
+  }
+}

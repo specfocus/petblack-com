@@ -1,0 +1,12 @@
+{
+  "source": "petsmart",
+  "url": "https://www.petsmart.com/fish/food-and-care/food/fluval-bug-bites-spirulina-flakes-58401.html",
+  "breadcrumb": "fish > food-and-care > food > fluval-bug-bites-spirulina-flakes-58401.html",
+  "bucket": "fish-food",
+  "gtin13": "0015561173551",
+  "images": {
+    "large": "https://s7d2.scene7.com/is/image/PetSmart/5300528?$sclp-prd-main_large$",
+    "medium": "https://s7d2.scene7.com/is/image/PetSmart/5300528?$sclp-prd-main_medium$",
+    "small": "https://s7d2.scene7.com/is/image/PetSmart/5300528?$sclp-prd-main_small$"
+  }
+}

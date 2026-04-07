@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B09PZ27NYH",
+  "name": "Bird Feeder, Easy to Clean Tube Hanging Feeders Convenient 360 Degree View Easy to Hang for Outdoors Garden(Red Tube 50)",
+  "description": "Feature:1. Easy To Fill And Clean: The tube type bird feeder only needs to remove the rubber plug and start filling, and then the horizontally suspended feeder. In addition, the plastic feeder is easy to clean, ensuring the bird's food is clean and clean.2. 360 Degree View: The tube type bird feeder provides a 360 degree view for the hummingbirds. One advantage of the long tube feeder is the horizontal orientation. The bird can observe the situation in all directions when eating.3. Long Tube Design: The hangable tube bird feeder adopts a unique long tube design. The feeder is hung horizontally",
+  "image": "https://m.media-amazon.com/images/I/31s8f6jdRiL._SS522_.jpg",
+  "sku": "amazon-pet-B09PZ27NYH",
+  "brand": {
+    "@type": "Brand",
+    "name": "Ouee"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 1.547,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "keywords": [
+    "bird-toy",
+    "pet-supplies",
+    "birds",
+    "feeding-watering-supplies"
+  ]
+}

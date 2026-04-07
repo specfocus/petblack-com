@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-277091",
+  "name": "Frisco \"Classic #2\" Photos White Personalized Coffee Mug",
+  "description": "We know your pet is your cup of tea—and now you can show off their adorable personality with every sip. This ceramic mug is customizable with your pet’s photo and a unique phrase—for you or for your favorite pet parent friend. “Who’s that cute kitty or doggy?” everyone will ask when you’re sipping your coffee. Whatever beverage you start your day with, you’re sure to start some conversation with this one-of-a-kind mug.",
+  "image": "https://image.chewy.com/is/image/catalog/277091_MAIN._AC_SS500_V1627996281_.jpg",
+  "sku": "chewy-277091",
+  "brand": {
+    "@type": "Brand",
+    "name": "Frisco"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 10.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 5,
+    "reviewCount": 8
+  },
+  "keywords": [
+    "other-pet",
+    "pet-parents",
+    "personalized-gifts",
+    "coffee-mugs-tumblers"
+  ]
+}

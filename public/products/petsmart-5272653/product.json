@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5272653",
+  "name": "Seachem® Tidal&trade; 75 Zeolite Filter Pouch",
+  "description": "Seachem&reg; Tidal&amp;trade; 75 Zeolite Filter Pouch",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5272653",
+  "brand": {
+    "@type": "Brand",
+    "name": "Seachem"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 8.19,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "fish-accessory",
+    "fish",
+    "filters-and-pumps",
+    "filter-media"
+  ]
+}

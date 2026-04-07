@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B06XXZCZ5F",
+  "name": "JOYELF Cat Hammock Bed Pet Cage Hammock, Hanging Soft Pet Bed for Kitten Ferret Puppy Or Small Pet",
+  "description": "JOYELF-Only for your furry friendAs a manufacturer specializing in pet products, we hope our products from JOYELF can bring happiness and comfort to more pets. It is our original intention to make every pet a joy elf, and their happiness makes us continue to grow.We are passionate about doing our part to make life of pets and human better.We provide high-quality pet products, great value, and exceptional customer service. We do our best to create dream homes for you and your furry family members.JOYELF Super Soft Plush Hammock offers small pets a comfortable spot to rest, Suitable for kitten, ",
+  "image": "https://m.media-amazon.com/images/I/3191VeD852L._SS522_.jpg",
+  "sku": "amazon-pet-B06XXZCZ5F",
+  "brand": {
+    "@type": "Brand",
+    "name": "JOYELF"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 1.498,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "dog-toy",
+    "pet-supplies",
+    "cats",
+    "beds-furniture",
+    "hammocks"
+  ]
+}

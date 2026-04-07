@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-263774",
+  "name": "Bungalow Flooring Makes Our House A Home Yorkshire Terrier Personalized Floor Mat",
+  "description": "Your canine companion makes your house your home, so show off your love for your pup in your décor with the Bungalow Flooring Makes House a Home Personalized Yorkshire Terrier Floor Mat. This cushiony floor mat is a paw-fect way to add a touch of style and comfort anywhere in your home, featuring a super cute Yorkie design. It’s especially great for spots where you frequently stand, like the laundry room, bathroom or kitchen. Cleverly designed with a real rubber backing to prevent slippage, this mat will stay in place all day. Plus, it’s a breeze to clean––simply wipe it down or toss it in the washing machine and line dry.",
+  "image": "https://image.chewy.com/is/image/catalog/263774_MAIN._AC_SS500_V1614208585_.jpg",
+  "sku": "chewy-263774",
+  "brand": {
+    "@type": "Brand",
+    "name": "Bungalow Flooring"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 49.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "dog-accessory",
+    "dog",
+    "gifts-books",
+    "home-goods",
+    "doormats"
+  ]
+}

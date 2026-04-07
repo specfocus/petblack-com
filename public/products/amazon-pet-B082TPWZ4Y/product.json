@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B082TPWZ4Y",
+  "name": "azuza Cat Harness and Leash for Walking, Escape Proof Cute Pineapples in Bright Color, Soft Adjustable Harness for Cats",
+  "description": "azuza Cat Harness and Leash for Walking",
+  "image": "https://m.media-amazon.com/images/I/51MfHSLUQFL._SS522_.jpg",
+  "sku": "amazon-pet-B082TPWZ4Y",
+  "brand": {
+    "@type": "Brand",
+    "name": "azuza"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 3.732,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "cat-accessory",
+    "pet-supplies",
+    "cats",
+    "collars-harnesses-leashes",
+    "harnesses"
+  ]
+}

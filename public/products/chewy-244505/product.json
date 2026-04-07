@@ -1,0 +1,29 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-244505",
+  "name": "Kent Home Fresh Grow & Show Crumble Poultry Feed, 50-lb bag",
+  "description": "Give your bird buddies a boost with Kent Home Fresh Grow & Show Crumble Chicken Food. This nutritious grain feed for chickens is specifically designed for growing pullets, domesticated ducks, geese and game birds. It is crafted to be a complete diet that contains 15% protein as well as whole grains, multiple enzymes and a proprietary hydrolyzed yeast. This growing chicken feed utilizes only high-quality ingredients for essential growth, development, reproduction and healthy skin and feathers. It is formulated with optimal levels and ratios of nutrients to help support and maintain overall health in your feathered friends.",
+  "image": "https://image.chewy.com/is/image/catalog/244505_MAIN._AC_SS500_V1595010368_.jpg",
+  "sku": "chewy-244505",
+  "brand": {
+    "@type": "Brand",
+    "name": "Kent"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 39.84,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 1,
+    "reviewCount": 2
+  },
+  "keywords": [
+    "bird-food",
+    "farm-animal",
+    "chicken"
+  ]
+}

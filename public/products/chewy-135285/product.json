@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-135285",
+  "name": "Weaver Leather Cotton Horse Lead Rope",
+  "description": "Guide your pony around the paddock with comfort and ease using the Weaver Leather Cotton Horse Lead Rope. This heavy-duty cotton rope is made with a super-soft material that’s designed to prevent discomfort in your hand. A rust-resistant solid brass 225 snap hook provides strength and durability, while the braided and tied ends help reduce unravelling. The 5/8-inch rope measures a full 10 feet in length and comes in four primary colors to complement your tack and deliver years of dependable service.",
+  "image": "https://image.chewy.com/is/image/catalog/135285_MAIN._AC_SS500_V1513811450_.jpg",
+  "sku": "chewy-135285",
+  "brand": {
+    "@type": "Brand",
+    "name": "Weaver Leather"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 15.59,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.2222,
+    "reviewCount": 9
+  },
+  "keywords": [
+    "other-pet",
+    "horse",
+    "tack-saddlery",
+    "halters-leads",
+    "leads"
+  ]
+}

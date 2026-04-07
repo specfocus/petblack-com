@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5011541",
+  "name": "Fluval® Clearmax Phosphate Remover",
+  "description": "Fluval&reg; Clearmax Phosphate Remover",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5011541",
+  "brand": {
+    "@type": "Brand",
+    "name": "Fluval"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 5.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 3.2,
+    "reviewCount": 10
+  },
+  "keywords": [
+    "fish-accessory",
+    "fish",
+    "filters-and-pumps",
+    "filter-media"
+  ]
+}

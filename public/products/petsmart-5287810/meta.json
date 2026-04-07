@@ -1,0 +1,12 @@
+{
+  "source": "petsmart",
+  "url": "https://www.petsmart.com/cat/food-and-treats/dry-food/wellness-complete-health-senior-cat-food---natural-grain-free-chicken-and-chicken-meal-51925.html",
+  "breadcrumb": "cat > food-and-treats > dry-food > wellness-complete-health-senior-cat-food---natural-grain-free-chicken-and-chicken-meal-51925.html",
+  "bucket": "cat-dry-food",
+  "gtin13": "0076344092278",
+  "images": {
+    "large": "https://s7d2.scene7.com/is/image/PetSmart/5287810?$sclp-prd-main_large$",
+    "medium": "https://s7d2.scene7.com/is/image/PetSmart/5287810?$sclp-prd-main_medium$",
+    "small": "https://s7d2.scene7.com/is/image/PetSmart/5287810?$sclp-prd-main_small$"
+  }
+}

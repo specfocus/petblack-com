@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5266568",
+  "name": "Nature's Miracle® Just for Cats Advanced Stain & Odor Remover - Sunny Lemon",
+  "description": "Nature's Miracle&reg; Just for Cats Advanced Stain &amp; Odor Remover - Sunny Lemon",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5266568",
+  "brand": {
+    "@type": "Brand",
+    "name": "Nature's Miracle"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 17.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 3.75,
+    "reviewCount": 4
+  },
+  "keywords": [
+    "cat-accessory",
+    "cat",
+    "cleaning-and-repellents",
+    "stain-and-odor-removers"
+  ]
+}

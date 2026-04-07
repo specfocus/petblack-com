@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B09WD85VB3",
+  "name": "PetNest CR-1 Quality Safest Round Organic Bird Nest House Purely Handmade Love Birds/Sparrow, Small Birds (Brown) (1 Nos)",
+  "description": "You may be interested in having a bird house just for decoration, or you may be trying to attract certain types of birds. However, if you want to attract a specific species, in most cases, you will need to build or buy a specific type of bird house. . Most bird houses are square or rectangular and feature an entrance hole, keep in mind the size of the box and the size of the entrance hole will aThis nest box will be a welcome addition to your window grill, garden, balcony or backyard installing it is as easy. Attract a range of garden birds like sparrows, tits and other small cavity nesting bi",
+  "image": "https://m.media-amazon.com/images/I/51hLGvHHK3L._SS522_.jpg",
+  "sku": "amazon-pet-B09WD85VB3",
+  "brand": {
+    "@type": "Brand",
+    "name": "Visit the PetNest Store"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 179,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "bird-toy",
+    "pet-supplies",
+    "birds",
+    "birdcage-accessories",
+    "nests"
+  ]
+}

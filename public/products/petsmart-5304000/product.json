@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5304000",
+  "name": "Top Paw® Thermoplastic Rubber Ball Dog Toy",
+  "description": "Top Paw&reg; Thermoplastic Rubber Ball Dog Toy",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5304000",
+  "brand": {
+    "@type": "Brand",
+    "name": "Top Paw"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 5.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 3.7778,
+    "reviewCount": 18
+  },
+  "keywords": [
+    "dog-treat",
+    "dog",
+    "toys",
+    "chew-toys"
+  ]
+}

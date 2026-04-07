@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5324611",
+  "name": "Top Paw® Explorer Collection Treat Pouch & Waste Bag Dispenser",
+  "description": "Top Paw&reg; Explorer Collection Treat Pouch &amp; Waste Bag Dispenser",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5324611",
+  "brand": {
+    "@type": "Brand",
+    "name": "Top Paw"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 7.47,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 3.5,
+    "reviewCount": 2
+  },
+  "keywords": [
+    "dog-treat",
+    "dog",
+    "training-and-behavior",
+    "training-and-behavior-accessories"
+  ]
+}

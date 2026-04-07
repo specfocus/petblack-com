@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B0B58J6BH7",
+  "name": "Aswadh Parrot Puzzle Toy Bird Ring Toy Fencing Training Intelligence Development",
+  "description": "Description:This toy is specially designed for intelligence development for the parrot ,bird ect.Help cultivate life skills and enhance interaction with the ownerPerfect for improving parrot, macaw or bird color discrimination abilityA great gift for your pet , suitable for parrot ,Macaw ,birds etc.Material: Acylic, Size: approx. 33x7cm/12.99x2.76inchPackage Includes:7 pieces Acylic Boards4 sets Screws",
+  "image": "https://m.media-amazon.com/images/I/21zk46JYuQL._SS522_.jpg",
+  "sku": "amazon-pet-B0B58J6BH7",
+  "brand": {
+    "@type": "Brand",
+    "name": "Generic"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 2.352,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "keywords": [
+    "bird-toy",
+    "pet-supplies",
+    "birds",
+    "toys"
+  ]
+}

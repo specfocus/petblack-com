@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B09TH4F4TV",
+  "name": "Ubersweet® Gold, 25X14X16Cm: Three Levels Tower Tracks Disc Cat Pet Toy Intelligence Amusement Rides Shelf Dog Cat Training A",
+  "description": "Ubersweet Gold, 25X14X16Cm: Three Levels Tower Tracks Disc Cat Pet Toy Intelligence Amusement Rides Shelf Dog Cat Training A",
+  "image": "https://m.media-amazon.com/images/I/41szQK1eFPL._SS522_.jpg",
+  "sku": "amazon-pet-B09TH4F4TV",
+  "brand": {
+    "@type": "Brand",
+    "name": "UBERSWEET"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 2.447,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "keywords": [
+    "dog-toy",
+    "pet-supplies",
+    "cats",
+    "toys",
+    "interactive-toys"
+  ]
+}

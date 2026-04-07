@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B07D4KWYN6",
+  "name": "PETSMAKER(Red) All Seanson Double Side Use Lovely (Large Size) Fabric Dog & cat Solid t Bed",
+  "description": "Petsmaker\"Material: Velvet touch, cloth, knitted fabric washable, no need to reassemble after wash Double side use and fashion forward design with high quality fabric material, your pet will enjoy the bed and have a nice sleeping experience.",
+  "image": "https://m.media-amazon.com/images/I/41hwdi1MNRL._SS522_.jpg",
+  "sku": "amazon-pet-B07D4KWYN6",
+  "brand": {
+    "@type": "Brand",
+    "name": "PETSMAKER"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "dog-accessory",
+    "pet-supplies",
+    "small-animals",
+    "houses-habitats",
+    "bedding-litter"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B0B6W4HNGD",
+  "name": "InLeague Comfortabe Dog Collar Pet Protective E-Collar for Dogs and Cats S (64016138IL)",
+  "description": "Description:100% brand new and high quality.Used to prevent pet's bites and protect pets from licking or biting wounded areas.Soft material makes your pets comfortable. Also, it will not block their vision, disturb their normal life or scrape furniture.It is comfortable to wear and you do not need to worry about that it will hurt your beloved dog.A great tool for your lovely dog.Specification:Material: Non-woven FabricSize S: Neck: Approx. 26cm/10.24inch, width: Approx. 11.5cm/4.53inchSize M: Neck: Approx. 30cm/11.81inch, width: Approx. 15cm/5.911inchPackage Includes:1 Piece Pet Protective Col",
+  "image": "https://m.media-amazon.com/images/I/31my1UL4VUL._SS522_.jpg",
+  "sku": "amazon-pet-B0B6W4HNGD",
+  "brand": {
+    "@type": "Brand",
+    "name": "Generic"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 794,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "keywords": [
+    "dog-accessory",
+    "pet-supplies",
+    "cats",
+    "collars-harnesses-leashes",
+    "collars"
+  ]
+}

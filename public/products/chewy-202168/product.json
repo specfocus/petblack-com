@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-202168",
+  "name": "Turbo Krinkle Balls Cat Toy, 4 count",
+  "description": "Treat your furbaby to hours of play and exercise with Turbo Assorted Ball Cat Toys! Your kitty will love the way this ball bounces, rolls and twirls. Each Krinkle Ball is made with a shiny, crinkly material to help capture your kitty’s attention. This fun feline toy makes the purr-fect addition to your cat’s rotating collection. Plus, it encourages active play, mental stimulation and paw-sitive bonding between you and your furry friend!",
+  "image": "https://image.chewy.com/is/image/catalog/202168_MAIN._AC_SS500_V1569349337_.jpg",
+  "sku": "chewy-202168",
+  "brand": {
+    "@type": "Brand",
+    "name": "Turbo"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 3.49,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.2157,
+    "reviewCount": 51
+  },
+  "keywords": [
+    "cat-treat",
+    "cat",
+    "toys",
+    "balls-chasers"
+  ]
+}

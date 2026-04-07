@@ -1,0 +1,12 @@
+{
+  "source": "petsmart",
+  "url": "https://www.petsmart.com/dog/toys/fetch-toys/nerfandtrade-dog-x-weave-launching-duck-dog-toy-62673.html",
+  "breadcrumb": "dog > toys > fetch-toys > nerfandtrade-dog-x-weave-launching-duck-dog-toy-62673.html",
+  "bucket": "dog-toy",
+  "gtin13": "0810009474685",
+  "images": {
+    "large": "https://s7d2.scene7.com/is/image/PetSmart/5308496?$sclp-prd-main_large$",
+    "medium": "https://s7d2.scene7.com/is/image/PetSmart/5308496?$sclp-prd-main_medium$",
+    "small": "https://s7d2.scene7.com/is/image/PetSmart/5308496?$sclp-prd-main_small$"
+  }
+}

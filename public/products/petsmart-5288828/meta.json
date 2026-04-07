@@ -1,0 +1,12 @@
+{
+  "source": "petsmart",
+  "url": "https://www.petsmart.com/dog/food/canned-food/canidae-under-the-sun-pate-dog-wet-food---grain-free-52928.html",
+  "breadcrumb": "dog > food > canned-food > canidae-under-the-sun-pate-dog-wet-food---grain-free-52928.html",
+  "bucket": "dog-wet-food",
+  "gtin13": "0640461820481",
+  "images": {
+    "large": "https://s7d2.scene7.com/is/image/PetSmart/5288828?$sclp-prd-main_large$",
+    "medium": "https://s7d2.scene7.com/is/image/PetSmart/5288828?$sclp-prd-main_medium$",
+    "small": "https://s7d2.scene7.com/is/image/PetSmart/5288828?$sclp-prd-main_small$"
+  }
+}

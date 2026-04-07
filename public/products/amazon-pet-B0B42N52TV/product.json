@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B0B42N52TV",
+  "name": "Aswadh Interactive Teaser Toy for Cats with 6 Refills Fun Toy for Kitten Exercise",
+  "description": "Description:Cat teaser toys made environmentally friendly and non-toxic EVA and PVC material.Variety of butterflies and dragonflies with colorful interchangle feathers fur toys all together for more fun.Great interactive toy to build trust and relationship between you and your cat.The wand can bed freely extended from 39-100cm, featured a soft foam handle for comfort grip.Great for kittens cats excercising, playing, training.Specification:Material: EVA+PVCSize Chart:Telescopic Pole: 39-100cm/15.35-39.37inchReplace Toy Head Length: 20-23cm/7.87-9.06inchPackage Includes:1 Set Cat Feather Teaser ",
+  "image": "https://m.media-amazon.com/images/I/41fG1V8aykL._SS522_.jpg",
+  "sku": "amazon-pet-B0B42N52TV",
+  "brand": {
+    "@type": "Brand",
+    "name": "Generic"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 1.413,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "keywords": [
+    "cat-toy",
+    "pet-supplies",
+    "cats",
+    "toys",
+    "feather-toys"
+  ]
+}

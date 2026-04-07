@@ -1,0 +1,12 @@
+{
+  "source": "petsmart",
+  "url": "https://www.petsmart.com/dog/grooming-supplies/brushes-combs-and-blowdryers/top-paw-metal-slicker-pet-brush-57790.html",
+  "breadcrumb": "dog > grooming-supplies > brushes-combs-and-blowdryers > top-paw-metal-slicker-pet-brush-57790.html",
+  "bucket": "pet-grooming",
+  "gtin13": "0737257867437",
+  "images": {
+    "large": "https://s7d2.scene7.com/is/image/PetSmart/5295652?$sclp-prd-main_large$",
+    "medium": "https://s7d2.scene7.com/is/image/PetSmart/5295652?$sclp-prd-main_medium$",
+    "small": "https://s7d2.scene7.com/is/image/PetSmart/5295652?$sclp-prd-main_small$"
+  }
+}

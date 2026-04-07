@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5329365",
+  "name": "Chicken Soup for the Soul All Life Stages Dry Dog Food - Grain Free, Lamb & Pea",
+  "description": "Chicken Soup for the Soul All Life Stages Dry Dog Food - Grain Free, Lamb &amp; Pea",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5329365",
+  "brand": {
+    "@type": "Brand",
+    "name": "Chicken Soup for the Soul"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 17.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "dog-dry-food",
+    "dog",
+    "food",
+    "dry-food"
+  ]
+}

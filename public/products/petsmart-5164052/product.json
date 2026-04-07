@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5164052",
+  "name": "Fancy Feast® Medleys Adult Cat Wet Food - 2.8 lb.",
+  "description": "Fancy Feast&reg; Medleys Adult Cat Wet Food - 2.8 lb.",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5164052",
+  "brand": {
+    "@type": "Brand",
+    "name": "Fancy Feast"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 12.59,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.5714,
+    "reviewCount": 91
+  },
+  "keywords": [
+    "cat-wet-food",
+    "cat",
+    "food-and-treats",
+    "wet-food"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-326345",
+  "name": "Ice Horse Horse Knee Wrap",
+  "description": "The Ice Horse Horse Knee Wrap provides targeted therapeutic cooling to your horse’s knee. This wrap surrounds the entire knee joint to reduce heat and swelling. It includes reusable Cold Capsule inserts that help it stay cold longer. Specially placed Velcro closures create a secure and tight fit, and technical fabric keeps the Cold Capsules compressed and in place. An included suspender strap also helps to keep the wraps secure. When you’re done, just put the inserts back in the freezer to use them again.",
+  "image": "https://image.chewy.com/is/image/catalog/326345_MAIN._AC_SS500_V1631760379_.jpg",
+  "sku": "chewy-326345",
+  "brand": {
+    "@type": "Brand",
+    "name": "Ice Horse"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 189.95,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "other-pet",
+    "horse",
+    "health-wellness",
+    "first-aid",
+    "cold-therapy"
+  ]
+}

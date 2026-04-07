@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5269253",
+  "name": "All Living Things® Willow Bird Toy",
+  "description": "All Living Things&reg; Willow Bird Toy",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5269253",
+  "brand": {
+    "@type": "Brand",
+    "name": "All Living Things"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 6.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 5,
+    "reviewCount": 1
+  },
+  "keywords": [
+    "bird-toy",
+    "bird",
+    "toys-perches-and-decor",
+    "toys"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B0B4S31FGF",
+  "name": "Maxbell Bird Parrot Suspension Bridge Swing Stand Perch Cage Hanging Toys 30x6cm",
+  "description": "Description:Made from pine wood material, natural, safe and environmentally friendlyColorful, beautiful, elastic, your pets will surely enjoy itFlexible bendable bridge fits for most cages and you can custom your own shape as you wantProvides pet mountaineering and exploration of desire, let them exercise to keep healthyGive your pet a treat and have hours of fun to keep pet in a stable and happy moodSpecification:Material: Pine WoodPackage Includes:1 Piece Hemster Suspension BridgeNote:Since the size above is measured by hand, the size of the actual item could be slightly different from the s",
+  "image": "https://m.media-amazon.com/images/I/31VTOHiwz9L._SS522_.jpg",
+  "sku": "amazon-pet-B0B4S31FGF",
+  "brand": {
+    "@type": "Brand",
+    "name": "Maxbell"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 1.172,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "keywords": [
+    "bird-toy",
+    "pet-supplies",
+    "birds",
+    "toys"
+  ]
+}

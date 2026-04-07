@@ -1,0 +1,174 @@
+{
+  "_meta": {
+    "source": "datasets4/pets/Vetclinic dataset.csv",
+    "description": "Veterinary clinic statistics: disease incidence per breed (Russian clinic data, translated breed names).",
+    "fields": [
+      "breed",
+      "breedOriginal",
+      "totalCases",
+      "size",
+      "group",
+      "conditions"
+    ],
+    "conditionFields": [
+      "urolithiasis",
+      "enteropathy",
+      "pancreatitis",
+      "hepatopathy",
+      "chronicKidneyDisease",
+      "diabetes",
+      "obesity"
+    ],
+    "usageHints": [
+      "Map breed → most common health condition → recommended prescription diet.",
+      "Show breed health statistics on breed profile pages.",
+      "Power a \"breeds at risk\" filter for Hill's prescription diet products."
+    ]
+  },
+  "data": [
+    {
+      "breed": "Yorkshire Terriers",
+      "breedOriginal": "Йоркширские терьеры",
+      "totalCases": 571,
+      "size": "small",
+      "group": "toy",
+      "conditions": {
+        "urolithiasis": 18,
+        "enteropathy": 111,
+        "pancreatitis": 63,
+        "hepatopathy": 4,
+        "chronicKidneyDisease": 13,
+        "diabetes": 4,
+        "obesity": 12
+      }
+    },
+    {
+      "breed": "German Shepherd Dog",
+      "breedOriginal": "Немецкая овчарка",
+      "totalCases": 715,
+      "size": "large",
+      "group": "pastoral",
+      "conditions": {
+        "urolithiasis": 3,
+        "enteropathy": 186,
+        "pancreatitis": 4,
+        "hepatopathy": 1,
+        "chronicKidneyDisease": 5,
+        "diabetes": 3,
+        "obesity": 3
+      }
+    },
+    {
+      "breed": "Toy Terrier",
+      "breedOriginal": "Тойтерьер",
+      "totalCases": 362,
+      "size": "small",
+      "group": "toy",
+      "conditions": {
+        "urolithiasis": 7,
+        "enteropathy": 55,
+        "pancreatitis": 25,
+        "hepatopathy": 1,
+        "chronicKidneyDisease": 4,
+        "diabetes": 2,
+        "obesity": 12
+      }
+    },
+    {
+      "breed": "Chihuahua",
+      "breedOriginal": "Чихуахуа",
+      "totalCases": 227,
+      "size": "small",
+      "group": "toy",
+      "conditions": {
+        "urolithiasis": 3,
+        "enteropathy": 36,
+        "pancreatitis": 23,
+        "hepatopathy": 0,
+        "chronicKidneyDisease": 0,
+        "diabetes": 0,
+        "obesity": 10
+      }
+    },
+    {
+      "breed": "German Spitz",
+      "breedOriginal": "Шпиц немецкий",
+      "totalCases": 107,
+      "size": "small",
+      "group": "utility",
+      "conditions": {
+        "urolithiasis": 3,
+        "enteropathy": 14,
+        "pancreatitis": 5,
+        "hepatopathy": 0,
+        "chronicKidneyDisease": 0,
+        "diabetes": 0,
+        "obesity": 2
+      }
+    },
+    {
+      "breed": "Pomeranian Spitz",
+      "breedOriginal": "Шпиц померанский",
+      "totalCases": 103,
+      "size": "small",
+      "group": "toy",
+      "conditions": {
+        "urolithiasis": 2,
+        "enteropathy": 23,
+        "pancreatitis": 6,
+        "hepatopathy": 0,
+        "chronicKidneyDisease": 0,
+        "diabetes": 0,
+        "obesity": 2
+      }
+    },
+    {
+      "breed": "Alabai",
+      "breedOriginal": "Алабай",
+      "totalCases": 194,
+      "size": "large",
+      "group": "foundation stock service",
+      "conditions": {
+        "urolithiasis": 1,
+        "enteropathy": 45,
+        "pancreatitis": 2,
+        "hepatopathy": 1,
+        "chronicKidneyDisease": 1,
+        "diabetes": 0,
+        "obesity": 0
+      }
+    },
+    {
+      "breed": "Husky",
+      "breedOriginal": "Хаски",
+      "totalCases": 208,
+      "size": "medium-large",
+      "group": "working",
+      "conditions": {
+        "urolithiasis": 3,
+        "enteropathy": 38,
+        "pancreatitis": 3,
+        "hepatopathy": 0,
+        "chronicKidneyDisease": 4,
+        "diabetes": 1,
+        "obesity": 1
+      }
+    },
+    {
+      "breed": "Pug",
+      "breedOriginal": "Мопс",
+      "totalCases": 201,
+      "size": "small",
+      "group": "toy",
+      "conditions": {
+        "urolithiasis": 14,
+        "enteropathy": 20,
+        "pancreatitis": 5,
+        "hepatopathy": 0,
+        "chronicKidneyDisease": 0,
+        "diabetes": 0,
+        "obesity": 14
+      }
+    }
+  ]
+}

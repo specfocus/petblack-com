@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5307170",
+  "name": "Pet Head Sensitive Soul Shampoo for Delicate Skin Dogs - Coconut + Marula Oil - 16 Fl Oz",
+  "description": "Pet Head Sensitive Soul Shampoo for Delicate Skin Dogs - Coconut + Marula Oil - 16 Fl Oz",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5307170",
+  "brand": {
+    "@type": "Brand",
+    "name": "Pet Head"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 14.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.5714,
+    "reviewCount": 7
+  },
+  "keywords": [
+    "pet-grooming",
+    "dog",
+    "grooming-supplies",
+    "shampoos-and-conditioners"
+  ]
+}

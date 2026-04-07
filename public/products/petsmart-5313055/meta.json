@@ -1,0 +1,12 @@
+{
+  "source": "petsmart",
+  "url": "https://www.petsmart.com/dog/food/frozen-food/ben-and-jerrys-pontchs-mix-doggie-desserts-frozen-dog-treat---peanut-butter-and-pretzel-swirl-65376.html",
+  "breadcrumb": "dog > food > frozen-food > ben-and-jerrys-pontchs-mix-doggie-desserts-frozen-dog-treat---peanut-butter-and-pretzel-swirl-65376.html",
+  "bucket": "dog-treat",
+  "gtin13": "0076840003242",
+  "images": {
+    "large": "https://s7d2.scene7.com/is/image/PetSmart/5313055?$sclp-prd-main_large$",
+    "medium": "https://s7d2.scene7.com/is/image/PetSmart/5313055?$sclp-prd-main_medium$",
+    "small": "https://s7d2.scene7.com/is/image/PetSmart/5313055?$sclp-prd-main_small$"
+  }
+}

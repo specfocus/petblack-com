@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B088674JZF",
+  "name": "Sage Square Natural Wood Platform of Sand for Healthy Nail & Teeth Trimming of Hamster, Sugar Glider, Hedgehog, Gerbil, Rat, Mice (9 Inches)",
+  "description": "Sage Square ProductWhat Are The Benefits Of A Platofrm?This Sage Square fantasy Pet hide house/cage perfect for any small animals and is great for a child's first pet. Whether you're keeping hamsters, gerbils or any other small animal, it will provide both stimulation and comfort. With a simple design, you can keep and your children can easily keep it clean. This fun and colourful habitat is the perfect solution to providing a small pet with the stimulation and comfort they require in an easily maintained home.Each Platform comes with electroplated fender washers and a wingnuts to attach to yo",
+  "image": "https://m.media-amazon.com/images/I/61oAIqtSIZL._SS522_.jpg",
+  "sku": "amazon-pet-B088674JZF",
+  "brand": {
+    "@type": "Brand",
+    "name": "Visit the Sage Square Store"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 485,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "bird-toy",
+    "pet-supplies",
+    "small-animals",
+    "houses-habitats",
+    "cages"
+  ]
+}

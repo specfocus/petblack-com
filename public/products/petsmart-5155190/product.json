@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5155190",
+  "name": "Kurgo® Wander Pet Hammock",
+  "description": "Kurgo&reg; Wander Pet Hammock",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5155190",
+  "brand": {
+    "@type": "Brand",
+    "name": "Kurgo"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 69.95,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.0791,
+    "reviewCount": 177
+  },
+  "keywords": [
+    "dog-accessory",
+    "dog",
+    "cleaning-supplies",
+    "furniture-and-car-protection",
+    "kurgo-wander-pet-hammock-7527-html"
+  ]
+}

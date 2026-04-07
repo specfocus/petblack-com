@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-664710",
+  "name": "Shires Equestrian Products Aubrion Highgate Short Sleeve Horse Riding Base Layer",
+  "description": "**Remember to measure for the perfect fit.** The Shires Equestrian Products Aubrion Highgate Short Sleeve Horse Riding Base Layer is a perfect choice for schooling rides. The quarter-zip design makes for an easy on and off and the fabric offers UPF 50+ protection, perfect for those sunny day schooling rides. The fitted shape is flattering, and flatlock seams help to prevent bulk. The shirt even features a concealed zip pocket for your phone.",
+  "image": "https://image.chewy.com/is/image/catalog/664710_MAIN._AC_SS500_V1665606075_.jpg",
+  "sku": "chewy-664710",
+  "brand": {
+    "@type": "Brand",
+    "name": "Shires Equestrian Products"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 49.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "keywords": [
+    "other-pet",
+    "horse",
+    "riding-gear",
+    "riding-apparel",
+    "casual-riding-apparel"
+  ]
+}

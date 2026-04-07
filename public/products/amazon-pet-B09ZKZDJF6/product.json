@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B09ZKZDJF6",
+  "name": "VMS INDIA Woven Straw Bird Nest Cage Birdhouse/Bed House for Parrot Pigeon etc Style_1",
+  "description": "Description:Handwoven natural straw nest house.Perfect nest house for your small pet.Material: Grass, environmentally friendly.Easy and portable.Give birds a warm and comfortable place to rest, excellent giftsSpecification:Color:as shownSize of Style_1(DiameterxH): Approx.21x5cm/8.26x1.96Size of Style_2(DiameterxH): Approx.21x5.5cm/8.26x2.16Size of Style_3(DiameterxH): Approx.26x5cm/10.23x1.96Size of Style_4(DiameterxH): Approx.26x5cm/10.23x1.96Size of Style_5(DiameterxH): Approx.13x5cm/5.11x1.96Size of Style_6(DiameterxH): Approx.11x12cm/4.33x4.72Package Includes:1 Piece of NestNote:Due to ha",
+  "image": "https://m.media-amazon.com/images/I/51bD8dSoPoL._SS522_.jpg",
+  "sku": "amazon-pet-B09ZKZDJF6",
+  "brand": {
+    "@type": "Brand",
+    "name": "VMS INDIA"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 1.055,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "keywords": [
+    "bird-toy",
+    "pet-supplies",
+    "birds",
+    "birdcage-accessories",
+    "nests"
+  ]
+}

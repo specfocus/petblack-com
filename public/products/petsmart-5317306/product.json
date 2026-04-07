@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5317306",
+  "name": "Droncit Feline 23 mg - Single Tablet",
+  "description": "Droncit Feline 23 mg - Single Tablet",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5317306",
+  "brand": {
+    "@type": "Brand",
+    "name": "Droncit"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 4.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "cat-health",
+    "pharmacy",
+    "cat",
+    "dewormers-and-parasite-care"
+  ]
+}

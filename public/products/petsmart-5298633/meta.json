@@ -1,0 +1,12 @@
+{
+  "source": "petsmart",
+  "url": "https://www.petsmart.com/dog/beds-and-furniture/cuddler-beds/top-paw-faux-fur-pouf-dog-bed-60532.html",
+  "breadcrumb": "dog > beds-and-furniture > cuddler-beds > top-paw-faux-fur-pouf-dog-bed-60532.html",
+  "bucket": "dog-accessory",
+  "gtin13": "0737257884359",
+  "images": {
+    "large": "https://s7d2.scene7.com/is/image/PetSmart/5298633?$sclp-prd-main_large$",
+    "medium": "https://s7d2.scene7.com/is/image/PetSmart/5298633?$sclp-prd-main_medium$",
+    "small": "https://s7d2.scene7.com/is/image/PetSmart/5298633?$sclp-prd-main_small$"
+  }
+}

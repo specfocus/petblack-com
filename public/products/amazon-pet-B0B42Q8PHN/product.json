@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B0B42Q8PHN",
+  "name": "Aswadh Water Bottle for Dog Cat Travel Water Drinking Dispenser Food Feeders Blue",
+  "description": "Description:WaterFood Bowl Design - This dog water bottle is specially made of two parts, can hold water and food in the meantime, no more unhealthy drinking and hunger when walking your dog. Meanwhile, each part can be washed by hand and it's very easy to clean.Leak Proof Lock Water - Press the key to lock the water outlet button design keep the bottle from leaking, so you can put it in your bag with no worries, perfect for travelling.Safe and Healthy - Made from high-quality, nontoxic ABS material, safe and durable, and it will serve your dog watering needs for a long time.Easy Button Operat",
+  "image": "https://m.media-amazon.com/images/I/31zTYQyp-VL._SS522_.jpg",
+  "sku": "amazon-pet-B0B42Q8PHN",
+  "brand": {
+    "@type": "Brand",
+    "name": "Generic"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 3.354,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "keywords": [
+    "dog-wet-food",
+    "pet-supplies",
+    "birds",
+    "feeding-watering-supplies"
+  ]
+}

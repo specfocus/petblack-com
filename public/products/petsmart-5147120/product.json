@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5147120",
+  "name": "KONG® Wubba&trade; Friends Dog Toy - Plush, Squeaker (CHARACTER VARIES)",
+  "description": "KONG&reg; Wubba&amp;trade; Friends Dog Toy - Plush, Squeaker (CHARACTER VARIES)",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5147120",
+  "brand": {
+    "@type": "Brand",
+    "name": "KONG"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 15.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 3.678,
+    "reviewCount": 59
+  },
+  "keywords": [
+    "dog-toy",
+    "dog",
+    "toys",
+    "rope-and-tug-toys"
+  ]
+}

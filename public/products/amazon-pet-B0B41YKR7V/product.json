@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B0B41YKR7V",
+  "name": "Hussain Infotech - Cuttlefish Bone for All Birds - 100 Gram Pigeons/ Parrots, Finches/African Grey/Macaw/Budgies",
+  "description": "Calcium Carbonate, which makes up 85 percent of cuttlebone, is the most important component. Organic material, which makes up 8.9% of Cuttlebone and is mostly carbohydrate material, is the second most important component. Cuttlebone Is An Important Dietary Supplement For Birds Because It Is A Good Source Of Minerals And Calcium, Both Of Which Help Birds Form Bones And Clot Blood. It's a natural product that's free of toxins and contaminants. Most artificial mineral blocks, on the other hand, are made of Plaster of Paris. It's also important to remember that artificial mineral blocks may contai",
+  "image": "https://m.media-amazon.com/images/I/21gphzeBoTL._SS522_.jpg",
+  "sku": "amazon-pet-B0B41YKR7V",
+  "brand": {
+    "@type": "Brand",
+    "name": "Generic"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 225,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "pet-health",
+    "pet-supplies",
+    "birds",
+    "food"
+  ]
+}

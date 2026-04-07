@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5158760",
+  "name": "Great Choice® Cuts In Gravy Adult Dog Food",
+  "description": "Great Choice&reg; Cuts In Gravy Adult Dog Food",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5158760",
+  "brand": {
+    "@type": "Brand",
+    "name": "Great Choice"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 0.75,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.7143,
+    "reviewCount": 7
+  },
+  "keywords": [
+    "dog-wet-food",
+    "dog",
+    "food",
+    "canned-food"
+  ]
+}

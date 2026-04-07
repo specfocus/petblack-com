@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-356840",
+  "name": "Hill's Science Diet Adult Beef & Barley Entrée + Chicken & Barley Entrée Canned Dog Food",
+  "description": "Hill's Science Diet Adult Beef & Barley Entrée + Chicken & Barley Entrée Canned Dog Food has precisely balanced nutrition to maintain advanced fitness. These delicious formulas contain high-quality protein for lean muscle, promote ideal body weight, and are easy to digest.",
+  "image": "https://image.chewy.com/is/image/catalog/356840_MAIN._AC_SS500_V1640905285_.jpg",
+  "sku": "chewy-356840",
+  "brand": {
+    "@type": "Brand",
+    "name": "Hill's Science Diet"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 76.32,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 5,
+    "reviewCount": 3
+  },
+  "keywords": [
+    "dog-wet-food",
+    "dog",
+    "food",
+    "wet-food",
+    "adult"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5317305",
+  "name": "Equidone - 1 Count",
+  "description": "Equidone - 1 Count",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5317305",
+  "brand": {
+    "@type": "Brand",
+    "name": "Equidone"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 68.69,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "farm-animal-food",
+    "pharmacy",
+    "livestock",
+    "thyroid-and-hormone",
+    "equidone-1-count-67058-html"
+  ]
+}

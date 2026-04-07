@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5182470",
+  "name": "Greenies&trade; Feline Greenies SmartBites Indoor Care Adult Cat Treats - Natural, Tuna",
+  "description": "Greenies&amp;trade; Feline Greenies SmartBites Indoor Care Adult Cat Treats - Natural, Tuna",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5182470",
+  "brand": {
+    "@type": "Brand",
+    "name": "Greenies"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 2.49,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.7558,
+    "reviewCount": 344
+  },
+  "keywords": [
+    "cat-dry-food",
+    "cat",
+    "food-and-treats",
+    "treats"
+  ]
+}

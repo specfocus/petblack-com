@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5306392",
+  "name": "Cardinal Gates Decorative Walnet Vines Freestanding Pet Gate",
+  "description": "Cardinal Gates Decorative Walnet Vines Freestanding Pet Gate",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5306392",
+  "brand": {
+    "@type": "Brand",
+    "name": "Cardinal Gates"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 139.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "dog-accessory",
+    "dog",
+    "crates-gates-and-containment",
+    "dog-doors-and-gates"
+  ]
+}

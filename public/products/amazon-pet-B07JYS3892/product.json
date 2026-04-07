@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B07JYS3892",
+  "name": "Pet Care International Cal Max Super (250 Gms)",
+  "description": "100% Water soluble calcium supplement. Cal max Super is a high quality, water soluble source of calcium. This dietary supplement is administrated for good egg shell formation, for good skeletal development in young birds, during the breeding season to reduce egg-binding and in cases of calcium deficiency or calcium tetany. Calcium is an essential element in the bird's body. Amongst others it is essential for the correct functioning of the nervous system. Calcium deficiencies in birds regularly result in serious health problems. If the bird is not given enough calcium, it causes decalcification",
+  "image": "https://m.media-amazon.com/images/I/41qOqxDwK1L._SS522_.jpg",
+  "sku": "amazon-pet-B07JYS3892",
+  "brand": {
+    "@type": "Brand",
+    "name": "Pet Care International"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 580,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "bird-accessory",
+    "pet-supplies",
+    "birds",
+    "health-supplies"
+  ]
+}

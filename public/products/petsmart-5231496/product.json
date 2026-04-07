@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5231496",
+  "name": "Fancy Feast® Broths Adult Cat Wet Food - 1.55 oz., Limited Ingredients, Grain Free",
+  "description": "Fancy Feast&reg; Broths Adult Cat Wet Food - 1.55 oz., Limited Ingredients, Grain Free",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5231496",
+  "brand": {
+    "@type": "Brand",
+    "name": "Fancy Feast"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 1.49,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.5494,
+    "reviewCount": 233
+  },
+  "keywords": [
+    "cat-wet-food",
+    "cat",
+    "food-and-treats",
+    "food-toppers"
+  ]
+}

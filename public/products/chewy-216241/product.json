@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-216241",
+  "name": "Kaytee Midwest Regional Wild Bird Food",
+  "description": "Kaytee Midwest Regional Wild Bird Food is designed to specifically attract songbirds in the Midwest region, so you’ll get to listen to some beautiful tunes from your feathered friends. This blend of sunflower hearts and chips, red millet, white millet and more is highly attractive to birds. It includes the seed types and shapes that regional songbirds tend to prefer. Draw birds to your backyard with this unique blend, then sit back and listen as they send out tweets to their friends.",
+  "image": "https://image.chewy.com/is/image/catalog/216241_MAIN._AC_SS500_V1578493075_.jpg",
+  "sku": "chewy-216241",
+  "brand": {
+    "@type": "Brand",
+    "name": "Kaytee"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 15.82,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.4,
+    "reviewCount": 5
+  },
+  "keywords": [
+    "bird-food",
+    "bird",
+    "shop-by-bird",
+    "wild-bird"
+  ]
+}

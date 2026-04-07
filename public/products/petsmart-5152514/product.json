@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5152514",
+  "name": "Top Paw® Deluxe Telescoping Pet Ramp",
+  "description": "Top Paw&reg; Deluxe Telescoping Pet Ramp",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5152514",
+  "brand": {
+    "@type": "Brand",
+    "name": "Top Paw"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 179.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 3.9516,
+    "reviewCount": 62
+  },
+  "keywords": [
+    "dog-accessory",
+    "dog",
+    "beds-and-furniture",
+    "ramps-and-steps"
+  ]
+}

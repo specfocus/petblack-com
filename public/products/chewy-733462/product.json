@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-733462",
+  "name": "Blue Buffalo Wilderness Chicken Adult Dry Dog Food",
+  "description": "Give your barking bestie the nutrition she needs with Blue Buffalo Wilderness Chicken Adult Dry Dog Food! This high-protein dry food is made with real, high-quality chicken, antioxidants, vitamins and minerals. It features complex carbohydrates sourced from wholesome grains to help support an active lifestyle, and it also includes omega-3 and -6 fatty acids to promote a healthy coat and skin. It’s also free from chicken and poultry byproduct meals, corn, wheat, soy, artificial flavors and preservatives. Even the pickiest pups will lap up the irresistible taste, and you can rest easy knowing you’re giving her a fur-esh, high-quality meal!",
+  "image": "https://image.chewy.com/is/image/catalog/733462_MAIN._AC_SS500_V1671114019_.jpg",
+  "sku": "chewy-733462",
+  "brand": {
+    "@type": "Brand",
+    "name": "Blue Buffalo"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 64.98,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 2.6901,
+    "reviewCount": 71
+  },
+  "keywords": [
+    "dog-dry-food",
+    "dog",
+    "food",
+    "dry-food",
+    "high-protein"
+  ]
+}

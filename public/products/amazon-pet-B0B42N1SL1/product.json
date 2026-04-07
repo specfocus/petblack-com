@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B0B42N1SL1",
+  "name": "Aswadh Cat Scratching Ball Exercise Wooden for Pet Supplies 9.84x11.02x9.45 inch",
+  "description": "Description:Material: made of solid wood and sisal rope material, it is environmentally,strong and durable.Design: fit most cats and kittens,it is carefully designed according to cat's daily habits, practical, space-saving, small and compact, and doesn't take up too much space.Attract the cat's attention: attract your cat to play,and protect your furniture from scratches and satisfy the cat's natural scratching instinct,increase cat's exercise and fun.Safe: the base of triangle frame is designed to support sisal ball, which is difficult to pour, so that cats can not be hurt and safer when play",
+  "image": "https://m.media-amazon.com/images/I/41vcW9aN6eL._SS522_.jpg",
+  "sku": "amazon-pet-B0B42N1SL1",
+  "brand": {
+    "@type": "Brand",
+    "name": "Generic"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 6.018,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "keywords": [
+    "cat-toy",
+    "pet-supplies",
+    "cats",
+    "beds-furniture",
+    "scratching-pads"
+  ]
+}

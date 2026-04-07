@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-306771",
+  "name": "True Acre Foods All-Natural Puppy Dental Teething Ring Original Flavor Dental Dog Treat",
+  "description": "Save your shoes, houseplants and furniture from puppy destruction with an irresistible teething treat. These ring-shaped treats are crafted with real chicken and lots of satisfying ridges to provide the fulfilling chewing experience that every puppy deserves during their teething phase. They’re specifically designed for small to medium-sized puppies, and they’re easy to digest as well, so you can rest assured that your pup will have a tummy-safe and tempting outlet for their chewing habits. Plus, these teething treats contain the omega-3 fatty acid DHA, which is crucial for a puppy’s healthy brain development. With these treats, getting through your new best friend's teething stage can be a breeze!",
+  "image": "https://image.chewy.com/is/image/catalog/306771_MAIN._AC_SS500_V1635523944_.jpg",
+  "sku": "chewy-306771",
+  "brand": {
+    "@type": "Brand",
+    "name": "True Acre Foods"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 9.03,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.375,
+    "reviewCount": 48
+  },
+  "keywords": [
+    "dog-health",
+    "dog",
+    "treats",
+    "dental-treats"
+  ]
+}

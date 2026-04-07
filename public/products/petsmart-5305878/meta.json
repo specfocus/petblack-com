@@ -1,0 +1,12 @@
+{
+  "source": "petsmart",
+  "url": "https://www.petsmart.com/cat/toys/catnip/mad-cat-hot-sauce-cat-toy---catnip-silvervine-plush-61853.html",
+  "breadcrumb": "cat > toys > catnip > mad-cat-hot-sauce-cat-toy---catnip-silvervine-plush-61853.html",
+  "bucket": "cat-toy",
+  "gtin13": "0780824147180",
+  "images": {
+    "large": "https://s7d2.scene7.com/is/image/PetSmart/5305878?$sclp-prd-main_large$",
+    "medium": "https://s7d2.scene7.com/is/image/PetSmart/5305878?$sclp-prd-main_medium$",
+    "small": "https://s7d2.scene7.com/is/image/PetSmart/5305878?$sclp-prd-main_small$"
+  }
+}

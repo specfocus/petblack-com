@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5266920",
+  "name": "Purina Pro Plan Savor Indoor Adult Dry Cat Food - High-Protein, Turkey & Rice",
+  "description": "Purina Pro Plan Savor Indoor Adult Dry Cat Food - High-Protein, Turkey &amp; Rice",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5266920",
+  "brand": {
+    "@type": "Brand",
+    "name": "Purina Pro Plan"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 16.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.6,
+    "reviewCount": 135
+  },
+  "keywords": [
+    "cat-dry-food",
+    "cat",
+    "food-and-treats",
+    "dry-food"
+  ]
+}

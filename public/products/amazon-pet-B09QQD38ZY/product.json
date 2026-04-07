@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B09QQD38ZY",
+  "name": "COMTIM Silicone Can Covers for Pet Food Cans, Dog Cat Food Can Lids Covers, Reusable Universal Size Can Toppers Fit Small Medium Large Cans, 4 Pack",
+  "description": "Suitable for cans of different sizesThe pet food can covers has 3 rings of different sizes with diameters of 65 mm, 75 mm and 85 mm. A can lid fits most standard size dog and cat food cans, such as 3 oz, 5.5 oz, 12.5 oz, 13 oz, 13.2 oz cans. The covers is also suitable for many people’s food cans, such as soup, vegetables and other canned foods.Food grade materialsOur pet food can lids are made of 100% food grade silicone. Safe, healthy, reusable and eco-friendly, can be in direct contact with food.High qualityWe are very confident in our can lids. They are not thin and fragile plastics. No cr",
+  "image": "https://m.media-amazon.com/images/I/41bV9Pg73tL._SS522_.jpg",
+  "sku": "amazon-pet-B09QQD38ZY",
+  "brand": {
+    "@type": "Brand",
+    "name": "Comtim"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 2.778,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "keywords": [
+    "dog-wet-food",
+    "pet-supplies",
+    "birds",
+    "food"
+  ]
+}

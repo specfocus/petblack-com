@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-222514",
+  "name": "FurHaven Faux Sheepskin & Suede Orthopedic Bolster Dog Bed w/Removable Cover",
+  "description": "Give your BFF a luxurious place to rest her head with Furhaven’s Faux Sheepskin & Suede Orthopedic Oval Dog Bed. The egg-crate styled foam adds comfort and helps soothe pressure points, so she can get plenty of restorative rest, while the plush sherpa provides a cozy, soft surface. Paw-fect for senior sidekicks, smaller pups and disabled dogs, the front cut-out makes this bed easy to climb into and the foam rail walls help support hips and joints. And when it comes time to clean the bed, simply unzip the cover and place it in the washing machine!",
+  "image": "https://image.chewy.com/is/image/catalog/222514_MAIN._AC_SS500_V1612501013_.jpg",
+  "sku": "chewy-222514",
+  "brand": {
+    "@type": "Brand",
+    "name": "FurHaven"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 19.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 3.4328,
+    "reviewCount": 67
+  },
+  "keywords": [
+    "dog-toy",
+    "dog",
+    "beds",
+    "bolster-beds"
+  ]
+}

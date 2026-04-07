@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5248205",
+  "name": "Instinct® Raw Boost Dog Food - Natural, Grain Free, Freeze Dried Raw, Chicken",
+  "description": "Instinct&reg; Raw Boost Dog Food - Natural, Grain Free, Freeze Dried Raw, Chicken",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5248205",
+  "brand": {
+    "@type": "Brand",
+    "name": "Instinct"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 79.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.871,
+    "reviewCount": 442
+  },
+  "keywords": [
+    "dog-dry-food",
+    "dog",
+    "food",
+    "dry-food"
+  ]
+}

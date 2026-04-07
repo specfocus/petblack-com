@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5083856",
+  "name": "Royal Canin Veterinary Diet Adult Urinary SO Loaf Canned Dog Food, 13.5 oz",
+  "description": "Royal Canin Veterinary Diet Adult Urinary SO Loaf Canned Dog Food, 13.5 oz",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5083856",
+  "brand": {
+    "@type": "Brand",
+    "name": "Royal Canin Veterinary Diet"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 4.39,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.473,
+    "reviewCount": 74
+  },
+  "keywords": [
+    "dog-wet-food",
+    "dog",
+    "food",
+    "veterinary-diets"
+  ]
+}

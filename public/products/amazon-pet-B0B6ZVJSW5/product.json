@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B0B6ZVJSW5",
+  "name": "Maxbell Bird Feeding Cups Cage Hanging Stainless Steel Bowl with Clamp for Parrots S",
+  "description": "Description:Birds Parrots Cage Haning Water Food Feeding Bowls.Made of stainless steel,Rust resist ; durable. Clamp holder ensure the bowl stay in place without move/food spill.Easy and Conveninet to wash and clean.Suitable for small animals such as bird parrot parakeets,cockatiels,conures, finches,budgie,macaws, parrots, Lovebirds and similar other birds.Specification:Material: stainless steelSize S(DxH): Approx.7.5x6cm/2.95x2.36inSize M(DxH): Approx.8.5x7cm/3.35x2.76inSize L(DxH): Approx.8.5x6cm/3.35x2.36inPackage Includes:1x Bird Feeding Bowl1x Feeder HolderNote:Since the size above is meas",
+  "image": "https://m.media-amazon.com/images/I/41ZbHP6yflL._SS522_.jpg",
+  "sku": "amazon-pet-B0B6ZVJSW5",
+  "brand": {
+    "@type": "Brand",
+    "name": "Maxbell"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 1.272,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "keywords": [
+    "bird-toy",
+    "pet-supplies",
+    "birds",
+    "feeding-watering-supplies"
+  ]
+}

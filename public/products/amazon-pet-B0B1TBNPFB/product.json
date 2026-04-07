@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B0B1TBNPFB",
+  "name": "Sage Square 13 Inches / 33 cm Natural Wood Training Cum Exercise 2 Stairs Playful Perch Bird Top Sand Stand / Bird Toy",
+  "description": "Why Get a Portable Bird Stand? Bird Sand tands are a popular stand that lets you socialize your parrot more than you thought was possible.As flock animals, Birds rely on companionship for emotional health. People who socialize their birds daily by holding them and letting them out on bird stands report fewer behavior problems such as biting and screaming. Providing a comfortable bird stand all pet birds is important.Our portable bird stands are so popular because they are so functional for parrots. Portable bird stands are lightweight, easy to move about the house and they make great bird stan",
+  "image": "https://m.media-amazon.com/images/I/311ty6YIkQL._SS522_.jpg",
+  "sku": "amazon-pet-B0B1TBNPFB",
+  "brand": {
+    "@type": "Brand",
+    "name": "Visit the Sage Square Store"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 598,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "bird-toy",
+    "pet-supplies",
+    "birds",
+    "toys"
+  ]
+}

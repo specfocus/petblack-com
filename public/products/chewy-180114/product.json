@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-180114",
+  "name": "Liquid Fence Deer & Rabbit Repellent Spray",
+  "description": "Protect your precious garden and shrubbery from chomping visitors with Liquid Fence Deer & Rabbit Repellent Spray. This ready-to-use spray provides an invisible barrier against deer and rabbits who intrude on ornamental gardens, flowers, shrubs, trees and vines. The repellent works through scent and therefore is harmless to both animals and the plants it’s applied on. Apply this year-round, rain-resistant remedy directly onto areas to safely repel furry foes from trespassing.",
+  "image": "https://image.chewy.com/is/image/catalog/180114_MAIN._AC_SS500_V1583788110_.jpg",
+  "sku": "chewy-180114",
+  "brand": {
+    "@type": "Brand",
+    "name": "Liquid Fence"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 23.48,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 3.2833,
+    "reviewCount": 60
+  },
+  "keywords": [
+    "dog-health",
+    "dog",
+    "flea-tick",
+    "home-yard-treatments",
+    "yard-treatments"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5279756",
+  "name": "Nature's Variety® Instinct® Limited Ingredient Wet Cat Food - Natural, Grain Free",
+  "description": "Nature's Variety&reg; Instinct&reg; Limited Ingredient Wet Cat Food - Natural, Grain Free",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5279756",
+  "brand": {
+    "@type": "Brand",
+    "name": "Instinct"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 1.49,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4,
+    "reviewCount": 18
+  },
+  "keywords": [
+    "cat-wet-food",
+    "cat",
+    "food-and-treats",
+    "wet-food"
+  ]
+}

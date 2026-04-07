@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B09L7CGJLG",
+  "name": "Cat Nail Clippers, Pet Nail Trimmers Universal for Cats and Dogs Durable for Cut Nails",
+  "description": "Feature:1. The scissor head is designed with protector to protect your pet when clipping its nails.2. The handle is designed with plastic to prevent slipping out of your hand when using.3. Equipped with a nail grinder to smooth the nails of your pet after clipping.4. Adopt high quality material, sturdy and durable, and you an use for a long time.5. Universal for cats and dogs, helpful for keeping your lovely pet clean and healthy.Specification:Item Type: Pet Nail ClipperCondition: 100% brand newMaterial: MetalColor: As shownScissors Size: Approx. 16x5.5x1.5cm/6.3x2.2x0.6in Nail Grinder Size: A",
+  "image": "https://m.media-amazon.com/images/I/41CllowKIiL._SS522_.jpg",
+  "sku": "amazon-pet-B09L7CGJLG",
+  "brand": {
+    "@type": "Brand",
+    "name": "Fabater"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 820,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "keywords": [
+    "cat-accessory",
+    "pet-supplies",
+    "cats",
+    "grooming",
+    "claw-care"
+  ]
+}

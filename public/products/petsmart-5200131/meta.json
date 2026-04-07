@@ -1,0 +1,12 @@
+{
+  "source": "petsmart",
+  "url": "https://www.petsmart.com/dog/food/canned-food/blue-buffalo-homestyle-recipe--senior-wet-dog-food---natural-12.5-oz.-641.html",
+  "breadcrumb": "dog > food > canned-food > blue-buffalo-homestyle-recipe--senior-wet-dog-food---natural-12.5-oz.-641.html",
+  "bucket": "dog-wet-food",
+  "gtin13": "0859610007479",
+  "images": {
+    "large": "https://s7d2.scene7.com/is/image/PetSmart/5200131?$sclp-prd-main_large$",
+    "medium": "https://s7d2.scene7.com/is/image/PetSmart/5200131?$sclp-prd-main_medium$",
+    "small": "https://s7d2.scene7.com/is/image/PetSmart/5200131?$sclp-prd-main_small$"
+  }
+}

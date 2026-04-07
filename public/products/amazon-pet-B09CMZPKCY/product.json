@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B09CMZPKCY",
+  "name": "PSM Heaven in home® 2101 Bird House for Balcony and Garden Hanging for Sparrow, Hummingbird, Kingfisher Bird Nest for Balcony Made with Wooden MDF Sheet with Hanging and Wall Patch (Wooden)",
+  "description": "Best for Bird Lover, Easy to Use, Save Bird",
+  "image": "https://m.media-amazon.com/images/I/319oJPFFfyL._SS522_.jpg",
+  "sku": "amazon-pet-B09CMZPKCY",
+  "brand": {
+    "@type": "Brand",
+    "name": "Visit the PSM HEAVEN IN HOME Store"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 235,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "bird-toy",
+    "pet-supplies",
+    "birds",
+    "birdcage-accessories",
+    "nests"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B08MVR8Z93",
+  "name": "Stainless Steel Bite Resistant Standing Rack Bell, Bell Toy, Colorful Beads for Bird Home Graden",
+  "description": "Feature:1. Stainless steel is safe, non‑toxic, bite resistant, not noisy, will not disturb your rest or your house guests.2. Add colorful beads, more attractive to pets, built‑in hook for easy suspension and installation.3. The birds will peck at the bells to make the sound of the bells, and the birds will like toy with sound.4. Hanging it on the cage or other place to entertain your pets.5. Made of high quality stainless steel material for durable and long lasting use.Specification:Condition: 100% Brand New Item Type: Bells ToysMaterial: Stainless SteelColor: As Pictures Shown Weight: Approx.",
+  "image": "https://m.media-amazon.com/images/I/41x0ilz3eCL._SS522_.jpg",
+  "sku": "amazon-pet-B08MVR8Z93",
+  "brand": {
+    "@type": "Brand",
+    "name": "Denkerm"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 1.383,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "keywords": [
+    "bird-toy",
+    "pet-supplies",
+    "birds",
+    "feeding-watering-supplies"
+  ]
+}

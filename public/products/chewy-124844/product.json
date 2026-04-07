@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-124844",
+  "name": "Decker Manufacturing Company Union Fiber Horse Brush",
+  "description": "Keep your stallion looking sharp with the Decker Manufacturing Company Union Fiber Horse Brush. This medium-stiff brush features 1.38-inch union fiber bristles, which are ideal for removing dust, dirt and debris from his neck, body and legs. The Grip-Fit® handle is designed to fit comfortably in your hand while the nylon hand strap provides maximum control without slipping. And since it’s made from durable polypropylene, it won’t rot or mildew. Like all Decker equine products, this brush is proudly made in the USA.",
+  "image": "https://image.chewy.com/is/image/catalog/124844_MAIN._AC_SS500_V1514559500_.jpg",
+  "sku": "chewy-124844",
+  "brand": {
+    "@type": "Brand",
+    "name": "Decker Manufacturing Company"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 24.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.75,
+    "reviewCount": 4
+  },
+  "keywords": [
+    "pet-grooming",
+    "horse",
+    "grooming",
+    "brushes-combs"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "source": "petsmart",
+  "url": "https://www.petsmart.com/dog/food/dry-food/merrick-backcountry-large-breed-adult-dry-dog-food---chicken-corn-free-wheat-free-52552.html",
+  "breadcrumb": "dog > food > dry-food > merrick-backcountry-large-breed-adult-dry-dog-food---chicken-corn-free-wheat-free-52552.html",
+  "bucket": "dog-dry-food",
+  "gtin13": "0022808370659",
+  "images": {
+    "large": "https://s7d2.scene7.com/is/image/PetSmart/5299392?$sclp-prd-main_large$",
+    "medium": "https://s7d2.scene7.com/is/image/PetSmart/5299392?$sclp-prd-main_medium$",
+    "small": "https://s7d2.scene7.com/is/image/PetSmart/5299392?$sclp-prd-main_small$"
+  }
+}

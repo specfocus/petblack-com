@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5333483",
+  "name": "Made By Cleo® Holiday Holly Christmas Botanical Slide-On Cat Bandana",
+  "description": "Made By Cleo&reg; Holiday Holly Christmas Botanical Slide-On Cat Bandana",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5333483",
+  "brand": {
+    "@type": "Brand",
+    "name": "Made By Cleo"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 12.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "cat-accessory",
+    "cat",
+    "collars-harnesses-and-leashes",
+    "collars"
+  ]
+}

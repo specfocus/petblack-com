@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-654102",
+  "name": "Pet MD Deodorizing Sweet Pea & Vanilla Cat & Dog Body Spray, 8 oz bottle",
+  "description": "Help tame your fur baby’s coat and control any odors with Pet MD Deodorizing Sweet Pea & Vanilla Cat & Dog Body Spray! Made in the USA, this water-based, deodorizing spray is infused with all-natural sweet pea and vanilla fragrances—it is gentle enough to use on pets with sensitive skin, including cats, dogs, horses, and pocket pets over 12 weeks old. It is designed to eliminate odors for long periods of time, including those in hard-to-reach areas like skin folds and undercoats. It naturally reduces static as well, so it is helpful for taming wild coats. Its refreshing scent, static-reduction, and mild cleansing action helps minimize expensive grooming visits as well!",
+  "image": "https://image.chewy.com/is/image/catalog/654102_MAIN._AC_SS500_V1665666978_.jpg",
+  "sku": "chewy-654102",
+  "brand": {
+    "@type": "Brand",
+    "name": "Pet MD"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 12.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 1,
+    "reviewCount": 1
+  },
+  "keywords": [
+    "pet-grooming",
+    "cat",
+    "grooming",
+    "waterless-grooming",
+    "deodorizing-sprays-colognes"
+  ]
+}

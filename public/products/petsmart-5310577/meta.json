@@ -1,0 +1,12 @@
+{
+  "source": "petsmart",
+  "url": "https://www.petsmart.com/cat/food-and-treats/wet-food/fancy-feast-medleys-adult-cat-wet-food---3.33-oz.-high-protein-63843.html",
+  "breadcrumb": "cat > food-and-treats > wet-food > fancy-feast-medleys-adult-cat-wet-food---3.33-oz.-high-protein-63843.html",
+  "bucket": "cat-wet-food",
+  "gtin13": "0050000962600",
+  "images": {
+    "large": "https://s7d2.scene7.com/is/image/PetSmart/5310577?$sclp-prd-main_large$",
+    "medium": "https://s7d2.scene7.com/is/image/PetSmart/5310577?$sclp-prd-main_medium$",
+    "small": "https://s7d2.scene7.com/is/image/PetSmart/5310577?$sclp-prd-main_small$"
+  }
+}

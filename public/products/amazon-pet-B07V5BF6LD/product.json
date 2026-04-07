@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B07V5BF6LD",
+  "name": "Pets Premium Seed Mix of 12 Grains & Nuts, Added with Spirulina & Cuttlefish Bone, Bird Food for Medium Parrots, African Grey, Eclectus, 900 g",
+  "description": "Ideal for all Medium Sized Parrots Like African Grey, Large Conures, Eclectus, Sengal etc | A hand picked blend of 12 delicious grains and nuts to meet daily nutrition requirement of your medium sized parrot. | Helps in maintaining a healthy plumage and intensifies feather colours. Stimulates the natural foraging instinct to keep your birds energized and happy. | Fortified With Cuttlefish Bone which is an excellent natural source of calcium for birds and Spirulina that dramatically strengthens the avian immune system and works as a prebiotic. | 100 % Natural Human Edible Grade Ingredients. Our",
+  "image": "https://m.media-amazon.com/images/I/61Z56A5mzML._SS522_.jpg",
+  "sku": "amazon-pet-B07V5BF6LD",
+  "brand": {
+    "@type": "Brand",
+    "name": "Pets"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 395,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "bird-food",
+    "pet-supplies",
+    "birds",
+    "food"
+  ]
+}

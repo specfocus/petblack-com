@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B0B6W6T84Q",
+  "name": "InLeague Portable Hanging Rabbit Hay Feeder Bag Pouch Feeding Dispenser Holder Black (64039435IL)",
+  "description": "Description:Made of high quality oxford cloth material with two swivel hanging clips, durable, portable and convenientTwo windows design reduces the waste of hay, for small pets like guinea pigs, rabbits and other animals that feed on hay.Use the bag to keep your house tidy, small animals will not hunt for food when eating hay so that it may keep the surrounding environment tidy.The hardware is rust-proof and sturdy for years, no need to worry about it damaged by pet's teeth.Easy to use, easy to clean. You can just suspend it on the cage, no more installing neededSpecification:Material: 600D O",
+  "image": "https://m.media-amazon.com/images/I/31vGS0bqnxL._SS522_.jpg",
+  "sku": "amazon-pet-B0B6W6T84Q",
+  "brand": {
+    "@type": "Brand",
+    "name": "Generic"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 1.686,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "keywords": [
+    "small-pet-food",
+    "pet-supplies",
+    "small-animals",
+    "food"
+  ]
+}

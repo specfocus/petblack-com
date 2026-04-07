@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5294973",
+  "name": "ROAM® El Grande Gnaw-Kle&trade; Dog Bone Treat - Cape Ostrich",
+  "description": "ROAM&reg; El Grande Gnaw-Kle&amp;trade; Dog Bone Treat - Cape Ostrich",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5294973",
+  "brand": {
+    "@type": "Brand",
+    "name": "ROAM"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 15.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.7,
+    "reviewCount": 20
+  },
+  "keywords": [
+    "dog-treat",
+    "dog",
+    "treats",
+    "bones-and-rawhide"
+  ]
+}

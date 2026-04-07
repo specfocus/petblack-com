@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B09884TBS8",
+  "name": "Bird Nest, Winter Warm Windproof Bed Bag Hanging Parrot House Hammock for Pet Parrot Budgie Parakeet Cockatoo Canary Finch Dove (L)",
+  "description": "Specification:  Material: Canvas, crystal velvet  Color: Blue  Type: Small; Big(Optional)  Size(small):  Inner height: 14cm / 5.5in  Total height: 21cm / 8.3in  Length: 17cm / 6.7in  Width: 17cm / 6.7in  Size(big):  Inner height: 17cm / 6.7in  Total height: 25cm / 9.8in  Length: 22cm / 8.7in  Width: 22cm / 8.7in     Package list:  1 * Parrot Nest",
+  "image": "https://m.media-amazon.com/images/I/51dotv+pLxL._SS522_.jpg",
+  "sku": "amazon-pet-B09884TBS8",
+  "brand": {
+    "@type": "Brand",
+    "name": "HUI"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 2.491,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "bird-toy",
+    "pet-supplies",
+    "birds",
+    "birdcage-accessories",
+    "nests"
+  ]
+}

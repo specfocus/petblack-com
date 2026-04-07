@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B09Q3B4XGF",
+  "name": "Reliable Strong Hamster Sofa, Stable Convenient Hammock Hanging Bed, for Hamster Guinea Pig(Yellow)",
+  "description": "Feature:1. Made of natural flannelette and sponge, the material is safe and does not harm the healths of pets.2. The combination of sofa and hammock meets two different needs at the same time.3. The sofa has cute modeling, overall looks unique and beautiful, more attractive to pets.4. The hammock has its own hook for easy hanging. Small pets such as hamsters can play or rest in the hammock, or sleep in the sofa nest.5. Light weight and in small size, easy to place and don't occupy much space.Specification:Condition: 100% Brand NewItem Type: Pet & HammockMaterial: Flannelette, SpongeSize:Hammoc",
+  "image": "https://m.media-amazon.com/images/I/51xinK6aphL._SS522_.jpg",
+  "sku": "amazon-pet-B09Q3B4XGF",
+  "brand": {
+    "@type": "Brand",
+    "name": "Hoseten"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 414,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "small-pet-toy",
+    "pet-supplies",
+    "small-animals",
+    "houses-habitats",
+    "beds"
+  ]
+}

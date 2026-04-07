@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B091Y31HJT",
+  "name": "Ovida Cat Adjustable Hood Kitten Breathable Anti Bite Muzzles Prevent from Cats Biting and Chewing, Safety Prevent for Small Pets Grooming",
+  "description": "Cat Adjustable Hood Kitten Breathable Anti Bite Muzzles Prevent from Cats Biting and Chewing, Safety Prevent for Small Pets GroomingSpecifications:Item Name: Cat Anti Bite HoodMaterial: ABSSize: 14.3*13*7cm/5.6*5*2.8\"(Approx.)Uses: Kitten Cats, Puppy Package Includes: 1 * Cat Adjustable HoodKindly Notes:Please allow 1-5mm error due to manual measurementPlease allow little color difference due to different camera or light environmentFeel free to contact us if there are any product problemsWe would try our best to provide you the best serviceHope you have a happy shopping experienceThank you ver",
+  "image": "https://m.media-amazon.com/images/I/41sw-6G9iLL._SS522_.jpg",
+  "sku": "amazon-pet-B091Y31HJT",
+  "brand": {
+    "@type": "Brand",
+    "name": "Ovida"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 139,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "dog-accessory",
+    "pet-supplies",
+    "cats",
+    "collars-harnesses-leashes",
+    "collars"
+  ]
+}

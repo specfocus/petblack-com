@@ -1,0 +1,12 @@
+{
+  "source": "petsmart",
+  "url": "https://www.petsmart.com/dog/beds-and-furniture/cuddler-beds/top-paw-faux-fur-snuggler-dog-bed-60247.html",
+  "breadcrumb": "dog > beds-and-furniture > cuddler-beds > top-paw-faux-fur-snuggler-dog-bed-60247.html",
+  "bucket": "dog-accessory",
+  "gtin13": "0737257939738",
+  "images": {
+    "large": "https://s7d2.scene7.com/is/image/PetSmart/5302897?$sclp-prd-main_large$",
+    "medium": "https://s7d2.scene7.com/is/image/PetSmart/5302897?$sclp-prd-main_medium$",
+    "small": "https://s7d2.scene7.com/is/image/PetSmart/5302897?$sclp-prd-main_small$"
+  }
+}

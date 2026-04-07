@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-206228",
+  "name": "Formula of Champions Game Plan Starter-Developer 18% Medicated Show Goat Feed With Decoquinate",
+  "description": "Formula of Champions Game Plan 18% Starter Developer Goat Feed encourages weight gain and health in young goats. Designed to be fed with forage, this feed includes quality ingredients that encourage bloom. The feed is medicated to help prevent coccidiosis, and includes ammonium chloride to help prevent urinary calculi or water belly. Chelated minerals support cell absorption, immunity, haircoat and skin condition, preparing your goat for the show ring—no kidding around!",
+  "image": "https://image.chewy.com/is/image/catalog/206228_MAIN._AC_SS500_V1675118679_.jpg",
+  "sku": "chewy-206228",
+  "brand": {
+    "@type": "Brand",
+    "name": "Formula of Champions"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 38.49,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 1,
+    "reviewCount": 1
+  },
+  "keywords": [
+    "farm-animal-food",
+    "farm-animal",
+    "goat",
+    "feed-treats"
+  ]
+}

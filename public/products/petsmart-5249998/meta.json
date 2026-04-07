@@ -1,0 +1,12 @@
+{
+  "source": "petsmart",
+  "url": "https://www.petsmart.com/bird/cages-and-stands/cages/prevue-pet-products-copacabana-bird-cage-35394.html",
+  "breadcrumb": "bird > cages-and-stands > cages > prevue-pet-products-copacabana-bird-cage-35394.html",
+  "bucket": "bird-toy",
+  "gtin13": "0048081919989",
+  "images": {
+    "large": "https://s7d2.scene7.com/is/image/PetSmart/5249998?$sclp-prd-main_large$",
+    "medium": "https://s7d2.scene7.com/is/image/PetSmart/5249998?$sclp-prd-main_medium$",
+    "small": "https://s7d2.scene7.com/is/image/PetSmart/5249998?$sclp-prd-main_small$"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "source": "petsmart",
+  "url": "https://www.petsmart.com/dog/food/canned-food/natures-recipe-wet-dog-food-all-ages---chicken-salmon-turkey-57947.html",
+  "breadcrumb": "dog > food > canned-food > natures-recipe-wet-dog-food-all-ages---chicken-salmon-turkey-57947.html",
+  "bucket": "dog-wet-food",
+  "gtin13": "0730521308179",
+  "images": {
+    "large": "https://s7d2.scene7.com/is/image/PetSmart/5282601?$sclp-prd-main_large$",
+    "medium": "https://s7d2.scene7.com/is/image/PetSmart/5282601?$sclp-prd-main_medium$",
+    "small": "https://s7d2.scene7.com/is/image/PetSmart/5282601?$sclp-prd-main_small$"
+  }
+}

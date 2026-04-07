@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5167118",
+  "name": "Old Mother Hubbard Extra Tasty Assorted Dog Treats, Mini",
+  "description": "Old Mother Hubbard Extra Tasty Assorted Dog Treats, Mini",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5167118",
+  "brand": {
+    "@type": "Brand",
+    "name": "Old Mother Hubbard"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 5.47,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.7378,
+    "reviewCount": 164
+  },
+  "keywords": [
+    "dog-accessory",
+    "dog",
+    "treats",
+    "biscuits-and-bakery"
+  ]
+}

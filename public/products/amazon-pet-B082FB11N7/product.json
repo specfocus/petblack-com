@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B082FB11N7",
+  "name": "Twiclo Pet Dog Deshedding Brush Combs Silicone Glove",
+  "description": "Description1Pair of KST Dog glove 1 left hand 1 right hand glove \"True Touch Deshedding Gloves remove loose hair and gently massage your pets.Perfect for long haired or short and curly haired dog sand cats the True Touch Deshedding Glove allows you to simply pet the hair away.The shedding hair sticks to the glove making cleanup easy.\"Feature:-Soft and flexible material, without any harm to your sweet dog.- Pet grooming glove for both dry and wet use.- Great for pets with short, long or curly hair.- Bath brush for thoroughly cleaning up.- Deseeding tool & hair remover.- Soft massager for pet.-A",
+  "image": "https://m.media-amazon.com/images/I/410LSa3XBRL._SS522_.jpg",
+  "sku": "amazon-pet-B082FB11N7",
+  "brand": {
+    "@type": "Brand",
+    "name": "Visit the Twiclo Store"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 425,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "pet-grooming",
+    "pet-supplies",
+    "cats",
+    "grooming",
+    "hair-removal-mitts-rollers"
+  ]
+}

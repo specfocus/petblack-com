@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B09KNKPKF1",
+  "name": "Cage/Playhouse for Dwarf Hamster/Gerbil/Mice with a Food Cup,Water Bottle,Exercise Wheel with Spacious one Slide cage and a House {12 x 8.5 x 8 Inches }- [ Colors May Vary]",
+  "description": "This Habitat provides your Hamster with room and slide to play, and roam. The habitat features ladders to climb, spinning wheel to keep active, feeding cup, water sipper and piggy house for Hamster to stay.",
+  "image": "https://m.media-amazon.com/images/I/41KpuXmGXSL._SS522_.jpg",
+  "sku": "amazon-pet-B09KNKPKF1",
+  "brand": {
+    "@type": "Brand",
+    "name": "Visit the LOVELY PETS KINGDOM – YOUR PET OUR PASSION Store"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 1.75,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "small-pet-food",
+    "pet-supplies",
+    "small-animals",
+    "houses-habitats",
+    "cages"
+  ]
+}

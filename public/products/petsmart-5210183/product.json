@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5210183",
+  "name": "Oxbow Twisted Small Animal Toy",
+  "description": "Oxbow Twisted Small Animal Toy",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5210183",
+  "brand": {
+    "@type": "Brand",
+    "name": "Oxbow"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 5.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.1538,
+    "reviewCount": 13
+  },
+  "keywords": [
+    "small-pet-toy",
+    "small-pet",
+    "toys-and-habitat-accessories",
+    "toys"
+  ]
+}

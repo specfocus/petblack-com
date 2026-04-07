@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B09B2RL154",
+  "name": "Bird Food Box, Plastic Bird Feeder Container for Bird for(Green 300 * 125 * 80 (mm))",
+  "description": "Feature:1. Designed with a slotted handle, suitable for hanging on the birdcage.2. The feeder can provide clean and convenient seeds, water, bird food, etc. for birds.3. Selected high‑quality plastic materials, non‑toxic, harmless, and safe to use by birds.4. Bird feeding trough, easy to fill and clean, suitable for birds, parrots, etc.5. Practical bird accessory, exquisite workmanship, easy to install and use.Specification:Item Type: Bird FeederMaterial: PlasticWeight: Approx. 612g / 21.6ozProduct Size: Approx. 300x125x80mm / 11.8x4.9x3.1in Package List:5 x Food Trough5 x LidNote:1. Please al",
+  "image": "https://m.media-amazon.com/images/I/414TjkqTKtL._SS522_.jpg",
+  "sku": "amazon-pet-B09B2RL154",
+  "brand": {
+    "@type": "Brand",
+    "name": "Ouee"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 2.459,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "keywords": [
+    "bird-toy",
+    "pet-supplies",
+    "birds",
+    "feeding-watering-supplies"
+  ]
+}

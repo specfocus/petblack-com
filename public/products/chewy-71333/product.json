@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-71333",
+  "name": "Health Extension Grain-Free Duck Entree Canned Dog Food",
+  "description": "100% Grain-Free Health Extension Duck Entree is an excellent source of high quality protein, made with all-natural duck. The sweet potatoes add an excellent source of vitamins, minerals and beta-carotene. Dogs will enjoy and benefit from this deboned duck entree free from growth hormones, steroids, meat by-products and allergy related fillers.",
+  "image": "https://image.chewy.com/is/image/catalog/71333_MAIN._AC_SS500_V1627352815_.jpg",
+  "sku": "chewy-71333",
+  "brand": {
+    "@type": "Brand",
+    "name": "Health Extension"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 34.69,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.3125,
+    "reviewCount": 16
+  },
+  "keywords": [
+    "dog-wet-food",
+    "dog",
+    "food",
+    "wet-food",
+    "adult"
+  ]
+}

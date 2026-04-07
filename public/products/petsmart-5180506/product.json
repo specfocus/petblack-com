@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5180506",
+  "name": "Purina ONE® +Plus Puppy Dog Dry Food - Chicken, Natural, High-Protein",
+  "description": "Purina ONE&reg; +Plus Puppy Dog Dry Food - Chicken, Natural, High-Protein",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5180506",
+  "brand": {
+    "@type": "Brand",
+    "name": "Purina ONE"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 28.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.7675,
+    "reviewCount": 271
+  },
+  "keywords": [
+    "dog-dry-food",
+    "dog",
+    "food",
+    "dry-food"
+  ]
+}

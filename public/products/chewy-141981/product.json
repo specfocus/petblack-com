@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-141981",
+  "name": "Bil-Jac Original Recipe with Liver Soft Dog Treats",
+  "description": "There’s no trick your crafty canine won’t do to get his paws on some Bil-Jac Original Recipe with Liver Dog Treats. Featuring savory and succulent fresh chicken liver as the very first ingredient followed by real chicken, these soft, chewy morsels have a scrumptious, meaty flavor dogs crave. They’re the perfect-sized positive reward training treat for medium to large breed dogs, and are easy to break apart for smaller breeds. The resealable double-zipper pouch helps make sure all that irresistible aroma, taste and texture stays fresh down to the very last mouth-watering bite.",
+  "image": "https://image.chewy.com/is/image/catalog/141981_MAIN._AC_SS500_V1517351503_.jpg",
+  "sku": "chewy-141981",
+  "brand": {
+    "@type": "Brand",
+    "name": "Bil-Jac"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 12.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.7465,
+    "reviewCount": 355
+  },
+  "keywords": [
+    "dog-treat",
+    "dog",
+    "treats",
+    "soft-chewy-treats",
+    "top-rated"
+  ]
+}

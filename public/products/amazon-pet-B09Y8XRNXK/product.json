@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B09Y8XRNXK",
+  "name": "Meri SHOPP Cat Feather Teaser Wand Toy Pet Chaser Supply Retractable 75cm Random Color",
+  "description": "Description:[Premium Material] Made of Good Quality PVC and pasteurized feather, safe and non toxic.[Retractable Design] Wand Overall Length: Approx. 23cm-75cm.[Interactive Cat Teaser Toy] This interactive cat teaser toy will entertain your cat and stimulate the hunting instinct of cat. Have fun with your lovely cat![Keep Your Pet Active] Ultra-long(30inch) cat teaser toy with feather, giving your pet cat more fun and keeping your cat excited.[Perfect Gift for Pet Cat] Your cat will love this teaser toy. Often used for pet cat agility training and exercising.Specification:Material: PVCColor: R",
+  "image": "https://m.media-amazon.com/images/I/31QPtrEreCL._SS522_.jpg",
+  "sku": "amazon-pet-B09Y8XRNXK",
+  "brand": {
+    "@type": "Brand",
+    "name": "Generic"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 1.051,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "keywords": [
+    "cat-toy",
+    "pet-supplies",
+    "cats",
+    "toys",
+    "feather-toys"
+  ]
+}

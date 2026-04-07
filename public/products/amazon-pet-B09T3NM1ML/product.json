@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B09T3NM1ML",
+  "name": "MACOS Stainless Steel Laser Engraved Personalised Pet Tags for Dogs and Cats [Chrome]",
+  "description": "Attractive shapes and colors | Ensure your pet can safely return home if it ever wanders out. | Easy to fix to your pet's collar. | Made of sturdy material. | All our tags come with a metal ring that can be used to attach the tag to the pet's collar.",
+  "image": "https://m.media-amazon.com/images/I/31N4K2tlThL._SS522_.jpg",
+  "sku": "amazon-pet-B09T3NM1ML",
+  "brand": {
+    "@type": "Brand",
+    "name": "MACOS"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 349,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "other-pet",
+    "pet-supplies",
+    "cats",
+    "collars-harnesses-leashes",
+    "collars"
+  ]
+}

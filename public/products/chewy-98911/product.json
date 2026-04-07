@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-98911",
+  "name": "Merrick Lil' Plates Grain-Free Little Lamb Chop Stew Dog Food Trays",
+  "description": "Give your little dude a whole new attitude with Merrick Lil' Plates Grain Free Small Breed Wet Dog Food Little Lamb Chop Stew. This delicious wet food for small dogs features real deboned lamb as the very first ingredient. It’s crafted with a savory gravy and formulated for complete and balanced nutrition with prebiotics, probiotics and essential minerals to aid in digestion. This grain and gluten-free wet dog food is developed with high levels of omega fatty acids to help promote healthy skin and a shiny coat while glucosamine and chondroitin support hip and joint function. It’s paw-fect for helping small breeds of dogs in any stage of life build healthy muscles and maintain a high level of energy throughout the day.",
+  "image": "https://image.chewy.com/is/image/catalog/98911_MAIN._AC_SS500_V1647910902_.jpg",
+  "sku": "chewy-98911",
+  "brand": {
+    "@type": "Brand",
+    "name": "Merrick"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 19.15,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.3026,
+    "reviewCount": 76
+  },
+  "keywords": [
+    "dog-wet-food",
+    "dog",
+    "food",
+    "wet-food",
+    "adult"
+  ]
+}

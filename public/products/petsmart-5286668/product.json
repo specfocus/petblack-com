@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5286668",
+  "name": "Nature's Miracle® Single Cat Self-Cleaning Litter Box",
+  "description": "Nature's Miracle&reg; Single Cat Self-Cleaning Litter Box",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5286668",
+  "brand": {
+    "@type": "Brand",
+    "name": "Nature's Miracle"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 159.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 1.8889,
+    "reviewCount": 36
+  },
+  "keywords": [
+    "cat-accessory",
+    "cat",
+    "litter-and-waste-disposal",
+    "litter-boxes"
+  ]
+}

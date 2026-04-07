@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B09ZB5NYCV",
+  "name": "GlobalNiche® Cat Teaser Toy Cat Chaser Toy Interactive Play Toy for Cat Kitten 49x169cm",
+  "description": "Description: Durable, Eco-friendly, Enviornmental. Cat Teaser Toy with bells easily attract cats attention. Can attract cats interest and play for fun Cat Teaser Toy with rode, wave freely. Greats gifts for cat to play and give it more happiness and improve intelligence. Specification: #1 Size: Approx.46x121cm/18.11x47.64in; Material: plush #2 Size: Approx.49x169cm/19.29x66.54in; Material: oolen yarn Package Includes: 1x Cat Toy Note: Since the size above is measured by hand, the size of the actual item could be slightly different from the size above. Due to the lighting effects, monitor setti",
+  "image": "https://m.media-amazon.com/images/I/31ySmygkgLL._SS522_.jpg",
+  "sku": "amazon-pet-B09ZB5NYCV",
+  "brand": {
+    "@type": "Brand",
+    "name": "Generic"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 935,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "keywords": [
+    "cat-toy",
+    "pet-supplies",
+    "cats",
+    "toys",
+    "mice-animal-toys"
+  ]
+}

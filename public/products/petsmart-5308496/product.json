@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5308496",
+  "name": "Nerf&trade; Dog X-Weave Launching Duck Dog Toy",
+  "description": "Nerf&amp;trade; Dog X-Weave Launching Duck Dog Toy",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5308496",
+  "brand": {
+    "@type": "Brand",
+    "name": "Nerf Dog"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 15.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 3.1429,
+    "reviewCount": 21
+  },
+  "keywords": [
+    "dog-toy",
+    "dog",
+    "toys",
+    "fetch-toys"
+  ]
+}

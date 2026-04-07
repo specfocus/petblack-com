@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5321283",
+  "name": "Grayson Pup Start Each Day with a Waggy Tail Pet Sweatshirt",
+  "description": "Grayson Pup Start Each Day with a Waggy Tail Pet Sweatshirt",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5321283",
+  "brand": {
+    "@type": "Brand",
+    "name": "Grayson Pup"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 8.47,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "keywords": [
+    "dog-accessory",
+    "dog",
+    "clothing-and-shoes",
+    "sweaters-and-coats"
+  ]
+}

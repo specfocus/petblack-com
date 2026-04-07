@@ -1,0 +1,24 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-233523",
+  "name": "Rooster Booster Poultry Wound All-Natural Spray, 16-oz bottle",
+  "description": "Rooster Booster Poultry Wound Spray can gently soothe and treat wounds and abrasions on your feathered friends. This spray is safe for use on open wounds, and its non-irritating formula won’t sting when applied. It contains tea tree oil, a natural antiseptic that can help to prevent infection so your birdie friends return to their flap happy selves. It’s safe for use on all ages of birds, perfect for mixed flocks. There’s also no egg withdrawal period, so none of your flock’s eggs will go to waste while you’re treating your injured birds.",
+  "image": "https://image.chewy.com/is/image/catalog/233523_MAIN._AC_SS500_V1587999990_.jpg",
+  "sku": "chewy-233523",
+  "brand": {
+    "@type": "Brand",
+    "name": "Rooster Booster"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 22.49,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "bird-food",
+    "farm-animal",
+    "chicken"
+  ]
+}

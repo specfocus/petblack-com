@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5307818",
+  "name": "Catit® PIXI Smart Cat Feeder",
+  "description": "Catit&reg; PIXI Smart Cat Feeder",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5307818",
+  "brand": {
+    "@type": "Brand",
+    "name": "Catit"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 129.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 2.6,
+    "reviewCount": 5
+  },
+  "keywords": [
+    "cat-accessory",
+    "cat",
+    "bowls-and-feeders",
+    "automatic-feeders",
+    "catit-pixi-smart-cat-feeder-62724-html"
+  ]
+}

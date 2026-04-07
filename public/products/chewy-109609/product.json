@@ -1,0 +1,29 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-109609",
+  "name": "North States Village Collection Large Bird Feeder",
+  "description": "Adorable style is for the birds with the MyPet Village Collection Large Bird Feeder. Designed to resemble your choice of an authentic log cabin, cottage, or barn, this decorative feeder offers plenty of function too. Featuring clear, paned windows along the sides, it’s easy to monitor your seed levels at all times. Refills are a breeze with the lift-off chimney (or cupola on the barn), and the bottom perch is also removable when you need a quick clean out. Cheerful and bright, it’s sure to capture the attention of birds, giving you feathered feeding with a charming view.",
+  "image": "https://image.chewy.com/is/image/catalog/109609_MAIN._AC_SS500_V1666131151_.jpg",
+  "sku": "chewy-109609",
+  "brand": {
+    "@type": "Brand",
+    "name": "North States"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 34.2,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.6667,
+    "reviewCount": 45
+  },
+  "keywords": [
+    "bird-toy",
+    "bird",
+    "feeders-waterers"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-237008",
+  "name": "Frisco Large Size Dog Poop Bags, 120 count",
+  "description": "If standard-size bags just aren’t cutting it for your dog’s business, these durable, heavy-duty Frisco by Chewy bags can get the job done! These sturdy bags measure 11.5x17 inches, with an ultra-capacity design that’s sure to pick up whatever your pup is putting down with ease. And with the extra-thick, leak-proof plastic, you can rest assured that those doggie messes will stay right where they belong—in the bag. Plus, with the 120-bag pantry pack, you’ll always have a bag on hand when nature calls. Just pull out and tear a few bags off before heading out the door.",
+  "image": "https://image.chewy.com/is/image/catalog/237008_MAIN._AC_SS500_V1669101579_.jpg",
+  "sku": "chewy-237008",
+  "brand": {
+    "@type": "Brand",
+    "name": "Frisco"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 9.22,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.2927,
+    "reviewCount": 41
+  },
+  "keywords": [
+    "dog-accessory",
+    "dog",
+    "cleaning-potty",
+    "poop-bags-scoopers",
+    "poop-bags"
+  ]
+}

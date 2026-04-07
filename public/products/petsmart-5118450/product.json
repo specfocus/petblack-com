@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5118450",
+  "name": "Hill's® Prescription Diet® k/d Kidney Care Dog Food - Chicken",
+  "description": "Hill's&reg; Prescription Diet&reg; k/d Kidney Care Dog Food - Chicken",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5118450",
+  "brand": {
+    "@type": "Brand",
+    "name": "Hill's Prescription Diet"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 3.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 3.9891,
+    "reviewCount": 183
+  },
+  "keywords": [
+    "dog-health",
+    "dog",
+    "food",
+    "veterinary-diets"
+  ]
+}

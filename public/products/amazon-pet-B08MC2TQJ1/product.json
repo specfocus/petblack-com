@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B08MC2TQJ1",
+  "name": "Nature care Bird nest breeding House Sparrow Garden Birds Wood Bird Nest (S21)",
+  "description": "Nature care nest box will be a welcome addition to your window grill, garden, balcony or backyard installing it is as easy. Attract a range of garden birds like sparrows, tits and other small cavity nesting birds. The nest box has sparrow specific entry hole which prevents other predators from entering inside. Installation is as easy as putting a photo frame. Will help you watch birds from close quarters. Will make your home or office a bird sanctuary by attracting a range of garden birds. Ideal to be gifted as a good nature gift. Made from 100 percent recycled and durable wood. It's handmade ",
+  "image": "https://m.media-amazon.com/images/I/41BZvGUvI3S._SS522_.jpg",
+  "sku": "amazon-pet-B08MC2TQJ1",
+  "brand": {
+    "@type": "Brand",
+    "name": "Nature Care"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 399,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "bird-toy",
+    "pet-supplies",
+    "birds",
+    "birdcage-accessories",
+    "nests"
+  ]
+}

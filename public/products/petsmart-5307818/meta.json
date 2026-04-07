@@ -1,0 +1,12 @@
+{
+  "source": "petsmart",
+  "url": "https://www.petsmart.com/cat/bowls-and-feeders/automatic-feeders/catit-pixi-smart-cat-feeder-62724.html",
+  "breadcrumb": "cat > bowls-and-feeders > automatic-feeders > catit-pixi-smart-cat-feeder-62724.html",
+  "bucket": "cat-accessory",
+  "gtin13": "0022517437520",
+  "images": {
+    "large": "https://s7d2.scene7.com/is/image/PetSmart/5307818?$sclp-prd-main_large$",
+    "medium": "https://s7d2.scene7.com/is/image/PetSmart/5307818?$sclp-prd-main_medium$",
+    "small": "https://s7d2.scene7.com/is/image/PetSmart/5307818?$sclp-prd-main_small$"
+  }
+}

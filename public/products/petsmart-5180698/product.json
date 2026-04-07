@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5180698",
+  "name": "Aqueon® 15 Gallon Column Aquarium Stand",
+  "description": "Aqueon&reg; 15 Gallon Column Aquarium Stand",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5180698",
+  "brand": {
+    "@type": "Brand",
+    "name": "Aqueon"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 89.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 3.6154,
+    "reviewCount": 39
+  },
+  "keywords": [
+    "fish-accessory",
+    "fish",
+    "tanks-aquariums-and-nets",
+    "aquarium-stands"
+  ]
+}

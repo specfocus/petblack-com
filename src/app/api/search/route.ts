@@ -1,56 +1,42 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { PRODUCTS } from '@/data/products';
-import type { ProductJsonLd } from '@/types/product-jsonld';
+import { searchProducts, PRODUCT_COUNT } from '@/data/search-index';
+import type { SearchResponse } from '@/types/search-result';
 
 /**
- * GET /api/search?q=<query>
+ * GET /api/search?q=<query>[&limit=<n>]
  *
- * In-memory full-text search over the petblack product catalogue.
- * Matches against: name, description, brand.name, keywords (all lowercased).
+ * Tag-based search over the petblack product index.
+ * Query terms are ANDed against the per-SKU tag set built from
+ * src/data/indexes/*.ts (auto-generated from datasets4/).
  *
- * Returns a JSON-LD array: { "@graph": ProductJsonLd[] }
- * An empty query returns all products.
+ * Returns only SKUs — the UI fetches metadata from:
+ *   /products/<sku>/product.json  (static file in public/products/)
+ *
+ * Response shape: { query, total, skus: string[] }
+ * An empty query returns the first `limit` SKUs across all categories.
  */
-export function GET(request: NextRequest): NextResponse {
+export function GET(request: NextRequest): NextResponse<SearchResponse> {
     const { searchParams } = request.nextUrl;
     const raw = searchParams.get('q') ?? '';
-    const query = raw.trim().toLowerCase();
-
-    let results: ProductJsonLd[];
-
-    if (!query) {
-        results = PRODUCTS;
-    } else {
-        const terms = query.split(/\s+/).filter(Boolean);
-
-        results = PRODUCTS.filter(product => {
-            const haystack = [
-                product.name,
-                product.description,
-                product.brand?.name ?? '',
-                ...(product.keywords ?? []),
-            ]
-                .join(' ')
-                .toLowerCase();
-
-            // All terms must match (AND logic)
-            return terms.every(term => haystack.includes(term));
-        });
-    }
-
-    return NextResponse.json(
-        {
-            '@context': 'https://schema.org',
-            '@type': 'ItemList',
-            query: raw,
-            numberOfItems: results.length,
-            '@graph': results,
-        },
-        {
-            headers: {
-                'Cache-Control': 'no-store',
-                'Content-Type': 'application/ld+json; charset=utf-8',
-            },
-        }
+    const limit = Math.min(
+        parseInt(searchParams.get('limit') ?? '100', 10) || 100,
+        500, // hard cap
     );
+
+    const skus = searchProducts(raw, limit);
+
+    const body: SearchResponse = {
+        query: raw,
+        total: skus.length,
+        skus,
+    };
+
+    return NextResponse.json(body, {
+        headers: {
+            // Allow CDN/browser to cache read-only searches for a short time
+            'Cache-Control': 'public, s-maxage=60, stale-while-revalidate=300',
+            'Content-Type': 'application/json; charset=utf-8',
+            'X-Total-Products': String(PRODUCT_COUNT),
+        },
+    });
 }

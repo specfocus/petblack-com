@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B0B1RVZ9FK",
+  "name": "Bird Nests, 2Pcs Hanging Bird House, Bird House Ornament for Decorating Small Gift Courtyard Use",
+  "description": "Specification:Condition: 100% Brand NewItem Type: Bird HouseMaterial: PaulowniaWeight: Approx. 180g / 6.3ozProduct Size: Approx. 8.5x12x6.5cm / 3.3x4.7x2.6inPackage List:2 x Bird HouseNote:1.Please allow 0‑1 inch error due to manual measurement. Thanks for your understanding.2.Monitors are not calibrated same, item color displayed in photos may be showing slightly different from the real object. Please take the real one as standard.",
+  "image": "https://m.media-amazon.com/images/I/51RhFpE71xL._SS522_.jpg",
+  "sku": "amazon-pet-B0B1RVZ9FK",
+  "brand": {
+    "@type": "Brand",
+    "name": "Velaurs"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 1.209,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "bird-toy",
+    "pet-supplies",
+    "birds",
+    "birdcage-accessories",
+    "nests"
+  ]
+}

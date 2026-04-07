@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B09Y8XPVSW",
+  "name": "Meri SHOPP Cat Scratching Toy Sisal Climb Rope Post Ball with 3-Layer Turntable Layer",
+  "description": "Description:This funny cat play toy natural sisal rope post ball with wood swivel tray and spring support feather toy- strong and durable for cats biting and scratchingLovely mushroom shape and 3-layer wood tray with wooden interactive playing catnip ball for indoor cats exercise and playtime sessionDesigned for satisfying cat39;s scratching nature and preventing cats kittens from damaging furniture effectivelyProvide your cats endless fun while playing with it and make your relationship with pet friend closer.Tumbler design reduces the boredom and the anxiety of your cats and clean, polishes ",
+  "image": "https://m.media-amazon.com/images/I/41jWaai1pPL._SS522_.jpg",
+  "sku": "amazon-pet-B09Y8XPVSW",
+  "brand": {
+    "@type": "Brand",
+    "name": "Generic"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 5.596,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "keywords": [
+    "cat-toy",
+    "pet-supplies",
+    "cats",
+    "beds-furniture",
+    "scratching-pads"
+  ]
+}

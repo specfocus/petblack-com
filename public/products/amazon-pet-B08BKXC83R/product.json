@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B08BKXC83R",
+  "name": "Pigeons Leg, Wear‑Resistant and Durable Poultry Leg for Pigeons Parrots for Yard(10mm red with Word Ring)",
+  "description": "Feature:1. These foot rings are made of high‑quality plastic, wear‑resistant and durable, and can be used for a long time.2. These foot rings are easy to use, reusable, easy to install and remove, and easy to clean.3. Used to identify pigeons, through these signs, you can easily identify your pigeons.4. These foot rings are small in size, light in weight, easy to carry and store, and convenient to use.5. Fine workmanship, suitable for pigeons, parrots, chickens, ducks and other birds and poultry.Specification:Item Type: Pigeons RingMaterial: PlasticWeight: Approx. 29g~32g/1oz~1.1ozQuantity: 10",
+  "image": "https://m.media-amazon.com/images/I/31XNPTdvpEL._SS522_.jpg",
+  "sku": "amazon-pet-B08BKXC83R",
+  "brand": {
+    "@type": "Brand",
+    "name": "Tand"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 778,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "bird-accessory",
+    "pet-supplies",
+    "birds",
+    "health-supplies"
+  ]
+}

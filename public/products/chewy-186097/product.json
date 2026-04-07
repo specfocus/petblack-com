@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-186097",
+  "name": "PetRageous Designs Fishbone Kitty Ceramic Cat Dish",
+  "description": "Add a little charm to mealtime with the Fishbone Kitty Cat Dish from PetRageous Designs! This handmade ceramic stoneware saucer can stand to frequent use and cleanings and the design features a lovely cat silhouette against a white and taupe fishbone pattern across the basin. This 2.5-ounce dish the perfect size for serving up a delectable meal for your feline friend in style. Plus, it’s completely dishwasher and microwave safe so heating and cleaning are easy!",
+  "image": "https://image.chewy.com/is/image/catalog/186097_MAIN._AC_SS500_V1564509421_.jpg",
+  "sku": "chewy-186097",
+  "brand": {
+    "@type": "Brand",
+    "name": "PetRageous Designs"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 7.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.5417,
+    "reviewCount": 48
+  },
+  "keywords": [
+    "cat-accessory",
+    "cat",
+    "bowls-feeders",
+    "bowls-dishes"
+  ]
+}

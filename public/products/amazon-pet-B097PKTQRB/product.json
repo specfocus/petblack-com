@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B097PKTQRB",
+  "name": "DD Enterprises Cat Cardboard Scratcher Toy with Catnip | Scratcher Toy for Cats Made of Environmental Friendly Material Scratch Pad Cum Healthy Toy with Catnip for Cat (Color Yellow)",
+  "description": "Protect your furniture from being scratching The cat scratcher corrugated board has one specific function,after their smell has spread over the board, they'll even prefer to do so there,and on the cat's claw board, put a little bit of catnip, cat will more like this to the cat scratching pad Your Cat's Best Corrugated Cat Board Scratcher and Instinct Reliever This Corrugated Cat Board Scratcher is the perfect feline tool for two of their basic needs scratch and play.",
+  "image": "https://m.media-amazon.com/images/I/41nHC+O-+BS._SS522_.jpg",
+  "sku": "amazon-pet-B097PKTQRB",
+  "brand": {
+    "@type": "Brand",
+    "name": "DD Enterprises"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 299,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "cat-toy",
+    "pet-supplies",
+    "cats",
+    "beds-furniture",
+    "scratcher-accessories-parts"
+  ]
+}

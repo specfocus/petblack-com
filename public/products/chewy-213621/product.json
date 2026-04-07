@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-213621",
+  "name": "American Journey Active Life Formula Small Breed Chicken, Brown Rice & Vegetables Recipe Adult Dry Dog Food",
+  "description": "American Journey Protein and Grains Small Breed Chicken, Brown Rice and Vegetables Recipe Adult Dry Dog Food is crafted to fuel your dog’s day and satisfy their primal appetite for protein. When it comes to your dog’s food, there’s no need to overcomplicate what nature made simple—start with delicious chicken, and add in nutrient-dense fruits and vegetables, plus vitamins and minerals. It features nutrient-dense ingredients to help support higher energy in small breed dogs, plus there are no unnecessary extras like wheat, corn, soy or poultry by-product meals. Serve up a bowl of nutrition that’s made for more moments together, wherever your journey takes you.",
+  "image": "https://image.chewy.com/is/image/catalog/213621_MAIN._AC_SS500_V1669148130_.jpg",
+  "sku": "chewy-213621",
+  "brand": {
+    "@type": "Brand",
+    "name": "American Journey"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 30.66,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.0333,
+    "reviewCount": 30
+  },
+  "keywords": [
+    "dog-dry-food",
+    "dog",
+    "food",
+    "dry-food",
+    "high-protein"
+  ]
+}

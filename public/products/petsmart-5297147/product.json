@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5297147",
+  "name": "Top Paw® Classic Cozy Pet Blanket",
+  "description": "Top Paw&reg; Classic Cozy Pet Blanket",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5297147",
+  "brand": {
+    "@type": "Brand",
+    "name": "Top Paw"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 9.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.619,
+    "reviewCount": 21
+  },
+  "keywords": [
+    "dog-accessory",
+    "dog",
+    "beds-and-furniture",
+    "blankets"
+  ]
+}

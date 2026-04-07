@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-267891",
+  "name": "ACANA Wholesome Grains Puppy Recipe Dry Dog Food",
+  "description": "Feed your puppy pal the high-quality nutrition he needs and deserves with ACANA Puppy Recipe, Real Chicken, Eggs & Turkey Wholesome Grains. This dry dog food is specially crafted for growing puppies with free-run chicken, cage-free eggs and free-run turkey, along with wholesome grains, including oats, sorghum and millet. The grains are high in fiber, delivering nutrition that helps support healthy digestion. Plus, compared to ACANA Wholesome Grains Free-Run Poultry & Grains Recipe, this formula contains even more protein, fat and omega-3 fatty acids to support your little one’s growth and development. ACANA’s premium ingredients are sourced from a trusted group of farmers, ranchers and fishers and every batch is made in their Kentucky kitchen with a commitment to safety and quality.",
+  "image": "https://image.chewy.com/is/image/catalog/267891_MAIN._AC_SS500_V1611787042_.jpg",
+  "sku": "chewy-267891",
+  "brand": {
+    "@type": "Brand",
+    "name": "ACANA"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 41.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.2,
+    "reviewCount": 30
+  },
+  "keywords": [
+    "dog-dry-food",
+    "dog",
+    "food",
+    "premium-food"
+  ]
+}

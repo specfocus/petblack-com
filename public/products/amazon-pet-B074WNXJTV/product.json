@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B074WNXJTV",
+  "name": "Jusney Bird Rope Perches,Parrot Toys 33 inches Rope Bungee Bird Toy (33 inches)",
+  "description": "Jusney Bird Rope Perches,Parrot Toys 33 inches Rope Bungee Bird Toy (33 inches)",
+  "image": "https://m.media-amazon.com/images/I/51I0fuywCpL._SS522_.jpg",
+  "sku": "amazon-pet-B074WNXJTV",
+  "brand": {
+    "@type": "Brand",
+    "name": "Jusney"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "bird-toy",
+    "pet-supplies",
+    "birds",
+    "birdcage-accessories",
+    "perches"
+  ]
+}

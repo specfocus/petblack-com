@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5299381",
+  "name": "Merrick® Backcountry® Puppy Dry Dog Food - Chicken, Gluten Free, Grain Free",
+  "description": "Merrick&reg; Backcountry&reg; Puppy Dry Dog Food - Chicken, Gluten Free, Grain Free",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5299381",
+  "brand": {
+    "@type": "Brand",
+    "name": "Merrick"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 53.98,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.3939,
+    "reviewCount": 99
+  },
+  "keywords": [
+    "dog-dry-food",
+    "dog",
+    "food",
+    "dry-food"
+  ]
+}

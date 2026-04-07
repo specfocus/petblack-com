@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B0B58KLLQ3",
+  "name": "Aswadh Stainless Steel Bird Parrot Scratching Stick Outdoor Handheld Standing Frame",
+  "description": "Description:Brand new and high quality.The handle is embossed to avoid slipping offAlso perfect to be held in hands and taken outside with your lovely pet, attaching a harness on its bottom buckle or handsFiles bird's claws and becomes your pet's favorite toyMaterial:Stainless Steel. Size(LW): Approx. 29x24cm/11.41x9.45inchPackage Includes:1 Piece Bird ToyNote:Since the size above is measured by hand, the size of the actual item could be slightly different from the size above.Due to the lighting effects, monitor settings, etc. There could be some slight difference in the color tone of the pict",
+  "image": "https://m.media-amazon.com/images/I/31CrkZxBF7L._SS522_.jpg",
+  "sku": "amazon-pet-B0B58KLLQ3",
+  "brand": {
+    "@type": "Brand",
+    "name": "Generic"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 2.978,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "keywords": [
+    "bird-toy",
+    "pet-supplies",
+    "birds",
+    "toys"
+  ]
+}

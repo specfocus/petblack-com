@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5198647",
+  "name": "K&H CleanFlow&trade; Cat Waterer",
+  "description": "K&amp;H CleanFlow&amp;trade; Cat Waterer",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5198647",
+  "brand": {
+    "@type": "Brand",
+    "name": "K&amp;H"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 43.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.0667,
+    "reviewCount": 15
+  },
+  "keywords": [
+    "cat-dry-food",
+    "cat",
+    "bowls-and-feeders",
+    "food-and-water-bowls"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5298156",
+  "name": "Great Choice® Delightfuls Cat Treat - Chicken, With-Grain",
+  "description": "Great Choice&reg; Delightfuls Cat Treat - Chicken, With-Grain",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5298156",
+  "brand": {
+    "@type": "Brand",
+    "name": "Great Choice"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 9.49,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 2.5769,
+    "reviewCount": 26
+  },
+  "keywords": [
+    "cat-treat",
+    "cat",
+    "food-and-treats",
+    "treats"
+  ]
+}

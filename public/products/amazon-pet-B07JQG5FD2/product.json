@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B07JQG5FD2",
+  "name": "Pet Care International Ultra Feather to Provide Healthy Feathers for Bird Wings (100 Ml), 1 Piece",
+  "description": "Ultra featherLinolenic acid or Omega-3 - Contribute to healthy cell membranes and function.These fatty acids may also helps in reduces some forms of inflammatory bowel disease and autoimmune conditions might help improve your cardiovascular health.Linoleic or Omega-6 fatty acids - Is necessary for healthy brain function,skin and hair growth,bone density,energy production and reproductive health.Olic or Omega-9 fatty acids -Reduces blood pressure,increase fat burning to help with weight loss and generates brain myelin.Zinc sulphate mono - Zinc is naturally occurring mineral.zinc is important fo",
+  "image": "https://m.media-amazon.com/images/I/41Yi-OzIJyL._SS522_.jpg",
+  "sku": "amazon-pet-B07JQG5FD2",
+  "brand": {
+    "@type": "Brand",
+    "name": "Pet Care International"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 280,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "bird-accessory",
+    "pet-supplies",
+    "birds",
+    "health-supplies"
+  ]
+}

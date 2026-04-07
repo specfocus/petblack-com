@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-311969",
+  "name": "Frisco Circle Design Stainless Steel Dog & Cat Bowl",
+  "description": "It’s always a positive when our pets are excited to eat, and it doesn’t get more enticing than this pawsome circle design stainless-steel bowl. Think of it as pulling out the fancy cutlery for those special dinner dates, except this fancy bowl will be around all the time! Time to clean up? The stainless-steel bowl can be removed from the melamine base whenever things get dirty. It’s also top-rack dishwasher safe, making cleanup an absolute breeze.",
+  "image": "https://image.chewy.com/is/image/catalog/311969_MAIN._AC_SS500_V1642542266_.jpg",
+  "sku": "chewy-311969",
+  "brand": {
+    "@type": "Brand",
+    "name": "Frisco"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 8.29,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "dog-accessory",
+    "cat",
+    "bowls-feeders",
+    "bowls-dishes"
+  ]
+}

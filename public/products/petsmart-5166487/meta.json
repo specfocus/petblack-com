@@ -1,0 +1,12 @@
+{
+  "source": "petsmart",
+  "url": "https://www.petsmart.com/dog/food/canned-food/hills-science-diet-savory-stew-adult-senior-7%2B-wet-dog-food---12.8-oz-2764.html",
+  "breadcrumb": "dog > food > canned-food > hills-science-diet-savory-stew-adult-senior-7%2B-wet-dog-food---12.8-oz-2764.html",
+  "bucket": "dog-wet-food",
+  "gtin13": "0052742143309",
+  "images": {
+    "large": "https://s7d2.scene7.com/is/image/PetSmart/5166487?$sclp-prd-main_large$",
+    "medium": "https://s7d2.scene7.com/is/image/PetSmart/5166487?$sclp-prd-main_medium$",
+    "small": "https://s7d2.scene7.com/is/image/PetSmart/5166487?$sclp-prd-main_small$"
+  }
+}

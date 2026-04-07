@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B09KZM5VJ4",
+  "name": "Toy, Plastic Bird Playing Toy Chewing Toy for Big Breasted for African Grey for Alexander",
+  "description": "Description:This toy is handcrafted from earth-friendly natural materials. And it makes parrots no longer lonely, which is good for birds' health physically and mentally.Features: This toy can be hung in the bird cage for decoration.  It meets the habits of birds playing and biting, great for birds to release pressure and relieve boredom.  It maintains its healthy color over time and your bird will love to play with it.  keep your bird entertained, exercised, strengthen their muscles.  Suitable for all kinds of parrot, such as alexander, big breasted, african grey parrot, etc.  Specifications:",
+  "image": "https://m.media-amazon.com/images/I/41mmp-vurOL._SS522_.jpg",
+  "sku": "amazon-pet-B09KZM5VJ4",
+  "brand": {
+    "@type": "Brand",
+    "name": "Shanrya"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 1.066,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "keywords": [
+    "bird-toy",
+    "pet-supplies",
+    "birds",
+    "toys"
+  ]
+}

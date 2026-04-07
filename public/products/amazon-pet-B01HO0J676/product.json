@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B01HO0J676",
+  "name": "YML A1114MBLU House Top Style Small Parakeet Cage, 11\" x 9\" x 16",
+  "description": "Let your little birdie live in comfort and style with the YML House Top Style Parakeet Cage. An angled top provides visual interest, while the attached handle allows you to display the cage from a stand or hook. A swing and two moveable perches allow your little friend to flit around and play when you're out of the house. Cleaning up those bird droppings is simple with a slide-out tray and conveniently located doors allow easy access to feeding trays. Available in your choice of size. .5 in. bar spacing. Choose from available colors. Pointed top cage design. 2 plastic feeding cups. 1 bottom gr",
+  "image": "https://m.media-amazon.com/images/I/51V02j0XZ+L._SS522_.jpg",
+  "sku": "amazon-pet-B01HO0J676",
+  "brand": {
+    "@type": "Brand",
+    "name": "YML"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "bird-toy",
+    "pet-supplies",
+    "birds",
+    "birdcages"
+  ]
+}

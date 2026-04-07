@@ -1,0 +1,12 @@
+{
+  "source": "petsmart",
+  "url": "https://www.petsmart.com/small-pet/food-treats-and-hay/treats/browns-tropical-carnival-farm-fresh-fixinsandtrade-small-animal-treats-232.html",
+  "breadcrumb": "small-pet > food-treats-and-hay > treats > browns-tropical-carnival-farm-fresh-fixinsandtrade-small-animal-treats-232.html",
+  "bucket": "small-pet-food",
+  "gtin13": "0042934449470",
+  "images": {
+    "large": "https://s7d2.scene7.com/is/image/PetSmart/5175719?$sclp-prd-main_large$",
+    "medium": "https://s7d2.scene7.com/is/image/PetSmart/5175719?$sclp-prd-main_medium$",
+    "small": "https://s7d2.scene7.com/is/image/PetSmart/5175719?$sclp-prd-main_small$"
+  }
+}

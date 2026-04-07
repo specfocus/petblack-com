@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B0B296BXXK",
+  "name": "Meri Shopp Wooden Mouse Hamster Step Ladder Bridge Pet Parrot Bird Stand Perch Toys M",
+  "description": "Description:100% Brand new and high quality;Give your pet a treat and have hours of fun watching them play.Suitable for many small animals Hamsters, Gerbils, Mice, Rats,little parrot,ect.An ideal place designed for your little friends to play and climb, easy install in the cage.Made from real wood with hanging attachments on both sides to attach to the cage or perches.Specification:Material: WoodSize S(With screw):Approx.20 x 26cm /7.87 x 10.24inch;Pole:Approx.18 x 1.8cm /7.09 x 0.71inchSize M(With screw):Approx.24 x 26cm /9.45 x 10.24inch;Pole:Approx.22 x 1.8cm /8.66 x 0.71inchSize L(With scr",
+  "image": "https://m.media-amazon.com/images/I/310cGYqpI-L._SS522_.jpg",
+  "sku": "amazon-pet-B0B296BXXK",
+  "brand": {
+    "@type": "Brand",
+    "name": "Generic"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "bird-toy",
+    "pet-supplies",
+    "small-animals",
+    "health-supplies"
+  ]
+}

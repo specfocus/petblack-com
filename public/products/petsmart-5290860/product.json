@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5290860",
+  "name": "Thrive Plastic Feeding Tongs",
+  "description": "Thrive Plastic Feeding Tongs",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5290860",
+  "brand": {
+    "@type": "Brand",
+    "name": "Thrive"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 4.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 3.2667,
+    "reviewCount": 15
+  },
+  "keywords": [
+    "other-pet",
+    "reptile",
+    "feeders-and-food-storage",
+    "feeding-accessories",
+    "thrive-plastic-feeding-tongs-55871-html"
+  ]
+}

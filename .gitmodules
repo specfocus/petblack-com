@@ -1,0 +1,6 @@
+[submodule "products"]
+	path = products
+	url = git@github.com:specfocus/products.git
+[submodule "datasets4"]
+	path = datasets4
+	url = git@github.com:specfocus/datasets.git

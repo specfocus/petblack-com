@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5188215",
+  "name": "Clear-For-Life 20 Gallon Rectangle Aquarium",
+  "description": "Clear-For-Life 20 Gallon Rectangle Aquarium",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5188215",
+  "brand": {
+    "@type": "Brand",
+    "name": "Clear-For-Life"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 258.69,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 3,
+    "reviewCount": 2
+  },
+  "keywords": [
+    "fish-accessory",
+    "fish",
+    "tanks-aquariums-and-nets",
+    "aquariums"
+  ]
+}

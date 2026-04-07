@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5193615",
+  "name": "Pioneer Pet® Raindrop&trade; Ceramic & Stainless Steel Pet Fountain Replacement Filters - 3 Pack",
+  "description": "Pioneer Pet&reg; Raindrop&amp;trade; Ceramic &amp; Stainless Steel Pet Fountain Replacement Filters - 3 Pack",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5193615",
+  "brand": {
+    "@type": "Brand",
+    "name": "Pioneer Pet"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 8.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.4444,
+    "reviewCount": 9
+  },
+  "keywords": [
+    "dog-accessory",
+    "dog",
+    "bowls-and-feeders",
+    "automatic-feeders"
+  ]
+}

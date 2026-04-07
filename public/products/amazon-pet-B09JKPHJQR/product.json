@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B09JKPHJQR",
+  "name": "Baby Healthcare and Grooming Kit 6 PCS Hair Brush Comb Nail File Clipper Scissors Newborn Infant Shower Care Nursery Set pekdi",
+  "description": "Perfectly assorted pieces kit, including 6 pcs necessary tools for baby grooming and healthcare. No smell, non-toxic, no harm to babies.  Note: This product contains items that have sharp edges and small parts. They are not toys. Adult supervision is required. Keep out of reach of small children at all times.  Specifications: Color: Blue/ Pink (Optional) Material: ABS Item Size: Scissors: 9.8 * 5.4cm / 3.9 * 2.1in Hair Brush: 12 * 4cm / 4.7 * 1.6in Comb: 12.2 * 3.5cm / 4.8 * 1.4in Nail File: 10 * 1.2cm / 3.9 * 0.5in Nail Clipper: 8.6 * 1.5cm / 3.4 * 0.6in Package Size: 16 * 17 * 2.5cm / 6.3 * ",
+  "image": "https://m.media-amazon.com/images/I/41NzBn7JtqL._SS522_.jpg",
+  "sku": "amazon-pet-B09JKPHJQR",
+  "brand": {
+    "@type": "Brand",
+    "name": "pekdi"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 899,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "pet-grooming",
+    "pet-supplies",
+    "cats",
+    "feeding-watering-supplies",
+    "nursing-supplies"
+  ]
+}

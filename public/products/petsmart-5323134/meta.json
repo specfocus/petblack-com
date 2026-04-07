@@ -1,0 +1,12 @@
+{
+  "source": "petsmart",
+  "url": "https://www.petsmart.com/cat/food-and-treats/dry-food/blue-buffalo-wildernessandtrade--all-life-stages-dry-cat-food---grain-free-beef-69330.html",
+  "breadcrumb": "cat > food-and-treats > dry-food > blue-buffalo-wildernessandtrade--all-life-stages-dry-cat-food---grain-free-beef-69330.html",
+  "bucket": "cat-dry-food",
+  "gtin13": "0840243101764",
+  "images": {
+    "large": "https://s7d2.scene7.com/is/image/PetSmart/5323134?$sclp-prd-main_large$",
+    "medium": "https://s7d2.scene7.com/is/image/PetSmart/5323134?$sclp-prd-main_medium$",
+    "small": "https://s7d2.scene7.com/is/image/PetSmart/5323134?$sclp-prd-main_small$"
+  }
+}

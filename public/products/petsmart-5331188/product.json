@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5331188",
+  "name": "Oxbow Enriched Life Small Pet Run & Hide Exercise Wheel",
+  "description": "Oxbow Enriched Life Small Pet Run &amp; Hide Exercise Wheel",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5331188",
+  "brand": {
+    "@type": "Brand",
+    "name": "Oxbow"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 19.54,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "small-pet-accessory",
+    "small-pet",
+    "toys-and-habitat-accessories",
+    "toys"
+  ]
+}

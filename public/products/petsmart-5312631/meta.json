@@ -1,0 +1,12 @@
+{
+  "source": "petsmart",
+  "url": "https://www.petsmart.com/cat/collars-harnesses-and-leashes/collars/whisker-city-camo-easy-release-kitten-and-cat-collar-65572.html",
+  "breadcrumb": "cat > collars-harnesses-and-leashes > collars > whisker-city-camo-easy-release-kitten-and-cat-collar-65572.html",
+  "bucket": "cat-accessory",
+  "gtin13": "0737257947979",
+  "images": {
+    "large": "https://s7d2.scene7.com/is/image/PetSmart/5312631?$sclp-prd-main_large$",
+    "medium": "https://s7d2.scene7.com/is/image/PetSmart/5312631?$sclp-prd-main_medium$",
+    "small": "https://s7d2.scene7.com/is/image/PetSmart/5312631?$sclp-prd-main_small$"
+  }
+}

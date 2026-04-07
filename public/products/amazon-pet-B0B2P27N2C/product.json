@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B0B2P27N2C",
+  "name": "Meri Shop Cat Wagging Fish Realistic Plush Toy Simulation Catnip Gift Style_B",
+  "description": "Description:Made of PP cotton and short plush, it's soft and will not do harm to cats paws.The simulation fish toy looks like real fish, it will make a lot of fun between you and your cat.Stuffed with catmint that can make your cat excited and relieve your cat's mood and stress, a good choice for your pet.This vivid fish toy will bring your cat a lot of pleasure and feel less lonely when you are not at home.Good choice for pet owners and can enhance the relationship between you and your pet.Specification:Item Type: Pet ToyMaterial: Cotton + Plush + CatmintLength: approx.20cm/7.87 inchPackage I",
+  "image": "https://m.media-amazon.com/images/I/315az+OFRhL._SS522_.jpg",
+  "sku": "amazon-pet-B0B2P27N2C",
+  "brand": {
+    "@type": "Brand",
+    "name": "Generic"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "cat-toy",
+    "pet-supplies",
+    "cats",
+    "toys",
+    "catnip-toys"
+  ]
+}

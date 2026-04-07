@@ -1,0 +1,12 @@
+{
+  "source": "petsmart",
+  "url": "https://www.petsmart.com/dog/toys/plush-toys/top-paw-americana-bone-dog-toy---plush-squeaker-70678.html",
+  "breadcrumb": "dog > toys > plush-toys > top-paw-americana-bone-dog-toy---plush-squeaker-70678.html",
+  "bucket": "dog-toy",
+  "gtin13": "0737257990401",
+  "images": {
+    "large": "https://s7d2.scene7.com/is/image/PetSmart/5327517?$sclp-prd-main_large$",
+    "medium": "https://s7d2.scene7.com/is/image/PetSmart/5327517?$sclp-prd-main_medium$",
+    "small": "https://s7d2.scene7.com/is/image/PetSmart/5327517?$sclp-prd-main_small$"
+  }
+}

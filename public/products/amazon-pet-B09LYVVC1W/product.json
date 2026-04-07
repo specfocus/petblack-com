@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B09LYVVC1W",
+  "name": "Pet Bird Bath Rod, Multifunction Parrots Standing Rod, 3Pcs Suction Cups Stable for Window Bathroom",
+  "description": "Feature:1. PVC material, scratch and bite resistant, can used for a long time.2. Can used on window, natural sunlight essential for birds fitness, can also used in bathroom, can better for bird enjoy shower time.3. Three heavy suction cup present triangular designed, firm shape, suction cup can attached firmly to shower cubicle wall or window.4. Portable and widely used, easy to disassemble and change place of use at any time.5. Can used for temporary station stand, play interactive stand, bathing sun stand.Specification:Condition: 100% Brand NewItem Type: Parrots Standing RodMaterial: PVCColo",
+  "image": "https://m.media-amazon.com/images/I/31k+2drJtiL._SS522_.jpg",
+  "sku": "amazon-pet-B09LYVVC1W",
+  "brand": {
+    "@type": "Brand",
+    "name": "Socialme"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 1.154,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "bird-toy",
+    "pet-supplies",
+    "birds",
+    "food"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5325091",
+  "name": "Pendleton Zion National Park Adventure Dog Leash; 6-ft long",
+  "description": "Pendleton Zion National Park Adventure Dog Leash; 6-ft long",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5325091",
+  "brand": {
+    "@type": "Brand",
+    "name": "Pendleton"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 45.5,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "dog-accessory",
+    "dog",
+    "collars-harnesses-and-leashes",
+    "leashes"
+  ]
+}

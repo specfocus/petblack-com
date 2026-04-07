@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5317382",
+  "name": "Glycopyrrolate 2 mg - Single Tablet",
+  "description": "Glycopyrrolate 2 mg - Single Tablet",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5317382",
+  "brand": {
+    "@type": "Brand",
+    "name": "Baxter"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 0.2,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "dog-health",
+    "pharmacy",
+    "dog",
+    "digestive-tract-liver-and-pancreas"
+  ]
+}

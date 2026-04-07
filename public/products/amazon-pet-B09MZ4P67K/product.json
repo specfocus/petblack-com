@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B09MZ4P67K",
+  "name": "Trixie| Cat Treat & Collar |Temptation Flavors Available with Multi-Packs (Salmon Rings, Snapper Jerky Strips & Tuna Jerky and Collar, Elastic, Nylon with Bell)",
+  "description": "Trixie| Cat Treat & Collar |Temptation Flavors Available with Multi-Packs ( Salmon Rings, Snapper Jerky Strips & Tuna Jerky and Collar, Elastic, Nylon with Bell ) and best treat to train your pet easily. Trixie Cat Collar Elastic Nylon with be safety is important, particularly for free-roaming cats. Provide your four-legged friend e.g. with an address tag or collars with address flaps so that you as the owner can be contacted should your cat get lost. If your pelt-nose has hurt herself, we offer a well-equipped first aid kit for immediate help as well as self-adhesive bandages or a protective ",
+  "image": "https://m.media-amazon.com/images/I/41fLQfWDabL._SS522_.jpg",
+  "sku": "amazon-pet-B09MZ4P67K",
+  "brand": {
+    "@type": "Brand",
+    "name": "Visit the TRIXIE Store"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 240,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "cat-treat",
+    "pet-supplies",
+    "cats",
+    "treats",
+    "snacks"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B0B6W5K1G9",
+  "name": "InLeague Cat Kitten Toothbrush Catnip Molar Stick Teeth Cleaner Toy Bear (64033676IL)",
+  "description": "Description:The cat catnip toys are made of plush cotton material, filled with PP cotton and catnip, which are non-toxic and safe for cats chewing.Relieve stress anxiety and boredom. The catnip toys are suitable for cats to play indoor and outdoor; relieves separation anxiety and boredom.Encourages your cats to stalk, hunt, bat and kick, increase the your cat exercise and stay healthy.Breathable fabric allow your cat smell the catnip easily and be more interested in playing with them.Smal size for cats dogs to play, scratch, chew and portable.Specification:Size:Bear: 10.6x5.1cm/4.2x2inchCrocod",
+  "image": "https://m.media-amazon.com/images/I/41CtAVV9feL._SS522_.jpg",
+  "sku": "amazon-pet-B0B6W5K1G9",
+  "brand": {
+    "@type": "Brand",
+    "name": "Generic"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 515,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "keywords": [
+    "cat-treat",
+    "pet-supplies",
+    "cats",
+    "toys",
+    "catnip-toys"
+  ]
+}

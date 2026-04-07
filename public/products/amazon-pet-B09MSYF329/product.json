@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B09MSYF329",
+  "name": "Exercise Good Mute Effect Hamster Wheel, Hamster Running Wheel, Washable for Hedgehogs for Rats",
+  "description": "The bracket less running wheel can be mounted on a wire cage or an acrylic cage for easy installation.the durability that lasts for years and rotating speed stability. And the circular edge set will make it more secure, sturdy.     Features:  1.The aerodynamic design reduces wind resistance, enabling wheels to rotate more smoothly.  2.Made of Clear plastic; Bearing is of good mute effect and durable in service life.  3.Whole-body washable, increase pets exercise frequency to keep healthy.  4.Strengthen pet exercise, play with pets to ease boredom.  5.Translucent material for easy viewing of pe",
+  "image": "https://m.media-amazon.com/images/I/41EkkhEe-3L._SS522_.jpg",
+  "sku": "amazon-pet-B09MSYF329",
+  "brand": {
+    "@type": "Brand",
+    "name": "Hoseten"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 868,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "small-pet-toy",
+    "pet-supplies",
+    "small-animals",
+    "houses-habitats",
+    "cages"
+  ]
+}

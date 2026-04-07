@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5325124",
+  "name": "Aqua Natural Aquarium Gravel - Midnight Pearl",
+  "description": "Aqua Natural Aquarium Gravel - Midnight Pearl",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5325124",
+  "brand": {
+    "@type": "Brand",
+    "name": "Aqua Natural"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 24.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 5,
+    "reviewCount": 1
+  },
+  "keywords": [
+    "fish-accessory",
+    "fish",
+    "decor-gravel-and-substrate",
+    "gravel-sand-and-stones"
+  ]
+}

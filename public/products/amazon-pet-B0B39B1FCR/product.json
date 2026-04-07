@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B0B39B1FCR",
+  "name": "Pet Believe Durable Plastic Rectangle Holes Litter Scooper for Cat/Kitten (Color May Vary)",
+  "description": "The cat litter needs to be cleaned on regular basis. If not cleaned on regular basis it can cause odor within the house and is unhygienic for your cat as well. You can clean the litter tray and box efficiently with this litter scooper. This scooper has been shaped in a way to ensure maximum cleaning in the least amount of time. This litter scooper is made of durable high grade plastic and can be cleaned easily. There are many products, which come with a scooper as well. A litter box is quintessential if you have a cat in your home. Most of the house cats do not go out if they need to soil. The",
+  "image": "https://m.media-amazon.com/images/I/317p3w4POBL._SS522_.jpg",
+  "sku": "amazon-pet-B0B39B1FCR",
+  "brand": {
+    "@type": "Brand",
+    "name": "Pet Believe"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 185,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "cat-accessory",
+    "pet-supplies",
+    "cats",
+    "litter-housebreaking",
+    "litter-scoops"
+  ]
+}

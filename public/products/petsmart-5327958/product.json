@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5327958",
+  "name": "Science Selective Naturals Country Loops",
+  "description": "Science Selective Naturals Country Loops",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5327958",
+  "brand": {
+    "@type": "Brand",
+    "name": "Science Selective"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 4.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "other-pet",
+    "small-pet",
+    "food-treats-and-hay",
+    "treats"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B0B292CGTV",
+  "name": "Combo Pack of Nighttime Cuddle Toy, 18 cm with Tuna Jerky Strips, 105g",
+  "description": "Combo Pack of Nighttime Cuddle Toy, 18 cm with Kittos Tuna Jerky Strips, 105g- Kitty keeping you up at night with noisy toys and play? We’ve got the solution! Nighttime Cuddle Toy by Petstages is a fun, glow-in-the-dark toy that your cat can play with at any hour without waking you up. Ultra-soft fur is fun to snuggle with as well as play. Best of all, it contains catnip to keep kitty’s interest. The Nighttime Cuddle Toy by Petstages is a comforting and playful cat toy that your kitty can play with at any hour without waking you up. Made from ultra-soft faux fur and catnip to keep your kitty i",
+  "image": "https://m.media-amazon.com/images/I/31UhV+LOy0L._SS522_.jpg",
+  "sku": "amazon-pet-B0B292CGTV",
+  "brand": {
+    "@type": "Brand",
+    "name": "Petstages"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 870,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "cat-toy",
+    "pet-supplies",
+    "cats",
+    "treats",
+    "snacks"
+  ]
+}

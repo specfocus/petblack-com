@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B0B2938VJD",
+  "name": "Meri Shopp Small Animals Hamster Mice Mouse House Nest Cute Toy Pet Supplies Green",
+  "description": "Description:100% brand new with great qualityEco-friendly wood material, non-toxic and non-irritating odor, smooth surface, detachable, and can be completely washed.Unique shape, house shape like, the best enjoyment for your small petFitting for Guinea pig, dragon cat, baby rabbit and other small petA good gift for small pet.Specification:Material: wood+PVCSize(LxWxH): Approx. 24x13.5x17cm/9.45x5.31x6.69inchPackage Includes:1 Piece Pet Toy HouseNote:Due to the manual measurement, there is a slight difference between the size from the above and the actual item.Because of the displaying and ligh",
+  "image": "https://m.media-amazon.com/images/I/31EEhG-NLsL._SS522_.jpg",
+  "sku": "amazon-pet-B0B2938VJD",
+  "brand": {
+    "@type": "Brand",
+    "name": "Generic"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "cat-toy",
+    "pet-supplies",
+    "small-animals",
+    "houses-habitats",
+    "beds"
+  ]
+}

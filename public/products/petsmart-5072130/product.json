@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5072130",
+  "name": "Hill's® Prescription Diet® i/d Digestive Care Cat Food - Chicken",
+  "description": "Hill's&reg; Prescription Diet&reg; i/d Digestive Care Cat Food - Chicken",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5072130",
+  "brand": {
+    "@type": "Brand",
+    "name": "Hill's Prescription Diet"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 2.59,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.119,
+    "reviewCount": 126
+  },
+  "keywords": [
+    "cat-health",
+    "cat",
+    "food-and-treats",
+    "veterinary-diets"
+  ]
+}

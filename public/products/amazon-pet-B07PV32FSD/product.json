@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B07PV32FSD",
+  "name": "Buckle-Down Cat Collar Breakaway Thor Loki Poses Retro Comic Books Stacked 8 to 12 Inches 0.5 Inch Wide",
+  "description": "Breakaway cat collar fits 8-12\" neck size and is 1/2 inch wide | This cat collar features beautiful, original artwork and durable components | The collar is made from high-density polyester and a plastic clip which is over engineered in thickness, ensuring it will hold up to whatever your pet can dish out | This product is handcrafted in the USA by Buckle-Down and is officially licensed by Marvel Comics | Matching leads/leashes available",
+  "image": "https://m.media-amazon.com/images/I/51q1dqJQlxL._SS522_.jpg",
+  "sku": "amazon-pet-B07PV32FSD",
+  "brand": {
+    "@type": "Brand",
+    "name": "Buckle-Down"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 7.266,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "keywords": [
+    "cat-accessory",
+    "pet-supplies",
+    "cats",
+    "collars-harnesses-leashes",
+    "collars"
+  ]
+}

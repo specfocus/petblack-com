@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5265493",
+  "name": "Whisker City® Reflective Stripe Cat Collar",
+  "description": "Whisker City&reg; Reflective Stripe Cat Collar",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5265493",
+  "brand": {
+    "@type": "Brand",
+    "name": "Whisker City"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 5.07,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 3.3077,
+    "reviewCount": 13
+  },
+  "keywords": [
+    "cat-accessory",
+    "cat",
+    "collars-harnesses-and-leashes",
+    "collars"
+  ]
+}

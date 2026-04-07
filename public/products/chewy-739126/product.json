@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-739126",
+  "name": "Solid Gold Nature's Harmony Chicken & Tuna Recipe in Gravy Grain-Free Wet Cat Food, 2.8-oz can, case of 12, 2 count",
+  "description": "Keep your kitty’s tummy in purr-fect harmony with Solid Gold Nature's Harmony Chicken & Tuna Recipe in Gravy Grain-Free Wet Cat Food. This tasty entree is great for cats with sensitive stomachs. Each bite is packed with chicken broth, lean chicken shreds, tuna and a savory gravy that helps hydrate your favorite feline. The nutrient-rich recipe is low on calories without sacrificing the whisker-licking flavor cats love. Plus, it’s great for cats of all ages! Serve it alone or as a tasty topper with your cat’s favorite kibble.",
+  "image": "https://image.chewy.com/is/image/catalog/739126_MAIN._AC_SS500_V1670943523_.jpg",
+  "sku": "chewy-739126",
+  "brand": {
+    "@type": "Brand",
+    "name": "Solid Gold"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 45.36,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "cat-dry-food",
+    "cat",
+    "food",
+    "wet-food"
+  ]
+}

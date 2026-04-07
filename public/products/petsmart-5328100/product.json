@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5328100",
+  "name": "Top Paw® Green Backpack",
+  "description": "Top Paw&reg; Green Backpack",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5328100",
+  "brand": {
+    "@type": "Brand",
+    "name": "Top Paw"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 12.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "dog-accessory",
+    "dog",
+    "clothing-and-shoes",
+    "bandanas-bows-and-hats",
+    "top-paw-green-backpack-70879-html"
+  ]
+}

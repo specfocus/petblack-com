@@ -1,0 +1,12 @@
+{
+  "source": "petsmart",
+  "url": "https://www.petsmart.com/cat/food-and-treats/treats/delectables-savory-broths-senior-lickable-cat-treat---chicken-and-tuna-68786.html",
+  "breadcrumb": "cat > food-and-treats > treats > delectables-savory-broths-senior-lickable-cat-treat---chicken-and-tuna-68786.html",
+  "bucket": "cat-treat",
+  "gtin13": "0032700120153",
+  "images": {
+    "large": "https://s7d2.scene7.com/is/image/PetSmart/5322882?$sclp-prd-main_large$",
+    "medium": "https://s7d2.scene7.com/is/image/PetSmart/5322882?$sclp-prd-main_medium$",
+    "small": "https://s7d2.scene7.com/is/image/PetSmart/5322882?$sclp-prd-main_small$"
+  }
+}

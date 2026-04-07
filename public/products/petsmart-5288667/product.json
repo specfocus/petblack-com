@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5288667",
+  "name": "Merrick® Fresh Kisses&trade; Double-Brush Large Dental Dog Treat - 1 Count",
+  "description": "Merrick&reg; Fresh Kisses&amp;trade; Double-Brush Large Dental Dog Treat - 1 Count",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5288667",
+  "brand": {
+    "@type": "Brand",
+    "name": "Merrick"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 3.5,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.0625,
+    "reviewCount": 16
+  },
+  "keywords": [
+    "dog-health",
+    "dog",
+    "treats",
+    "dental-treats"
+  ]
+}

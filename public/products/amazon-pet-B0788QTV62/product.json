@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B0788QTV62",
+  "name": "CLOVERPET C0203 Innovative Fashion Bubble Pet Travel Carrier Backpack for Cats Dogs Puppy, Yellow, 13.4\" LX13 WX16.9 H",
+  "description": "Besides all the functions of the regular PET carriers, clover pet's patent pending revolutionary semi-sphere window design | Mobile pet bed, in-cabin airplane carrier, and car seat all in one(please check airline restrictions before purchase). adjustable backpack straps and carrying handle make our carrier easy to attach to a seatbelt. | Built-in security leash, mesh panels & ventilation holes, soft washable pad, top & side entries for maximum accessibility | Inside Dimensions11. 4\"Lx11\"wx15\"h. Outside dimensions13. 4\"Lx13\"wx16. 9\"H. Diameter of semisphere: 6. 8\". | Carrier weight: 6. 2 pounds",
+  "image": "https://m.media-amazon.com/images/I/41d084tnxLL._SS522_.jpg",
+  "sku": "amazon-pet-B0788QTV62",
+  "brand": {
+    "@type": "Brand",
+    "name": "CLOVERPET"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 945,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "dog-accessory",
+    "pet-supplies",
+    "dogs",
+    "carriers-travel-products",
+    "backpacks"
+  ]
+}

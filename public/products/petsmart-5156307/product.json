@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5156307",
+  "name": "KAYTEE® Fiesta Yogurt Cup Small Animal Treats",
+  "description": "KAYTEE&reg; Fiesta Yogurt Cup Small Animal Treats",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5156307",
+  "brand": {
+    "@type": "Brand",
+    "name": "Kaytee"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 8.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.6364,
+    "reviewCount": 11
+  },
+  "keywords": [
+    "small-pet-food",
+    "small-pet",
+    "food-treats-and-hay",
+    "treats"
+  ]
+}

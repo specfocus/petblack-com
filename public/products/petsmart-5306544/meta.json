@@ -1,0 +1,12 @@
+{
+  "source": "petsmart",
+  "url": "https://www.petsmart.com/dog/food/dry-food/merrick-healthy-grains-healthy-weight-adult-dry-dog-food---chicken-carrageenan-free-corn-free-61679.html",
+  "breadcrumb": "dog > food > dry-food > merrick-healthy-grains-healthy-weight-adult-dry-dog-food---chicken-carrageenan-free-corn-free-61679.html",
+  "bucket": "dog-dry-food",
+  "gtin13": "0022808320043",
+  "images": {
+    "large": "https://s7d2.scene7.com/is/image/PetSmart/5306544?$sclp-prd-main_large$",
+    "medium": "https://s7d2.scene7.com/is/image/PetSmart/5306544?$sclp-prd-main_medium$",
+    "small": "https://s7d2.scene7.com/is/image/PetSmart/5306544?$sclp-prd-main_small$"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B08GPRHBDH",
+  "name": "Hamiledyi 15 Pack Woven Bed Mat for Rabbits - Grass Mat & Bunny Bedding Nest - Natural Chew Toy Bed for Guinea Pig Chinchilla Squirrel Hamster Cat Dog and Small Animal",
+  "description": "15 Pack Woven Bed Mat for RabbitsWoven Bed MatGrass Mat & Bunny Bedding NestHamiledyi grass mat was made of 100% natural hand woven grass. This bunny bedding nest is perfect for small animals which can provide utmost comfort to them. They can also be multiable-use. You can use it as a bedding or an chewable toy. You can rest assured that pet bites because they are natural handmade mats. A good grass mat choice for rabbits, guinea pig, birds & mummy dogs or cats.Specification:Qty: 15 packColor: NaturalDimension: 11 × 8-1/2 inches.Material: Grass",
+  "image": "https://m.media-amazon.com/images/I/61YnP1L92PL._SS522_.jpg",
+  "sku": "amazon-pet-B08GPRHBDH",
+  "brand": {
+    "@type": "Brand",
+    "name": "Hamiledyi"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 399,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "dog-treat",
+    "pet-supplies",
+    "small-animals",
+    "houses-habitats",
+    "bedding-litter"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5178643",
+  "name": "Wellness® CORE® Kitten Food - Natural, Grain Free",
+  "description": "Wellness&reg; CORE&reg; Kitten Food - Natural, Grain Free",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5178643",
+  "brand": {
+    "@type": "Brand",
+    "name": "Wellness"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 3.19,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.4275,
+    "reviewCount": 131
+  },
+  "keywords": [
+    "cat-wet-food",
+    "cat",
+    "food-and-treats",
+    "wet-food"
+  ]
+}

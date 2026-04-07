@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5311702",
+  "name": "BarkYard Bad Spot - Tall Fescue Mix - Mulch, Seed, Fertilizer - 3.75 lb",
+  "description": "BarkYard Bad Spot - Tall Fescue Mix - Mulch, Seed, Fertilizer - 3.75 lb",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5311702",
+  "brand": {
+    "@type": "Brand",
+    "name": "BarkYard"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 19.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "dog-accessory",
+    "dog",
+    "cleaning-supplies",
+    "waste-disposal"
+  ]
+}

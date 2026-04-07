@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B0B6ZSRLT6",
+  "name": "Maxbell Pet Dog Bling Collar Cat Puppy Safety Collar Neck Strap Football Pendant White M",
+  "description": "Description:Brand new and Good Quality.Fashionable and personalized designed for your pet, making your pets more attractive and cool.Dog Necklace makes of Alloy, Crystal ,your pet looks very awesome in it.Elastic safety dog collar, easily to make the collar fit your dog size.A great gift for your lovely pet.Specification:Material:Aluminium alloy+RhinestoneColor:White/Blue/PinkSize M(LxW): Approx. 28X1cm / 11.02x0.39inch,Diamond Chain Length:Approx.19cm/7.48inch,Football Diameter:Approx.1.8cm/0.71inchSize L(LxW): Approx. 33X1cm / 12.99x0.39inch,Diamond Chain Length:Approx.24.5cm/9.65inch,Footba",
+  "image": "https://m.media-amazon.com/images/I/41E0ixfBaAL._SS522_.jpg",
+  "sku": "amazon-pet-B0B6ZSRLT6",
+  "brand": {
+    "@type": "Brand",
+    "name": "Maxbell"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 766,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "keywords": [
+    "dog-accessory",
+    "pet-supplies",
+    "cats",
+    "collars-harnesses-leashes",
+    "collars"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5177228",
+  "name": "Nature's Recipe Dry Dog Food Adult - Chicken, Sweet Potato, Pumpkin",
+  "description": "Nature's Recipe Dry Dog Food Adult - Chicken, Sweet Potato, Pumpkin",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5177228",
+  "brand": {
+    "@type": "Brand",
+    "name": "Nature's Recipe"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 10.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.5814,
+    "reviewCount": 86
+  },
+  "keywords": [
+    "dog-dry-food",
+    "dog",
+    "food",
+    "dry-food"
+  ]
+}

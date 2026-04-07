@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B09PBYSPYD",
+  "name": "GENERIC Bow Pets Birds Playing Toy",
+  "description": "bird toys are suitable for all breeds of parakeet and parrots; Funny interactive toy, best tool to kill a birds boredom and keep them busy | EASY TO INSTALL: Each perch is fully outfitted with a metal wing nut and a built-in bolt.Fasten easily onto the cage with the screw and disc system. Can be mounted on the inside or outside of the cage for extra living and landing space. | Easy to Use | BEST QUALITY",
+  "image": "https://m.media-amazon.com/images/I/416ZxkNuoaL._SS522_.jpg",
+  "sku": "amazon-pet-B09PBYSPYD",
+  "brand": {
+    "@type": "Brand",
+    "name": "Generic"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 750,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "keywords": [
+    "bird-toy",
+    "pet-supplies",
+    "birds",
+    "toys"
+  ]
+}

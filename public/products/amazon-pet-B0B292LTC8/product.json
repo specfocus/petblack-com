@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B0B292LTC8",
+  "name": "Meri Shopp Clear Acrylic Bird Feeder Food Box Anti-Scatter Parrot Feeder Triangular",
+  "description": "Description:Acrylic Bird Feeder Food Box Anti-scatter Parrot Feeder with StandSemi-closed food box, one-side open, easy to add food, leakproof and splash proof.Outdoor hanging bird food box, waterproof design, easy to add grain, simple and delicate.Stainless steel metal chain for easy hanging, suitable for gardens, balconies, fences and other outdoor places.Triangle Size(LxWxH): approx. 12.5x7.5x12.5cm/4.92x2.95x4.92inch, opening mouth(DxH): approx. 6.3x6cm/2.48x2.36inchPackage Includes:1 Piece Acrylic Bird FeederNote:Due to the light and screen setting difference, the item's color may be slig",
+  "image": "https://m.media-amazon.com/images/I/31hI74mX6dL._SS522_.jpg",
+  "sku": "amazon-pet-B0B292LTC8",
+  "brand": {
+    "@type": "Brand",
+    "name": "Generic"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "bird-toy",
+    "pet-supplies",
+    "birds",
+    "feeding-watering-supplies"
+  ]
+}

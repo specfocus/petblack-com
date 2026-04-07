@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-4033115",
+  "name": "Moneywort",
+  "description": "Moneywort",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-4033115",
+  "brand": {
+    "@type": "Brand",
+    "name": "PetSmart"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 4.29,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 3.5385,
+    "reviewCount": 13
+  },
+  "keywords": [
+    "fish-accessory",
+    "fish",
+    "decor-gravel-and-substrate",
+    "live-plants",
+    "moneywort-15146-html"
+  ]
+}

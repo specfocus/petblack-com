@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-286322",
+  "name": "Quick-Tag Star Wars The Mandalorian's The Child Baby Yoda Military Personalized Dog & Cat ID Tag",
+  "description": "If your pet is the Grogu to your Mando, the Quick-Tag Star Wars The Mandalorian's The Child Baby Yoda Military Personalized Dog & Cat ID Tag is a must! This super sturdy tag is made out of brass and painted with a fun design. It’s the paw-fect size to hold all of your pal’s important information like medical conditions, addresses, and phone numbers. To top it off, the customizable side features permanent, clear laser engraving, helping it endure tons of wear and tear. For a collar charm that’s as cute as your BFF, this tag is your best bet!",
+  "image": "https://image.chewy.com/is/image/catalog/286322_MAIN._AC_SS500_V1619217117_.jpg",
+  "sku": "chewy-286322",
+  "brand": {
+    "@type": "Brand",
+    "name": "Quick-Tag"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 19.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 3.6667,
+    "reviewCount": 3
+  },
+  "keywords": [
+    "dog-accessory",
+    "cat",
+    "leashes-collars-harnesses",
+    "id-tags-accessories"
+  ]
+}

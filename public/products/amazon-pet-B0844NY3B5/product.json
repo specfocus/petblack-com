@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B0844NY3B5",
+  "name": "Voyager Step-in Lock Cat Harness - Adjustable Step-in Vest Harness for Small and Large Cats - Turquoise (Matching Trim) , XXXS (Chest: 9 - 13\" * Fit Cats), Model Number: 217-TQW-XXXS",
+  "description": "FITS MOST CATS Whether you have a small cat or a large cat we have the size to match PLEASE NOTE Sizing does NOT correspond to your pet’s breed size or weight MEASURE your pet and refer to our sizing chart to find the best fit before ordering | DESIGNED FOR CATS Featuring a wider shape and a specially rounded neckline the Voyager Step-In Lock Cat Harness creates a snug fit to keep your kitty from wiggling out | EASY STEP-IN DESIGN Stop struggling with pulling harnesses over your cat’s head and try our step-in styles for a change Just step in fasten clip and go. | FULLY ADJUSTABLE Create a cust",
+  "image": "https://m.media-amazon.com/images/I/51zMudaddyL._SS522_.jpg",
+  "sku": "amazon-pet-B0844NY3B5",
+  "brand": {
+    "@type": "Brand",
+    "name": "Best Pet Supplies"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 377,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "cat-accessory",
+    "pet-supplies",
+    "cats",
+    "collars-harnesses-leashes",
+    "harnesses"
+  ]
+}

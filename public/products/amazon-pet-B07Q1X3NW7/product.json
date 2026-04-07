@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B07Q1X3NW7",
+  "name": "FinYii No-Mess Automatic Bird Feeder - Parrot Feeder Cage Accessories Supplies for Parakeet Canary Cockatiel Finch",
+  "description": "This bird feeder is perfect and keeps the inside of the cage much cleaner and gets rid of a lot of the mess that used to be in the cage. Best bird cage feeder for all small birds such as parakeets, Lovebirds, Cockatiels, Canaries, small conures, and similarly sized birds.",
+  "image": "https://m.media-amazon.com/images/I/51K0Ns0YwCL._SS522_.jpg",
+  "sku": "amazon-pet-B07Q1X3NW7",
+  "brand": {
+    "@type": "Brand",
+    "name": "FinYii"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 450,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "bird-toy",
+    "pet-supplies",
+    "birds",
+    "feeding-watering-supplies"
+  ]
+}

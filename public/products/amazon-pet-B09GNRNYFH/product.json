@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B09GNRNYFH",
+  "name": "Trendy Retail Pet Birds Cage Hanging Bathtub Birds Parrots Bathroom Cage Box Toy White-A",
+  "description": "Description:Non-toxic,durable,easy and convenient to install.Transparent PVC material, convenient to watch.The bird bathtub with hook,you can install it on any cage .The difference betweern A and B: A Bathtub doesn't have water inlet, B Bathtub has water inlet.Suitable for bird, parrot, canary, magpie, nightingale, cowbird, parakeets, cockatiels, conures, finches,budgie,macaws, parrots, lovebirds etc.Material: PVC; Size: Approx.126x148x130mm/4.96x5.83x5.12inchPackage Includes:1 Piece Bird BathtubNote:Since the size above is measured by hand, the size of the actual item you received could be sl",
+  "image": "https://m.media-amazon.com/images/I/31jBwfkQ7VL._SS522_.jpg",
+  "sku": "amazon-pet-B09GNRNYFH",
+  "brand": {
+    "@type": "Brand",
+    "name": "Trendy Retail"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 2.491,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "keywords": [
+    "bird-toy",
+    "pet-supplies",
+    "birds",
+    "toys"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5153301",
+  "name": "PetSafe® Healthy Pet Water Station",
+  "description": "PetSafe&reg; Healthy Pet Water Station",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5153301",
+  "brand": {
+    "@type": "Brand",
+    "name": "PetSafe"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 42.95,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.0392,
+    "reviewCount": 51
+  },
+  "keywords": [
+    "dog-accessory",
+    "dog",
+    "bowls-and-feeders",
+    "automatic-feeders"
+  ]
+}

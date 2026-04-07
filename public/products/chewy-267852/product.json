@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-267852",
+  "name": "Marvel 's Halloween Hulk Plush with Rope Squeaky Dog Toy",
+  "description": "This Halloween, bring out this Hulk toy for a smashing good time! Playtime is no match for your dog with the Halloween Hulk Plush with Rope Squeaky Dog Toy, available only at Chewy. Your pup will love playing fetch with their favorite Marvel character, and it even features a fun Halloween addition with two ghosts in the Hulk’s hands. The rope toys add an exciting element that your dog will flip for, plus it has built-in squeakers and crinkle paper to encourage your pup to engage in an epic play session.",
+  "image": "https://image.chewy.com/is/image/catalog/267852_MAIN._AC_SS500_V1623189171_.jpg",
+  "sku": "chewy-267852",
+  "brand": {
+    "@type": "Brand",
+    "name": "Marvel"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 10.78,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.5,
+    "reviewCount": 4
+  },
+  "keywords": [
+    "dog-toy",
+    "dog",
+    "toys",
+    "rope-tug-toys"
+  ]
+}

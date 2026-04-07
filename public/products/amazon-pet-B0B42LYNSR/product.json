@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B0B42LYNSR",
+  "name": "Aswadh Plastic Parrot Stand Stick Perch Bird Cage Accessories Parrot Bath Shower",
+  "description": "Description:Four suction cups, double standing bars, parrot bathing shower rack, the standing bars are frosted, and the grip is firm and washable. It can also be used as a parrot stand at ordinary times.Specially design for your parrots,easy use and to install on the wall or windows.Heavy duty suction cups allow to adhere securely to the shower wall.Also Can be used on a window, to provide natural sunlight that is essential for your birds health.Suitable for finches, parrot, macaw, African greys, cockatoo, parakeet, cockatiel, lovebirds and similarly small sized birds.Specification:Material: P",
+  "image": "https://m.media-amazon.com/images/I/31EqwXT9-SL._SS522_.jpg",
+  "sku": "amazon-pet-B0B42LYNSR",
+  "brand": {
+    "@type": "Brand",
+    "name": "Generic"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 2.277,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "keywords": [
+    "bird-toy",
+    "pet-supplies",
+    "birds",
+    "birdcage-accessories",
+    "perches"
+  ]
+}

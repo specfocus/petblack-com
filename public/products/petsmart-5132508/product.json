@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5132508",
+  "name": "High Tech Pet® RX-10 Rechargeable Ultra Fence Collar",
+  "description": "High Tech Pet&reg; RX-10 Rechargeable Ultra Fence Collar",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5132508",
+  "brand": {
+    "@type": "Brand",
+    "name": "High Tech Pet"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 89.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.25,
+    "reviewCount": 4
+  },
+  "keywords": [
+    "dog-accessory",
+    "dog",
+    "crates-gates-and-containment",
+    "fence-systems"
+  ]
+}

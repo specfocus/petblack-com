@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-254177",
+  "name": "MyZoo Solar Wall Mounted Cat Shelf",
+  "description": "Give the light of your life a worthy perch with the MyZoo Solar Wall Mounted Cat Shelf. This sun-shaped shelf provides a comfortably curved perching spot that lets your kitty sit up high like the sun in the sky. The slotted platform gives a good grip for walking or jumping and makes a purr-fect spot for taking a nap. Use it alone or with other wall-mounted cat perches to create a space-saving vertical play and lounge space for your best friend!",
+  "image": "https://image.chewy.com/is/image/catalog/254177_MAIN._AC_SS500_V1602683197_.jpg",
+  "sku": "chewy-254177",
+  "brand": {
+    "@type": "Brand",
+    "name": "MyZoo"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 374.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 2,
+    "reviewCount": 1
+  },
+  "keywords": [
+    "cat-toy",
+    "cat",
+    "trees-condos-scratchers",
+    "wall-shelves"
+  ]
+}

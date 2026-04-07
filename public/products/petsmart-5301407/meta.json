@@ -1,0 +1,12 @@
+{
+  "source": "petsmart",
+  "url": "https://www.petsmart.com/dog/food/dry-food/only-natural-pet-powergrains-adult-dry-dog-food---poultry-feast-with-grain-chicken-64004.html",
+  "breadcrumb": "dog > food > dry-food > only-natural-pet-powergrains-adult-dry-dog-food---poultry-feast-with-grain-chicken-64004.html",
+  "bucket": "dog-dry-food",
+  "gtin13": "0737257893108",
+  "images": {
+    "large": "https://s7d2.scene7.com/is/image/PetSmart/5301407?$sclp-prd-main_large$",
+    "medium": "https://s7d2.scene7.com/is/image/PetSmart/5301407?$sclp-prd-main_medium$",
+    "small": "https://s7d2.scene7.com/is/image/PetSmart/5301407?$sclp-prd-main_small$"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B0B5H6T4MJ",
+  "name": "Canine India Natural Food for Cat - Pumpkin bark + Insects",
+  "description": "A new way of feeding your pet better and saving Resources - Insect Protein! Insect Protein combines so many benefits, it's hard to get around it! Nutritionally it is a bomb - all the essential Amino Acids that our pets can not extract from plants (or processed foods) are supplied by Insect Protein. That means feeding veg but including all the meat protein is now magically possible! Feeding this also saves the environment as the water and resource requirements to farm insects is 96% lower than that of normal farming! Our Insect protein is strictly Black Soldier Fly - locally grown and used for ",
+  "image": "https://m.media-amazon.com/images/I/51ksagDQPwL._SS522_.jpg",
+  "sku": "amazon-pet-B0B5H6T4MJ",
+  "brand": {
+    "@type": "Brand",
+    "name": "CANINE INDIA"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 332,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "dog-treat",
+    "pet-supplies",
+    "cats",
+    "food",
+    "dry"
+  ]
+}

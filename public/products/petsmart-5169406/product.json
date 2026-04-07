@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5169406",
+  "name": "Tetra® Pond Tubing",
+  "description": "Tetra&reg; Pond Tubing",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5169406",
+  "brand": {
+    "@type": "Brand",
+    "name": "Tetra"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 12.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 1.3333,
+    "reviewCount": 3
+  },
+  "keywords": [
+    "fish-food",
+    "fish",
+    "food-and-care",
+    "pond-care",
+    "tetra-pond-tubing-16361-html"
+  ]
+}

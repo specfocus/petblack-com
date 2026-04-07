@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5291261",
+  "name": "Oxbow Enriched Life Crazy Hay Ball Small Pet Chew",
+  "description": "Oxbow Enriched Life Crazy Hay Ball Small Pet Chew",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5291261",
+  "brand": {
+    "@type": "Brand",
+    "name": "Oxbow"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 5.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.1111,
+    "reviewCount": 9
+  },
+  "keywords": [
+    "small-pet-food",
+    "small-pet",
+    "toys-and-habitat-accessories",
+    "toys"
+  ]
+}

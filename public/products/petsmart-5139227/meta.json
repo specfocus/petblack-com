@@ -1,0 +1,12 @@
+{
+  "source": "petsmart",
+  "url": "https://www.petsmart.com/cat/food-and-treats/dry-food/purina-pro-plan-focus--kitten-dry-cat-food---with-vitamins-high-protein-chicken-and-rice-1203.html",
+  "breadcrumb": "cat > food-and-treats > dry-food > purina-pro-plan-focus--kitten-dry-cat-food---with-vitamins-high-protein-chicken-and-rice-1203.html",
+  "bucket": "cat-dry-food",
+  "gtin13": "0038100131706",
+  "images": {
+    "large": "https://s7d2.scene7.com/is/image/PetSmart/5139227?$sclp-prd-main_large$",
+    "medium": "https://s7d2.scene7.com/is/image/PetSmart/5139227?$sclp-prd-main_medium$",
+    "small": "https://s7d2.scene7.com/is/image/PetSmart/5139227?$sclp-prd-main_small$"
+  }
+}

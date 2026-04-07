@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5282141",
+  "name": "Purina® Friskies® Tasty Treasures Adult Cat Wet Food - 9.4 lb.",
+  "description": "Purina&reg; Friskies&reg; Tasty Treasures Adult Cat Wet Food - 9.4 lb.",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5282141",
+  "brand": {
+    "@type": "Brand",
+    "name": "Friskies"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 18.09,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.5172,
+    "reviewCount": 58
+  },
+  "keywords": [
+    "cat-wet-food",
+    "cat",
+    "food-and-treats",
+    "wet-food"
+  ]
+}

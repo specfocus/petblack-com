@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5278690",
+  "name": "Authority® Everyday Health Large Breed Adult Dry Dog Food - Chicken",
+  "description": "Authority&reg; Everyday Health Large Breed Adult Dry Dog Food - Chicken",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5278690",
+  "brand": {
+    "@type": "Brand",
+    "name": "Authority"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 55.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.3869,
+    "reviewCount": 137
+  },
+  "keywords": [
+    "dog-dry-food",
+    "dog",
+    "food",
+    "dry-food"
+  ]
+}

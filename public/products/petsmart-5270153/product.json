@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5270153",
+  "name": "PetSafe® Rechargeable Bark Control Collar",
+  "description": "PetSafe&reg; Rechargeable Bark Control Collar",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5270153",
+  "brand": {
+    "@type": "Brand",
+    "name": "PetSafe"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 89.95,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 3.0112,
+    "reviewCount": 89
+  },
+  "keywords": [
+    "dog-accessory",
+    "dog",
+    "training-and-behavior",
+    "bark-control"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5284734",
+  "name": "Only Natural Pet® No Marking Spray",
+  "description": "Only Natural Pet&reg; No Marking Spray",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5284734",
+  "brand": {
+    "@type": "Brand",
+    "name": "Only Natural Pet"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 14.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 2.5357,
+    "reviewCount": 56
+  },
+  "keywords": [
+    "pet-grooming",
+    "dog",
+    "cleaning-supplies",
+    "stain-and-odor-removers"
+  ]
+}

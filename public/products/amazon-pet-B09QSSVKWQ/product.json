@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B09QSSVKWQ",
+  "name": "Pets Empire Cat Litter Tray Box Top Entry Top Out to Prevent Litter Spilling for Cat Pet Plastic Toilet Tray (Color : Pink, Size : 47 * 47 * 35cm)",
+  "description": "Modern cat litter box with top entry - big entry opening, so that even larger cats have plenty of room - lid with perforations High walls of the litter box ensure that litter always stays inside the box,is a perfect way to prevent litter scatter and contain spraying Cat litter tray dimensions: 47*47*35cm. Suitable for cats under 7.5 kg Perforated lid to help remove litter particles from the cat’s paws Rounded shape and included litter scoop makes cleaning easy.",
+  "image": "https://m.media-amazon.com/images/I/31t3X-NlufL._SS522_.jpg",
+  "sku": "amazon-pet-B09QSSVKWQ",
+  "brand": {
+    "@type": "Brand",
+    "name": "Visit the PETS EMPIRE Store"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 3.183,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "cat-accessory",
+    "pet-supplies",
+    "cats",
+    "litter-housebreaking",
+    "litter-boxes"
+  ]
+}

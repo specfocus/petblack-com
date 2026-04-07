@@ -1,0 +1,12 @@
+{
+  "source": "petsmart",
+  "url": "https://www.petsmart.com/small-pet/food-treats-and-hay/treats/browns-tropical-carnival-natural-orange-slices-small-animal-treat-44544.html",
+  "breadcrumb": "small-pet > food-treats-and-hay > treats > browns-tropical-carnival-natural-orange-slices-small-animal-treat-44544.html",
+  "bucket": "small-pet-food",
+  "gtin13": "0042934449456",
+  "images": {
+    "large": "https://s7d2.scene7.com/is/image/PetSmart/5271454?$sclp-prd-main_large$",
+    "medium": "https://s7d2.scene7.com/is/image/PetSmart/5271454?$sclp-prd-main_medium$",
+    "small": "https://s7d2.scene7.com/is/image/PetSmart/5271454?$sclp-prd-main_small$"
+  }
+}

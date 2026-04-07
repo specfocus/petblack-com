@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B06X6GSTCX",
+  "name": "Pets Empire Birds Chewing Toys",
+  "description": "Connects to cage easily with quick-link attachment | Made with 100-percent pet safe, non-toxic, colors and materials | Your bird will spend hours climbing, pulling and chomping on a variety of shapes and textures",
+  "image": "https://m.media-amazon.com/images/I/41Q0N+KeKhL._SS522_.jpg",
+  "sku": "amazon-pet-B06X6GSTCX",
+  "brand": {
+    "@type": "Brand",
+    "name": "Visit the PETS EMPIRE Store"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 249,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "bird-toy",
+    "pet-supplies",
+    "birds",
+    "toys"
+  ]
+}

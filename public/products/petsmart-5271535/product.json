@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5271535",
+  "name": "Wagner's Greatest Variety Wild Bird Seed",
+  "description": "Wagner's Greatest Variety Wild Bird Seed",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5271535",
+  "brand": {
+    "@type": "Brand",
+    "name": "Wagners"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 9.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4,
+    "reviewCount": 1
+  },
+  "keywords": [
+    "bird-food",
+    "bird",
+    "wild-bird-food-and-supplies",
+    "wild-bird-food"
+  ]
+}

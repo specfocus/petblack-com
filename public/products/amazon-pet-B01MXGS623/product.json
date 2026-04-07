@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B01MXGS623",
+  "name": "Yellow Dog Design Easter Dogs Coupler Dog Leash 3/4\" Wide and 12 to 20\" Long, Medium",
+  "description": "MADE FOR ACTIVE DOGS - 100% smooth & durable polyester, these collars are built for comfort and action. Great for outdoor dogs, water dogs and service dogs. Machine washable and weather resistant | These dog collars are backed by the Yellow Dog Design. Your product is covered for 365 Days from fraying, defects, fading, and even chewing! | MADE IN THE USA - Manufactured from start to finish by Yellow Dog Design in Greensboro NC. A family owned and operated US manufacturer in business since 2000 | MATERIAL & DURABILITY - The design is actually part of the collar itself and WILL NOT come off. It'",
+  "image": "https://m.media-amazon.com/images/I/41QJNt4wJmL._SS522_.jpg",
+  "sku": "amazon-pet-B01MXGS623",
+  "brand": {
+    "@type": "Brand",
+    "name": "Yellow Dog Design"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 4.206,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "keywords": [
+    "dog-accessory",
+    "pet-supplies",
+    "cats",
+    "collars-harnesses-leashes",
+    "collars"
+  ]
+}

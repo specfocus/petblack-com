@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B09WRWH281",
+  "name": "Pups&Pets 2PCS Breakaway Bowtie Cat Collar -Cat Collar with Bell Kitten Collars with Bell Charm, Solid & Safe,( Buy 1 Get 1 Free = 2PCS )",
+  "description": "Safety Cat Collars with Breakaway Buckle and Bell Quick Release Adjustable Pet Collars for Kitten Cats Specially designed for all Kitten Cats . It is stylish and edgy.Never out of date. Equipped with breakaway buckle and safety elastic strap. Provide enough safe for your cat under any situation. Your cat will be the most popular pet, happy, healthy and stylish.",
+  "image": "https://m.media-amazon.com/images/I/51EjYtl7iUL._SS522_.jpg",
+  "sku": "amazon-pet-B09WRWH281",
+  "brand": {
+    "@type": "Brand",
+    "name": "Pups&Pets"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 199,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "cat-accessory",
+    "pet-supplies",
+    "cats",
+    "collars-harnesses-leashes",
+    "collars"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-212217",
+  "name": "Bark Bars Honey & Oats Dog Treats, 12-oz box",
+  "description": "Snack time gets silly with Honey & Oats Dog Treats shaped like cats and postmen! These lip-smacking biscuits are made in small batches from all-natural ingredients. Free of artificial flavors and preservatives, your pup is sure to love the honey and oat taste and satisfying cruuunch! Each bag of treats is made in the USA from human-grade products.",
+  "image": "https://image.chewy.com/is/image/catalog/212217_main._AC_SS500_V1575672796_.jpg",
+  "sku": "chewy-212217",
+  "brand": {
+    "@type": "Brand",
+    "name": "Bark Bars"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 6.49,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 5,
+    "reviewCount": 1
+  },
+  "keywords": [
+    "dog-treat",
+    "dog",
+    "treats",
+    "biscuits-cookies-crunchy-treats"
+  ]
+}

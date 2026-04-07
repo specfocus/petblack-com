@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B095N4JCG8",
+  "name": "Petslover Blanket for Dogs Cats, Warm Flannel Plush Pet Bed Blanket Reversible Red (XL)",
+  "description": "Make travel or naptime comfortable for your pet | Made from an ultra-soft plush material | CARE INSTRUCTIONS: Reversible dog bed throw is machine washable, soft, lightweight, yet durable | Helps keep pet hair off furniture and upholstery and is machine washable | HIGH-QUALITY MATERIAL: 100% ployester. This pet blanket is well made by ultra-soft plush materia",
+  "image": "https://m.media-amazon.com/images/I/414G98ToF-S._SS522_.jpg",
+  "sku": "amazon-pet-B095N4JCG8",
+  "brand": {
+    "@type": "Brand",
+    "name": "Visit the Petslover Store"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 999,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "dog-toy",
+    "pet-supplies",
+    "cats",
+    "beds-furniture",
+    "bedding",
+    "bed-blankets"
+  ]
+}

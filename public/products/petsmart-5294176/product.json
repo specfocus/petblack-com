@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5294176",
+  "name": "Top Paw® Dog Print Reusable Shopping Tote Bag",
+  "description": "Top Paw&reg; Dog Print Reusable Shopping Tote Bag",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5294176",
+  "brand": {
+    "@type": "Brand",
+    "name": "Top Paw"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 2,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.875,
+    "reviewCount": 8
+  },
+  "keywords": [
+    "dog-accessory",
+    "dog",
+    "cleaning-supplies",
+    "stain-and-odor-removers"
+  ]
+}

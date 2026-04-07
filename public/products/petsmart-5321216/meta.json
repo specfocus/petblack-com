@@ -1,0 +1,12 @@
+{
+  "source": "petsmart",
+  "url": "https://www.petsmart.com/dog/beds-and-furniture/pillow-beds/top-paw-navy-and-white-striped-pillow-dog-bed-68450.html",
+  "breadcrumb": "dog > beds-and-furniture > pillow-beds > top-paw-navy-and-white-striped-pillow-dog-bed-68450.html",
+  "bucket": "dog-accessory",
+  "gtin13": "0737257973114",
+  "images": {
+    "large": "https://s7d2.scene7.com/is/image/PetSmart/5321216?$sclp-prd-main_large$",
+    "medium": "https://s7d2.scene7.com/is/image/PetSmart/5321216?$sclp-prd-main_medium$",
+    "small": "https://s7d2.scene7.com/is/image/PetSmart/5321216?$sclp-prd-main_small$"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B09NW9YRNQ",
+  "name": "Purina Fancy Feast Tender Chicken Feast Wet Cat Food Pack of 6 X 85g Cans (1 Can Free with 5 Cans)",
+  "description": "PURINA Fancy Feast Wet Cat Food from Nestlé | Chunks of tender chicken packed with essentials vitamins and minerals for your cat's health and happiness | Complementary cat food to be fed along with a complete and balanced diet | Made with real chicken | Suitable for all cat breeds & available in 6 delicious flavors",
+  "image": "https://m.media-amazon.com/images/I/416wDfyJVTL._SS522_.jpg",
+  "sku": "amazon-pet-B09NW9YRNQ",
+  "brand": {
+    "@type": "Brand",
+    "name": "Fancy Feast"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 500,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "cat-wet-food",
+    "pet-supplies",
+    "cats",
+    "food",
+    "wet"
+  ]
+}

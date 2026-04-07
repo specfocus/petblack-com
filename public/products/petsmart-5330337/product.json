@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5330337",
+  "name": "Fresh Pawz Pastel Pink Dog Hoodie",
+  "description": "Fresh Pawz Pastel Pink Dog Hoodie",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5330337",
+  "brand": {
+    "@type": "Brand",
+    "name": "Fresh Pawz"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 40,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "keywords": [
+    "dog-accessory",
+    "dog",
+    "clothing-and-shoes",
+    "sweaters-and-coats"
+  ]
+}

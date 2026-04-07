@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-263633",
+  "name": "The New Zealand Natural Pet Food Co. Meow Green Lipped Mussels Freeze-Dried Cat Treat, 1.76-oz bag",
+  "description": "Give your kitty the nutrients she needs to stay nimble with New Zealand Natural Meow Green Lipped Mussel Cat Food. This raw, freeze-dried food for cats features sustainably-farmed green lipped mussels that are high in protein, omega-3 fatty acids, glucosamine and chondroitin. It is crafted to be raw—without any of the wholesome enzymes or nutrients cooked out—to help support immunity, joint health and a shiny coat and skin. This single-ingredient cat food is the purr-fect way to reward your four-legged friend and can be served as-is or crushed over other food as a topper. It is developed to be paw-ticularly great for your sidekick’s sensitive stomach.",
+  "image": "https://image.chewy.com/is/image/catalog/263633_MAIN._AC_SS500_V1608270767_.jpg",
+  "sku": "chewy-263633",
+  "brand": {
+    "@type": "Brand",
+    "name": "The New Zealand Natural Pet Food Co."
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 13.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.5,
+    "reviewCount": 4
+  },
+  "keywords": [
+    "cat-wet-food",
+    "cat",
+    "treats",
+    "trial-size-treats"
+  ]
+}

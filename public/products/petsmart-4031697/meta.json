@@ -1,0 +1,12 @@
+{
+  "source": "petsmart",
+  "url": "https://www.petsmart.com/fish/live-fish/goldfish-betta-and-more/black-moor-goldfish-15238.html",
+  "breadcrumb": "fish > live-fish > goldfish-betta-and-more > black-moor-goldfish-15238.html",
+  "bucket": "fish-accessory",
+  "gtin13": "0400403169791",
+  "images": {
+    "large": "https://s7d2.scene7.com/is/image/PetSmart/4031697?$sclp-prd-main_large$",
+    "medium": "https://s7d2.scene7.com/is/image/PetSmart/4031697?$sclp-prd-main_medium$",
+    "small": "https://s7d2.scene7.com/is/image/PetSmart/4031697?$sclp-prd-main_small$"
+  }
+}

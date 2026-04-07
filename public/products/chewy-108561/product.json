@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-108561",
+  "name": "Kitty Cot Original World's Best Cat Perch Giant Replacement Suction Cups",
+  "description": "Kitty Cot Original World's Best Cat Perch Giant Replacement Suction Cups give you a set of four patented suction cups for your Kitty Cot. Each cup is 3.25 inches in diameter and rated to hold 12 pounds of kitty weight. These heavy-duty suction cups are made in the USA by Adams Manufacturing and will attach to most smooth, non-porous surfaces, such as windows. They’re easy to install and remove by pulling on the release tab to break the suction. Cleaning them is simple by washing with warm, soapy water and gently drying with a lint-free cloth. The top two suction cups have loops with snap clips for attaching the wire cables that support the Kitty Cot. You can hang a lightweight cat toy from these top suction cups for a little extra playtime fun.",
+  "image": "https://image.chewy.com/is/image/catalog/108561_MAIN._AC_SS500_V1657655132_.jpg",
+  "sku": "chewy-108561",
+  "brand": {
+    "@type": "Brand",
+    "name": "Kitty Cot"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 18.88,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 3.0833,
+    "reviewCount": 24
+  },
+  "keywords": [
+    "cat-toy",
+    "cat",
+    "trees-condos-scratchers",
+    "window-perches"
+  ]
+}

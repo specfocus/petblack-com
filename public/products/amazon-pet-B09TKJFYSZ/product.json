@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B09TKJFYSZ",
+  "name": "TNZ CREATIONS, Metal Bird House with Chain Hanging. Bird House for Garden or Balcony Decoration. Size. Height. 5.5 Inches, Length. 6.2 Inches. (Pack of 1 Piece) Colour. Yellow",
+  "description": "Decorate your house/balcony/garden with this TNZ Creations bird house made from durable Metal. This bird house is a wonderful gift for any bird lover or nature enthusiast. This attractive bird house would help to increase the adornment of your home, garden, lawn etc.Easy to hang on Wall in Balcony, Window or Trees.",
+  "image": "https://m.media-amazon.com/images/I/21JjTnTA-pL._SS522_.jpg",
+  "sku": "amazon-pet-B09TKJFYSZ",
+  "brand": {
+    "@type": "Brand",
+    "name": "TNZ CREATIONS"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 797,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "bird-accessory",
+    "pet-supplies",
+    "birds",
+    "birdcage-accessories",
+    "nests"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5206517",
+  "name": "IRIS 3 Tier Wire Cat PlayPen",
+  "description": "IRIS 3 Tier Wire Cat PlayPen",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5206517",
+  "brand": {
+    "@type": "Brand",
+    "name": "IRIS"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 314.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.3333,
+    "reviewCount": 3
+  },
+  "keywords": [
+    "cat-accessory",
+    "cat",
+    "crates-gates-and-containment",
+    "pens",
+    "iris-3-tier-wire-cat-playpen-25962-html"
+  ]
+}

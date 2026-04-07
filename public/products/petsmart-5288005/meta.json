@@ -1,0 +1,12 @@
+{
+  "source": "petsmart",
+  "url": "https://www.petsmart.com/cat/toys/balls-and-chasers/whisker-city-tinsel-ball-cat-toy---color-varies-53419.html",
+  "breadcrumb": "cat > toys > balls-and-chasers > whisker-city-tinsel-ball-cat-toy---color-varies-53419.html",
+  "bucket": "cat-toy",
+  "gtin13": "0737257833203",
+  "images": {
+    "large": "https://s7d2.scene7.com/is/image/PetSmart/5288005?$sclp-prd-main_large$",
+    "medium": "https://s7d2.scene7.com/is/image/PetSmart/5288005?$sclp-prd-main_medium$",
+    "small": "https://s7d2.scene7.com/is/image/PetSmart/5288005?$sclp-prd-main_small$"
+  }
+}

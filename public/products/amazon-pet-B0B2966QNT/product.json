@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B0B2966QNT",
+  "name": "Meri Shopp Safety Bird & Small Animals Plastic Fruit Vegetable Holder for Cages Green",
+  "description": "Description:Made of bittern resistant PVC, durable, light, non-toxic and harmless.Convenient to install, just hang on the bird cage.Spiral and hollow design, easy for birds to get food from it.Suitable for small middle parrots or birds.Features: Food Fruit Basket.Specification:Material:PVCColor: GreenUpper Diameter:Approx.4.5cm/1.77inchLength:Approx.25cm/9.84inchPerch Size(LW):Approx.6.5x6cm/2.56x2.36inchPackage Includes:1 Piece Pet Bird BasketNote:Due to the light and screen setting difference, the item's color may be slightly different from the pictures.Please allow slight dimension differen",
+  "image": "https://m.media-amazon.com/images/I/21S3B6xLb9L._SS522_.jpg",
+  "sku": "amazon-pet-B0B2966QNT",
+  "brand": {
+    "@type": "Brand",
+    "name": "Generic"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "bird-toy",
+    "pet-supplies",
+    "small-animals",
+    "health-supplies"
+  ]
+}

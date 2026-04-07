@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5323476",
+  "name": "Top Paw® Black Canvas Waste Bag Dispenser",
+  "description": "Top Paw&reg; Black Canvas Waste Bag Dispenser",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5323476",
+  "brand": {
+    "@type": "Brand",
+    "name": "Top Paw"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 9.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "dog-accessory",
+    "dog",
+    "cleaning-supplies",
+    "waste-disposal"
+  ]
+}

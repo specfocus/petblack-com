@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B09Y8YD8PL",
+  "name": "Meri Shopp Bird Parrot Perch Swing Hanger Cage Parakeet Cockatiel Finch Lovebird Toy M",
+  "description": "Description:An ideal place designed for your little friends to play and climb, easy install in the cageGive your pet a treat and have hours of fun watching them play.Suitable for all kinds of cage, is a good love bird toys, and for many small animals Hamsters, Gerbils, Mice, Rats, squirrels, chinchillas, etc.Material: WoodSize: Approx. 15x16.5cm/5.91x6.50inchPackage Includes:1 Piece Bird SwingNote:Since the size above is measured by hand, the size of the actual item could be slightly different from the size above.Due to the lighting effects, monitor settings, etc. There could be some slight di",
+  "image": "https://m.media-amazon.com/images/I/31rugikhQeL._SS522_.jpg",
+  "sku": "amazon-pet-B09Y8YD8PL",
+  "brand": {
+    "@type": "Brand",
+    "name": "Generic"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "bird-toy",
+    "pet-supplies",
+    "birds",
+    "birdcage-accessories",
+    "swings"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B09ZLGTDRL",
+  "name": "VMS INDIA Plastic Scoop Shovel Feed Scoop for Pet Food Flour Black",
+  "description": "Description:Plastic Scoop Shovel for Pet Food FlourFor scooping all kinds of foods and ingredients like nuts, candies, granola, flour, coffee beans, cereals and more. DISHWASHER SAFE - Easy to use scoop that you can leave on the dishwasher after useA necessity at home, these scoops touch smooth and use sturdy Smooth surfaces for easy cleaningSpecification:Material: PlasticHandle Length: approx.11 cm/4.33 inchSpoon Length: 23.5 cm/9.25 inchHeight: 11 cm/4.33 inchPackage Includes:1 piece Plastic Feed ScoopNote:Pls allow an error of 1-3mm due to the difference of manual measurement.",
+  "image": "https://m.media-amazon.com/images/I/21Cnwgvqw9L._SS522_.jpg",
+  "sku": "amazon-pet-B09ZLGTDRL",
+  "brand": {
+    "@type": "Brand",
+    "name": "VMS INDIA"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 1.404,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "keywords": [
+    "other-pet",
+    "pet-supplies",
+    "cats",
+    "litter-housebreaking",
+    "litter-scoops"
+  ]
+}

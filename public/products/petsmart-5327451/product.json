@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5327451",
+  "name": "Top Paw® Water Dog SO SOUR Lime Dog Toy",
+  "description": "Top Paw&reg; Water Dog SO SOUR Lime Dog Toy",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5327451",
+  "brand": {
+    "@type": "Brand",
+    "name": "Top Paw"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 3.07,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "dog-toy",
+    "dog",
+    "toys",
+    "plush-toys"
+  ]
+}

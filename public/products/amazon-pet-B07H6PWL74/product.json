@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B07H6PWL74",
+  "name": "PETIQUE ST01030103 Pet Stroller, Green Camo, One Size",
+  "description": "Petique's Pet Stroller makes strolling down the sidewalk a breeze Literally with ventilating mesh windows all around large EVA tires and double front wheels you and your pets will experience a smooth ride Going shopping or having a picnic? Our pet strollers have a large storage basket two large back pockets and a cup holder tray that holds up to two cups! Our chic design creates an all around great view of the outside world for your pets! Features Large EVA tires and double front wheels for easy maneuvering All around air ventilated windows with chic design Two back pockets great for cell phon",
+  "image": "https://m.media-amazon.com/images/I/41z4sWs6ZwL._SS522_.jpg",
+  "sku": "amazon-pet-B07H6PWL74",
+  "brand": {
+    "@type": "Brand",
+    "name": "Petique"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 23.415,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "other-pet",
+    "pet-supplies",
+    "cats",
+    "carriers-strollers",
+    "strollers"
+  ]
+}

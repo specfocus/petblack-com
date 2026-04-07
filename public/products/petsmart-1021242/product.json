@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-1021242",
+  "name": "Hill's® Science Diet® Adult Wet Cat Food - Minced, 5.5 oz",
+  "description": "Hill's&reg; Science Diet&reg; Adult Wet Cat Food - Minced, 5.5 oz",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-1021242",
+  "brand": {
+    "@type": "Brand",
+    "name": "Hill's Science Diet"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 1.97,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.4194,
+    "reviewCount": 62
+  },
+  "keywords": [
+    "cat-wet-food",
+    "cat",
+    "food-and-treats",
+    "wet-food"
+  ]
+}

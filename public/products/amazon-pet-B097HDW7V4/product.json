@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B097HDW7V4",
+  "name": "Cat Collar, Adjustable Crystal Sparkle Rhinestone Cat Collar with Bowknot for Cats Kitten(Powder, XL)",
+  "description": "Specification:    Item Type: Pet Collar Material: Microfiber  Adjustable: Yes        Package List:  1 x Pet Collar",
+  "image": "https://m.media-amazon.com/images/I/21fNh-iDUVS._SS522_.jpg",
+  "sku": "amazon-pet-B097HDW7V4",
+  "brand": {
+    "@type": "Brand",
+    "name": "HUI"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 1.23,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "keywords": [
+    "cat-accessory",
+    "pet-supplies",
+    "cats",
+    "collars-harnesses-leashes",
+    "collars"
+  ]
+}

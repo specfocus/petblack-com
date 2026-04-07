@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5302897",
+  "name": "Top Paw® Faux Fur Snuggler Dog Bed",
+  "description": "Top Paw&reg; Faux Fur Snuggler Dog Bed",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5302897",
+  "brand": {
+    "@type": "Brand",
+    "name": "Top Paw"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 29.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.6897,
+    "reviewCount": 29
+  },
+  "keywords": [
+    "dog-accessory",
+    "dog",
+    "beds-and-furniture",
+    "cuddler-beds"
+  ]
+}

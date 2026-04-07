@@ -1,0 +1,12 @@
+{
+  "source": "petsmart",
+  "url": "https://www.petsmart.com/small-pet/food-treats-and-hay/treats/kaytee-fiesta-yogurt-cup-small-animal-treats-185.html",
+  "breadcrumb": "small-pet > food-treats-and-hay > treats > kaytee-fiesta-yogurt-cup-small-animal-treats-185.html",
+  "bucket": "small-pet-food",
+  "gtin13": "0071859944050",
+  "images": {
+    "large": "https://s7d2.scene7.com/is/image/PetSmart/5156307?$sclp-prd-main_large$",
+    "medium": "https://s7d2.scene7.com/is/image/PetSmart/5156307?$sclp-prd-main_medium$",
+    "small": "https://s7d2.scene7.com/is/image/PetSmart/5156307?$sclp-prd-main_small$"
+  }
+}

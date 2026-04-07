@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B0B39HYZ19",
+  "name": "GIANTE 6Pcs Bird Swing Toys Colorful Ball Block Pet Bird Bite Chewing Toy",
+  "description": "Description:Your pet bird will love these colorful hanging chewing toys.Made of premium food colouring wood which is safe, non-toxic, sanitary.Brighten up your bird cage and keep your bird happy and busy for hours.Make your bird cage into a bird playground or bird gym.Attach easily to cage with a quick link buckle.Specification:Material: Wood, IronColor: RandomSize: shown on the photo.Package Includes:6 Piece Pet Bird Hanging ToyNote:Due to the light and screen setting difference, the item39;s color may be slightly different from the pictures.Please allow slight dimension difference due to dif",
+  "image": "https://m.media-amazon.com/images/I/51YejWSJqZL._SS522_.jpg",
+  "sku": "amazon-pet-B0B39HYZ19",
+  "brand": {
+    "@type": "Brand",
+    "name": "Generic"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 2.121,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "keywords": [
+    "bird-toy",
+    "pet-supplies",
+    "birds",
+    "toys"
+  ]
+}

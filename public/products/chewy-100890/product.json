@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-100890",
+  "name": "ZuPreem Natural Daily Small Bird Food, 2.25-lb bag",
+  "description": "For nutritious everyday feeding, try ZuPreem Natural Bird Food Daily Bird Food for Small Birds! This scrumptious daily diet features all the minerals, vitamins and amino acids your bird needs to thrive. Each tasty bite is packed with wholesome nutrition from celery, carrots, parsley, beets, blueberries, cranberries and ground flaxseeds. Plus, they’re made with a consistent color and shape to help prevent your pal from eating selectively. Take the guesswork out of meeting your bird’s nutritional needs with this complete diet from ZuPreem!",
+  "image": "https://image.chewy.com/is/image/catalog/100890_MAIN._AC_SS500_V1519919722_.jpg",
+  "sku": "chewy-100890",
+  "brand": {
+    "@type": "Brand",
+    "name": "ZuPreem"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 16.05,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.5278,
+    "reviewCount": 72
+  },
+  "keywords": [
+    "bird-food",
+    "bird",
+    "shop-by-bird",
+    "parakeet",
+    "food"
+  ]
+}

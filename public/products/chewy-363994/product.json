@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-363994",
+  "name": "Dexas Popware For Pets Polypropylene Travel Dog Cup with Bottle Holder & Carabiner, 8-oz",
+  "description": "With the Dexas Polypropylene Travel Dog Cup with Bottle Holder & Carabiner, you’ll always be prepared with fresh water during your big adventures with your best friend. This silicone attachment easily fits over the neck of a bottle of water. Then, you can store it in your car or take it with you on a hike. When your dog is ready for a drink, slip the cup off the bottle, pop open the collapsible cup and pour in the water. This handy cup is paw-fect for hiking, camping, trips to the dog part and more. It collapses for space-saving storage and is dishwasher-safe for easy cleaning.",
+  "image": "https://image.chewy.com/is/image/catalog/363994_MAIN._AC_SS500_V1643742135_.jpg",
+  "sku": "chewy-363994",
+  "brand": {
+    "@type": "Brand",
+    "name": "Dexas Popware for Pets"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 10.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "dog-accessory",
+    "dog",
+    "carriers-travel",
+    "travel-bowls-bags"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5288005",
+  "name": "Whisker City® Tinsel Ball Cat Toy - (COLOR VARIES)",
+  "description": "Whisker City&reg; Tinsel Ball Cat Toy - (COLOR VARIES)",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5288005",
+  "brand": {
+    "@type": "Brand",
+    "name": "Whisker City"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 1.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.2889,
+    "reviewCount": 45
+  },
+  "keywords": [
+    "cat-toy",
+    "cat",
+    "toys",
+    "balls-and-chasers"
+  ]
+}

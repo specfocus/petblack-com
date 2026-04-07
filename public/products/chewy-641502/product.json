@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-641502",
+  "name": "PoopShark Leash Pouch & Poopbag Holder Dog Poop Dispenser, Black",
+  "description": "With the PoopShark Leash Pouch & Poopbag Holder Dog Poop Dispenser, you’re always ready to clean up after your furbaby. The pouch is a paw-some way to carry folded paper bags, repurposed plastic bags and treats on your pup’s leash. The carabiner easily attaches the pouch to your leash at two points, so it won’t swing around as you walk. The drawstring closure is simple and secure, and waterproof recycled polyester keeps those poop bags dry.",
+  "image": "https://image.chewy.com/is/image/catalog/641502_MAIN._AC_SS500_V1663081135_.jpg",
+  "sku": "chewy-641502",
+  "brand": {
+    "@type": "Brand",
+    "name": "PoopShark"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 16,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 5,
+    "reviewCount": 1
+  },
+  "keywords": [
+    "dog-accessory",
+    "dog",
+    "cleaning-potty",
+    "poop-bags-scoopers",
+    "poop-bag-holders"
+  ]
+}

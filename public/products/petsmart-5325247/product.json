@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5325247",
+  "name": "Pendleton Vintage Camp Oxford Black Napper Dog Dog",
+  "description": "Pendleton Vintage Camp Oxford Black Napper Dog Dog",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5325247",
+  "brand": {
+    "@type": "Brand",
+    "name": "Pendleton"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 139,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "dog-accessory",
+    "dog",
+    "beds-and-furniture",
+    "pillow-beds"
+  ]
+}

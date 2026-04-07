@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B08M3KYHGC",
+  "name": "PSK PET MART Cat Feather Ball Inside Bell Toy, Sisal Mouse Toy and Feather Mouse Cat Toys Combo for Kitten Cat Having Fun Exercise Playing",
+  "description": "PSK PET MART Cat Feather Ball inside Bell Toy, Sisal mouse Toy and Feather Mouse Cat Toys Combo for Kitten Cat Having Fun Exercise Playing",
+  "image": "https://m.media-amazon.com/images/I/51N0u4pWOkL._SS522_.jpg",
+  "sku": "amazon-pet-B08M3KYHGC",
+  "brand": {
+    "@type": "Brand",
+    "name": "Visit the PSK PET MART Store"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 399,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "cat-toy",
+    "pet-supplies",
+    "cats",
+    "toys",
+    "feather-toys"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B09RXPSH66",
+  "name": "Coconut Toy, Handmade Bird Coconut Gnaw Playthings Strong for Birds for Parrots",
+  "description": "Feature:1. The material is bite-resistant, suitable for parrots and birds of various sizes. Large birds can also bite and climb, which is good for birds to play and solve their boredom.2. Made of pure natural coconut shell, wood and bamboo tube, which is safe and healthy and will not pose a potential threat to the health of pets.3. It can not only provide entertainment for birds, but also satisfy the instinctive chewing and biting behaviors of pet birds.4. Completed with purely handmade which are more trustworthy and durable.5. This rope are strong enough to last long‑time hanging without fall",
+  "image": "https://m.media-amazon.com/images/I/41vfwmX1g0S._SS522_.jpg",
+  "sku": "amazon-pet-B09RXPSH66",
+  "brand": {
+    "@type": "Brand",
+    "name": "01 02 015"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "bird-toy",
+    "pet-supplies",
+    "birds",
+    "food"
+  ]
+}

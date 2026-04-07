@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5272279",
+  "name": "KENT Marine® Nano Reef A & B",
+  "description": "KENT Marine&reg; Nano Reef A &amp; B",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5272279",
+  "brand": {
+    "@type": "Brand",
+    "name": "Kent Marine"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 11.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "fish-food",
+    "fish",
+    "food-and-care",
+    "water-care-and-conditioning"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5230981",
+  "name": "Nutro Natural Choice&trade; Heartly Stew Adult Wet Dog Food - Grain Free, 12.5oz",
+  "description": "Nutro Natural Choice&amp;trade; Heartly Stew Adult Wet Dog Food - Grain Free, 12.5oz",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5230981",
+  "brand": {
+    "@type": "Brand",
+    "name": "NUTRO"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 2.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.7905,
+    "reviewCount": 148
+  },
+  "keywords": [
+    "dog-wet-food",
+    "dog",
+    "food",
+    "canned-food"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5298642",
+  "name": "Andis® Pulse Li 5 Adjustable Blade Pet Clipper",
+  "description": "Andis&reg; Pulse Li 5 Adjustable Blade Pet Clipper",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5298642",
+  "brand": {
+    "@type": "Brand",
+    "name": "Andis"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 44.89,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 5,
+    "reviewCount": 2
+  },
+  "keywords": [
+    "dog-accessory",
+    "dog",
+    "grooming-supplies",
+    "hair-clippers-and-trimmers"
+  ]
+}

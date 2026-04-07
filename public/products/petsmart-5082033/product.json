@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5082033",
+  "name": "CaribSea Aragonite Aquarium Reef Sand",
+  "description": "CaribSea Aragonite Aquarium Reef Sand",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5082033",
+  "brand": {
+    "@type": "Brand",
+    "name": "CaribSea"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 26.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.3333,
+    "reviewCount": 27
+  },
+  "keywords": [
+    "fish-accessory",
+    "fish",
+    "decor-gravel-and-substrate",
+    "gravel-sand-and-stones"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B09NMBKVVD",
+  "name": "Chicken Diapers, Reusable Duckling Diapers Easy to Wear Waterproof Breathable with Inside Pocket for Hen Chicken(Denim Blue, L)",
+  "description": "Feature:1. Breathable Fabric: The diaper is made of breathable fabric, made of high grade waterproof cloth fabric, to ensure that the diaper can be reused after cleaning.2. Relaxed And Comfortable: The diaper is designed with loose and tight belts, which does not squeeze the neck, and is relaxed and comfortable, which is convenient for birds to relax and take off.3. Birds Are Available: The washable duckling diapers for pet chicken feces can also be suitable for various birds such as parrots, pigeons and other similar size birds.4. Bow Design: The diaper is equipped with a unique bow knot, hoo",
+  "image": "https://m.media-amazon.com/images/I/31w-SYP5o-L._SS522_.jpg",
+  "sku": "amazon-pet-B09NMBKVVD",
+  "brand": {
+    "@type": "Brand",
+    "name": "Gind"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 661,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "keywords": [
+    "bird-accessory",
+    "pet-supplies",
+    "birds",
+    "bird-diapers"
+  ]
+}

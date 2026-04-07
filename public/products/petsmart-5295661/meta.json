@@ -1,0 +1,12 @@
+{
+  "source": "petsmart",
+  "url": "https://www.petsmart.com/dog/grooming-supplies/brushes-combs-and-blowdryers/top-paw-flea-pet-comb-57786.html",
+  "breadcrumb": "dog > grooming-supplies > brushes-combs-and-blowdryers > top-paw-flea-pet-comb-57786.html",
+  "bucket": "dog-health",
+  "gtin13": "0737257867338",
+  "images": {
+    "large": "https://s7d2.scene7.com/is/image/PetSmart/5295661?$sclp-prd-main_large$",
+    "medium": "https://s7d2.scene7.com/is/image/PetSmart/5295661?$sclp-prd-main_medium$",
+    "small": "https://s7d2.scene7.com/is/image/PetSmart/5295661?$sclp-prd-main_small$"
+  }
+}

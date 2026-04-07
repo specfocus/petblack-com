@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5301183",
+  "name": "Marineland Penguin PRO 375 Power Filter",
+  "description": "Marineland Penguin PRO 375 Power Filter",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5301183",
+  "brand": {
+    "@type": "Brand",
+    "name": "Marineland"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 64.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 3.0323,
+    "reviewCount": 31
+  },
+  "keywords": [
+    "fish-accessory",
+    "fish",
+    "filters-and-pumps",
+    "filters"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "source": "petsmart",
+  "url": "https://www.petsmart.com/dog/clothing-and-shoes/jerseys-and-team-sports/pets-first-pittsburgh-steelers-mesh-jersey-70308.html",
+  "breadcrumb": "dog > clothing-and-shoes > jerseys-and-team-sports > pets-first-pittsburgh-steelers-mesh-jersey-70308.html",
+  "bucket": "dog-accessory",
+  "gtin13": "0849790116740",
+  "images": {
+    "large": "https://s7d2.scene7.com/is/image/PetSmart/5325780?$sclp-prd-main_large$",
+    "medium": "https://s7d2.scene7.com/is/image/PetSmart/5325780?$sclp-prd-main_medium$",
+    "small": "https://s7d2.scene7.com/is/image/PetSmart/5325780?$sclp-prd-main_small$"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5323401",
+  "name": "Pedigree® Dentastix Large Breed Adult Dental Dog Treats - Fresh",
+  "description": "Pedigree&reg; Dentastix Large Breed Adult Dental Dog Treats - Fresh",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5323401",
+  "brand": {
+    "@type": "Brand",
+    "name": "Pedigree"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 12.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.7586,
+    "reviewCount": 87
+  },
+  "keywords": [
+    "dog-health",
+    "featured-brands",
+    "pedigree"
+  ]
+}

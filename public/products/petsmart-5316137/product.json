@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5316137",
+  "name": "Palladia - 10 mg, 15 mg, 50 mg - Single Tablet",
+  "description": "Palladia - 10 mg, 15 mg, 50 mg - Single Tablet",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5316137",
+  "brand": {
+    "@type": "Brand",
+    "name": "Palladia"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 6.82,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "dog-health",
+    "pharmacy",
+    "dog",
+    "immune-support"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-283994",
+  "name": "Littlearth NCAA Stretch Dog & Cat Jersey, Alabama Crimson Tide",
+  "description": "Remember to measure your pet for the paw-fect fit. Get your basketball buddy in the spirit on game day with a Littlearth NCAA Stretch Dog & Cat Jersey. This officially-licensed NCAA jersey features stretch side panels to keep your BFF comfy, as well as the official team logo, wordmark and woven jock tag to complete his sporty look. Go team!",
+  "image": "https://image.chewy.com/is/image/catalog/283994_MAIN._AC_SS500_V1619409428_.jpg",
+  "sku": "chewy-283994",
+  "brand": {
+    "@type": "Brand",
+    "name": "Littlearth"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 24.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "dog-accessory",
+    "cat",
+    "clothing-accessories",
+    "shirts-dresses"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "source": "petsmart",
+  "url": "https://www.petsmart.com/cat/grooming-supplies/shampoos-and-conditioners/whisker-city-cat-gentle-shampoo---vanilla-57725.html",
+  "breadcrumb": "cat > grooming-supplies > shampoos-and-conditioners > whisker-city-cat-gentle-shampoo---vanilla-57725.html",
+  "bucket": "pet-grooming",
+  "gtin13": "0737257873988",
+  "images": {
+    "large": "https://s7d2.scene7.com/is/image/PetSmart/5296480?$sclp-prd-main_large$",
+    "medium": "https://s7d2.scene7.com/is/image/PetSmart/5296480?$sclp-prd-main_medium$",
+    "small": "https://s7d2.scene7.com/is/image/PetSmart/5296480?$sclp-prd-main_small$"
+  }
+}

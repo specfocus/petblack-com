@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5321199",
+  "name": "Viva La Kitty® Savory Sticks Cat Treat - High Protein",
+  "description": "Viva La Kitty&reg; Savory Sticks Cat Treat - High Protein",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5321199",
+  "brand": {
+    "@type": "Brand",
+    "name": "Viva La Kitty"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 2.09,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 5,
+    "reviewCount": 2
+  },
+  "keywords": [
+    "cat-treat",
+    "cat",
+    "food-and-treats",
+    "treats"
+  ]
+}

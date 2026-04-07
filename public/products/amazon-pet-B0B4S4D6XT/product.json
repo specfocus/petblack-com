@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B0B4S4D6XT",
+  "name": "Maxbell Dog Cage Mat Pets Self Cooling Mattress Bed Pad Sleeping Mat Pink 76x58cm",
+  "description": "Description:Adopt ice silk cool feeling fabric, the all round comes with pillow, the inner thin cotton filling, comfortable and soft, cool touch!Summer cooling mats blanket ice pet dog bed mats for dogs cats sofa portable tour camping yoga sleeping pet accessories.Pressure activated cooling keeps pets comfortable without freezing or refrigerating .Lightweight and portable, suitable for indoor and outdoor, car use .Cooling mat keeps your pet cool and comfy that absorbs body heat, cool feeling of the fabric is that the fabric regulates the temperature by absorbing heat, and the cooling factor gi",
+  "image": "https://m.media-amazon.com/images/I/41rpzO2SUcL._SS522_.jpg",
+  "sku": "amazon-pet-B0B4S4D6XT",
+  "brand": {
+    "@type": "Brand",
+    "name": "Maxbell"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 4.455,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "keywords": [
+    "dog-accessory",
+    "pet-supplies",
+    "cats",
+    "beds-furniture",
+    "bedding",
+    "bed-mats"
+  ]
+}

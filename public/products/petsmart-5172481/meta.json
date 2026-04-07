@@ -1,0 +1,12 @@
+{
+  "source": "petsmart",
+  "url": "https://www.petsmart.com/cat/beds-and-furniture/covered-beds/kandh-clubhouse-cat-bed-5572.html",
+  "breadcrumb": "cat > beds-and-furniture > covered-beds > kandh-clubhouse-cat-bed-5572.html",
+  "bucket": "cat-accessory",
+  "gtin13": "0655199038923",
+  "images": {
+    "large": "https://s7d2.scene7.com/is/image/PetSmart/5172481?$sclp-prd-main_large$",
+    "medium": "https://s7d2.scene7.com/is/image/PetSmart/5172481?$sclp-prd-main_medium$",
+    "small": "https://s7d2.scene7.com/is/image/PetSmart/5172481?$sclp-prd-main_small$"
+  }
+}

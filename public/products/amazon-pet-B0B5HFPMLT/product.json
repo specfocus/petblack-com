@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B0B5HFPMLT",
+  "name": "EXCLUZO 10 Pieces Artificial Nest Spotted Speckled Hatching Egg Crafts White S",
+  "description": "Description:Artificial Speckled Miniature Foam Eggs for Easter Baskets, Crafts, and Displays.To put in the nest,for medium birds egg pigeons,Encourages and promotes the reproduction.Use for Easter also Spring crafting, baby shower decor, fairy garden embellishments.Use for table scatter, To fill vases, in baskets and More.These decorative eggs make a great embellishment for the country rustic or farmhouse home.Specification:Material: foamS-Diameter: Approx. 1.5cm / 0.59inchLength: Approx. 2cm / 0.79inchL-Diameter: Approx. 2cm / 0.79inchLength: Approx. 3cm / 1.18inchPackage Includes:10 Pieces o",
+  "image": "https://m.media-amazon.com/images/I/31sWso0z7ZL._SS522_.jpg",
+  "sku": "amazon-pet-B0B5HFPMLT",
+  "brand": {
+    "@type": "Brand",
+    "name": "EXCLUZO"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 780,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "keywords": [
+    "bird-toy",
+    "pet-supplies",
+    "birds",
+    "birdcage-accessories",
+    "nests"
+  ]
+}

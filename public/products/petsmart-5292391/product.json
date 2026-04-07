@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5292391",
+  "name": "Creative Solutions Pet Bed Heater",
+  "description": "Creative Solutions Pet Bed Heater",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5292391",
+  "brand": {
+    "@type": "Brand",
+    "name": "Creative Solutions"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 34.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 3.8333,
+    "reviewCount": 12
+  },
+  "keywords": [
+    "dog-accessory",
+    "dog",
+    "beds-and-furniture",
+    "cooling-and-heating-beds"
+  ]
+}

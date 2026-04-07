@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5300089",
+  "name": "Pets First&copy; New England Patriots Mascot Long Dog Toy",
+  "description": "Pets First&copy; New England Patriots Mascot Long Dog Toy",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5300089",
+  "brand": {
+    "@type": "Brand",
+    "name": "Pets First"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 15.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "keywords": [
+    "dog-toy",
+    "dog",
+    "toys",
+    "plush-toys"
+  ]
+}

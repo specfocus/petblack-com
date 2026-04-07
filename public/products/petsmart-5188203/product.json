@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5188203",
+  "name": "Clear-For-Life 29 Gallon Rectangle UniQuarium",
+  "description": "Clear-For-Life 29 Gallon Rectangle UniQuarium",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5188203",
+  "brand": {
+    "@type": "Brand",
+    "name": "Clear-For-Life"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 587.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 3.5,
+    "reviewCount": 4
+  },
+  "keywords": [
+    "fish-accessory",
+    "fish",
+    "tanks-aquariums-and-nets",
+    "aquariums"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-367681",
+  "name": "Wild One Dog Poop Bags, 120 count",
+  "description": "Take care of business after your dog takes care of his with Wild One Dog Poop Bags. These unscented bags are made with a corn starch blend, which makes them extra thick and leak proof to help contain the mess inside where it belongs. Each purchase comes with 120 blush-colored bags (12 rolls total)!",
+  "image": "https://image.chewy.com/is/image/catalog/367681_MAIN._AC_SS500_V1645476134_.jpg",
+  "sku": "chewy-367681",
+  "brand": {
+    "@type": "Brand",
+    "name": "Wild One"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 12.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.3333,
+    "reviewCount": 6
+  },
+  "keywords": [
+    "dog-accessory",
+    "dog",
+    "cleaning-potty",
+    "poop-bags-scoopers",
+    "poop-bags"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5273888",
+  "name": "A&E Cage Company Squidly Bird Toy",
+  "description": "A&amp;E Cage Company Squidly Bird Toy",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5273888",
+  "brand": {
+    "@type": "Brand",
+    "name": "A&amp;E"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 19.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "keywords": [
+    "bird-toy",
+    "bird",
+    "toys-perches-and-decor",
+    "toys"
+  ]
+}

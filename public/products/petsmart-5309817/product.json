@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5309817",
+  "name": "Calm Paws Premium Recovery Vest and Calming Disk for Dogs",
+  "description": "Calm Paws Premium Recovery Vest and Calming Disk for Dogs",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5309817",
+  "brand": {
+    "@type": "Brand",
+    "name": "Calm Paws"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 52.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 3.74,
+    "reviewCount": 100
+  },
+  "keywords": [
+    "dog-health",
+    "dog",
+    "dental-care-and-wellness",
+    "treatments"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5299403",
+  "name": "Merrick® Healthy Grains Small Breed Adult Dry Dog Food - Chicken, No Artificial Preservatives & Colo",
+  "description": "Merrick&reg; Healthy Grains Small Breed Adult Dry Dog Food - Chicken, No Artificial Preservatives &amp; Colo",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5299403",
+  "brand": {
+    "@type": "Brand",
+    "name": "Merrick"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 47.98,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.4167,
+    "reviewCount": 60
+  },
+  "keywords": [
+    "dog-dry-food",
+    "dog",
+    "food",
+    "dry-food"
+  ]
+}

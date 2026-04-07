@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5296149",
+  "name": "Arcadia Trail&trade; Lightweight Dog Harness",
+  "description": "Arcadia Trail&amp;trade; Lightweight Dog Harness",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5296149",
+  "brand": {
+    "@type": "Brand",
+    "name": "Arcadia Trail"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 29.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 3.6769,
+    "reviewCount": 130
+  },
+  "keywords": [
+    "dog-accessory",
+    "dog",
+    "collars-harnesses-and-leashes",
+    "harnesses"
+  ]
+}
