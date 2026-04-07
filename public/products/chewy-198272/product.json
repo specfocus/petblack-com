@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-198272",
+  "name": "Smart Cookie Barkery Endurance Beef Grain-Free Dog Treats, 8-oz bag",
+  "description": "Give your active dog a beefy boost when he’s feeling the burn with Smart Cookie Barkery Endurance Beef Dog Treats. He’ll love the extra energy provided to him with these handcrafted artisanal treats that are designed for ruff-and-ready dogs. Packed with high-protein ingredients including beef, organic quinoa and carrots, he’ll be ready to take on your next action-packed adventure. These single-protein-source treats are designed to be great for sensitive stomachs.",
+  "image": "https://image.chewy.com/is/image/catalog/198272_MAIN._AC_SS500_V1567618316_.jpg",
+  "sku": "chewy-198272",
+  "brand": {
+    "@type": "Brand",
+    "name": "Smart Cookie Barkery"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 9.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4,
+    "reviewCount": 1
+  },
+  "keywords": [
+    "dog-accessory",
+    "dog",
+    "treats",
+    "soft-chewy-treats"
+  ]
+}

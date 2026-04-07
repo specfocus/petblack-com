@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-71362",
+  "name": "Ethical Pet Fleece Chewman Squeaky Tough Plush Dog Toy",
+  "description": "The Ethical Pet Fleece Chewman Dog Toy is a heavy-textured, natural-colored fleece toy that's sure to get your pup shaking, fetching and rolling. This paw-some toy adds fun and excitement to any playtime, and the nubby texture makes it appealing to gentle chewers. A hidden squeaker gets (and holds!) your pup's attention.",
+  "image": "",
+  "sku": "chewy-71362",
+  "brand": {
+    "@type": "Brand",
+    "name": "Ethical Pet"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 8.74,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 3.7364,
+    "reviewCount": 110
+  },
+  "keywords": [
+    "dog-toy",
+    "dog",
+    "toys",
+    "plush-toys",
+    "stuffed-toys"
+  ]
+}

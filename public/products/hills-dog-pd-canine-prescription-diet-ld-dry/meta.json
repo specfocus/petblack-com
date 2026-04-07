@@ -1,0 +1,16 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-dry-food",
+  "url": "https://www.hillspet.co.uk/dog-food/pd-canine-prescription-diet-ld-dry",
+  "foodForm": "dry food",
+  "lifeStage": "-",
+  "flavour": "original",
+  "calories": "4067 kcal/kg (407 kcal/100g)",
+  "moisture": "8.0",
+  "protein": "16.7",
+  "fat": "21.9",
+  "ingredients": "['sunflower_oil', 'flaxseed', 'chicken_broth', 'egg', 'corn', 'soybean']",
+  "category": [
+    "liver-care"
+  ]
+}

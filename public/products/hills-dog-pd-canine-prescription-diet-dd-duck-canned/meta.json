@@ -1,0 +1,16 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-wet-food",
+  "url": "https://www.hillspet.co.uk/dog-food/pd-canine-prescription-diet-dd-duck-canned",
+  "foodForm": "wet food",
+  "lifeStage": "-",
+  "flavour": "duck",
+  "calories": "388 kcal (370 g) can",
+  "moisture": "74.0",
+  "protein": "5.1",
+  "fat": "5.2",
+  "ingredients": "['carrot', 'sunflower_oil', 'duck', 'rice']",
+  "category": [
+    "skin-health"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-76334",
+  "name": "Friskies Tasty Treasures Pate Liver & Beef Wet Cat Food",
+  "description": "Friskies Tasty Treasures Pate Beef & Liver Dinner Canned Cat Food is like a treasure find for your kitty’s taste buds! This whisker-licking recipe features real beef, and is packed with everything your cat needs to fuel all those furry adventures - like protein, antioxidants and healthy omegas. The formula is also enhanced with vitamins, minerals and essential taurine for nose-to-tail well-being in every bite. Plus, it provides moisture to help keep your pal hydrated and support urinary health. So open up the easy pull tab and turn mealtime into yum time.",
+  "image": "",
+  "sku": "chewy-76334",
+  "brand": {
+    "@type": "Brand",
+    "name": "Friskies"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 19.92,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 3.9902,
+    "reviewCount": 204
+  },
+  "keywords": [
+    "cat-wet-food",
+    "cat",
+    "food",
+    "wet-food"
+  ]
+}

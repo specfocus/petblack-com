@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-174414",
+  "name": "Carhartt Shock-Absorbing Dog Leash",
+  "description": "Keep your furry friend safe and secure with the Carhartt Shock-Absorbing Dog Leash. This leash is made of durable nylon webbing with duck canvas weave and has an elastic shock control zone that eases static jolting to you and your pup. It features a metal trigger claw clasp and an extra gated clip for multiple attachment options. The slotted metal D-ring can move up and down the leash for convenience. This leash is also visible in low light situations as the webbing has reflective triple needle stitch. Get your paw-tner out and about with the Carhartt Shock-Absorbing Dog Leash.",
+  "image": "",
+  "sku": "chewy-174414",
+  "brand": {
+    "@type": "Brand",
+    "name": "Carhartt"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 34.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 3.8,
+    "reviewCount": 5
+  },
+  "keywords": [
+    "dog-accessory",
+    "dog",
+    "leashes-collars-harnesses",
+    "leashes",
+    "standard"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-153158",
+  "name": "Frisco Pineapple Polyester Breakaway Cat Collar with Bell",
+  "description": "Sightseeing around the backyard or taking in the great indoors? Whether your cat goes outside or is indoor only, this breakaway collar combines comfort and safety for every kitty. It’s made with high-quality polyester webbing and has sturdy plastic hardware with rounded edges that don’t poke, a metal ring for an ID tag, and a quick-release breakaway buckle. It clips in easily and stays on securely, but comes off quickly if the collar is pulled. Cats can explore with confidence thanks to this kitty safety mechanism, since it allows the collar to come undone if it gets snagged on a branch, furniture or other hazard. Choose from various adjustable sizes and fashion-forward prints.",
+  "image": "",
+  "sku": "chewy-153158",
+  "brand": {
+    "@type": "Brand",
+    "name": "Frisco"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 9.21,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.02,
+    "reviewCount": 100
+  },
+  "keywords": [
+    "cat-accessory",
+    "cat",
+    "leashes-collars-harnesses",
+    "collars"
+  ]
+}

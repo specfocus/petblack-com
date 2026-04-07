@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "hills-dog-pd-canine-gastrointestinal-biome-with-chicken-canned",
+  "name": "gastrointestinal biome wet dog food with chicken",
+  "description": "your dog’s digestive health can be negatively affected by many things and when your dog has digestive upset, it’s a thoroughly unpleasant experience for everyone involved. the good news is that you can help your dog feel better with a food that revolutionises the way to approach fibre-responsive gi issues by putting microbiome health – the unique gut ecosystem of your pet - at the forefront of gi care. hill’s nutritionists and veterinarians formulated prescription diet gastrointestinal biome wet dog food with activbiome+ technology, a proprietary blend of prebiotics, clinically shown to help f",
+  "image": "",
+  "sku": "hills-dog-pd-canine-gastrointestinal-biome-with-chicken-canned",
+  "brand": {
+    "@type": "Brand",
+    "name": "Hill's Pet Nutrition"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "GBP",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "dog-wet-food",
+    "digestive-care",
+    "protein-5.1pct",
+    "-",
+    "with-chicken"
+  ]
+}

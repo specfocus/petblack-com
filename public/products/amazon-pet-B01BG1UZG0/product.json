@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B01BG1UZG0",
+  "name": "Smiling Paws Pets Cat Litter Mat, BPA Free, XL Size 35\" x23.5\", Non-Slip - Tear & Scratch Proof, Easy to Clean Kitty Litter Catcher with Scatter Control (Extra Large Brown)",
+  "description": "The Last Litter Mat You'll Ever Buy. Say Goodbye To Messy Homes With This Big Cat Litter Mat! No More Scattered Litter!Cat owners agree over the frustration of constantly cleaning the litter scatter around the house, not to mention the smell and discomfort of stepping on it. The Smiling Paws xtra large washable Litter Mat with ultra soft plastic fibers and TM 9 catcher technology will capture any excess litter stuck on your cat's paws when stepped on, leaving your house clean and smell free.Extra Large Cat Litter Mat For Maximum CoverageCats don't deliberately cause a mess around their litter ",
+  "image": "https://m.media-amazon.com/images/I/41CSEEfd2tL._SS522_.jpg",
+  "sku": "amazon-pet-B01BG1UZG0",
+  "brand": {
+    "@type": "Brand",
+    "name": "Smiling Paws Pets"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 1.949,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "cat-accessory",
+    "pet-supplies",
+    "cats",
+    "litter-housebreaking",
+    "litter"
+  ]
+}

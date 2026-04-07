@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5131378",
+  "name": "API® Marine Melafix",
+  "description": "API&reg; Marine Melafix",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5131378",
+  "brand": {
+    "@type": "Brand",
+    "name": "API"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 11.59,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 5,
+    "reviewCount": 1
+  },
+  "keywords": [
+    "fish-food",
+    "fish",
+    "food-and-care",
+    "salt-water-aquarium-care",
+    "api-marine-melafix-25991-html"
+  ]
+}

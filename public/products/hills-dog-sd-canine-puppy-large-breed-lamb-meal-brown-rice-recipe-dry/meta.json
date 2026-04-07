@@ -1,0 +1,17 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-dry-food",
+  "url": "https://www.hillspet.com/dog-food/sd-canine-puppy-large-breed-lamb-meal-brown-rice-recipe-dry",
+  "foodForm": "dry food",
+  "lifeStage": "puppy",
+  "breedSize": "large",
+  "flavour": "lamb meal & brown rice recipe",
+  "calories": "3742 kcal/kg 382 kcal/cup†",
+  "moisture": "0.0",
+  "protein": "27.9",
+  "fat": "17.8",
+  "ingredients": "['lactic_acid', 'oat', 'lamb', 'soybean', 'brown_rice', 'salt', 'flaxseed', 'fish_oil', 'egg', 'ground_pecan_shell', 'barley', 'chicken_fat', 'green_pea', 'beet', 'citrus', 'soybean_oil', 'rice', 'wheat', 'cranberry']",
+  "category": [
+    "puppy-care"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "hills-dog-sd-canine-adult-6-plus-large-breed-dry",
+  "name": "adult 6+ large breed chicken meal, barley & rice recipe dog food",
+  "description": "hill's science diet large breed adult 6+ dry dog food is formulated for specific aging needs of large breed dogs. provides easy-to-digest nutrition with a synergistic blend of ingredients to help support energy & activity level. natural sources of glucosamine & chondroitin for joint health balanced minerals for heart & kidney health omega-6s & vitamin e for beautiful skin & coat",
+  "image": "",
+  "sku": "hills-dog-sd-canine-adult-6-plus-large-breed-dry",
+  "brand": {
+    "@type": "Brand",
+    "name": "Hill's Pet Nutrition"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "GBP",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "dog-dry-food",
+    "aging-care",
+    "protein-18.7pct",
+    "senior",
+    "large-breed",
+    "chicken-meal-barley-rice-recipe"
+  ]
+}

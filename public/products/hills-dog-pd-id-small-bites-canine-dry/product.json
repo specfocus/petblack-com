@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "hills-dog-pd-id-small-bites-canine-dry",
+  "name": "i/d small bites dry dog food",
+  "description": "hill's prescription diet i/d small bitesdry dog food is great tasting nutrition for small dogs clinically proven to help settle digestive upsets. 높은 소화율, 원활한 영양소 흡수 지원 독자적인 프리바이오틱스 포뮬러으로 장내 유익균 활성화 풍부한 전해질과 비타민 b; 임상적으로 입증된 항산화제",
+  "image": "",
+  "sku": "hills-dog-pd-id-small-bites-canine-dry",
+  "brand": {
+    "@type": "Brand",
+    "name": "Hill's Pet Nutrition"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "GBP",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "dog-dry-food",
+    "digestive-care",
+    "protein-26.7pct",
+    "-",
+    "chicken-flavor"
+  ]
+}

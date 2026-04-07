@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B07WD8LHLX",
+  "name": "Bird Carrier Parrot Travel Bag Toy Breathable Outgoing Bag for Budgie Parakeet Cockatiel Conure Lovebird Finch Canary African Grey Amazon Hamster Rat Chinchilla Guinea Pig Squirrel Ferret",
+  "description": "Package Included:1 x Carrier Bag  2 x Removable Pads",
+  "image": "https://m.media-amazon.com/images/I/513bDaU7IxL._SS522_.jpg",
+  "sku": "amazon-pet-B07WD8LHLX",
+  "brand": {
+    "@type": "Brand",
+    "name": "Keersi"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 1.699,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "bird-toy",
+    "pet-supplies",
+    "birds",
+    "birdcage-accessories",
+    "nests"
+  ]
+}

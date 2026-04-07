@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B09JGK3HFD",
+  "name": "VOUVOU Large Capacity Hay Storage Bag with Zip Portable Handles Portable Waterproof Horse Feeder Bag Livestock Hay Bags for Horses Goat 41 x 18 Inch",
+  "description": "Description: Large capacity hay storage bag saving time and effort to refill the bag over and over. A hay bag is very necessary to have as it helps ease waste by keeping hay contained and off the ground, making the stable tidied up.  Feature: [Large Capacity]Easy to fill with an extra-large opening at the top, good large size that holds plenty of hay. [Good Ventilation]The hay bale cover bag can keep hay dry and product ventilation. Keep livestock's food in good dry condition. [Easy to Hanging]Comes with a sturdy hanging strap on top which makes it easy to hang anywhere, whether it's in stable",
+  "image": "https://m.media-amazon.com/images/I/41964mcVurL._SS522_.jpg",
+  "sku": "amazon-pet-B09JGK3HFD",
+  "brand": {
+    "@type": "Brand",
+    "name": "VOUVOU"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 5.49,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "keywords": [
+    "farm-animal-food",
+    "pet-supplies",
+    "cats",
+    "feeding-watering-supplies",
+    "nursing-supplies"
+  ]
+}

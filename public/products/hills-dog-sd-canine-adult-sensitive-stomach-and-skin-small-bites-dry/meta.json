@@ -1,0 +1,17 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-dry-food",
+  "url": "https://www.hillspet.com/dog-food/sd-canine-adult-sensitive-stomach-and-skin-small-bites-dry",
+  "foodForm": "dry food",
+  "lifeStage": "-",
+  "flavour": "chicken & barley recipe",
+  "calories": "3756 kcal/kg 394 kcal/cup†",
+  "moisture": "0.0",
+  "protein": "25.0",
+  "fat": "16.8",
+  "ingredients": "['barley', 'salt', 'yellow_pea', 'flaxseed', 'brown_rice', 'chicken_meal', 'lactic_acid', 'beet', 'soybean_oil', 'rice', 'egg', 'chicken', 'chicken_fat', 'whole_grain_sorghum']",
+  "category": [
+    "skin-health",
+    "food-sensitivity"
+  ]
+}

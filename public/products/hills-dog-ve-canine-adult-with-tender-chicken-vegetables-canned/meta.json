@@ -1,0 +1,16 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-wet-food",
+  "url": "https://www.hillspet.co.uk/dog-food/ve-canine-adult-with-tender-chicken-vegetables-canned",
+  "foodForm": "wet food",
+  "lifeStage": "adult",
+  "flavour": "with tender chicken & vegetables",
+  "calories": "292 kcal (363 g) can",
+  "moisture": "74.0",
+  "protein": "6.3",
+  "fat": "3.3",
+  "ingredients": "['carrot', 'brown_rice', 'flaxseed', 'green_pea', 'potato', 'sugar', 'chicken_broth', 'rice', 'pork', 'spinach', 'chicken']",
+  "category": [
+    "adult-care"
+  ]
+}

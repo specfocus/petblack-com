@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-252188",
+  "name": "biOrb Aquarium Maintenance Kit",
+  "description": "Keep your homeboys happy and healthy with the biOrb Aquarium Maintenance Kit. This maintenance kit for biOrb aquariums is ideal for keeping your water column clear and healthy. It includes two full service kits, each with a filter, sponge, charcoal, water stabilizers and water conditioners. This aquarium cleaning kit also includes six acrylic-safe cleaning pads to wipe away spots, a replacement air stone for prime oxygenation, water optimizer for partial water changes and a high gloss polish with a cleaning cloth for the outside of the tank.",
+  "image": "https://image.chewy.com/is/image/catalog/252188_MAIN._AC_SS500_V1601694095_.jpg",
+  "sku": "chewy-252188",
+  "brand": {
+    "@type": "Brand",
+    "name": "biOrb"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 37.73,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "keywords": [
+    "fish-accessory",
+    "fish",
+    "water-care",
+    "water-conditioners"
+  ]
+}

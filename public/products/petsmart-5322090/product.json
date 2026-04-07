@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5322090",
+  "name": "Arm & Hammer Pro Clean Dental Kit",
+  "description": "Arm &amp; Hammer Pro Clean Dental Kit",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5322090",
+  "brand": {
+    "@type": "Brand",
+    "name": "Arm &amp; Hammer"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 15.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 2,
+    "reviewCount": 1
+  },
+  "keywords": [
+    "dog-health",
+    "dog",
+    "dental-care-and-wellness",
+    "dental-care"
+  ]
+}

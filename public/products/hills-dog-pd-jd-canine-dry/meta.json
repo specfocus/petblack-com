@@ -1,0 +1,16 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-dry-food",
+  "url": "https://www.hillspet.com/dog-food/pd-jd-canine-dry",
+  "foodForm": "dry food",
+  "lifeStage": "-",
+  "flavour": "chicken flavor",
+  "calories": "3670 kcal/kg 364 kcal/cup†",
+  "moisture": "0.0",
+  "protein": "20.0",
+  "fat": "15.9",
+  "ingredients": "['salt', 'flaxseed', 'chicken_meal', 'lactic_acid', 'fish_oil', 'wheat', 'corn', 'chicken_fat']",
+  "category": [
+    "musculoskeletal-and-joint-care"
+  ]
+}

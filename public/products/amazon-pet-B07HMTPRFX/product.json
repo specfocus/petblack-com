@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B07HMTPRFX",
+  "name": "iiLio Best Antifungal Drybath for Small Pets (200ml) (Mouse, Rat, Rabbit, Hamster, Guinea Pigs)",
+  "description": "About the Brand - \"iiLio\" iiLio is among Top-selling brand in Pet products and are known for their quality and care. We offer widest range of Pet products including shampoos, Deos and other hygiene related specifically formulated products for your small furry friends.   About the Product - \"iiLio Dry bath shampoo For Small pets\"(mouse, rat, rabbit, hamster, guinea pigs) 1.SPECIALLY MADAE FOR SMALL PETS: Small pets are known for their cleanliness , but still certain bacteria and parasites manages to survive and thrive in its fur.  2.A PRACTICAL SOLUTION - Easy to use, Vet’s Best Waterless Small",
+  "image": "https://m.media-amazon.com/images/I/31J6uvUlytL._SS522_.jpg",
+  "sku": "amazon-pet-B07HMTPRFX",
+  "brand": {
+    "@type": "Brand",
+    "name": "Visit the iiLio Store"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 280,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "keywords": [
+    "small-pet-accessory",
+    "pet-supplies",
+    "small-animals",
+    "health-supplies"
+  ]
+}

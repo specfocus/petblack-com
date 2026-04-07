@@ -1,0 +1,17 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-dry-food",
+  "url": "https://www.hillspet.co.uk/dog-food/pd-canine-prescription-diet-zd-mini-original-dry",
+  "foodForm": "dry food",
+  "lifeStage": "-",
+  "breedSize": "small",
+  "flavour": "original",
+  "calories": "3534 kcal/kg (353 kcal/100g)",
+  "moisture": "8.0",
+  "protein": "17.6",
+  "fat": "14.4",
+  "ingredients": "['carrot', 'flaxseed', 'apple', 'fish_oil', 'hydrolyzed_chicken_liver', 'corn']",
+  "category": [
+    "food-sensitivity"
+  ]
+}

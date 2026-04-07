@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5320572",
+  "name": "High Tech Pet® Wi-Fi Enabled Smartphone Controlled Electronic Patio Dog & Cat Door, Regular",
+  "description": "High Tech Pet&reg; Wi-Fi Enabled Smartphone Controlled Electronic Patio Dog &amp; Cat Door, Regular",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5320572",
+  "brand": {
+    "@type": "Brand",
+    "name": "High Tech Pet"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 799.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "dog-accessory",
+    "dog",
+    "crates-gates-and-containment",
+    "dog-doors-and-gates"
+  ]
+}

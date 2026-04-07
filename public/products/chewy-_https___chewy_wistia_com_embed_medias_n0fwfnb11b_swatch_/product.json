@@ -1,0 +1,18 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-'https://chewy.wistia.com/embed/medias/n0fwfnb11b/swatch'",
+  "name": "'https://image.chewy.com/is/image/catalog/146633_PT1._AC_SS500_V1602033367_.jpg'",
+  "description": "'https://image.chewy.com/is/image/catalog/146633_PT1._AC_SS500_V1602033367_.jpg'",
+  "image": "",
+  "sku": "chewy-'https://chewy.wistia.com/embed/medias/n0fwfnb11b/swatch'",
+  "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "other-pet"
+  ]
+}

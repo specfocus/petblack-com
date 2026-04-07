@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B0B63VR9V9",
+  "name": "Rabbit Hay Feeder Bag Guinea Hay Feeder Storage Small s Hanging Feeg Bag with Easy Carry Strap 600D Ox Fabric for Rabbit Bunny Chinchilla",
+  "description": "Hanging hay feeder bag makes your ts in oer while eating and keeping your t cage clean.  Scifications: Material: 600D Ox Fabric Color: Black / Green / Purple (Optional) Item Size: 23 * 3 * 28 / 9.1 * 1.2 * 11.0in Package Size: 30 * 26 * 1 / 11.8 * 10.2 * 0.4in Package Weight: 150g / 5.29oz  Package List: 1 * Feeder Bag",
+  "image": "https://m.media-amazon.com/images/I/31nGaAul5QL._SS522_.jpg",
+  "sku": "amazon-pet-B0B63VR9V9",
+  "brand": {
+    "@type": "Brand",
+    "name": "AIXING"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 2.632,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "small-pet-food",
+    "pet-supplies",
+    "small-animals",
+    "food"
+  ]
+}

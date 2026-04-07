@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5323254",
+  "name": "Ark Naturals Protection + Brushless Toothpaste 5 in 1 Large Dog Dental Treats",
+  "description": "Ark Naturals Protection + Brushless Toothpaste 5 in 1 Large Dog Dental Treats",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5323254",
+  "brand": {
+    "@type": "Brand",
+    "name": "Ark Naturals"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 54.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 5,
+    "reviewCount": 1
+  },
+  "keywords": [
+    "dog-health",
+    "dog",
+    "treats",
+    "dental-treats"
+  ]
+}

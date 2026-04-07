@@ -1,0 +1,24 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "hills-pd-canine-prescription-diet-ld-dry",
+  "name": "l/d Dry Dog Food Original",
+  "description": "The liver is your dog's largest internal organ with many functions, including metabolising and conversion of nutrients, the removal of toxic substances from the blood and the storage of vitamins and minerals. The liver has an amazing ability to repair and regenerate itself, and nutrition plays a vital role in this process. Hill's nutritionists and veterinarians developed Prescription Diet l/d , clinical nutrition to support liver health and help protect vital liver function",
+  "image": "",
+  "sku": "hills-pd-canine-prescription-diet-ld-dry",
+  "brand": {
+    "@type": "Brand",
+    "name": "Hill's Pet Nutrition"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "GBP",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "dog-dry-food",
+    "dog",
+    "liver-care"
+  ]
+}

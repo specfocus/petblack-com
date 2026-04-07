@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "hills-dog-pd-canine-prescription-diet-bd-dry",
+  "name": "b/d brain ageing care dry dog food with chicken bag",
+  "description": "as dogs age, many may begin to display undesireable behaviours such as house soiling, disrupted sleep patterns, forgetfullness, and even a decrease in social interaction. these behaviour changes are often surprising and unnerving to their owners. but, helping your dog can be as easy as feeding the right nutrition early and consistently. hill's prescription diet b/d dry dog food is clinically proven nutrition to help fortify their brain against the effects of age-related decline and improve age-related behaviours in older dogs.",
+  "image": "",
+  "sku": "hills-dog-pd-canine-prescription-diet-bd-dry",
+  "brand": {
+    "@type": "Brand",
+    "name": "Hill's Pet Nutrition"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "GBP",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "dog-dry-food",
+    "nervous-system-care-and-stress",
+    "aging-care",
+    "protein-17.3pct",
+    "-",
+    "with-chicken"
+  ]
+}

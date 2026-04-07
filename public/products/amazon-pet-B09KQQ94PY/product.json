@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B09KQQ94PY",
+  "name": "RvPaws Interactive Rolly Polly Tumbler Cat Toy Kitten Toys, Cat Tumblar Toy (Color May Vary)",
+  "description": "Interactive Tumbler Pet Cat Ball Toy with Color Feather. Made of high quality plastic, decor with color feather, attracts your cat. A small bell in the tumbler ball, while the bell is not too loud and that would attract cats to it. Interactive toy, provides your cat with lots of fun. Nice bright colors and easy to store away if not in use. Safety material,using PP plastic,be free from other substances noxious to health,safe to use.The plastic is thick and durable.Main Material:plastic Note: Due to the difference between different monitors,the picture may not reflect the actual color of the ite",
+  "image": "https://m.media-amazon.com/images/I/41o-4Lc-enL._SS522_.jpg",
+  "sku": "amazon-pet-B09KQQ94PY",
+  "brand": {
+    "@type": "Brand",
+    "name": "Visit the RvPaws Store"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 399,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "cat-toy",
+    "pet-supplies",
+    "cats",
+    "toys",
+    "feather-toys"
+  ]
+}

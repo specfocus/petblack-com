@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5317015",
+  "name": "Transcend 6 ml Vial",
+  "description": "Transcend 6 ml Vial",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5317015",
+  "brand": {
+    "@type": "Brand",
+    "name": "Hytryl"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 41.98,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "cat-health",
+    "pharmacy",
+    "cat",
+    "arthritis-and-pain-relief",
+    "transcend-6-ml-vial-66962-html"
+  ]
+}

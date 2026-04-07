@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B09K6P83CY",
+  "name": "CONODIA Natural Wooden chew Play Toy for Parrot Birds",
+  "description": "Made of 100% natural materials with non-toxic compositions.Food grade colour. | Fun toy designed to provide your bird with plenty of mental and physical activity. | Features multiple shapes and colors for your feathered friend to chew on and play with. | Contains wooden blocks with wooden beads and cotton rope in a variety of colors for multiple textures. | SIZE-- 10 INCH LENGTH.",
+  "image": "https://m.media-amazon.com/images/I/312C7MaxrdL._SS522_.jpg",
+  "sku": "amazon-pet-B09K6P83CY",
+  "brand": {
+    "@type": "Brand",
+    "name": "CONODIA"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 300,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "bird-toy",
+    "pet-supplies",
+    "birds",
+    "toys"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-639406",
+  "name": "PureBites Chicken Freeze Dried Topper for Dogs",
+  "description": "Packed with protein, the PureBites Topper Chicken Recipe Dog Freeze Dried Food is a paw-fect limited ingredient dog food, mixer or topper for your furbaby. It’s made with just 19 simple human-grade ingredients, and you can read, pronounce and trust every one of them. This food includes pure chicken, carrot and apple and essential vitamins, minerals and natural preservatives, so it’s su-paw tasty and healthy. It’s free of bad stuff like artificial colors, fillers and sweeteners. Sourced and made right here in the USA, the food is delicately freeze dried, helping to preserve its fresh, raw nutrition while locking in the delicious taste. This food offers many of the benefits of raw without the hassle of refrigeration, making it a convenient choice for busy pet parents and their best friends who are always on the go.",
+  "image": "https://image.chewy.com/is/image/catalog/639406_MAIN._AC_SS500_V1677537331_.jpg",
+  "sku": "chewy-639406",
+  "brand": {
+    "@type": "Brand",
+    "name": "PureBites"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 7.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 5,
+    "reviewCount": 2
+  },
+  "keywords": [
+    "dog-wet-food",
+    "dog",
+    "food",
+    "premium-food",
+    "freeze-dried-food"
+  ]
+}

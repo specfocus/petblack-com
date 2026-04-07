@@ -1,0 +1,16 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-dry-food",
+  "url": "https://www.hillspet.co.uk/dog-food/pd-canine-prescription-diet-metabolic-lamb-and-rice-dry",
+  "foodForm": "dry food",
+  "lifeStage": "-",
+  "flavour": "with lamb & rice",
+  "calories": "3110 kcal/kg (311 kcal/100g)",
+  "moisture": "9.0",
+  "protein": "25.4",
+  "fat": "11.2",
+  "ingredients": "['carrot', 'sunflower_oil', 'flaxseed', 'rice', 'lamb']",
+  "category": [
+    "weight-management"
+  ]
+}

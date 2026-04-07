@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5271454",
+  "name": "Brown's® Tropical Carnival® Natural Orange Slices Small Animal Treat",
+  "description": "Brown's&reg; Tropical Carnival&reg; Natural Orange Slices Small Animal Treat",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5271454",
+  "brand": {
+    "@type": "Brand",
+    "name": "Brown's"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 5.39,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4,
+    "reviewCount": 1
+  },
+  "keywords": [
+    "small-pet-food",
+    "small-pet",
+    "food-treats-and-hay",
+    "treats"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5124258",
+  "name": "Dr. Elsey's Precious Cat Crystal Multi-Cat Silica Cat Litter",
+  "description": "Dr. Elsey's Precious Cat Crystal Multi-Cat Silica Cat Litter",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5124258",
+  "brand": {
+    "@type": "Brand",
+    "name": "Dr. Elsey's"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 23.49,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.1471,
+    "reviewCount": 34
+  },
+  "keywords": [
+    "cat-accessory",
+    "cat",
+    "litter-and-waste-disposal",
+    "litter"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-295188",
+  "name": "Mobile Dog Gear Weekender Personalized Dog Backpack",
+  "description": "Designed to hold just about everything a dog could need, your furry family will fall in love with the Mobile Dog Gear Personalized Weekender Backpack! This bag comes with two food containers, two silicone bowls, and a placemat for super easy on-the-go dinners. The side pockets, large main section, waste bag pocket, and padded straps make it a convenient choice for pet parents. Best of all, the sturdy polyester build will keep the backpack from tearing, so you can enjoy it for years to come! Customize with up to 12 screen-printed characters in multiple fonts and colors.",
+  "image": "https://image.chewy.com/is/image/catalog/295188_MAIN._AC_SS500_V1622812953_.jpg",
+  "sku": "chewy-295188",
+  "brand": {
+    "@type": "Brand",
+    "name": "Mobile Dog Gear"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 108.88,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "dog-dry-food",
+    "dog",
+    "carriers-travel",
+    "travel-bowls-bags"
+  ]
+}

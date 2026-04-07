@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5317291",
+  "name": "Neo Poly Dex Ophthalmic Ointment, 3.5 g",
+  "description": "Neo Poly Dex Ophthalmic Ointment, 3.5 g",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5317291",
+  "brand": {
+    "@type": "Brand",
+    "name": "Sandoz"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 12.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "dog-health",
+    "pharmacy",
+    "dog",
+    "ear-and-eye-care"
+  ]
+}

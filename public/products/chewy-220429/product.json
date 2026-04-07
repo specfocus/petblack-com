@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-220429",
+  "name": "Exotic Nutrition Critter Selects Hedgie Bugs & Veggies Hedgehog Treats, 2.75-oz bag",
+  "description": "Feed your hedgie’s love of veggies with Exotic Nutrition Critter Selects Hedgie Bugs & Veggies Hedgehog Treats. These dehydrated treats are formulated using a blend of your little buddy’s favorite foods. They feature a nutritious mix of dried mealworms, dried crickets, peas, carrots and apples that can be sprinkled on food or placed in a foraging toy for increased exercise and stimulation. These veggie treats are packaged in the USA and designed to help keep your companion’s daily diet from becoming monotonous.",
+  "image": "",
+  "sku": "chewy-220429",
+  "brand": {
+    "@type": "Brand",
+    "name": "Exotic Nutrition"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 4.79,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 3.8,
+    "reviewCount": 15
+  },
+  "keywords": [
+    "small-pet-food",
+    "small-pet",
+    "shop-by-small-pet",
+    "hedgehog",
+    "treats"
+  ]
+}

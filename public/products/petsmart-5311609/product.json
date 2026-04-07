@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5311609",
+  "name": "Armarkat  Beige & Ivory Snowy Velvet Pillow Dog Bed",
+  "description": "Armarkat  Beige &amp; Ivory Snowy Velvet Pillow Dog Bed",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5311609",
+  "brand": {
+    "@type": "Brand",
+    "name": "Armarkat"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 65.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 3,
+    "reviewCount": 2
+  },
+  "keywords": [
+    "dog-accessory",
+    "dog",
+    "beds-and-furniture",
+    "pillow-beds"
+  ]
+}

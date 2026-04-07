@@ -1,0 +1,12 @@
+{
+  "source": "petsmart",
+  "url": "https://www.petsmart.com/cat/food-and-treats/wet-food/hills-science-diet-adult-wet-cat-food---minced-5.5-oz-12820.html",
+  "breadcrumb": "cat > food-and-treats > wet-food > hills-science-diet-adult-wet-cat-food---minced-5.5-oz-12820.html",
+  "bucket": "cat-wet-food",
+  "gtin13": "0052742661308",
+  "images": {
+    "large": "https://s7d2.scene7.com/is/image/PetSmart/1021242?$sclp-prd-main_large$",
+    "medium": "https://s7d2.scene7.com/is/image/PetSmart/1021242?$sclp-prd-main_medium$",
+    "small": "https://s7d2.scene7.com/is/image/PetSmart/1021242?$sclp-prd-main_small$"
+  }
+}

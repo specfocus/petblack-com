@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5316842",
+  "name": "Quellin Soft Chewable Tablets - 75 mg",
+  "description": "Quellin Soft Chewable Tablets - 75 mg",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5316842",
+  "brand": {
+    "@type": "Brand",
+    "name": "Quellin"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 109.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "dog-health",
+    "pharmacy",
+    "dog",
+    "arthritis-and-pain-relief"
+  ]
+}

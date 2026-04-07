@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "hills-dog-sd-canine-adult-perfect-weight-small-bites-dry",
+  "name": "adult perfect weight small bites chicken recipe dog food",
+  "description": "weight management dog food in a smaller kibble dry dog food for healthy weight maintenance and long-lasting weight support lean muscle support natural ingredients with added vitamins, minerals and amino acids made in the usa with global ingredients you can trust",
+  "image": "",
+  "sku": "hills-dog-sd-canine-adult-perfect-weight-small-bites-dry",
+  "brand": {
+    "@type": "Brand",
+    "name": "Hill's Pet Nutrition"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "GBP",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "dog-dry-food",
+    "weight-management",
+    "musculoskeletal-and-joint-care",
+    "protein-28.7pct",
+    "-",
+    "chicken-recipe"
+  ]
+}

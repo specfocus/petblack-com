@@ -1,0 +1,2483 @@
+{
+  "_meta": {
+    "source": "datasets4/pets/Canine disease and disorders.csv",
+    "description": "Breed-level inherited disorder data with AKC breed characteristics.",
+    "fields": [
+      "disorder",
+      "disease",
+      "breed",
+      "group",
+      "popularity",
+      "sizeRange",
+      "lifeExpectancy",
+      "traits"
+    ],
+    "usageHints": [
+      "Filter breeds predisposed to specific disorders.",
+      "Use popularity rank for breed search suggestions.",
+      "Pair with product data to recommend breed-specific food/health products."
+    ]
+  },
+  "data": [
+    {
+      "disorder": "Inherited eye disorders",
+      "disease": "Cataracts",
+      "breed": "affenpinscher",
+      "group": "Toy Group",
+      "popularity": 148,
+      "sizeRange": {
+        "minHeight_cm": 22.86,
+        "maxHeight_cm": 29.21,
+        "minWeight_kg": 3.17514659,
+        "maxWeight_kg": 4.5359237
+      },
+      "lifeExpectancy": {
+        "min": 12,
+        "max": 15
+      },
+      "traits": {
+        "temperament": "Confident, Famously Funny, Fearless",
+        "energyLevel": "Regular Exercise",
+        "trainability": "Easy Training",
+        "demeanor": "Outgoing",
+        "shedding": "Seasonal",
+        "grooming": "2-3 Times a Week Brushing"
+      }
+    },
+    {
+      "disorder": "Inherited musculoskeletal disorders",
+      "disease": "Hip dysplasia",
+      "breed": "affenpinscher",
+      "group": "Toy Group",
+      "popularity": 148,
+      "sizeRange": {
+        "minHeight_cm": 22.86,
+        "maxHeight_cm": 29.21,
+        "minWeight_kg": 3.17514659,
+        "maxWeight_kg": 4.5359237
+      },
+      "lifeExpectancy": {
+        "min": 12,
+        "max": 15
+      },
+      "traits": {
+        "temperament": "Confident, Famously Funny, Fearless",
+        "energyLevel": "Regular Exercise",
+        "trainability": "Easy Training",
+        "demeanor": "Outgoing",
+        "shedding": "Seasonal",
+        "grooming": "2-3 Times a Week Brushing"
+      }
+    },
+    {
+      "disorder": "Inherited endocrine disorders",
+      "disease": "Hypothyroidism",
+      "breed": "afghan hound",
+      "group": "Hound Group",
+      "popularity": 113,
+      "sizeRange": {
+        "minHeight_cm": 63.5,
+        "maxHeight_cm": 68.58,
+        "minWeight_kg": 22.6796185,
+        "maxWeight_kg": 27.2155422
+      },
+      "lifeExpectancy": {
+        "min": 12,
+        "max": 15
+      },
+      "traits": {
+        "temperament": "Dignified, Profoundly Loyal, Aristocratic",
+        "energyLevel": "Energetic",
+        "trainability": "May be Stubborn",
+        "demeanor": "Aloof/Wary",
+        "shedding": "Infrequent",
+        "grooming": "Daily Brushing"
+      }
+    },
+    {
+      "disorder": "Inherited eye disorders",
+      "disease": "Cataracts",
+      "breed": "afghan hound",
+      "group": "Hound Group",
+      "popularity": 113,
+      "sizeRange": {
+        "minHeight_cm": 63.5,
+        "maxHeight_cm": 68.58,
+        "minWeight_kg": 22.6796185,
+        "maxWeight_kg": 27.2155422
+      },
+      "lifeExpectancy": {
+        "min": 12,
+        "max": 15
+      },
+      "traits": {
+        "temperament": "Dignified, Profoundly Loyal, Aristocratic",
+        "energyLevel": "Energetic",
+        "trainability": "May be Stubborn",
+        "demeanor": "Aloof/Wary",
+        "shedding": "Infrequent",
+        "grooming": "Daily Brushing"
+      }
+    },
+    {
+      "disorder": "Inherited eye disorders",
+      "disease": "Retinal dysplasia",
+      "breed": "afghan hound",
+      "group": "Hound Group",
+      "popularity": 113,
+      "sizeRange": {
+        "minHeight_cm": 63.5,
+        "maxHeight_cm": 68.58,
+        "minWeight_kg": 22.6796185,
+        "maxWeight_kg": 27.2155422
+      },
+      "lifeExpectancy": {
+        "min": 12,
+        "max": 15
+      },
+      "traits": {
+        "temperament": "Dignified, Profoundly Loyal, Aristocratic",
+        "energyLevel": "Energetic",
+        "trainability": "May be Stubborn",
+        "demeanor": "Aloof/Wary",
+        "shedding": "Infrequent",
+        "grooming": "Daily Brushing"
+      }
+    },
+    {
+      "disorder": "Inherited eye disorders",
+      "disease": "Corneal dystrophy",
+      "breed": "afghan hound",
+      "group": "Hound Group",
+      "popularity": 113,
+      "sizeRange": {
+        "minHeight_cm": 63.5,
+        "maxHeight_cm": 68.58,
+        "minWeight_kg": 22.6796185,
+        "maxWeight_kg": 27.2155422
+      },
+      "lifeExpectancy": {
+        "min": 12,
+        "max": 15
+      },
+      "traits": {
+        "temperament": "Dignified, Profoundly Loyal, Aristocratic",
+        "energyLevel": "Energetic",
+        "trainability": "May be Stubborn",
+        "demeanor": "Aloof/Wary",
+        "shedding": "Infrequent",
+        "grooming": "Daily Brushing"
+      }
+    },
+    {
+      "disorder": "Inherited eye disorders",
+      "disease": "Glaucoma",
+      "breed": "afghan hound",
+      "group": "Hound Group",
+      "popularity": 113,
+      "sizeRange": {
+        "minHeight_cm": 63.5,
+        "maxHeight_cm": 68.58,
+        "minWeight_kg": 22.6796185,
+        "maxWeight_kg": 27.2155422
+      },
+      "lifeExpectancy": {
+        "min": 12,
+        "max": 15
+      },
+      "traits": {
+        "temperament": "Dignified, Profoundly Loyal, Aristocratic",
+        "energyLevel": "Energetic",
+        "trainability": "May be Stubborn",
+        "demeanor": "Aloof/Wary",
+        "shedding": "Infrequent",
+        "grooming": "Daily Brushing"
+      }
+    },
+    {
+      "disorder": "Inherited eye disorders",
+      "disease": "Progressive retinal atrophy",
+      "breed": "afghan hound",
+      "group": "Hound Group",
+      "popularity": 113,
+      "sizeRange": {
+        "minHeight_cm": 63.5,
+        "maxHeight_cm": 68.58,
+        "minWeight_kg": 22.6796185,
+        "maxWeight_kg": 27.2155422
+      },
+      "lifeExpectancy": {
+        "min": 12,
+        "max": 15
+      },
+      "traits": {
+        "temperament": "Dignified, Profoundly Loyal, Aristocratic",
+        "energyLevel": "Energetic",
+        "trainability": "May be Stubborn",
+        "demeanor": "Aloof/Wary",
+        "shedding": "Infrequent",
+        "grooming": "Daily Brushing"
+      }
+    },
+    {
+      "disorder": "Inherited musculoskeletal disorders",
+      "disease": "Hip dysplasia",
+      "breed": "afghan hound",
+      "group": "Hound Group",
+      "popularity": 113,
+      "sizeRange": {
+        "minHeight_cm": 63.5,
+        "maxHeight_cm": 68.58,
+        "minWeight_kg": 22.6796185,
+        "maxWeight_kg": 27.2155422
+      },
+      "lifeExpectancy": {
+        "min": 12,
+        "max": 15
+      },
+      "traits": {
+        "temperament": "Dignified, Profoundly Loyal, Aristocratic",
+        "energyLevel": "Energetic",
+        "trainability": "May be Stubborn",
+        "demeanor": "Aloof/Wary",
+        "shedding": "Infrequent",
+        "grooming": "Daily Brushing"
+      }
+    },
+    {
+      "disorder": "Inherited skin disorders",
+      "disease": "Demodicosis/ Demodectic mange",
+      "breed": "afghan hound",
+      "group": "Hound Group",
+      "popularity": 113,
+      "sizeRange": {
+        "minHeight_cm": 63.5,
+        "maxHeight_cm": 68.58,
+        "minWeight_kg": 22.6796185,
+        "maxWeight_kg": 27.2155422
+      },
+      "lifeExpectancy": {
+        "min": 12,
+        "max": 15
+      },
+      "traits": {
+        "temperament": "Dignified, Profoundly Loyal, Aristocratic",
+        "energyLevel": "Energetic",
+        "trainability": "May be Stubborn",
+        "demeanor": "Aloof/Wary",
+        "shedding": "Infrequent",
+        "grooming": "Daily Brushing"
+      }
+    },
+    {
+      "disorder": "Inherited blood disorders",
+      "disease": "von Willebrand's disease",
+      "breed": "airedale terrier",
+      "group": "Terrier Group",
+      "popularity": 60,
+      "sizeRange": {
+        "minHeight_cm": 58.42,
+        "maxHeight_cm": 58.42,
+        "minWeight_kg": 22.6796185,
+        "maxWeight_kg": 31.7514659
+      },
+      "lifeExpectancy": {
+        "min": 11,
+        "max": 14
+      },
+      "traits": {
+        "temperament": "Friendly, Clever, Courageous",
+        "energyLevel": "Regular Exercise",
+        "trainability": "Eager to Please",
+        "demeanor": "Friendly",
+        "shedding": "Occasional",
+        "grooming": "2-3 Times a Week Brushing"
+      }
+    },
+    {
+      "disorder": "Inherited cardiovascular disorders",
+      "disease": "Pulmonic stenosis",
+      "breed": "airedale terrier",
+      "group": "Terrier Group",
+      "popularity": 60,
+      "sizeRange": {
+        "minHeight_cm": 58.42,
+        "maxHeight_cm": 58.42,
+        "minWeight_kg": 22.6796185,
+        "maxWeight_kg": 31.7514659
+      },
+      "lifeExpectancy": {
+        "min": 11,
+        "max": 14
+      },
+      "traits": {
+        "temperament": "Friendly, Clever, Courageous",
+        "energyLevel": "Regular Exercise",
+        "trainability": "Eager to Please",
+        "demeanor": "Friendly",
+        "shedding": "Occasional",
+        "grooming": "2-3 Times a Week Brushing"
+      }
+    },
+    {
+      "disorder": "Inherited endocrine disorders",
+      "disease": "Hypothyroidism",
+      "breed": "airedale terrier",
+      "group": "Terrier Group",
+      "popularity": 60,
+      "sizeRange": {
+        "minHeight_cm": 58.42,
+        "maxHeight_cm": 58.42,
+        "minWeight_kg": 22.6796185,
+        "maxWeight_kg": 31.7514659
+      },
+      "lifeExpectancy": {
+        "min": 11,
+        "max": 14
+      },
+      "traits": {
+        "temperament": "Friendly, Clever, Courageous",
+        "energyLevel": "Regular Exercise",
+        "trainability": "Eager to Please",
+        "demeanor": "Friendly",
+        "shedding": "Occasional",
+        "grooming": "2-3 Times a Week Brushing"
+      }
+    },
+    {
+      "disorder": "Inherited eye disorders",
+      "disease": "Entropion",
+      "breed": "airedale terrier",
+      "group": "Terrier Group",
+      "popularity": 60,
+      "sizeRange": {
+        "minHeight_cm": 58.42,
+        "maxHeight_cm": 58.42,
+        "minWeight_kg": 22.6796185,
+        "maxWeight_kg": 31.7514659
+      },
+      "lifeExpectancy": {
+        "min": 11,
+        "max": 14
+      },
+      "traits": {
+        "temperament": "Friendly, Clever, Courageous",
+        "energyLevel": "Regular Exercise",
+        "trainability": "Eager to Please",
+        "demeanor": "Friendly",
+        "shedding": "Occasional",
+        "grooming": "2-3 Times a Week Brushing"
+      }
+    },
+    {
+      "disorder": "Inherited eye disorders",
+      "disease": "Retinal dysplasia",
+      "breed": "airedale terrier",
+      "group": "Terrier Group",
+      "popularity": 60,
+      "sizeRange": {
+        "minHeight_cm": 58.42,
+        "maxHeight_cm": 58.42,
+        "minWeight_kg": 22.6796185,
+        "maxWeight_kg": 31.7514659
+      },
+      "lifeExpectancy": {
+        "min": 11,
+        "max": 14
+      },
+      "traits": {
+        "temperament": "Friendly, Clever, Courageous",
+        "energyLevel": "Regular Exercise",
+        "trainability": "Eager to Please",
+        "demeanor": "Friendly",
+        "shedding": "Occasional",
+        "grooming": "2-3 Times a Week Brushing"
+      }
+    },
+    {
+      "disorder": "Inherited eye disorders",
+      "disease": "Corneal dystrophy",
+      "breed": "airedale terrier",
+      "group": "Terrier Group",
+      "popularity": 60,
+      "sizeRange": {
+        "minHeight_cm": 58.42,
+        "maxHeight_cm": 58.42,
+        "minWeight_kg": 22.6796185,
+        "maxWeight_kg": 31.7514659
+      },
+      "lifeExpectancy": {
+        "min": 11,
+        "max": 14
+      },
+      "traits": {
+        "temperament": "Friendly, Clever, Courageous",
+        "energyLevel": "Regular Exercise",
+        "trainability": "Eager to Please",
+        "demeanor": "Friendly",
+        "shedding": "Occasional",
+        "grooming": "2-3 Times a Week Brushing"
+      }
+    },
+    {
+      "disorder": "Inherited eye disorders",
+      "disease": "Progressive retinal atrophy",
+      "breed": "airedale terrier",
+      "group": "Terrier Group",
+      "popularity": 60,
+      "sizeRange": {
+        "minHeight_cm": 58.42,
+        "maxHeight_cm": 58.42,
+        "minWeight_kg": 22.6796185,
+        "maxWeight_kg": 31.7514659
+      },
+      "lifeExpectancy": {
+        "min": 11,
+        "max": 14
+      },
+      "traits": {
+        "temperament": "Friendly, Clever, Courageous",
+        "energyLevel": "Regular Exercise",
+        "trainability": "Eager to Please",
+        "demeanor": "Friendly",
+        "shedding": "Occasional",
+        "grooming": "2-3 Times a Week Brushing"
+      }
+    },
+    {
+      "disorder": "Inherited musculoskeletal disorders",
+      "disease": "Hip dysplasia",
+      "breed": "airedale terrier",
+      "group": "Terrier Group",
+      "popularity": 60,
+      "sizeRange": {
+        "minHeight_cm": 58.42,
+        "maxHeight_cm": 58.42,
+        "minWeight_kg": 22.6796185,
+        "maxWeight_kg": 31.7514659
+      },
+      "lifeExpectancy": {
+        "min": 11,
+        "max": 14
+      },
+      "traits": {
+        "temperament": "Friendly, Clever, Courageous",
+        "energyLevel": "Regular Exercise",
+        "trainability": "Eager to Please",
+        "demeanor": "Friendly",
+        "shedding": "Occasional",
+        "grooming": "2-3 Times a Week Brushing"
+      }
+    },
+    {
+      "disorder": "Inherited nervous system disorders",
+      "disease": "Cerebellar abiotrophy(ataxia)",
+      "breed": "airedale terrier",
+      "group": "Terrier Group",
+      "popularity": 60,
+      "sizeRange": {
+        "minHeight_cm": 58.42,
+        "maxHeight_cm": 58.42,
+        "minWeight_kg": 22.6796185,
+        "maxWeight_kg": 31.7514659
+      },
+      "lifeExpectancy": {
+        "min": 11,
+        "max": 14
+      },
+      "traits": {
+        "temperament": "Friendly, Clever, Courageous",
+        "energyLevel": "Regular Exercise",
+        "trainability": "Eager to Please",
+        "demeanor": "Friendly",
+        "shedding": "Occasional",
+        "grooming": "2-3 Times a Week Brushing"
+      }
+    },
+    {
+      "disorder": "Inherited eye disorders",
+      "disease": "Cataracts",
+      "breed": "akita",
+      "group": "Working Group",
+      "popularity": 47,
+      "sizeRange": {
+        "minHeight_cm": 60.96,
+        "maxHeight_cm": 71.12,
+        "minWeight_kg": 31.7514659,
+        "maxWeight_kg": 58.9670081
+      },
+      "lifeExpectancy": {
+        "min": 10,
+        "max": 13
+      },
+      "traits": {
+        "temperament": "Courageous, Dignified, Profoundly Loyal",
+        "energyLevel": "Energetic",
+        "trainability": "Eager to Please",
+        "demeanor": "Alert/Responsive",
+        "shedding": "Seasonal",
+        "grooming": "Daily Brushing"
+      }
+    },
+    {
+      "disorder": "Inherited eye disorders",
+      "disease": "Entropion",
+      "breed": "akita",
+      "group": "Working Group",
+      "popularity": 47,
+      "sizeRange": {
+        "minHeight_cm": 60.96,
+        "maxHeight_cm": 71.12,
+        "minWeight_kg": 31.7514659,
+        "maxWeight_kg": 58.9670081
+      },
+      "lifeExpectancy": {
+        "min": 10,
+        "max": 13
+      },
+      "traits": {
+        "temperament": "Courageous, Dignified, Profoundly Loyal",
+        "energyLevel": "Energetic",
+        "trainability": "Eager to Please",
+        "demeanor": "Alert/Responsive",
+        "shedding": "Seasonal",
+        "grooming": "Daily Brushing"
+      }
+    },
+    {
+      "disorder": "Inherited eye disorders",
+      "disease": "Microphthalmia; ocular dysgenesis",
+      "breed": "akita",
+      "group": "Working Group",
+      "popularity": 47,
+      "sizeRange": {
+        "minHeight_cm": 60.96,
+        "maxHeight_cm": 71.12,
+        "minWeight_kg": 31.7514659,
+        "maxWeight_kg": 58.9670081
+      },
+      "lifeExpectancy": {
+        "min": 10,
+        "max": 13
+      },
+      "traits": {
+        "temperament": "Courageous, Dignified, Profoundly Loyal",
+        "energyLevel": "Energetic",
+        "trainability": "Eager to Please",
+        "demeanor": "Alert/Responsive",
+        "shedding": "Seasonal",
+        "grooming": "Daily Brushing"
+      }
+    },
+    {
+      "disorder": "Inherited eye disorders",
+      "disease": "Retinal dysplasia",
+      "breed": "akita",
+      "group": "Working Group",
+      "popularity": 47,
+      "sizeRange": {
+        "minHeight_cm": 60.96,
+        "maxHeight_cm": 71.12,
+        "minWeight_kg": 31.7514659,
+        "maxWeight_kg": 58.9670081
+      },
+      "lifeExpectancy": {
+        "min": 10,
+        "max": 13
+      },
+      "traits": {
+        "temperament": "Courageous, Dignified, Profoundly Loyal",
+        "energyLevel": "Energetic",
+        "trainability": "Eager to Please",
+        "demeanor": "Alert/Responsive",
+        "shedding": "Seasonal",
+        "grooming": "Daily Brushing"
+      }
+    },
+    {
+      "disorder": "Inherited eye disorders",
+      "disease": "Glaucoma",
+      "breed": "akita",
+      "group": "Working Group",
+      "popularity": 47,
+      "sizeRange": {
+        "minHeight_cm": 60.96,
+        "maxHeight_cm": 71.12,
+        "minWeight_kg": 31.7514659,
+        "maxWeight_kg": 58.9670081
+      },
+      "lifeExpectancy": {
+        "min": 10,
+        "max": 13
+      },
+      "traits": {
+        "temperament": "Courageous, Dignified, Profoundly Loyal",
+        "energyLevel": "Energetic",
+        "trainability": "Eager to Please",
+        "demeanor": "Alert/Responsive",
+        "shedding": "Seasonal",
+        "grooming": "Daily Brushing"
+      }
+    },
+    {
+      "disorder": "Inherited eye disorders",
+      "disease": "Progressive retinal atrophy",
+      "breed": "akita",
+      "group": "Working Group",
+      "popularity": 47,
+      "sizeRange": {
+        "minHeight_cm": 60.96,
+        "maxHeight_cm": 71.12,
+        "minWeight_kg": 31.7514659,
+        "maxWeight_kg": 58.9670081
+      },
+      "lifeExpectancy": {
+        "min": 10,
+        "max": 13
+      },
+      "traits": {
+        "temperament": "Courageous, Dignified, Profoundly Loyal",
+        "energyLevel": "Energetic",
+        "trainability": "Eager to Please",
+        "demeanor": "Alert/Responsive",
+        "shedding": "Seasonal",
+        "grooming": "Daily Brushing"
+      }
+    },
+    {
+      "disorder": "Inherited immune disorders",
+      "disease": "Pemphigus",
+      "breed": "akita",
+      "group": "Working Group",
+      "popularity": 47,
+      "sizeRange": {
+        "minHeight_cm": 60.96,
+        "maxHeight_cm": 71.12,
+        "minWeight_kg": 31.7514659,
+        "maxWeight_kg": 58.9670081
+      },
+      "lifeExpectancy": {
+        "min": 10,
+        "max": 13
+      },
+      "traits": {
+        "temperament": "Courageous, Dignified, Profoundly Loyal",
+        "energyLevel": "Energetic",
+        "trainability": "Eager to Please",
+        "demeanor": "Alert/Responsive",
+        "shedding": "Seasonal",
+        "grooming": "Daily Brushing"
+      }
+    },
+    {
+      "disorder": "Inherited musculoskeletal disorders",
+      "disease": "Hip dysplasia",
+      "breed": "akita",
+      "group": "Working Group",
+      "popularity": 47,
+      "sizeRange": {
+        "minHeight_cm": 60.96,
+        "maxHeight_cm": 71.12,
+        "minWeight_kg": 31.7514659,
+        "maxWeight_kg": 58.9670081
+      },
+      "lifeExpectancy": {
+        "min": 10,
+        "max": 13
+      },
+      "traits": {
+        "temperament": "Courageous, Dignified, Profoundly Loyal",
+        "energyLevel": "Energetic",
+        "trainability": "Eager to Please",
+        "demeanor": "Alert/Responsive",
+        "shedding": "Seasonal",
+        "grooming": "Daily Brushing"
+      }
+    },
+    {
+      "disorder": "Inherited skin disorders",
+      "disease": "Pemphigus",
+      "breed": "akita",
+      "group": "Working Group",
+      "popularity": 47,
+      "sizeRange": {
+        "minHeight_cm": 60.96,
+        "maxHeight_cm": 71.12,
+        "minWeight_kg": 31.7514659,
+        "maxWeight_kg": 58.9670081
+      },
+      "lifeExpectancy": {
+        "min": 10,
+        "max": 13
+      },
+      "traits": {
+        "temperament": "Courageous, Dignified, Profoundly Loyal",
+        "energyLevel": "Energetic",
+        "trainability": "Eager to Please",
+        "demeanor": "Alert/Responsive",
+        "shedding": "Seasonal",
+        "grooming": "Daily Brushing"
+      }
+    },
+    {
+      "disorder": "Inherited skin disorders",
+      "disease": "sebaceous adenitis",
+      "breed": "akita",
+      "group": "Working Group",
+      "popularity": 47,
+      "sizeRange": {
+        "minHeight_cm": 60.96,
+        "maxHeight_cm": 71.12,
+        "minWeight_kg": 31.7514659,
+        "maxWeight_kg": 58.9670081
+      },
+      "lifeExpectancy": {
+        "min": 10,
+        "max": 13
+      },
+      "traits": {
+        "temperament": "Courageous, Dignified, Profoundly Loyal",
+        "energyLevel": "Energetic",
+        "trainability": "Eager to Please",
+        "demeanor": "Alert/Responsive",
+        "shedding": "Seasonal",
+        "grooming": "Daily Brushing"
+      }
+    },
+    {
+      "disorder": "Inherited endocrine disorders",
+      "disease": "Diabetes mellitus",
+      "breed": "alaskan malamute",
+      "group": "Working Group",
+      "popularity": 58,
+      "sizeRange": {
+        "minHeight_cm": 58.42,
+        "maxHeight_cm": 63.5,
+        "minWeight_kg": 34.01942775,
+        "maxWeight_kg": 38.55535145
+      },
+      "lifeExpectancy": {
+        "min": 10,
+        "max": 14
+      },
+      "traits": {
+        "temperament": "Affectionate, Loyal, Playful",
+        "energyLevel": "Energetic",
+        "trainability": "Independent",
+        "demeanor": "Friendly",
+        "shedding": "Seasonal",
+        "grooming": "2-3 Times a Week Brushing"
+      }
+    },
+    {
+      "disorder": "Inherited endocrine disorders",
+      "disease": "Hypothyroidism",
+      "breed": "alaskan malamute",
+      "group": "Working Group",
+      "popularity": 58,
+      "sizeRange": {
+        "minHeight_cm": 58.42,
+        "maxHeight_cm": 63.5,
+        "minWeight_kg": 34.01942775,
+        "maxWeight_kg": 38.55535145
+      },
+      "lifeExpectancy": {
+        "min": 10,
+        "max": 14
+      },
+      "traits": {
+        "temperament": "Affectionate, Loyal, Playful",
+        "energyLevel": "Energetic",
+        "trainability": "Independent",
+        "demeanor": "Friendly",
+        "shedding": "Seasonal",
+        "grooming": "2-3 Times a Week Brushing"
+      }
+    },
+    {
+      "disorder": "Inherited eye disorders",
+      "disease": "Cataracts",
+      "breed": "alaskan malamute",
+      "group": "Working Group",
+      "popularity": 58,
+      "sizeRange": {
+        "minHeight_cm": 58.42,
+        "maxHeight_cm": 63.5,
+        "minWeight_kg": 34.01942775,
+        "maxWeight_kg": 38.55535145
+      },
+      "lifeExpectancy": {
+        "min": 10,
+        "max": 14
+      },
+      "traits": {
+        "temperament": "Affectionate, Loyal, Playful",
+        "energyLevel": "Energetic",
+        "trainability": "Independent",
+        "demeanor": "Friendly",
+        "shedding": "Seasonal",
+        "grooming": "2-3 Times a Week Brushing"
+      }
+    },
+    {
+      "disorder": "Inherited eye disorders",
+      "disease": "Corneal dystrophy",
+      "breed": "alaskan malamute",
+      "group": "Working Group",
+      "popularity": 58,
+      "sizeRange": {
+        "minHeight_cm": 58.42,
+        "maxHeight_cm": 63.5,
+        "minWeight_kg": 34.01942775,
+        "maxWeight_kg": 38.55535145
+      },
+      "lifeExpectancy": {
+        "min": 10,
+        "max": 14
+      },
+      "traits": {
+        "temperament": "Affectionate, Loyal, Playful",
+        "energyLevel": "Energetic",
+        "trainability": "Independent",
+        "demeanor": "Friendly",
+        "shedding": "Seasonal",
+        "grooming": "2-3 Times a Week Brushing"
+      }
+    },
+    {
+      "disorder": "Inherited eye disorders",
+      "disease": "Glaucoma",
+      "breed": "alaskan malamute",
+      "group": "Working Group",
+      "popularity": 58,
+      "sizeRange": {
+        "minHeight_cm": 58.42,
+        "maxHeight_cm": 63.5,
+        "minWeight_kg": 34.01942775,
+        "maxWeight_kg": 38.55535145
+      },
+      "lifeExpectancy": {
+        "min": 10,
+        "max": 14
+      },
+      "traits": {
+        "temperament": "Affectionate, Loyal, Playful",
+        "energyLevel": "Energetic",
+        "trainability": "Independent",
+        "demeanor": "Friendly",
+        "shedding": "Seasonal",
+        "grooming": "2-3 Times a Week Brushing"
+      }
+    },
+    {
+      "disorder": "Inherited eye disorders",
+      "disease": "Progressive retinal atrophy",
+      "breed": "alaskan malamute",
+      "group": "Working Group",
+      "popularity": 58,
+      "sizeRange": {
+        "minHeight_cm": 58.42,
+        "maxHeight_cm": 63.5,
+        "minWeight_kg": 34.01942775,
+        "maxWeight_kg": 38.55535145
+      },
+      "lifeExpectancy": {
+        "min": 10,
+        "max": 14
+      },
+      "traits": {
+        "temperament": "Affectionate, Loyal, Playful",
+        "energyLevel": "Energetic",
+        "trainability": "Independent",
+        "demeanor": "Friendly",
+        "shedding": "Seasonal",
+        "grooming": "2-3 Times a Week Brushing"
+      }
+    },
+    {
+      "disorder": "Inherited musculoskeletal disorders",
+      "disease": "Hip dysplasia",
+      "breed": "alaskan malamute",
+      "group": "Working Group",
+      "popularity": 58,
+      "sizeRange": {
+        "minHeight_cm": 58.42,
+        "maxHeight_cm": 63.5,
+        "minWeight_kg": 34.01942775,
+        "maxWeight_kg": 38.55535145
+      },
+      "lifeExpectancy": {
+        "min": 10,
+        "max": 14
+      },
+      "traits": {
+        "temperament": "Affectionate, Loyal, Playful",
+        "energyLevel": "Energetic",
+        "trainability": "Independent",
+        "demeanor": "Friendly",
+        "shedding": "Seasonal",
+        "grooming": "2-3 Times a Week Brushing"
+      }
+    },
+    {
+      "disorder": "Inherited musculoskeletal disorders",
+      "disease": "Osteochondrodysplasia - skeletal dwarfism",
+      "breed": "alaskan malamute",
+      "group": "Working Group",
+      "popularity": 58,
+      "sizeRange": {
+        "minHeight_cm": 58.42,
+        "maxHeight_cm": 63.5,
+        "minWeight_kg": 34.01942775,
+        "maxWeight_kg": 38.55535145
+      },
+      "lifeExpectancy": {
+        "min": 10,
+        "max": 14
+      },
+      "traits": {
+        "temperament": "Affectionate, Loyal, Playful",
+        "energyLevel": "Energetic",
+        "trainability": "Independent",
+        "demeanor": "Friendly",
+        "shedding": "Seasonal",
+        "grooming": "2-3 Times a Week Brushing"
+      }
+    },
+    {
+      "disorder": "Inherited nervous system disorders",
+      "disease": "Peripheral neuropathies",
+      "breed": "alaskan malamute",
+      "group": "Working Group",
+      "popularity": 58,
+      "sizeRange": {
+        "minHeight_cm": 58.42,
+        "maxHeight_cm": 63.5,
+        "minWeight_kg": 34.01942775,
+        "maxWeight_kg": 38.55535145
+      },
+      "lifeExpectancy": {
+        "min": 10,
+        "max": 14
+      },
+      "traits": {
+        "temperament": "Affectionate, Loyal, Playful",
+        "energyLevel": "Energetic",
+        "trainability": "Independent",
+        "demeanor": "Friendly",
+        "shedding": "Seasonal",
+        "grooming": "2-3 Times a Week Brushing"
+      }
+    },
+    {
+      "disorder": "Inherited skin disorders",
+      "disease": "zinc-responsive dermatosis",
+      "breed": "alaskan malamute",
+      "group": "Working Group",
+      "popularity": 58,
+      "sizeRange": {
+        "minHeight_cm": 58.42,
+        "maxHeight_cm": 63.5,
+        "minWeight_kg": 34.01942775,
+        "maxWeight_kg": 38.55535145
+      },
+      "lifeExpectancy": {
+        "min": 10,
+        "max": 14
+      },
+      "traits": {
+        "temperament": "Affectionate, Loyal, Playful",
+        "energyLevel": "Energetic",
+        "trainability": "Independent",
+        "demeanor": "Friendly",
+        "shedding": "Seasonal",
+        "grooming": "2-3 Times a Week Brushing"
+      }
+    },
+    {
+      "disorder": "Inherited musculoskeletal disorders",
+      "disease": "Elbow dysplasia - OCD of the elbow",
+      "breed": "american bulldog",
+      "group": "Foundation Stock Service",
+      "sizeRange": {
+        "minHeight_cm": 50.8,
+        "maxHeight_cm": 63.5,
+        "minWeight_kg": 27.2155422,
+        "maxWeight_kg": 45.359237
+      },
+      "lifeExpectancy": {
+        "min": 10,
+        "max": 12
+      },
+      "traits": {
+        "temperament": "Loyal, Self-Confident",
+        "energyLevel": "Energetic",
+        "trainability": "Agreeable",
+        "demeanor": "Alert/Responsive",
+        "shedding": "Seasonal",
+        "grooming": "Occasional Bath/Brush"
+      }
+    },
+    {
+      "disorder": "Inherited musculoskeletal disorders",
+      "disease": "Hip dysplasia",
+      "breed": "american bulldog",
+      "group": "Foundation Stock Service",
+      "sizeRange": {
+        "minHeight_cm": 50.8,
+        "maxHeight_cm": 63.5,
+        "minWeight_kg": 27.2155422,
+        "maxWeight_kg": 45.359237
+      },
+      "lifeExpectancy": {
+        "min": 10,
+        "max": 12
+      },
+      "traits": {
+        "temperament": "Loyal, Self-Confident",
+        "energyLevel": "Energetic",
+        "trainability": "Agreeable",
+        "demeanor": "Alert/Responsive",
+        "shedding": "Seasonal",
+        "grooming": "Occasional Bath/Brush"
+      }
+    },
+    {
+      "disorder": "Inherited nervous system disorders",
+      "disease": "Lysosomal storage diseases",
+      "breed": "american bulldog",
+      "group": "Foundation Stock Service",
+      "sizeRange": {
+        "minHeight_cm": 50.8,
+        "maxHeight_cm": 63.5,
+        "minWeight_kg": 27.2155422,
+        "maxWeight_kg": 45.359237
+      },
+      "lifeExpectancy": {
+        "min": 10,
+        "max": 12
+      },
+      "traits": {
+        "temperament": "Loyal, Self-Confident",
+        "energyLevel": "Energetic",
+        "trainability": "Agreeable",
+        "demeanor": "Alert/Responsive",
+        "shedding": "Seasonal",
+        "grooming": "Occasional Bath/Brush"
+      }
+    },
+    {
+      "disorder": "Inherited blood disorders",
+      "disease": "Pyruvate kinase (PK) deficiency",
+      "breed": "american eskimo dog",
+      "group": "Non-Sporting Group",
+      "popularity": 122,
+      "sizeRange": {
+        "minHeight_cm": 22.86,
+        "maxHeight_cm": 48.26,
+        "minWeight_kg": 2.72155422,
+        "maxWeight_kg": 15.87573295
+      },
+      "lifeExpectancy": {
+        "min": 13,
+        "max": 15
+      },
+      "traits": {
+        "temperament": "Playful, Perky, Smart",
+        "energyLevel": "Energetic",
+        "trainability": "Eager to Please",
+        "demeanor": "Outgoing",
+        "shedding": "Seasonal",
+        "grooming": "Weekly Brushing"
+      }
+    },
+    {
+      "disorder": "Inherited disorders of the urinary and reproductive systems",
+      "disease": "Disorders of sexual development - sexual reversal",
+      "breed": "american staffordshire terrier",
+      "group": "Terrier Group",
+      "popularity": 85,
+      "sizeRange": {
+        "minHeight_cm": 43.18,
+        "maxHeight_cm": 48.26,
+        "minWeight_kg": 18.1436948,
+        "maxWeight_kg": 31.7514659
+      },
+      "lifeExpectancy": {
+        "min": 12,
+        "max": 16
+      },
+      "traits": {
+        "temperament": "Confident, Smart, Good-Natured",
+        "energyLevel": "Regular Exercise",
+        "trainability": "Agreeable",
+        "demeanor": "Alert/Responsive",
+        "shedding": "Occasional",
+        "grooming": "Occasional Bath/Brush"
+      }
+    },
+    {
+      "disorder": "Inherited eye disorders",
+      "disease": "Cataracts",
+      "breed": "american staffordshire terrier",
+      "group": "Terrier Group",
+      "popularity": 85,
+      "sizeRange": {
+        "minHeight_cm": 43.18,
+        "maxHeight_cm": 48.26,
+        "minWeight_kg": 18.1436948,
+        "maxWeight_kg": 31.7514659
+      },
+      "lifeExpectancy": {
+        "min": 12,
+        "max": 16
+      },
+      "traits": {
+        "temperament": "Confident, Smart, Good-Natured",
+        "energyLevel": "Regular Exercise",
+        "trainability": "Agreeable",
+        "demeanor": "Alert/Responsive",
+        "shedding": "Occasional",
+        "grooming": "Occasional Bath/Brush"
+      }
+    },
+    {
+      "disorder": "Inherited eye disorders",
+      "disease": "Progressive retinal atrophy",
+      "breed": "american staffordshire terrier",
+      "group": "Terrier Group",
+      "popularity": 85,
+      "sizeRange": {
+        "minHeight_cm": 43.18,
+        "maxHeight_cm": 48.26,
+        "minWeight_kg": 18.1436948,
+        "maxWeight_kg": 31.7514659
+      },
+      "lifeExpectancy": {
+        "min": 12,
+        "max": 16
+      },
+      "traits": {
+        "temperament": "Confident, Smart, Good-Natured",
+        "energyLevel": "Regular Exercise",
+        "trainability": "Agreeable",
+        "demeanor": "Alert/Responsive",
+        "shedding": "Occasional",
+        "grooming": "Occasional Bath/Brush"
+      }
+    },
+    {
+      "disorder": "Inherited musculoskeletal disorders",
+      "disease": "Hip dysplasia",
+      "breed": "american staffordshire terrier",
+      "group": "Terrier Group",
+      "popularity": 85,
+      "sizeRange": {
+        "minHeight_cm": 43.18,
+        "maxHeight_cm": 48.26,
+        "minWeight_kg": 18.1436948,
+        "maxWeight_kg": 31.7514659
+      },
+      "lifeExpectancy": {
+        "min": 12,
+        "max": 16
+      },
+      "traits": {
+        "temperament": "Confident, Smart, Good-Natured",
+        "energyLevel": "Regular Exercise",
+        "trainability": "Agreeable",
+        "demeanor": "Alert/Responsive",
+        "shedding": "Occasional",
+        "grooming": "Occasional Bath/Brush"
+      }
+    },
+    {
+      "disorder": "Inherited skin disorders",
+      "disease": "Demodicosis/ Demodectic mange",
+      "breed": "american staffordshire terrier",
+      "group": "Terrier Group",
+      "popularity": 85,
+      "sizeRange": {
+        "minHeight_cm": 43.18,
+        "maxHeight_cm": 48.26,
+        "minWeight_kg": 18.1436948,
+        "maxWeight_kg": 31.7514659
+      },
+      "lifeExpectancy": {
+        "min": 12,
+        "max": 16
+      },
+      "traits": {
+        "temperament": "Confident, Smart, Good-Natured",
+        "energyLevel": "Regular Exercise",
+        "trainability": "Agreeable",
+        "demeanor": "Alert/Responsive",
+        "shedding": "Occasional",
+        "grooming": "Occasional Bath/Brush"
+      }
+    },
+    {
+      "disorder": "Inherited endocrine disorders",
+      "disease": "Growth hormone-responsive dermatosis; adrenal sex hormone responsive dermatosis",
+      "breed": "american water spaniel",
+      "group": "Sporting Group",
+      "popularity": 166,
+      "sizeRange": {
+        "minHeight_cm": 38.1,
+        "maxHeight_cm": 45.72,
+        "minWeight_kg": 11.33980925,
+        "maxWeight_kg": 20.41165665
+      },
+      "lifeExpectancy": {
+        "min": 10,
+        "max": 14
+      },
+      "traits": {
+        "temperament": "Eager, Happy, Charming",
+        "energyLevel": "Regular Exercise",
+        "trainability": "Eager to Please",
+        "demeanor": "Friendly",
+        "shedding": "Infrequent",
+        "grooming": "2-3 Times a Week Brushing"
+      }
+    },
+    {
+      "disorder": "Inherited eye disorders",
+      "disease": "Cataracts",
+      "breed": "american water spaniel",
+      "group": "Sporting Group",
+      "popularity": 166,
+      "sizeRange": {
+        "minHeight_cm": 38.1,
+        "maxHeight_cm": 45.72,
+        "minWeight_kg": 11.33980925,
+        "maxWeight_kg": 20.41165665
+      },
+      "lifeExpectancy": {
+        "min": 10,
+        "max": 14
+      },
+      "traits": {
+        "temperament": "Eager, Happy, Charming",
+        "energyLevel": "Regular Exercise",
+        "trainability": "Eager to Please",
+        "demeanor": "Friendly",
+        "shedding": "Infrequent",
+        "grooming": "2-3 Times a Week Brushing"
+      }
+    },
+    {
+      "disorder": "Inherited eye disorders",
+      "disease": "Retinal dysplasia",
+      "breed": "american water spaniel",
+      "group": "Sporting Group",
+      "popularity": 166,
+      "sizeRange": {
+        "minHeight_cm": 38.1,
+        "maxHeight_cm": 45.72,
+        "minWeight_kg": 11.33980925,
+        "maxWeight_kg": 20.41165665
+      },
+      "lifeExpectancy": {
+        "min": 10,
+        "max": 14
+      },
+      "traits": {
+        "temperament": "Eager, Happy, Charming",
+        "energyLevel": "Regular Exercise",
+        "trainability": "Eager to Please",
+        "demeanor": "Friendly",
+        "shedding": "Infrequent",
+        "grooming": "2-3 Times a Week Brushing"
+      }
+    },
+    {
+      "disorder": "Inherited musculoskeletal disorders",
+      "disease": "Hip dysplasia",
+      "breed": "american water spaniel",
+      "group": "Sporting Group",
+      "popularity": 166,
+      "sizeRange": {
+        "minHeight_cm": 38.1,
+        "maxHeight_cm": 45.72,
+        "minWeight_kg": 11.33980925,
+        "maxWeight_kg": 20.41165665
+      },
+      "lifeExpectancy": {
+        "min": 10,
+        "max": 14
+      },
+      "traits": {
+        "temperament": "Eager, Happy, Charming",
+        "energyLevel": "Regular Exercise",
+        "trainability": "Eager to Please",
+        "demeanor": "Friendly",
+        "shedding": "Infrequent",
+        "grooming": "2-3 Times a Week Brushing"
+      }
+    },
+    {
+      "disorder": "Inherited skin disorders",
+      "disease": "Growth hormone-responsive dermatosis; adrenal sex hormone responsive dermatosis",
+      "breed": "american water spaniel",
+      "group": "Sporting Group",
+      "popularity": 166,
+      "sizeRange": {
+        "minHeight_cm": 38.1,
+        "maxHeight_cm": 45.72,
+        "minWeight_kg": 11.33980925,
+        "maxWeight_kg": 20.41165665
+      },
+      "lifeExpectancy": {
+        "min": 10,
+        "max": 14
+      },
+      "traits": {
+        "temperament": "Eager, Happy, Charming",
+        "energyLevel": "Regular Exercise",
+        "trainability": "Eager to Please",
+        "demeanor": "Friendly",
+        "shedding": "Infrequent",
+        "grooming": "2-3 Times a Week Brushing"
+      }
+    },
+    {
+      "disorder": "Inherited skin disorders",
+      "disease": "pattern baldness",
+      "breed": "american water spaniel",
+      "group": "Sporting Group",
+      "popularity": 166,
+      "sizeRange": {
+        "minHeight_cm": 38.1,
+        "maxHeight_cm": 45.72,
+        "minWeight_kg": 11.33980925,
+        "maxWeight_kg": 20.41165665
+      },
+      "lifeExpectancy": {
+        "min": 10,
+        "max": 14
+      },
+      "traits": {
+        "temperament": "Eager, Happy, Charming",
+        "energyLevel": "Regular Exercise",
+        "trainability": "Eager to Please",
+        "demeanor": "Friendly",
+        "shedding": "Infrequent",
+        "grooming": "2-3 Times a Week Brushing"
+      }
+    },
+    {
+      "disorder": "Inherited cardiovascular disorders",
+      "disease": "Portosystemic shunt",
+      "breed": "australian cattle dog",
+      "group": "Herding Group",
+      "popularity": 55,
+      "sizeRange": {
+        "minHeight_cm": 43.18,
+        "maxHeight_cm": 50.8,
+        "minWeight_kg": 15.87573295,
+        "maxWeight_kg": 22.6796185
+      },
+      "lifeExpectancy": {
+        "min": 12,
+        "max": 16
+      },
+      "traits": {
+        "temperament": "Alert, Curious, Pleasant",
+        "energyLevel": "Needs Lots of Activity",
+        "trainability": "May be Stubborn",
+        "demeanor": "Reserved with Strangers",
+        "shedding": "Regularly",
+        "grooming": "Occasional Bath/Brush"
+      }
+    },
+    {
+      "disorder": "Inherited eye disorders",
+      "disease": "Cataracts",
+      "breed": "australian cattle dog",
+      "group": "Herding Group",
+      "popularity": 55,
+      "sizeRange": {
+        "minHeight_cm": 43.18,
+        "maxHeight_cm": 50.8,
+        "minWeight_kg": 15.87573295,
+        "maxWeight_kg": 22.6796185
+      },
+      "lifeExpectancy": {
+        "min": 12,
+        "max": 16
+      },
+      "traits": {
+        "temperament": "Alert, Curious, Pleasant",
+        "energyLevel": "Needs Lots of Activity",
+        "trainability": "May be Stubborn",
+        "demeanor": "Reserved with Strangers",
+        "shedding": "Regularly",
+        "grooming": "Occasional Bath/Brush"
+      }
+    },
+    {
+      "disorder": "Inherited eye disorders",
+      "disease": "Retinal dysplasia",
+      "breed": "australian cattle dog",
+      "group": "Herding Group",
+      "popularity": 55,
+      "sizeRange": {
+        "minHeight_cm": 43.18,
+        "maxHeight_cm": 50.8,
+        "minWeight_kg": 15.87573295,
+        "maxWeight_kg": 22.6796185
+      },
+      "lifeExpectancy": {
+        "min": 12,
+        "max": 16
+      },
+      "traits": {
+        "temperament": "Alert, Curious, Pleasant",
+        "energyLevel": "Needs Lots of Activity",
+        "trainability": "May be Stubborn",
+        "demeanor": "Reserved with Strangers",
+        "shedding": "Regularly",
+        "grooming": "Occasional Bath/Brush"
+      }
+    },
+    {
+      "disorder": "Inherited eye disorders",
+      "disease": "Progressive retinal atrophy",
+      "breed": "australian cattle dog",
+      "group": "Herding Group",
+      "popularity": 55,
+      "sizeRange": {
+        "minHeight_cm": 43.18,
+        "maxHeight_cm": 50.8,
+        "minWeight_kg": 15.87573295,
+        "maxWeight_kg": 22.6796185
+      },
+      "lifeExpectancy": {
+        "min": 12,
+        "max": 16
+      },
+      "traits": {
+        "temperament": "Alert, Curious, Pleasant",
+        "energyLevel": "Needs Lots of Activity",
+        "trainability": "May be Stubborn",
+        "demeanor": "Reserved with Strangers",
+        "shedding": "Regularly",
+        "grooming": "Occasional Bath/Brush"
+      }
+    },
+    {
+      "disorder": "Inherited gastrointestinal disorders",
+      "disease": "Portosystemic shunt",
+      "breed": "australian cattle dog",
+      "group": "Herding Group",
+      "popularity": 55,
+      "sizeRange": {
+        "minHeight_cm": 43.18,
+        "maxHeight_cm": 50.8,
+        "minWeight_kg": 15.87573295,
+        "maxWeight_kg": 22.6796185
+      },
+      "lifeExpectancy": {
+        "min": 12,
+        "max": 16
+      },
+      "traits": {
+        "temperament": "Alert, Curious, Pleasant",
+        "energyLevel": "Needs Lots of Activity",
+        "trainability": "May be Stubborn",
+        "demeanor": "Reserved with Strangers",
+        "shedding": "Regularly",
+        "grooming": "Occasional Bath/Brush"
+      }
+    },
+    {
+      "disorder": "Inherited musculoskeletal disorders",
+      "disease": "Hip dysplasia",
+      "breed": "australian cattle dog",
+      "group": "Herding Group",
+      "popularity": 55,
+      "sizeRange": {
+        "minHeight_cm": 43.18,
+        "maxHeight_cm": 50.8,
+        "minWeight_kg": 15.87573295,
+        "maxWeight_kg": 22.6796185
+      },
+      "lifeExpectancy": {
+        "min": 12,
+        "max": 16
+      },
+      "traits": {
+        "temperament": "Alert, Curious, Pleasant",
+        "energyLevel": "Needs Lots of Activity",
+        "trainability": "May be Stubborn",
+        "demeanor": "Reserved with Strangers",
+        "shedding": "Regularly",
+        "grooming": "Occasional Bath/Brush"
+      }
+    },
+    {
+      "disorder": "Inherited nervous system disorders",
+      "disease": "Deafness",
+      "breed": "australian cattle dog",
+      "group": "Herding Group",
+      "popularity": 55,
+      "sizeRange": {
+        "minHeight_cm": 43.18,
+        "maxHeight_cm": 50.8,
+        "minWeight_kg": 15.87573295,
+        "maxWeight_kg": 22.6796185
+      },
+      "lifeExpectancy": {
+        "min": 12,
+        "max": 16
+      },
+      "traits": {
+        "temperament": "Alert, Curious, Pleasant",
+        "energyLevel": "Needs Lots of Activity",
+        "trainability": "May be Stubborn",
+        "demeanor": "Reserved with Strangers",
+        "shedding": "Regularly",
+        "grooming": "Occasional Bath/Brush"
+      }
+    },
+    {
+      "disorder": "Inherited skin disorders",
+      "disease": "Dermatomyositis and ulcerative dermatosis",
+      "breed": "australian cattle dog",
+      "group": "Herding Group",
+      "popularity": 55,
+      "sizeRange": {
+        "minHeight_cm": 43.18,
+        "maxHeight_cm": 50.8,
+        "minWeight_kg": 15.87573295,
+        "maxWeight_kg": 22.6796185
+      },
+      "lifeExpectancy": {
+        "min": 12,
+        "max": 16
+      },
+      "traits": {
+        "temperament": "Alert, Curious, Pleasant",
+        "energyLevel": "Needs Lots of Activity",
+        "trainability": "May be Stubborn",
+        "demeanor": "Reserved with Strangers",
+        "shedding": "Regularly",
+        "grooming": "Occasional Bath/Brush"
+      }
+    },
+    {
+      "disorder": "Inherited eye disorders",
+      "disease": "Progressive retinal atrophy",
+      "breed": "australian kelpie",
+      "group": "Foundation Stock Service",
+      "sizeRange": {
+        "minHeight_cm": 43.18,
+        "maxHeight_cm": 50.8
+      },
+      "lifeExpectancy": {
+        "min": 10,
+        "max": 13
+      },
+      "traits": {
+        "temperament": "Loyal, Alert, Intelligent",
+        "energyLevel": "Energetic",
+        "trainability": "Eager to Please",
+        "demeanor": "Alert/Responsive",
+        "shedding": "Regularly",
+        "grooming": "Weekly Brushing"
+      }
+    },
+    {
+      "disorder": "Inherited nervous system disorders",
+      "disease": "Cerebellar abiotrophy(ataxia)",
+      "breed": "australian kelpie",
+      "group": "Foundation Stock Service",
+      "sizeRange": {
+        "minHeight_cm": 43.18,
+        "maxHeight_cm": 50.8
+      },
+      "lifeExpectancy": {
+        "min": 10,
+        "max": 13
+      },
+      "traits": {
+        "temperament": "Loyal, Alert, Intelligent",
+        "energyLevel": "Energetic",
+        "trainability": "Eager to Please",
+        "demeanor": "Alert/Responsive",
+        "shedding": "Regularly",
+        "grooming": "Weekly Brushing"
+      }
+    },
+    {
+      "disorder": "Inherited nervous system disorders",
+      "disease": "Globoid cell leukodystrophy (galactocerebrosidosis)",
+      "breed": "australian kelpie",
+      "group": "Foundation Stock Service",
+      "sizeRange": {
+        "minHeight_cm": 43.18,
+        "maxHeight_cm": 50.8
+      },
+      "lifeExpectancy": {
+        "min": 10,
+        "max": 13
+      },
+      "traits": {
+        "temperament": "Loyal, Alert, Intelligent",
+        "energyLevel": "Energetic",
+        "trainability": "Eager to Please",
+        "demeanor": "Alert/Responsive",
+        "shedding": "Regularly",
+        "grooming": "Weekly Brushing"
+      }
+    },
+    {
+      "disorder": "Inherited skin disorders",
+      "disease": "Cutaneous asthenia (Ehlers-Danlos syndrome)",
+      "breed": "australian kelpie",
+      "group": "Foundation Stock Service",
+      "sizeRange": {
+        "minHeight_cm": 43.18,
+        "maxHeight_cm": 50.8
+      },
+      "lifeExpectancy": {
+        "min": 10,
+        "max": 13
+      },
+      "traits": {
+        "temperament": "Loyal, Alert, Intelligent",
+        "energyLevel": "Energetic",
+        "trainability": "Eager to Please",
+        "demeanor": "Alert/Responsive",
+        "shedding": "Regularly",
+        "grooming": "Weekly Brushing"
+      }
+    },
+    {
+      "disorder": "Inherited eye disorders",
+      "disease": "Cataracts",
+      "breed": "australian shepherd",
+      "group": "Herding Group",
+      "popularity": 17,
+      "sizeRange": {
+        "minHeight_cm": 45.72,
+        "maxHeight_cm": 58.42,
+        "minWeight_kg": 18.1436948,
+        "maxWeight_kg": 29.48350405
+      },
+      "lifeExpectancy": {
+        "min": 12,
+        "max": 15
+      },
+      "traits": {
+        "temperament": "Smart, Work-Oriented, Exuberant",
+        "energyLevel": "Energetic",
+        "trainability": "Eager to Please",
+        "demeanor": "Alert/Responsive",
+        "shedding": "Seasonal",
+        "grooming": "Weekly Brushing"
+      }
+    },
+    {
+      "disorder": "Inherited eye disorders",
+      "disease": "Microphthalmia; ocular dysgenesis",
+      "breed": "australian shepherd",
+      "group": "Herding Group",
+      "popularity": 17,
+      "sizeRange": {
+        "minHeight_cm": 45.72,
+        "maxHeight_cm": 58.42,
+        "minWeight_kg": 18.1436948,
+        "maxWeight_kg": 29.48350405
+      },
+      "lifeExpectancy": {
+        "min": 12,
+        "max": 15
+      },
+      "traits": {
+        "temperament": "Smart, Work-Oriented, Exuberant",
+        "energyLevel": "Energetic",
+        "trainability": "Eager to Please",
+        "demeanor": "Alert/Responsive",
+        "shedding": "Seasonal",
+        "grooming": "Weekly Brushing"
+      }
+    },
+    {
+      "disorder": "Inherited eye disorders",
+      "disease": "Pannus - chronic superficial keratitis",
+      "breed": "australian shepherd",
+      "group": "Herding Group",
+      "popularity": 17,
+      "sizeRange": {
+        "minHeight_cm": 45.72,
+        "maxHeight_cm": 58.42,
+        "minWeight_kg": 18.1436948,
+        "maxWeight_kg": 29.48350405
+      },
+      "lifeExpectancy": {
+        "min": 12,
+        "max": 15
+      },
+      "traits": {
+        "temperament": "Smart, Work-Oriented, Exuberant",
+        "energyLevel": "Energetic",
+        "trainability": "Eager to Please",
+        "demeanor": "Alert/Responsive",
+        "shedding": "Seasonal",
+        "grooming": "Weekly Brushing"
+      }
+    },
+    {
+      "disorder": "Inherited eye disorders",
+      "disease": "Persistent pupillary membranes (PPM)",
+      "breed": "australian shepherd",
+      "group": "Herding Group",
+      "popularity": 17,
+      "sizeRange": {
+        "minHeight_cm": 45.72,
+        "maxHeight_cm": 58.42,
+        "minWeight_kg": 18.1436948,
+        "maxWeight_kg": 29.48350405
+      },
+      "lifeExpectancy": {
+        "min": 12,
+        "max": 15
+      },
+      "traits": {
+        "temperament": "Smart, Work-Oriented, Exuberant",
+        "energyLevel": "Energetic",
+        "trainability": "Eager to Please",
+        "demeanor": "Alert/Responsive",
+        "shedding": "Seasonal",
+        "grooming": "Weekly Brushing"
+      }
+    },
+    {
+      "disorder": "Inherited eye disorders",
+      "disease": "Retinal dysplasia",
+      "breed": "australian shepherd",
+      "group": "Herding Group",
+      "popularity": 17,
+      "sizeRange": {
+        "minHeight_cm": 45.72,
+        "maxHeight_cm": 58.42,
+        "minWeight_kg": 18.1436948,
+        "maxWeight_kg": 29.48350405
+      },
+      "lifeExpectancy": {
+        "min": 12,
+        "max": 15
+      },
+      "traits": {
+        "temperament": "Smart, Work-Oriented, Exuberant",
+        "energyLevel": "Energetic",
+        "trainability": "Eager to Please",
+        "demeanor": "Alert/Responsive",
+        "shedding": "Seasonal",
+        "grooming": "Weekly Brushing"
+      }
+    },
+    {
+      "disorder": "Inherited eye disorders",
+      "disease": "Collie eye anomaly (CEA)",
+      "breed": "australian shepherd",
+      "group": "Herding Group",
+      "popularity": 17,
+      "sizeRange": {
+        "minHeight_cm": 45.72,
+        "maxHeight_cm": 58.42,
+        "minWeight_kg": 18.1436948,
+        "maxWeight_kg": 29.48350405
+      },
+      "lifeExpectancy": {
+        "min": 12,
+        "max": 15
+      },
+      "traits": {
+        "temperament": "Smart, Work-Oriented, Exuberant",
+        "energyLevel": "Energetic",
+        "trainability": "Eager to Please",
+        "demeanor": "Alert/Responsive",
+        "shedding": "Seasonal",
+        "grooming": "Weekly Brushing"
+      }
+    },
+    {
+      "disorder": "Inherited eye disorders",
+      "disease": "Progressive retinal atrophy",
+      "breed": "australian shepherd",
+      "group": "Herding Group",
+      "popularity": 17,
+      "sizeRange": {
+        "minHeight_cm": 45.72,
+        "maxHeight_cm": 58.42,
+        "minWeight_kg": 18.1436948,
+        "maxWeight_kg": 29.48350405
+      },
+      "lifeExpectancy": {
+        "min": 12,
+        "max": 15
+      },
+      "traits": {
+        "temperament": "Smart, Work-Oriented, Exuberant",
+        "energyLevel": "Energetic",
+        "trainability": "Eager to Please",
+        "demeanor": "Alert/Responsive",
+        "shedding": "Seasonal",
+        "grooming": "Weekly Brushing"
+      }
+    },
+    {
+      "disorder": "Inherited musculoskeletal disorders",
+      "disease": "Hip dysplasia",
+      "breed": "australian shepherd",
+      "group": "Herding Group",
+      "popularity": 17,
+      "sizeRange": {
+        "minHeight_cm": 45.72,
+        "maxHeight_cm": 58.42,
+        "minWeight_kg": 18.1436948,
+        "maxWeight_kg": 29.48350405
+      },
+      "lifeExpectancy": {
+        "min": 12,
+        "max": 15
+      },
+      "traits": {
+        "temperament": "Smart, Work-Oriented, Exuberant",
+        "energyLevel": "Energetic",
+        "trainability": "Eager to Please",
+        "demeanor": "Alert/Responsive",
+        "shedding": "Seasonal",
+        "grooming": "Weekly Brushing"
+      }
+    },
+    {
+      "disorder": "Inherited nervous system disorders",
+      "disease": "Deafness",
+      "breed": "australian shepherd",
+      "group": "Herding Group",
+      "popularity": 17,
+      "sizeRange": {
+        "minHeight_cm": 45.72,
+        "maxHeight_cm": 58.42,
+        "minWeight_kg": 18.1436948,
+        "maxWeight_kg": 29.48350405
+      },
+      "lifeExpectancy": {
+        "min": 12,
+        "max": 15
+      },
+      "traits": {
+        "temperament": "Smart, Work-Oriented, Exuberant",
+        "energyLevel": "Energetic",
+        "trainability": "Eager to Please",
+        "demeanor": "Alert/Responsive",
+        "shedding": "Seasonal",
+        "grooming": "Weekly Brushing"
+      }
+    },
+    {
+      "disorder": "Inherited eye disorders",
+      "disease": "Retinal dysplasia",
+      "breed": "australian terrier",
+      "group": "Terrier Group",
+      "popularity": 140,
+      "sizeRange": {
+        "minHeight_cm": 25.4,
+        "maxHeight_cm": 27.94,
+        "minWeight_kg": 6.80388555,
+        "maxWeight_kg": 9.0718474
+      },
+      "lifeExpectancy": {
+        "min": 11,
+        "max": 15
+      },
+      "traits": {
+        "temperament": "Affectionate, Courageous, Spirited",
+        "energyLevel": "Energetic",
+        "trainability": "Agreeable",
+        "demeanor": "Friendly",
+        "shedding": "Infrequent",
+        "grooming": "Weekly Brushing"
+      }
+    },
+    {
+      "disorder": "Inherited eye disorders",
+      "disease": "Progressive retinal atrophy",
+      "breed": "australian terrier",
+      "group": "Terrier Group",
+      "popularity": 140,
+      "sizeRange": {
+        "minHeight_cm": 25.4,
+        "maxHeight_cm": 27.94,
+        "minWeight_kg": 6.80388555,
+        "maxWeight_kg": 9.0718474
+      },
+      "lifeExpectancy": {
+        "min": 11,
+        "max": 15
+      },
+      "traits": {
+        "temperament": "Affectionate, Courageous, Spirited",
+        "energyLevel": "Energetic",
+        "trainability": "Agreeable",
+        "demeanor": "Friendly",
+        "shedding": "Infrequent",
+        "grooming": "Weekly Brushing"
+      }
+    },
+    {
+      "disorder": "Inherited blood disorders",
+      "disease": "Pyruvate kinase (PK) deficiency",
+      "breed": "basenji",
+      "group": "Hound Group",
+      "popularity": 87,
+      "sizeRange": {
+        "minHeight_cm": 40.64,
+        "maxHeight_cm": 43.18,
+        "minWeight_kg": 9.97903214,
+        "maxWeight_kg": 10.88621688
+      },
+      "lifeExpectancy": {
+        "min": 13,
+        "max": 14
+      },
+      "traits": {
+        "temperament": "Independent, Smart, Poised",
+        "energyLevel": "Energetic",
+        "trainability": "Independent",
+        "demeanor": "Reserved with Strangers",
+        "shedding": "Occasional",
+        "grooming": "Occasional Bath/Brush"
+      }
+    },
+    {
+      "disorder": "Inherited disorders of the urinary and reproductive systems",
+      "disease": "Fanconi syndrome",
+      "breed": "basenji",
+      "group": "Hound Group",
+      "popularity": 87,
+      "sizeRange": {
+        "minHeight_cm": 40.64,
+        "maxHeight_cm": 43.18,
+        "minWeight_kg": 9.97903214,
+        "maxWeight_kg": 10.88621688
+      },
+      "lifeExpectancy": {
+        "min": 13,
+        "max": 14
+      },
+      "traits": {
+        "temperament": "Independent, Smart, Poised",
+        "energyLevel": "Energetic",
+        "trainability": "Independent",
+        "demeanor": "Reserved with Strangers",
+        "shedding": "Occasional",
+        "grooming": "Occasional Bath/Brush"
+      }
+    },
+    {
+      "disorder": "Inherited eye disorders",
+      "disease": "Cataracts",
+      "breed": "basenji",
+      "group": "Hound Group",
+      "popularity": 87,
+      "sizeRange": {
+        "minHeight_cm": 40.64,
+        "maxHeight_cm": 43.18,
+        "minWeight_kg": 9.97903214,
+        "maxWeight_kg": 10.88621688
+      },
+      "lifeExpectancy": {
+        "min": 13,
+        "max": 14
+      },
+      "traits": {
+        "temperament": "Independent, Smart, Poised",
+        "energyLevel": "Energetic",
+        "trainability": "Independent",
+        "demeanor": "Reserved with Strangers",
+        "shedding": "Occasional",
+        "grooming": "Occasional Bath/Brush"
+      }
+    },
+    {
+      "disorder": "Inherited eye disorders",
+      "disease": "Persistent pupillary membranes (PPM)",
+      "breed": "basenji",
+      "group": "Hound Group",
+      "popularity": 87,
+      "sizeRange": {
+        "minHeight_cm": 40.64,
+        "maxHeight_cm": 43.18,
+        "minWeight_kg": 9.97903214,
+        "maxWeight_kg": 10.88621688
+      },
+      "lifeExpectancy": {
+        "min": 13,
+        "max": 14
+      },
+      "traits": {
+        "temperament": "Independent, Smart, Poised",
+        "energyLevel": "Energetic",
+        "trainability": "Independent",
+        "demeanor": "Reserved with Strangers",
+        "shedding": "Occasional",
+        "grooming": "Occasional Bath/Brush"
+      }
+    },
+    {
+      "disorder": "Inherited eye disorders",
+      "disease": "Retinal dysplasia",
+      "breed": "basenji",
+      "group": "Hound Group",
+      "popularity": 87,
+      "sizeRange": {
+        "minHeight_cm": 40.64,
+        "maxHeight_cm": 43.18,
+        "minWeight_kg": 9.97903214,
+        "maxWeight_kg": 10.88621688
+      },
+      "lifeExpectancy": {
+        "min": 13,
+        "max": 14
+      },
+      "traits": {
+        "temperament": "Independent, Smart, Poised",
+        "energyLevel": "Energetic",
+        "trainability": "Independent",
+        "demeanor": "Reserved with Strangers",
+        "shedding": "Occasional",
+        "grooming": "Occasional Bath/Brush"
+      }
+    },
+    {
+      "disorder": "Inherited eye disorders",
+      "disease": "Corneal dystrophy",
+      "breed": "basenji",
+      "group": "Hound Group",
+      "popularity": 87,
+      "sizeRange": {
+        "minHeight_cm": 40.64,
+        "maxHeight_cm": 43.18,
+        "minWeight_kg": 9.97903214,
+        "maxWeight_kg": 10.88621688
+      },
+      "lifeExpectancy": {
+        "min": 13,
+        "max": 14
+      },
+      "traits": {
+        "temperament": "Independent, Smart, Poised",
+        "energyLevel": "Energetic",
+        "trainability": "Independent",
+        "demeanor": "Reserved with Strangers",
+        "shedding": "Occasional",
+        "grooming": "Occasional Bath/Brush"
+      }
+    },
+    {
+      "disorder": "Inherited eye disorders",
+      "disease": "Progressive retinal atrophy",
+      "breed": "basenji",
+      "group": "Hound Group",
+      "popularity": 87,
+      "sizeRange": {
+        "minHeight_cm": 40.64,
+        "maxHeight_cm": 43.18,
+        "minWeight_kg": 9.97903214,
+        "maxWeight_kg": 10.88621688
+      },
+      "lifeExpectancy": {
+        "min": 13,
+        "max": 14
+      },
+      "traits": {
+        "temperament": "Independent, Smart, Poised",
+        "energyLevel": "Energetic",
+        "trainability": "Independent",
+        "demeanor": "Reserved with Strangers",
+        "shedding": "Occasional",
+        "grooming": "Occasional Bath/Brush"
+      }
+    },
+    {
+      "disorder": "Inherited gastrointestinal disorders",
+      "disease": "Immunoproliferative (Basenji) enteropathy/lymphocytic-plasmacytic enteritis",
+      "breed": "basenji",
+      "group": "Hound Group",
+      "popularity": 87,
+      "sizeRange": {
+        "minHeight_cm": 40.64,
+        "maxHeight_cm": 43.18,
+        "minWeight_kg": 9.97903214,
+        "maxWeight_kg": 10.88621688
+      },
+      "lifeExpectancy": {
+        "min": 13,
+        "max": 14
+      },
+      "traits": {
+        "temperament": "Independent, Smart, Poised",
+        "energyLevel": "Energetic",
+        "trainability": "Independent",
+        "demeanor": "Reserved with Strangers",
+        "shedding": "Occasional",
+        "grooming": "Occasional Bath/Brush"
+      }
+    },
+    {
+      "disorder": "Inherited musculoskeletal disorders",
+      "disease": "Hip dysplasia",
+      "breed": "basenji",
+      "group": "Hound Group",
+      "popularity": 87,
+      "sizeRange": {
+        "minHeight_cm": 40.64,
+        "maxHeight_cm": 43.18,
+        "minWeight_kg": 9.97903214,
+        "maxWeight_kg": 10.88621688
+      },
+      "lifeExpectancy": {
+        "min": 13,
+        "max": 14
+      },
+      "traits": {
+        "temperament": "Independent, Smart, Poised",
+        "energyLevel": "Energetic",
+        "trainability": "Independent",
+        "demeanor": "Reserved with Strangers",
+        "shedding": "Occasional",
+        "grooming": "Occasional Bath/Brush"
+      }
+    },
+    {
+      "disorder": "Inherited blood disorders",
+      "disease": "Platelet dysfunction (thrombocytopathia, Basset hound thrombopathia)",
+      "breed": "basset hound",
+      "group": "Hound Group",
+      "popularity": 39,
+      "sizeRange": {
+        "minHeight_cm": 38.1,
+        "maxHeight_cm": 38.1,
+        "minWeight_kg": 18.1436948,
+        "maxWeight_kg": 29.48350405
+      },
+      "lifeExpectancy": {
+        "min": 12,
+        "max": 13
+      },
+      "traits": {
+        "temperament": "Charming, Patient, Low-Key",
+        "energyLevel": "Couch Potato",
+        "trainability": "Independent",
+        "demeanor": "Friendly",
+        "shedding": "Occasional",
+        "grooming": "2-3 Times a Week Brushing"
+      }
+    },
+    {
+      "disorder": "Inherited eye disorders",
+      "disease": "Ectropion",
+      "breed": "basset hound",
+      "group": "Hound Group",
+      "popularity": 39,
+      "sizeRange": {
+        "minHeight_cm": 38.1,
+        "maxHeight_cm": 38.1,
+        "minWeight_kg": 18.1436948,
+        "maxWeight_kg": 29.48350405
+      },
+      "lifeExpectancy": {
+        "min": 12,
+        "max": 13
+      },
+      "traits": {
+        "temperament": "Charming, Patient, Low-Key",
+        "energyLevel": "Couch Potato",
+        "trainability": "Independent",
+        "demeanor": "Friendly",
+        "shedding": "Occasional",
+        "grooming": "2-3 Times a Week Brushing"
+      }
+    },
+    {
+      "disorder": "Inherited eye disorders",
+      "disease": "Entropion",
+      "breed": "basset hound",
+      "group": "Hound Group",
+      "popularity": 39,
+      "sizeRange": {
+        "minHeight_cm": 38.1,
+        "maxHeight_cm": 38.1,
+        "minWeight_kg": 18.1436948,
+        "maxWeight_kg": 29.48350405
+      },
+      "lifeExpectancy": {
+        "min": 12,
+        "max": 13
+      },
+      "traits": {
+        "temperament": "Charming, Patient, Low-Key",
+        "energyLevel": "Couch Potato",
+        "trainability": "Independent",
+        "demeanor": "Friendly",
+        "shedding": "Occasional",
+        "grooming": "2-3 Times a Week Brushing"
+      }
+    },
+    {
+      "disorder": "Inherited eye disorders",
+      "disease": "Exposure keratopathy syndrome (exophthalmos, lagophthalmos, and/or macroblepharon)",
+      "breed": "basset hound",
+      "group": "Hound Group",
+      "popularity": 39,
+      "sizeRange": {
+        "minHeight_cm": 38.1,
+        "maxHeight_cm": 38.1,
+        "minWeight_kg": 18.1436948,
+        "maxWeight_kg": 29.48350405
+      },
+      "lifeExpectancy": {
+        "min": 12,
+        "max": 13
+      },
+      "traits": {
+        "temperament": "Charming, Patient, Low-Key",
+        "energyLevel": "Couch Potato",
+        "trainability": "Independent",
+        "demeanor": "Friendly",
+        "shedding": "Occasional",
+        "grooming": "2-3 Times a Week Brushing"
+      }
+    },
+    {
+      "disorder": "Inherited eye disorders",
+      "disease": "Third eyelid (nictitating membrane) abnormalities - \"cherry eye",
+      "breed": "basset hound",
+      "group": "Hound Group",
+      "popularity": 39,
+      "sizeRange": {
+        "minHeight_cm": 38.1,
+        "maxHeight_cm": 38.1,
+        "minWeight_kg": 18.1436948,
+        "maxWeight_kg": 29.48350405
+      },
+      "lifeExpectancy": {
+        "min": 12,
+        "max": 13
+      },
+      "traits": {
+        "temperament": "Charming, Patient, Low-Key",
+        "energyLevel": "Couch Potato",
+        "trainability": "Independent",
+        "demeanor": "Friendly",
+        "shedding": "Occasional",
+        "grooming": "2-3 Times a Week Brushing"
+      }
+    },
+    {
+      "disorder": "Inherited eye disorders",
+      "disease": "Glaucoma",
+      "breed": "basset hound",
+      "group": "Hound Group",
+      "popularity": 39,
+      "sizeRange": {
+        "minHeight_cm": 38.1,
+        "maxHeight_cm": 38.1,
+        "minWeight_kg": 18.1436948,
+        "maxWeight_kg": 29.48350405
+      },
+      "lifeExpectancy": {
+        "min": 12,
+        "max": 13
+      },
+      "traits": {
+        "temperament": "Charming, Patient, Low-Key",
+        "energyLevel": "Couch Potato",
+        "trainability": "Independent",
+        "demeanor": "Friendly",
+        "shedding": "Occasional",
+        "grooming": "2-3 Times a Week Brushing"
+      }
+    },
+    {
+      "disorder": "Inherited immune disorders",
+      "disease": "Severe combined immunodeficiency (SCID)",
+      "breed": "basset hound",
+      "group": "Hound Group",
+      "popularity": 39,
+      "sizeRange": {
+        "minHeight_cm": 38.1,
+        "maxHeight_cm": 38.1,
+        "minWeight_kg": 18.1436948,
+        "maxWeight_kg": 29.48350405
+      },
+      "lifeExpectancy": {
+        "min": 12,
+        "max": 13
+      },
+      "traits": {
+        "temperament": "Charming, Patient, Low-Key",
+        "energyLevel": "Couch Potato",
+        "trainability": "Independent",
+        "demeanor": "Friendly",
+        "shedding": "Occasional",
+        "grooming": "2-3 Times a Week Brushing"
+      }
+    },
+    {
+      "disorder": "Inherited musculoskeletal disorders",
+      "disease": "Cervical vertebral instability (Wobbler syndrome)",
+      "breed": "basset hound",
+      "group": "Hound Group",
+      "popularity": 39,
+      "sizeRange": {
+        "minHeight_cm": 38.1,
+        "maxHeight_cm": 38.1,
+        "minWeight_kg": 18.1436948,
+        "maxWeight_kg": 29.48350405
+      },
+      "lifeExpectancy": {
+        "min": 12,
+        "max": 13
+      },
+      "traits": {
+        "temperament": "Charming, Patient, Low-Key",
+        "energyLevel": "Couch Potato",
+        "trainability": "Independent",
+        "demeanor": "Friendly",
+        "shedding": "Occasional",
+        "grooming": "2-3 Times a Week Brushing"
+      }
+    },
+    {
+      "disorder": "Inherited musculoskeletal disorders",
+      "disease": "Elbow dysplasia - OCD of the elbow",
+      "breed": "basset hound",
+      "group": "Hound Group",
+      "popularity": 39,
+      "sizeRange": {
+        "minHeight_cm": 38.1,
+        "maxHeight_cm": 38.1,
+        "minWeight_kg": 18.1436948,
+        "maxWeight_kg": 29.48350405
+      },
+      "lifeExpectancy": {
+        "min": 12,
+        "max": 13
+      },
+      "traits": {
+        "temperament": "Charming, Patient, Low-Key",
+        "energyLevel": "Couch Potato",
+        "trainability": "Independent",
+        "demeanor": "Friendly",
+        "shedding": "Occasional",
+        "grooming": "2-3 Times a Week Brushing"
+      }
+    },
+    {
+      "disorder": "Inherited musculoskeletal disorders",
+      "disease": "Panosteitis",
+      "breed": "basset hound",
+      "group": "Hound Group",
+      "popularity": 39,
+      "sizeRange": {
+        "minHeight_cm": 38.1,
+        "maxHeight_cm": 38.1,
+        "minWeight_kg": 18.1436948,
+        "maxWeight_kg": 29.48350405
+      },
+      "lifeExpectancy": {
+        "min": 12,
+        "max": 13
+      },
+      "traits": {
+        "temperament": "Charming, Patient, Low-Key",
+        "energyLevel": "Couch Potato",
+        "trainability": "Independent",
+        "demeanor": "Friendly",
+        "shedding": "Occasional",
+        "grooming": "2-3 Times a Week Brushing"
+      }
+    },
+    {
+      "disorder": "Inherited musculoskeletal disorders",
+      "disease": "Patellar luxation",
+      "breed": "basset hound",
+      "group": "Hound Group",
+      "popularity": 39,
+      "sizeRange": {
+        "minHeight_cm": 38.1,
+        "maxHeight_cm": 38.1,
+        "minWeight_kg": 18.1436948,
+        "maxWeight_kg": 29.48350405
+      },
+      "lifeExpectancy": {
+        "min": 12,
+        "max": 13
+      },
+      "traits": {
+        "temperament": "Charming, Patient, Low-Key",
+        "energyLevel": "Couch Potato",
+        "trainability": "Independent",
+        "demeanor": "Friendly",
+        "shedding": "Occasional",
+        "grooming": "2-3 Times a Week Brushing"
+      }
+    },
+    {
+      "disorder": "Inherited musculoskeletal disorders",
+      "disease": "Intervertebral disk disease",
+      "breed": "basset hound",
+      "group": "Hound Group",
+      "popularity": 39,
+      "sizeRange": {
+        "minHeight_cm": 38.1,
+        "maxHeight_cm": 38.1,
+        "minWeight_kg": 18.1436948,
+        "maxWeight_kg": 29.48350405
+      },
+      "lifeExpectancy": {
+        "min": 12,
+        "max": 13
+      },
+      "traits": {
+        "temperament": "Charming, Patient, Low-Key",
+        "energyLevel": "Couch Potato",
+        "trainability": "Independent",
+        "demeanor": "Friendly",
+        "shedding": "Occasional",
+        "grooming": "2-3 Times a Week Brushing"
+      }
+    },
+    {
+      "disorder": "Inherited nervous system disorders",
+      "disease": "Intervertebral disk disease",
+      "breed": "basset hound",
+      "group": "Hound Group",
+      "popularity": 39,
+      "sizeRange": {
+        "minHeight_cm": 38.1,
+        "maxHeight_cm": 38.1,
+        "minWeight_kg": 18.1436948,
+        "maxWeight_kg": 29.48350405
+      },
+      "lifeExpectancy": {
+        "min": 12,
+        "max": 13
+      },
+      "traits": {
+        "temperament": "Charming, Patient, Low-Key",
+        "energyLevel": "Couch Potato",
+        "trainability": "Independent",
+        "demeanor": "Friendly",
+        "shedding": "Occasional",
+        "grooming": "2-3 Times a Week Brushing"
+      }
+    }
+  ]
+}

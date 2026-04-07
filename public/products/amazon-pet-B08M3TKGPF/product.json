@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B08M3TKGPF",
+  "name": "Hamster Ladder Toys, Toy, Wooden Durable Climbing Kits for Parrots Birds",
+  "description": "Features:1. Made of premium material, sturdy and durable in use.2. Easy to clean.3. Easy to install, with screws, can easily fix the product on the cage without other tools.4. Playing, climbing and rest, ease boredom and provide a comfortable place for your pet to exercise.5. This toy is suitable for birds, parrot, hamster and alike to play.Specification:Condition: 100% Brand NewMaterial: WoodColor: burlywoodBoard Size: Approx. 10*10 cm / 3.9*3.9 inchLadder Size: Approx. 16*7 cm / 6.3*2.8 inchWeight: Approx. 165g / 5.8 ozPackage list:1 * Board1 * LadderNote:1. Please allow 0-1 inch error due t",
+  "image": "https://m.media-amazon.com/images/I/31Vy2BYRVmL._SS522_.jpg",
+  "sku": "amazon-pet-B08M3TKGPF",
+  "brand": {
+    "@type": "Brand",
+    "name": "Wuqioei"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 924,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "keywords": [
+    "bird-toy",
+    "pet-supplies",
+    "small-animals",
+    "health-supplies"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B09ZJ4Z4F2",
+  "name": "CALANDIS Handmade Bark Hanging Bird Nest House Hatch Breeding Grass Cave B: 2pcs Bird",
+  "description": "Description:Handmade birdhouse nest, this bark house provides the perfect hollow space for placing treats and bird seeding.Made from Hay and Bark, very strong,keep your parrots or birds away from the cold,high wind and and other animal injuries.Easy and portable to hanging with the bilateral hooks, can be hung in the trees, eaves, the villa walls, attracting birds into nests nest, to your home and add fun environment.The entrance of the cave is very convenient for birds to get in and out, give your lovely parrots or birds a warm and comfortable hut to rest.Great decoration for home, garden, ba",
+  "image": "https://m.media-amazon.com/images/I/314jQrCIOjL._SS522_.jpg",
+  "sku": "amazon-pet-B09ZJ4Z4F2",
+  "brand": {
+    "@type": "Brand",
+    "name": "CALANDIS"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 821,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "keywords": [
+    "bird-toy",
+    "pet-supplies",
+    "birds",
+    "birdcage-accessories",
+    "nests"
+  ]
+}

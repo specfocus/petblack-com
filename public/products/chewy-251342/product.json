@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-251342",
+  "name": "GNC Pets Advanced Immune Support Chicken Flavor Soft Chews Cat Supplement, 60 count",
+  "description": "Help your fuzzy buddy battle back with GNC Pets Advanced Lysine Soft Chews. These supplements are purr-fect for cats over six months old. They are formulated to support immune system and respiratory functions using a blend of L-lysine, vitamin C and dried brewer’s yeast. These immune support chews are feature a delicious chicken flavor that’s kitty taste-tested and approved for your dude. They are crafted to be easy to swallow and ideal for cats who dislike taking pills.",
+  "image": "https://image.chewy.com/is/image/catalog/251342_MAIN._AC_SS500_V1609891114_.jpg",
+  "sku": "chewy-251342",
+  "brand": {
+    "@type": "Brand",
+    "name": "GNC Pets"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 4.79,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 2.2,
+    "reviewCount": 5
+  },
+  "keywords": [
+    "cat-health",
+    "cat",
+    "vitamins-supplements",
+    "immune-system-allergy",
+    "soft-chews-wafers-chewable-tablets"
+  ]
+}

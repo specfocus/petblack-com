@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-292712",
+  "name": "Blue Buffalo Life Protection Formula Adult Lamb & Brown Rice Recipe Dry Food + Health Bars Baked with Bacon, Egg & Cheese Dog Treats",
+  "description": "Keep your furry buddy living the best life! Each purchase comes with Blue Buffalo Life Protection Formula Adult Lamb & Brown Rice Recipe Dry Dog Food, 30-lb bag & Blue Buffalo Health Bars Baked with Bacon, Egg & Cheese Dog Treats, 16-oz bag. Blue Buffalo Life Protection Formula was created for the health and well-being of dogs. All formulas start with real meat, whole grains, garden veggies and fruit, plus added LifeSource Bits, a precise blend of nutrients that have been enhanced with a Super 7 package of antioxidant-rich ingredients. This Adult Lamb & Brown Rice Recipe features delicious, protein-rich deboned lamb and has all the flavor your four-legged friend will love and all the benefits you will love! Blue Buffalo Health Bars Baked with Bacon, Egg & Cheese Dog Treats deliver the great taste without the corn, wheat and soy known to cause allergic reactions in some dogs. Made with the finest natural ingredients, fortified with omega-3 fatty acids, vitamins and antioxidants, and oven-baked for a big crunch, these treats are as nutritious as they are delicious!",
+  "image": "",
+  "sku": "chewy-292712",
+  "brand": {
+    "@type": "Brand",
+    "name": "Blue Buffalo"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 74.96,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 5,
+    "reviewCount": 3
+  },
+  "keywords": [
+    "dog-dry-food",
+    "dog",
+    "food",
+    "dry-food"
+  ]
+}

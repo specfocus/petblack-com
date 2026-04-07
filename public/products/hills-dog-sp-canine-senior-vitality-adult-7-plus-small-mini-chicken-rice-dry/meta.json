@@ -1,0 +1,17 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-dry-food",
+  "url": "https://www.hillspet.co.uk/dog-food/sp-canine-senior-vitality-adult-7-plus-small-mini-chicken-rice-dry",
+  "foodForm": "dry food",
+  "lifeStage": "senior",
+  "breedSize": "small",
+  "flavour": "with chicken & rice",
+  "calories": "3621 kcal/kg (362 kcal/100g)",
+  "moisture": "8.0",
+  "protein": "19.8",
+  "fat": "12.7",
+  "ingredients": "['barley', 'carrot', 'turkey_meal', 'flaxseed', 'sunflower_oil', 'tomato', 'beet', 'citrus', 'fish_oil', 'rice', 'egg', 'oat', 'corn', 'spinach', 'chicken_meal']",
+  "category": [
+    "aging-care"
+  ]
+}

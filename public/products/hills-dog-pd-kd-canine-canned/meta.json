@@ -1,0 +1,16 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-wet-food",
+  "url": "https://www.hillspet.com/dog-food/pd-kd-canine-canned",
+  "foodForm": "wet food",
+  "lifeStage": "-",
+  "flavour": "with chicken",
+  "calories": "433 kcal / 13 oz (370 g) can",
+  "moisture": "77.0",
+  "protein": "3.611",
+  "fat": "6.003000000000001",
+  "ingredients": "['salt', 'pork_liver', 'flaxseed', 'water', 'beet', 'fish_oil', 'egg_whites', 'chicken', 'corn', 'oat', 'chicken_fat']",
+  "category": [
+    "kidney-care"
+  ]
+}

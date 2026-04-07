@@ -1,0 +1,18 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-dry-food",
+  "url": "https://www.hillspet.co.uk/dog-food/ve-canine-vetessentials-senior-mature-adult-small-mini-dog-food-chicken-dry",
+  "foodForm": "dry food",
+  "lifeStage": "senior",
+  "breedSize": "small",
+  "flavour": "with chicken",
+  "calories": "3617 kcal/kg (362 kcal/100g)",
+  "moisture": "0.0",
+  "protein": "21.2",
+  "fat": "12.9",
+  "ingredients": "['barley', 'carrot', 'turkey_meal', 'flaxseed', 'sunflower_oil', 'tomato', 'beet', 'citrus', 'fish_oil', 'rice', 'egg', 'chicken', 'oat', 'corn', 'spinach', 'chicken_meal']",
+  "category": [
+    "aging-care",
+    "nervous-system-care-and-stress"
+  ]
+}

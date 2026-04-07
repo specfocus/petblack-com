@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-216950",
+  "name": "Go Pet Club 32-in Large Perch Cat Tree Condo",
+  "description": "Shhh, don’t wake your feline friend as she comfortably snoozes in her Go Pet Club 32-in Cat Tree Condo with Large Perch. This tree features an oversized bottom condo with walls and a roof for ideal privacy when nap time rolls around. The top and center perches provide surfaces for your best bud to sit, lounge and keep an eye on her surroundings while the sisal-wrapped post is made for safe scratching. Crafted in a durable wood and finished with a soft faux-fur, your pal will have no problem settling into this cozy tree. When your girl is feeling playful, she can swat away at the dangly rope toy!",
+  "image": "",
+  "sku": "chewy-216950",
+  "brand": {
+    "@type": "Brand",
+    "name": "Go Pet Club"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 53.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.7705,
+    "reviewCount": 61
+  },
+  "keywords": [
+    "cat-toy",
+    "cat",
+    "trees-condos-scratchers",
+    "trees-condos",
+    "medium-31-59"
+  ]
+}

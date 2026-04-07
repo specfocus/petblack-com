@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B09L77VYDS",
+  "name": "Feeding Mat for Dogs, Anti‑Slip Design Pet Foraging Mat Skin‑Friendly Machine Washable Dog Foraging Mat with Bright Colors for Pet for Training",
+  "description": "Feature:1. Skin‑friendly and comfortable, not easy to hurt the nose, machine washable.2. Anti‑slip design on the back, more focused on sniffing.3. Consume energy and help pets relieve boredom.4. A mat for dogs to forage, smell, and consume energy.5. Suitable for your lovely pet dog and cat.Specification:Condition: 100% brand newItem type: Pet Foraging MatMaterial: plush fabricColor: As picture shownOpening diameter: Approx. 46cm/18.1inWeight: Approx. 226g Suitable for pet types: cats and dogsProduct function: a mat for dogs to search for food, smell and consume energy Package List:1 xPet Forag",
+  "image": "https://m.media-amazon.com/images/I/41NYuObQtvL._SS522_.jpg",
+  "sku": "amazon-pet-B09L77VYDS",
+  "brand": {
+    "@type": "Brand",
+    "name": "Fabater"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 2.424,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "keywords": [
+    "dog-toy",
+    "pet-supplies",
+    "cats",
+    "beds-furniture",
+    "bedding",
+    "bed-mats"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5312940",
+  "name": "Bungalow Flooring Personalized Waterhog Squares Dog & Cat Bowl Placemat",
+  "description": "Bungalow Flooring Personalized Waterhog Squares Dog &amp; Cat Bowl Placemat",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5312940",
+  "brand": {
+    "@type": "Brand",
+    "name": "Bungalow Flooring"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 49.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "dog-accessory",
+    "dog",
+    "bowls-and-feeders",
+    "placemats"
+  ]
+}

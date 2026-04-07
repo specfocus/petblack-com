@@ -1,0 +1,17 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-dry-food",
+  "url": "https://www.hillspet.co.uk/dog-food/ve-canine-adult-medium-with-lamb-rice-dry",
+  "foodForm": "dry food",
+  "lifeStage": "adult",
+  "breedSize": "medium",
+  "flavour": "with lamb & rice",
+  "calories": "3705 kcal/kg (370 kcal/100g)",
+  "moisture": "0.0",
+  "protein": "21.5",
+  "fat": "14.2",
+  "ingredients": "['sunflower_oil', 'flaxseed', 'rice', 'wheat', 'corn', 'chicken_fat', 'lamb', 'soybean']",
+  "category": [
+    "digestive-care"
+  ]
+}

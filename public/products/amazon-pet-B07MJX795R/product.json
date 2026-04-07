@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B07MJX795R",
+  "name": "KOZI PET Premium Warm and Very Soft Fleece Blanket Red for Dog & Cat (Export Quality)-Medium",
+  "description": "Made of environment friendly thick soft comfy fleece, Dimension: 73.66 x 86.36 CM | [Cuddly Soft & Fluffy] The pet's blanket is made of fleece and can absorb water. The fleece blanket feels very fluffy and does not smell like chemistry. | These Fleece Blankets are Very High Quality. Machine Washable and Quick Drying. Extremely Warm and Very Soft To Touch. | 29*34inch Dog Blanket perfect for Medium size dogs, puppies and cats, such as Chihuahua and Papillon, Pomeranian, Bichon, Teddy, Yorkshire terrier,etc. | Well-packed and timely shipped, 100% satisfied guarantee",
+  "image": "https://m.media-amazon.com/images/I/41wELHwwkWL._SS522_.jpg",
+  "sku": "amazon-pet-B07MJX795R",
+  "brand": {
+    "@type": "Brand",
+    "name": "Visit the KOZI PET Store"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 995,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "dog-accessory",
+    "pet-supplies",
+    "cats",
+    "beds-furniture",
+    "bedding",
+    "bed-blankets"
+  ]
+}

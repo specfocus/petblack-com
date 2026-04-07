@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B09815R5F3",
+  "name": "Cat Harness and Leash, Adjustable Comfortable Cat Harness for Cat(Navy Blue Stripes, Medium (Suitable for 6-12 kg))",
+  "description": "Feature:1. Made of high‑quality polyester cotton material, it is strong, durable, not easy to damage, and can be used for a long time.2. The specially designed bow is simple and cute, metal adjusting buckle is not easy to loose, easy to put on and take off.3. Simple and stylish design, vest‑style cat harness, your cat can always stand out, comfortable edge and soft mesh is breathable, making cleaning easier.4. This practical design provides your pet with a comfortable and close‑fitting choice, fashionable and comfortable in daily walks.5. It can effectively prevent injuries, provide extra prot",
+  "image": "https://m.media-amazon.com/images/I/41YUAi7gi8S._SS522_.jpg",
+  "sku": "amazon-pet-B09815R5F3",
+  "brand": {
+    "@type": "Brand",
+    "name": "DIMU"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 803,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "cat-accessory",
+    "pet-supplies",
+    "cats",
+    "collars-harnesses-leashes",
+    "harnesses"
+  ]
+}

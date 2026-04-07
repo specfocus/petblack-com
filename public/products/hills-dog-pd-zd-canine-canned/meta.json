@@ -1,0 +1,17 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-wet-food",
+  "url": "https://www.hillspet.com/dog-food/pd-zd-canine-canned",
+  "foodForm": "wet food",
+  "lifeStage": "-",
+  "flavour": "original flavor",
+  "calories": "362 kcal  / 13 oz (370 g) can",
+  "moisture": "78.0",
+  "protein": "4.356",
+  "fat": "3.41",
+  "ingredients": "['salt', 'water', 'soybean_oil', 'hydrolyzed_chicken_liver', 'corn']",
+  "category": [
+    "digestive-care",
+    "skin-health"
+  ]
+}

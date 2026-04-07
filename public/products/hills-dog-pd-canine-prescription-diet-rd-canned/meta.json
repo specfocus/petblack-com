@@ -1,0 +1,16 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-wet-food",
+  "url": "https://www.hillspet.co.uk/dog-food/pd-canine-prescription-diet-rd-canned",
+  "foodForm": "wet food",
+  "lifeStage": "-",
+  "flavour": "original",
+  "calories": "282 kcal/can",
+  "moisture": "75.0",
+  "protein": "8.4",
+  "fat": "2.2",
+  "ingredients": "['carrot', 'sunflower_oil', 'chicken_broth', 'rice', 'egg']",
+  "category": [
+    "weight-management"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5175719",
+  "name": "Brown's® Tropical Carnival® Farm Fresh Fixins&trade; Small Animal Treats",
+  "description": "Brown's&reg; Tropical Carnival&reg; Farm Fresh Fixins&amp;trade; Small Animal Treats",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5175719",
+  "brand": {
+    "@type": "Brand",
+    "name": "Brown's"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 8.39,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.9286,
+    "reviewCount": 14
+  },
+  "keywords": [
+    "small-pet-food",
+    "small-pet",
+    "food-treats-and-hay",
+    "treats"
+  ]
+}

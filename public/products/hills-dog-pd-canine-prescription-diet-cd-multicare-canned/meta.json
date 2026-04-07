@@ -1,0 +1,16 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-wet-food",
+  "url": "https://www.hillspet.co.uk/dog-food/pd-canine-prescription-diet-cd-multicare-canned",
+  "foodForm": "wet food",
+  "lifeStage": "-",
+  "flavour": "with chicken",
+  "calories": "457 kcal/can",
+  "moisture": "70.0",
+  "protein": "6.9",
+  "fat": "5.7",
+  "ingredients": "['carrot', 'sunflower_oil', 'flaxseed', 'molluscs_and_crustaceans', 'rice', 'chicken']",
+  "category": [
+    "urinary-care"
+  ]
+}

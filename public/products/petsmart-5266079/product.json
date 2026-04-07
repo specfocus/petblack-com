@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5266079",
+  "name": "SmartBones® SmartSticks Dog Treat - Chicken",
+  "description": "SmartBones&reg; SmartSticks Dog Treat - Chicken",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5266079",
+  "brand": {
+    "@type": "Brand",
+    "name": "SmartBones"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 16.79,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.5556,
+    "reviewCount": 9
+  },
+  "keywords": [
+    "dog-treat",
+    "dog",
+    "treats",
+    "bones-and-rawhide"
+  ]
+}

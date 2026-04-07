@@ -1,0 +1,17 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-dry-food",
+  "url": "https://www.hillspet.com/dog-food/sd-canine-puppy-small-breed-dry",
+  "foodForm": "dry food",
+  "lifeStage": "puppy",
+  "breedSize": "small",
+  "flavour": "chicken & brown rice recipe",
+  "calories": "3780 kcal/kg 418 kcal/cup†",
+  "moisture": "0.0",
+  "protein": "28.9",
+  "fat": "19.7",
+  "ingredients": "['barley', 'salt', 'brown_rice', 'flaxseed', 'green_pea', 'chicken_meal', 'lactic_acid', 'beet', 'fish_oil', 'citrus', 'soybean_oil', 'chicken', 'oat', 'corn', 'ground_pecan_shell', 'cranberry', 'chicken_fat', 'soybean']",
+  "category": [
+    "puppy-care"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5305962",
+  "name": "Petlinks® Marble Mayhem&trade; Rolling Marble Cat Toy",
+  "description": "Petlinks&reg; Marble Mayhem&amp;trade; Rolling Marble Cat Toy",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5305962",
+  "brand": {
+    "@type": "Brand",
+    "name": "Petlinks"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 6.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 3.5294,
+    "reviewCount": 34
+  },
+  "keywords": [
+    "cat-toy",
+    "cat",
+    "toys",
+    "electronic-and-interactive"
+  ]
+}

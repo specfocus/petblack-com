@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B09B8M3C1B",
+  "name": "Bird Hammock Bed, Pet Hanging Nests Pet Hanging Cage Soft for Hamster for for(L, Camouflage)",
+  "description": "Feature:1. Made of high‑quality canvas and lamb wool materials, it is warm, soft, comfortable and safe.2. Exquisite two‑door tunnel design can facilitate the in and out of birds without folding the tail.3. Simple operation, equipped with stainless steel hooks, easy to hang in the bird cage.4. Widely used, can also be used under a chair or as a pet mat on the floor.5. Not only suitable for parrots, but also suitable for hamsters, squirrels, and ornamental birds.Specification:Condition: 100% Brand NewItem Type: Hamster BedMaterial: Canvas, Velvet Package List:1 x Bird Hammock Bed2 x Pothooks",
+  "image": "https://m.media-amazon.com/images/I/51B92Znr+BL._SS522_.jpg",
+  "sku": "amazon-pet-B09B8M3C1B",
+  "brand": {
+    "@type": "Brand",
+    "name": "Sojare"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 1.112,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "bird-toy",
+    "pet-supplies",
+    "cats",
+    "beds-furniture",
+    "hammocks"
+  ]
+}

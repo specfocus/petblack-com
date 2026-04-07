@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B07DQ5DZB9",
+  "name": "BESSIE AND BARNIE Signature Aspen Snow Leopard/ Blondie Luxury Shag Extra Plush Faux Fur Bagel Pet/Dog Bed (Multiple Sizes), S- 30",
+  "description": "360-degree zipper easy to assemble and to clean | Cover is machine washable/dryer friendly | Reversible (can be used in two different sides) | Long lasting, unique durable fabrics | Water proof pillow liner",
+  "image": "https://m.media-amazon.com/images/I/51rCGfdKXGL._SS522_.jpg",
+  "sku": "amazon-pet-B07DQ5DZB9",
+  "brand": {
+    "@type": "Brand",
+    "name": "BESSIE AND BARNIE"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 26.262,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "keywords": [
+    "dog-toy",
+    "pet-supplies",
+    "cats",
+    "beds-furniture",
+    "beds"
+  ]
+}

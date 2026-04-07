@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5317383",
+  "name": "Estrumate (Cloprostenol Sodium)",
+  "description": "Estrumate (Cloprostenol Sodium)",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5317383",
+  "brand": {
+    "@type": "Brand",
+    "name": "Estrumate"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 26.49,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "farm-animal-food",
+    "pharmacy",
+    "livestock",
+    "thyroid-and-hormone"
+  ]
+}

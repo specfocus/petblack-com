@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5222190",
+  "name": "Purebites® All Natural Salmon Freeze Dried Value Pack Cat Treat",
+  "description": "Purebites&reg; All Natural Salmon Freeze Dried Value Pack Cat Treat",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5222190",
+  "brand": {
+    "@type": "Brand",
+    "name": "PureBites"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 3.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.3529,
+    "reviewCount": 34
+  },
+  "keywords": [
+    "cat-treat",
+    "cat",
+    "food-and-treats",
+    "treats"
+  ]
+}

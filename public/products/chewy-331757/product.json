@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-331757",
+  "name": "Frisco Holey-Moley Coconut Foraging Bird Toy",
+  "description": "Holey moley, that’s a lot of coconuts! Your bird buddy won’t know where to start with this coconut foraging bird toy, from Frisco by Chewy. The multiple levels are great for exploring, the holes were made for foraging and the coconuts will make them feel like they’re in a tropical paradise (even if it’s just your living room). Just loop the rope around wherever you feel like hanging it!",
+  "image": "https://image.chewy.com/is/image/catalog/331757_MAIN._AC_SS500_V1660944682_.jpg",
+  "sku": "chewy-331757",
+  "brand": {
+    "@type": "Brand",
+    "name": "Frisco"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 15.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.6667,
+    "reviewCount": 18
+  },
+  "keywords": [
+    "bird-toy",
+    "bird",
+    "shop-by-bird",
+    "cockatiel",
+    "toys-perches"
+  ]
+}

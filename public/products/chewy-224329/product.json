@@ -1,0 +1,29 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-224329",
+  "name": "Frisco Stretchy Dog & Cat Fleece Vest",
+  "description": "A fleece vest makes a great addition to anyone’s cold-weather wardrobe, even your pet! These cozy, polyester fleece vests are made of stretchy fabric, and they’re thin enough to work as a layering piece and just warm enough to work as a standalone vest if your dog only needs a light layer to stay comfy during cold weather. Made with a pullover design, so it’s easy to put on and always keeps your pet cozy.",
+  "image": "",
+  "sku": "chewy-224329",
+  "brand": {
+    "@type": "Brand",
+    "name": "Frisco"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 15.56,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.0805,
+    "reviewCount": 87
+  },
+  "keywords": [
+    "dog-accessory",
+    "cat",
+    "clothing-accessories"
+  ]
+}

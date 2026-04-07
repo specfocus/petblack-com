@@ -1,0 +1,16 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-dry-food",
+  "url": "https://www.hillspet.com/dog-food/pd-cd-multicare-canine-dry",
+  "foodForm": "dry food",
+  "lifeStage": "-",
+  "flavour": "chicken flavor",
+  "calories": "3820 kcal/kg 379 kcal/cup†",
+  "moisture": "0.0",
+  "protein": "22.3",
+  "fat": "17.2",
+  "ingredients": "['salt', 'flaxseed', 'chicken_meal', 'lactic_acid', 'fish_oil', 'soybean_oil', 'rice', 'egg', 'corn', 'chicken_fat', 'soybean']",
+  "category": [
+    "urinary-care"
+  ]
+}

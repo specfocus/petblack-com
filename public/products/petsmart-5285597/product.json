@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5285597",
+  "name": "Top Fin® Tiki Bar Aquarium Ornament",
+  "description": "Top Fin&reg; Tiki Bar Aquarium Ornament",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5285597",
+  "brand": {
+    "@type": "Brand",
+    "name": "Top Fin"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 16.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 5,
+    "reviewCount": 1
+  },
+  "keywords": [
+    "fish-accessory",
+    "fish",
+    "decor-gravel-and-substrate",
+    "ornaments"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-wet-food",
+  "url": "https://www.hillspet.co.uk/dog-food/ve-canine-vetessentials-adult-multi-benefit-plus-weight-chicken-vegetables-canned",
+  "foodForm": "wet food",
+  "lifeStage": "adult",
+  "flavour": "with tender chicken & added vegetables",
+  "calories": "322 kcal (363 g) can",
+  "moisture": "75.8",
+  "protein": "6.9",
+  "fat": "3.9",
+  "ingredients": "['carrot', 'sunflower_oil', 'flaxseed', 'rice', 'chicken']",
+  "category": [
+    "weight-management"
+  ]
+}

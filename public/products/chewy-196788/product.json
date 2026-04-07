@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-196788",
+  "name": "Formula 707 ULZERless Digestive Health Hay Flavor Pellets Horse Supplement",
+  "description": "The Formula 707 ULZERless Horse Supplement offers a natural, syringe-free way to support gastric system health in your horse to keep him comfortable and performing at his best. This supplement helps to promote healthy digestion and reduce the harmful effects that stomach acid can have on your horse’s stomach lining. Ingredients like licorice root, zinc and glutamine support mucus production, encourage stable gastric acid levels and help to reduce inflammation. This pelleted formula is naturally palatable for picky eaters, but doesn’t contain sugar, which can further irritate your horse’s gut.",
+  "image": "https://image.chewy.com/is/image/catalog/196788_MAIN._AC_SS500_V1568053359_.jpg",
+  "sku": "chewy-196788",
+  "brand": {
+    "@type": "Brand",
+    "name": "Formula 707"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 85.9,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "pet-health",
+    "horse",
+    "health-wellness",
+    "vitamins-supplements",
+    "digestive-care-probiotics"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "source": "petsmart",
+  "url": "https://www.petsmart.com/dog/food/canned-food/purina-pro-plan-focus-puppy-wet-dog-food---high-protein-13-oz-2948.html",
+  "breadcrumb": "dog > food > canned-food > purina-pro-plan-focus-puppy-wet-dog-food---high-protein-13-oz-2948.html",
+  "bucket": "dog-wet-food",
+  "gtin13": "0038100026712",
+  "images": {
+    "large": "https://s7d2.scene7.com/is/image/PetSmart/5067364?$sclp-prd-main_large$",
+    "medium": "https://s7d2.scene7.com/is/image/PetSmart/5067364?$sclp-prd-main_medium$",
+    "small": "https://s7d2.scene7.com/is/image/PetSmart/5067364?$sclp-prd-main_small$"
+  }
+}

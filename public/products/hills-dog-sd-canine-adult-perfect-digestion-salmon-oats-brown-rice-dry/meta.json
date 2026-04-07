@@ -1,0 +1,16 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-dry-food",
+  "url": "https://www.hillspet.com/dog-food/sd-canine-adult-perfect-digestion-salmon-oats-brown-rice-dry",
+  "foodForm": "dry food",
+  "lifeStage": "adult",
+  "flavour": "salmon, whole oats, and brown rice recipe",
+  "calories": "3662 kcal/kg 374 kcal/cup†",
+  "moisture": "0.0",
+  "protein": "25.0",
+  "fat": "15.5",
+  "ingredients": "['barley', 'salt', 'salmon', 'flaxseed', 'brown_rice', 'chicken_meal', 'lactic_acid', 'beet', 'citrus', 'pumpkin', 'soybean_oil', 'oat', 'corn', 'ground_pecan_shell', 'cranberry', 'chicken_fat']",
+  "category": [
+    "digestive-care"
+  ]
+}

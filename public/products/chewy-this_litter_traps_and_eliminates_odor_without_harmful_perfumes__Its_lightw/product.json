@@ -1,0 +1,22 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-this litter traps and eliminates odor without harmful perfumes. Its lightweight design makes it easy to scoop and pour—plus",
+  "name": "8-lb bag—Keep an eye on your cat’s health with PrettyLitter Cat Litter! Made with highly-absorbent crystals",
+  "description": "'https://image.chewy.com/is/image/catalog/683318_PT2._AC_SS500_V1666188277_.jpg'",
+  "image": "https://image.chewy.com/is/image/catalog/683318_PT4._AC_SS500_V1666189333_.jpg",
+  "sku": "chewy-this litter traps and eliminates odor without harmful perfumes. Its lightweight design makes it easy to scoop and pour—plus",
+  "brand": {
+    "@type": "Brand",
+    "name": "urinary stones or blood in the urine. It is paw-fect for single or multicat households.,InStock,['https://image.chewy.com/is/image/catalog/683318_MAIN._AC_SS500_V1666126221_.jpg'"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 683318,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "keywords": [
+    "cat-accessory"
+  ]
+}

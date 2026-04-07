@@ -1,0 +1,16 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-wet-food",
+  "url": "https://www.hillspet.com/dog-food/sd-canine-adult-perfect-weight-chicken-vegetable-entree-canned",
+  "foodForm": "wet food",
+  "lifeStage": "-",
+  "flavour": "chicken & vegetable entrée",
+  "calories": "310 kcal / 12.8 oz (363 g) can",
+  "moisture": "78.0",
+  "protein": "6.138",
+  "fat": "2.728",
+  "ingredients": "['carrot', 'salt', 'flaxseed', 'green_beans', 'tomato', 'apple', 'green_pea', 'potato', 'beet', 'coconut_oil', 'chicken_broth', 'egg_whites', 'turkey_liver', 'oat', 'chicken']",
+  "category": [
+    "weight-management"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-314348",
+  "name": "Natura Petz Organics Life's An Itch! Dog Supplement",
+  "description": "Itch, itch, scratch, scratch--does this sound like your dog’s to-do list? When you add Natura Petz Organics Life's An Itch! Dog Supplement to your canine companion’s daily routine, you may see a reduction in immune response to common allergens. This supplement is commonly used by holistic veterinarians to help address symptoms related to all types of acute and chronic allergies—and may help end the itch/scratch cycle that’s become a habit for your puppy.",
+  "image": "https://image.chewy.com/is/image/catalog/314348_MAIN._AC_SS500_V1632182169_.jpg",
+  "sku": "chewy-314348",
+  "brand": {
+    "@type": "Brand",
+    "name": "Natura Petz Organics"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 44.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "dog-health",
+    "dog",
+    "healthcare"
+  ]
+}

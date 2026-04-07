@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "hills-dog-pd-canine-feline-prescription-diet-ad-canned",
+  "name": "a/d dog/cat food",
+  "description": "cats and dogs can undergo significant metabolic changes when recovering from surgery, illness or injury. while under these stressful conditions, your pet is challenged to maintain their strong natural defenses which makes it even more important to feed the right food to help your pet bounce back from these tough situations. hill's nutritionists and veterinarians developed prescription diet a/d , clinically proven nutrition specially formulated for dogs and cats recovering from surgery, illness or injury so you can feel confident you are giving your pet your best.",
+  "image": "",
+  "sku": "hills-dog-pd-canine-feline-prescription-diet-ad-canned",
+  "brand": {
+    "@type": "Brand",
+    "name": "Hill's Pet Nutrition"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "GBP",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "dog-wet-food",
+    "urgent-care",
+    "protein-12.9pct",
+    "-",
+    "with-chicken"
+  ]
+}

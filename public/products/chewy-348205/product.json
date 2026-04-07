@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-348205",
+  "name": "Azithromycin Compounded Capsule for Dogs & Cats",
+  "description": "Azithromycin is a macrolide antibiotic that may be prescribed for infections. Azithromycin Compounded capsule is a blue and white elongated capsule made specifically for your pet. **Please note your capsules may be either blue and opaque-white or blue and clear. There has been no change to the medication's formulation, this only impacts the capsule's appearance.**",
+  "image": "https://image.chewy.com/is/image/catalog/348205_MAIN._AC_SS500_V1638850598_.jpg",
+  "sku": "chewy-348205",
+  "brand": {
+    "@type": "Brand",
+    "name": "Azithromycin Compounded"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 0.79,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "dog-health",
+    "pharmacy",
+    "dog-pharmacy",
+    "respiratory-care-asthma"
+  ]
+}

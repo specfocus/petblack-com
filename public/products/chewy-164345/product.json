@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-164345",
+  "name": "Tetra Remote-Controlled Color-Changing LED Pond Fountain Set",
+  "description": "Illuminate your outdoor space with the Tetra Remote-Controlled Color-Changing LED Pond Fountain Set. This energy-efficient system features color-changing LED technology to highlight your fountain’s features. It comes with convenient remote-control operation and can be adjusted according to the height of your fountain. You can also cycle through all the colors of the rainbow for a multicolored display. Easy to install, the Tetra Remote-Controlled Color-Changing LED Pond Fountain Set lets you show off your true colors.",
+  "image": "https://image.chewy.com/is/image/catalog/164345_MAIN._AC_SS500_V1554759119_.jpg",
+  "sku": "chewy-164345",
+  "brand": {
+    "@type": "Brand",
+    "name": "Tetra"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 55,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 5,
+    "reviewCount": 2
+  },
+  "keywords": [
+    "fish-accessory",
+    "fish",
+    "shop-by-fish-type",
+    "pond-shop"
+  ]
+}

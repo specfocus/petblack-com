@@ -1,0 +1,17 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-wet-food",
+  "url": "https://www.hillspet.com/dog-food/pd-dd-canine-duck-formula-canned",
+  "foodForm": "wet food",
+  "lifeStage": "-",
+  "flavour": "duck formula",
+  "calories": "387 kcal/ 13 oz (370 g) can",
+  "moisture": "78.0",
+  "protein": "3.784",
+  "fat": "3.6079999999999997",
+  "ingredients": "['salt', 'duck', 'water', 'potato', 'fish_oil', 'soybean_oil', 'duck_liver']",
+  "category": [
+    "food-sensitivity",
+    "skin-health"
+  ]
+}

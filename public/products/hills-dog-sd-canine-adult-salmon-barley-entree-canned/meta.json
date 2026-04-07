@@ -1,0 +1,15 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-wet-food",
+  "url": "https://www.hillspet.com/dog-food/sd-canine-adult-salmon-barley-entree-canned",
+  "foodForm": "wet food",
+  "lifeStage": "adult",
+  "flavour": "salmon & barley entrée",
+  "moisture": "78.0",
+  "protein": "4.972",
+  "fat": "3.08",
+  "ingredients": "['barley', 'salt', 'salmon', 'pork_liver', 'water', 'soybean_oil', 'beef_liver', 'whey', 'corn', 'chicken', 'soybean']",
+  "category": [
+    "adult-care"
+  ]
+}

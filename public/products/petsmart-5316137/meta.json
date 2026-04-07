@@ -1,0 +1,12 @@
+{
+  "source": "petsmart",
+  "url": "https://www.petsmart.com/pharmacy/dog/immune-support/palladia---10-mg-15-mg-50-mg---single-tablet-66656.html",
+  "breadcrumb": "pharmacy > dog > immune-support > palladia---10-mg-15-mg-50-mg---single-tablet-66656.html",
+  "bucket": "dog-health",
+  "gtin13": "0872191025342",
+  "images": {
+    "large": "https://s7d2.scene7.com/is/image/PetSmart/5316137?$sclp-prd-main_large$",
+    "medium": "https://s7d2.scene7.com/is/image/PetSmart/5316137?$sclp-prd-main_medium$",
+    "small": "https://s7d2.scene7.com/is/image/PetSmart/5316137?$sclp-prd-main_small$"
+  }
+}

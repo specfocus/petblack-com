@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5202969",
+  "name": "Hill's® Science Diet® Indoor Senior 11+ Dry Cat Food - Chicken",
+  "description": "Hill's&reg; Science Diet&reg; Indoor Senior 11+ Dry Cat Food - Chicken",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5202969",
+  "brand": {
+    "@type": "Brand",
+    "name": "Hill's Science Diet"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 17.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.6526,
+    "reviewCount": 95
+  },
+  "keywords": [
+    "cat-dry-food",
+    "cat",
+    "food-and-treats",
+    "dry-food"
+  ]
+}

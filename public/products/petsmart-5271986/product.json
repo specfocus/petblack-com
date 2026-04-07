@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5271986",
+  "name": "PetArmor® Plus for Dogs 89-132 lbs Flea & Tick Spot On Treatment",
+  "description": "PetArmor&reg; Plus for Dogs 89-132 lbs Flea &amp; Tick Spot On Treatment",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5271986",
+  "brand": {
+    "@type": "Brand",
+    "name": "PetArmor"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 28.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.1055,
+    "reviewCount": 635
+  },
+  "keywords": [
+    "dog-health",
+    "dog",
+    "flea-and-tick",
+    "spot-ons"
+  ]
+}

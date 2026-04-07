@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-318128",
+  "name": "HANAMYA Interactive Food/Treats Dispensing Flying Disc Puzzle Dog Toy",
+  "description": "Treat your pup to twice the fun with the HANAMYA Interactive Food/Treats Dispensing Flying Disc Puzzle Dog Toy. This two-in-one toy works as a treat dispenser and a flying disc! Simply fill with your dog’s favorite kibble or dry treats to help slow his pace of eating and provide mentally stimulating playtime. When the food runs out, toss the disc around for lots of high-flying, running fun! Each toy is made with durable, nontoxic and pet-safe polycarbonate. Plus, it engages your dog physically and mentally to help relieve anxiety, boredom and destructive behavior.",
+  "image": "https://image.chewy.com/is/image/catalog/318128_MAIN._AC_SS500_V1636671700_.jpg",
+  "sku": "chewy-318128",
+  "brand": {
+    "@type": "Brand",
+    "name": "HANAMYA"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 15.95,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 2.4286,
+    "reviewCount": 7
+  },
+  "keywords": [
+    "dog-dry-food",
+    "dog",
+    "toys",
+    "interactive-toys",
+    "treat-toys-dispensers"
+  ]
+}

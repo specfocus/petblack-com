@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B09W89B8G1",
+  "name": "Bird Toys, Multi-Layer Design Bright Colors Natural Wood Chew Blocks for Birds for Parrots",
+  "description": "Specification:Item Type: Chewing ToyMaterial: Logs, Plastic, Cotton RopePurpose: Large Bite ToyPackage List:1 xToy",
+  "image": "https://m.media-amazon.com/images/I/41RPMYduGOL._SS522_.jpg",
+  "sku": "amazon-pet-B09W89B8G1",
+  "brand": {
+    "@type": "Brand",
+    "name": "Ufolet"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 2.044,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "keywords": [
+    "bird-food",
+    "pet-supplies",
+    "birds",
+    "toys"
+  ]
+}

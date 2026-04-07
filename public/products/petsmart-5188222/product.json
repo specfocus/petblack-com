@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5188222",
+  "name": "Clear-For-Life 55 Gallon Hexagon Aquarium",
+  "description": "Clear-For-Life 55 Gallon Hexagon Aquarium",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5188222",
+  "brand": {
+    "@type": "Brand",
+    "name": "Clear-For-Life"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 709.19,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "fish-accessory",
+    "fish",
+    "tanks-aquariums-and-nets",
+    "aquariums"
+  ]
+}

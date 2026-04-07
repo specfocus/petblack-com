@@ -1,0 +1,12 @@
+{
+  "source": "petsmart",
+  "url": "https://www.petsmart.com/dog/toys/chew-toys/petstages-alpha-core-bone-chew-dog-toy---bacon-flavor-62703.html",
+  "breadcrumb": "dog > toys > chew-toys > petstages-alpha-core-bone-chew-dog-toy---bacon-flavor-62703.html",
+  "bucket": "dog-treat",
+  "gtin13": "0700603703048",
+  "images": {
+    "large": "https://s7d2.scene7.com/is/image/PetSmart/5308328?$sclp-prd-main_large$",
+    "medium": "https://s7d2.scene7.com/is/image/PetSmart/5308328?$sclp-prd-main_medium$",
+    "small": "https://s7d2.scene7.com/is/image/PetSmart/5308328?$sclp-prd-main_small$"
+  }
+}

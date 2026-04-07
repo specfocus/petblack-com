@@ -1,0 +1,15 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-wet-food",
+  "url": "https://www.hillspet.com/dog-food/pd-canine-cd-multicare-low-fat-vegetables-and-turkey-stew-canned",
+  "foodForm": "wet food",
+  "lifeStage": "-",
+  "flavour": "vegetables & turkey",
+  "moisture": "82.0",
+  "protein": "4.176",
+  "fat": "1.4759999999999998",
+  "ingredients": "['carrot', 'salt', 'barley', 'pork_liver', 'green_pea', 'yeast', 'water', 'potato', 'fish_oil', 'sugar', 'soybean_oil', 'rice', 'wheat', 'turkey', 'chicken_fat']",
+  "category": [
+    "urinary-care"
+  ]
+}

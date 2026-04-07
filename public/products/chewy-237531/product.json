@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-237531",
+  "name": "Simplicity 200 Micron Plastic Ring Aquarium Filter Sock",
+  "description": "A quality filter sock is an integral part of keeping your aquarium water clean, healthy and free of debris. Fitting the Simplicity 200 Micron Plastic Ring Aquarium Filter Sock on your filter (sold separately) means you know your fishy friends will swim in the cleanest, healthiest water possible. Made in the US from durable material that will last, this aquarium accessory comes in a variety of sizes and styles to fit your tank’s needs.",
+  "image": "",
+  "sku": "chewy-237531",
+  "brand": {
+    "@type": "Brand",
+    "name": "Simplicity"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 8.5,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 5,
+    "reviewCount": 1
+  },
+  "keywords": [
+    "fish-accessory",
+    "fish",
+    "filters-media",
+    "filter-parts-accessories"
+  ]
+}

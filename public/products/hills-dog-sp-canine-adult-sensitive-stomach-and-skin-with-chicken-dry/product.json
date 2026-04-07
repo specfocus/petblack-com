@@ -1,0 +1,28 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "hills-dog-sp-canine-adult-sensitive-stomach-and-skin-with-chicken-dry",
+  "name": "sensitive stomach & skin adult medium breed dry dog food with chicken",
+  "description": "hill's science plan sensitive stomach & skin medium adult dog food with chicken is a complete pet food for adult dogs for digestive health & optimal skin care. key benefits: with beet pulp, a nourishing prebiotic fibre highly digestible food that is gentle on the stomach vitamin e & omega-6 fatty acids for skin & coat nourishment",
+  "image": "",
+  "sku": "hills-dog-sp-canine-adult-sensitive-stomach-and-skin-with-chicken-dry",
+  "brand": {
+    "@type": "Brand",
+    "name": "Hill's Pet Nutrition"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "GBP",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "dog-dry-food",
+    "skin-health",
+    "food-sensitivity",
+    "protein-22.5pct",
+    "adult",
+    "medium-breed",
+    "with-chicken"
+  ]
+}

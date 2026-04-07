@@ -1,0 +1,17 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-dry-food",
+  "url": "https://www.hillspet.co.uk/dog-food/sp-canine-science-plan-adult-light-with-chicken-dry",
+  "foodForm": "dry food",
+  "lifeStage": "adult",
+  "breedSize": "medium",
+  "flavour": "with chicken",
+  "calories": "3128 kcal/kg (313 kcal/100g)",
+  "moisture": "8.0",
+  "protein": "22.6",
+  "fat": "10.3",
+  "ingredients": "['turkey_meal', 'flaxseed', 'sunflower_oil', 'green_pea', 'chicken_meal', 'beet', 'corn', 'chicken_fat']",
+  "category": [
+    "weight-management"
+  ]
+}

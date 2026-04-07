@@ -1,0 +1,12 @@
+{
+  "source": "petsmart",
+  "url": "https://www.petsmart.com/cat/food-and-treats/wet-food/fancy-feast-creamy-delights-adult-cat-wet-food---3.33-oz.-41951.html",
+  "breadcrumb": "cat > food-and-treats > wet-food > fancy-feast-creamy-delights-adult-cat-wet-food---3.33-oz.-41951.html",
+  "bucket": "cat-wet-food",
+  "gtin13": "0050000168262",
+  "images": {
+    "large": "https://s7d2.scene7.com/is/image/PetSmart/5263651?$sclp-prd-main_large$",
+    "medium": "https://s7d2.scene7.com/is/image/PetSmart/5263651?$sclp-prd-main_medium$",
+    "small": "https://s7d2.scene7.com/is/image/PetSmart/5263651?$sclp-prd-main_small$"
+  }
+}

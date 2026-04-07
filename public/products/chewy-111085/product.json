@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-111085",
+  "name": "OraVet Plaque Prevention Dog Dental Gel",
+  "description": "Keep your pet’s mouth fresh and clean the OraVet Plaque Prevention Gel for Pets. A great solution for pets who don’t tolerate brushing well, this gel acts as an invisible barrier to prevent bacteria from sticking to the surface of the teeth—which in turn will help prevent the formation of harmful plaque and tartar. Tasteless and odorless, it’s easily applied by swabbing over the gum lines with the included applicator, making at-home dental care a breeze. Just use once a week in between regular dental cleanings, and take pride in knowing that regular dental care supports your dog’s overall health.",
+  "image": "https://image.chewy.com/is/image/catalog/111085_MAIN._AC_SS500_V1617318542_.jpg",
+  "sku": "chewy-111085",
+  "brand": {
+    "@type": "Brand",
+    "name": "OraVet"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 40.69,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.087,
+    "reviewCount": 46
+  },
+  "keywords": [
+    "dog-health",
+    "dog",
+    "healthcare",
+    "dental-care",
+    "brushless-teeth-cleaning"
+  ]
+}

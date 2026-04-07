@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B09JP4TJT6",
+  "name": "Bamboo & Paper Bird Interactive Toy, Hanging Toy, Eco-Friendly for Cockatoo Parakeet",
+  "description": "Features: Adopts natural bamboo, paper material, safe and environmentally friendly.   It meets the habits of birds playing and biting, great for birds to release pressure and relieve boredom.  keep your bird entertained, exercised, strengthen their muscles.  Makes the parrot no longer lonely, good for birds' health physically and mentally.  Suitable for many small animals, like hamsters, gerbils, mice, rats, parrot, etc.  Specification:Condition: 100% Brand NewMaterial:Bamboo, PaperColor: Shown as picture Product Size: Approx. 25cm / 9.8inch  Package Weight: Approx. 54g  Package Included:1 * P",
+  "image": "https://m.media-amazon.com/images/I/51X43Dm4fJL._SS522_.jpg",
+  "sku": "amazon-pet-B09JP4TJT6",
+  "brand": {
+    "@type": "Brand",
+    "name": "Luroze"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 746,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "keywords": [
+    "bird-toy",
+    "pet-supplies",
+    "birds",
+    "toys"
+  ]
+}

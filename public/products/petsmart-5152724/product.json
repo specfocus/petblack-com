@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5152724",
+  "name": "Fluker's® Organic Cleaner Super Scrub",
+  "description": "Fluker's&reg; Organic Cleaner Super Scrub",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5152724",
+  "brand": {
+    "@type": "Brand",
+    "name": "Fluker's"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 10.49,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.9091,
+    "reviewCount": 11
+  },
+  "keywords": [
+    "other-pet",
+    "reptile",
+    "cleaning-and-water-care",
+    "sanitizers"
+  ]
+}

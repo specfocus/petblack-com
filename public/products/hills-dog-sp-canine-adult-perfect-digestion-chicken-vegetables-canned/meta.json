@@ -1,0 +1,16 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-wet-food",
+  "url": "https://www.hillspet.co.uk/dog-food/sp-canine-adult-perfect-digestion-chicken-vegetables-canned",
+  "foodForm": "wet food",
+  "lifeStage": "adult",
+  "flavour": "with chicken & added vegetables",
+  "calories": "371 kcal (363 g) can",
+  "moisture": "74.0",
+  "protein": "6.2",
+  "fat": "4.3",
+  "ingredients": "['flaxseed', 'sunflower_oil', 'beet', 'citrus', 'rice', 'egg', 'ground_pecan_shell', 'cranberry', 'chicken']",
+  "category": [
+    "digestive-care"
+  ]
+}

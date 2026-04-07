@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "hills-dog-ve-canine-vetessentials-neutereddog-adult-small-breed-mini-dog-food-chicken-dry",
+  "name": "multi-benefit + weight adult 1+ small & mini dry dog food",
+  "description": "available exclusively through your veterinarian, hill's vet essentials neutereddog adult small & mini dog food with chicken provides advanced nutrition with 5 essential health benefits for your dog, including clinically proven nutrition to support fat burning and help your dog achieve & maintain optimal weight after neutering. weight: unique blend of ingredients and low fat content proven to support fat burning and help your neutered dog achieve & maintain optimal weight digestion: with an optimal fibre blend, including prebiotics, to promote a healthy digestive system immunity: high levels of",
+  "image": "",
+  "sku": "hills-dog-ve-canine-vetessentials-neutereddog-adult-small-breed-mini-dog-food-chicken-dry",
+  "brand": {
+    "@type": "Brand",
+    "name": "Hill's Pet Nutrition"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "GBP",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "dog-dry-food",
+    "weight-management",
+    "protein-26.3pct",
+    "adult",
+    "small-breed",
+    "with-chicken"
+  ]
+}

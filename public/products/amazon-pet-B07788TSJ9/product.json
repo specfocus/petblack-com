@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B07788TSJ9",
+  "name": "Petmate Litter Pan, Blue Mesa/ Mouse Grey, Large, 2 Pack",
+  "description": "New design adds strength & handling improvement when loaded with litter Smooth edges Side grip for easy handling Four Sizes: Small, Medium, Large, Jumbo Four language packaging Assorted pack â€“ Blue Mesa & Mouse Gray Made in USA.",
+  "image": "https://m.media-amazon.com/images/I/41-VmNEtyuL._SS522_.jpg",
+  "sku": "amazon-pet-B07788TSJ9",
+  "brand": {
+    "@type": "Brand",
+    "name": "Doskocil"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 21.97,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "keywords": [
+    "other-pet",
+    "pet-supplies",
+    "cats",
+    "litter-housebreaking",
+    "litter-boxes"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5246994",
+  "name": "Hill's® Science Diet® Perfect Weight Adult Wet Dog Food - Vegetable & Chicken Stew, 12.5 oz",
+  "description": "Hill's&reg; Science Diet&reg; Perfect Weight Adult Wet Dog Food - Vegetable &amp; Chicken Stew, 12.5 oz",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5246994",
+  "brand": {
+    "@type": "Brand",
+    "name": "Hill's Science Diet"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 2.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.7068,
+    "reviewCount": 133
+  },
+  "keywords": [
+    "dog-wet-food",
+    "dog",
+    "food",
+    "canned-food"
+  ]
+}

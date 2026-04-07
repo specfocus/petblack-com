@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5258015",
+  "name": "Purina® Pro Plan® Veterinary Diets Dog Food - EN, Gastroenteric",
+  "description": "Purina&reg; Pro Plan&reg; Veterinary Diets Dog Food - EN, Gastroenteric",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5258015",
+  "brand": {
+    "@type": "Brand",
+    "name": "Purina Pro Plan Veterinary Diets"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 37.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.6847,
+    "reviewCount": 203
+  },
+  "keywords": [
+    "dog-dry-food",
+    "dog",
+    "food",
+    "veterinary-diets"
+  ]
+}

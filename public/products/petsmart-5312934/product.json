@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5312934",
+  "name": "VetIQ Multivitamin Hickory Smoke Flavor Soft Chew Dog Supplement - 90ct",
+  "description": "VetIQ Multivitamin Hickory Smoke Flavor Soft Chew Dog Supplement - 90ct",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5312934",
+  "brand": {
+    "@type": "Brand",
+    "name": "VetIQ"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 8.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.7778,
+    "reviewCount": 54
+  },
+  "keywords": [
+    "dog-health",
+    "dog",
+    "dental-care-and-wellness",
+    "vitamins-and-supplements"
+  ]
+}

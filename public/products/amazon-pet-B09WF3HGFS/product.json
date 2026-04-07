@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B09WF3HGFS",
+  "name": "Maalavya Feed/Food Safflower Seeds (Kusum Dana) A Quality Feed for All Kind of Birds 750 Grams",
+  "description": "Maalavya safflower seeds is a balanced dite for all birds High Quality: perfect nutritional food for all your small birds to keep them healthy and active . No Chemicals: we ensures the highest quality 100% natural food for your birds all the seeds are varied as par season to provide fresh seeds no preservatives and colorants.",
+  "image": "https://m.media-amazon.com/images/I/31ZOpdLE4-L._SS522_.jpg",
+  "sku": "amazon-pet-B09WF3HGFS",
+  "brand": {
+    "@type": "Brand",
+    "name": "Maalavya"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 251,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "other-pet",
+    "pet-supplies",
+    "birds",
+    "food"
+  ]
+}

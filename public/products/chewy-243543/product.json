@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-243543",
+  "name": "Aquapaw Pro Dog Grooming Tool, Blue",
+  "description": "Bath time has never been easier than with the Aquapaw Pro Dog Grooming Tool. It combines a silicone sprayer and a scrubber in one convenient tool, so you can rinse and brush your furry friend’s coat at the same time! The sprayer-scrubber features a 2-stage button mechanism that you can click to Low, High and ON and Off with one hand. It gives you total control over your pet and the flow of water during the entire bathing process, eliminating much of the time and fuss involved in bath time. This particular tool was designed with larger dogs and thicker coats in mind to help save time, reduce mess and eliminate the stress of bath time for you and your pet!",
+  "image": "https://image.chewy.com/is/image/catalog/243543_MAIN._AC_SS500_V1621374806_.jpg",
+  "sku": "chewy-243543",
+  "brand": {
+    "@type": "Brand",
+    "name": "Aquapaw"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 44.95,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.8889,
+    "reviewCount": 9
+  },
+  "keywords": [
+    "pet-grooming",
+    "dog",
+    "grooming",
+    "bath-shower-supplies",
+    "bathtubs-shower-hose-accessories"
+  ]
+}

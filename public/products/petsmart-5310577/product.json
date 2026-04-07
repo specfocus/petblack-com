@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5310577",
+  "name": "Fancy Feast® Medleys Adult Cat Wet Food - 3.33 oz., High-Protein",
+  "description": "Fancy Feast&reg; Medleys Adult Cat Wet Food - 3.33 oz., High-Protein",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5310577",
+  "brand": {
+    "@type": "Brand",
+    "name": "Fancy Feast"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 1.05,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.6111,
+    "reviewCount": 90
+  },
+  "keywords": [
+    "cat-wet-food",
+    "cat",
+    "food-and-treats",
+    "wet-food"
+  ]
+}

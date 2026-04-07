@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "hills-dog-pd-metabolic-canine-lamb-meal-and-rice-formula-dry",
+  "name": "metabolic lamb meal & rice formula dry dog food",
+  "description": "just like the human obesity epidemic, over 55% of the pet population is overweight. even a little extra weight can impact the pet's quality of life and relationship with family as the extra weight can reduce play time, impact mobility and affect the lifelong general health of your dog. maintaining ideal weight can help impact life expectancy by reducing risk of weight-related conditions. activates pet's metabolism for easy and effective weight loss stimulate dog's natural ability to burn fat unique blend of fiber helps keep your dog feeling full and satisfied",
+  "image": "",
+  "sku": "hills-dog-pd-metabolic-canine-lamb-meal-and-rice-formula-dry",
+  "brand": {
+    "@type": "Brand",
+    "name": "Hill's Pet Nutrition"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "GBP",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "dog-dry-food",
+    "weight-management",
+    "protein-27.2pct",
+    "-",
+    "lamb-meal-rice-formula"
+  ]
+}

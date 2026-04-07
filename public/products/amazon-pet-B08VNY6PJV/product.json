@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B08VNY6PJV",
+  "name": "THE DDS STORE Professional Pet Nail Clipper Scissor Cutter for Dog Cat Claw Bird Guinea Pigs Puppies Rabbits Ferrets Animal Grooming Sharp Stainless Steel Trimmer for Small and Large Pets- Color may vary",
+  "description": "DESIGNED FOR SAFETY AND ACCURACY: This professional grooming Scissor Nail Cutter is provided with angled tip for accurate nail cutting. These nail scissors are safe, sturdy & strong. FAST AND CLEANLY: The sharp blades on this Nail Cutter cut through your pet's nails cleanly, evenly and quickly. Comfortably and safely trim your pet's nails in minutes. With this professional scissor made of high quality, sharp stainless steel blade, you can easily cut the nails at once. MULTI-FUNCTION: Suitable for dogs, cats, birds, rabbits, guinea pigs small and medium pets ERGONOMIC AND RUBBER-COATED HANDLES ",
+  "image": "https://m.media-amazon.com/images/I/41hs0r7rU+L._SS522_.jpg",
+  "sku": "amazon-pet-B08VNY6PJV",
+  "brand": {
+    "@type": "Brand",
+    "name": "Visit the THE DDS STORE Store"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 225,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "dog-accessory",
+    "pet-supplies",
+    "cats",
+    "grooming",
+    "claw-care"
+  ]
+}

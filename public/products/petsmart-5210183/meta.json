@@ -1,0 +1,12 @@
+{
+  "source": "petsmart",
+  "url": "https://www.petsmart.com/small-pet/toys-and-habitat-accessories/toys/oxbow-twisted-small-animal-toy-21628.html",
+  "breadcrumb": "small-pet > toys-and-habitat-accessories > toys > oxbow-twisted-small-animal-toy-21628.html",
+  "bucket": "small-pet-toy",
+  "gtin13": "0744845403199",
+  "images": {
+    "large": "https://s7d2.scene7.com/is/image/PetSmart/5210183?$sclp-prd-main_large$",
+    "medium": "https://s7d2.scene7.com/is/image/PetSmart/5210183?$sclp-prd-main_medium$",
+    "small": "https://s7d2.scene7.com/is/image/PetSmart/5210183?$sclp-prd-main_small$"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5333564",
+  "name": "Made By Cleo® Velvet Cat Bow Tie",
+  "description": "Made By Cleo&reg; Velvet Cat Bow Tie",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5333564",
+  "brand": {
+    "@type": "Brand",
+    "name": "Made By Cleo"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 10.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "cat-accessory",
+    "cat",
+    "collars-harnesses-and-leashes",
+    "collars"
+  ]
+}

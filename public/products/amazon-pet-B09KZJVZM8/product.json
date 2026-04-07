@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B09KZJVZM8",
+  "name": "Bird Chewing Swing Toys Set, Natural Applewood Parrots Standing Perch Toy Set for Bird Cage Accessories(7 Piece Set)",
+  "description": "Feature:1. Made of healthy applewood and vine ball, it is polished smoothly and will not damage the feet of the bird, and the bird can eat safely.2. It is designed to rest the bird's feet and at the same time provide exercise opportunities for the birds to stay healthy and active.3. Provides an ideal place for birds to swing, chew and climb at a high place, and provide a fun place for pets to play and relieve pet anxiety.4. Different types of chewing toys meet the various needs of birds for fun. Birds like to bounce between the toys to exercise.5. Easy to install, comes with movable hooks or s",
+  "image": "https://m.media-amazon.com/images/I/416j6F48DrL._SS522_.jpg",
+  "sku": "amazon-pet-B09KZJVZM8",
+  "brand": {
+    "@type": "Brand",
+    "name": "Topiky"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 2.226,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "bird-toy",
+    "pet-supplies",
+    "birds",
+    "toys"
+  ]
+}

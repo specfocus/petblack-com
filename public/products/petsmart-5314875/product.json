@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5314875",
+  "name": "Blue Buffalo® Blue Natural Veterinary Diet&trade;  Adult Dry Dog Food - Natural, Chicken",
+  "description": "Blue Buffalo&reg; Blue Natural Veterinary Diet&amp;trade;  Adult Dry Dog Food - Natural, Chicken",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5314875",
+  "brand": {
+    "@type": "Brand",
+    "name": "Blue Buffalo Natural Veterinary Diet"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 30.48,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 3.8333,
+    "reviewCount": 6
+  },
+  "keywords": [
+    "dog-dry-food",
+    "dog",
+    "food",
+    "veterinary-diets"
+  ]
+}

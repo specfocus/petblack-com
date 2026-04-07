@@ -1,0 +1,17 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-dry-food",
+  "url": "https://www.hillspet.co.uk/dog-food/sp-canine-adult-perfect-digestion-small-mini-chicken-brown-rice-dry",
+  "foodForm": "dry food",
+  "lifeStage": "adult",
+  "breedSize": "small",
+  "flavour": "with chicken and brown rice",
+  "calories": "3539 kcal/kg (354 kcal/100g)",
+  "moisture": "9.0",
+  "protein": "18.4",
+  "fat": "11.8",
+  "ingredients": "['barley', 'brown_rice', 'turkey_meal', 'flaxseed', 'chicken_meal', 'beet', 'citrus', 'rice', 'oat', 'wheat', 'corn', 'ground_pecan_shell', 'cranberry', 'chicken_fat']",
+  "category": [
+    "digestive-care"
+  ]
+}

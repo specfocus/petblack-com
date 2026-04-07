@@ -1,0 +1,16 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-wet-food",
+  "url": "https://www.hillspet.co.uk/dog-food/pd-canine-prescription-diet-id-turkey-canned",
+  "foodForm": "wet food",
+  "lifeStage": "-",
+  "flavour": "with turkey",
+  "calories": "366.5 kcal (360 g) can , 203.6 kcal (200 g) can",
+  "moisture": "74.0",
+  "protein": "6.7",
+  "fat": "4.0",
+  "ingredients": "['carrot', 'pork_liver', 'flaxseed', 'apple', 'fish_oil', 'rice', 'egg', 'turkey']",
+  "category": [
+    "digestive-care"
+  ]
+}

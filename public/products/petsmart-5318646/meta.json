@@ -1,0 +1,12 @@
+{
+  "source": "petsmart",
+  "url": "https://www.petsmart.com/dog/toys/chew-toys/top-paw-ring-dog-toy---squeaker-67319.html",
+  "breadcrumb": "dog > toys > chew-toys > top-paw-ring-dog-toy---squeaker-67319.html",
+  "bucket": "dog-treat",
+  "gtin13": "0737257964303",
+  "images": {
+    "large": "https://s7d2.scene7.com/is/image/PetSmart/5318646?$sclp-prd-main_large$",
+    "medium": "https://s7d2.scene7.com/is/image/PetSmart/5318646?$sclp-prd-main_medium$",
+    "small": "https://s7d2.scene7.com/is/image/PetSmart/5318646?$sclp-prd-main_small$"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B0977KHTNR",
+  "name": "Optimuss Practice Sisal Kitten Scratching Pad Cat Toys Training Board Mat Home Protection Optimuss",
+  "description": "Brand new and high quality | This scratching mat protects your furniture and carpets against your cat’s natural instinct to sharpen it’s claws. | Suitable for cats of all age. Sharpening the claws is rather important for cats so it is important to offer your cat scratching possibilities around the house. | Sisal is a natural fibre, which helps to care for the cat claws. | Durable and brings more fun to your cat. Can be nest cushion or sleeping pad for you pet cat. Nice gift for your lovely pet.",
+  "image": "https://m.media-amazon.com/images/I/41PTOH2FKGL._SS522_.jpg",
+  "sku": "amazon-pet-B0977KHTNR",
+  "brand": {
+    "@type": "Brand",
+    "name": "Optimuss"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 1.697,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "keywords": [
+    "cat-accessory",
+    "pet-supplies",
+    "cats",
+    "beds-furniture",
+    "scratching-pads"
+  ]
+}

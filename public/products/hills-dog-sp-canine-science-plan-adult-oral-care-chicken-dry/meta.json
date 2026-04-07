@@ -1,0 +1,16 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-dry-food",
+  "url": "https://www.hillspet.co.uk/dog-food/sp-canine-science-plan-adult-oral-care-chicken-dry",
+  "foodForm": "dry food",
+  "lifeStage": "adult",
+  "flavour": "with chicken",
+  "calories": "3437 kcal/kg (344 kcal/100g)",
+  "moisture": "8.0",
+  "protein": "22.7",
+  "fat": "13.8",
+  "ingredients": "['turkey_meal', 'flaxseed', 'sunflower_oil', 'green_pea', 'chicken_meal', 'rice', 'egg', 'chicken', 'corn', 'chicken_fat']",
+  "category": [
+    "dental-care"
+  ]
+}

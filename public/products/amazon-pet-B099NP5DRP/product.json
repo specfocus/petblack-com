@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B099NP5DRP",
+  "name": "Bite Resistant Pad Toy, Practical Pet Play Mat Bite‑Resistant Cat Playing Mat Multifunctional with Felt Fabric for Activity for Pet",
+  "description": "Feature:1. Multifunctional, suitable for multiple cats or other pets, interesting interactive games, training, scratching, fun of capturing and hiding.2. Used as a felt cloth, abrasion‑resistant and bite‑resistant, breathable, suitable for use in all seasons.3. The upper fabric of the cat playing mat adopt for hole design, so the cat can move more freely.4. Toys that stimulate all natural play needs of cats, exercise the natural instincts of cats, and explore and grow in the surrounding world.5. Provide your cat with a way to release energy and nervousness and help your cat stay healthy.Specif",
+  "image": "https://m.media-amazon.com/images/I/31oASJeq1eS._SS522_.jpg",
+  "sku": "amazon-pet-B099NP5DRP",
+  "brand": {
+    "@type": "Brand",
+    "name": "Mugasty"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 1.797,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "keywords": [
+    "cat-toy",
+    "pet-supplies",
+    "cats",
+    "toys",
+    "interactive-toys"
+  ]
+}

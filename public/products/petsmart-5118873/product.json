@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5118873",
+  "name": "Carlson&trade; Pet Products Extension for Extra Tall Walk-Thru Gate",
+  "description": "Carlson&amp;trade; Pet Products Extension for Extra Tall Walk-Thru Gate",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5118873",
+  "brand": {
+    "@type": "Brand",
+    "name": "Carlson Pet Products"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 8.79,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 3,
+    "reviewCount": 8
+  },
+  "keywords": [
+    "dog-accessory",
+    "dog",
+    "crates-gates-and-containment",
+    "dog-doors-and-gates"
+  ]
+}

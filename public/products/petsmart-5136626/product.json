@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5136626",
+  "name": "PetSafe® Elite Little Dog Spray Bark Control Dog Collar",
+  "description": "PetSafe&reg; Elite Little Dog Spray Bark Control Dog Collar",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5136626",
+  "brand": {
+    "@type": "Brand",
+    "name": "PetSafe"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 89.95,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 3.2877,
+    "reviewCount": 73
+  },
+  "keywords": [
+    "dog-accessory",
+    "dog",
+    "training-and-behavior",
+    "bark-control"
+  ]
+}

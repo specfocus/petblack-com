@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5149449",
+  "name": "K&H Pet Products Thermo-Kitty Heated Cat Bed",
+  "description": "K&amp;H Pet Products Thermo-Kitty Heated Cat Bed",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5149449",
+  "brand": {
+    "@type": "Brand",
+    "name": "K&amp;H"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 48.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.619,
+    "reviewCount": 21
+  },
+  "keywords": [
+    "cat-accessory",
+    "cat",
+    "beds-and-furniture",
+    "heated-beds"
+  ]
+}

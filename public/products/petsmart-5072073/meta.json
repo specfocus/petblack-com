@@ -1,0 +1,12 @@
+{
+  "source": "petsmart",
+  "url": "https://www.petsmart.com/cat/food-and-treats/veterinary-diets/hills-prescription-diet-c%2Fd-multicare-urinary-care-cat-food---chicken-1719.html",
+  "breadcrumb": "cat > food-and-treats > veterinary-diets > hills-prescription-diet-c%2Fd-multicare-urinary-care-cat-food---chicken-1719.html",
+  "bucket": "cat-health",
+  "gtin13": "0052742623801",
+  "images": {
+    "large": "https://s7d2.scene7.com/is/image/PetSmart/5072073?$sclp-prd-main_large$",
+    "medium": "https://s7d2.scene7.com/is/image/PetSmart/5072073?$sclp-prd-main_medium$",
+    "small": "https://s7d2.scene7.com/is/image/PetSmart/5072073?$sclp-prd-main_small$"
+  }
+}

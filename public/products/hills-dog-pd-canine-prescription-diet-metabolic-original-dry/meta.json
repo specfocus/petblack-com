@@ -1,0 +1,16 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-dry-food",
+  "url": "https://www.hillspet.co.uk/dog-food/pd-canine-prescription-diet-metabolic-original-dry",
+  "foodForm": "dry food",
+  "lifeStage": "-",
+  "flavour": "with chicken",
+  "calories": "3107 kcal/kg (311 kcal/100g)",
+  "moisture": "0.0",
+  "protein": "25.3",
+  "fat": "11.0",
+  "ingredients": "['carrot', 'sunflower_oil', 'flaxseed', 'rice', 'chicken']",
+  "category": [
+    "weight-management"
+  ]
+}

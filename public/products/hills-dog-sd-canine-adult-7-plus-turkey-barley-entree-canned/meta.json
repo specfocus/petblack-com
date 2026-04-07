@@ -1,0 +1,16 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-wet-food",
+  "url": "https://www.hillspet.com/dog-food/sd-canine-adult-7-plus-turkey-barley-entree-canned",
+  "foodForm": "wet food",
+  "lifeStage": "senior",
+  "flavour": "turkey & barley entrée",
+  "calories": "356 kcal / 13 oz (370 g) can",
+  "moisture": "78.0",
+  "protein": "3.9160000000000004",
+  "fat": "3.102",
+  "ingredients": "['barley', 'salt', 'pork_liver', 'water', 'beet', 'soybean_oil', 'corn', 'turkey']",
+  "category": [
+    "aging-care"
+  ]
+}

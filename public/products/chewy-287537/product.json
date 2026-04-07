@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-287537",
+  "name": "Frisco Fashion Bow, Striped",
+  "description": "The perfect everyday look for your pup or kitty starts with a bow tie. And actually, that’s all you need! It’s a statement piece, it’s easy to wear, it brings out their best features, it’s a little dressed-up moment to make any day special. Simply put it on with an elastic band and your pet will be ready to rock the look to impress that playdate or just look cute for the fun of it.",
+  "image": "",
+  "sku": "chewy-287537",
+  "brand": {
+    "@type": "Brand",
+    "name": "Frisco"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 1.82,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4,
+    "reviewCount": 4
+  },
+  "keywords": [
+    "dog-accessory",
+    "dog",
+    "leashes-collars-harnesses",
+    "id-tags-accessories"
+  ]
+}

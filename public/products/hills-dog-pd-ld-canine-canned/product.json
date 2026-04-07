@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "hills-dog-pd-ld-canine-canned",
+  "name": "l/d chicken flavor wet dog food",
+  "description": "the liver is your dog's largest internal organ with many functions, including metabolizing and conversion of nutrients, the removal of toxic substances from the blood and the storage of vitamins and minerals. the liver has an amazing ability to repair and regenerate itself, and nutrition plays a vital role in this process. 원활한 소화를 돕기 위한 단백질 함량 조절 간에 축적되는것을 최소화 하기 위한 낮은 구리 함량 면역 기능 지원을 위한 임상적으로 증명된 항산화제와, 회복을 위해 제조된 포뮬러",
+  "image": "",
+  "sku": "hills-dog-pd-ld-canine-canned",
+  "brand": {
+    "@type": "Brand",
+    "name": "Hill's Pet Nutrition"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "GBP",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "dog-wet-food",
+    "liver-care",
+    "protein-4.1579999999999995pct",
+    "-",
+    "chicken-flavor"
+  ]
+}

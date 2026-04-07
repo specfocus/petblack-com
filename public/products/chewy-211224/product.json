@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-211224",
+  "name": "UltraCruz Cooling Tendon & Ligament Pain Relief Horse Gel",
+  "description": "Help treat tendon and ligament problems in your hooved buddy with UltraCruz Cooling Tendon & Ligament Pain Relief Horse Gel. This unique treatment is crafted in a convenient gel form for easy application. It is designed to aid in the treatment of tendon and ligament problems in your horse such as bowed tendons, edema, suspensory ligament damage and wind puffs. It cools, draws and tightens with little to no scurfing for the wellbeing of your buddy. This critical care liniment is made to help relieve stiff and sore tendons and ligaments in all breeds and at any stage of life.",
+  "image": "https://image.chewy.com/is/image/catalog/211224_main._AC_SS500_V1574107725_.jpg",
+  "sku": "chewy-211224",
+  "brand": {
+    "@type": "Brand",
+    "name": "UltraCruz"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 10.8,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 5,
+    "reviewCount": 1
+  },
+  "keywords": [
+    "other-pet",
+    "horse",
+    "health-wellness",
+    "first-aid",
+    "liniments-poultices"
+  ]
+}

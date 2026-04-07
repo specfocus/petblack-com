@@ -1,0 +1,16 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-wet-food",
+  "url": "https://www.hillspet.com/dog-food/pd-ad-canine-feline-canned",
+  "foodForm": "wet food",
+  "lifeStage": "-",
+  "flavour": "with chicken",
+  "calories": "183 kcal / 5.5 oz (156 g) can",
+  "moisture": "78.0",
+  "protein": "9.68",
+  "fat": "7.26",
+  "ingredients": "['pork_liver', 'water', 'fish_oil', 'turkey_liver', 'pork', 'corn', 'chicken']",
+  "category": [
+    "urgent-care"
+  ]
+}

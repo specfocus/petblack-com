@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-298272",
+  "name": "NaturVet All-In-One Support Soft Chews Dog Supplement, 120 count + NaturVet Senior Care Hip & Joint Advanced Formula Dog Soft Chews, 120 count",
+  "description": "Support your sweet senior’s joints and overall health with NaturVet All-In-One Support Soft Chews Dog Supplement and NaturVet Senior Care Hip & Joint Advanced Formula Dog Soft Chews. Both supplements are formulated to support healthy hip and joint function including cartilage and connective tissues. All-in-One Support chews cover your pup’s essential health needs including digestive enzymes to help support proper digestion and a healthy digestive tract. They contain glucosamine and chondroitin for added joint support in dogs plus omega-3, -6 and -9 fatty acids for healthy skin and a glossy coat. Senior Care chews are veterinarian formulated and recommended to support healthy hips and joints. Safe for use with dogs aged 1 year and older.",
+  "image": "https://image.chewy.com/is/image/catalog/298272_MAIN._AC_SS500_V1621305433_.jpg",
+  "sku": "chewy-298272",
+  "brand": {
+    "@type": "Brand",
+    "name": "NaturVet"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 33.48,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.3333,
+    "reviewCount": 3
+  },
+  "keywords": [
+    "dog-health",
+    "dog",
+    "vitamins-supplements",
+    "hip-joint"
+  ]
+}

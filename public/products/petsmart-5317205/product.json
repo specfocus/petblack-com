@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5317205",
+  "name": "Equioxx Oral Paste",
+  "description": "Equioxx Oral Paste",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5317205",
+  "brand": {
+    "@type": "Brand",
+    "name": "Equioxx"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 6.3,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "farm-animal-food",
+    "pharmacy",
+    "livestock",
+    "arthritis-and-pain-relief",
+    "equioxx-oral-paste-67013-html"
+  ]
+}

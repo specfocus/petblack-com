@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-1041486",
+  "name": "Lafeber's® Nutri-Berries Tropical Fruit Parrot Food",
+  "description": "Lafeber's&reg; Nutri-Berries Tropical Fruit Parrot Food",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-1041486",
+  "brand": {
+    "@type": "Brand",
+    "name": "Lafeber's"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 9.49,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.7857,
+    "reviewCount": 28
+  },
+  "keywords": [
+    "bird-food",
+    "bird",
+    "food-and-treats",
+    "pet-bird-food"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5307440",
+  "name": "Top Paw® Pink Paw Dog Leash: 6-ft long, 1-in wide",
+  "description": "Top Paw&reg; Pink Paw Dog Leash: 6-ft long, 1-in wide",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5307440",
+  "brand": {
+    "@type": "Brand",
+    "name": "Top Paw"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 16.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.25,
+    "reviewCount": 4
+  },
+  "keywords": [
+    "dog-accessory",
+    "dog",
+    "collars-harnesses-and-leashes",
+    "leashes"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-wet-food",
+  "url": "https://www.hillspet.co.uk/dog-food/sp-canine-adult-perfect-weight-with-chicken-and-vegetables-canned",
+  "foodForm": "wet food",
+  "lifeStage": "adult",
+  "flavour": "with chicken & vegetables",
+  "calories": "310 kcal / 12.8 oz (363 g) can",
+  "moisture": "76.0",
+  "protein": "6.8",
+  "fat": "3.0",
+  "ingredients": "['carrot', 'flaxseed', 'green_beans', 'apple', 'tomato', 'green_pea', 'potato', 'beet', 'coconut_oil', 'chicken_broth', 'egg', 'turkey', 'oat', 'chicken']",
+  "category": [
+    "weight-management",
+    "musculoskeletal-and-joint-care"
+  ]
+}

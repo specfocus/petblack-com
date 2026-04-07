@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5164704",
+  "name": "Fancy Feast® Gravy Lovers All Life Stages Cat Wet Food - 5.53 lb., With Vitamins",
+  "description": "Fancy Feast&reg; Gravy Lovers All Life Stages Cat Wet Food - 5.53 lb., With Vitamins",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5164704",
+  "brand": {
+    "@type": "Brand",
+    "name": "Fancy Feast"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 20.49,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.7129,
+    "reviewCount": 101
+  },
+  "keywords": [
+    "cat-wet-food",
+    "cat",
+    "food-and-treats",
+    "wet-food"
+  ]
+}

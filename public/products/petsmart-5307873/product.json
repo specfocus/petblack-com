@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5307873",
+  "name": "Nylabone® DuraChew® Power Chew Pretzel Dog Toy - Bacon & Peanut Butter Flavor",
+  "description": "Nylabone&reg; DuraChew&reg; Power Chew Pretzel Dog Toy - Bacon &amp; Peanut Butter Flavor",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5307873",
+  "brand": {
+    "@type": "Brand",
+    "name": "Nylabone"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 9.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.4615,
+    "reviewCount": 13
+  },
+  "keywords": [
+    "dog-treat",
+    "dog",
+    "toys",
+    "chew-toys"
+  ]
+}

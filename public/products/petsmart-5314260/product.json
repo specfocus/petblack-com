@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5314260",
+  "name": "Buttons and Bones Hanukkah Happy Challah Days Pet Bandana",
+  "description": "Buttons and Bones Hanukkah Happy Challah Days Pet Bandana",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5314260",
+  "brand": {
+    "@type": "Brand",
+    "name": "Buttons and Bones"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 9.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "dog-accessory",
+    "dog",
+    "clothing-and-shoes",
+    "bandanas-bows-and-hats"
+  ]
+}

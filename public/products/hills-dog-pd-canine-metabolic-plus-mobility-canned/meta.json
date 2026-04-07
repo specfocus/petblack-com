@@ -1,0 +1,17 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-wet-food",
+  "url": "https://www.hillspet.co.uk/dog-food/pd-canine-metabolic-plus-mobility-canned",
+  "foodForm": "wet food",
+  "lifeStage": "-",
+  "flavour": "original",
+  "calories": "280 kcal (370 g) can",
+  "moisture": "75.0",
+  "protein": "7.0",
+  "fat": "3.7",
+  "ingredients": "['carrot', 'sunflower_oil', 'molluscs_and_crustaceans', 'chicken_broth', 'rice', 'egg']",
+  "category": [
+    "weight-management",
+    "musculoskeletal-and-joint-care"
+  ]
+}

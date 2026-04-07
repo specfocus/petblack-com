@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "hills-dog-sd-canine-adult-lamb-meal-brown-rice-recipe-dry",
+  "name": "adult lamb meal & brown rice recipe dog food",
+  "description": "hill's science diet adult dry dog food is specially formulated to fuel the energy needs of dogs during the prime of their life. delicious lamb flavor for those that prefer variety & made with high quality, easy-to-digest ingredients. contains activbiome+ multi-benefit, a special blend of prebiotic fibers and antioxidants to support digestion, immune system and organ health healthy skin & coat with omega-6 & vitamin e lean muscles supported with high-quality protein",
+  "image": "",
+  "sku": "hills-dog-sd-canine-adult-lamb-meal-brown-rice-recipe-dry",
+  "brand": {
+    "@type": "Brand",
+    "name": "Hill's Pet Nutrition"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "GBP",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "dog-dry-food",
+    "musculoskeletal-and-joint-care",
+    "protein-23.4pct",
+    "adult",
+    "lamb-meal-brown-rice-recipe"
+  ]
+}

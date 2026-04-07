@@ -1,0 +1,12 @@
+{
+  "source": "petsmart",
+  "url": "https://www.petsmart.com/fish/filters-and-pumps/filters/marineland-c360-canister-filter-16951.html",
+  "breadcrumb": "fish > filters-and-pumps > filters > marineland-c360-canister-filter-16951.html",
+  "bucket": "fish-accessory",
+  "gtin13": "0047431907546",
+  "images": {
+    "large": "https://s7d2.scene7.com/is/image/PetSmart/5119416?$sclp-prd-main_large$",
+    "medium": "https://s7d2.scene7.com/is/image/PetSmart/5119416?$sclp-prd-main_medium$",
+    "small": "https://s7d2.scene7.com/is/image/PetSmart/5119416?$sclp-prd-main_small$"
+  }
+}

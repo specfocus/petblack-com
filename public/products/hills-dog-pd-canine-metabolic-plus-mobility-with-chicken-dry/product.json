@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "hills-dog-pd-canine-metabolic-plus-mobility-with-chicken-dry",
+  "name": "metabolic + mobility dog food",
+  "description": "even a little extra weight can impact the pet's quality of life and relationship with family because that extra weight can reduce play time, impact mobility and affect the lifelong general health of your dog. hill's nutritionists & veterinarians developed prescription diet metabolic + mobility dietetic pet food specially formulated to support your pet's weight management and joint health. this food this food naturally works with your dog's unique energy use for easy and effective weight loss and can be used long-term. in fact, prescription diet metabolic + mobility is clinically proven nutriti",
+  "image": "",
+  "sku": "hills-dog-pd-canine-metabolic-plus-mobility-with-chicken-dry",
+  "brand": {
+    "@type": "Brand",
+    "name": "Hill's Pet Nutrition"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "GBP",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "dog-dry-food",
+    "weight-management",
+    "musculoskeletal-and-joint-care",
+    "protein-24.7pct",
+    "-",
+    "with-chicken"
+  ]
+}

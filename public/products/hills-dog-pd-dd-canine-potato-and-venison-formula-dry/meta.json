@@ -1,0 +1,17 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-dry-food",
+  "url": "https://www.hillspet.com/dog-food/pd-dd-canine-potato-and-venison-formula-dry",
+  "foodForm": "dry food",
+  "lifeStage": "-",
+  "flavour": "potato & venison recipe",
+  "calories": "3636 kcal/kg 371 kcal/cup†",
+  "moisture": "0.0",
+  "protein": "18.5",
+  "fat": "16.0",
+  "ingredients": "['salt', 'potato', 'lactic_acid', 'fish_oil', 'coconut_oil', 'potato_protein', 'soybean_oil', 'venison']",
+  "category": [
+    "food-sensitivity",
+    "skin-health"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-231575",
+  "name": "Weaver Leather Stacy Westfall Stick & String Horse Stick",
+  "description": "Teach your mane man some new tricks with the Weaver Leather Stacy Westfall Stick and String Horse Stick. This stick and string horse training aid is designed to be durable and lightweight. It features a double core that creates a great feel and improved accuracy. The stick is crafted using fiberglass and is equipped with a golf-club style handle for a comfortable grip. The string is a quarter of an inch wide and six feet long including the popper.",
+  "image": "",
+  "sku": "chewy-231575",
+  "brand": {
+    "@type": "Brand",
+    "name": "Weaver Leather"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 44.15,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "other-pet",
+    "horse",
+    "tack-saddlery",
+    "training",
+    "whips-crops"
+  ]
+}

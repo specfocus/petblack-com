@@ -1,0 +1,23 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-bright teeth and healthy gums. The proprietary formula is designed to dissolve the protein pellicle to which plaque",
+  "name": "4.2-oz tube — Prevention is the key to good oral health—keep your pal smiling with Petsmile Professional Rotisserie Chicken Flavor Pet Toothpaste! This pet toothpaste works to control plaque and tartar buildup for fresh breath",
+  "description": "'https://image.chewy.com/is/image/catalog/693110_PT5._AC_SS500_V1669123811_.jpg'",
+  "image": "https://image.chewy.com/is/image/catalog/693110_PT7._AC_SS500_V1669125652_.jpg",
+  "sku": "chewy-bright teeth and healthy gums. The proprietary formula is designed to dissolve the protein pellicle to which plaque",
+  "brand": {
+    "@type": "Brand",
+    "name": "'https://image.chewy.com/is/image/catalog/693110_PT3._AC_SS500_V1669125654_.jpg'"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 693110,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "keywords": [
+    "bird-accessory",
+    "and-you-re-done-plus"
+  ]
+}

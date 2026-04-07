@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5109961",
+  "name": "Top Fin® Mossy Driftwood Aquarium Ornament",
+  "description": "Top Fin&reg; Mossy Driftwood Aquarium Ornament",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5109961",
+  "brand": {
+    "@type": "Brand",
+    "name": "Top Fin"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 59.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.4231,
+    "reviewCount": 26
+  },
+  "keywords": [
+    "fish-accessory",
+    "fish",
+    "decor-gravel-and-substrate",
+    "ornaments"
+  ]
+}

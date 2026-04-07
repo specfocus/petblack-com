@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5308281",
+  "name": "KONG® Squeezz® Tennis Ball Dog Toy - 2 Pack, Squeaker (COLOR VARIES)",
+  "description": "KONG&reg; Squeezz&reg; Tennis Ball Dog Toy - 2 Pack, Squeaker (COLOR VARIES)",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5308281",
+  "brand": {
+    "@type": "Brand",
+    "name": "KONG"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 10.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 2.3636,
+    "reviewCount": 11
+  },
+  "keywords": [
+    "dog-toy",
+    "dog",
+    "toys",
+    "fetch-toys"
+  ]
+}

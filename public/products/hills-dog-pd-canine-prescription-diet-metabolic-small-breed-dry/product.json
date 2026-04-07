@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "hills-dog-pd-canine-prescription-diet-metabolic-small-breed-dry",
+  "name": "metabolic mini dog food",
+  "description": "even a little extra weight can impact the pet's quality of life and relationship with family as the extra weight can reduce play time, impact mobility and affect the lifelong general health of your dog. maintaining ideal weight can help impact life expectancy by reducing risk of weight-related conditions. hill's nutritionists & veterinarians developed prescription diet metabolic clinical nutrition specially formulated to help dogs lose weight and keep the lost weight off. this food naturally works with your dog's unique energy use for easy and effective weight loss. this food stimulates dog's ",
+  "image": "",
+  "sku": "hills-dog-pd-canine-prescription-diet-metabolic-small-breed-dry",
+  "brand": {
+    "@type": "Brand",
+    "name": "Hill's Pet Nutrition"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "GBP",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "dog-dry-food",
+    "weight-management",
+    "protein-25.3pct",
+    "-",
+    "small-breed",
+    "with-chicken"
+  ]
+}

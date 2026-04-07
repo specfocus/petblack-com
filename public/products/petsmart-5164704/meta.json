@@ -1,0 +1,12 @@
+{
+  "source": "petsmart",
+  "url": "https://www.petsmart.com/cat/food-and-treats/wet-food/fancy-feast-gravy-lovers-all-life-stages-cat-wet-food---5.53-lb.-with-vitamins-1362.html",
+  "breadcrumb": "cat > food-and-treats > wet-food > fancy-feast-gravy-lovers-all-life-stages-cat-wet-food---5.53-lb.-with-vitamins-1362.html",
+  "bucket": "cat-wet-food",
+  "gtin13": "0050000580064",
+  "images": {
+    "large": "https://s7d2.scene7.com/is/image/PetSmart/5164704?$sclp-prd-main_large$",
+    "medium": "https://s7d2.scene7.com/is/image/PetSmart/5164704?$sclp-prd-main_medium$",
+    "small": "https://s7d2.scene7.com/is/image/PetSmart/5164704?$sclp-prd-main_small$"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5325000",
+  "name": "Netflix Stranger Things Steve Harrington Babysitter Bat Dog Toy - Plush, Squeaker",
+  "description": "Netflix Stranger Things Steve Harrington Babysitter Bat Dog Toy - Plush, Squeaker",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5325000",
+  "brand": {
+    "@type": "Brand",
+    "name": "Netflix"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 11.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 3.25,
+    "reviewCount": 4
+  },
+  "keywords": [
+    "dog-toy",
+    "dog",
+    "toys",
+    "plush-toys"
+  ]
+}

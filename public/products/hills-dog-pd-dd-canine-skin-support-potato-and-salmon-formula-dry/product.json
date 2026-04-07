@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "hills-dog-pd-dd-canine-skin-support-potato-and-salmon-formula-dry",
+  "name": "d/d potato & salmon recipe dry dog food",
+  "description": "there can be a variety of reasons for a dog's itchy skin condition, including sensitivities to food. the good news is, most pets with these skin conditions can benefit simply by eating the right food. 식이 과민성 반려견을 위해 알레르기 유발 물질 사용을 피하고, 동물성 단일 단백질 사용 대두 단백질을 사용하지 않고 제조 높은 함량의 오메가 3 지방산 함유",
+  "image": "",
+  "sku": "hills-dog-pd-dd-canine-skin-support-potato-and-salmon-formula-dry",
+  "brand": {
+    "@type": "Brand",
+    "name": "Hill's Pet Nutrition"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "GBP",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "dog-dry-food",
+    "food-sensitivity",
+    "skin-health",
+    "protein-18.5pct",
+    "-",
+    "potato-salmon-recipe"
+  ]
+}

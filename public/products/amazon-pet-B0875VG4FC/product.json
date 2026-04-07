@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B0875VG4FC",
+  "name": "Sage Square Natural Habitat Wooden Sand Perch/Stand/Toy for Birds (Light Weight) (Size - 12\")",
+  "description": "Sage Square ProductWhat Are The Benefits Of A Perch? Birds love to sleep on small objects that have a good grip; it makes them feel safe and secure. This Roosting perch is specifically designed for birds to sleep, or roost on. It provides a soft, easy to stand on and warm perch so your birds can sleep well and feel safe and secure. This perch should be installed towards the top of the cage with just enough room for the bird to stand (do not place this or any other perch over a water or food dish unless you want poop-soup in the morning!) Small bolt-on roosting perch for small to medium sized b",
+  "image": "https://m.media-amazon.com/images/I/41Wlcl0nhNL._SS522_.jpg",
+  "sku": "amazon-pet-B0875VG4FC",
+  "brand": {
+    "@type": "Brand",
+    "name": "Visit the Sage Square Store"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 149,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "bird-toy",
+    "pet-supplies",
+    "birds",
+    "birdcage-accessories",
+    "perches"
+  ]
+}

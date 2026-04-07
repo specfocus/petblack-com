@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B09J1DR9H1",
+  "name": "PONDICHERRY PIGEONS® - Bird Toys & Swings for Love Birds, Parrot, Parakeet, Budgie, Cocktail pet Birds. 4 Bird Swing in Multicolor with SS Hook",
+  "description": "Bird Toys & Swings for Love Birds, Parrot, Parakeet, Budgie, Cocktail pet Birds. 2 Bird Swing in Multicolor with SS Hook – for Small to Medium Size Birds (3.25 inch)' Bird Toys & Swings for Love Birds, Parrot, Parakeet, Budgie, Cocktail pet Birds. 2 Bird Swing in Multicolor with SS Hook – for Medium to Large Size Birds (5.75 inch),",
+  "image": "https://m.media-amazon.com/images/I/41yy0A9hmVL._SS522_.jpg",
+  "sku": "amazon-pet-B09J1DR9H1",
+  "brand": {
+    "@type": "Brand",
+    "name": "Pondicherry Pigeons"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 225,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "bird-accessory",
+    "pet-supplies",
+    "birds",
+    "birdcage-accessories",
+    "swings"
+  ]
+}

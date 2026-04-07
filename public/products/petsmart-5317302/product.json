@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5317302",
+  "name": "Muricin Topical Ointment 2%, 15 g",
+  "description": "Muricin Topical Ointment 2%, 15 g",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5317302",
+  "brand": {
+    "@type": "Brand",
+    "name": "Muricin"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 17.09,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "dog-health",
+    "pharmacy",
+    "dog",
+    "skin-and-coat-care"
+  ]
+}

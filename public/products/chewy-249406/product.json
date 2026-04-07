@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-249406",
+  "name": "Zesty Paws Lil' Zesties Mobility Squares Chicken Flavored Soft Chews Hip & Joint Supplement for Dogs",
+  "description": "Help your furry friend fetch with the best of them with Zesty Paws Lil' Zesties Mobility Squares Chicken Flavored Soft Chews Joint Supplement for Dogs! With a blend of glucosamine, chondroitin, green-lipped mussel and OptiMSM, a clinically studied form of MSM, these ingredients support hip, joint and cartilage health to keep your pup feeling her bouncy best. This functional chewable dog supplement features OptiMSM, a form of MSM that provides premium muscular support, plus glucosamine HCl and chondroitin sulfate to support hips, joints, connective tissue and cartilage for dogs. Each chew of these functional supplements also includes green-lipped mussels for your canine pet.",
+  "image": "https://image.chewy.com/is/image/catalog/249406_MAIN._AC_SS500_V1659821633_.jpg",
+  "sku": "chewy-249406",
+  "brand": {
+    "@type": "Brand",
+    "name": "Zesty Paws"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 16.97,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.8929,
+    "reviewCount": 56
+  },
+  "keywords": [
+    "dog-health",
+    "dog",
+    "vitamins-supplements",
+    "hip-joint"
+  ]
+}

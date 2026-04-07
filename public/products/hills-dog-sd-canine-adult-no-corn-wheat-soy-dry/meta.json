@@ -1,0 +1,17 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-dry-food",
+  "url": "https://www.hillspet.com/dog-food/sd-canine-adult-no-corn-wheat-soy-dry",
+  "foodForm": "dry food",
+  "lifeStage": "adult",
+  "flavour": "chicken & brown rice recipe",
+  "calories": "3713 kcal/kg 389 kcal/cup†",
+  "moisture": "0.0",
+  "protein": "23.6",
+  "fat": "16.4",
+  "ingredients": "['barley', 'salt', 'carrot', 'flaxseed', 'broccoli', 'apple', 'green_pea', 'chicken_meal', 'lactic_acid', 'brown_rice', 'beet', 'rice', 'chicken', 'oat', 'cranberry', 'chicken_fat']",
+  "category": [
+    "food-sensitivity",
+    "skin-health"
+  ]
+}

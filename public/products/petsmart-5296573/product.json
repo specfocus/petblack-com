@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5296573",
+  "name": "Hill's® Prescription Diet® Soft Baked Dog Treats - Chicken",
+  "description": "Hill's&reg; Prescription Diet&reg; Soft Baked Dog Treats - Chicken",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5296573",
+  "brand": {
+    "@type": "Brand",
+    "name": "Hill's Prescription Diet"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 10.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.6087,
+    "reviewCount": 23
+  },
+  "keywords": [
+    "dog-health",
+    "dog",
+    "food",
+    "veterinary-diets"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "source": "petsmart",
+  "url": "https://www.petsmart.com/bird/toys-perches-and-decor/toys/all-living-things-hanging-barrel-bird-toy-14041.html",
+  "breadcrumb": "bird > toys-perches-and-decor > toys > all-living-things-hanging-barrel-bird-toy-14041.html",
+  "bucket": "bird-toy",
+  "gtin13": "0737257337473",
+  "images": {
+    "large": "https://s7d2.scene7.com/is/image/PetSmart/5180314?$sclp-prd-main_large$",
+    "medium": "https://s7d2.scene7.com/is/image/PetSmart/5180314?$sclp-prd-main_medium$",
+    "small": "https://s7d2.scene7.com/is/image/PetSmart/5180314?$sclp-prd-main_small$"
+  }
+}

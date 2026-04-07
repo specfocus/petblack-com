@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5311657",
+  "name": "Armarkat Pumpkin Luxe Velvet Orange Covered Cat Bed",
+  "description": "Armarkat Pumpkin Luxe Velvet Orange Covered Cat Bed",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5311657",
+  "brand": {
+    "@type": "Brand",
+    "name": "Armarkat"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 29.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "keywords": [
+    "cat-accessory",
+    "cat",
+    "beds-and-furniture",
+    "covered-beds"
+  ]
+}

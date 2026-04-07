@@ -1,0 +1,15 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-dry-food",
+  "url": "https://www.hillspet.com/dog-food/pd-canine-onc-on-care-chicken-dry",
+  "foodForm": "dry food",
+  "lifeStage": "-",
+  "flavour": "with chicken",
+  "moisture": "0.0",
+  "protein": "30.8",
+  "fat": "26.4",
+  "ingredients": "['lactic_acid', 'coconut_oil', 'corn', 'soybean', 'brown_rice', 'salt', 'flaxseed', 'fish_oil', 'egg', 'ground_pecan_shell', 'chicken', 'barley', 'chicken_fat', 'carrot', 'beet', 'citrus', 'hydrolyzed_chicken_liver', 'wheat', 'cranberry']",
+  "category": [
+    "cancer-patient-support"
+  ]
+}

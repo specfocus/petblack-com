@@ -1,0 +1,15 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-wet-food",
+  "url": "https://www.hillspet.com/dog-food/pd-kd-canine-beef-and-vegetable-stew-canned",
+  "foodForm": "wet food",
+  "lifeStage": "-",
+  "flavour": "beef & vegetable stew",
+  "moisture": "0.0",
+  "protein": "15.9",
+  "fat": "23.8",
+  "ingredients": "['carrot', 'pork_liver', 'flaxseed', 'green_pea', 'yeast', 'water', 'beet', 'fish_oil', 'sugar', 'soybean_oil', 'egg_whites', 'rice', 'beef', 'oat', 'chicken_fat']",
+  "category": [
+    "kidney-care"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-646854",
+  "name": "Variety Pack - Friskies Lil' Gravies Roast Beef Flavor Cat Food Complement, 1.55-oz, case of 16, Salmon, Chicken & Turkey Flavors",
+  "description": "Friskies Lil' Gravies Roast Beef Flavor Cat Food Complement, 1.55-oz, case of 16 — Friskies Lil’ Gravies Roast Beef Flavor Cat Food Complement offers the gravy flavor that cat tastebuds crave. Each pouch of this gravy-licious delight can be served as a topper for dry food or as a treat between meals.",
+  "image": "",
+  "sku": "chewy-646854",
+  "brand": {
+    "@type": "Brand",
+    "name": "Friskies"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 52.24,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "cat-dry-food",
+    "cat",
+    "food",
+    "food-toppings",
+    "wet-food-toppings"
+  ]
+}

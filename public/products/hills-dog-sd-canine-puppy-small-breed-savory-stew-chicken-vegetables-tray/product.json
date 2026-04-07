@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "hills-dog-sd-canine-puppy-small-breed-savory-stew-chicken-vegetables-tray",
+  "name": "puppy small & mini savory stew with chicken & vegetables",
+  "description": "hill's science diet puppy small & mini savory stew with chicken & vegetables is a delicious way to provide precisely balanced nutrition to improve the overall health and well-being of your small or toy puppy. made with real chicken, brown rice, and a medley of delectable vegetables all smothered in tasty gravy. high-quality protein for building lean muscles made with purposeful ingredients for a flavorful, nutritious meal easy-to-digest",
+  "image": "",
+  "sku": "hills-dog-sd-canine-puppy-small-breed-savory-stew-chicken-vegetables-tray",
+  "brand": {
+    "@type": "Brand",
+    "name": "Hill's Pet Nutrition"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "GBP",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "dog-wet-food",
+    "puppy-care",
+    "protein-5.526pct",
+    "puppy",
+    "small-breed",
+    "savory-stew-with-chicken-vegetables"
+  ]
+}

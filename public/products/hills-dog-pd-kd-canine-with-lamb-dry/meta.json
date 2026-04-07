@@ -1,0 +1,16 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-dry-food",
+  "url": "https://www.hillspet.com/dog-food/pd-kd-canine-with-lamb-dry",
+  "foodForm": "dry food",
+  "lifeStage": "-",
+  "flavour": "with lamb",
+  "calories": "4049 {{metabolizableenergy_kcalperkgunits_label}} 459 {{meta",
+  "moisture": "0.0",
+  "protein": "15.8",
+  "fat": "22.5",
+  "ingredients": "['barley', 'salt', 'brown_rice', 'lactic_acid', 'beet', 'fish_oil', 'soybean_oil', 'rice', 'egg', 'oat', 'chicken_fat', 'lamb', 'soybean']",
+  "category": [
+    "kidney-care"
+  ]
+}

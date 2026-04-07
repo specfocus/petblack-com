@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-201844",
+  "name": "Nixall VetResponse Eye & Ear Dog, Cat & Horse Wash",
+  "description": "Relieve your pet’s itchy eyes and ears with Nixall VetResponse Eye & Ear Wash for Dog, Cat & Horse.  This gentle solution is tough on irritation while being gentle on your four-legged friend’s delicate skin. Use it to flush away pollutants, remove tear stains and accelerate healing without the sting or burn. This innovative product is safe to use on all pets and livestock, and the non-toxic environmentally-friendly formula is designed to be safe for use around the eyes, ears, nose and mouth.",
+  "image": "",
+  "sku": "chewy-201844",
+  "brand": {
+    "@type": "Brand",
+    "name": "Nixall"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 17.95,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 3.8571,
+    "reviewCount": 7
+  },
+  "keywords": [
+    "dog-accessory",
+    "cat",
+    "healthcare",
+    "ear-care"
+  ]
+}

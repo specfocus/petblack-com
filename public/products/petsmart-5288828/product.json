@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5288828",
+  "name": "Canidae Under the Sun Pate Dog Wet Food - Grain Free",
+  "description": "Canidae Under the Sun Pate Dog Wet Food - Grain Free",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5288828",
+  "brand": {
+    "@type": "Brand",
+    "name": "CANIDAE"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 3.29,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "keywords": [
+    "dog-wet-food",
+    "dog",
+    "food",
+    "canned-food"
+  ]
+}

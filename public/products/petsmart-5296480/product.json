@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5296480",
+  "name": "Whisker City® Cat Gentle Shampoo - Vanilla",
+  "description": "Whisker City&reg; Cat Gentle Shampoo - Vanilla",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5296480",
+  "brand": {
+    "@type": "Brand",
+    "name": "Whisker City"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 8.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 5,
+    "reviewCount": 3
+  },
+  "keywords": [
+    "pet-grooming",
+    "cat",
+    "grooming-supplies",
+    "shampoos-and-conditioners"
+  ]
+}

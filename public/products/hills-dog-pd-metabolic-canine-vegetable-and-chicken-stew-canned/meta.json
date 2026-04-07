@@ -1,0 +1,16 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-wet-food",
+  "url": "https://www.hillspet.com/dog-food/pd-metabolic-canine-vegetable-and-chicken-stew-canned",
+  "foodForm": "wet food",
+  "lifeStage": "-",
+  "flavour": "vegetable & chicken stew",
+  "calories": "248 kcal / 12.5 oz (354 g) can",
+  "moisture": "84.0",
+  "protein": "4.64",
+  "fat": "1.824",
+  "ingredients": "['carrot', 'salt', 'pork_liver', 'flaxseed', 'tomato', 'green_pea', 'water', 'fish_oil', 'coconut_oil', 'rice', 'wheat', 'corn', 'chicken']",
+  "category": [
+    "weight-management"
+  ]
+}

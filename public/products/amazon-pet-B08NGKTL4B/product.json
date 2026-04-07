@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B08NGKTL4B",
+  "name": "Bunny Grass House-Hand Made Edible Natural Grass Hideaway Comfortable Playhouse for Rabbits, Guinea Pigs and Small Animals to Play,Sleep and Eat (style3)",
+  "description": "Specifications:   Package includes and Size： 2 Bunny Grass House: 11.8x7.87x9.02 inch 1 Apple Wood Skewer: 8.26 inch 50g Apple Tree Branch: 3.93 inch 3 Grass Stick: 4.72 inch 3 Ranttan Ball: 1.96 inch 1 Rope: 10 meters 4 S-shaped Hook: 3.14 inch 3 Pine Cone: 1.96 inch 1 Paper Carrot: 3.54 inch 2 Colored Loofah: 2.75 inch  Features The woven grass beds are made of natural dry grass, has its own organic grass fragrance that makes the pet feel relaxed, as if they are in their natural homes. Your beloved pet will enjoy their food as if in a natural environment. Cool in summer and warm in winter. P",
+  "image": "https://m.media-amazon.com/images/I/6123kZDn7xL._SS522_.jpg",
+  "sku": "amazon-pet-B08NGKTL4B",
+  "brand": {
+    "@type": "Brand",
+    "name": "PStarDMoon"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 3.57,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "other-pet",
+    "pet-supplies",
+    "small-animals",
+    "houses-habitats",
+    "habitat-d-cor"
+  ]
+}

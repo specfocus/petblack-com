@@ -1,0 +1,12 @@
+{
+  "source": "petsmart",
+  "url": "https://www.petsmart.com/fish/tanks-aquariums-and-nets/aquariums/clear-for-life-20-gallon-rectangle-aquarium-16626.html",
+  "breadcrumb": "fish > tanks-aquariums-and-nets > aquariums > clear-for-life-20-gallon-rectangle-aquarium-16626.html",
+  "bucket": "fish-accessory",
+  "gtin13": "0637441000445",
+  "images": {
+    "large": "https://s7d2.scene7.com/is/image/PetSmart/5188215?$sclp-prd-main_large$",
+    "medium": "https://s7d2.scene7.com/is/image/PetSmart/5188215?$sclp-prd-main_medium$",
+    "small": "https://s7d2.scene7.com/is/image/PetSmart/5188215?$sclp-prd-main_small$"
+  }
+}

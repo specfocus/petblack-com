@@ -1,0 +1,29 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-55447",
+  "name": "Fruitables Pumpkin SuperBlend Weight Loss Dog & Cat Supplement",
+  "description": "Help your furry pal lose weight the healthy way with Fruitables Pumpkin SuperBlend Weight Loss Dog & Cat Supplement. Featuring a savory pumpkin and oatmeal blend for a recipe your pet will devour. This weight loss supplement includes inulin to create a hunger-fighting balance of fiber that will keep your pet full for hours. It also combines nutrient-dense fruits and vegetables, such as tomato, spinach and blueberry, plus B vitamins, to provide a healthy boost during weight loss. The delicious SuperBlend is clinically proven to have your pet losing up to 2% of his body weight per week. Plus, it’s vet-developed, so you know your pal will be getting and well-balanced and nutritious meal.",
+  "image": "",
+  "sku": "chewy-55447",
+  "brand": {
+    "@type": "Brand",
+    "name": "Fruitables"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 59.88,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.5082,
+    "reviewCount": 61
+  },
+  "keywords": [
+    "dog-health",
+    "cat",
+    "vitamins-supplements"
+  ]
+}

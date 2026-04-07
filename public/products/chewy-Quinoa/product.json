@@ -1,0 +1,19 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-Quinoa",
+  "name": "Natural Flavor",
+  "description": "Natural Flavor",
+  "image": "",
+  "sku": "chewy-Quinoa",
+  "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "other-pet",
+    "spinach"
+  ]
+}

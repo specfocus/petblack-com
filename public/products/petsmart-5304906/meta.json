@@ -1,0 +1,12 @@
+{
+  "source": "petsmart",
+  "url": "https://www.petsmart.com/cat/food-and-treats/treats/meowijuana-crunchie-munchies-cat-treats-63532.html",
+  "breadcrumb": "cat > food-and-treats > treats > meowijuana-crunchie-munchies-cat-treats-63532.html",
+  "bucket": "cat-dry-food",
+  "gtin13": "0714929807595",
+  "images": {
+    "large": "https://s7d2.scene7.com/is/image/PetSmart/5304906?$sclp-prd-main_large$",
+    "medium": "https://s7d2.scene7.com/is/image/PetSmart/5304906?$sclp-prd-main_medium$",
+    "small": "https://s7d2.scene7.com/is/image/PetSmart/5304906?$sclp-prd-main_small$"
+  }
+}

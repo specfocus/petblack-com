@@ -1,0 +1,32 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-691478",
+  "name": "Coziwow 2-Tier Wooden Small Pet Cage, Grey",
+  "description": "The Coziwow 2-Tier Wooden Small Pet Cage gives your hamsters plenty of space to play and snooze. The first floor has lots of room to crawl around, then they can climb up the ramp to the second floor which is darker and paw-fect for naps. Wire mesh provides plenty of ventilation and great views—plus, you can open the roof to easily put your hamsters inside or remove them. There’s a metal plate inside the tray that helps to prevent leaks and makes for easy cleaning. This spacious cage is large enough to let multiple hammies live together.",
+  "image": "",
+  "sku": "chewy-691478",
+  "brand": {
+    "@type": "Brand",
+    "name": "Coziwow"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 119.98,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 1,
+    "reviewCount": 1
+  },
+  "keywords": [
+    "small-pet-toy",
+    "small-pet",
+    "shop-by-small-pet",
+    "rat",
+    "cages-habitats",
+    "cages-playpens"
+  ]
+}

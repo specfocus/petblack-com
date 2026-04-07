@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "hills-dog-pd-canine-prescription-diet-id-turkey-canned",
+  "name": "i/d digestive care wet dog food with turkey can",
+  "description": "hill's prescription diet i/d dog food is great tasting nutrition clinically proven to help reduce digestive upsets. this highly digestible food is enriched with electolytes and b vitamins to ensure easy nutrient absorption and replace lost nurients. made with hill's proprietary activbiome+ ingredient technology, a special blend of prebiotic fibres, clinically shown to rapidly nourish the gut microbiome to support optimal stool quality and digestive health. fortified with omega-3 & omega-6s and clinically proven antioxidants to help support a healthy immune system. hill's prescription diet i/d ",
+  "image": "",
+  "sku": "hills-dog-pd-canine-prescription-diet-id-turkey-canned",
+  "brand": {
+    "@type": "Brand",
+    "name": "Hill's Pet Nutrition"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "GBP",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "dog-wet-food",
+    "digestive-care",
+    "protein-6.7pct",
+    "-",
+    "with-turkey"
+  ]
+}

@@ -1,0 +1,212 @@
+{
+  "_meta": {
+    "source": "datasets4/pets/30344017/ingredient_standardization.csv",
+    "description": "Canonical ingredient name mappings for pet food label parsing.",
+    "usageHints": [
+      "Normalize ingredient names when displaying product labels.",
+      "Power an ingredient-synonym search feature."
+    ]
+  },
+  "data": [
+    {
+      "Ingredient_pet_food": "apple",
+      "Category": "APPLES",
+      "Ingredient_USDA": "APPLES,RAW,WITH SKIN"
+    },
+    {
+      "Ingredient_pet_food": "barley",
+      "Category": "BARLEY",
+      "Ingredient_USDA": "BARLEY,PEARLED,RAW"
+    },
+    {
+      "Ingredient_pet_food": "beef",
+      "Category": "BEEF",
+      "Ingredient_USDA": "BEEF,BRISKET,WHL,LN,ALL GRDS,RAW"
+    },
+    {
+      "Ingredient_pet_food": "beef_liver",
+      "Category": "BEEF",
+      "Ingredient_USDA": "BEEF,VAR MEATS&BY-PRODUCTS,LIVER,RAW"
+    },
+    {
+      "Ingredient_pet_food": "beet",
+      "Category": "BEETS",
+      "Ingredient_USDA": "BEETS,RAW"
+    },
+    {
+      "Ingredient_pet_food": "broccoli",
+      "Category": "BROCCOLI",
+      "Ingredient_USDA": "BROCCOLI,RAW"
+    },
+    {
+      "Ingredient_pet_food": "brown_rice",
+      "Category": "RICE",
+      "Ingredient_USDA": "RICE,BROWN,MEDIUM-GRAIN,RAW"
+    },
+    {
+      "Ingredient_pet_food": "carrot",
+      "Category": "CARROTS",
+      "Ingredient_USDA": "CARROTS,RAW"
+    },
+    {
+      "Ingredient_pet_food": "chicken",
+      "Category": "CHICKEN",
+      "Ingredient_USDA": "CHICKEN,BROILERS OR FRYERS,MEAT ONLY,RAW"
+    },
+    {
+      "Ingredient_pet_food": "chicken_fat",
+      "Category": "CHICKEN",
+      "Ingredient_USDA": "CHICKEN,BROILERS OR FRYERS,FAT,RAW"
+    },
+    {
+      "Ingredient_pet_food": "chicken_liver",
+      "Category": "CHICKEN",
+      "Ingredient_USDA": "CHICKEN,LIVER,ALL CLASSES,RAW"
+    },
+    {
+      "Ingredient_pet_food": "coconut_oil",
+      "Category": "VEGETABLE OIL",
+      "Ingredient_USDA": "VEGETABLE OIL,COCONUT"
+    },
+    {
+      "Ingredient_pet_food": "corn",
+      "Category": "CORN",
+      "Ingredient_USDA": "CORN,SWEET,YELLOW,RAW"
+    },
+    {
+      "Ingredient_pet_food": "cranberry",
+      "Category": "CRANBERRIES",
+      "Ingredient_USDA": "CRANBERRIES,RAW"
+    },
+    {
+      "Ingredient_pet_food": "duck",
+      "Category": "DUCK",
+      "Ingredient_USDA": "DUCK,DOMESTICATED,MEAT ONLY,RAW"
+    },
+    {
+      "Ingredient_pet_food": "duck_liver",
+      "Category": "DUCK",
+      "Ingredient_USDA": "DUCK,DOMESTICATED,LIVER,RAW"
+    },
+    {
+      "Ingredient_pet_food": "egg",
+      "Category": "EGG",
+      "Ingredient_USDA": "EGG,WHOLE,RAW,FRESH"
+    },
+    {
+      "Ingredient_pet_food": "egg_whites",
+      "Category": "EGG",
+      "Ingredient_USDA": "EGG,WHITE,RAW,FRESH"
+    },
+    {
+      "Ingredient_pet_food": "egg_yolks",
+      "Category": "EGG",
+      "Ingredient_USDA": "EGG,YOLK,RAW,FRSH"
+    },
+    {
+      "Ingredient_pet_food": "fish_oil",
+      "Category": "FISH OIL",
+      "Ingredient_USDA": "FISH OIL,COD LIVER"
+    },
+    {
+      "Ingredient_pet_food": "flaxseed",
+      "Category": "SEEDS",
+      "Ingredient_USDA": "SEEDS,FLAXSEED"
+    },
+    {
+      "Ingredient_pet_food": "ginger",
+      "Category": "GINGER",
+      "Ingredient_USDA": "GINGER,GROUND"
+    },
+    {
+      "Ingredient_pet_food": "green_beans",
+      "Category": "BEANS",
+      "Ingredient_USDA": "BEANS,SNAP,GREEN,RAW"
+    },
+    {
+      "Ingredient_pet_food": "green_pea",
+      "Category": "PEAS",
+      "Ingredient_USDA": "PEAS,GREEN,RAW"
+    },
+    {
+      "Ingredient_pet_food": "lamb",
+      "Category": "LAMB",
+      "Ingredient_USDA": "LAMB,VAR MEATS&BY-PRODUCTS,MECHANICALLY SEPARATED,RAW"
+    },
+    {
+      "Ingredient_pet_food": "oat",
+      "Category": "No Category",
+      "Ingredient_USDA": "OATS"
+    },
+    {
+      "Ingredient_pet_food": "pork",
+      "Category": "PORK",
+      "Ingredient_USDA": "PORK,FRSH,LOIN,WHL,LN,RAW"
+    },
+    {
+      "Ingredient_pet_food": "pork_liver",
+      "Category": "PORK",
+      "Ingredient_USDA": "PORK,FRSH,VAR MEATS&BY-PRODUCTS,LIVER,RAW"
+    },
+    {
+      "Ingredient_pet_food": "potato",
+      "Category": "POTATO",
+      "Ingredient_USDA": "POTATO,FLESH & SKN,RAW"
+    },
+    {
+      "Ingredient_pet_food": "pumpkin",
+      "Category": "PUMPKIN",
+      "Ingredient_USDA": "PUMPKIN,RAW"
+    },
+    {
+      "Ingredient_pet_food": "rice",
+      "Category": "RICE",
+      "Ingredient_USDA": "RICE,WHITE,MEDIUM-GRAIN,RAW,ENR"
+    },
+    {
+      "Ingredient_pet_food": "salt",
+      "Category": "SALT",
+      "Ingredient_USDA": "SALT,TABLE"
+    },
+    {
+      "Ingredient_pet_food": "spinach",
+      "Category": "SPINACH",
+      "Ingredient_USDA": "SPINACH,RAW"
+    },
+    {
+      "Ingredient_pet_food": "sunflower_oil",
+      "Category": "OIL",
+      "Ingredient_USDA": "OIL,VEG,SUNFLOWER,LINOLEIC,(APPROX. 65%)"
+    },
+    {
+      "Ingredient_pet_food": "turkey",
+      "Category": "TURKEY",
+      "Ingredient_USDA": "TURKEY,ALL CLASSES,MEAT ONLY,RAW"
+    },
+    {
+      "Ingredient_pet_food": "turkey_liver",
+      "Category": "TURKEY",
+      "Ingredient_USDA": "TURKEY,LIVER,ALL CLASSES,RAW"
+    },
+    {
+      "Ingredient_pet_food": "water",
+      "Category": "WATER",
+      "Ingredient_USDA": "WATER,BTLD,GENERIC"
+    },
+    {
+      "Ingredient_pet_food": "wheat",
+      "Category": "WHEAT",
+      "Ingredient_USDA": "WHEAT,SOFT RED WINTER"
+    },
+    {
+      "Ingredient_pet_food": "whey",
+      "Category": "WHEY",
+      "Ingredient_USDA": "WHEY,ACID,DRIED"
+    },
+    {
+      "Ingredient_pet_food": "zucchini",
+      "Category": "SQUASH",
+      "Ingredient_USDA": "SQUASH,SMMR,ALL VAR,RAW"
+    }
+  ]
+}

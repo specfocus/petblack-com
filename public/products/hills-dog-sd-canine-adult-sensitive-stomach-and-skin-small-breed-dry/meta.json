@@ -1,0 +1,18 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-dry-food",
+  "url": "https://www.hillspet.com/dog-food/sd-canine-adult-sensitive-stomach-and-skin-small-breed-dry",
+  "foodForm": "dry food",
+  "lifeStage": "-",
+  "breedSize": "small",
+  "flavour": "chicken recipe",
+  "calories": "3727 kcal/kg 380 kcal/cup†",
+  "moisture": "0.0",
+  "protein": "26.0",
+  "fat": "15.8",
+  "ingredients": "['barley', 'salt', 'yellow_pea', 'flaxseed', 'brown_rice', 'chicken_meal', 'lactic_acid', 'beet', 'soybean_oil', 'rice', 'egg', 'chicken', 'chicken_fat', 'whole_grain_sorghum']",
+  "category": [
+    "skin-health",
+    "food-sensitivity"
+  ]
+}

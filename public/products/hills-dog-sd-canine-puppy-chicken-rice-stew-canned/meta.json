@@ -1,0 +1,15 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-wet-food",
+  "url": "https://www.hillspet.com/dog-food/sd-canine-puppy-chicken-rice-stew-canned",
+  "foodForm": "wet food",
+  "lifeStage": "puppy",
+  "flavour": "chicken & rice stew",
+  "moisture": "0.0",
+  "protein": "29.9",
+  "fat": "21.6",
+  "ingredients": "['carrot', 'pork_liver', 'flaxseed', 'green_pea', 'beet', 'citrus', 'fish_oil', 'chicken_broth', 'rice', 'chicken', 'wheat', 'ground_pecan_shell', 'cranberry', 'chicken_fat']",
+  "category": [
+    "puppy-care"
+  ]
+}

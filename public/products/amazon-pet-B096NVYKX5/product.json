@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B096NVYKX5",
+  "name": "Noodoky Pet Stroller for Cats Dogs Rabbit with Reversible Handle, Dog Stroller for Small or Medium Animal up to 40 Pounds, Doggie Bunny Stroller Carriage (Gray)",
+  "description": "Noodoky Pet Stroller for Cats Dogs Rabbit with Reversible Handle, Dog Stroller for Small or Medium Animal up to 50 Pounds, Doggie Bunny Stroller Carriage",
+  "image": "https://m.media-amazon.com/images/I/413yY56pJZS._SS522_.jpg",
+  "sku": "amazon-pet-B096NVYKX5",
+  "brand": {
+    "@type": "Brand",
+    "name": "Noodoky"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 7.5,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "dog-accessory",
+    "pet-supplies",
+    "cats",
+    "carriers-strollers",
+    "strollers"
+  ]
+}

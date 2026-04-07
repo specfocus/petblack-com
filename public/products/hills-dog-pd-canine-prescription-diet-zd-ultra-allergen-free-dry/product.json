@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "hills-dog-pd-canine-prescription-diet-zd-ultra-allergen-free-dry",
+  "name": "z/d food sensitivities dry dog food original bag",
+  "description": "food sensitivities and intolerance are potentially serious problems that can result in irritated skin, coat and ear conditions or even gastrointestinal upset. dogs that have adverse food reactions due to a food allergy (typically to a protein in the food) or intolerance benefit from a food designed for food sensitivities. hill's nutritionists and veterinarians developed prescription diet z/d clinical nutrition especially formulated to support your dog's food sensitivities. in fact, z/d is clinically proven nutrition to reduce skin & digestive signs from food intolerances. food sensitivities ha",
+  "image": "",
+  "sku": "hills-dog-pd-canine-prescription-diet-zd-ultra-allergen-free-dry",
+  "brand": {
+    "@type": "Brand",
+    "name": "Hill's Pet Nutrition"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "GBP",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "dog-dry-food",
+    "food-sensitivity",
+    "protein-17.6pct",
+    "-",
+    "original"
+  ]
+}

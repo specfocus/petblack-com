@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B09SY7RMKM",
+  "name": "Cat Scratch Board, Grinding Claw Cat Scratcher Cartoon for Indoor Cats for Cats to Rest(Elephant)",
+  "description": "Feature:1. Sisal material, strong and durable, not easily damaged.2. The elephant cartoon model, lovely good-looking.3. It can be used as a board for claws or as a mattress for sleep.4. The mat is light and easy to clean, simple and convenient.5. Excellent material, comfortable, no skin irritation.Specification:Condition: 100% Brand NewItem Type: Cat Scratch MatMaterial: Sisal HempColour: As Pictures Shown Product Size: Approx. 48x43x3cm/ 19x17x1.2inWeight: Approx. 312g/11ozSuitable Type: CatProduct Function: A Scratcher for Sharpening a Cat's Claws Package List:1X Cat Scratch Mat",
+  "image": "https://m.media-amazon.com/images/I/41VoBkEtFjL._SS522_.jpg",
+  "sku": "amazon-pet-B09SY7RMKM",
+  "brand": {
+    "@type": "Brand",
+    "name": "Haowecib"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 2.432,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "keywords": [
+    "cat-accessory",
+    "pet-supplies",
+    "cats",
+    "beds-furniture",
+    "scratching-pads"
+  ]
+}

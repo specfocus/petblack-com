@@ -1,0 +1,15 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-wet-food",
+  "url": "https://www.hillspet.com/dog-food/pd-metabolic-canine-vegetable-and-beef-stew-canned",
+  "foodForm": "wet food",
+  "lifeStage": "-",
+  "flavour": "vegetable & beef stew",
+  "moisture": "84.0",
+  "protein": "4.752",
+  "fat": "2.032",
+  "ingredients": "['carrot', 'salt', 'barley', 'flaxseed', 'pork_liver', 'tomato', 'green_pea', 'water', 'fish_oil', 'coconut_oil', 'rice', 'wheat', 'corn', 'beef']",
+  "category": [
+    "weight-management"
+  ]
+}

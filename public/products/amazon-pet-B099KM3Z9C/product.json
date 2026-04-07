@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B099KM3Z9C",
+  "name": "Dog Claw Trimmers, Cat Nail Clippers Blades Durable for Cut Nails",
+  "description": "Feature:1. Made of high quality stainless steel, sturdy and durable, and you can use for a long time.2. Designed with non-slip handle for safer use, comfortable hand feeling, reliable to use.3. Unique spring device for more smooth trimming, easy to control, avoiding hurting your pet.4. Easy to use, equipped with a file, making it easier to have a perfect trimming for your pet.5. A necessity for your pet, helpful for keeping your lovely pet clean and healthy.Specification:Item Type: Pet Nail ClipperCondition: 100% brand newMaterial: ABS+stainless steelProduct Role: Trim the nails of your pets.S",
+  "image": "https://m.media-amazon.com/images/I/41BNC-csFpL._SS522_.jpg",
+  "sku": "amazon-pet-B099KM3Z9C",
+  "brand": {
+    "@type": "Brand",
+    "name": "Sutinna"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 1.107,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "keywords": [
+    "dog-accessory",
+    "pet-supplies",
+    "cats",
+    "grooming",
+    "claw-care"
+  ]
+}

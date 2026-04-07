@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-320004",
+  "name": "K9warehouse Knee Cap Bones Dog Chew Treats",
+  "description": "You’ll be the bee’s knees when you treat your paw-tner to healthy and mouthwatering K9warehouse Knee Cap Bones Dog Chew Treats. Long-lasting and fully digestible, these single-ingredient knee cap bones are ideal for moderate and power chewers. Ideal for training rewards or as a boredom-busting chew, these slow-roasted, naturally smoked morsels won't crumble like biscuits. As a bonus, they help clean your doggo’s teeth as he chews by scraping off tartar and plaque. You can rest easy knowing these preservative-free chews are sourced from free-range, grass-fed beef—your buddy will just enjoy the taste and texture. Chews wisely!",
+  "image": "https://image.chewy.com/is/image/catalog/320004_MAIN._AC_SS500_V1628807250_.jpg",
+  "sku": "chewy-320004",
+  "brand": {
+    "@type": "Brand",
+    "name": "K9warehouse"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 28.09,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4,
+    "reviewCount": 5
+  },
+  "keywords": [
+    "dog-treat",
+    "dog",
+    "treats",
+    "bones-bully-sticks-natural-chews",
+    "natural-chews"
+  ]
+}

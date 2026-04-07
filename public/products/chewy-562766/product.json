@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-562766",
+  "name": "Underwater Treasures Area 51 Fish Ornament",
+  "description": "This Underwater Treasures Area 51 Fish Ornament is part of Underwater Treasures' beautiful line of aquarium ornaments. These captivating, realistic decorations are handcrafted and painted using only the highest quality materials for your finned friends’ safety. In fact, all Underwater Treasures’ ornaments are completely non-toxic and safe for both freshwater and saltwater aquariums. You’ll love this aquarium ornament and so will your scaly sidekicks!",
+  "image": "",
+  "sku": "chewy-562766",
+  "brand": {
+    "@type": "Brand",
+    "name": "Underwater Treasures"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 12.51,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "fish-accessory",
+    "fish",
+    "shop-by-fish-type",
+    "pond-shop"
+  ]
+}

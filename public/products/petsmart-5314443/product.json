@@ -1,0 +1,24 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5314443",
+  "name": "Cobalt&trade; Eco-Fresh Scorpions - 10 Pack",
+  "description": "Cobalt&amp;trade; Eco-Fresh Scorpions - 10 Pack",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5314443",
+  "brand": {
+    "@type": "Brand",
+    "name": "Cobalt"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 79.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "keywords": [
+    "other-pet",
+    "reptile",
+    "food"
+  ]
+}

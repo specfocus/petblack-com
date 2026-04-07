@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5230037",
+  "name": "Juvenile Fancy Ball Python",
+  "description": "Juvenile Fancy Ball Python",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5230037",
+  "brand": {
+    "@type": "Brand",
+    "name": "null"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 159.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.4722,
+    "reviewCount": 36
+  },
+  "keywords": [
+    "other-pet",
+    "reptile",
+    "snake",
+    "juvenile-fancy-ball-python-5230037-html"
+  ]
+}

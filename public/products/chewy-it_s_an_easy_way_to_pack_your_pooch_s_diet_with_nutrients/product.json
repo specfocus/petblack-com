@@ -1,0 +1,22 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-it’s an easy way to pack your pooch’s diet with nutrients",
+  "name": "35-oz bag—Kickstart your canine’s kibble with Stella & Chewy's Stella's Super Beef Meal Mixers Freeze-Dried Raw Dog Food Topper. Delivering a boost of nutrition and yummy flavor",
+  "description": "'https://image.chewy.com/is/image/catalog/567726_PT3._AC_SS500_V1657659987_.jpg'",
+  "image": "https://image.chewy.com/is/image/catalog/567726_PT5._AC_SS500_V1657659987_.jpg",
+  "sku": "chewy-it’s an easy way to pack your pooch’s diet with nutrients",
+  "brand": {
+    "@type": "Brand",
+    "name": "'https://image.chewy.com/is/image/catalog/567726_PT1._AC_SS500_V1657659988_.jpg'"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 567726,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "keywords": [
+    "dog-dry-food"
+  ]
+}

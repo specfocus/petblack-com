@@ -1,0 +1,16 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-wet-food",
+  "url": "https://www.hillspet.com/dog-food/pd-canine-gastrointestinal-biome-chicken-vegetable-stew-canned",
+  "foodForm": "wet food",
+  "lifeStage": "-",
+  "flavour": "chicken and vegetable stew",
+  "calories": "287 kcal / 12.5 oz (354 g) can",
+  "moisture": "82.0",
+  "protein": "4.554",
+  "fat": "2.718",
+  "ingredients": "['spinach', 'oat', 'flaxseed', 'fish_oil', 'pumpkin', 'ground_pecan_shell', 'chicken', 'psyllium_seed_husk', 'barley', 'chicken_broth', 'ginger', 'carrot', 'pork_liver', 'citrus', 'beet', 'soybean_oil', 'rice', 'wheat', 'cranberry']",
+  "category": [
+    "digestive-care"
+  ]
+}

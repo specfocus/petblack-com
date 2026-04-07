@@ -1,0 +1,17 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-dry-food",
+  "url": "https://www.hillspet.com/dog-food/sd-canine-adult-oral-care-small-mini-dry",
+  "foodForm": "dry food",
+  "lifeStage": "-",
+  "breedSize": "small",
+  "flavour": "chicken recipe",
+  "calories": "3422 kcal/kg 272 kcal/cup†",
+  "moisture": "0.0",
+  "protein": "24.8",
+  "fat": "15.9",
+  "ingredients": "['lactic_acid', 'corn', 'oat', 'soybean', 'brown_rice', 'salt', 'fish_oil', 'chicken', 'chicken_meal', 'barley', 'broccoli', 'chicken_fat', 'carrot', 'green_pea', 'apple', 'soybean_oil', 'wheat', 'cranberry', 'whole_grain_sorghum']",
+  "category": [
+    "dental-care"
+  ]
+}

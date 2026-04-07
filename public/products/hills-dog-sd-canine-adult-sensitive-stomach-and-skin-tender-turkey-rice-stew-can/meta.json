@@ -1,0 +1,17 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-wet-food",
+  "url": "https://www.hillspet.com/dog-food/sd-canine-adult-sensitive-stomach-and-skin-tender-turkey-rice-stew-canned",
+  "foodForm": "wet food",
+  "lifeStage": "-",
+  "flavour": "tender turkey & rice stew",
+  "calories": "253 kcal / 12.5 oz (354 g) can",
+  "moisture": "86.0",
+  "protein": "3.43",
+  "fat": "2.6740000000000004",
+  "ingredients": "['carrot', 'pork_liver', 'flaxseed', 'green_pea', 'soybean_oil', 'chicken_broth', 'rice', 'turkey', 'spinach', 'chicken']",
+  "category": [
+    "skin-health",
+    "food-sensitivity"
+  ]
+}

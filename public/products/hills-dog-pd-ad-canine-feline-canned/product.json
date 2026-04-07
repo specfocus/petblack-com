@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "hills-dog-pd-ad-canine-feline-canned",
+  "name": "a/d with chicken wet dog/cat food",
+  "description": "cats and dogs can undergo significant metabolic changes when recovering from surgery, illness or injury. while under these stressful conditions, your pet is challenged to maintain their strong natural defenses which makes it even more important to feed the right food to help your pet bounce back from these tough situations. 소화가 잘 되는 단백질과 지방으로 구성되어 반려동물의 회복 지원 부드럽고 촉촉한 무스타입으로, 저을수록 액체같이 변하기 때문에 다양한 형태로 급여 가능 면역기능 및 치유 능력을 지원하는 임상적으로 입증된 항산화제",
+  "image": "",
+  "sku": "hills-dog-pd-ad-canine-feline-canned",
+  "brand": {
+    "@type": "Brand",
+    "name": "Hill's Pet Nutrition"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "GBP",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "dog-wet-food",
+    "urgent-care",
+    "protein-9.68pct",
+    "-",
+    "with-chicken"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-wet-food",
+  "url": "https://www.hillspet.com/dog-food/sd-canine-puppy-savory-stew-with-chicken-vegetables-canned",
+  "foodForm": "wet food",
+  "lifeStage": "puppy",
+  "flavour": "chicken & vegetables",
+  "moisture": "80.7",
+  "protein": "5.7128",
+  "fat": "3.8599999999999994",
+  "ingredients": "['carrot', 'pork_liver', 'brown_rice', 'green_pea', 'spinach', 'water', 'potato', 'beet', 'fish_oil', 'soybean_oil', 'egg_whites', 'rice', 'wheat', 'pork_plasma', 'chicken']",
+  "category": [
+    "puppy-care"
+  ]
+}

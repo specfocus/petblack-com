@@ -1,0 +1,12 @@
+{
+  "source": "petsmart",
+  "url": "https://www.petsmart.com/fish/live-fish/goldfish-betta-and-more/chocolate-shrimp-70101.html",
+  "breadcrumb": "fish > live-fish > goldfish-betta-and-more > chocolate-shrimp-70101.html",
+  "bucket": "fish-accessory",
+  "gtin13": "0737257981256",
+  "images": {
+    "large": "https://s7d2.scene7.com/is/image/PetSmart/5324063?$sclp-prd-main_large$",
+    "medium": "https://s7d2.scene7.com/is/image/PetSmart/5324063?$sclp-prd-main_medium$",
+    "small": "https://s7d2.scene7.com/is/image/PetSmart/5324063?$sclp-prd-main_small$"
+  }
+}

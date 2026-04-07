@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B09GPHVKYV",
+  "name": "Skybeings Hanging Medium Bird Feeder | Bird Cage | Bird Food | Bird Feeding Cage with Wall Mount Black Metal Stand 1 Piece_Blue",
+  "description": "Skybeings is proud to introduce its wide range of Pet Feeding Products. Let Birds find a good place to feed a water and Food without any disturbance in atmosphere with clean. This Skybeings bird Food and Water Feeder is perfect for your birds in your house to operate the product for birds easily and save birds. Skybeings bird food and water feeder is made up of Plastic material strong body it has high quality accessories in the top and it is manufactured in high tech machines.Details in Breif:Made of high Quality of Plastic Material which reduces the risk of damage.High quality plastic is used",
+  "image": "https://m.media-amazon.com/images/I/41-BzzexnaL._SS522_.jpg",
+  "sku": "amazon-pet-B09GPHVKYV",
+  "brand": {
+    "@type": "Brand",
+    "name": "Skybeings"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 437,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "bird-toy",
+    "pet-supplies",
+    "birds",
+    "feeding-watering-supplies"
+  ]
+}

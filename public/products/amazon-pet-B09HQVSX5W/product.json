@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B09HQVSX5W",
+  "name": "Woofy Cat Cute Printed Dog Puppy Cat Kitten Pet Collar Adjustable Necklace with Bell, Cat Accessories Collar for Kitten Cat (1Pcs Sky Blue Color)",
+  "description": "Printed pet necklace, cute and lovely. Durable and adjustable, it will not hurt your pet. With buckle, easy and convenient to wear and remove. Width: 1cm , Adjustable Length: 15cm - 35cm Pack of 1 ( Color May Vary )",
+  "image": "https://m.media-amazon.com/images/I/416rwDlTZrL._SS522_.jpg",
+  "sku": "amazon-pet-B09HQVSX5W",
+  "brand": {
+    "@type": "Brand",
+    "name": "Woofy"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 199,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "dog-accessory",
+    "pet-supplies",
+    "cats",
+    "collars-harnesses-leashes",
+    "collars"
+  ]
+}

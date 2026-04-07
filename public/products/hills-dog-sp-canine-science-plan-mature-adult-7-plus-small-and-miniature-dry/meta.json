@@ -1,0 +1,17 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-dry-food",
+  "url": "https://www.hillspet.co.uk/dog-food/sp-canine-science-plan-mature-adult-7-plus-small-and-miniature-dry",
+  "foodForm": "dry food",
+  "lifeStage": "senior",
+  "breedSize": "small",
+  "flavour": "with chicken",
+  "calories": "3684 kcal/kg (368 kcal/100g)",
+  "moisture": "0.0",
+  "protein": "17.9",
+  "fat": "14.5",
+  "ingredients": "['barley', 'turkey_meal', 'brown_rice', 'flaxseed', 'sunflower_oil', 'tomato', 'chicken_meal', 'beet', 'citrus', 'rice', 'oat', 'wheat', 'corn', 'spinach', 'chicken_fat']",
+  "category": [
+    "aging-care"
+  ]
+}

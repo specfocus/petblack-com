@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5304906",
+  "name": "Meowijuana® Crunchie Munchies Cat Treats",
+  "description": "Meowijuana&reg; Crunchie Munchies Cat Treats",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5304906",
+  "brand": {
+    "@type": "Brand",
+    "name": "Meowijuana"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 4.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4,
+    "reviewCount": 4
+  },
+  "keywords": [
+    "cat-dry-food",
+    "cat",
+    "food-and-treats",
+    "treats"
+  ]
+}

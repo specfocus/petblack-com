@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5302485",
+  "name": "Nulo MedalSeries  Dry Cat Food Topper - , Chicken & Salmon",
+  "description": "Nulo MedalSeries  Dry Cat Food Topper - , Chicken &amp; Salmon",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5302485",
+  "brand": {
+    "@type": "Brand",
+    "name": "Nulo"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 16.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.25,
+    "reviewCount": 8
+  },
+  "keywords": [
+    "cat-dry-food",
+    "cat",
+    "food-and-treats",
+    "food-toppers"
+  ]
+}

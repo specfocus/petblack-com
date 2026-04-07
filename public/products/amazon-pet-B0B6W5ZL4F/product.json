@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B0B6W5ZL4F",
+  "name": "InLeague Guinea Pig Cage Bottom Cover Parts for Dwarf Bunnies Squirrel Hamsters Black (64039193IL)",
+  "description": "Description:Pets Cage Bottom Cover - good for rabbits, guinea pigs, hamsters other small pets.High Quality Material - Durable, leak proof, and hand washable PVC lined canvas bottom allows for easy maintenance.With Paste Straps - to attach washable bottom cover to pets cage bottom in vary locations to ensure a strong fit.Easy to Clean - Easy to use, washable and easy to disassemble.Note - Please measure the size of the guinea pig cage before purchasing to ensure that this product fits your cage.Specification:Material: 600DPVC Waterproof Oxford ClothSize: 119x61x9.5cm/46.85x24.02x3.74inchPackage",
+  "image": "https://m.media-amazon.com/images/I/31xi1TPz2DL._SS522_.jpg",
+  "sku": "amazon-pet-B0B6W5ZL4F",
+  "brand": {
+    "@type": "Brand",
+    "name": "Generic"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 3.255,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "keywords": [
+    "small-pet-accessory",
+    "pet-supplies",
+    "small-animals",
+    "houses-habitats",
+    "cages"
+  ]
+}

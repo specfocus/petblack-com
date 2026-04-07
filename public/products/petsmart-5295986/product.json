@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5295986",
+  "name": "Silver Honey&trade; Hot Spot & Wound Care Spray Gel",
+  "description": "Silver Honey&amp;trade; Hot Spot &amp; Wound Care Spray Gel",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5295986",
+  "brand": {
+    "@type": "Brand",
+    "name": "Silver Honey"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 22.67,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.6552,
+    "reviewCount": 29
+  },
+  "keywords": [
+    "dog-health",
+    "dog",
+    "dental-care-and-wellness",
+    "treatments"
+  ]
+}

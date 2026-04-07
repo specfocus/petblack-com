@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B09Y2BBXH9",
+  "name": "Trendy Retail Natural Hanging Nest Pet Bird House Hatch Parrot Rest Hut Gourd",
+  "description": "Description:100% Hand-knitted - Hand-woven from natural materials, each one is unique. Bird's nest with natural hay: Natural hay is selected, after drying and anti-mold treatment, it is degradable, environmentally friendly, durable, strong and breathableNatural Materials - The hanging bird house is dried, strong and breathable and not easily deformed.Natural materials make it easier for nesting pockets to blend with surroundings, so wrens, chickadees, finches, titmice, and other small songbirds can protect themselves from predators.Easy to Hanging - You can hang the rope directly on the tree, ",
+  "image": "https://m.media-amazon.com/images/I/41jh-7nZ9CL._SS522_.jpg",
+  "sku": "amazon-pet-B09Y2BBXH9",
+  "brand": {
+    "@type": "Brand",
+    "name": "Trendy Retail"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 3.48,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "keywords": [
+    "bird-toy",
+    "pet-supplies",
+    "birds",
+    "birdcage-accessories",
+    "nests"
+  ]
+}

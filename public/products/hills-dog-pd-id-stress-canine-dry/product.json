@@ -1,0 +1,28 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "hills-dog-pd-id-stress-canine-dry",
+  "name": "i/d stress chicken flavor dry dog food",
+  "description": "just like humans, some dogs experience stress which may negatively impact their overall health. stress can lead to an imbalance of the gut microbiome and increased intestinal motility resulting in digestive upset, a thoroughly unpleasant experience for everyone involved. highly digestible anti-stress formula unique prebiotic blend & ginger enriched with clinically proven antioxidants & omega-3 fatty acids controlled minerals",
+  "image": "",
+  "sku": "hills-dog-pd-id-stress-canine-dry",
+  "brand": {
+    "@type": "Brand",
+    "name": "Hill's Pet Nutrition"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "GBP",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "dog-dry-food",
+    "nervous-system-care-and-stress",
+    "digestive-care",
+    "protein-26.1pct",
+    "-",
+    "small-breed",
+    "chicken-flavor"
+  ]
+}

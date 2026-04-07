@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B08S3VHTHQ",
+  "name": "Jainsons Pet Products® Bird Swing and Chew Toys Bird Toys Best for Love Bird, Parrot, Parakeet, Budgie, Cockatiel pet Birds. Combo Pack of 3 Toys",
+  "description": "Use For Lovebirds, Small Parakeets sun conure size bird ,Cockatiels, & use as chewing toy for all size bird | Safe, quick link fastener for easy attachment to any cage | Relieves boredom and increases activity level for birds | Material: New & Safe Wood, Non-Toxic Adhesive. Non Corrosive Metal. Durable Wood | Package Content: 3 x Swing toys and Chew Toys",
+  "image": "https://m.media-amazon.com/images/I/41kfAcs0mJL._SS522_.jpg",
+  "sku": "amazon-pet-B08S3VHTHQ",
+  "brand": {
+    "@type": "Brand",
+    "name": "Visit the JAINSONS PET PRODUCTS Store"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 299,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "bird-toy",
+    "pet-supplies",
+    "birds",
+    "toys"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "source": "petsmart",
+  "url": "https://www.petsmart.com/small-pet/food-treats-and-hay/treats/kaytee-strawberry-and-flax-superfood-treat-stick-63831.html",
+  "breadcrumb": "small-pet > food-treats-and-hay > treats > kaytee-strawberry-and-flax-superfood-treat-stick-63831.html",
+  "bucket": "other-pet",
+  "gtin13": "0071859003061",
+  "images": {
+    "large": "https://s7d2.scene7.com/is/image/PetSmart/5308927?$sclp-prd-main_large$",
+    "medium": "https://s7d2.scene7.com/is/image/PetSmart/5308927?$sclp-prd-main_medium$",
+    "small": "https://s7d2.scene7.com/is/image/PetSmart/5308927?$sclp-prd-main_small$"
+  }
+}

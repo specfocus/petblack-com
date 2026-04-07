@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5313092",
+  "name": "Mobile Dog Gear Dine Away Dog Bag",
+  "description": "Mobile Dog Gear Dine Away Dog Bag",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5313092",
+  "brand": {
+    "@type": "Brand",
+    "name": "Mobile Dog Gear"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 39.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 5,
+    "reviewCount": 4
+  },
+  "keywords": [
+    "dog-dry-food",
+    "dog",
+    "bowls-and-feeders",
+    "food-and-water-bowls"
+  ]
+}

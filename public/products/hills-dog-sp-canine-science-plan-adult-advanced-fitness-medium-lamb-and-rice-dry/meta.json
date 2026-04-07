@@ -1,0 +1,17 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-dry-food",
+  "url": "https://www.hillspet.co.uk/dog-food/sp-canine-science-plan-adult-advanced-fitness-medium-lamb-and-rice-dry",
+  "foodForm": "dry food",
+  "lifeStage": "adult",
+  "breedSize": "medium",
+  "flavour": "with lamb & rice",
+  "calories": "3718 kcal/kg (372 kcal/100g)",
+  "moisture": "8.0",
+  "protein": "21.4",
+  "fat": "14.3",
+  "ingredients": "['sunflower_oil', 'flaxseed', 'rice', 'wheat', 'corn', 'chicken_fat', 'lamb', 'soybean']",
+  "category": [
+    "adult-care"
+  ]
+}

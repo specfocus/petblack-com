@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5176345",
+  "name": "Andis® ProClip Excel&trade; 5-Speed Pet Hair Clipper",
+  "description": "Andis&reg; ProClip Excel&amp;trade; 5-Speed Pet Hair Clipper",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5176345",
+  "brand": {
+    "@type": "Brand",
+    "name": "Andis"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 259.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.05,
+    "reviewCount": 20
+  },
+  "keywords": [
+    "dog-accessory",
+    "dog",
+    "grooming-supplies",
+    "hair-clippers-and-trimmers"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B09VGB1PB4",
+  "name": "MACOS Engraved Personalised Star Pet Tag for Dogs and Cats [Golden]",
+  "description": "Get your pet an added safety measure to help him get back home if he ever wanders away. This Circle-Shape pet name tag for dogs and cats is customizable to add in vital contact information to ensure your pet can be found if he was ever lost.Macos Stainless Steel tags are fashionable Laser Engraved Customisable Tags made for your best buddy. Long-lasting and strong these tags are an absolute MUST HAVE for every pet!All our tags come with a metal ring that can be used to attach the tag to the dog's collar. Available in multiple colors! Features:• Product Type: Name tag for dogs and cats.• Size: ",
+  "image": "https://m.media-amazon.com/images/I/31HOsdefS6L._SS522_.jpg",
+  "sku": "amazon-pet-B09VGB1PB4",
+  "brand": {
+    "@type": "Brand",
+    "name": "MACOS"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 349,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "dog-accessory",
+    "pet-supplies",
+    "cats",
+    "collars-harnesses-leashes",
+    "collars"
+  ]
+}

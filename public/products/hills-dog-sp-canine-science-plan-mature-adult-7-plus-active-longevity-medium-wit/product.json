@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "hills-dog-sp-canine-science-plan-mature-adult-7-plus-active-longevity-medium-with-chicken-dry",
+  "name": "medium mature adult 7+ dog food with chicken dry bag",
+  "description": "hill's science plan mature adult medium dog food with chicken is formulated for specific aging needs. provides easy-to-digest nutrition with a synergistic blend of ingredients to help support energy & activity level.. key benefits omega-6s & vitamin e for beautiful skin & coat. balanced minerals for heart & kidney health. high-quality protein for lean muscles.",
+  "image": "",
+  "sku": "hills-dog-sp-canine-science-plan-mature-adult-7-plus-active-longevity-medium-with-chicken-dry",
+  "brand": {
+    "@type": "Brand",
+    "name": "Hill's Pet Nutrition"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "GBP",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "dog-dry-food",
+    "aging-care",
+    "protein-17.1pct",
+    "senior",
+    "medium-breed",
+    "with-chicken"
+  ]
+}

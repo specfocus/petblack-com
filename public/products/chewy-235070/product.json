@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-235070",
+  "name": "Livelong Healthy & Strong Duck & Sweet Potato Recipe Wet Dog Food, 12.8-oz can, case of 12",
+  "description": "Quack up your sidekick with a with a meal that’s just ducky when you serve Livelong Healthy & Strong Duck & Sweet Potato Recipe Wet Dog Food. This natural food for dogs is made with duck as the number one ingredient. It is paw-fect for all breeds of dogs in any stage of life and does not contain any grains, gluten, artificial flavors or preservatives. This wet dog food is 90% meat and crafted in a pate-style with delicious organic veggies. It’s proudly made in the USA and packaged in a case of 12 convenient 12.8-ounce cans for nourishing your canine companion.",
+  "image": "https://image.chewy.com/is/image/catalog/235070_MAIN._AC_SS500_V1589818276_.jpg",
+  "sku": "chewy-235070",
+  "brand": {
+    "@type": "Brand",
+    "name": "Livelong Healthy & Strong"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 46.34,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.6667,
+    "reviewCount": 6
+  },
+  "keywords": [
+    "dog-wet-food",
+    "dog",
+    "food",
+    "wet-food",
+    "adult"
+  ]
+}

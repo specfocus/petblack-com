@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B0B4S7YJJH",
+  "name": "Aswadh Bird Parrot Perch Tent Triangle Hammock Nest Bed Yellow",
+  "description": "Description:SIZE: (LxWxH) approx.18x18x27cm/7.08x7.08x10.62 inchGives your lovely parrots or birds a warm and comfortable hut to rest, hide, play and sleep.Great for golden sun parrot, monk parrot, parakeet, gray parrot, amazon parrot, Alexander parrotMulti-function: the large size bird snuggle hut nest is not only a wonderful place for your bird to rest and sleep on or even play with, but also a fabulous accessory to decorate your love bird's cage or your houseRattan Grass BasePackage Includes:1 Piece Bird Hammock",
+  "image": "https://m.media-amazon.com/images/I/41kV0PQHvSL._SS522_.jpg",
+  "sku": "amazon-pet-B0B4S7YJJH",
+  "brand": {
+    "@type": "Brand",
+    "name": "Generic"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 1.842,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "keywords": [
+    "bird-toy",
+    "pet-supplies",
+    "birds",
+    "birdcage-accessories",
+    "nests"
+  ]
+}

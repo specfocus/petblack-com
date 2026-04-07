@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5287577",
+  "name": "WHIMZEES Variety Value Box Medium Dental Dog Treat - Natural, Grain Free, 28 Count",
+  "description": "WHIMZEES Variety Value Box Medium Dental Dog Treat - Natural, Grain Free, 28 Count",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5287577",
+  "brand": {
+    "@type": "Brand",
+    "name": "Whimzees"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 34.79,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.8571,
+    "reviewCount": 7
+  },
+  "keywords": [
+    "dog-health",
+    "dog",
+    "treats",
+    "dental-treats"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B09HSBKV2F",
+  "name": "VMS INDIAPet Small Animal Carrier Bag Travel Warm Cage Hamster Pouch Pink 17x14cm",
+  "description": "Description:Good Quality MATERIAL: Pet carrier bag is made of sponge, short plush and has good air permeability. Pets can stay in it comfortably.MESH DESIGN”Use mesh design, easy for pets to breathe, breathing more smoothly, but also can put some small food for your pet.LIGHT AND PORTABLE”The pet bag is small and easy to carry. You can take your beloved pet to travel, outdoor sports, enjoy the scenery outside.KEEP YOUR PET WARM”short plush , warmer cage ,the pet can keep warm inside, let the pet enjoy the feeling of staying inside.SIZE”3 size choose,Suit for Ferret,Sugar glider,Hamsters,Hedgeh",
+  "image": "https://m.media-amazon.com/images/I/31Sapl3124L._SS522_.jpg",
+  "sku": "amazon-pet-B09HSBKV2F",
+  "brand": {
+    "@type": "Brand",
+    "name": "VMS INDIA"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 915,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "keywords": [
+    "small-pet-food",
+    "pet-supplies",
+    "small-animals",
+    "houses-habitats",
+    "cages"
+  ]
+}

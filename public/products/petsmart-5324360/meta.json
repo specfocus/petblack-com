@@ -1,0 +1,12 @@
+{
+  "source": "petsmart",
+  "url": "https://www.petsmart.com/dog/toys/chew-toys/playology-puppy-teething-bone-scented-dog-toy---beef-69856.html",
+  "breadcrumb": "dog > toys > chew-toys > playology-puppy-teething-bone-scented-dog-toy---beef-69856.html",
+  "bucket": "dog-treat",
+  "gtin13": "0810045333618",
+  "images": {
+    "large": "https://s7d2.scene7.com/is/image/PetSmart/5324360?$sclp-prd-main_large$",
+    "medium": "https://s7d2.scene7.com/is/image/PetSmart/5324360?$sclp-prd-main_medium$",
+    "small": "https://s7d2.scene7.com/is/image/PetSmart/5324360?$sclp-prd-main_small$"
+  }
+}

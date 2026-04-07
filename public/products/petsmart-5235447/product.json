@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5235447",
+  "name": "Natural Balance Platefulls Indoor Adult Cat Food - Grain Free, Chicken & Chicken Liver",
+  "description": "Natural Balance Platefulls Indoor Adult Cat Food - Grain Free, Chicken &amp; Chicken Liver",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5235447",
+  "brand": {
+    "@type": "Brand",
+    "name": "Natural Balance"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 1.29,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.3333,
+    "reviewCount": 3
+  },
+  "keywords": [
+    "cat-dry-food",
+    "cat",
+    "food-and-treats",
+    "food-toppers"
+  ]
+}

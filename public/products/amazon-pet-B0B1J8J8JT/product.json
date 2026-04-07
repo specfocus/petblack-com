@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B0B1J8J8JT",
+  "name": "Meri SHOPP Wooden Parrot Bird Stand Tree Branch Hanging Toys Cage Perches Pet 1 Hole",
+  "description": "Description:Non-toxic Material - Natural wood, pure handmade.Suitable for budgies, parakeets, cockatiels and other similar sized birds.Portable Easy to assemble: Lightweight, suitable to place on table, sturdy and cute.High-quality Details Processing: Non-slip perch legs will not hurt the desk; Matting perch can keep bird's nails neat and short.Multi Uses: Great as a bird training stand;also a good toy for your bird to relax and play.Enjoy the Fun - Fun to play, climb and rest,relieves boredom and increases activity level, Perch toy provides your pet with a nice and cozy place to play and exer",
+  "image": "https://m.media-amazon.com/images/I/31MW+SQGnhL._SS522_.jpg",
+  "sku": "amazon-pet-B0B1J8J8JT",
+  "brand": {
+    "@type": "Brand",
+    "name": "Generic"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "bird-toy",
+    "pet-supplies",
+    "birds",
+    "birdcage-accessories",
+    "perches"
+  ]
+}

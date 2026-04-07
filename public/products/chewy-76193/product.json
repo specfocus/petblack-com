@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-76193",
+  "name": "Friskies Classic Pate Poultry Platter Canned Cat Food",
+  "description": "Friskies Classic Pate Poultry Platter Canned Cat Food provides your kitty with a tempting assortment of poultry flavors, plus a smooth and pleasing texture. This delectable recipe is made with real poultry so you know she’s getting high-quality protein to help support her muscle strength. Plus, the essential vitamins and minerals in each classic pate are an ideal way to support your active and playful feline friend. This delicious recipe, with its enticing aroma, will have your kitty eagerly anticipating mealtime every day.",
+  "image": "",
+  "sku": "chewy-76193",
+  "brand": {
+    "@type": "Brand",
+    "name": "Friskies"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 18.72,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.2896,
+    "reviewCount": 511
+  },
+  "keywords": [
+    "cat-wet-food",
+    "cat",
+    "food",
+    "wet-food"
+  ]
+}

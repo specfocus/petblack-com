@@ -1,0 +1,12 @@
+{
+  "source": "petsmart",
+  "url": "https://www.petsmart.com/dog/toys/chew-toys/top-paw-thermoplastic-rubber-ball-dog-toy-60458.html",
+  "breadcrumb": "dog > toys > chew-toys > top-paw-thermoplastic-rubber-ball-dog-toy-60458.html",
+  "bucket": "dog-treat",
+  "gtin13": "0737257915725",
+  "images": {
+    "large": "https://s7d2.scene7.com/is/image/PetSmart/5304000?$sclp-prd-main_large$",
+    "medium": "https://s7d2.scene7.com/is/image/PetSmart/5304000?$sclp-prd-main_medium$",
+    "small": "https://s7d2.scene7.com/is/image/PetSmart/5304000?$sclp-prd-main_small$"
+  }
+}

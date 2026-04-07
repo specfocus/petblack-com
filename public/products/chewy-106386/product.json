@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-106386",
+  "name": "Shapley's Magic Sheen Horse Hair Polish",
+  "description": "Shapley's Magic Sheen Horse Hair Polish was voted by Horse Journal as the “Top Choice” of all silicone hair polish on the market. It gives the coat an exceptional shine, helps reduce hair loss and repels dirt and stains. Magic Sheen protects the hair shaft and keeps mane and tail hair tangle-free to minimize damage and breakage from brushing. This special formula won’t strip away moisture or natural oils, so it’s safe for everyday use.",
+  "image": "",
+  "sku": "chewy-106386",
+  "brand": {
+    "@type": "Brand",
+    "name": "Shapley's"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 15.95,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 5,
+    "reviewCount": 2
+  },
+  "keywords": [
+    "other-pet",
+    "horse",
+    "grooming",
+    "shampoos-conditioners"
+  ]
+}

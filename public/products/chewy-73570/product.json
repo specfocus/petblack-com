@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-73570",
+  "name": "Travco Products Nutramax Curaflex 2 Chewable Tablets Joint Health Supplement for Dogs, 120 count",
+  "description": "Travco Products Curaflex 2 Joint Health Supplement is a specially formulated tablet to help your dog maintain healthy joint cartilage, which is important in keeping him active and mobile. This joint supplement is designed to help joint injury, treat arthritis, as well as improve the overall health of the joint. Each bonelet contains: 500 mg Glucosamine Hydrochloride (HCl) which is a natural compound found in the body that has been shown to stimulate the body's ability to maintain healthy joints, and 500 mg Methysulfonylmethane (MSM) which is a source of organic sulfur, a nutrient found in your pet's body. Sulfur is a compound that is used by cartilage. Your dog may benefit from taking a Curaflex supplement if your dog’s favorite activities have been affected in the following ways: trouble going up or down stairs, walking with a stiff gait, refraining from normal activity, or having a hard time rising up after laying down.",
+  "image": "",
+  "sku": "chewy-73570",
+  "brand": {
+    "@type": "Brand",
+    "name": "Travco Products"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 18.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.625,
+    "reviewCount": 56
+  },
+  "keywords": [
+    "dog-health",
+    "dog",
+    "vitamins-supplements",
+    "hip-joint"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "hills-dog-sd-canine-puppy-perfect-digestion-medium-chicken-brown-rice-dry",
+  "name": "perfect digestion puppy medium breed dry food chicken & brown rice",
+  "description": "hill's science plan perfect digestion medium puppy food with chicken & brown rice contains activbiome+, a hill's exclusive blend of prebiotics to nourish your dog's unique microbiome and help them reach their full potential. 100% balanced nutrition with high quality protein to support optimal growth with activbiome+, a hill's exlusive blend of prebiotics to help nourish the unique gut microbiome for a healthy digestive tract with brown rice, gentle on small stomachs supporting the weaning process",
+  "image": "",
+  "sku": "hills-dog-sd-canine-puppy-perfect-digestion-medium-chicken-brown-rice-dry",
+  "brand": {
+    "@type": "Brand",
+    "name": "Hill's Pet Nutrition"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "GBP",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "dog-dry-food",
+    "digestive-care",
+    "puppy-care",
+    "protein-25.6pct",
+    "puppy",
+    "medium-breed",
+    "with-chicken-brown-rice"
+  ]
+}

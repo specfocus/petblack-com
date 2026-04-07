@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-263290",
+  "name": "Ketogenic Pet Food Beef Heart & Liver Freeze-Dried Dog & Cat Food, 19.5-oz canister",
+  "description": "Carnivorous companions of all shapes and sizes will love finding this meaty meal in their food bowl. Ketogenic Pet Foods Beef Heart & Liver Freeze-Dried Food is packed with protein and other essential nutrients, making it the perfect way to fuel your beloved pet. Unlike many other pet foods, it’s free of added starches. The super beefy recipe includes additional nutritious oils for a more well-rounded micronutrient content. Playmates will also love the unforgettable flavor, while you can appreciate what it does for their health. Equal parts tasty and wholesome, this freeze-dried food is sure to become a favorite with your furry family.",
+  "image": "",
+  "sku": "chewy-263290",
+  "brand": {
+    "@type": "Brand",
+    "name": "Ketogenic Pet Food"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 44.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 5,
+    "reviewCount": 2
+  },
+  "keywords": [
+    "dog-wet-food",
+    "dog",
+    "food",
+    "premium-food",
+    "freeze-dried-food"
+  ]
+}

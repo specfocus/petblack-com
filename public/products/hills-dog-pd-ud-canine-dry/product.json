@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "hills-dog-pd-ud-canine-dry",
+  "name": "u/d dry dog food",
+  "description": "dogs need the right balance of minerals to maintain good bladder health. excess minerals can encourage the formation of crystals in the urine, which can lead to the creation of bladder stones. please consult with your veterinarian if your dog is showing urinary signs such as frequent urination, blood in the urine, or others. 조절된 함량의 소화가 잘 되는 고품질 단백질로 구성 최적의 소변 ph 농도 촉진 및 낮은 나트륨 함량 비타민e와 항산화제 함유",
+  "image": "",
+  "sku": "hills-dog-pd-ud-canine-dry",
+  "brand": {
+    "@type": "Brand",
+    "name": "Hill's Pet Nutrition"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "GBP",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "dog-dry-food",
+    "urinary-care",
+    "protein-13.8pct",
+    "-",
+    "chicken-flavor"
+  ]
+}

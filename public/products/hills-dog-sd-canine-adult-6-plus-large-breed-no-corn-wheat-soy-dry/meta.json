@@ -1,0 +1,17 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-dry-food",
+  "url": "https://www.hillspet.com/dog-food/sd-canine-adult-6-plus-large-breed-no-corn-wheat-soy-dry",
+  "foodForm": "dry food",
+  "lifeStage": "senior",
+  "breedSize": "large",
+  "flavour": "chicken & brown rice recipe",
+  "calories": "3630 kcal/kg 381 kcal/cup†",
+  "moisture": "0.0",
+  "protein": "21.0",
+  "fat": "14.2",
+  "ingredients": "['barley', 'salt', 'carrot', 'flaxseed', 'broccoli', 'apple', 'green_pea', 'chicken_meal', 'lactic_acid', 'yellow_pea', 'beet', 'brown_rice', 'rice', 'chicken', 'oat', 'cranberry', 'chicken_fat']",
+  "category": [
+    "aging-care"
+  ]
+}

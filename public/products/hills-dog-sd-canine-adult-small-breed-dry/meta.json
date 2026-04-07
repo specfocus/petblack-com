@@ -1,0 +1,17 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-dry-food",
+  "url": "https://www.hillspet.com/dog-food/sd-canine-adult-small-breed-dry",
+  "foodForm": "dry food",
+  "lifeStage": "adult",
+  "breedSize": "small",
+  "flavour": "chicken meal & rice recipe",
+  "calories": "3711 kcal/kg 358 kcal/cup†",
+  "moisture": "0.0",
+  "protein": "25.0",
+  "fat": "15.5",
+  "ingredients": "['salt', 'brown_rice', 'flaxseed', 'chicken_meal', 'lactic_acid', 'pumpkin', 'soybean_oil', 'rice', 'chicken', 'wheat', 'corn', 'chicken_fat', 'soybean', 'whole_grain_sorghum']",
+  "category": [
+    "adult-care"
+  ]
+}

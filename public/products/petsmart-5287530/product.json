@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5287530",
+  "name": "Whisker City® Hipcat Retro Game Cat Toy - Catnip, Plush",
+  "description": "Whisker City&reg; Hipcat Retro Game Cat Toy - Catnip, Plush",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5287530",
+  "brand": {
+    "@type": "Brand",
+    "name": "Whisker City"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 3.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "keywords": [
+    "cat-toy",
+    "cat",
+    "toys",
+    "plush-toys"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "source": "petsmart",
+  "url": "https://www.petsmart.com/dog/food/dry-food/chicken-soup-for-the-soul-all-life-stages-dry-dog-food---grain-free-lamb-and-pea-71536.html",
+  "breadcrumb": "dog > food > dry-food > chicken-soup-for-the-soul-all-life-stages-dry-dog-food---grain-free-lamb-and-pea-71536.html",
+  "bucket": "dog-dry-food",
+  "gtin13": "8192390126506",
+  "images": {
+    "large": "https://s7d2.scene7.com/is/image/PetSmart/5329365?$sclp-prd-main_large$",
+    "medium": "https://s7d2.scene7.com/is/image/PetSmart/5329365?$sclp-prd-main_medium$",
+    "small": "https://s7d2.scene7.com/is/image/PetSmart/5329365?$sclp-prd-main_small$"
+  }
+}

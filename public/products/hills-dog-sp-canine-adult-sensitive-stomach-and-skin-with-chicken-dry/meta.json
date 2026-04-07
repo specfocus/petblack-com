@@ -1,0 +1,18 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-dry-food",
+  "url": "https://www.hillspet.co.uk/dog-food/sp-canine-adult-sensitive-stomach-and-skin-with-chicken-dry",
+  "foodForm": "dry food",
+  "lifeStage": "adult",
+  "breedSize": "medium",
+  "flavour": "with chicken",
+  "calories": "3717 kcal/kg (372 kcal/100g)",
+  "moisture": "8.0",
+  "protein": "22.5",
+  "fat": "14.4",
+  "ingredients": "['turkey_meal', 'flaxseed', 'sunflower_oil', 'chicken_meal', 'beet', 'rice', 'egg', 'corn', 'chicken_fat']",
+  "category": [
+    "skin-health",
+    "food-sensitivity"
+  ]
+}

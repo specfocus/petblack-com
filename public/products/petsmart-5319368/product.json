@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5319368",
+  "name": "Value Beds Grey Lines Cuddler Dog Bed",
+  "description": "Value Beds Grey Lines Cuddler Dog Bed",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5319368",
+  "brand": {
+    "@type": "Brand",
+    "name": "Value Beds"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 5.07,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.6316,
+    "reviewCount": 19
+  },
+  "keywords": [
+    "dog-accessory",
+    "dog",
+    "beds-and-furniture",
+    "cuddler-beds"
+  ]
+}

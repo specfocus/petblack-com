@@ -1,0 +1,12 @@
+{
+  "source": "petsmart",
+  "url": "https://www.petsmart.com/cat/toys/plush-toys/whisker-city-hipcat-retro-game-cat-toy---catnip-plush-53282.html",
+  "breadcrumb": "cat > toys > plush-toys > whisker-city-hipcat-retro-game-cat-toy---catnip-plush-53282.html",
+  "bucket": "cat-toy",
+  "gtin13": "0737257830677",
+  "images": {
+    "large": "https://s7d2.scene7.com/is/image/PetSmart/5287530?$sclp-prd-main_large$",
+    "medium": "https://s7d2.scene7.com/is/image/PetSmart/5287530?$sclp-prd-main_medium$",
+    "small": "https://s7d2.scene7.com/is/image/PetSmart/5287530?$sclp-prd-main_small$"
+  }
+}

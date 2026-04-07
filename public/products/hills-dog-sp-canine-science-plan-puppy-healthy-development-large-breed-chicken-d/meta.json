@@ -1,0 +1,17 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-dry-food",
+  "url": "https://www.hillspet.co.uk/dog-food/sp-canine-science-plan-puppy-healthy-development-large-breed-chicken-dry",
+  "foodForm": "dry food",
+  "lifeStage": "puppy",
+  "breedSize": "large",
+  "flavour": "with chicken",
+  "calories": "3953 kcal/kg (395 kcal/100g)",
+  "moisture": "9.0",
+  "protein": "28.8",
+  "fat": "14.6",
+  "ingredients": "['turkey_meal', 'flaxseed', 'sunflower_oil', 'beet', 'fish_oil', 'rice', 'egg', 'chicken', 'corn', 'chicken_meal']",
+  "category": [
+    "puppy-care"
+  ]
+}

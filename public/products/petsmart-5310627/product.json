@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5310627",
+  "name": "Thrills & Chills&trade; Halloween Tennis Ball Dog Toy - 3 Pack",
+  "description": "Thrills &amp; Chills&amp;trade; Halloween Tennis Ball Dog Toy - 3 Pack",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5310627",
+  "brand": {
+    "@type": "Brand",
+    "name": "Thrills &amp; Chills"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 5.07,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 3,
+    "reviewCount": 9
+  },
+  "keywords": [
+    "dog-toy",
+    "dog",
+    "toys",
+    "fetch-toys"
+  ]
+}

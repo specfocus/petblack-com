@@ -1,0 +1,12 @@
+{
+  "source": "petsmart",
+  "url": "https://www.petsmart.com/small-pet/food-treats-and-hay/treats/science-selective-naturals-country-loops-71439.html",
+  "breadcrumb": "small-pet > food-treats-and-hay > treats > science-selective-naturals-country-loops-71439.html",
+  "bucket": "other-pet",
+  "gtin13": "0730582000371",
+  "images": {
+    "large": "https://s7d2.scene7.com/is/image/PetSmart/5327958?$sclp-prd-main_large$",
+    "medium": "https://s7d2.scene7.com/is/image/PetSmart/5327958?$sclp-prd-main_medium$",
+    "small": "https://s7d2.scene7.com/is/image/PetSmart/5327958?$sclp-prd-main_small$"
+  }
+}

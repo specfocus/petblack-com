@@ -1,0 +1,16 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-dry-food",
+  "url": "https://www.hillspet.com/dog-food/sd-canine-puppy-sensitive-stomach-and-skin-salmon-brown-rice-dry",
+  "foodForm": "dry food",
+  "lifeStage": "puppy",
+  "flavour": "salmon & brown rice recipe",
+  "calories": "3857 kcal/kg 405 kcal/cup†",
+  "moisture": "0.0",
+  "protein": "30.7",
+  "fat": "19.8",
+  "ingredients": "['barley', 'salt', 'salmon', 'flaxseed', 'brown_rice', 'green_pea', 'chicken_meal', 'lactic_acid', 'beet', 'fish_oil', 'soybean_oil', 'rice', 'corn', 'chicken_fat', 'soybean']",
+  "category": [
+    "puppy-care"
+  ]
+}

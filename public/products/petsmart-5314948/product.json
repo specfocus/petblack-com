@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5314948",
+  "name": "Thrive Java Wood Reptile Branch",
+  "description": "Thrive Java Wood Reptile Branch",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5314948",
+  "brand": {
+    "@type": "Brand",
+    "name": "Thrive"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 39.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.6667,
+    "reviewCount": 6
+  },
+  "keywords": [
+    "other-pet",
+    "reptile",
+    "snake",
+    "decor-and-accessories"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5291357",
+  "name": "Dentley's® Rawhide-Free Mini Chomping Chews Dog Chew - Peanut Butter, 2 lb",
+  "description": "Dentley's&reg; Rawhide-Free Mini Chomping Chews Dog Chew - Peanut Butter, 2 lb",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5291357",
+  "brand": {
+    "@type": "Brand",
+    "name": "Dentley's"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 15.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.7368,
+    "reviewCount": 19
+  },
+  "keywords": [
+    "dog-treat",
+    "dog",
+    "treats",
+    "bones-and-rawhide"
+  ]
+}

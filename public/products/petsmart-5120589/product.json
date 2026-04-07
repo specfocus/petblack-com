@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5120589",
+  "name": "Exo Terra® Repti Glo Tropical Terrarium Lamp - UVB 100",
+  "description": "Exo Terra&reg; Repti Glo Tropical Terrarium Lamp - UVB 100",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5120589",
+  "brand": {
+    "@type": "Brand",
+    "name": "Exo-Terra"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 34.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 3.8333,
+    "reviewCount": 12
+  },
+  "keywords": [
+    "other-pet",
+    "reptile",
+    "snake",
+    "heating-and-lighting"
+  ]
+}

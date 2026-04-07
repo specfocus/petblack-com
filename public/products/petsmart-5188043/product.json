@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5188043",
+  "name": "Kurgo® Car Door Guard",
+  "description": "Kurgo&reg; Car Door Guard",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5188043",
+  "brand": {
+    "@type": "Brand",
+    "name": "Kurgo"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 28.95,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 3.4646,
+    "reviewCount": 99
+  },
+  "keywords": [
+    "dog-accessory",
+    "dog",
+    "cleaning-supplies",
+    "furniture-and-car-protection",
+    "kurgo-car-door-guard-7525-html"
+  ]
+}

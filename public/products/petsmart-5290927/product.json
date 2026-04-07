@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5290927",
+  "name": "Thrive Infrared Spot Bulb - Nocturnal Reptiles",
+  "description": "Thrive Infrared Spot Bulb - Nocturnal Reptiles",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5290927",
+  "brand": {
+    "@type": "Brand",
+    "name": "Thrive"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 7.47,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 3.4737,
+    "reviewCount": 19
+  },
+  "keywords": [
+    "other-pet",
+    "reptile",
+    "environmental-control-and-lighting",
+    "bulbs-and-lamps"
+  ]
+}

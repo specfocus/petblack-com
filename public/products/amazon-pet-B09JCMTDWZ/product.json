@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B09JCMTDWZ",
+  "name": "Double‑Layer Warm Hammock, Plush Cage Accessories Ferret Hammock Warm for Hamster for Chinchilla(S, Flamingo)",
+  "description": "Feature:1. Made of polyester and comfortable and soft rabbit plush lining, it is warm, breathable, wear‑resistant and does not harm the health of pets.2. To meet the pet's running habit, it can be used as an entertainment stage for pets in the cage, and it can also rest on the top or bottom.3. Make full use of the large space of the cage, and fix it on the cage through its own fixing accessories, making the cage more three‑dimensional.4. Easy to install, comes with a fixed metal hook, which can be easily and quickly fixed in the cage.5. It provides a comfortable and warm rest and play place fo",
+  "image": "https://m.media-amazon.com/images/I/419jXCssb2L._SS522_.jpg",
+  "sku": "amazon-pet-B09JCMTDWZ",
+  "brand": {
+    "@type": "Brand",
+    "name": "POMK"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "small-pet-toy",
+    "pet-supplies",
+    "small-animals",
+    "houses-habitats",
+    "beds"
+  ]
+}

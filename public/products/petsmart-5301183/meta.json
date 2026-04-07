@@ -1,0 +1,12 @@
+{
+  "source": "petsmart",
+  "url": "https://www.petsmart.com/fish/filters-and-pumps/filters/marineland-penguin-pro-375-power-filter-61211.html",
+  "breadcrumb": "fish > filters-and-pumps > filters > marineland-penguin-pro-375-power-filter-61211.html",
+  "bucket": "fish-accessory",
+  "gtin13": "0047431781818",
+  "images": {
+    "large": "https://s7d2.scene7.com/is/image/PetSmart/5301183?$sclp-prd-main_large$",
+    "medium": "https://s7d2.scene7.com/is/image/PetSmart/5301183?$sclp-prd-main_medium$",
+    "small": "https://s7d2.scene7.com/is/image/PetSmart/5301183?$sclp-prd-main_small$"
+  }
+}

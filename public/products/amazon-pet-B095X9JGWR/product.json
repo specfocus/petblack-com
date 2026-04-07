@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B095X9JGWR",
+  "name": "Bird Climbing Toy, Firm Bird Hammock Toy, Safe for Entertainment Rest",
+  "description": "Features: Made of high quality straw material, wear resistant, durable for long term use. Bright colors and unique shapes, visually appeal to pet to chew, swing and so on, which bring more fun to your pet. Natural straw weaving processing, practical and beautiful, support your love pets to play at will. Improve activity level and help grind beak, parrots from depression or screams in the cage. Mainly used as pet toy to rest and play, conducive to keep the pet's mental health and enhance physical fitness. Specification:Material: StrawColor: as picture shown Size(L*W): 25*22cm/9.8*8.7inHanging H",
+  "image": "https://m.media-amazon.com/images/I/51MZmuh+jRL._SS522_.jpg",
+  "sku": "amazon-pet-B095X9JGWR",
+  "brand": {
+    "@type": "Brand",
+    "name": "DIMU"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "bird-toy",
+    "pet-supplies",
+    "birds",
+    "toys"
+  ]
+}

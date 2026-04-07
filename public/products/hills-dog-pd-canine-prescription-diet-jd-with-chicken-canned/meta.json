@@ -1,0 +1,16 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-wet-food",
+  "url": "https://www.hillspet.co.uk/dog-food/pd-canine-prescription-diet-jd-with-chicken-canned",
+  "foodForm": "wet food",
+  "lifeStage": "-",
+  "flavour": "with chicken",
+  "calories": "337.4 kcal (370 g) can",
+  "moisture": "72.0",
+  "protein": "5.8",
+  "fat": "5.5",
+  "ingredients": "['carrot', 'sunflower_oil', 'flaxseed', 'molluscs_and_crustaceans', 'rice', 'chicken']",
+  "category": [
+    "musculoskeletal-and-joint-care"
+  ]
+}

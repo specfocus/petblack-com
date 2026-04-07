@@ -1,0 +1,24 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "hills-pd-canine-prescription-diet-ud-dry",
+  "name": "u/d Dry Dog Food Original",
+  "description": "Dogs need the right balance of minerals to maintain good bladder health. Excess minerals can encourage the formation of crystals in the urine, which can lead to the creation of bladder stones. Please consult with your veterinarian if your dog is showing urinary signs such as frequent urination, blood in the urine, or others. Hill's nutritionists and veterinarians have developed Prescription Diet u/d clinical nutrition to be specially formulated to help support your dog's bladder health.",
+  "image": "",
+  "sku": "hills-pd-canine-prescription-diet-ud-dry",
+  "brand": {
+    "@type": "Brand",
+    "name": "Hill's Pet Nutrition"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "GBP",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "dog-dry-food",
+    "dog",
+    "urinary-care"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B09KZB9LXW",
+  "name": "Chicken Beak, Chicken Beak Clip Anti Pecking 200PCS Corrosion Resistant for Poultry Farm for Chicken Farm(Small White)",
+  "description": "Feature:1. For Rooster: It can only be used for roosters, to prevent preying with hens, prevent each other from pecking, and improve survival rate.2. Easy To Use: This chicken beak is very tight and can be reused without worrying about hanging net, nylon or other foreign objects.3. Safe And Durable: Using high quality plastic materials, safe and non toxic, durable to use and corrosion resistant, long term use.4. Strong Practicability: Simple design, easy to wear on the chicken, will not affect the chicken's line of sight, no harm to the chicken.5. Poultry Supplies: Contains 200PCS plastic chic",
+  "image": "https://m.media-amazon.com/images/I/41IkmvA9+tL._SS522_.jpg",
+  "sku": "amazon-pet-B09KZB9LXW",
+  "brand": {
+    "@type": "Brand",
+    "name": "Hoseten"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 1.134,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "bird-accessory",
+    "pet-supplies",
+    "birds",
+    "feeding-watering-supplies"
+  ]
+}

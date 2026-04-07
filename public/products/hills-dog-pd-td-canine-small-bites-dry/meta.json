@@ -1,0 +1,16 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-dry-food",
+  "url": "https://www.hillspet.com/dog-food/pd-td-canine-small-bites-dry",
+  "foodForm": "dry food",
+  "lifeStage": "-",
+  "flavour": "chicken flavor",
+  "calories": "3468 kcal/kg 246 kcal/cup†",
+  "moisture": "0.0",
+  "protein": "18.3",
+  "fat": "16.5",
+  "ingredients": "['salt', 'lactic_acid', 'soybean_oil', 'rice', 'egg', 'chicken_liver', 'corn', 'chicken_fat', 'soybean']",
+  "category": [
+    "dental-care"
+  ]
+}

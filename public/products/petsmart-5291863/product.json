@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5291863",
+  "name": "Top Fin® Aquarium Airline Tubing",
+  "description": "Top Fin&reg; Aquarium Airline Tubing",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5291863",
+  "brand": {
+    "@type": "Brand",
+    "name": "Top Fin"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 4.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.8696,
+    "reviewCount": 23
+  },
+  "keywords": [
+    "fish-accessory",
+    "fish",
+    "filters-and-pumps",
+    "air-and-water-pumps"
+  ]
+}

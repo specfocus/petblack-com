@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-245811",
+  "name": "Kenchii Show Gear Curved Ball Tip Dog & Cat Shears",
+  "description": "Give your furry friends a fabulous new ‘do with the Kenchii Show Gear Curved Ball Tip Dog and Cat Shears. These high-quality shears feature anti-slip and micro-serrated blades to help you cut effortlessly through any type of hair. Designed for exceptional balance, the handles include two soft ring inserts for extra comfort and control as you style your furry pals. The beveled edge features high-carbon stainless steel and a satin finish for smooth durability. These curved shears, with removable finger rests and adjustable flat-screw assembly, make a quality addition to any professional or home grooming kit!",
+  "image": "",
+  "sku": "chewy-245811",
+  "brand": {
+    "@type": "Brand",
+    "name": "Kenchii"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 39,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 3,
+    "reviewCount": 3
+  },
+  "keywords": [
+    "dog-toy",
+    "cat",
+    "grooming",
+    "grooming-tools"
+  ]
+}

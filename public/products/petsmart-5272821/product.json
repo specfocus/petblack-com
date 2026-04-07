@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5272821",
+  "name": "Ocean Nutrition&trade; Brine Shrimp Plus Flakes",
+  "description": "Ocean Nutrition&amp;trade; Brine Shrimp Plus Flakes",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5272821",
+  "brand": {
+    "@type": "Brand",
+    "name": "Ocean Nutrition"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 8.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "keywords": [
+    "fish-food",
+    "fish",
+    "food-and-care",
+    "food"
+  ]
+}

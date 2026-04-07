@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5312631",
+  "name": "Whisker City® Camo Easy Release Kitten & Cat Collar",
+  "description": "Whisker City&reg; Camo Easy Release Kitten &amp; Cat Collar",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5312631",
+  "brand": {
+    "@type": "Brand",
+    "name": "Whisker City"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 9.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 3.25,
+    "reviewCount": 4
+  },
+  "keywords": [
+    "cat-accessory",
+    "cat",
+    "collars-harnesses-and-leashes",
+    "collars"
+  ]
+}

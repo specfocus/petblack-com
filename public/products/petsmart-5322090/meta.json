@@ -1,0 +1,12 @@
+{
+  "source": "petsmart",
+  "url": "https://www.petsmart.com/dog/dental-care-and-wellness/dental-care/arm-and-hammer-pro-clean-dental-kit-68624.html",
+  "breadcrumb": "dog > dental-care-and-wellness > dental-care > arm-and-hammer-pro-clean-dental-kit-68624.html",
+  "bucket": "dog-health",
+  "gtin13": "0742797946559",
+  "images": {
+    "large": "https://s7d2.scene7.com/is/image/PetSmart/5322090?$sclp-prd-main_large$",
+    "medium": "https://s7d2.scene7.com/is/image/PetSmart/5322090?$sclp-prd-main_medium$",
+    "small": "https://s7d2.scene7.com/is/image/PetSmart/5322090?$sclp-prd-main_small$"
+  }
+}

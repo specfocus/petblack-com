@@ -1,0 +1,16 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-wet-food",
+  "url": "https://www.hillspet.co.uk/dog-food/sp-canine-mature-adult-chicken-beef-canned-multipack",
+  "foodForm": "wet food",
+  "lifeStage": "senior",
+  "flavour": "with chicken, with beef",
+  "moisture": "76.0",
+  "protein": "5.2",
+  "fat": "3.3",
+  "ingredients": "['rice', 'sunflower_oil', 'carrot', 'chicken']",
+  "category": [
+    "aging-care",
+    "weight-management"
+  ]
+}

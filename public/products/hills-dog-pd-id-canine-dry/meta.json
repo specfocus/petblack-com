@@ -1,0 +1,16 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-dry-food",
+  "url": "https://www.hillspet.com/dog-food/pd-id-canine-dry",
+  "foodForm": "dry food",
+  "lifeStage": "-",
+  "flavour": "chicken flavor",
+  "calories": "3598 kcal/kg 337 kcal/cup†",
+  "moisture": "0.0",
+  "protein": "26.7",
+  "fat": "14.4",
+  "ingredients": "['salt', 'flaxseed', 'green_pea', 'chicken_meal', 'lactic_acid', 'citrus', 'beet', 'fish_oil', 'soybean_oil', 'rice', 'egg', 'corn', 'ground_pecan_shell', 'cranberry', 'chicken_fat']",
+  "category": [
+    "digestive-care"
+  ]
+}

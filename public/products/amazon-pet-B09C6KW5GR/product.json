@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B09C6KW5GR",
+  "name": "Dining Bowl, Imitation Porcelain Salad Bowl 12PCS Large Capacity Beautiful Stackable for Food Container for Kitchen GIFS(Dark Blue Grid)",
+  "description": "Feature:1. This beautiful elegant bowl provides a vibrant addition to your everyday meal. The surface is smooth and easy to clean.2. Large capacity, great for salad, noodles, pasta, ramen, soup and much more!3. Stackable design to save space in the kitchen, wide and steady base for bowl stability.4. Beautiful color, good gloss, good texture. Great for your daily household use or for a special gift.5. High‑grade imitation porcelain, anti‑fall anti‑hot, strong resistance, not fragile, wear resistance, durable.Specification:Item Type: Salad BowlMaterial: MelamineColor: As shown in the pictureProd",
+  "image": "https://m.media-amazon.com/images/I/41skZq0-MyL._SS522_.jpg",
+  "sku": "amazon-pet-B09C6KW5GR",
+  "brand": {
+    "@type": "Brand",
+    "name": "JUYT"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 7.989,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "keywords": [
+    "other-pet",
+    "pet-supplies",
+    "cats",
+    "feeding-watering-supplies",
+    "bowls"
+  ]
+}

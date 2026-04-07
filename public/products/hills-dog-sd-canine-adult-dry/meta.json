@@ -1,0 +1,16 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-dry-food",
+  "url": "https://www.hillspet.com/dog-food/sd-canine-adult-dry",
+  "foodForm": "dry food",
+  "lifeStage": "adult",
+  "flavour": "chicken & barley recipe",
+  "calories": "3675 kcal/kg 365 kcal/cup†",
+  "moisture": "0.0",
+  "protein": "23.8",
+  "fat": "15.0",
+  "ingredients": "['barley', 'salt', 'brown_rice', 'flaxseed', 'chicken_meal', 'lactic_acid', 'beet', 'soybean_oil', 'rice', 'chicken', 'wheat', 'corn', 'oat', 'chicken_fat', 'soybean']",
+  "category": [
+    "adult-care"
+  ]
+}

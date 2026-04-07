@@ -1,0 +1,16 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-dry-food",
+  "url": "https://www.hillspet.com/dog-food/pd-metabolic-canine-dry",
+  "foodForm": "dry food",
+  "lifeStage": "-",
+  "flavour": "chicken flavor",
+  "calories": "3124 kcal/kg 257 kcal/cup†",
+  "moisture": "0.0",
+  "protein": "28.0",
+  "fat": "11.7",
+  "ingredients": "['carrot', 'salt', 'flaxseed', 'tomato', 'chicken_meal', 'lactic_acid', 'beet', 'coconut_oil', 'wheat', 'corn', 'chicken_fat', 'soybean']",
+  "category": [
+    "weight-management"
+  ]
+}

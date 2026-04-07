@@ -1,0 +1,17 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-dry-food",
+  "url": "https://www.hillspet.co.uk/dog-food/sp-canine-science-plan-adult-small-and-miniature-lamb-rice-dry",
+  "foodForm": "dry food",
+  "lifeStage": "adult",
+  "breedSize": "small",
+  "flavour": "with lamb & rice",
+  "calories": "3688 kcal/kg (369 kcal/100g)",
+  "moisture": "0.0",
+  "protein": "22.4",
+  "fat": "14.3",
+  "ingredients": "['barley', 'brown_rice', 'flaxseed', 'sunflower_oil', 'tomato', 'citrus', 'rice', 'oat', 'wheat', 'corn', 'spinach', 'chicken_fat', 'lamb', 'soybean']",
+  "category": [
+    "adult-care"
+  ]
+}

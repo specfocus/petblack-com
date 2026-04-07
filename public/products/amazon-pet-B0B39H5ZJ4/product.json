@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B0B39H5ZJ4",
+  "name": "GIANTE Parrot Stainless Steel Eight-Ring Anklet Pet Bird Cockatiel Foot Chain 8",
+  "description": "Description:A usefly tool for bird training.Easy to wear, durable for a long time using.Birds foot chain can prevents your pet birds from flying away.Reasonable and savety to use,it wont harm the legs of the birds.Suitable for most birds, such as Macaws,cockatoo,parakeet,etc. Specification:Material: Stainless SteelSize 6: Length:Approx.39cm/15.35inch;Anklet Inner Diameter:Approx.0.6cm/0.24inch;Size 8:Length:Approx.39cm/15.35inch;Anklet Inner Diameter:Approx.0.8cm/0.31inch;Size 10:Length:Approx.39cm/15.35inch;Anklet Inner Diameter:Approx.1cm/0.39inch;Size 12:Length:Approx.39cm/15.35inch;Anklet ",
+  "image": "https://m.media-amazon.com/images/I/21Fa3etQH0L._SS522_.jpg",
+  "sku": "amazon-pet-B0B39H5ZJ4",
+  "brand": {
+    "@type": "Brand",
+    "name": "Generic"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 785,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "keywords": [
+    "bird-accessory",
+    "pet-supplies",
+    "birds",
+    "toys"
+  ]
+}

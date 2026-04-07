@@ -1,0 +1,17 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-dry-food",
+  "url": "https://www.hillspet.com/dog-food/sd-canine-adult-large-breed-dry",
+  "foodForm": "dry food",
+  "lifeStage": "adult",
+  "breedSize": "large",
+  "flavour": "chicken & barley recipe",
+  "calories": "3657 kcal/kg 363 kcal/cup†",
+  "moisture": "0.0",
+  "protein": "23.9",
+  "fat": "14.7",
+  "ingredients": "['lactic_acid', 'corn', 'oat', 'soybean', 'salt', 'flaxseed', 'chicken', 'chicken_meal', 'barley', 'broccoli', 'chicken_fat', 'carrot', 'green_pea', 'apple', 'beet', 'soybean_oil', 'rice', 'wheat', 'cranberry', 'whole_grain_sorghum']",
+  "category": [
+    "musculoskeletal-and-joint-care"
+  ]
+}

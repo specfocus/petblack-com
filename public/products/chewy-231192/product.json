@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-231192",
+  "name": "Zoo Med Turtle Clean Filter 318 Aquatic Turtle Tank Filter",
+  "description": "Help keep your paddling pal’s pad clean with the Zoo Med 318 Turtle Clean Submersible Reptile Tank Filter. Claw-fect for your turtle habitat, this filter is designed to work on tanks up to 30 gallons. It features a combination of mechanical, chemical and biological filtration methods. This fully-submersible filter for your reptile tank includes dual intake ports to help prevent debris from clogging the unit. It comes complete with a packet of two activated carbon and filter sponges that are easy to change as needed.",
+  "image": "",
+  "sku": "chewy-231192",
+  "brand": {
+    "@type": "Brand",
+    "name": "Zoo Med"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 24.18,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 3.2,
+    "reviewCount": 10
+  },
+  "keywords": [
+    "fish-accessory",
+    "reptile",
+    "shop-by-reptile",
+    "turtle"
+  ]
+}

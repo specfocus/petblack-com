@@ -1,0 +1,16 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-dry-food",
+  "url": "https://www.hillspet.com/dog-food/pd-wd-canine-dry",
+  "foodForm": "dry food",
+  "lifeStage": "-",
+  "flavour": "chicken flavor",
+  "calories": "3100 kcal/kg 255 kcal/cup†",
+  "moisture": "0.0",
+  "protein": "20.7",
+  "fat": "13.0",
+  "ingredients": "['barley', 'salt', 'flaxseed', 'chicken_meal', 'lactic_acid', 'beet', 'soybean_oil', 'wheat', 'corn', 'oat', 'chicken_fat']",
+  "category": [
+    "weight-management"
+  ]
+}

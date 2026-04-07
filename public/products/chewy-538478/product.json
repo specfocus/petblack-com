@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-538478",
+  "name": "Vitakraft Vita Smart Gourmet Fortified Daily Cockatiel & Lovebird Food, 4-lb bag",
+  "description": "The Vitakraft Vita Smart Gourmet Cockatiel and Lovebird Food is designed specifically for your Cockatiel or Lovebird, and is packed full of good stuff to keep your feathered friend flap-happy. This premium grain, fruit and nut seed mix delivers complete nutrition. With ingredients including millet, sunflower seeds, nutriberries, peas, papaya, carrots, coconut and pineapple, it’s like a super tasty fiesta in a bag. Unique ingredients like dried chamomile and dried rose hips help ensure your bird will never be bored. Aloe vera concentrate and other nutrients support your bird’s skin health.",
+  "image": "https://image.chewy.com/is/image/catalog/538478_MAIN._AC_SS500_V1666651259_.jpg",
+  "sku": "chewy-538478",
+  "brand": {
+    "@type": "Brand",
+    "name": "Vitakraft"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 11.9,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "bird-food",
+    "bird",
+    "shop-by-bird",
+    "cockatiel",
+    "food"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5317145",
+  "name": "Piroxicam 10 mg - Single Capsule",
+  "description": "Piroxicam 10 mg - Single Capsule",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5317145",
+  "brand": {
+    "@type": "Brand",
+    "name": "Piroxicam"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 1.19,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "dog-health",
+    "pharmacy",
+    "dog",
+    "immune-support"
+  ]
+}

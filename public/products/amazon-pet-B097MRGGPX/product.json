@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B097MRGGPX",
+  "name": "Feedme Complete Aquarium Fish Food Pellet High Protein & Fiber for All Types of All Life Stages Aquarium Fish - 450g",
+  "description": "Feedme Fish Food Growth Formula - Mini PelletFeedme Fish Food Growth Formula - High Quality, Premium Floating, Mini Pond Pellets - Balanced Nutritional Diet, Vitamins and Minerals. Feedme Food is the same food used by koi and goldfish breeder. We also use these diets in all Next Day Koi facilities. Feed your fish these diets and have confidence that they are receiving a nutritionally complete diet that promotes fast growth and maximum health. The Feedme aquarium fish food is perfect for all type of fish such as koi and goldfish under five inches in length. This food provides a completely balan",
+  "image": "https://m.media-amazon.com/images/I/51f0r08GAUS._SS522_.jpg",
+  "sku": "amazon-pet-B097MRGGPX",
+  "brand": {
+    "@type": "Brand",
+    "name": "Feedme"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 395,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "fish-food",
+    "pet-supplies",
+    "small-animals",
+    "food"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-128191",
+  "name": "Li'l Pals Coated Tips Cat Slicker Brush",
+  "description": "With the Li'l Pals Kitten Slicker Brush with Coated Tips, it’s su-purr easy to keep your furbaby looking paw-some! The tool helps to remove mats, tangles and loose hair from your kitten or small cat. Flexible pins feature plastic tips, so the tool will contour to your furbaby’s body for easy grooming. The slicker also distributes the natural oils of your kitty’s coat to help make it soft and shiny. It’s a paw-some way to bond with your best friend.",
+  "image": "https://image.chewy.com/is/image/catalog/128191_MAIN._AC_SS500_V1673648741_.jpg",
+  "sku": "chewy-128191",
+  "brand": {
+    "@type": "Brand",
+    "name": "Li'l Pals"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 7.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.4314,
+    "reviewCount": 306
+  },
+  "keywords": [
+    "pet-grooming",
+    "cat",
+    "grooming",
+    "brushes-combs"
+  ]
+}

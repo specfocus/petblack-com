@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B000QSN08U",
+  "name": "Kaytee Cracked Corn 4 Lbs.",
+  "description": "Kaytee Cracked Corn 4 Lbs.",
+  "image": "https://m.media-amazon.com/images/I/515u6Rs4YUL._SS522_.jpg",
+  "sku": "amazon-pet-B000QSN08U",
+  "brand": {
+    "@type": "Brand",
+    "name": "Kaytee"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 1.465,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "other-pet",
+    "pet-supplies",
+    "birds",
+    "food"
+  ]
+}

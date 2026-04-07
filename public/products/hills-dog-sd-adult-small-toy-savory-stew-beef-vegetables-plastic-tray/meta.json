@@ -1,0 +1,17 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-wet-food",
+  "url": "https://www.hillspet.com/dog-food/sd-adult-small-toy-savory-stew-beef-vegetables-plastic-tray",
+  "foodForm": "wet food",
+  "lifeStage": "adult",
+  "breedSize": "small",
+  "flavour": "savory stew with beef & vegetables",
+  "calories": "86 kcal / 3.5 oz (99g) tray",
+  "moisture": "83.0",
+  "protein": "4.607",
+  "fat": "3.6210000000000004",
+  "ingredients": "['carrot', 'pork_liver', 'brown_rice', 'flaxseed', 'green_pea', 'spinach', 'water', 'potato', 'beet', 'soybean_oil', 'rice', 'wheat', 'beef', 'pork_plasma', 'chicken_fat']",
+  "category": [
+    "adult-care"
+  ]
+}

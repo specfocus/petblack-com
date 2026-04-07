@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5307981",
+  "name": "ROAM® Bucky Trachs&trade; Dog Treat - Outback Kangaroo",
+  "description": "ROAM&reg; Bucky Trachs&amp;trade; Dog Treat - Outback Kangaroo",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5307981",
+  "brand": {
+    "@type": "Brand",
+    "name": "ROAM"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 5.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.8,
+    "reviewCount": 5
+  },
+  "keywords": [
+    "dog-treat",
+    "dog",
+    "treats",
+    "bones-and-rawhide"
+  ]
+}

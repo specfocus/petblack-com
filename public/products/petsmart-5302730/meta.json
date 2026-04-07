@@ -1,0 +1,12 @@
+{
+  "source": "petsmart",
+  "url": "https://www.petsmart.com/dog/beds-and-furniture/pillow-beds/top-paw-x-large-black-plaid-pillow-dog-bed-60262.html",
+  "breadcrumb": "dog > beds-and-furniture > pillow-beds > top-paw-x-large-black-plaid-pillow-dog-bed-60262.html",
+  "bucket": "dog-accessory",
+  "gtin13": "0737257910478",
+  "images": {
+    "large": "https://s7d2.scene7.com/is/image/PetSmart/5302730?$sclp-prd-main_large$",
+    "medium": "https://s7d2.scene7.com/is/image/PetSmart/5302730?$sclp-prd-main_medium$",
+    "small": "https://s7d2.scene7.com/is/image/PetSmart/5302730?$sclp-prd-main_small$"
+  }
+}

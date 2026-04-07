@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B0B1LF97ZM",
+  "name": "Poultry Water Cups, Multi Purpose Drop Resistant Detachable Leakproof Plastic Automatic Chicken Drinkers for Geese for Quail for Turkeys Red",
+  "description": "Specification:Item Type: Chicken Water CupsMaterial: PlasticApplication: Poultry Drinking BowlPackage List:20 xChicken Water CupsNote:This product version does not come with nut and cannot be fixed separately.",
+  "image": "https://m.media-amazon.com/images/I/41nHDs-BviL._SS522_.jpg",
+  "sku": "amazon-pet-B0B1LF97ZM",
+  "brand": {
+    "@type": "Brand",
+    "name": "FASJ"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 1.513,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "keywords": [
+    "bird-accessory",
+    "pet-supplies",
+    "birds",
+    "feeding-watering-supplies"
+  ]
+}

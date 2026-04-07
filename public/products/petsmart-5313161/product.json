@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5313161",
+  "name": "OraVet Dental Hygiene Chews for X-Small Dogs 3.5-9 Lbs",
+  "description": "OraVet Dental Hygiene Chews for X-Small Dogs 3.5-9 Lbs",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5313161",
+  "brand": {
+    "@type": "Brand",
+    "name": "OraVet"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 11.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "dog-health",
+    "dog",
+    "dental-care-and-wellness",
+    "dental-care"
+  ]
+}

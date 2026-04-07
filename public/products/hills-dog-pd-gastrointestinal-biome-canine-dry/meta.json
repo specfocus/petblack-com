@@ -1,0 +1,16 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-dry-food",
+  "url": "https://www.hillspet.com/dog-food/pd-gastrointestinal-biome-canine-dry",
+  "foodForm": "dry food",
+  "lifeStage": "-",
+  "flavour": "with chicken",
+  "calories": "3327 kcal/kg 330 kcal/cup†",
+  "moisture": "0.0",
+  "protein": "21.0",
+  "fat": "12.6",
+  "ingredients": "['barley', 'salt', 'flaxseed', 'lactic_acid', 'beet', 'citrus', 'fish_oil', 'pumpkin', 'soybean_oil', 'rice', 'ginger', 'chicken', 'oat', 'corn', 'ground_pecan_shell', 'cranberry', 'chicken_fat', 'psyllium_seed_husk']",
+  "category": [
+    "digestive-care"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-2051001",
+  "name": "Oasis® Vita-Drops&trade; High Potency Rabbit Daily Multivitamins",
+  "description": "Oasis&reg; Vita-Drops&amp;trade; High Potency Rabbit Daily Multivitamins",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-2051001",
+  "brand": {
+    "@type": "Brand",
+    "name": "Kordon"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 11.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 5,
+    "reviewCount": 3
+  },
+  "keywords": [
+    "small-pet-accessory",
+    "small-pet",
+    "health-and-grooming",
+    "vitamins-and-supplements"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5330160",
+  "name": "Fresh Pawz Le Fleur Cooling Dog Bandanna",
+  "description": "Fresh Pawz Le Fleur Cooling Dog Bandanna",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5330160",
+  "brand": {
+    "@type": "Brand",
+    "name": "Fresh Pawz"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 12,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "dog-accessory",
+    "dog",
+    "clothing-and-shoes",
+    "bandanas-bows-and-hats"
+  ]
+}

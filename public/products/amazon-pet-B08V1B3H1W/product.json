@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B08V1B3H1W",
+  "name": "Dog Cage for New Born, for Adult Dog, Cat Monkey, Rabbit Dog, Bird, Cat, Hamster, Miniature Pig, Monkey, Rabbit, Mouse Cage XL-012",
+  "description": "Ideal for both puppies and adult dogs, the Foodie Puppies single-door folding metal crate offers exceptional convenience. Use the metal dog crate for anything from potty training or house training to reinforcing house rules and boundaries-or simply as a safe, secure place for your pooch to rest and relax.",
+  "image": "https://m.media-amazon.com/images/I/31db+sHx-8L._SS522_.jpg",
+  "sku": "amazon-pet-B08V1B3H1W",
+  "brand": {
+    "@type": "Brand",
+    "name": "Generic"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 8.988,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "dog-accessory",
+    "pet-supplies",
+    "small-animals",
+    "houses-habitats",
+    "cages"
+  ]
+}

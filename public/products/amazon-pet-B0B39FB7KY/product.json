@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B0B39FB7KY",
+  "name": "GIANTE Dual Tier Winter Warm Pets Nest Parrot Hut Hammock Birds Hanging Bed Swing 5",
+  "description": "Description:Cloth Hammock, simple and elegant design, durable and non-toxic.Very soft and comfortable, warm and cozy, give your pet a nice dream. Can easily hanging in a cage.Small pet animals can freely shuttle play.Perfect for golden hamster, rat, hamster, squirrel, hedgehog, birds, parrots and other small animal pet.Size:approx. 15x15x14cm/5.9x5.9x5.5inchPackage Includes:1 Piece Pets HammockNote:Due to the light and screen setting difference, the item39;s color may be slightly different from the pictures.Please allow slight dimension difference due to different manual measurement.",
+  "image": "https://m.media-amazon.com/images/I/41H4OSS3tpL._SS522_.jpg",
+  "sku": "amazon-pet-B0B39FB7KY",
+  "brand": {
+    "@type": "Brand",
+    "name": "Generic"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 1.26,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "keywords": [
+    "bird-toy",
+    "pet-supplies",
+    "cats",
+    "beds-furniture",
+    "hammocks"
+  ]
+}

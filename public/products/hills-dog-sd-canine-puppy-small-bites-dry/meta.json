@@ -1,0 +1,16 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-dry-food",
+  "url": "https://www.hillspet.com/dog-food/sd-canine-puppy-small-bites-dry",
+  "foodForm": "dry food",
+  "lifeStage": "puppy",
+  "flavour": "chicken & brown recipe",
+  "calories": "3747 kcal/kg 393 kcal/cup†",
+  "moisture": "0.0",
+  "protein": "27.8",
+  "fat": "19.0",
+  "ingredients": "['salt', 'brown_rice', 'flaxseed', 'green_pea', 'chicken_meal', 'lactic_acid', 'beet', 'citrus', 'fish_oil', 'soybean_oil', 'chicken', 'oat', 'wheat', 'corn', 'ground_pecan_shell', 'cranberry', 'chicken_fat', 'soybean']",
+  "category": [
+    "puppy-care"
+  ]
+}

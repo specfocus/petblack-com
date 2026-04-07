@@ -1,0 +1,15 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-wet-food",
+  "url": "https://www.hillspet.com/dog-food/sd-canine-adult-healthy-cuisine-braised-beef-carrots-peas-stew-canned",
+  "foodForm": "wet food",
+  "lifeStage": "adult",
+  "moisture": "84.0",
+  "protein": "4.24",
+  "fat": "3.088",
+  "ingredients": "['carrot', 'barley', 'pork_liver', 'flaxseed', 'green_pea', 'red_bell_pepper', 'beet', 'soybean_oil', 'rice', 'chicken', 'wheat', 'beef', 'chicken_fat']",
+  "category": [
+    "digestive-care",
+    "musculoskeletal-and-joint-care"
+  ]
+}

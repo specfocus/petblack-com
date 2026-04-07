@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5285604",
+  "name": "Top Fin® Artificial Realistic Spade Leaf Aquarium Plant - 4&quot;",
+  "description": "Top Fin&reg; Artificial Realistic Spade Leaf Aquarium Plant - 4&quot;",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5285604",
+  "brand": {
+    "@type": "Brand",
+    "name": "Top Fin"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 6.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4,
+    "reviewCount": 4
+  },
+  "keywords": [
+    "fish-accessory",
+    "fish",
+    "decor-gravel-and-substrate",
+    "artificial-plants"
+  ]
+}

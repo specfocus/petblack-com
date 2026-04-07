@@ -1,0 +1,16 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-wet-food",
+  "url": "https://www.hillspet.com/dog-food/pd-sd-canine-canned",
+  "foodForm": "wet food",
+  "lifeStage": "-",
+  "flavour": "chicken flavor",
+  "calories": "474 kcal  / 13 oz (370 g) can",
+  "moisture": "0.0",
+  "protein": "7.5",
+  "fat": "26.2",
+  "ingredients": "['salt', 'pork_liver', 'water', 'sugar', 'soybean_oil', 'egg', 'corn', 'chicken_fat']",
+  "category": [
+    "urinary-care"
+  ]
+}

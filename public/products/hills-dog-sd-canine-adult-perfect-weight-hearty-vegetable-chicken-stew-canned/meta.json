@@ -1,0 +1,17 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-wet-food",
+  "url": "https://www.hillspet.com/dog-food/sd-canine-adult-perfect-weight-hearty-vegetable-chicken-stew-canned",
+  "foodForm": "wet food",
+  "lifeStage": "-",
+  "flavour": "hearty vegetable & chicken stew",
+  "calories": "247 kcal / 12.5 oz (354 g) can",
+  "moisture": "84.0",
+  "protein": "4.64",
+  "fat": "1.936",
+  "ingredients": "['carrot', 'salt', 'pork_liver', 'flaxseed', 'tomato', 'green_pea', 'fish_oil', 'coconut_oil', 'chicken_broth', 'rice', 'wheat', 'spinach', 'chicken']",
+  "category": [
+    "weight-management",
+    "musculoskeletal-and-joint-care"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5323969",
+  "name": "Joyhound Crazy Comfy Plush Weave Alligator Dog Toy - Squeaker",
+  "description": "Joyhound Crazy Comfy Plush Weave Alligator Dog Toy - Squeaker",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5323969",
+  "brand": {
+    "@type": "Brand",
+    "name": "Joyhound"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 10.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.6875,
+    "reviewCount": 32
+  },
+  "keywords": [
+    "dog-toy",
+    "dog",
+    "toys",
+    "plush-toys"
+  ]
+}

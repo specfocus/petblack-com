@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "hills-dog-sd-canine-adult-sensitive-stomach-and-skin-pollock-meal-insect-dry",
+  "name": "adult sensitive stomach & skin pollock meal & insect recipe dog food",
+  "description": "adult sensitive stomach & skin pollock meal & insect recipe dog food hill's science diet sensitive stomach & skin dry dog food is gentle on stomachs while nourishing skin & promoting a lustrous coat.  adjust feeding amounts as necessary to maintain optimal weight. if you are unsure, ask your veterinarian.new to this food? mix increasing amounts of your pet's new food with decreasing amounts of the",
+  "image": "",
+  "sku": "hills-dog-sd-canine-adult-sensitive-stomach-and-skin-pollock-meal-insect-dry",
+  "brand": {
+    "@type": "Brand",
+    "name": "Hill's Pet Nutrition"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "GBP",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "dog-dry-food",
+    "food-sensitivity",
+    "skin-health",
+    "protein-27.9pct",
+    "-",
+    "pollock-meal-insect-recipe"
+  ]
+}

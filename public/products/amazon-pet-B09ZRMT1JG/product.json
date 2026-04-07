@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B09ZRMT1JG",
+  "name": "Bird Playstand, Parrots Perch Stand Compact Chewing Stable with Base for Cockatiel for Parakeet",
+  "description": "Specification:Item Type: Bird PlaystandMaterial: E0 Multi Layer Board, Applewood, Sepak Takraw, Hemp RopePurpose: Desktop Training StandnPackage List:1 x Standing Vertical Rod1 x Base1 x Standing CrossbarNote:Because the material is naturally grown, each color and shape are different, and there are errors in size and weight, please be aware.",
+  "image": "https://m.media-amazon.com/images/I/41HIwRjGAoL._SS522_.jpg",
+  "sku": "amazon-pet-B09ZRMT1JG",
+  "brand": {
+    "@type": "Brand",
+    "name": "bizofft"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "bird-toy",
+    "pet-supplies",
+    "birds",
+    "toys"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "hills-dog-sd-canine-adult-7-plus-senior-vitality-small-breed-dry",
+  "name": "adult 7+ senior vitality small & mini chicken meal & rice recipe dog food",
+  "description": "hill's science diet youthful vitality small & mini dog food provides precisely balanced nutrition to fight effects of aging in your adult 7+ dog. a proprietary blend of ingredients supports brain function, interaction, energy & vitality omega-3 & -6 fatty acids for a luxurious coat easy-to-digest ingredients for healthy digestion",
+  "image": "",
+  "sku": "hills-dog-sd-canine-adult-7-plus-senior-vitality-small-breed-dry",
+  "brand": {
+    "@type": "Brand",
+    "name": "Hill's Pet Nutrition"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "GBP",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "dog-dry-food",
+    "aging-care",
+    "protein-22.4pct",
+    "senior",
+    "small-breed",
+    "chicken-meal-rice-recipe"
+  ]
+}

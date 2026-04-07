@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "hills-dog-sd-canine-adult-7-plus-no-corn-wheat-soy-dry",
+  "name": "adult 7+ no corn, wheat, soy chicken & brown rice dog food",
+  "description": "hill's science diet adult 7+ no corn, wheat, soy dry dog food is formulated for specific aging needs. provides easy-to-digest nutrition with a synergistic blend of ingredients to help support energy & activity level. balanced nutrition for holistic health including added taurine omega-6s & vitamin e for beautiful skin & coat high-quality protein for lean muscles",
+  "image": "",
+  "sku": "hills-dog-sd-canine-adult-7-plus-no-corn-wheat-soy-dry",
+  "brand": {
+    "@type": "Brand",
+    "name": "Hill's Pet Nutrition"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "GBP",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "dog-dry-food",
+    "aging-care",
+    "protein-21.0pct",
+    "senior",
+    "chicken-brown-rice"
+  ]
+}

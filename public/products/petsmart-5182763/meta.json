@@ -1,0 +1,12 @@
+{
+  "source": "petsmart",
+  "url": "https://www.petsmart.com/dog/food/dry-food/hills-science-diet-large-breed-adult-senior-7%2B-dry-dog-food---chicken-meal-rice-and-barley-627.html",
+  "breadcrumb": "dog > food > dry-food > hills-science-diet-large-breed-adult-senior-7%2B-dry-dog-food---chicken-meal-rice-and-barley-627.html",
+  "bucket": "dog-dry-food",
+  "gtin13": "0052742204406",
+  "images": {
+    "large": "https://s7d2.scene7.com/is/image/PetSmart/5182763?$sclp-prd-main_large$",
+    "medium": "https://s7d2.scene7.com/is/image/PetSmart/5182763?$sclp-prd-main_medium$",
+    "small": "https://s7d2.scene7.com/is/image/PetSmart/5182763?$sclp-prd-main_small$"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "source": "petsmart",
+  "url": "https://www.petsmart.com/dog/cleaning-supplies/furniture-and-car-protection/kurgo-wander-pet-hammock-7527.html",
+  "breadcrumb": "dog > cleaning-supplies > furniture-and-car-protection > kurgo-wander-pet-hammock-7527.html",
+  "bucket": "dog-accessory",
+  "gtin13": "0896622000302",
+  "images": {
+    "large": "https://s7d2.scene7.com/is/image/PetSmart/5155190?$sclp-prd-main_large$",
+    "medium": "https://s7d2.scene7.com/is/image/PetSmart/5155190?$sclp-prd-main_medium$",
+    "small": "https://s7d2.scene7.com/is/image/PetSmart/5155190?$sclp-prd-main_small$"
+  }
+}

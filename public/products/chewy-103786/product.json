@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-103786",
+  "name": "Penn-Plax Turtle Topper Above Tank Basking Platform",
+  "description": "The Penn-Plax Turtle Topper Above Tank Basking Platform provides a unique spot for turtles to bask on top of their tank. Aquatic turtles are naturally avid swimmers that prefer deep water. Because the Turtle Topper sits on top, you can fill the tank completely so your turtle can enjoy swimming throughout the entire tank. It’s made to support the weight of multiple or larger turtles without sinking, which helps keep them dry as they bask. Two mounting rims are included to attach clamp lamps for optimal basking.",
+  "image": "",
+  "sku": "chewy-103786",
+  "brand": {
+    "@type": "Brand",
+    "name": "Penn-Plax"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 55.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.2215,
+    "reviewCount": 158
+  },
+  "keywords": [
+    "fish-accessory",
+    "reptile",
+    "d-cor-accessories",
+    "accessories"
+  ]
+}

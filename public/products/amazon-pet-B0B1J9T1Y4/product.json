@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B0B1J9T1Y4",
+  "name": "Meri SHOPP Portable Cat Litter Scooper Corrosion Resistant Shovel Sifter for Clean Home White",
+  "description": "Description:Optimizing ABS material, full of toughness, not easy to break, and improve service life.Thickened cat litter shovel, comfortable grip, antibacterial material, easy to clean, It is clean after flushing, the surface is smooth and easy to clean, and it can be cleaned by rinsing with water.Humanized design, , fits the palm, the heart and hand are used accordingly, the hand is comfortable and labor-saving.5mm spacing, can not only quickly leak the cat litter but also retain the dirty things,perfect for cleaning various kinds of cat litter, big or small, soft or hard.The semi-curved shov",
+  "image": "https://m.media-amazon.com/images/I/31P-gdErkwL._SS522_.jpg",
+  "sku": "amazon-pet-B0B1J9T1Y4",
+  "brand": {
+    "@type": "Brand",
+    "name": "Generic"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "cat-toy",
+    "pet-supplies",
+    "cats",
+    "litter-housebreaking",
+    "litter-scoops"
+  ]
+}

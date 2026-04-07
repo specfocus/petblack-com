@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-304522",
+  "name": "Horze Equestrian Supreme Silent Horse Ear Net",
+  "description": "**Remember to measure for the perfect fit.** With its sound dampening properties, the Horze Equestrian Supreme Silent Horse Ear Net can help your horse to focus on his job, instead of everything that’s going on around him. The ear net features a traditional crochet design for impeccable style. Upgraded neoprene lined ears provide additional sound dampening properties, the perfect alternative to ear plugs. The scalloped edge won’t interfere with your horse’s eyes, leaving him distraction-free. This ear net is available in conservative colors, so it will pair well with your show gear.",
+  "image": "https://image.chewy.com/is/image/catalog/304522_MAIN._AC_SS500_V1623282758_.jpg",
+  "sku": "chewy-304522",
+  "brand": {
+    "@type": "Brand",
+    "name": "Horze Equestrian"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 25.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 3,
+    "reviewCount": 1
+  },
+  "keywords": [
+    "other-pet",
+    "horse",
+    "blankets",
+    "fly-sheets-masks",
+    "ear-nets"
+  ]
+}

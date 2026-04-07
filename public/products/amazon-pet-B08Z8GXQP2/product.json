@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B08Z8GXQP2",
+  "name": "PSK PET MART Elastic Feather Scratch Boards Round Table with Bells (Colour May Vary, 10 cm)",
+  "description": "PSK PET MART Bat, swat, chase and run, cats of all ages absolutely love the Cat Tails sisal rope mouse with feathers. This toy has absolutely all the elements that cats love - feather, rope, fur and mouse.",
+  "image": "https://m.media-amazon.com/images/I/3127TXavEoL._SS522_.jpg",
+  "sku": "amazon-pet-B08Z8GXQP2",
+  "brand": {
+    "@type": "Brand",
+    "name": "Visit the PSK PET MART Store"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 250,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "cat-toy",
+    "pet-supplies",
+    "cats",
+    "toys",
+    "feather-toys"
+  ]
+}

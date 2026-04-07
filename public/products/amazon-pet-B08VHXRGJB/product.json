@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B08VHXRGJB",
+  "name": "RYPET Winter Warm Bird Nest House - Hanging Hammock Velvet Shed Hut Cage Plush Fluffy Birds Hideaway Sleeping Bed Fuzzy for Parrot Parakeet Cockatiels Budgies Lovebird Medium",
+  "description": "Why your lovely bird need nest hammock?  1. This bird nest gives your lovely parrots or birds a warm and comfortable hut to rest. 2. Your bird or pets will snuggle this soft fleece tent with perch to keep warm in winter. 3. Soft comfortable sleeping tests can alleviate a birds stress and provide them with a sense of security 4. Your bird will feel safe and warm in the confined space and soft fabric of the hammock; Reduce boredom by adding to your bird's environmental stimulation. 5. Easy and portable to hang with the bilateral hooks, also easy to take it off and wash it.  -Nest Size S: 17x10x1",
+  "image": "https://m.media-amazon.com/images/I/51kyO6P4mFL._SS522_.jpg",
+  "sku": "amazon-pet-B08VHXRGJB",
+  "brand": {
+    "@type": "Brand",
+    "name": "RYPET"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 498,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "bird-toy",
+    "pet-supplies",
+    "birds",
+    "birdcage-accessories",
+    "nests"
+  ]
+}

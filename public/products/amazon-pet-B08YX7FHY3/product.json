@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B08YX7FHY3",
+  "name": "HANU Sunflower Seed Bird Food, 1 Kg 09",
+  "description": "Sunflower Seed Bird Food % Product. Organic and Clean Seeds, sunflower seed bird food. High energy food. Food for cocktail, silver, finches, munias, parakeets, parrots, budgies, grain and seed eating birds, 100 % natural and no preservatives and ingredients.",
+  "image": "https://m.media-amazon.com/images/I/31AScxV38fL._SS522_.jpg",
+  "sku": "amazon-pet-B08YX7FHY3",
+  "brand": {
+    "@type": "Brand",
+    "name": "Generic"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 328,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "bird-food",
+    "pet-supplies",
+    "birds",
+    "food"
+  ]
+}

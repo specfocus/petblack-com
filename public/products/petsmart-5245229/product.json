@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5245229",
+  "name": "Green Bay Packers NFL Hoodie Tee",
+  "description": "Green Bay Packers NFL Hoodie Tee",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5245229",
+  "brand": {
+    "@type": "Brand",
+    "name": "Pets First"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 24.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "dog-accessory",
+    "dog",
+    "clothing-and-shoes",
+    "jerseys-and-team-sports"
+  ]
+}

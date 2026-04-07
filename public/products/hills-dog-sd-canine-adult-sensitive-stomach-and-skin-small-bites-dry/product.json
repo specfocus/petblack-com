@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "hills-dog-sd-canine-adult-sensitive-stomach-and-skin-small-bites-dry",
+  "name": "adult sensitive stomach & skin small bites",
+  "description": "now science diet sensitive stomach & skin comes in a smaller kibble for smaller mouths. made in the usa with global ingredients you can trust, this dry dog food is formulated to support gentle, healthy digestion while promoting lustrous skin and coat. with beet pulp, a nourishing prebiotic fiber highly digestible food that is gentle on the stomach vitamin e & omega-6 fatty acids for skin & coat nourishment",
+  "image": "",
+  "sku": "hills-dog-sd-canine-adult-sensitive-stomach-and-skin-small-bites-dry",
+  "brand": {
+    "@type": "Brand",
+    "name": "Hill's Pet Nutrition"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "GBP",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "dog-dry-food",
+    "skin-health",
+    "food-sensitivity",
+    "protein-25.0pct",
+    "-",
+    "chicken-barley-recipe"
+  ]
+}

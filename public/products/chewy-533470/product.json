@@ -1,0 +1,24 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-533470",
+  "name": "Tomlyn Epic Calf Newborn Oral Syringe Cattle Supplement, 42-ml tube",
+  "description": "Give your newborn calf the very best start in life with Tomlyn Epic Calf Newborn Oral Syringe Cattle Supplement. This made-in-the-USA supplement is formulated to provide immune and nutritional support starting from birth. Using the included Newborn Calf Oral Syringe, simply administer one tube to your calf within 12 hours of birth. The easy-to-give supplement is highly palatable to help support a healthy diet. Your calf will be up and moo-ving in no time!",
+  "image": "",
+  "sku": "chewy-533470",
+  "brand": {
+    "@type": "Brand",
+    "name": "Tomlyn"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 15.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "farm-animal-food",
+    "farm-animal",
+    "cow"
+  ]
+}

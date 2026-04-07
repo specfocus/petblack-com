@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B0108L2FWG",
+  "name": "KSK Wooden Chewing Toy for Bird (Large)",
+  "description": "KSK Rope Wooden Chewing Bird Toy play very important role in keeping them engaged or to make them feel lively even in the cage or in absence of owner. Generally owner can't take care of birds 24*7; in such situation science says that there should be a simulator. Bird toys are nothing but the simulator. Young Birds continuously play with these toys and this play time forms the learning period in their life. Birds learn textures, colors and shapes; it also helps to develop coordination and dexterity. Natural activities like climbing and swinging are executed through and on toys. we have use FDA ",
+  "image": "https://m.media-amazon.com/images/I/41bZpArvuWL._SS522_.jpg",
+  "sku": "amazon-pet-B0108L2FWG",
+  "brand": {
+    "@type": "Brand",
+    "name": "Visit the KSK Store"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 399,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "bird-toy",
+    "pet-supplies",
+    "birds",
+    "toys"
+  ]
+}

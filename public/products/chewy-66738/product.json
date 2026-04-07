@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-66738",
+  "name": "Dave's Pet Food Naturally Healthy Grain-Free Turkey & Giblets Dinner Canned Cat Food",
+  "description": "Give your kitty the nutrition he needs to thrive with Dave's Pet Food Naturally Healthy Grain-Free Turkey & Giblets Dinner Canned Cat Food. The formula provides plenty of protein to fuel all those adventures, with protein-rich turkey and chicken as the top ingredients. Every juicy bite is loaded with wholesome omegas for a lustrous coat, plus vitamins, minerals and essential taurine to help your pal look and feel his best. With no grains, wheat or anything artificial, even kitties with sensitivities can dive into their bowl.",
+  "image": "",
+  "sku": "chewy-66738",
+  "brand": {
+    "@type": "Brand",
+    "name": "Dave's Pet Food"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 35.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 3.7941,
+    "reviewCount": 170
+  },
+  "keywords": [
+    "cat-wet-food",
+    "cat",
+    "food",
+    "wet-food"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5180865",
+  "name": "Armarkat 64-in Faux Fur Real Wood Cat Tree, Silver Gray & Almond",
+  "description": "Armarkat 64-in Faux Fur Real Wood Cat Tree, Silver Gray &amp; Almond",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5180865",
+  "brand": {
+    "@type": "Brand",
+    "name": "Armarkat"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 127.77,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 2,
+    "reviewCount": 1
+  },
+  "keywords": [
+    "cat-accessory",
+    "cat",
+    "beds-and-furniture",
+    "furniture-and-towers"
+  ]
+}

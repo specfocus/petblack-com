@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-67635",
+  "name": "Purina Pro Plan Adult Shredded Turkey, Peas & Brown Rice Entree in Gravy Canned Dog Food",
+  "description": "Answer the woof for real flavor with Purina Pro Plan Shredded Turkey, Peas & Brown Rice Entree in Gravy Adult Wet Dog Food. Real turkey and brown rice help create an adult dog food as yummy as it is wholesome. A helping of rich dog food gravy adds flavor to every bite for meals bursting with the yum dogs love. Plus, this premium wet dog food delivers all the good stuff pups need for nose-to-tail well-being. Every serving of the adult dog food in gravy has the optimal level of protein to help your furry pal maintain an ideal body condition throughout a lifetime of jumping and playing. He gets all the essential vitamins and nutrients he needs, too, ensuring a balanced meal with every delicious bowlful. Best of all, this high protein dog food is proudly produced in Purina-owned, U.S. facilities, helping you feel good about where your best buddy's meals come from.",
+  "image": "https://image.chewy.com/is/image/catalog/67635_MAIN._AC_SS500_V1634248097_.jpg",
+  "sku": "chewy-67635",
+  "brand": {
+    "@type": "Brand",
+    "name": "Purina Pro Plan"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 43.68,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.5312,
+    "reviewCount": 64
+  },
+  "keywords": [
+    "dog-wet-food",
+    "dog",
+    "food",
+    "wet-food",
+    "adult"
+  ]
+}

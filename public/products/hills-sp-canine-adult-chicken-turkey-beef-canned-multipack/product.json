@@ -1,0 +1,24 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "hills-sp-canine-adult-chicken-turkey-beef-canned-multipack",
+  "name": "Adult Multipack Wet Dog Food with Chicken, Turkey & Beef",
+  "description": "Hill's Science Plan Adult Dog Food Loaf Variety Pack contains a feast of 3 flavours, composed of 12 loaf cans: 6 with chicken, 3 with beef & 3 with turkey. It is a complete pet food for adult dogs 1–6 years old. Precisely balanced to deliver the appropriate amount of energy to support ideal body weight. Easy to digest With high-quality protein and vitamin E & fatty acids Precisely balanced to deliver the appropriate amount of energy to maintain ideal body weight",
+  "image": "",
+  "sku": "hills-sp-canine-adult-chicken-turkey-beef-canned-multipack",
+  "brand": {
+    "@type": "Brand",
+    "name": "Hill's Pet Nutrition"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "GBP",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "dog-wet-food",
+    "dog",
+    "adult-1-6"
+  ]
+}

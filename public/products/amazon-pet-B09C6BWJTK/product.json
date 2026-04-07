@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B09C6BWJTK",
+  "name": "Cat Feather Tease Toys, Funny Cat Stick Cat Wand Toy Flexible Lightweight Easy to Store Durable with Feather and Bell for Pet Interaction",
+  "description": "Feature:1. Natural environmentally friendly wooden materials will not harm your pet.2. Cute design with elastic rope and small bells. It is very lightweight, flexible, durable and easy to store.3. Provide a healthy environment for your cat's natural hunting instincts.4. Cats running and chasing their favorite toy and then settling down after a successful game is nothing more than a good option.5. With just a wave of your wrist, you can play with cats for many hours. Smooth and crisp sound can attract the cat's attentionSpecification:Item Type: Cat Teaser ToyMaterial: WoodenColor: As Pictures S",
+  "image": "https://m.media-amazon.com/images/I/310HnBlTU0L._SS522_.jpg",
+  "sku": "amazon-pet-B09C6BWJTK",
+  "brand": {
+    "@type": "Brand",
+    "name": "Tand"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 523,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "keywords": [
+    "cat-toy",
+    "pet-supplies",
+    "cats",
+    "toys",
+    "feather-toys"
+  ]
+}

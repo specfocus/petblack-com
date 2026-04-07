@@ -1,0 +1,12 @@
+{
+  "source": "petsmart",
+  "url": "https://www.petsmart.com/cat/food-and-treats/wet-food/natures-variety-instinct-limited-ingredient-wet-cat-food---natural-grain-free-50162.html",
+  "breadcrumb": "cat > food-and-treats > wet-food > natures-variety-instinct-limited-ingredient-wet-cat-food---natural-grain-free-50162.html",
+  "bucket": "cat-wet-food",
+  "gtin13": "0769949618188",
+  "images": {
+    "large": "https://s7d2.scene7.com/is/image/PetSmart/5279756?$sclp-prd-main_large$",
+    "medium": "https://s7d2.scene7.com/is/image/PetSmart/5279756?$sclp-prd-main_medium$",
+    "small": "https://s7d2.scene7.com/is/image/PetSmart/5279756?$sclp-prd-main_small$"
+  }
+}

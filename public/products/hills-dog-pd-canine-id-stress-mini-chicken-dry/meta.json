@@ -1,0 +1,18 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-dry-food",
+  "url": "https://www.hillspet.co.uk/dog-food/pd-canine-id-stress-mini-chicken-dry",
+  "foodForm": "dry food",
+  "lifeStage": "-",
+  "breedSize": "small",
+  "flavour": "with chicken",
+  "calories": "3345 kcal/kg (335 kcal/100g)",
+  "moisture": "9.0",
+  "protein": "23.9",
+  "fat": "8.2",
+  "ingredients": "['turkey_meal', 'flaxseed', 'dried_milk', 'beet', 'citrus', 'fish_oil', 'rice', 'ginger', 'chicken', 'corn', 'ground_pecan_shell', 'cranberry', 'chicken_meal']",
+  "category": [
+    "digestive-care",
+    "nervous-system-care-and-stress"
+  ]
+}

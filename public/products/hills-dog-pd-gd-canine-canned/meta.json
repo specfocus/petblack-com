@@ -1,0 +1,16 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-wet-food",
+  "url": "https://www.hillspet.com/dog-food/pd-gd-canine-canned",
+  "foodForm": "wet food",
+  "lifeStage": "-",
+  "flavour": "turkey flavor",
+  "calories": "388 kcal / 13 oz (370 g) can",
+  "moisture": "78.0",
+  "protein": "4.0920000000000005",
+  "fat": "2.332",
+  "ingredients": "['salt', 'pork_liver', 'flaxseed', 'water', 'beet', 'rice', 'corn', 'turkey', 'chicken_fat']",
+  "category": [
+    "aging-care"
+  ]
+}

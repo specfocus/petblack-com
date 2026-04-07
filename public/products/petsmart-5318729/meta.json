@@ -1,0 +1,12 @@
+{
+  "source": "petsmart",
+  "url": "https://www.petsmart.com/dog/collars-harnesses-and-leashes/harnesses/puppia-mountaineer-ii-dog-harness-coat-67348.html",
+  "breadcrumb": "dog > collars-harnesses-and-leashes > harnesses > puppia-mountaineer-ii-dog-harness-coat-67348.html",
+  "bucket": "dog-accessory",
+  "gtin13": "8809638425009",
+  "images": {
+    "large": "https://s7d2.scene7.com/is/image/PetSmart/5318729?$sclp-prd-main_large$",
+    "medium": "https://s7d2.scene7.com/is/image/PetSmart/5318729?$sclp-prd-main_medium$",
+    "small": "https://s7d2.scene7.com/is/image/PetSmart/5318729?$sclp-prd-main_small$"
+  }
+}

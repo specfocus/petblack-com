@@ -1,0 +1,16 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-wet-food",
+  "url": "https://www.hillspet.co.uk/dog-food/pd-canine-gastrointestinal-biome-with-chicken-canned",
+  "foodForm": "wet food",
+  "lifeStage": "-",
+  "flavour": "with chicken",
+  "calories": "193.2 kcal (200 g) can, 357 kcal (370 g) can",
+  "moisture": "74.0",
+  "protein": "5.1",
+  "fat": "3.6",
+  "ingredients": "['pork_liver', 'flaxseed', 'sunflower_oil', 'citrus', 'beet', 'fish_oil', 'rice', 'ground_pecan_shell', 'cranberry', 'chicken']",
+  "category": [
+    "digestive-care"
+  ]
+}

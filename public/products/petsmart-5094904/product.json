@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5094904",
+  "name": "Marineland® Penguin 200B/350B Bio-Wheel Assembly",
+  "description": "Marineland&reg; Penguin 200B/350B Bio-Wheel Assembly",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5094904",
+  "brand": {
+    "@type": "Brand",
+    "name": "Marineland"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 8.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.5357,
+    "reviewCount": 28
+  },
+  "keywords": [
+    "fish-accessory",
+    "fish",
+    "filters-and-pumps",
+    "replacement-parts"
+  ]
+}

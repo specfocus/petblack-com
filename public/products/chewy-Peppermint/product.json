@@ -1,0 +1,19 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-Peppermint",
+  "name": "Cayenne",
+  "description": "Cayenne",
+  "image": "",
+  "sku": "chewy-Peppermint",
+  "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "other-pet",
+    "green-tea-extract-3"
+  ]
+}

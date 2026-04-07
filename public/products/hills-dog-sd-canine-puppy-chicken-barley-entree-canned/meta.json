@@ -1,0 +1,16 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-wet-food",
+  "url": "https://www.hillspet.com/dog-food/sd-canine-puppy-chicken-barley-entree-canned",
+  "foodForm": "wet food",
+  "lifeStage": "puppy",
+  "flavour": "chicken & barley entrée",
+  "calories": "495 kcal / 13 oz (370 g) can",
+  "moisture": "71.0",
+  "protein": "8.41",
+  "fat": "5.887",
+  "ingredients": "['barley', 'salt', 'pork_liver', 'flaxseed', 'water', 'fish_oil', 'beet', 'citrus', 'corn', 'ground_pecan_shell', 'cranberry', 'chicken', 'soybean']",
+  "category": [
+    "puppy-care"
+  ]
+}

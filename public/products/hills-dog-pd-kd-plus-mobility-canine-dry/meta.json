@@ -1,0 +1,16 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-dry-food",
+  "url": "https://www.hillspet.com/dog-food/pd-kd-plus-mobility-canine-dry",
+  "foodForm": "dry food",
+  "lifeStage": "-",
+  "flavour": "chicken flavor",
+  "calories": "4011 kcal/kg 489 kcal/cup†",
+  "moisture": "0.0",
+  "protein": "15.9",
+  "fat": "23.4",
+  "ingredients": "['salt', 'flaxseed', 'lactic_acid', 'fish_oil', 'beet', 'rice', 'egg', 'chicken', 'corn', 'oat', 'chicken_fat']",
+  "category": [
+    "kidney-care"
+  ]
+}

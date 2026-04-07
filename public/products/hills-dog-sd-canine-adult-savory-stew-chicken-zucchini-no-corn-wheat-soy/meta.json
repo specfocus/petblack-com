@@ -1,0 +1,16 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-wet-food",
+  "url": "https://www.hillspet.com/dog-food/sd-canine-adult-savory-stew-chicken-zucchini-no-corn-wheat-soy",
+  "foodForm": "wet food",
+  "lifeStage": "adult",
+  "flavour": "savory stew with chicken & zucchini",
+  "calories": "265 kcal/12.8 oz (363 g) can",
+  "moisture": "85.0",
+  "protein": "4.26",
+  "fat": "2.76",
+  "ingredients": "['carrot', 'pork_liver', 'broccoli', 'flaxseed', 'sunflower_oil', 'apple', 'green_pea', 'chicken_broth', 'rice', 'zucchini', 'cranberry', 'chicken']",
+  "category": [
+    "adult-care"
+  ]
+}

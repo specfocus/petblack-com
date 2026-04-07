@@ -1,0 +1,17 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-dry-food",
+  "url": "https://www.hillspet.com/dog-food/pd-dd-canine-potato-and-duck-formula-dry",
+  "foodForm": "dry food",
+  "lifeStage": "-",
+  "flavour": "potato & duck recipe",
+  "calories": "3651 kcal/kg 373 kcal/cup†",
+  "moisture": "0.0",
+  "protein": "18.5",
+  "fat": "16.0",
+  "ingredients": "['salt', 'duck', 'potato', 'lactic_acid', 'fish_oil', 'coconut_oil', 'potato_protein', 'soybean_oil']",
+  "category": [
+    "food-sensitivity",
+    "skin-health"
+  ]
+}

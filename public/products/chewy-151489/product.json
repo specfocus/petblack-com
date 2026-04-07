@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-151489",
+  "name": "Emerald Pet Chicky Twizzies Grain-Free Dog Treats",
+  "description": "Give your furry friend a fun and tasty reward with Emerald Pet’s Chicky Twizzies! These savory chicken chews are rawhide-free, 100% digestible and have a natural smoky flavor your dog will go head over paws for. Made without dairy, grains, corn, wheat or soy, these limited ingredient treats are paw-sitively perfect for pups with sensitivities to certain ingredients. Best of all, they are 100% free of anything artificial and are made in the USA with ingredients from the USA! And with two sizes of delectable, long-lasting Twizzies to choose from, how can you go wrong?",
+  "image": "https://image.chewy.com/is/image/catalog/151489_MAIN._AC_SS500_V1536157546_.jpg",
+  "sku": "chewy-151489",
+  "brand": {
+    "@type": "Brand",
+    "name": "Emerald Pet"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 18.92,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 3.8182,
+    "reviewCount": 11
+  },
+  "keywords": [
+    "dog-accessory",
+    "dog",
+    "treats",
+    "bones-bully-sticks-natural-chews",
+    "hard-chews"
+  ]
+}

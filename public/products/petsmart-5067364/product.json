@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5067364",
+  "name": "Purina Pro Plan Focus Puppy Wet Dog Food - High Protein, 13 Oz",
+  "description": "Purina Pro Plan Focus Puppy Wet Dog Food - High Protein, 13 Oz",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5067364",
+  "brand": {
+    "@type": "Brand",
+    "name": "Purina Pro Plan"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 2.65,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.7071,
+    "reviewCount": 99
+  },
+  "keywords": [
+    "dog-wet-food",
+    "dog",
+    "food",
+    "canned-food"
+  ]
+}

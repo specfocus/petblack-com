@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-82848",
+  "name": "Hartz Bug Eyes Squeak Latex Dog Toy, Character Varies",
+  "description": "Hartz Bug Eyes Dog Toy makes play time hilarious and fun. With each feverish bite of this latex toy comes a hilarious eye popping animation that's sure to keep dogs busy and their owners laughing. Made with specially formulated latex that provides excellent durability and the ideal texture and resistance dogs seek in chewing.",
+  "image": "https://image.chewy.com/is/image/catalog/82848_MAIN._AC_SS500_V1589228893_.jpg",
+  "sku": "chewy-82848",
+  "brand": {
+    "@type": "Brand",
+    "name": "Hartz"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 4.47,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.1247,
+    "reviewCount": 1299
+  },
+  "keywords": [
+    "dog-toy",
+    "dog",
+    "toys",
+    "fetch-toys",
+    "balls"
+  ]
+}

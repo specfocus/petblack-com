@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5300853",
+  "name": "TagWorks® Red Bone Personalized Pet ID Tag",
+  "description": "TagWorks&reg; Red Bone Personalized Pet ID Tag",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5300853",
+  "brand": {
+    "@type": "Brand",
+    "name": "TagWorks"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 9.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.8293,
+    "reviewCount": 41
+  },
+  "keywords": [
+    "dog-accessory",
+    "dog",
+    "collars-harnesses-and-leashes",
+    "id-tags"
+  ]
+}

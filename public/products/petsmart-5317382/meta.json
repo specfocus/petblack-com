@@ -1,0 +1,12 @@
+{
+  "source": "petsmart",
+  "url": "https://www.petsmart.com/pharmacy/dog/digestive-tract-liver-and-pancreas/glycopyrrolate-2-mg---single-tablet-67084.html",
+  "breadcrumb": "pharmacy > dog > digestive-tract-liver-and-pancreas > glycopyrrolate-2-mg---single-tablet-67084.html",
+  "bucket": "dog-health",
+  "gtin13": "3498840660176",
+  "images": {
+    "large": "https://s7d2.scene7.com/is/image/PetSmart/5317382?$sclp-prd-main_large$",
+    "medium": "https://s7d2.scene7.com/is/image/PetSmart/5317382?$sclp-prd-main_medium$",
+    "small": "https://s7d2.scene7.com/is/image/PetSmart/5317382?$sclp-prd-main_small$"
+  }
+}

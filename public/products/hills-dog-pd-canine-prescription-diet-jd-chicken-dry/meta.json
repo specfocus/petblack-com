@@ -1,0 +1,16 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-dry-food",
+  "url": "https://www.hillspet.co.uk/dog-food/pd-canine-prescription-diet-jd-chicken-dry",
+  "foodForm": "dry food",
+  "lifeStage": "-",
+  "flavour": "original",
+  "calories": "3618 kcal/kg (362 kcal/100g)",
+  "moisture": "8.0",
+  "protein": "17.6",
+  "fat": "14.5",
+  "ingredients": "['carrot', 'flaxseed', 'sunflower_oil', 'molluscs_and_crustaceans', 'chicken_broth', 'rice', 'egg']",
+  "category": [
+    "musculoskeletal-and-joint-care"
+  ]
+}

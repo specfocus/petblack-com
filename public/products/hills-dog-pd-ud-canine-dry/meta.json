@@ -1,0 +1,16 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-dry-food",
+  "url": "https://www.hillspet.com/dog-food/pd-ud-canine-dry",
+  "foodForm": "dry food",
+  "lifeStage": "-",
+  "flavour": "chicken flavor",
+  "calories": "3986 kcal/kg 429 kcal/cup†",
+  "moisture": "0.0",
+  "protein": "13.8",
+  "fat": "20.7",
+  "ingredients": "['salt', 'flaxseed', 'lactic_acid', 'potato_protein', 'rice', 'egg', 'corn', 'chicken_fat']",
+  "category": [
+    "urinary-care"
+  ]
+}

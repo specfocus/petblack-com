@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-102305",
+  "name": "Purina Pro Plan Focus Adult Urinary Tract Health Formula with Salmon Classic Canned Cat Food",
+  "description": "Nourish kitty with the foods she adores and the focused nutrition she needs when you serve Pro Plan Urinary Tract Health Formula Classic Entree With Salmon Adult Wet Cat Food. This adult cat food helps keep up your kitty's urinary tract health by reducing urinary pH and providing low dietary magnesium. Plus, every tender bite is chock full of kitty-approved flavor. Purposeful ingredients like real salmon are blended in, and along with that high-quality protein, your feline friend gets 25 essential vitamins and minerals plus taurine, an amino acid. Best of all, this highly digestible pate cat food promotes optimal nutrient delivery, helping the high-quality ingredients go to work to support her nose-to-tail well-being. Your furry companion is one-of-a-kind. Care for her unique needs with focused nutrition when you try this urinary cat food risk free.",
+  "image": "https://image.chewy.com/is/image/catalog/102305_MAIN._AC_SS500_V1634256090_.jpg",
+  "sku": "chewy-102305",
+  "brand": {
+    "@type": "Brand",
+    "name": "Purina Pro Plan"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 39.84,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.4273,
+    "reviewCount": 220
+  },
+  "keywords": [
+    "cat-wet-food",
+    "cat",
+    "food",
+    "wet-food"
+  ]
+}

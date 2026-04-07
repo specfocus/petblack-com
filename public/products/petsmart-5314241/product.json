@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5314241",
+  "name": "Merry & Bright&trade; Santa & Reindeer Aquatic Clings",
+  "description": "Merry &amp; Bright&amp;trade; Santa &amp; Reindeer Aquatic Clings",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5314241",
+  "brand": {
+    "@type": "Brand",
+    "name": "Merry &amp; Bright"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 2,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 2.4,
+    "reviewCount": 5
+  },
+  "keywords": [
+    "fish-accessory",
+    "fish",
+    "decor-gravel-and-substrate",
+    "backgrounds"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-dry-food",
+  "url": "https://www.hillspet.co.uk/dog-food/sp-canine-science-plan-senior-11-plus-small-and-miniature-original-dry",
+  "foodForm": "dry food",
+  "lifeStage": "senior",
+  "breedSize": "small",
+  "flavour": "with chicken",
+  "calories": "3710 kcal/kg (371 kcal/100g)",
+  "moisture": "8.0",
+  "protein": "19.7",
+  "fat": "14.3",
+  "ingredients": "['barley', 'brown_rice', 'turkey_meal', 'sunflower_oil', 'flaxseed', 'tomato', 'beet', 'citrus', 'fish_oil', 'rice', 'oat', 'wheat', 'corn', 'spinach', 'chicken_meal']",
+  "category": [
+    "aging-care"
+  ]
+}

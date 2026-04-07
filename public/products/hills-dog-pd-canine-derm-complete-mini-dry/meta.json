@@ -1,0 +1,18 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-dry-food",
+  "url": "https://www.hillspet.co.uk/dog-food/pd-canine-derm-complete-mini-dry",
+  "foodForm": "dry food",
+  "lifeStage": "-",
+  "breedSize": "small",
+  "flavour": "original",
+  "calories": "3756 kcal/kg (376 kcal/100g)",
+  "moisture": "8.0",
+  "protein": "16.9",
+  "fat": "15.2",
+  "ingredients": "['carrot', 'brown_rice', 'flaxseed', 'apple', 'fish_oil', 'rice', 'egg', 'rice_protein']",
+  "category": [
+    "food-sensitivity",
+    "skin-health"
+  ]
+}

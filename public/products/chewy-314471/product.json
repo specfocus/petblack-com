@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-314471",
+  "name": "904 Custom Personalized My Cat & I Funny Double Sided Mug, 11-oz",
+  "description": "Celebrate your furry family member and show everyone just how much you love her with this paw-some 904 Custom Personalized My Cat & I Funny Double Sided Mug! This ceramic coffee mug is proudly made in the USA and can hold 11 oz. of your favorite coffee, tea, or other beverage of choice. Not only is it completely microwave and dishwasher safe for your convenience, but you can also have it personalized with custom text. This mug makes a great gift for fellow pet parents!",
+  "image": "https://image.chewy.com/is/image/catalog/314471_MAIN._AC_SS500_V1637152286_.jpg",
+  "sku": "chewy-314471",
+  "brand": {
+    "@type": "Brand",
+    "name": "904 Custom"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 15.95,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 5,
+    "reviewCount": 12
+  },
+  "keywords": [
+    "cat-accessory",
+    "pet-parents",
+    "personalized-gifts",
+    "coffee-mugs-tumblers"
+  ]
+}

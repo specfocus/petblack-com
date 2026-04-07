@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B09GW4L44Q",
+  "name": "Funny Santa Beard, Christmas Santa Claus Beard White Fake Beard Flannelette Christmas Halloween Beard Costume Party, Halloween, Christmas",
+  "description": "Feature:1. With a elastic band on the fake beard which is easy for you to adjust the tightness to fit for you head.2. Self‑adhesive design make the fake eyebrow is easy to use, just peel off the white film and attach it on your eyebrows.3. Very simple to use and not easy to fall off, it can keep for a long time on your eyebrows and face.4. Suitable for all people want to dresses up like a santa claus and make you special on the costume party.5. Suitable for many fun occasions, such like birthday party, costume party, Halloween, Christmas, friends reunion, school plays, family parties.How to Us",
+  "image": "https://m.media-amazon.com/images/I/31y6ZcvW5nL._SS522_.jpg",
+  "sku": "amazon-pet-B09GW4L44Q",
+  "brand": {
+    "@type": "Brand",
+    "name": "Qindao"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "other-pet",
+    "pet-supplies",
+    "cats",
+    "beds-furniture",
+    "scratching-pads"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-dry-food",
+  "url": "https://www.hillspet.com/dog-food/sd-canine-adult-7-plus-small-breed-dry",
+  "foodForm": "dry food",
+  "lifeStage": "senior",
+  "breedSize": "small",
+  "flavour": "chicken & brown rice recipe",
+  "calories": "3578 kcal/kg 355 kcal/cup†",
+  "moisture": "0.0",
+  "protein": "21.5",
+  "fat": "15.0",
+  "ingredients": "['salt', 'brown_rice', 'flaxseed', 'chicken_meal', 'lactic_acid', 'pumpkin', 'soybean_oil', 'rice', 'chicken', 'wheat', 'corn', 'chicken_fat', 'soybean', 'whole_grain_sorghum']",
+  "category": [
+    "aging-care"
+  ]
+}

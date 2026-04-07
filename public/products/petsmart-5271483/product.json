@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5271483",
+  "name": "Wagner's Cardinal Blend Bird Seed",
+  "description": "Wagner's Cardinal Blend Bird Seed",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5271483",
+  "brand": {
+    "@type": "Brand",
+    "name": "Wagners"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 10.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "keywords": [
+    "bird-food",
+    "bird",
+    "wild-bird-food-and-supplies",
+    "wild-bird-food"
+  ]
+}

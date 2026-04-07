@@ -1,0 +1,24 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "hills-sp-canine-mature-adult-chicken-beef-canned-multipack",
+  "name": "Mature Adult Multipack Wet Dog Food with Chicken & Beef",
+  "description": "Your dog will love the taste of HILL'S SCIENCE PLAN Mature Adult dog food with Chicken, with its soft, smooth texture. It has the perfect balance of taste and nutrition for your dog. Precisely balanced to deliver the appropriate amount of energy to support ideal body weight in adult dogs over 6 years old.",
+  "image": "",
+  "sku": "hills-sp-canine-mature-adult-chicken-beef-canned-multipack",
+  "brand": {
+    "@type": "Brand",
+    "name": "Hill's Pet Nutrition"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "GBP",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "dog-wet-food",
+    "dog",
+    "mature-adult-dog-7-"
+  ]
+}

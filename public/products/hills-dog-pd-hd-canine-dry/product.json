@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "hills-dog-pd-hd-canine-dry",
+  "name": "h/d chicken flavor dry dog food",
+  "description": "poor heart health can affect your dog's lifestyle, happiness and quality of life. the food your dog eats plays an important role in his or her overall health and well-being. 높은 함량의 l-카르니틴과 타우린 낮은 나트륨 함량 칼륨과 마그네슘 함유",
+  "image": "",
+  "sku": "hills-dog-pd-hd-canine-dry",
+  "brand": {
+    "@type": "Brand",
+    "name": "Hill's Pet Nutrition"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "GBP",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "dog-dry-food",
+    "heart-care",
+    "protein-19.8pct",
+    "-",
+    "chicken-flavor"
+  ]
+}

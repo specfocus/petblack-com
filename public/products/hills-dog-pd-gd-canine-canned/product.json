@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "hills-dog-pd-gd-canine-canned",
+  "name": "g/d turkey flavor wet dog food",
+  "description": "the food your dog eats plays an important role in their overall health and well-being. as dogs age they may require controlled levels of protein and minerals to protect vital kidney and heart function in their golden years. optimal balance of key nutrients -- protein, sodium and minerals controlled phosphorus, sodium and moderate protein controlled dietary fat",
+  "image": "",
+  "sku": "hills-dog-pd-gd-canine-canned",
+  "brand": {
+    "@type": "Brand",
+    "name": "Hill's Pet Nutrition"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "GBP",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "dog-wet-food",
+    "aging-care",
+    "protein-4.0920000000000005pct",
+    "-",
+    "turkey-flavor"
+  ]
+}

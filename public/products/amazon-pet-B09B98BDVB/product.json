@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B09B98BDVB",
+  "name": "Cat Grooming Bag, Cat Shower Net Bag Cat Washing Shower Bag with 420D PU Oxford Cloth for Cats for Bath",
+  "description": "Feature:1. The mesh panels allow water to in and out of the shower.2. There is a portable design, you can take it away.3. Take a shower or cut nails for your pets without getting scratched.4. 420D PU oxford cloth, strong and durable.5. Multi‑functional and multi‑scene application, such as cat bathing, nail clipping, ear pulling, medicine, injection, etc.Specification:Condition: 100% Brand NewItem Type: Cat Bath BagMaterial: 420D PU Oxford ClothColor: As Pictures Shown Product Size: Approx. 49x26 cm/19.3x10.2 inWeight: Approx. 108.0gSuitable for pet type: CatProduct Function: A no scratching ba",
+  "image": "https://m.media-amazon.com/images/I/41RrjwPPQpL._SS522_.jpg",
+  "sku": "amazon-pet-B09B98BDVB",
+  "brand": {
+    "@type": "Brand",
+    "name": "Ouee"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "pet-grooming",
+    "pet-supplies",
+    "cats",
+    "grooming",
+    "claw-care"
+  ]
+}

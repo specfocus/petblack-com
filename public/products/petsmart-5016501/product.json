@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5016501",
+  "name": "Tetra® Aquarium Ick Guard",
+  "description": "Tetra&reg; Aquarium Ick Guard",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5016501",
+  "brand": {
+    "@type": "Brand",
+    "name": "Tetra"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 4.09,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4,
+    "reviewCount": 53
+  },
+  "keywords": [
+    "fish-food",
+    "fish",
+    "food-and-care",
+    "disease-treatment",
+    "tetra-aquarium-ick-guard-18095-html"
+  ]
+}

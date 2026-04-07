@@ -1,0 +1,32 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-258230",
+  "name": "Ware Living Room Series Ferret Cage",
+  "description": "Enjoy comfort, safety and convenient cleaning with the Ware Living Room Series Ferret Cage. This cozy cage comes complete with shelves, ramps, a bowl and other accessories to help your fuzzy friend feel right at home. It’s made with durable plastic, powder-coated metal and chew-proof welded steel. Narrow 1-inch bar spacing helps prevent your adventurous fellow from sneaking out. Plus, the full size slide-out pan makes cleanups a breeze!",
+  "image": "",
+  "sku": "chewy-258230",
+  "brand": {
+    "@type": "Brand",
+    "name": "Ware"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 319.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 2.625,
+    "reviewCount": 8
+  },
+  "keywords": [
+    "small-pet-food",
+    "small-pet",
+    "shop-by-small-pet",
+    "ferret",
+    "cages-habitats",
+    "cages"
+  ]
+}

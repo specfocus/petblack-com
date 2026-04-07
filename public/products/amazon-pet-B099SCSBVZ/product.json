@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B099SCSBVZ",
+  "name": "Parrots Playing Toy, 3pcs Hand Woven Bird Rattan Toys for Forage for Birds",
+  "description": "Feature:1. Hand woven hanging bird toys are ideal for birds that easily chew, bite, forage and hide snacks.2. The unique design, made from natural rattan balls and filled with brightly colored paper threads, immediately draws the birds' attention and enhances their playtime.3. Entertaining enough for the birds to play for long periods of time, as well as filling the canes with snacks, wood or crinkled paper.4. These include 3 types of foraging and biting toys, which are made from a variety of coloured crinkled paper. Excellent for birds for entertainment and physical exercise.5. Great parrots ",
+  "image": "https://m.media-amazon.com/images/I/51kZX0to9aL._SS522_.jpg",
+  "sku": "amazon-pet-B099SCSBVZ",
+  "brand": {
+    "@type": "Brand",
+    "name": "Sutinna"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 1.429,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "keywords": [
+    "bird-toy",
+    "pet-supplies",
+    "birds",
+    "toys"
+  ]
+}

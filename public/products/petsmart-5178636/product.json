@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5178636",
+  "name": "Wellness® CORE® Kitten Dry Cat Food - Turkey & Chicken, Natural, Grain Free",
+  "description": "Wellness&reg; CORE&reg; Kitten Dry Cat Food - Turkey &amp; Chicken, Natural, Grain Free",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5178636",
+  "brand": {
+    "@type": "Brand",
+    "name": "Wellness"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 12.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.4267,
+    "reviewCount": 150
+  },
+  "keywords": [
+    "cat-dry-food",
+    "cat",
+    "food-and-treats",
+    "dry-food"
+  ]
+}

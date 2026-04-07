@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B07Y9L8D96",
+  "name": "Interesting Bite Toy, Non-Toxic Smooth Round Edge Bird Toy, Bite-Resistant Acrylic for Birds Parrots",
+  "description": "Feature:1. Helps birds to exercise, also develops intelligence and recognizes colors.2. Smooth round edge, will not harm the pet's mouth, suitable for parrots and other birds.3. Educational toys can develop pet bird intelligence, enhance interaction with the owner, relieve bite hair depression and other issues.4. Using acrylic material, non-toxic, bite-resistant, not easily damaged and durable.5. Toys are rich in different colors, interesting and lovely to attract pet birds attention.Specification:Condition: 100% Brand New Item Type: Bite ToyMaterial: AcrylicColor: As shown in the pictureSize:",
+  "image": "https://m.media-amazon.com/images/I/31EmXTVirLL._SS522_.jpg",
+  "sku": "amazon-pet-B07Y9L8D96",
+  "brand": {
+    "@type": "Brand",
+    "name": "Yuniror"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 1.224,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "keywords": [
+    "bird-toy",
+    "pet-supplies",
+    "birds",
+    "toys"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-693110",
+  "name": "Petsmile Professional Toothbrush + Rotisserie Chicken Flavor Dog Toothpaste, 4.2-oz tube",
+  "description": "Petsmile Professional Dog & Cat Toothbrush — Your pup’s pearly whites and feline’s grin have never been brighter! The Petsmile Professional Pet Toothbrush is designed to effectively remove plaque, food and bacteria from teeth and gums. A patented 45-degree angled brush head allows side and center bristles to polish teeth while scrubbing hard-to-reach areas. Featuring dual ends that fit dogs and cats of all sizes, the toothbrush’s grip helps you stay in control if your pet is a bit unruly! Regular brushing helps reduce your furry friends’ risk of gum disease and tooth decay—how paw-some!",
+  "image": "",
+  "sku": "chewy-693110",
+  "brand": {
+    "@type": "Brand",
+    "name": "Petsmile"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 37.05,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "dog-health",
+    "dog",
+    "healthcare",
+    "dental-care",
+    "toothbrushes"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5301407",
+  "name": "Only Natural Pet PowerGrains Adult Dry Dog Food - Poultry Feast, With-Grain, Chicken",
+  "description": "Only Natural Pet PowerGrains Adult Dry Dog Food - Poultry Feast, With-Grain, Chicken",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5301407",
+  "brand": {
+    "@type": "Brand",
+    "name": "Only Natural Pet"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 15.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.5208,
+    "reviewCount": 48
+  },
+  "keywords": [
+    "dog-dry-food",
+    "dog",
+    "food",
+    "dry-food"
+  ]
+}

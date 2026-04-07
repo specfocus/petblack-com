@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-52719",
+  "name": "Hill's Science Diet Adult Small Bites Lamb Meal & Brown Rice Recipe Dry Dog Food",
+  "description": "Hill's Science Diet Adult Advanced Fitness Small Bites Lamb Meal & Rice Dry Dog Food provides your pup with precise nutrition for a healthy lifestyle. Made with wholesome ingredients such as lamb meal and rice, this nourishing recipe is balanced to meet your pet’s needs, encourage strong, learn muscles, and promote a healthy skin and coat. Manufactured in the United States, every ingredient meets strict requirements for purity and nutrient content which exceed industry standards. Formulated for adult dogs 1 to 6 years of age, this Hill’s Science Diet provides your pooch with the nutrition he needs for a lifetime of health and happiness.",
+  "image": "https://image.chewy.com/is/image/catalog/52719_MAIN._AC_SS500_V1661896140_.jpg",
+  "sku": "chewy-52719",
+  "brand": {
+    "@type": "Brand",
+    "name": "Hill's Science Diet"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 79.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.7044,
+    "reviewCount": 159
+  },
+  "keywords": [
+    "dog-dry-food",
+    "dog",
+    "food",
+    "dry-food"
+  ]
+}

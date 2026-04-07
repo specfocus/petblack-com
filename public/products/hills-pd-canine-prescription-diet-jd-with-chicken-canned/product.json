@@ -1,0 +1,24 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "hills-pd-canine-prescription-diet-jd-with-chicken-canned",
+  "name": "j/d Wet Dog Food with Chicken",
+  "description": "Improving your dog's mobility can be as easy as feeding the right nutrition early on and consistently. Hill's Prescription Diet j/d helps your dog walk, run and jump more easily in as little as 21 days. Hill's Prescription Diet j/d Dog Food is a complete and balanced food that provides all the nutrition your dog needs.",
+  "image": "",
+  "sku": "hills-pd-canine-prescription-diet-jd-with-chicken-canned",
+  "brand": {
+    "@type": "Brand",
+    "name": "Hill's Pet Nutrition"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "GBP",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "dog-wet-food",
+    "dog",
+    "joint-care"
+  ]
+}

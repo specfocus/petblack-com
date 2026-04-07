@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5258907",
+  "name": "Kentucky Wildcats NCAA Hoodie T-Shirt",
+  "description": "Kentucky Wildcats NCAA Hoodie T-Shirt",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5258907",
+  "brand": {
+    "@type": "Brand",
+    "name": "Pets First"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 24.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 5,
+    "reviewCount": 1
+  },
+  "keywords": [
+    "dog-accessory",
+    "dog",
+    "clothing-and-shoes",
+    "jerseys-and-team-sports"
+  ]
+}

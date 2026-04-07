@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5277811",
+  "name": "Dentley's® Extra Tough 10&quot; Rawhide Rolls Dog Chew - 7 Count",
+  "description": "Dentley's&reg; Extra Tough 10&quot; Rawhide Rolls Dog Chew - 7 Count",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5277811",
+  "brand": {
+    "@type": "Brand",
+    "name": "Dentley's"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 17.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.6667,
+    "reviewCount": 15
+  },
+  "keywords": [
+    "dog-treat",
+    "dog",
+    "treats",
+    "bones-and-rawhide"
+  ]
+}

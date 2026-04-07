@@ -1,0 +1,18 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-dry-food",
+  "url": "https://www.hillspet.co.uk/dog-food/sp-canine-science-plan-adult-7-plus-light-medium-with-chicken-dry",
+  "foodForm": "dry food",
+  "lifeStage": "senior",
+  "breedSize": "medium",
+  "flavour": "with chicken",
+  "calories": "3125 kcal/kg (313 kcal/100g)",
+  "moisture": "8.0",
+  "protein": "17.4",
+  "fat": "10.5",
+  "ingredients": "['turkey_meal', 'sunflower_oil', 'flaxseed', 'crustacean_shell_hydrolysate', 'green_pea', 'chicken_meal', 'beet', 'wheat', 'corn', 'chicken_fat']",
+  "category": [
+    "weight-management",
+    "aging-care"
+  ]
+}

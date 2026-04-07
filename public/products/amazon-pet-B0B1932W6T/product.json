@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B0B1932W6T",
+  "name": "KHATI Natural Grass Woven Bird Nest Bird Breeding Hatch Cage Parrot Rest Place",
+  "description": "Description:Hand woven grass canery nest, which is environmentally friendly.Designed with metal hooks, easy to put up onto the side of bird cage, adding something fun.Providing a safe habitat for your lovely feathered ones to rest, courtship, breed, etc.Great decoration for home, garden, bars, cafes and so on.Size: approx.18x18x18cm /7.09x7.09x7.09inchSpecification:Material: BambooColor: as the pictures shownSize: approx.18x18x18cm /7.09x7.09x7.09inchPackage Includes:1 Piece of Canary NestNote:Due to handmade products, each one is not completely identical.Please allow slim measuring error due ",
+  "image": "https://m.media-amazon.com/images/I/51ttM4voFVL._SS522_.jpg",
+  "sku": "amazon-pet-B0B1932W6T",
+  "brand": {
+    "@type": "Brand",
+    "name": "Generic"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 1.48,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "keywords": [
+    "bird-toy",
+    "pet-supplies",
+    "birds",
+    "birdcage-accessories",
+    "nests"
+  ]
+}

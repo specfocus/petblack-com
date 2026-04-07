@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B09C5HLCQQ",
+  "name": "Dog Trust Plastic Tower of Tracks Cat Turntable Toy with Balls Pet Amusement Interactive Board Game Toys (Colour May Vary)",
+  "description": "This cat toy set comes with one 3 levels of ball stages tower toy all in very bright colors, orange and rainbow color, eye-catching to dog and cats, easy to attract their attention. This cat track toy elevates playtime and interactive play with your cat, bring more fun to your life with your love cat. The pet stages tower of tracks is the perfect way for your curious cat to get the mental and physical exercise they need to stay healthy and engaged from day to day while channeling their hunting instincts as they chase down the fast-moving balls. Sure to make your cat go crazy: Dog Trust happily",
+  "image": "https://m.media-amazon.com/images/I/41ML81YLWFL._SS522_.jpg",
+  "sku": "amazon-pet-B09C5HLCQQ",
+  "brand": {
+    "@type": "Brand",
+    "name": "Dog Trust"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 399,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "dog-toy",
+    "pet-supplies",
+    "cats",
+    "toys",
+    "interactive-toys"
+  ]
+}

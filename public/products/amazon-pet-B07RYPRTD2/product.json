@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B07RYPRTD2",
+  "name": "Petlinks Mustache Mania Catnip Cat Toy",
+  "description": "Petlinks mustache Mania catnip cat toy is so cute you might not want your cat to have it! Long plush faux fur tail and mustache, with plush body and filled with our organic catnip. Petlinks products enhance the way that people and Pets live and play together. The Innovations behind our thoughtful, fun and effective products are driven by consumer Insights, extensive research and thorough testing. Incorporating environmentally friendly, sustainable and organic MATERIALS whenever possible, Our products are designed to child safety standards and are backed by our 100. so pet parents can rest easy",
+  "image": "https://m.media-amazon.com/images/I/5174LZXzCsL._SS522_.jpg",
+  "sku": "amazon-pet-B07RYPRTD2",
+  "brand": {
+    "@type": "Brand",
+    "name": "Petlinks"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 1.558,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "keywords": [
+    "cat-toy",
+    "pet-supplies",
+    "cats",
+    "toys",
+    "catnip-toys"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5322504",
+  "name": "Collachews Rawhide Alternative 6&quot; Rolls Collagen Dog Treats - Natural, Bully",
+  "description": "Collachews Rawhide Alternative 6&quot; Rolls Collagen Dog Treats - Natural, Bully",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5322504",
+  "brand": {
+    "@type": "Brand",
+    "name": "Collachews"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 24.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 5,
+    "reviewCount": 2
+  },
+  "keywords": [
+    "dog-accessory",
+    "dog",
+    "treats",
+    "bones-and-rawhide"
+  ]
+}

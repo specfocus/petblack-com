@@ -1,0 +1,16 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-dry-food",
+  "url": "https://www.hillspet.com/dog-food/sd-canine-adult-7-plus-perfect-digestion-chicken-brown-rice-oats-dry",
+  "foodForm": "dry food",
+  "lifeStage": "senior",
+  "flavour": "chicken, whole oats & brown rice recipe",
+  "calories": "3559 kcal/kg 363 kcal/cup†",
+  "moisture": "0.0",
+  "protein": "21.0",
+  "fat": "13.0",
+  "ingredients": "['barley', 'salt', 'brown_rice', 'flaxseed', 'chicken_meal', 'lactic_acid', 'beet', 'citrus', 'pumpkin', 'fish_oil', 'soybean_oil', 'rice', 'chicken', 'oat', 'corn', 'ground_pecan_shell', 'cranberry', 'chicken_fat']",
+  "category": [
+    "aging-care"
+  ]
+}

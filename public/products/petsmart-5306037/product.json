@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5306037",
+  "name": "Instinct® Raw Meals Freeze-Dried Adult Dog Food - Grain Free, Grass-Fed Lamb",
+  "description": "Instinct&reg; Raw Meals Freeze-Dried Adult Dog Food - Grain Free, Grass-Fed Lamb",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5306037",
+  "brand": {
+    "@type": "Brand",
+    "name": "Instinct"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 5.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.4,
+    "reviewCount": 5
+  },
+  "keywords": [
+    "dog-dry-food",
+    "dog",
+    "food",
+    "dry-food"
+  ]
+}

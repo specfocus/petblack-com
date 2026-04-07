@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5246504",
+  "name": "Hill's® Science Diet® Healthy Cuisine Kitten Wet Cat Food - Chunks & Gravy, 2.8 oz",
+  "description": "Hill's&reg; Science Diet&reg; Healthy Cuisine Kitten Wet Cat Food - Chunks &amp; Gravy, 2.8 oz",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5246504",
+  "brand": {
+    "@type": "Brand",
+    "name": "Hill's Science Diet"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 1.79,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.6774,
+    "reviewCount": 31
+  },
+  "keywords": [
+    "cat-wet-food",
+    "cat",
+    "food-and-treats",
+    "wet-food"
+  ]
+}

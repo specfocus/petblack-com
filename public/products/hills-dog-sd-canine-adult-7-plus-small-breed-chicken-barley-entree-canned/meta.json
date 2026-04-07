@@ -1,0 +1,17 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-wet-food",
+  "url": "https://www.hillspet.com/dog-food/sd-canine-adult-7-plus-small-breed-chicken-barley-entree-canned",
+  "foodForm": "wet food",
+  "lifeStage": "senior",
+  "breedSize": "small",
+  "flavour": "chicken & barley entrée",
+  "calories": "167 kcal/ 5.8oz (165g) can",
+  "moisture": "78.0",
+  "protein": "4.774",
+  "fat": "3.234",
+  "ingredients": "['barley', 'salt', 'pork_liver', 'flaxseed', 'water', 'beet', 'soybean_oil', 'whey', 'corn', 'chicken']",
+  "category": [
+    "aging-care"
+  ]
+}

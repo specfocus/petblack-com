@@ -1,0 +1,16 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-dry-food",
+  "url": "https://www.hillspet.co.uk/dog-food/pd-canine-prescription-diet-ud-dry",
+  "foodForm": "dry food",
+  "lifeStage": "-",
+  "flavour": "original",
+  "calories": "3980 kcal/kg (398 kcal/100g)",
+  "moisture": "8.0",
+  "protein": "10.2",
+  "fat": "18.8",
+  "ingredients": "['carrot', 'flaxseed', 'sunflower_oil', 'chicken_broth', 'rice', 'egg']",
+  "category": [
+    "urinary-care"
+  ]
+}

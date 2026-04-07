@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5281443",
+  "name": "Solid Gold Wholesome Selects&trade; Adult Cat Food - Chunks, Grain Free, Gluten Free",
+  "description": "Solid Gold Wholesome Selects&amp;trade; Adult Cat Food - Chunks, Grain Free, Gluten Free",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5281443",
+  "brand": {
+    "@type": "Brand",
+    "name": "Solid Gold"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 1.69,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 3.5,
+    "reviewCount": 8
+  },
+  "keywords": [
+    "cat-wet-food",
+    "cat",
+    "food-and-treats",
+    "wet-food"
+  ]
+}

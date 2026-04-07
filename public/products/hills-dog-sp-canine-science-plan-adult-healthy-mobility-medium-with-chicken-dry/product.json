@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "hills-dog-sp-canine-science-plan-adult-healthy-mobility-medium-with-chicken-dry",
+  "name": "healthy mobility adult medium breed dry dog food with chicken",
+  "description": "hill's science plan healthy mobility medium adult dog food with chicken is specifically formulated to support joint health for an active life. key benefits epa from fish oil helps joint cartilage healthy. proven nutrition to support joint flexibility glucosamine & chondroitin are building blocks of healthy cartilage.",
+  "image": "",
+  "sku": "hills-dog-sp-canine-science-plan-adult-healthy-mobility-medium-with-chicken-dry",
+  "brand": {
+    "@type": "Brand",
+    "name": "Hill's Pet Nutrition"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "GBP",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "dog-dry-food",
+    "musculoskeletal-and-joint-care",
+    "protein-18.6pct",
+    "adult",
+    "medium-breed",
+    "with-chicken"
+  ]
+}

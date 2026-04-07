@@ -1,0 +1,17 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-dry-food",
+  "url": "https://www.hillspet.com/dog-food/pd-dd-canine-skin-support-potato-and-salmon-formula-dry",
+  "foodForm": "dry food",
+  "lifeStage": "-",
+  "flavour": "potato & salmon recipe",
+  "calories": "3643 kcal/kg 372 kcal/cup†",
+  "moisture": "0.0",
+  "protein": "18.5",
+  "fat": "16.0",
+  "ingredients": "['salt', 'salmon', 'potato', 'lactic_acid', 'fish_oil', 'coconut_oil', 'potato_protein', 'soybean_oil']",
+  "category": [
+    "food-sensitivity",
+    "skin-health"
+  ]
+}

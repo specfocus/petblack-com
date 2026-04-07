@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "hills-dog-sd-canine-puppy-large-breed-lamb-meal-brown-rice-recipe-dry",
+  "name": "puppy large breed lamb meal & brown rice recipe",
+  "description": "hill's science diet large breed puppy dry food is specially made with an optimal level of calcium for controlled bone growth, a unique developmental need of large breed puppies. formulated with vital nutrients to support 5 essential building blocks for lifelong health.",
+  "image": "",
+  "sku": "hills-dog-sd-canine-puppy-large-breed-lamb-meal-brown-rice-recipe-dry",
+  "brand": {
+    "@type": "Brand",
+    "name": "Hill's Pet Nutrition"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "GBP",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "dog-dry-food",
+    "puppy-care",
+    "protein-27.9pct",
+    "puppy",
+    "large-breed",
+    "lamb-meal-brown-rice-recipe"
+  ]
+}

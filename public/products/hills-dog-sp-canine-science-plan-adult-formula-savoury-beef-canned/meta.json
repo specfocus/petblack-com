@@ -1,0 +1,16 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-wet-food",
+  "url": "https://www.hillspet.co.uk/dog-food/sp-canine-science-plan-adult-formula-savoury-beef-canned",
+  "foodForm": "wet food",
+  "lifeStage": "adult",
+  "flavour": "with beef",
+  "calories": "331.5 kcal (370 g) can",
+  "moisture": "77.0",
+  "protein": "5.8",
+  "fat": "3.1",
+  "ingredients": "['rice', 'beef', 'sunflower_oil', 'carrot']",
+  "category": [
+    "adult-care"
+  ]
+}

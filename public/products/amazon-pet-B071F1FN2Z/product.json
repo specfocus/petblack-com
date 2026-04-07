@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B071F1FN2Z",
+  "name": "Pets Empire Best Stainless Steel Birds Coop Cup Feeder Bowl with Clamp Holder Combo Offer, 500 ml (Pack of 3)",
+  "description": "Birds are little choosy when it comes to their diet. You cannot make them eat forcefully, the best way to maintaining the nutrition of the caged bird is to feed him adequately in a nice way. You may choose from our range of coop cup with clamps/screws which will give your bird a happy eating time. It is necessary that the containers from which your birds are feeding must be free from contamination. That is why we manufacture stainless steel coop cups that are stain resistant, scratch resistant and rust resistant cups.",
+  "image": "https://m.media-amazon.com/images/I/31geltAxtDL._SS522_.jpg",
+  "sku": "amazon-pet-B071F1FN2Z",
+  "brand": {
+    "@type": "Brand",
+    "name": "Visit the PETS EMPIRE Store"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 379,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "bird-toy",
+    "pet-supplies",
+    "birds",
+    "feeding-watering-supplies"
+  ]
+}

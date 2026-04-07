@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-92315",
+  "name": "Isle of Dogs Violet + Sea Mist Replascent Odor Deodorizing Spray",
+  "description": "Freshen things up, including your furry family member, with this invigorating Isle of Dogs Violet + Sea Mist Replascent Odor Spray. This deodorizing spray can be used directly on your canine companion, in your home, or wherever you need a subtle burst of fragrance!",
+  "image": "",
+  "sku": "chewy-92315",
+  "brand": {
+    "@type": "Brand",
+    "name": "Isle of Dogs"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 9.34,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 3.9333,
+    "reviewCount": 30
+  },
+  "keywords": [
+    "pet-grooming",
+    "dog",
+    "cleaning-potty",
+    "deodorizers-air-purifiers"
+  ]
+}

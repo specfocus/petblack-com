@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5197044",
+  "name": "High Tech Pet® Fence Yard Staples",
+  "description": "High Tech Pet&reg; Fence Yard Staples",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5197044",
+  "brand": {
+    "@type": "Brand",
+    "name": "High Tech Pet"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 25.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 1,
+    "reviewCount": 2
+  },
+  "keywords": [
+    "dog-accessory",
+    "dog",
+    "crates-gates-and-containment",
+    "fence-systems"
+  ]
+}

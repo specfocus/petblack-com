@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5181810",
+  "name": "ThunderShirt® Insanely Calm&trade; Cat Anxiety Shirt",
+  "description": "ThunderShirt&reg; Insanely Calm&amp;trade; Cat Anxiety Shirt",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5181810",
+  "brand": {
+    "@type": "Brand",
+    "name": "ThunderShirt"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 41.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.2,
+    "reviewCount": 10
+  },
+  "keywords": [
+    "cat-health",
+    "cat",
+    "dental-care-and-wellness",
+    "treatments"
+  ]
+}

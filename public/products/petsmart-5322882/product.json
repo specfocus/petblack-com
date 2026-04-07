@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5322882",
+  "name": "Delectables Savory Broths Senior Lickable Cat Treat - Chicken & Tuna",
+  "description": "Delectables Savory Broths Senior Lickable Cat Treat - Chicken &amp; Tuna",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5322882",
+  "brand": {
+    "@type": "Brand",
+    "name": "Delectables"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 1.19,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.5,
+    "reviewCount": 32
+  },
+  "keywords": [
+    "cat-treat",
+    "cat",
+    "food-and-treats",
+    "treats"
+  ]
+}

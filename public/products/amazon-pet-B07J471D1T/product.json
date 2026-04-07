@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B07J471D1T",
+  "name": "Niteangel Small Pet Fun Tunnel, 39 x 4 inches - Fit Adult Ferrets and Rats (Pink)",
+  "description": "Give your small pet 39 inches tunneling fun with Niteangel fun tunnel toys. An excellent way to interact with your pet and satisfy his natural tunneling instinct. This Tunnel Toy has a unique accordion design that is completely flexible and allows you to set up in all different positions and will fit in any cage. Niteangel Small Animal Tunnel Toy is made of durable plastic that is stain-resistant and easy to clean. This fun tunnel is great for pets, gives them the ability to run and hide which is great for encouraging active playtime and relieving cage boredom.",
+  "image": "https://m.media-amazon.com/images/I/31DHUjeEdpL._SS522_.jpg",
+  "sku": "amazon-pet-B07J471D1T",
+  "brand": {
+    "@type": "Brand",
+    "name": "Niteangel®"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 799,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "small-pet-toy",
+    "pet-supplies",
+    "small-animals",
+    "houses-habitats",
+    "tubes-tunnels"
+  ]
+}

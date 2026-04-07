@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-163975",
+  "name": "Icelandic+ Cod Skin Strips Dog Treats, 16-oz bag",
+  "description": "Give your pup a treat straight from the pure waters of the North Atlantic with Cod Skin Strips from Icelandic+. These treats feature Icelandic cod skins as the only ingredient with no additives, supplements or preservatives. The cod is line-caught daily and processed immediately for freshness your paw-tner can taste. These skins are rich in omega-3 fatty acids to support healthy skin and a shiny coat. They also promote dental wellness in your furry friend by reducing tartar and plaque build-up for healthier teeth and gums. Icelandic+ Cod Skin Strips Dog Treats even come in a resealable bag to keep them nice and fresh for your companion.",
+  "image": "https://image.chewy.com/is/image/catalog/163975_MAIN._AC_SS500_V1553871125_.jpg",
+  "sku": "chewy-163975",
+  "brand": {
+    "@type": "Brand",
+    "name": "Icelandic+"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 34.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.0323,
+    "reviewCount": 31
+  },
+  "keywords": [
+    "dog-health",
+    "dog",
+    "treats",
+    "bones-bully-sticks-natural-chews",
+    "natural-chews"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B0827V38ZN",
+  "name": "Boltz Bird Litter Spray, Medium, 200 ml, 1 Piece",
+  "description": "Boltz bird litter spray acts as disinfectant and antimicrobial agent | Natural extract: Boltz bird litter spray contains lemon grass perfume which will make your bird cage smell fresh | Remove litter odour: Boltz bird litter spray removes birds litter odour in cages | Cage freshener: It acts as freshener for your birds and birds like lemon grass fragrance | Easy to use: Spray 6-7 sprays in bird cage and around it after cleaning as per smell and size of cage",
+  "image": "https://m.media-amazon.com/images/I/31rEtxYxPlL._SS522_.jpg",
+  "sku": "amazon-pet-B0827V38ZN",
+  "brand": {
+    "@type": "Brand",
+    "name": "Visit the BOLTZ Store"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 241.53,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "bird-toy",
+    "pet-supplies",
+    "birds",
+    "health-supplies"
+  ]
+}

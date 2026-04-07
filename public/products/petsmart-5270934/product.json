@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5270934",
+  "name": "CHI® Rubber Fur Accumulator Dog Brush",
+  "description": "CHI&reg; Rubber Fur Accumulator Dog Brush",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5270934",
+  "brand": {
+    "@type": "Brand",
+    "name": "CHI"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 7.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.0769,
+    "reviewCount": 13
+  },
+  "keywords": [
+    "pet-grooming",
+    "dog",
+    "grooming-supplies",
+    "brushes-combs-and-blowdryers"
+  ]
+}

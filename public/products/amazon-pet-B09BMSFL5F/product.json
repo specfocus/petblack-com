@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B09BMSFL5F",
+  "name": "Interactive Cat Toy, Interactive Cat Toy Ball Automatic Funny Cat Ball Toy Batteries Operated Electric Funny Cat Toy Ball for Indoor Cats",
+  "description": "Feature:1. The electric funny cat ball, an irregular sports ball with catnip and simulation fish, is a key to open the source of happiness for cats.2. All accessories are put into the rolling ball, and its exterior is made of environmentally friendly plastic which will not harm animals.3. With centrifugal rolling device, it will automatically change direction when encountering obstacles, so don't worry about your toy stuck in the corner.4. The cat toy ball can promote cats to do exercise and reduce health problems such as sagging abdomen and fatty liver.5. The ball helps to consume excess ener",
+  "image": "https://m.media-amazon.com/images/I/31h+rIu5EgL._SS522_.jpg",
+  "sku": "amazon-pet-B09BMSFL5F",
+  "brand": {
+    "@type": "Brand",
+    "name": "FILR"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 1.721,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "keywords": [
+    "cat-toy",
+    "pet-supplies",
+    "cats",
+    "toys",
+    "interactive-toys"
+  ]
+}

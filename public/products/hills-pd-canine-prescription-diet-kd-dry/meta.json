@@ -1,0 +1,16 @@
+{
+  "source": "hills-product-nutrients",
+  "bucket": "dog-dry-food",
+  "url": "https://www.hillspet.co.uk/dog-food/pd-canine-prescription-diet-kd-dry",
+  "species": "dog",
+  "foodForm": "dry food",
+  "lifeStage": "adult, senior",
+  "breedSize": "large breed, medium breed, small breed",
+  "flavour": "Original",
+  "calories": "4021 kcal/kg (402 kcal/100g)",
+  "moisture": "8%",
+  "protein": "13.90%",
+  "fat": "20.50%",
+  "ingredients": "COMPOSITION: Cereals, oils and fats (fish oil 2%), derivatives of vegetable origin, eggs and egg derivatives, vegetable protein extracts, meat and animal derivatives, minerals, seeds. Protein sources: Dried whole eggs, pea protein. ActivBiome+ Kidney Defense prebiotic blend (1.1%): Betaine, oat bran, fructo-oligosaccharides. ANALYTICAL CONSTITUENTS: Protein 13.9%, Fat content 20.5%, Crude fibre 1.5%, Crude ash 4.4%, Omega-3 fatty acids 1.1%, Calcium 0.63%, Phosphorus 0.27%, Sodium 0.16%, Potassium 0.68%, Magnesium 0.10%; per kg: Vitamin A 8,759IU, Vitamin D3 734IU, Vitamin E 575mg, Vitamin C 90mg, Beta-carotene 1.5mg, L-carnitine 531mg. ADDITIVES PER KG: Nutritional additives: 3b103 (Iron) 90.1mg, 3b202 (Iodine) 2.2mg, 3b405 (Copper) 8.9mg, 3b502 (Manganese) 9.3mg, 3b603 (Zinc) 158mg, 3b801 (Selenium) 0.2mg, 3a920 (Betaine) 5g, with natural antioxidant.",
+  "needPreference": "Kidney Care"
+}

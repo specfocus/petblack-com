@@ -1,0 +1,16 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-dry-food",
+  "url": "https://www.hillspet.co.uk/dog-food/pd-canine-prescription-diet-wd-chicken-dry",
+  "foodForm": "dry food",
+  "lifeStage": "-",
+  "flavour": "with chicken",
+  "calories": "3176 kcal/kg (318 kcal/100g)",
+  "moisture": "8.0",
+  "protein": "20.8",
+  "fat": "11.3",
+  "ingredients": "['carrot', 'barley', 'sunflower_oil', 'wheat', 'corn', 'oat', 'chicken']",
+  "category": [
+    "weight-management"
+  ]
+}

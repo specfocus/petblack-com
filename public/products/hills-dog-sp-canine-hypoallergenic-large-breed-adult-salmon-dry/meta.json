@@ -1,0 +1,17 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-dry-food",
+  "url": "https://www.hillspet.co.uk/dog-food/sp-canine-hypoallergenic-large-breed-adult-salmon-dry",
+  "foodForm": "dry food",
+  "lifeStage": "adult",
+  "breedSize": "large",
+  "flavour": "with salmon",
+  "calories": "3700 kcal/kg (370 kcal/100g)",
+  "moisture": "8.0",
+  "protein": "19.9",
+  "fat": "14.9",
+  "ingredients": "['carrot', 'yellow_pea', 'salmon', 'flaxseed', 'sunflower_oil', 'tomato', 'green_pea', 'potato', 'beet', 'citrus', 'tuna', 'spinach', 'chicken_fat']",
+  "category": [
+    "food-sensitivity"
+  ]
+}

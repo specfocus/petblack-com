@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B09Y8WWMTD",
+  "name": "Meri SHOPP Pet Dog Braided Leather Collar Cat Buckle Puppy Collar Neck Strap Colorful",
+  "description": "Description:Brand new and Good Quality.Pet Braided Leather collar, making your pets more attractive and cool.Durable material, comfortable, durable and fashionable.Adjustable safety dog collar, easily to make the collar fit your dog sizeA great gift for your lovely pet. Material: leather+rope, Size: approx. 49x3cm/19.29x1.18inchPackage Includes:1 Piece Pet CollarNote:Since the size above is measured by hand, the size of the actual item you received could be slightly different from the size above. Meanwhile, please be reminded that due to lighting effects, monitor brightness / contrast settings",
+  "image": "https://m.media-amazon.com/images/I/41ZEbppfRZL._SS522_.jpg",
+  "sku": "amazon-pet-B09Y8WWMTD",
+  "brand": {
+    "@type": "Brand",
+    "name": "Generic"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "dog-accessory",
+    "pet-supplies",
+    "cats",
+    "collars-harnesses-leashes",
+    "collars"
+  ]
+}

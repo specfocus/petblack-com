@@ -1,0 +1,29 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-1051261",
+  "name": "Rep-Cal Maintenance Formula Adult Bearded Dragon Food",
+  "description": "Rep-Cal Maintenance Formula Adult Bearded Dragon Food",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-1051261",
+  "brand": {
+    "@type": "Brand",
+    "name": "Rep-Cal"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 9.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 3.6,
+    "reviewCount": 15
+  },
+  "keywords": [
+    "other-pet",
+    "reptile",
+    "food"
+  ]
+}

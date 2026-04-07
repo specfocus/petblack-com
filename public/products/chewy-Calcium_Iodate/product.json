@@ -1,0 +1,18 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-Calcium Iodate",
+  "name": "Manganese Proteinate",
+  "description": "Manganese Proteinate",
+  "image": "",
+  "sku": "chewy-Calcium Iodate",
+  "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "other-pet"
+  ]
+}

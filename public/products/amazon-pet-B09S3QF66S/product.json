@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B09S3QF66S",
+  "name": "Pigeons Egg Nests, Professional Pigeons Cage Accessory Durable Plastic Exquisite for Hatching Tool for Breeding Equipment",
+  "description": "Feature:1. Using safe plastic materials, non‑toxic, odorless, and durable to use.2. Suitable for hatching of various small animals, such as birds and pigeons.3. Hollow appearance design, small and compact, suitable for placing eggs.4. Easy to install and use, which can be hung directly on the bird cage.5. The breeding equipment is exquisite in workmanship and easy to clean.Specification:Item Type: Eggs Hatching ToolMaterial: PlasticWeight: Approx. 575g / 20.3ozProduct Size: Approx. 24.7x23.5x7.2cm / 9.7x9.3x2.8inPurpose: Suitable for all kinds of small animals, such as birds hatching Package L",
+  "image": "https://m.media-amazon.com/images/I/41sa+nCRjlL._SS522_.jpg",
+  "sku": "amazon-pet-B09S3QF66S",
+  "brand": {
+    "@type": "Brand",
+    "name": "Hoseten"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 1.897,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "bird-toy",
+    "pet-supplies",
+    "birds",
+    "birdcage-accessories",
+    "nests"
+  ]
+}

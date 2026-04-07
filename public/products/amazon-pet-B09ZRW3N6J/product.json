@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B09ZRW3N6J",
+  "name": "Cat Litter Box, Prevent Splash Semi Enclosed Litter Box Sturdy for Cats for Small Pets for Dogs",
+  "description": "Specification:Item Type: Semi Enclosed Litter BoxMaterial: PPSize: Approx. 36 x 27 x 14.5cm/14.2 x 10.6 x 5.7innPackage List:1 x Cat Litter Box1 x Cat Litter Box Cover1 x Cat Litter ScoopNote:1. Please allow 1‑2cm/0.4‑0.8in error for manual measurement2. Please measure your pet to make sure the size is accurate.",
+  "image": "https://m.media-amazon.com/images/I/31XpYR5VfsL._SS522_.jpg",
+  "sku": "amazon-pet-B09ZRW3N6J",
+  "brand": {
+    "@type": "Brand",
+    "name": "bizofft"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "cat-accessory",
+    "pet-supplies",
+    "cats",
+    "litter-housebreaking",
+    "litter-boxes"
+  ]
+}

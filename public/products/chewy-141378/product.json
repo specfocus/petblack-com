@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-141378",
+  "name": "Frisco Open Top Cat Litter Box With Rim, Large 19-in",
+  "description": "This open-top litter box from Frisco by Chewy provides a roomy, private place for cats to do their business. To keep litter and spray inside the box, there’s a rim around the sides and back wall that also acts as a privacy shield. Cats can step in and out of the box easily through the lowered front side, and the removable top rim and open-box design make it easy to scoop the litter or spot clean small messes. This litter box is made with BPA-free plastic that’s recyclable, so it’s ready for plenty of digging and pawing around, and perfect for eco-minded households.",
+  "image": "https://image.chewy.com/is/image/catalog/141378_MAIN._AC_SS500_V1675279581_.jpg",
+  "sku": "chewy-141378",
+  "brand": {
+    "@type": "Brand",
+    "name": "Frisco"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 11.07,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.5351,
+    "reviewCount": 656
+  },
+  "keywords": [
+    "pet-grooming",
+    "cat",
+    "litter-accessories",
+    "litter-boxes",
+    "litter-pans"
+  ]
+}

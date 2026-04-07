@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B088VVPL18",
+  "name": "Pet Craft Supply Taco Truck 2 Pack",
+  "description": "TBD",
+  "image": "https://m.media-amazon.com/images/I/410cpWyxmTS._SS522_.jpg",
+  "sku": "amazon-pet-B088VVPL18",
+  "brand": {
+    "@type": "Brand",
+    "name": "Pet Craft Supply"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 1.827,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "keywords": [
+    "small-pet-accessory",
+    "pet-supplies",
+    "cats",
+    "toys",
+    "mice-animal-toys"
+  ]
+}

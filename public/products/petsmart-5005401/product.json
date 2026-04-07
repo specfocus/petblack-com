@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5005401",
+  "name": "PetSafe® Wireless Pet Containment System Receiver Dog Collar",
+  "description": "PetSafe&reg; Wireless Pet Containment System Receiver Dog Collar",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5005401",
+  "brand": {
+    "@type": "Brand",
+    "name": "PetSafe"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 144.95,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.234,
+    "reviewCount": 47
+  },
+  "keywords": [
+    "dog-accessory",
+    "dog",
+    "crates-gates-and-containment",
+    "fence-systems"
+  ]
+}

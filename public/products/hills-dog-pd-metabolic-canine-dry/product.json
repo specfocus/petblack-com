@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "hills-dog-pd-metabolic-canine-dry",
+  "name": "metabolic chicken flavor dog food",
+  "description": "just like the human obesity epidemic, over 55% of the pet population is overweight. even a little extra weight can impact the pet's quality of life and relationship with family as the extra weight can reduce play time, impact mobility and affect the lifelong general health of your dog. maintaining ideal weight can help impact life expectancy by reducing risk of weight-related conditions. 쉽고 효과적인 체중 감량을 위한 반려견의 대사능력 활성화 반려견 자체 지방 연소 능력 활성화 독자적인 섬유소 포뮬러으로 반려견에게 포만감과 만족감을 줌",
+  "image": "",
+  "sku": "hills-dog-pd-metabolic-canine-dry",
+  "brand": {
+    "@type": "Brand",
+    "name": "Hill's Pet Nutrition"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "GBP",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "dog-dry-food",
+    "weight-management",
+    "protein-28.0pct",
+    "-",
+    "chicken-flavor"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-wet-food",
+  "url": "https://www.hillspet.com/dog-food/pd-metabolic-plus-mobility-canine-vegetable-and-tuna-stew-canned",
+  "foodForm": "wet food",
+  "lifeStage": "-",
+  "flavour": "vegetable & tuna stew",
+  "moisture": "86.0",
+  "protein": "3.9340000000000006",
+  "fat": "2.0860000000000003",
+  "ingredients": "['carrot', 'pork_liver', 'flaxseed', 'tomato', 'water', 'fish_oil', 'coconut_oil', 'egg_whites', 'rice', 'tuna', 'wheat', 'corn', 'spinach']",
+  "category": [
+    "weight-management",
+    "musculoskeletal-and-joint-care"
+  ]
+}

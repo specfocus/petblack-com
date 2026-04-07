@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "hills-dog-pd-canine-cd-multicare-low-fat-chicken-dry",
+  "name": "c/d multicare low fat dog food",
+  "description": "bladder stones are collections of mineral crystals that combine together in the urinary tract. they can cause discomfort and lead to more serious problems that require the care of a veterinarian. helps lower concentration of building blocks for bladder stones controlled calcium, low sodium, & added potassium citrate controlled fat to help lower blood fat levels",
+  "image": "",
+  "sku": "hills-dog-pd-canine-cd-multicare-low-fat-chicken-dry",
+  "brand": {
+    "@type": "Brand",
+    "name": "Hill's Pet Nutrition"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "GBP",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "dog-dry-food",
+    "urinary-care",
+    "protein-22.0pct",
+    "-",
+    "chicken-flavor"
+  ]
+}

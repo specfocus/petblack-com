@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5285990",
+  "name": "Simply Nourish® Source Cat Meal Topper - 1 Oz, Natural, Grain Free",
+  "description": "Simply Nourish&reg; Source Cat Meal Topper - 1 Oz, Natural, Grain Free",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5285990",
+  "brand": {
+    "@type": "Brand",
+    "name": "Simply Nourish"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 5.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.5652,
+    "reviewCount": 23
+  },
+  "keywords": [
+    "cat-dry-food",
+    "cat",
+    "food-and-treats",
+    "treats"
+  ]
+}

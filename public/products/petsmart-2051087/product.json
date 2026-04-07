@@ -1,0 +1,29 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-2051087",
+  "name": "Zoo Med Reptisafe Instant Terrarium Water Conditioner",
+  "description": "Zoo Med Reptisafe Instant Terrarium Water Conditioner",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-2051087",
+  "brand": {
+    "@type": "Brand",
+    "name": "Zoo Med"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 4.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.8125,
+    "reviewCount": 16
+  },
+  "keywords": [
+    "other-pet",
+    "featured-shops",
+    "cyber-monday"
+  ]
+}

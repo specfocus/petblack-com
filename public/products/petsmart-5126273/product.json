@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5126273",
+  "name": "WARE® Indoor Hutch 4 Level Small Animal Cage",
+  "description": "WARE&reg; Indoor Hutch 4 Level Small Animal Cage",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5126273",
+  "brand": {
+    "@type": "Brand",
+    "name": "Ware"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 159.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 3.35,
+    "reviewCount": 20
+  },
+  "keywords": [
+    "small-pet-accessory",
+    "small-pet",
+    "cages-habitats-and-hutches",
+    "hutches"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5287810",
+  "name": "Wellness® Complete Health Senior Cat Food - Natural, Grain Free, Chicken & Chicken Meal",
+  "description": "Wellness&reg; Complete Health Senior Cat Food - Natural, Grain Free, Chicken &amp; Chicken Meal",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5287810",
+  "brand": {
+    "@type": "Brand",
+    "name": "Wellness"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 21.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.2544,
+    "reviewCount": 169
+  },
+  "keywords": [
+    "cat-dry-food",
+    "cat",
+    "food-and-treats",
+    "dry-food"
+  ]
+}

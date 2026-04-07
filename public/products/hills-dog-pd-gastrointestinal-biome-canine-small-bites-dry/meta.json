@@ -1,0 +1,17 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-dry-food",
+  "url": "https://www.hillspet.co.uk/dog-food/pd-gastrointestinal-biome-canine-small-bites-dry",
+  "foodForm": "dry food",
+  "lifeStage": "-",
+  "breedSize": "small",
+  "flavour": "with chicken",
+  "calories": "3430 kcal/kg (343 kcal/100g)",
+  "moisture": "8.0",
+  "protein": "21.3",
+  "fat": "13.2",
+  "ingredients": "['carrot', 'turkey_meal', 'flaxseed', 'sunflower_oil', 'apple', 'chicken_meal', 'rice', 'chicken', 'corn', 'chicken_fat']",
+  "category": [
+    "digestive-care"
+  ]
+}

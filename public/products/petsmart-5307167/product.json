@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5307167",
+  "name": "Pet Head Quick Fix No-Rinse Foam for Dogs - Peach + Argan Oil - 6.7 Oz",
+  "description": "Pet Head Quick Fix No-Rinse Foam for Dogs - Peach + Argan Oil - 6.7 Oz",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5307167",
+  "brand": {
+    "@type": "Brand",
+    "name": "Pet Head"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 12.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 5,
+    "reviewCount": 6
+  },
+  "keywords": [
+    "dog-accessory",
+    "dog",
+    "grooming-supplies",
+    "wipes-and-deodorizers"
+  ]
+}

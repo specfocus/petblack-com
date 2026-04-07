@@ -1,0 +1,16 @@
+{
+  "source": "hills-product-nutrients",
+  "bucket": "dog-wet-food",
+  "url": "https://www.hillspet.co.uk/dog-food/pd-canine-prescription-diet-ld-canned",
+  "species": "dog",
+  "foodForm": "wet food",
+  "lifeStage": "adult",
+  "breedSize": "small breed, medium breed, large breed",
+  "flavour": "Original",
+  "calories": "338.2 kcal (370 g) can",
+  "moisture": "74%",
+  "protein": "4.90%",
+  "fat": "6.10%",
+  "ingredients": "COMPOSITION: Cereals, oils and fats, vegetable protein extracts, eggs and egg derivatives, meat and animal derivatives, seeds, minerals, derivatives of vegetable origin. Protein sources: Soybean meal, dried whole eggs, maize gluten meal. ANALYTICAL CONSTITUENTS: Protein 4.9%, Fat content 6.1%, Crude fibre 0.74%, Crude ash 1.3%, Moisture 74.1%, Calcium 0.18%, Phosphorus 0.14%, Sodium 0.05%, Potassium 0.23%, Magnesium 0.03%; per kg: Vitamin A 8,906IU, Vitamin D3 406IU, Total copper 0.8mg. ADDITIVES PER KG: Nutritional additives: 3b103 (Iron) 9.8mg, 3b202 (Iodine) 0.2mg, 3b502 (Manganese) 19.2mg, 3b603 (Zinc) 21.6mg.",
+  "needPreference": "Liver Care"
+}

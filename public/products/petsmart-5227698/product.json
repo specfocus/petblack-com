@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5227698",
+  "name": "Drymate® Leopard Print Personalized Placemat",
+  "description": "Drymate&reg; Leopard Print Personalized Placemat",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5227698",
+  "brand": {
+    "@type": "Brand",
+    "name": "Drymate"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 19.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 3.6667,
+    "reviewCount": 3
+  },
+  "keywords": [
+    "dog-accessory",
+    "dog",
+    "bowls-and-feeders",
+    "placemats"
+  ]
+}

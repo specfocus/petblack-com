@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5119416",
+  "name": "Marineland® C360 Canister Filter",
+  "description": "Marineland&reg; C360 Canister Filter",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5119416",
+  "brand": {
+    "@type": "Brand",
+    "name": "Marineland"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 249.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 3.25,
+    "reviewCount": 72
+  },
+  "keywords": [
+    "fish-accessory",
+    "fish",
+    "filters-and-pumps",
+    "filters"
+  ]
+}

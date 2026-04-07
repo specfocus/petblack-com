@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B09P8RX26L",
+  "name": "CuddlyPet Hammock for Dogs",
+  "description": "[ Powerful Functions ]: Even at home, you can easily accomplish the same things as the pet hospital grooming table, such as trimming nails, grooming, bathing, eye, and ear health care, injections, checking various body indicators, etc. 🐕 [ Suitable for Most Cats & Small Dogs ]: Suitable for cats, small dogs, medium dogs under 30 lb, eg: Cats, Poodle, Bichon Frise, Chihuahua, Fawn, Pug, Papillon, Pomeranian, Pekingese, Maltese, Yorkshire Terrier, etc. 🐕 [ Professional Dog Grooming Kit ]: Nail clipper x 1(safety stop guard design), Nail file x 1, Pet comb x 1 (rounded ends stainless steel teet",
+  "image": "https://m.media-amazon.com/images/I/41qXzfsNrCL._SS522_.jpg",
+  "sku": "amazon-pet-B09P8RX26L",
+  "brand": {
+    "@type": "Brand",
+    "name": "Generic"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 850,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "pet-grooming",
+    "pet-supplies",
+    "cats",
+    "grooming",
+    "claw-care"
+  ]
+}

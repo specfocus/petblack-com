@@ -1,0 +1,17 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-dry-food",
+  "url": "https://www.hillspet.com/dog-food/sd-canine-adult-light-small-breed-dry",
+  "foodForm": "dry food",
+  "lifeStage": "adult",
+  "breedSize": "small",
+  "flavour": "chicken meal, barley & brown rice recipe",
+  "calories": "2972 kcal/kg 261 kcal/cup†",
+  "moisture": "0.0",
+  "protein": "25.0",
+  "fat": "8.3",
+  "ingredients": "['barley', 'salt', 'brown_rice', 'flaxseed', 'green_pea', 'lactic_acid', 'beet', 'soybean_oil', 'rice', 'corn', 'oat', 'chicken_meal', 'soybean', 'whole_grain_sorghum']",
+  "category": [
+    "weight-management"
+  ]
+}

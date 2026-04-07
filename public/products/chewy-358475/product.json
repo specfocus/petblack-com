@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-358475",
+  "name": "Frisco Ho Ho Ho Dog & Cat Hat",
+  "description": "Looks like Ol’ Saint Nick’s gotten himself stuck down another chimney, but this time it’s on your furry friend’s new holiday hat, from Frisco by Chewy! The blue-and-white knit gives off a wintery nighttime vibe, while the Santa graphic adds that pop of interest for major style points. It also features an adjustable chin strap and ear holes so you can get the perfect fit every time.",
+  "image": "https://image.chewy.com/is/image/catalog/358475_MAIN._AC_SS500_V1660759443_.jpg",
+  "sku": "chewy-358475",
+  "brand": {
+    "@type": "Brand",
+    "name": "Frisco"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 8.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "dog-accessory",
+    "cat",
+    "clothing-accessories",
+    "accessories",
+    "hats"
+  ]
+}

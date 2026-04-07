@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "hills-dog-sp-canine-science-plan-puppy-healthy-development-lamb-and-rice-dry",
+  "name": "puppy medium breed dry dog food with lamb & rice",
+  "description": "hill's science plan medium puppy dog food with lamb & rice is rich in flavour & carefully formulated for the developmental needs of puppies, so they get the best start in life & grow to their full potential. dha from fish oil for healthy brain & eye development high-quality protein for building lean muscles balanced minerals for strong bones & teeth",
+  "image": "",
+  "sku": "hills-dog-sp-canine-science-plan-puppy-healthy-development-lamb-and-rice-dry",
+  "brand": {
+    "@type": "Brand",
+    "name": "Hill's Pet Nutrition"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "GBP",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "dog-dry-food",
+    "puppy-care",
+    "protein-27.5pct",
+    "puppy",
+    "medium-breed",
+    "lamb-and-rice"
+  ]
+}

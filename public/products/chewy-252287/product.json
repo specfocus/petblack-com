@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-252287",
+  "name": "B&G Martin Faux Leather Poly Fill Cushion Insert Dog & Cat Bed",
+  "description": "Your furbaby deserves to be pampered and the B&G Martin Faux Leather Poly Fill Cushion Insert Dog & Cat Bed makes that su-paw easy. This pet bed is 100% vegan and cruelty-free, paw-fect for any animal lover and their best friend. The faux leather cover provides a luxurious feel and fits into most home décor––it will beautifully complement other leather furniture in your home. A polyfill cushion insert helps to keep your furbaby comfortable while catching some Z’s. Just wipe down the bed for easy cleaning.",
+  "image": "https://image.chewy.com/is/image/catalog/252287_MAIN._AC_SS500_V1603497110_.jpg",
+  "sku": "chewy-252287",
+  "brand": {
+    "@type": "Brand",
+    "name": "B&G Martin"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 199,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4,
+    "reviewCount": 4
+  },
+  "keywords": [
+    "dog-accessory",
+    "dog",
+    "beds",
+    "pillow-beds"
+  ]
+}

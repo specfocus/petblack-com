@@ -1,0 +1,29 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5278509",
+  "name": "KAYTEE® Clean & Cozy&trade; Extreme Odor Control Small Pet Bedding",
+  "description": "KAYTEE&reg; Clean &amp; Cozy&amp;trade; Extreme Odor Control Small Pet Bedding",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5278509",
+  "brand": {
+    "@type": "Brand",
+    "name": "Kaytee"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 26.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.6915,
+    "reviewCount": 94
+  },
+  "keywords": [
+    "small-pet-accessory",
+    "small-pet",
+    "litter-and-bedding"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5275270",
+  "name": "Illinois Fighting Illini NCAA Reversible Pet Bandana",
+  "description": "Illinois Fighting Illini NCAA Reversible Pet Bandana",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5275270",
+  "brand": {
+    "@type": "Brand",
+    "name": "Pets First"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 14.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "dog-accessory",
+    "dog",
+    "clothing-and-shoes",
+    "jerseys-and-team-sports"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "source": "petsmart",
+  "url": "https://www.petsmart.com/cat/food-and-treats/wet-food/wellness-core-95%25-wet-cat-food---natural-grain-free-49792.html",
+  "breadcrumb": "cat > food-and-treats > wet-food > wellness-core-95%25-wet-cat-food---natural-grain-free-49792.html",
+  "bucket": "cat-wet-food",
+  "gtin13": "0076344179801",
+  "images": {
+    "large": "https://s7d2.scene7.com/is/image/PetSmart/5280656?$sclp-prd-main_large$",
+    "medium": "https://s7d2.scene7.com/is/image/PetSmart/5280656?$sclp-prd-main_medium$",
+    "small": "https://s7d2.scene7.com/is/image/PetSmart/5280656?$sclp-prd-main_small$"
+  }
+}

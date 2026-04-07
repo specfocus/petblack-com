@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-129816",
+  "name": "Sporn Tree Stump Aquarium Ornament",
+  "description": "Upgrade your aquarium style with the Sporn Tree Stump Aquarium Ornament. Designed to add a touch of nature to any aquarium set up, this tree stump features a detailed and realistic design that’s been hand painted by an expert artisan. It looks like an actual miniature tree stump and is made with an aquarium-safe, non-toxic resin that’s great for freshwater or saltwater aquariums. Not only does it look great, but it also adds a stress-free place where your fish or invertebrates can hide, adding to the enrichment of your aquarium environment. Plus, it’s easy to wipe clean to keep your tank spotless and is safe for your plants, fish, and invertebrates.",
+  "image": "",
+  "sku": "chewy-129816",
+  "brand": {
+    "@type": "Brand",
+    "name": "Sporn"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 34.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.1333,
+    "reviewCount": 15
+  },
+  "keywords": [
+    "fish-accessory",
+    "fish",
+    "shop-by-fish-type",
+    "saltwater-fish-shop"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5313199",
+  "name": "Mobile Dog Gear Week Away Tote Pet Travel Bag",
+  "description": "Mobile Dog Gear Week Away Tote Pet Travel Bag",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5313199",
+  "brand": {
+    "@type": "Brand",
+    "name": "Mobile Dog Gear"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 69.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 5,
+    "reviewCount": 6
+  },
+  "keywords": [
+    "dog-accessory",
+    "dog",
+    "crates-gates-and-containment",
+    "backpacks"
+  ]
+}

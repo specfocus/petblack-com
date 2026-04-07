@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B09BQY598C",
+  "name": "RvPaws Mouse Cat Toy for Cats and Kittens (Pack of 2)",
+  "description": "RvPaw Size: Small - cat mice toy is a safe indoor prey, awaken your cat's natural hunting instinct, and fueling your cat's desire to stalk and chase, it’s a great stress relief toy for cats to keep them healthy and active. Your cat will play, scratch and chew on these fun catnip toys, not your furniture!",
+  "image": "https://m.media-amazon.com/images/I/41eYL5fK1fL._SS522_.jpg",
+  "sku": "amazon-pet-B09BQY598C",
+  "brand": {
+    "@type": "Brand",
+    "name": "Visit the RvPaws Store"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 249,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "cat-treat",
+    "pet-supplies",
+    "cats",
+    "toys",
+    "mice-animal-toys"
+  ]
+}

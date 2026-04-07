@@ -1,0 +1,29 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-373169",
+  "name": "Miracle Salt Collective Natural Himalayan Salt Lick, 4.4-lb brick",
+  "description": "Replenish your herds’ necessary nutrients, naturally.  Miracle Salt Collective Natural Himalayan Salt Lick is an organic Himalayan pink salt supplement that can be used every day by horses, cattle, deer, elk, bison, sheep, goats, moose and even birds for beak sharpening! This brick contains over 84 different minerals including iron, magnesium, and calcium and is an ideal way to help your farm friends replace depleted nutrients.",
+  "image": "https://image.chewy.com/is/image/catalog/373169_MAIN._AC_SS500_V1673385966_.jpg",
+  "sku": "chewy-373169",
+  "brand": {
+    "@type": "Brand",
+    "name": "Miracle Salt Collective"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 12.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 5,
+    "reviewCount": 1
+  },
+  "keywords": [
+    "farm-animal-food",
+    "horse",
+    "feed-treats"
+  ]
+}

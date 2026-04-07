@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5322182",
+  "name": "Made By Nacho&trade; Pate Wet Cat Food - Natural, 3 oz",
+  "description": "Made By Nacho&amp;trade; Pate Wet Cat Food - Natural, 3 oz",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5322182",
+  "brand": {
+    "@type": "Brand",
+    "name": "Made by Nacho"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 1.89,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "keywords": [
+    "cat-wet-food",
+    "cat",
+    "food-and-treats",
+    "wet-food"
+  ]
+}

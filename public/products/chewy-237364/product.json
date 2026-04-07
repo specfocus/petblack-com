@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-237364",
+  "name": "LET Lighting 2x24W Miro-4 T5 High-Output Dimmable Retrofit Kit, 24-in",
+  "description": "With the LET Lighting 2x24W Miro-4 T5 High-Output Dimmable Retrofit Kit, you can ensure that your aquarium is always perfectly lit. This two-bulb kit is easy to install. It’s suitable as a main lighting source, or add it to your existing lighting to get just the look that you want. The kit includes everything you need, from the ballast and end caps to reflectors and lamp clips. You can even mix and match sizes, using two bulbs in one size and two bulbs in another to create the perfect setting for your fish friends. Thanks to the dimmable feature, you can control the intensity of the T5 bulbs from 0 to 10 volts input for ideal mood lighting.",
+  "image": "",
+  "sku": "chewy-237364",
+  "brand": {
+    "@type": "Brand",
+    "name": "LET Lighting"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 99.95,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "fish-accessory",
+    "fish",
+    "lighting",
+    "light-fixtures"
+  ]
+}

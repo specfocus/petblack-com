@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5175796",
+  "name": "KAYTEE® Rabbit Home Habitat",
+  "description": "KAYTEE&reg; Rabbit Home Habitat",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5175796",
+  "brand": {
+    "@type": "Brand",
+    "name": "Kaytee"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 108.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 3.3333,
+    "reviewCount": 3
+  },
+  "keywords": [
+    "small-pet-accessory",
+    "small-pet",
+    "cages-habitats-and-hutches",
+    "cages",
+    "kaytee-rabbit-home-habitat-44847-html"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5181514",
+  "name": "Trixie Moriles Cat Tree",
+  "description": "Trixie Moriles Cat Tree",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5181514",
+  "brand": {
+    "@type": "Brand",
+    "name": "Trixie"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 86.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 3.5,
+    "reviewCount": 4
+  },
+  "keywords": [
+    "cat-accessory",
+    "cat",
+    "beds-and-furniture",
+    "furniture-and-towers",
+    "trixie-moriles-cat-tree-17213-html"
+  ]
+}

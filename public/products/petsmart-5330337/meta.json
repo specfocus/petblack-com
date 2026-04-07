@@ -1,0 +1,12 @@
+{
+  "source": "petsmart",
+  "url": "https://www.petsmart.com/dog/clothing-and-shoes/sweaters-and-coats/fresh-pawz-pastel-pink-dog-hoodie-71820.html",
+  "breadcrumb": "dog > clothing-and-shoes > sweaters-and-coats > fresh-pawz-pastel-pink-dog-hoodie-71820.html",
+  "bucket": "dog-accessory",
+  "gtin13": "0842221009109",
+  "images": {
+    "large": "https://s7d2.scene7.com/is/image/PetSmart/5330337?$sclp-prd-main_large$",
+    "medium": "https://s7d2.scene7.com/is/image/PetSmart/5330337?$sclp-prd-main_medium$",
+    "small": "https://s7d2.scene7.com/is/image/PetSmart/5330337?$sclp-prd-main_small$"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "hills-dog-sd-canine-adult-perfect-weight-large-breed-dry",
+  "name": "adult perfect weight large breed chicken recipe dog food",
+  "description": "this weight management dog food was created with hill’s unique understanding of the biology of overweight dogs. over 70% of dogs lost weight within 10 weeks with science diet perfect weight dry dog food — and now it comes in a larger kibble for large breed dogs.feed this breakthrough nutrition for your large breed dog’s healthy weight maintenance and long-lasting weight support. weight management dog food in a larger kibble for large breed dogs over 70% of dogs lost weight within 10 weeks dry dog food for healthy weight maintenance and long-lasting weight support lean muscle support natural in",
+  "image": "",
+  "sku": "hills-dog-sd-canine-adult-perfect-weight-large-breed-dry",
+  "brand": {
+    "@type": "Brand",
+    "name": "Hill's Pet Nutrition"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "GBP",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "dog-dry-food",
+    "weight-management",
+    "musculoskeletal-and-joint-care",
+    "protein-28.6pct",
+    "-",
+    "large-breed",
+    "chicken-recipe"
+  ]
+}

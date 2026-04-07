@@ -1,0 +1,18 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-dry-food",
+  "url": "https://www.hillspet.com/dog-food/sd-canine-puppy-large-breed-dry",
+  "foodForm": "dry food",
+  "lifeStage": "puppy",
+  "breedSize": "large",
+  "flavour": "chicken & brown rice recipe",
+  "calories": "3628 kcal/kg 391 kcal/cup†",
+  "moisture": "0.0",
+  "protein": "26.3",
+  "fat": "15.4",
+  "ingredients": "['lactic_acid', 'corn', 'oat', 'soybean', 'brown_rice', 'salt', 'flaxseed', 'fish_oil', 'ground_pecan_shell', 'chicken', 'chicken_meal', 'barley', 'chicken_fat', 'green_pea', 'beet', 'citrus', 'rice', 'wheat', 'cranberry']",
+  "category": [
+    "puppy-care",
+    "musculoskeletal-and-joint-care"
+  ]
+}

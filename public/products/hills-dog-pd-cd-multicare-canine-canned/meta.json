@@ -1,0 +1,15 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-wet-food",
+  "url": "https://www.hillspet.com/dog-food/pd-cd-multicare-canine-canned",
+  "foodForm": "wet food",
+  "lifeStage": "-",
+  "flavour": "chicken flavor",
+  "moisture": "78.0",
+  "protein": "5.346",
+  "fat": "3.652",
+  "ingredients": "['salt', 'pork_liver', 'flaxseed', 'water', 'fish_oil', 'soybean_oil', 'rice', 'beef_liver', 'corn', 'chicken', 'soybean']",
+  "category": [
+    "urinary-care"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "source": "petsmart",
+  "url": "https://www.petsmart.com/dog/clothing-and-shoes/bandanas-bows-and-hats/fresh-pawz-le-fleur-cooling-dog-bandanna-71818.html",
+  "breadcrumb": "dog > clothing-and-shoes > bandanas-bows-and-hats > fresh-pawz-le-fleur-cooling-dog-bandanna-71818.html",
+  "bucket": "dog-accessory",
+  "gtin13": "0842221010709",
+  "images": {
+    "large": "https://s7d2.scene7.com/is/image/PetSmart/5330160?$sclp-prd-main_large$",
+    "medium": "https://s7d2.scene7.com/is/image/PetSmart/5330160?$sclp-prd-main_medium$",
+    "small": "https://s7d2.scene7.com/is/image/PetSmart/5330160?$sclp-prd-main_small$"
+  }
+}

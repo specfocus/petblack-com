@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B0002AS668",
+  "name": "Kaytee CritterTrail Fun-nel Look-Out",
+  "description": "The Kaytee CritterTrail Lazy Look-out offers a great way to expand your pet's living space to create the ultimate habitat. Provides extra room to roam for your pet hamster, mouse, or gerbil. The dual purpose Lazy Look-out is designed to be a safe nesting area or look-out tower for curious critters. Kaytee CritterTrail Fun-nels accessories are designed to stimulate pet's natural instincts and encourage activity. The wide variety of accessories feature innovative designs, are connectable and adapt to all tubular units. If you dream it, you can build it! Available in a selection of vibrant colors",
+  "image": "https://m.media-amazon.com/images/I/41N8gFfjtjS._SS522_.jpg",
+  "sku": "amazon-pet-B0002AS668",
+  "brand": {
+    "@type": "Brand",
+    "name": "Kaytee"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 2.517,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "small-pet-accessory",
+    "pet-supplies",
+    "small-animals",
+    "houses-habitats",
+    "tubes-tunnels"
+  ]
+}

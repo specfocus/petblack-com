@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B0B1D7RT73",
+  "name": "GlobalNiche® Sky Blue, L: 100Pcs/Lot Cat Nail Caps Cat Soft Paws Cat Claw 4Size Xs, S,M, L Free Adhesive Colourful and Mixture Size Colour Available",
+  "description": "GlobalNiche Sky Blue, L: 100Pcs/Lot Cat Nail Caps Cat Soft Paws Cat Claw 4Size Xs, S,M, L Free Adhesive Colourful and Mixture Size Colour Available",
+  "image": "https://m.media-amazon.com/images/I/51oJgWBEgfL._SS522_.jpg",
+  "sku": "amazon-pet-B0B1D7RT73",
+  "brand": {
+    "@type": "Brand",
+    "name": "Generic"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 3.775,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "keywords": [
+    "cat-dry-food",
+    "pet-supplies",
+    "cats",
+    "food",
+    "dry"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5315994",
+  "name": "Previcox Chewable Tablets for Dogs 57 mg",
+  "description": "Previcox Chewable Tablets for Dogs 57 mg",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5315994",
+  "brand": {
+    "@type": "Brand",
+    "name": "Previcox"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 105.03,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "dog-health",
+    "pharmacy",
+    "dog",
+    "arthritis-and-pain-relief"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5297145",
+  "name": "Whisker City Grey Cat Blanket",
+  "description": "Whisker City Grey Cat Blanket",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5297145",
+  "brand": {
+    "@type": "Brand",
+    "name": "Whisker City"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 9.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.75,
+    "reviewCount": 12
+  },
+  "keywords": [
+    "cat-accessory",
+    "cat",
+    "beds-and-furniture",
+    "furniture-and-towers"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B07PK3QFT4",
+  "name": "SRI Soft Cat Premium Bed (Blue)",
+  "description": "Gorgeous luxurious Pet bed is the original Gorgeous pet bed, its stylish yet simplistic design offers the highest level of comfort for your pet.our product is manufactured using high grade raw material that ensures their durability.we never compromise with quality.we use premium quality of polyster for long life of product.our product is use indoor as well as outdoor",
+  "image": "https://m.media-amazon.com/images/I/41EJzvGKROL._SS522_.jpg",
+  "sku": "amazon-pet-B07PK3QFT4",
+  "brand": {
+    "@type": "Brand",
+    "name": "Visit the SRI Store"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 699,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "cat-accessory",
+    "pet-supplies",
+    "cats",
+    "beds-furniture",
+    "beds"
+  ]
+}

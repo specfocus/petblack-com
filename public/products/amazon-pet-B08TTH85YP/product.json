@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B08TTH85YP",
+  "name": "White Bird cage for Budgies,Finches,Love Birds,Cocktails,Conures,Cuttlefish BoneHolder ,Cuttlefish Bone, 2 Cups ,2 Perch Stick, 2swings and Ladder L : 24\" , B : 18\", H:18 \"- Central Fish Aquarium",
+  "description": "Bird Cage is a suitable cage for budgies, canaries, lovebirds and finches. It provides your bird with lots of room to move around and Vision makes it easy for you to take care of your bird. Bird movements cause air currents, which flow outwards, and in the case of most standard bird cages these air currents eject waste and seed debris outside of the cage and onto the floor.he combination of the debris guard, the deep base and the placement of the seed/water cups helps combat air currents to keep the majority of the waste and debris inside the cage. This reduces the amount of mess and time-cons",
+  "image": "https://m.media-amazon.com/images/I/51Qp-vfp3AL._SS522_.jpg",
+  "sku": "amazon-pet-B08TTH85YP",
+  "brand": {
+    "@type": "Brand",
+    "name": "Visit the CENTRAL FISH AQUARIUM Store"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 2.199,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "bird-toy",
+    "pet-supplies",
+    "birds",
+    "birdcages"
+  ]
+}

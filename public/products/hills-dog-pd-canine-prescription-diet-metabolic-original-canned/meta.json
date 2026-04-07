@@ -1,0 +1,16 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-wet-food",
+  "url": "https://www.hillspet.co.uk/dog-food/pd-canine-prescription-diet-metabolic-original-canned",
+  "foodForm": "wet food",
+  "lifeStage": "-",
+  "flavour": "with chicken",
+  "calories": "294.1 kcal (370 g) can , 162.2 kcal (200 g) can",
+  "moisture": "76.0",
+  "protein": "6.8",
+  "fat": "3.0",
+  "ingredients": "['carrot', 'flaxseed', 'sunflower_oil', 'rice', 'egg', 'chicken']",
+  "category": [
+    "weight-management"
+  ]
+}

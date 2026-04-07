@@ -14,7 +14,10 @@
     "datasets:compile": "tsx datasets4/compile-all.ts",
     "datasets:compile:fashion": "tsx datasets4/compile-fashion.ts",
     "datasets:compile:retail": "tsx datasets4/compile-retail.ts",
-    "datasets:compile:vlm": "tsx datasets4/compile-vlm.ts"
+    "datasets:compile:vlm": "tsx datasets4/compile-vlm.ts",
+    "datasets:compile:pets": "tsx datasets4/compile-pets-products.ts",
+    "datasets:compile:other": "tsx datasets4/compile-pets-other.ts",
+    "datasets:images:petsmart": "tsx datasets4/download-petsmart-images.ts"
   },
   "dependencies": {
     "@emotion/cache": "^11.14.0",

@@ -1,0 +1,16 @@
+{
+  "source": "hills-product-nutrients",
+  "bucket": "dog-wet-food",
+  "url": "https://www.hillspet.co.uk/dog-food/pd-canine-kd-plus-mobility-chicken-canned",
+  "species": "dog",
+  "foodForm": "wet food",
+  "lifeStage": "adult, senior",
+  "breedSize": "large breed, medium breed, small breed",
+  "flavour": "Flavoured with Chicken",
+  "calories": "377 kcal (370 g) can",
+  "moisture": "74%",
+  "protein": "4.10%",
+  "fat": "5.90%",
+  "ingredients": "COMPOSITION: Meat and animal derivatives (chicken 2%), derivatives of vegetable origin, oils and fats, seeds, various sugars, minerals, molluscs and crustaceans. ActivBiome+ Kidney Defense prebiotic blend (0.3%): Betaine, oat bran, fructo-oligosaccharides. Protein sources: Pork liver, chicken. ANALYTICAL CONSTITUENTS: Protein 4.1%, Fat content 5.9%, Crude fibre 0.93%, Crude ash 1.5%, Moisture 74.0%, Omega-3 fatty acids 1.0%, EPA 0.19%, Calcium 0.21%, Phosphorus 0.07%, Sodium 0.05%, Potassium 0.22%, Magnesium 0.03%; per kg: Vitamin A 14,527IU, Vitamin D3 266IU, Vitamin E 201mg. ADDITIVES PER KG: Nutritional additives: 3b103 (Iron) 17.4mg, 3b202 (Iodine) 0.6mg, 3b405 (Copper) 2.9mg, 3b502 (Manganese) 3.8mg, 3b603 (Zinc) 44.7mg, 3a920 (Betaine) 1.4g.",
+  "needPreference": "Kidney Care, Joint Care"
+}

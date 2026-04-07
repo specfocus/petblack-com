@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5139227",
+  "name": "Purina Pro Plan Focus  Kitten Dry Cat Food - With Vitamins, High-Protein, Chicken & Rice",
+  "description": "Purina Pro Plan Focus  Kitten Dry Cat Food - With Vitamins, High-Protein, Chicken &amp; Rice",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5139227",
+  "brand": {
+    "@type": "Brand",
+    "name": "Purina Pro Plan"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 17.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.6955,
+    "reviewCount": 220
+  },
+  "keywords": [
+    "cat-dry-food",
+    "cat",
+    "food-and-treats",
+    "dry-food"
+  ]
+}

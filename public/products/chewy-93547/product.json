@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-93547",
+  "name": "Tomlyn Pill-Masker Bacon Flavored Paste for Cats",
+  "description": "Streamline pill time with Tomlyn Pill-Masker Bacon Flavored Paste for Cats! This shapeable paste is perfect for wrapping around pills of any size to conceal those necessary medications. The feline-focused formula with bacon flavor helps make pills delicious, so you can help keep your kitty healthy and happy. Plus this paste is moist and juicy, to match other cat foods. With this paste, your cat won’t have such a big pill to swallow.",
+  "image": "",
+  "sku": "chewy-93547",
+  "brand": {
+    "@type": "Brand",
+    "name": "Tomlyn"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 10.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 3.7391,
+    "reviewCount": 253
+  },
+  "keywords": [
+    "cat-accessory",
+    "cat",
+    "treats",
+    "soft-chewy-treats"
+  ]
+}

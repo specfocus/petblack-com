@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B0B39FSTC6",
+  "name": "GIANTE Hamster Mouse Hideout House Wooden Living Hut Exercise Funny Nest Toy Green",
+  "description": "Description:Provides small animals with a hideout, promotes nesting and chewing instincts.Made with pet safe materials that is easy to clean and resistant to odors. Ideal hideout hut for hamster, mouse and other small furry animals.Add a colorful look to your pet39;s home, while giving him a fun spot to play. Great gift for your pet, your little friend will like it very much.Specification:Material: WoodSize(LxWxH): Approx. 18x15x14 cm/7.09x5.91x5.51 inchPackage Includes:1 piece Pet Hamster HouseNote:The product needs to be assembled by yourself, thank you.Due to the light and screen setting di",
+  "image": "https://m.media-amazon.com/images/I/316ql31AEvL._SS522_.jpg",
+  "sku": "amazon-pet-B0B39FSTC6",
+  "brand": {
+    "@type": "Brand",
+    "name": "Generic"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 1.639,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "keywords": [
+    "small-pet-toy",
+    "pet-supplies",
+    "small-animals",
+    "houses-habitats",
+    "cages"
+  ]
+}

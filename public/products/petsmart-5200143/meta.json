@@ -1,0 +1,12 @@
+{
+  "source": "petsmart",
+  "url": "https://www.petsmart.com/cat/food-and-treats/wet-food/blue-buffalo-freedomandtrade--adult-wet-cat-food---grain-free-5.5-oz.-18335.html",
+  "breadcrumb": "cat > food-and-treats > wet-food > blue-buffalo-freedomandtrade--adult-wet-cat-food---grain-free-5.5-oz.-18335.html",
+  "bucket": "cat-wet-food",
+  "gtin13": "0859610008940",
+  "images": {
+    "large": "https://s7d2.scene7.com/is/image/PetSmart/5200143?$sclp-prd-main_large$",
+    "medium": "https://s7d2.scene7.com/is/image/PetSmart/5200143?$sclp-prd-main_medium$",
+    "small": "https://s7d2.scene7.com/is/image/PetSmart/5200143?$sclp-prd-main_small$"
+  }
+}

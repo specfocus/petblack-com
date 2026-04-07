@@ -1,0 +1,17 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-dry-food",
+  "url": "https://www.hillspet.co.uk/dog-food/ve-canine-vetessentials-canine-adult-dry",
+  "foodForm": "dry food",
+  "lifeStage": "adult",
+  "breedSize": "large",
+  "flavour": "with chicken",
+  "calories": "3400 kcal/kg (340 kcal/100g)",
+  "moisture": "0.0",
+  "protein": "19.3",
+  "fat": "12.6",
+  "ingredients": "['turkey_meal', 'sunflower_oil', 'flaxseed', 'chicken_meal', 'beet', 'rice', 'chicken', 'wheat', 'corn', 'chicken_fat']",
+  "category": [
+    "dental-care"
+  ]
+}

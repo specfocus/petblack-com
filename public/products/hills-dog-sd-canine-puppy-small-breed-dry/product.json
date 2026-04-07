@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "hills-dog-sd-canine-puppy-small-breed-dry",
+  "name": "puppy small & mini chicken & brown rice recipe",
+  "description": "hill’s science diet small & mini puppy dry food is tailored to the unique needs of small and mini dogs. rich in flavor, it is carefully formulated with vital nutrients to support 5 essential building blocks for lifelong health, so they get the best start in life & grow to their full potential. dha from fish oil for healthy brain & eye development high-quality protein for building lean muscles breakthrough blend of prebiotic fibers to support the gut microbiome and digestive system balanced minerals for strong bones & teeth contains our special small & mini antioxidant blend for lifelong immune",
+  "image": "",
+  "sku": "hills-dog-sd-canine-puppy-small-breed-dry",
+  "brand": {
+    "@type": "Brand",
+    "name": "Hill's Pet Nutrition"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "GBP",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "dog-dry-food",
+    "puppy-care",
+    "protein-28.9pct",
+    "puppy",
+    "small-breed",
+    "chicken-brown-rice-recipe"
+  ]
+}

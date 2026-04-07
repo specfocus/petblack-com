@@ -1,0 +1,17 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-wet-food",
+  "url": "https://www.hillspet.co.uk/dog-food/sd-canine-adult-perfect-weight-small-mini-turkey-canned",
+  "foodForm": "wet food",
+  "lifeStage": "adult",
+  "breedSize": "small",
+  "flavour": "with turkey",
+  "calories": "151.6 kcal (200 g) can",
+  "moisture": "78.0",
+  "protein": "6.2",
+  "fat": "3.0",
+  "ingredients": "['carrot', 'flaxseed', 'sunflower_oil', 'apple', 'egg', 'turkey']",
+  "category": [
+    "weight-management"
+  ]
+}

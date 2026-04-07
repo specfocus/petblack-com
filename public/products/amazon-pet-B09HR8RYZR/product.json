@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B09HR8RYZR",
+  "name": "Big Shoppe Natural Bamboo Bird Nest Birdhouse Handmade Outdoor Garden Birdcage Cage L",
+  "description": "Description:100% natural bamboo made, safe, non-toxic and environmentally friendly.Tightly hand-knitted bird nest, fine workmanship, durable and wear-resistant.Provide your birds with a warm, natural and comfortable place to rest.Convenient to hang inside or outside your house. Also a perfect decor for bird cage.Ideal house for finches, chickadees, sparrows, small parrots, canaries, larks or hamsters, gerbils, mice etc.Specification:Material: GrassSize:S: Approx. 9x7x11cm / 3.54x2.76x4.33inchL: Approx. 13x10x15cm / 5.12x3.94x5.91inchPackage Includes:1 Piece Bird NestNote:1.Please allow a sligh",
+  "image": "https://m.media-amazon.com/images/I/41+w5SLBRZL._SS522_.jpg",
+  "sku": "amazon-pet-B09HR8RYZR",
+  "brand": {
+    "@type": "Brand",
+    "name": "Generic"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "bird-toy",
+    "pet-supplies",
+    "birds",
+    "birdcage-accessories",
+    "nests"
+  ]
+}

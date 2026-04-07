@@ -1,0 +1,32 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-235456",
+  "name": "Ware Chew Proof Small Animal High Rise",
+  "description": "Move your buddy up to his own deluxe apartment with the Ware Chew Proof Small Animal High Rise. This ready-to-assemble high rise converts any ten-gallon aquarium into a multi-level home for your small pet. It offers three distinct levels of living and the durable powder-coated wire helps prevent damage from unwanted nibbling. The mesh design provides good airflow and ventilation, and it includes safe mesh ramps and shelving. The rooftop door also helps make cleaning and accessing your pal easier. It’s luxury living—tiny pet style!",
+  "image": "",
+  "sku": "chewy-235456",
+  "brand": {
+    "@type": "Brand",
+    "name": "Ware"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 49.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 3,
+    "reviewCount": 25
+  },
+  "keywords": [
+    "fish-accessory",
+    "small-pet",
+    "shop-by-small-pet",
+    "hamster",
+    "cages-habitats",
+    "playpens-habitats"
+  ]
+}

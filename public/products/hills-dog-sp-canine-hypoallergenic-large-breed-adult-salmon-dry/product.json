@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "hills-dog-sp-canine-hypoallergenic-large-breed-adult-salmon-dry",
+  "name": "hypoallergenic adult large breed dry dog food with salmon",
+  "description": "hill's science plan hypoallergenic large breed adult dog food with salmon is a gentle recipe formulated with limited high quality novel protein sources & no grain tailored to meet the needs of dogs with sensitivities. key benefits: high quality salmon and tuna as only intact animal protein sources with potatoes and other easy to digest ingredients gentle on the stomach with omega-3 and omega-6 fatty acids for healthy skin nourishment",
+  "image": "",
+  "sku": "hills-dog-sp-canine-hypoallergenic-large-breed-adult-salmon-dry",
+  "brand": {
+    "@type": "Brand",
+    "name": "Hill's Pet Nutrition"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "GBP",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "dog-dry-food",
+    "food-sensitivity",
+    "protein-19.9pct",
+    "adult",
+    "large-breed",
+    "with-salmon"
+  ]
+}

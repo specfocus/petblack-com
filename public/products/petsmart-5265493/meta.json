@@ -1,0 +1,12 @@
+{
+  "source": "petsmart",
+  "url": "https://www.petsmart.com/cat/collars-harnesses-and-leashes/collars/whisker-city-reflective-stripe-cat-collar-42892.html",
+  "breadcrumb": "cat > collars-harnesses-and-leashes > collars > whisker-city-reflective-stripe-cat-collar-42892.html",
+  "bucket": "cat-accessory",
+  "gtin13": "0737257932197",
+  "images": {
+    "large": "https://s7d2.scene7.com/is/image/PetSmart/5265493?$sclp-prd-main_large$",
+    "medium": "https://s7d2.scene7.com/is/image/PetSmart/5265493?$sclp-prd-main_medium$",
+    "small": "https://s7d2.scene7.com/is/image/PetSmart/5265493?$sclp-prd-main_small$"
+  }
+}

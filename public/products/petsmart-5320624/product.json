@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5320624",
+  "name": "Vet Worthy Styptic Powder- Cat",
+  "description": "Vet Worthy Styptic Powder- Cat",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5320624",
+  "brand": {
+    "@type": "Brand",
+    "name": "Vet Worthy"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 15.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "cat-health",
+    "cat",
+    "dental-care-and-wellness",
+    "treatments"
+  ]
+}

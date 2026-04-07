@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B08D96TYCB",
+  "name": "Josopa Bird Toys, Parrot Hemp Rope Climbing Net, Bird Hanging Swing Toy, for Small Birds Parakeet Parrot Cage Perch Stand",
+  "description": "Features: Adopts natural wood and hemp rope, it's durable and safe for bird to bite or chew. This ladder contains many grids for your parrot to climb, fun and interesting. The toy helps your bird exercise more and develop balance and coordination ability. Easy to install in a bird cage with hanging hook design. Suitable for parakeet, parrot and other small birds. Specification:Condition: 100% Brand NewMaterial: Wood, Hemp RopeColor: Shown as PictureSize: approx. 24*24cm/9.45*9.45inWeight: approx. 34g/1.2ozPackage List:1 * Parrot Climbing NetNote:1. Please allow 1-2cm error due to manual measur",
+  "image": "https://m.media-amazon.com/images/I/513dk2YKPDL._SS522_.jpg",
+  "sku": "amazon-pet-B08D96TYCB",
+  "brand": {
+    "@type": "Brand",
+    "name": "Josopa"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "bird-toy",
+    "pet-supplies",
+    "birds",
+    "toys"
+  ]
+}

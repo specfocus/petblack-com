@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "hills-dog-ve-canine-vetessentials-senior-mature-adult-medium-large-dog-food-chicken-dry",
+  "name": "multi-benefit + senior health mature adult medium & large dry dog food",
+  "description": "available exclusively from your veterinarian, hill's vet essentials multi-benefit +senior health mature adult 7+ medium and large breed dog food with chicken is a complete multi-benefit nutrition for mature adult dogs older than 7 years designed to support the ageing brain and body. it provides a precise nutritional balance of energy, protein, vitamins and minerals. not artificially preserved. no synthetic colours. no artificial flavours.",
+  "image": "",
+  "sku": "hills-dog-ve-canine-vetessentials-senior-mature-adult-medium-large-dog-food-chicken-dry",
+  "brand": {
+    "@type": "Brand",
+    "name": "Hill's Pet Nutrition"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "GBP",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "dog-dry-food",
+    "aging-care",
+    "protein-21.2pct",
+    "senior",
+    "large-breed",
+    "with-chicken"
+  ]
+}

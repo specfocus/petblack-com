@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-185981",
+  "name": "The Foggy Dog Onyx Waxed Canvas Dog Waste Bag Holder",
+  "description": "Pick up after your paw-tner in style with The Foggy Dog Onyx Waxed Canvas Dog Waste Bag Holder! This chic piece features black waxed canvas, and a gold zipper and clip for an eye-catching finish. Plus, the clip allows you to easily attach the bag to the O-ring on your leash!",
+  "image": "",
+  "sku": "chewy-185981",
+  "brand": {
+    "@type": "Brand",
+    "name": "The Foggy Dog"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 24,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.3333,
+    "reviewCount": 6
+  },
+  "keywords": [
+    "dog-accessory",
+    "dog",
+    "cleaning-potty",
+    "poop-bags-scoopers",
+    "poop-bag-holders"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-wet-food",
+  "url": "https://www.hillspet.com/dog-food/sd-canine-adult-light-liver-canned",
+  "foodForm": "wet food",
+  "lifeStage": "adult",
+  "flavour": "with liver",
+  "calories": "312 kcal/ 13 oz (370 g) can",
+  "moisture": "78.0",
+  "protein": "5.236",
+  "fat": "1.98",
+  "ingredients": "['salt', 'pork_liver', 'green_pea', 'water', 'soybean_oil', 'corn', 'soybean']",
+  "category": [
+    "weight-management"
+  ]
+}

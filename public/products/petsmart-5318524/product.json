@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5318524",
+  "name": "Full Cheeks Small Pet Scratch & Grind Pumice Ledge",
+  "description": "Full Cheeks Small Pet Scratch &amp; Grind Pumice Ledge",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5318524",
+  "brand": {
+    "@type": "Brand",
+    "name": "Full Cheeks"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 4.97,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.2,
+    "reviewCount": 5
+  },
+  "keywords": [
+    "small-pet-accessory",
+    "small-pet",
+    "toys-and-habitat-accessories",
+    "toys"
+  ]
+}

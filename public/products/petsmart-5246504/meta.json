@@ -1,0 +1,12 @@
+{
+  "source": "petsmart",
+  "url": "https://www.petsmart.com/cat/food-and-treats/wet-food/hills-science-diet-healthy-cuisine-kitten-wet-cat-food---chunks-and-gravy-2.8-oz-33930.html",
+  "breadcrumb": "cat > food-and-treats > wet-food > hills-science-diet-healthy-cuisine-kitten-wet-cat-food---chunks-and-gravy-2.8-oz-33930.html",
+  "bucket": "cat-wet-food",
+  "gtin13": "0052742007175",
+  "images": {
+    "large": "https://s7d2.scene7.com/is/image/PetSmart/5246504?$sclp-prd-main_large$",
+    "medium": "https://s7d2.scene7.com/is/image/PetSmart/5246504?$sclp-prd-main_medium$",
+    "small": "https://s7d2.scene7.com/is/image/PetSmart/5246504?$sclp-prd-main_small$"
+  }
+}

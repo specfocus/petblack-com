@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5243705",
+  "name": "University of California Golden Bears NCAA Jersey",
+  "description": "University of California Golden Bears NCAA Jersey",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5243705",
+  "brand": {
+    "@type": "Brand",
+    "name": "Pets First"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 24.49,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "dog-accessory",
+    "dog",
+    "clothing-and-shoes",
+    "jerseys-and-team-sports"
+  ]
+}

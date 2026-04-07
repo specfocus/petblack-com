@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-207312",
+  "name": "Bluestem Oral Care Chicken Flavored Dog & Cat Dental Water Additive",
+  "description": "Oral hygiene never tasted so delicious with bluestem Oral Care Chicken Flavor Dog and Cat Water Additive! This daily water additive helps protect your fur-iend’s teeth, and has the added bonus of an enticing chicken flavor. The additive is made with special coactiv+ technology, a unique formulation that helps to break down the biofilm where harmful bacteria can multiply on your pal’s teeth and cause bad breath. With 100% food-grade ingredients, it’s safe for daily use to help fight plaque and tartar, freshen breath, and promote good oral hygiene—with a tasty flavor, to boot!",
+  "image": "",
+  "sku": "chewy-207312",
+  "brand": {
+    "@type": "Brand",
+    "name": "Bluestem"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 16.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 3.5,
+    "reviewCount": 2
+  },
+  "keywords": [
+    "dog-health",
+    "cat",
+    "healthcare",
+    "dental-care",
+    "water-additives"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5174441",
+  "name": "Marina® ClearView Background Adhesive Solution",
+  "description": "Marina&reg; ClearView Background Adhesive Solution",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5174441",
+  "brand": {
+    "@type": "Brand",
+    "name": "Marina"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 5.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 1.7143,
+    "reviewCount": 14
+  },
+  "keywords": [
+    "fish-accessory",
+    "fish",
+    "decor-gravel-and-substrate",
+    "backgrounds"
+  ]
+}

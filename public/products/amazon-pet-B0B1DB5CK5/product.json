@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B0B1DB5CK5",
+  "name": "GlobalNiche® Large Bird Play Toy Game RingsToy Bird Gym Training Toy Gnawing Chewing Toy",
+  "description": "GlobalNiche Large Bird Play Toy Game RingsToy Bird Gym Training Toy Gnawing Chewing Toy",
+  "image": "https://m.media-amazon.com/images/I/31+Ene64KtL._SS522_.jpg",
+  "sku": "amazon-pet-B0B1DB5CK5",
+  "brand": {
+    "@type": "Brand",
+    "name": "Generic"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "bird-toy",
+    "pet-supplies",
+    "birds",
+    "toys"
+  ]
+}

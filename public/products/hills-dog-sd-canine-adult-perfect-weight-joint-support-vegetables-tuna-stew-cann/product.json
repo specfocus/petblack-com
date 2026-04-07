@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "hills-dog-sd-canine-adult-perfect-weight-joint-support-vegetables-tuna-stew-canned",
+  "name": "adult perfect weight & joint support hearty vegetables and tuna stew dog food",
+  "description": "great tasting nutrition for a long, happy life. with a wagging tail and licks on your face, no one can say hello like your dog. because every moment you spend together is special, we strive to give you more of them. with wholesome ingredients and the right nutrients, hill’s science diet is precisely prepared to offer your dog the nutrition he needs for lifelong health and happiness.",
+  "image": "",
+  "sku": "hills-dog-sd-canine-adult-perfect-weight-joint-support-vegetables-tuna-stew-canned",
+  "brand": {
+    "@type": "Brand",
+    "name": "Hill's Pet Nutrition"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "GBP",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "dog-wet-food",
+    "weight-management",
+    "musculoskeletal-and-joint-care",
+    "protein-3.99pct",
+    "-",
+    "hearty-vegetables-and-tuna-stew"
+  ]
+}

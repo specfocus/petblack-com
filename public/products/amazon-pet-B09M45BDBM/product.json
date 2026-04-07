@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B09M45BDBM",
+  "name": "DOGBIT Pet Recovery E-Collar for Pet Dogs & Cats, Professional Adjustable Recovery Collar for Surgery, Wound Healing Protection Extra Large Neck 51-54cm",
+  "description": "We have been one professional supplier of Elizabethan E-Collar with so many years experience and we always committed to supply the perfect most reliable product for every our customers forever. Product Demensions: Color:Transparent color with lovely drawings as shown in the picture. Material:Top quality PVC special material with Italy artificial leather serging. APPLICATION:All kinds of dogs or cats. Product Features: - Professional Italy artificial leather serging. -Soft and harmless for your pets. -Professional designed closure made it super convenient to use. - Sturdy and lightweight with t",
+  "image": "https://m.media-amazon.com/images/I/41001ncGmhL._SS522_.jpg",
+  "sku": "amazon-pet-B09M45BDBM",
+  "brand": {
+    "@type": "Brand",
+    "name": "DOGBIT"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 699,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "other-pet",
+    "pet-supplies",
+    "cats",
+    "collars-harnesses-leashes",
+    "collars"
+  ]
+}

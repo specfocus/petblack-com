@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "hills-dog-pd-canine-prescription-diet-id-low-fat-dry",
+  "name": "i/d low fat dog food",
+  "description": "hill's prescription diet i/d low fat is great tasting nutrition to help settle digestive upsets for dogs that need a low fat formula. inappropriate levels of fat in the blood, inability to digest fat, or lack of digestive enzymes can affect your dog's digestive health. efficient digestion is essential for your dog to be able to build and repair tissues and obtain energy, and for these reasons it is important to feed a food that is formulated to help support digestive health. for many dogs experiencing digestive challenges, it's also very important to feed a food with a low fat level. hill's pr",
+  "image": "",
+  "sku": "hills-dog-pd-canine-prescription-diet-id-low-fat-dry",
+  "brand": {
+    "@type": "Brand",
+    "name": "Hill's Pet Nutrition"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "GBP",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "dog-dry-food",
+    "digestive-care",
+    "protein-23.8pct",
+    "-",
+    "with-chicken"
+  ]
+}

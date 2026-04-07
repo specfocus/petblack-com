@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-65494",
+  "name": "IRIS USA Open Top Cat Litter Box w/Scatter Shield",
+  "description": "The IRIS USA Open Top Cat Litter Box with Scatter Shield & Scoop features extra-tall walls to help contain litter and spray while keeping dirt out. The open top provides quick and easy access, while the deep design gives your cat a semi-private space to take care of business. Recessed bottoms and molded-in feet help keep the cat litter box in place, and the molded-in rims around the pan add extra strength and stability. Plus, the high-polished interior surfaces and included litter scoop make this litter box easy to clean!",
+  "image": "",
+  "sku": "chewy-65494",
+  "brand": {
+    "@type": "Brand",
+    "name": "IRIS"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 16.32,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 3.9888,
+    "reviewCount": 1518
+  },
+  "keywords": [
+    "pet-grooming",
+    "cat",
+    "litter-accessories",
+    "litter-boxes",
+    "litter-pans"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5280656",
+  "name": "Wellness® CORE® 95% Wet Cat Food - Natural, Grain Free",
+  "description": "Wellness&reg; CORE&reg; 95% Wet Cat Food - Natural, Grain Free",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5280656",
+  "brand": {
+    "@type": "Brand",
+    "name": "Wellness"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 3.19,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 3.875,
+    "reviewCount": 8
+  },
+  "keywords": [
+    "cat-wet-food",
+    "cat",
+    "food-and-treats",
+    "wet-food"
+  ]
+}

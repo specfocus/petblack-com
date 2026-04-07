@@ -1,0 +1,15 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-wet-food",
+  "url": "https://www.hillspet.co.uk/dog-food/sp-canine-adult-chicken-turkey-beef-canned-multipack",
+  "foodForm": "wet food",
+  "lifeStage": "adult",
+  "flavour": "with chicken, turkey and beef",
+  "moisture": "77.0",
+  "protein": "5.8",
+  "fat": "3.1",
+  "ingredients": "['rice', 'sunflower_oil', 'carrot', 'chicken']",
+  "category": [
+    "weight-management"
+  ]
+}

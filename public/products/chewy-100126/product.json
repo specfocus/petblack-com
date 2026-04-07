@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-100126",
+  "name": "Purina Beneful Medleys Tuscan Style Canned Dog Food",
+  "description": "Dazzle your dog at mealtime with Purina Beneful Medleys Tuscan Style Canned Dog Food. Real beef delivers meaty goodness in every bite, and the 100% complete and balanced nutrition offered in each can helps support his overall health and well-being. Real carrots, rice and spinach offer added flavor to the recipe blend in the form of ingredients you can see, and the small, tender chunks of meat create an appealing texture he's sure to wag his tail for. Essential vitamins and minerals give this delectable entree the nutrients your dog needs for his whole-body health and wellness, making you feel good about the meal you serve him every day. This tasty recipe is crafted without artificial colors, flavors or preservatives. Show him how much you care about his health and happiness with a bowlful of this handy single-serving deliciousness.",
+  "image": "",
+  "sku": "chewy-100126",
+  "brand": {
+    "@type": "Brand",
+    "name": "Purina Beneful"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 2.78,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.4559,
+    "reviewCount": 68
+  },
+  "keywords": [
+    "dog-wet-food",
+    "dog",
+    "food",
+    "wet-food",
+    "adult"
+  ]
+}

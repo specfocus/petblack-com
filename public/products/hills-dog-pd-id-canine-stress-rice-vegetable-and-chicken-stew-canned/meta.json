@@ -1,0 +1,18 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-wet-food",
+  "url": "https://www.hillspet.com/dog-food/pd-id-canine-stress-rice-vegetable-and-chicken-stew-canned",
+  "foodForm": "wet food",
+  "lifeStage": "-",
+  "breedSize": "small",
+  "flavour": "rice, vegetable & chicken stew",
+  "calories": "123 kcal / 5.5 oz (156 g) can",
+  "moisture": "0.0",
+  "protein": "23.4",
+  "fat": "8.7",
+  "ingredients": "['carrot', 'pork_liver', 'flaxseed', 'water', 'dried_milk', 'beet', 'citrus', 'sugar', 'soybean_oil', 'egg_whites', 'rice', 'ginger', 'corn', 'ground_pecan_shell', 'cranberry', 'chicken']",
+  "category": [
+    "nervous-system-care-and-stress",
+    "digestive-care"
+  ]
+}

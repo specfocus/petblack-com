@@ -1,0 +1,15 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-wet-food",
+  "url": "https://www.hillspet.com/dog-food/sd-canine-adult-7-plus-savory-stew-beef-vegetables-canned",
+  "foodForm": "wet food",
+  "lifeStage": "senior",
+  "flavour": "savory stew with beef & vegetables",
+  "moisture": "82.0",
+  "protein": "4.859999999999999",
+  "fat": "3.51",
+  "ingredients": "['carrot', 'pork_liver', 'brown_rice', 'flaxseed', 'green_pea', 'spinach', 'water', 'potato', 'beet', 'soybean_oil', 'egg_whites', 'rice', 'wheat', 'beef', 'pork_plasma', 'chicken_fat']",
+  "category": [
+    "aging-care"
+  ]
+}

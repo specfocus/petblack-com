@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B0974RWXFK",
+  "name": "REFIT ANIMAL CARE Iron Liver Tonic for Cow, Pig, Poultry & Farm Animals, 5 LTR, Hemliv +",
+  "description": "Shop wide range of Iron Liver Tonic from the house of REFIT ANIMAL CARE on Amazon. This Liver Tonic has Vitamins, Minerals, Iron & Herbs. HEMLIV+ is a Liver Tonic Helps to Enhance Liver Functions of Animals  It Helps in Liver Regeneration. It contains Iron so it acts as a Growth Promoter, Energy Booster, Immunity Booster. Its Useful for Iron Deficiency in Animals & Poultry Birds. Its an ideal feed supplement for Poultry, Chicks, Broilers, Layers, Breeders, Chicken, Growers, Cattle, Swine, Cow, Buffalo, Goat, Horse, Pig, Calf, Livestock Animals. Open the bottle and mix with water. Keep Your Ani",
+  "image": "https://m.media-amazon.com/images/I/315g8mtOwjS._SS522_.jpg",
+  "sku": "amazon-pet-B0974RWXFK",
+  "brand": {
+    "@type": "Brand",
+    "name": "Visit the REFIT ANIMAL CARE Store"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 1.199,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "bird-food",
+    "pet-supplies",
+    "small-animals",
+    "health-supplies"
+  ]
+}

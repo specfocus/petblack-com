@@ -1,0 +1,23 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "hills-sp-canine-science-plan-puppy-healthy-development-large-breed-chicken-dry",
+  "name": "Puppy Large Breed Dry Dog Food with Chicken",
+  "description": "Hill's Science Plan Large Breed Puppy food with Chicken is specially made with an optimal level of calcium for controlled bone growth, a unique developmental need of large breed puppies. Give them the best start in life so they can grow to their full potential. Balanced minerals for strong bones & teeth DHA from fish oil for healthy brain & eye development High-quality protein for building lean muscles",
+  "image": "",
+  "sku": "hills-sp-canine-science-plan-puppy-healthy-development-large-breed-chicken-dry",
+  "brand": {
+    "@type": "Brand",
+    "name": "Hill's Pet Nutrition"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "GBP",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "dog-dry-food",
+    "dog"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "source": "petsmart",
+  "url": "https://www.petsmart.com/cat/food-and-treats/treats/great-choice-delightfuls-cat-treat---chicken-with-grain-57990.html",
+  "breadcrumb": "cat > food-and-treats > treats > great-choice-delightfuls-cat-treat---chicken-with-grain-57990.html",
+  "bucket": "cat-treat",
+  "gtin13": "0737257882836",
+  "images": {
+    "large": "https://s7d2.scene7.com/is/image/PetSmart/5298156?$sclp-prd-main_large$",
+    "medium": "https://s7d2.scene7.com/is/image/PetSmart/5298156?$sclp-prd-main_medium$",
+    "small": "https://s7d2.scene7.com/is/image/PetSmart/5298156?$sclp-prd-main_small$"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-dry-food",
+  "url": "https://www.hillspet.co.uk/dog-food/sp-canine-science-plan-puppy-healthy-development-medium-chicken-dry",
+  "foodForm": "dry food",
+  "lifeStage": "puppy",
+  "breedSize": "medium",
+  "flavour": "with chicken",
+  "calories": "3749 kcal/kg (375 kcal/100g)",
+  "moisture": "8.0",
+  "protein": "27.3",
+  "fat": "17.8",
+  "ingredients": "['barley', 'turkey_meal', 'brown_rice', 'flaxseed', 'sunflower_oil', 'beet', 'fish_oil', 'rice', 'chicken', 'corn', 'oat', 'chicken_meal']",
+  "category": [
+    "puppy-care"
+  ]
+}

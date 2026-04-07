@@ -1,0 +1,19 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-dry-food",
+  "url": "https://www.hillspet.co.uk/dog-food/sp-canine-science-plan-adult-advanced-fitness-large-breed-with-chicken-dry",
+  "foodForm": "dry food",
+  "lifeStage": "adult",
+  "breedSize": "large",
+  "flavour": "with chicken",
+  "calories": "3682 kcal/kg (368 kcal/100g)",
+  "moisture": "9.0",
+  "protein": "20.9",
+  "fat": "14.1",
+  "ingredients": "['turkey_meal', 'sunflower_oil', 'flaxseed', 'crustacean_shell_hydrolysate', 'chicken_meal', 'beet', 'wheat', 'corn', 'chicken_fat', 'soybean']",
+  "category": [
+    "musculoskeletal-and-joint-care",
+    "skin-health",
+    "musculoskeletal-and-joint-care"
+  ]
+}

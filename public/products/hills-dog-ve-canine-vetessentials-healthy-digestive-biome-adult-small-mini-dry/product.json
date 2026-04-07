@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "hills-dog-ve-canine-vetessentials-healthy-digestive-biome-adult-small-mini-dry",
+  "name": "multi-benefit + digestion adult 1+ small & mini dry dog food",
+  "description": "hill's vet essentials healthy digestive biome adult small & mini dog food with chicken is a complete pet food for adult dogs 1+ years old. it provides a precise nutritional balance of energy, protein, vitamins and minerals + a unique fibre blend. not artificially preserved. no synthetic colours. no artificial flavours.",
+  "image": "",
+  "sku": "hills-dog-ve-canine-vetessentials-healthy-digestive-biome-adult-small-mini-dry",
+  "brand": {
+    "@type": "Brand",
+    "name": "Hill's Pet Nutrition"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "GBP",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "dog-dry-food",
+    "digestive-care",
+    "protein-26.1pct",
+    "adult",
+    "small-breed",
+    "with-chicken"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B0B51KYL7K",
+  "name": "Aalmix Chelated Mineral Mixture for Cow| Buffalo| Sheep| Horse & Poultry| 5 Kg Powder Pet Health Supplements (5 kg)",
+  "description": "Powder is MethoChelated mineral mixture for a cattle, mineral mixture for dairy cows, mineral mixture for poultry, mineral mixture for the horse, pigs and goats enriched with copper and amino acids as an ideal supplement for animal feeding to fulfill all their needs of dairy animals.",
+  "image": "https://m.media-amazon.com/images/I/415afSyx8NS._SS522_.jpg",
+  "sku": "amazon-pet-B0B51KYL7K",
+  "brand": {
+    "@type": "Brand",
+    "name": "Generic"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 869,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "bird-food",
+    "pet-supplies",
+    "small-animals",
+    "food"
+  ]
+}

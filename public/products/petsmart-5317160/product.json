@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5317160",
+  "name": "Clindamycin Hydrochloride Oral Drops 25 mg/ml, 20 ml",
+  "description": "Clindamycin Hydrochloride Oral Drops 25 mg/ml, 20 ml",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5317160",
+  "brand": {
+    "@type": "Brand",
+    "name": "VetOne"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 9.49,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "cat-health",
+    "pharmacy",
+    "cat",
+    "antibiotics"
+  ]
+}

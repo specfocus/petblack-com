@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B0B4D356NY",
+  "name": "Promote Trader 10pcs Rattan Balls Bird Toy Part DIY Accessory for Parrot Budgie Parakeet Cockatiel Conure Lovebird Finch Macaw Cockatoo Random Color (5cm)",
+  "description": "Description  We believe that pets are family members, and that family deserves the best. This item is well made of premium material for durable and practical use. With natural willow branch woven design, it will ensure its practicability and popularity among bird toys. The ball shape is attractive and keep your birds attention for hours of fun and entertainment.  Feature - Color: As shown. - Material: WOOD. - Size: Approx.5 cm. - Made of quality material, sturdy and durable. - Promotes clean and healthy teeth while satisfying your pet's natural instinct to chew. - Natural rattan ball toys, saf",
+  "image": "https://m.media-amazon.com/images/I/51NlwysfqXL._SS522_.jpg",
+  "sku": "amazon-pet-B0B4D356NY",
+  "brand": {
+    "@type": "Brand",
+    "name": "Promote"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 389,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "bird-toy",
+    "pet-supplies",
+    "birds",
+    "toys"
+  ]
+}

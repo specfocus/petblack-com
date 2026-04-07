@@ -1,0 +1,24 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5265081",
+  "name": "biOrb® FLOW 4 Gallon LED Aquarium",
+  "description": "biOrb&reg; FLOW 4 Gallon LED Aquarium",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5265081",
+  "brand": {
+    "@type": "Brand",
+    "name": "biOrb"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 133.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "fish-accessory",
+    "fish",
+    "starter-kits"
+  ]
+}

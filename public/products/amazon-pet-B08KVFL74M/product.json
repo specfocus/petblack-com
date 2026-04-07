@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B08KVFL74M",
+  "name": "Whiskas Adult (+1 Year) Dry Cat Food, Mackerel Flavour, 3Kg Pack & Adult (+1 Year) Wet Cat Food, Ocean Fish, 24 Pouches (24 X 85G)",
+  "description": "Whiskas Adult (+1 year) Dry Cat Food, Mackerel Flavour, 3kg PackWhiskas Adult Cat Food is the nutrition that your cat needs for a healthy and active lifestyle. Whiskas cat food is a complete and balanced meal designed to take care of your cat’s daily nutritional requirements and provide it with all the vitamins and minerals needed for a healthy and happy life. Whiskas dry cat food helps support the cat's vital system by providing it a healthy and shiny coat, healthy eyesight, and energy to be lively and active. In addition, with a texture that appeals to the palate of your feline, Whiskas ensu",
+  "image": "https://m.media-amazon.com/images/I/41IXRPLir5L._SS522_.jpg",
+  "sku": "amazon-pet-B08KVFL74M",
+  "brand": {
+    "@type": "Brand",
+    "name": "whiskas"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 970,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "cat-dry-food",
+    "pet-supplies",
+    "cats",
+    "food",
+    "wet"
+  ]
+}

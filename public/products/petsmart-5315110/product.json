@@ -1,0 +1,29 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5315110",
+  "name": "Thrive Temperate Reptile Terrarium Essentials Kit - 40 Gallon",
+  "description": "Thrive Temperate Reptile Terrarium Essentials Kit - 40 Gallon",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5315110",
+  "brand": {
+    "@type": "Brand",
+    "name": "Thrive"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 249.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.5556,
+    "reviewCount": 27
+  },
+  "keywords": [
+    "other-pet",
+    "reptile",
+    "starter-kits"
+  ]
+}

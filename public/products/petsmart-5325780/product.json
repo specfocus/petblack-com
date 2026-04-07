@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5325780",
+  "name": "Pets First Pittsburgh Steelers Mesh Jersey",
+  "description": "Pets First Pittsburgh Steelers Mesh Jersey",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5325780",
+  "brand": {
+    "@type": "Brand",
+    "name": "Pets First"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 29,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "dog-accessory",
+    "dog",
+    "clothing-and-shoes",
+    "jerseys-and-team-sports"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5162673",
+  "name": "Blue Buffalo® Wilderness&trade;  Adult Dry Dog Food - Grain Free, Chicken",
+  "description": "Blue Buffalo&reg; Wilderness&amp;trade;  Adult Dry Dog Food - Grain Free, Chicken",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5162673",
+  "brand": {
+    "@type": "Brand",
+    "name": "Blue Buffalo"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 19.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.6467,
+    "reviewCount": 184
+  },
+  "keywords": [
+    "dog-dry-food",
+    "dog",
+    "food",
+    "dry-food"
+  ]
+}

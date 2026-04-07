@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-277608",
+  "name": "Zimecterin (Ivermectin) Oral Paste Horse Dewormer",
+  "description": "**For use in animals only. Warning: FDA HAS NOT APPROVED Ivermectin for preventing or treating COVID-19 in humans.** A single, oral dose of Zimecterin Ivermectin Paste Horse Treatment can help you treat and control parasites in your horse, including large and small strongyle, pinworms, ascardis, hairworms, large mouth stomach worms, bots, lungworms, intestinal threadworms, and summer sores. Zimecterin Ivermectin Paste Horse Treatment is also effective in treating your horse’s dermatitis brought on by neck threadworm microfilariae. Safe horses of all ages and classes, it can even be given to your pregnant mare or stallion you’re wanting to stud.",
+  "image": "",
+  "sku": "chewy-277608",
+  "brand": {
+    "@type": "Brand",
+    "name": "Zimecterin"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 10.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "pet-health",
+    "pharmacy",
+    "horse-pharmacy",
+    "dewormers-parasiticides"
+  ]
+}

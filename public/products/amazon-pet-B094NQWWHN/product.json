@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B094NQWWHN",
+  "name": "Dog Combs with Rounded Ends Stainless Steel Teeth Grooming Tool for Long and Short Haired Dog Cat Pets",
+  "description": "Specifications: Item: Dog comb Main material: Stainless steel Main color: Blue, silver Size: 18.5 * 3.5cm  Note: * There could be some deviations due to manual measurement or slight color difference owing to photographing condition. Thank you for your understanding.  Package Information: Package size: 18.7 * 3.7*1cm Package weight: 55g package  Packing List: 1* Dog comb",
+  "image": "https://m.media-amazon.com/images/I/41pdlX0KbHS._SS522_.jpg",
+  "sku": "amazon-pet-B094NQWWHN",
+  "brand": {
+    "@type": "Brand",
+    "name": "Homgeel"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 944,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "pet-grooming",
+    "pet-supplies",
+    "cats",
+    "grooming",
+    "combs"
+  ]
+}

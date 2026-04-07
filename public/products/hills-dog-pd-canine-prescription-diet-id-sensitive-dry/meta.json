@@ -1,0 +1,16 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-dry-food",
+  "url": "https://www.hillspet.co.uk/dog-food/pd-canine-prescription-diet-id-sensitive-dry",
+  "foodForm": "dry food",
+  "lifeStage": "-",
+  "flavour": "with egg & rice",
+  "calories": "3904 kcal/kg (390 kcal/100g)",
+  "moisture": "8.0",
+  "protein": "23.9",
+  "fat": "20.5",
+  "ingredients": "['carrot', 'barley', 'flaxseed', 'sunflower_oil', 'apple', 'chicken_broth', 'rice', 'egg', 'corn', 'oat', 'chicken_fat']",
+  "category": [
+    "digestive-care"
+  ]
+}

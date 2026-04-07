@@ -1,0 +1,16 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-wet-food",
+  "url": "https://www.hillspet.com/dog-food/sd-canine-adult-healthy-cuisine-roasted-chicken-carrots-spinach-stew-canned",
+  "foodForm": "wet food",
+  "lifeStage": "adult",
+  "flavour": "roasted chicken, carrots & spinach stew",
+  "calories": "263.3 kcal (354 g) can",
+  "moisture": "85.0",
+  "protein": "4.109999999999999",
+  "fat": "2.9549999999999996",
+  "ingredients": "['carrot', 'pork_liver', 'flaxseed', 'green_pea', 'fish_oil', 'soybean_oil', 'chicken_broth', 'rice', 'wheat', 'spinach', 'chicken']",
+  "category": [
+    "adult-care"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-337614",
+  "name": "Gatsby Premium 1200D Heavyweight Waterproof Turnout Horse Blanket",
+  "description": "**Remember to measure for the perfect fit.** The Gatsby Premium 1200D Heavyweight Waterproof Turnout Horse Blanket is highly durable, perfect for those equines who love to horse around in turnout. It’s both waterproof and breathable for years of use in wet weather conditions. The 1200 denier ripstop outer shell and polyester lining help to keep your horse cozy and dry, while 250 grams of polyfill add warmth. Criss-cross nylon surcingles and adjustable nylon leg straps ensure a secure fit. The quick clip chest straps and double-buckle front closures are super easy to adjust and use.",
+  "image": "",
+  "sku": "chewy-337614",
+  "brand": {
+    "@type": "Brand",
+    "name": "Gatsby"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 87.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "other-pet",
+    "horse",
+    "blankets",
+    "turnouts"
+  ]
+}

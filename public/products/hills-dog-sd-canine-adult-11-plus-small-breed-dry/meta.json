@@ -1,0 +1,17 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-dry-food",
+  "url": "https://www.hillspet.com/dog-food/sd-canine-adult-11-plus-small-breed-dry",
+  "foodForm": "dry food",
+  "lifeStage": "senior",
+  "breedSize": "small",
+  "flavour": "chicken, brown rice & barley recipe",
+  "calories": "3807 kcal/kg 378 kcal/cup†",
+  "moisture": "0.0",
+  "protein": "22.5",
+  "fat": "17.9",
+  "ingredients": "['barley', 'salt', 'brown_rice', 'flaxseed', 'chicken_meal', 'lactic_acid', 'beet', 'fish_oil', 'pumpkin', 'soybean_oil', 'rice', 'chicken', 'wheat', 'corn', 'oat', 'chicken_fat', 'soybean', 'whole_grain_sorghum']",
+  "category": [
+    "aging-care"
+  ]
+}

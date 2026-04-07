@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-145316",
+  "name": "On2Pets 48-in Medium Square Modern Cat Tree",
+  "description": "Provide your cat with the ultimate outdoor climbing experience without ever leaving the safety and security of your living room with the On2Pets Luxury Cat Tree. This realistic cat tree provides your cat with a paradise of his very own inside your home: a place where he feels safe, secure and relaxed. As he peers out from behind the canopy of silk leaves, he will feel well-hidden—which appeals to your cat's natural instincts to stay up high and undercover. This unique treehouse is an innovation in modern cat furniture, made with the purrfect blend of utility and aesthetics.",
+  "image": "",
+  "sku": "chewy-145316",
+  "brand": {
+    "@type": "Brand",
+    "name": "On2Pets"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 95,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.0556,
+    "reviewCount": 36
+  },
+  "keywords": [
+    "cat-accessory",
+    "cat",
+    "trees-condos-scratchers",
+    "trees-condos",
+    "medium-31-59"
+  ]
+}

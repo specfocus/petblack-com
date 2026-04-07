@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-232951",
+  "name": "EZ Groom EZ Dry III High Velocity Dog & Cat Dryer",
+  "description": "For the ultimate blow dry experience, the EZ Dry III High Velocity Dog & Cat Dryer has you covered. Ultra-powerful, this high velocity dryer is incredibly quiet, lightweight and cuts your drying time in half—a game changer for skittish pets! Featuring dual motors, it’s a professional strength tool that you can use from the comfort of your home. Choose your speed, wrangle your pet and she’ll be coiffed and stylin’ in no time!",
+  "image": "https://image.chewy.com/is/image/catalog/232951_MAIN._AC_SS500_V1588022067_.jpg",
+  "sku": "chewy-232951",
+  "brand": {
+    "@type": "Brand",
+    "name": "EZ Groom"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 649.95,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 5,
+    "reviewCount": 1
+  },
+  "keywords": [
+    "pet-grooming",
+    "dog",
+    "grooming",
+    "bath-shower-supplies",
+    "dryers"
+  ]
+}

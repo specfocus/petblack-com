@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B09YYZMQJV",
+  "name": "Bird Nests, Bird House Ornament, Moisture‑Resistant for Swallows Birds",
+  "description": "Specification:Condition: 100% Brand NewItem Type: Bird HouseMaterial: Platane WoodWeight: Approx. 72g / 2.5ozSize: Approx. 5.5x4x7cm / 2.2x1.6x2.8inPackage List:4 x Bird HouseNote:1.Please allow 0‑1 inch error due to manual measurement. Thanks for your understanding.2.Monitors are not calibrated same, item color displayed in photos may be showing slightly different from the real object. Please take the real one as standard.",
+  "image": "https://m.media-amazon.com/images/I/31pM-WPmLYL._SS522_.jpg",
+  "sku": "amazon-pet-B09YYZMQJV",
+  "brand": {
+    "@type": "Brand",
+    "name": "Velaurs"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 844,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "bird-toy",
+    "pet-supplies",
+    "birds",
+    "birdcage-accessories",
+    "nests"
+  ]
+}

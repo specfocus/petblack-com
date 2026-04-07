@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5310262",
+  "name": "Tiki Dog® Taste of Greece Dog Wet Food - Lamb, Couscous & Chickpea",
+  "description": "Tiki Dog&reg; Taste of Greece Dog Wet Food - Lamb, Couscous &amp; Chickpea",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5310262",
+  "brand": {
+    "@type": "Brand",
+    "name": "Tiki Dog"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 4.49,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "keywords": [
+    "dog-wet-food",
+    "dog",
+    "food",
+    "canned-food"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-case of 16 — Make mealtimes memorable with Friskies Lil’ Gravies Roasted Turkey Flavor Cat Food Complement. Each pouch of this gravy-licious delight can be used as a topper for dry food or as a treat between meals.,InStock,,3.5,2,,,,,4e8b55cc-846a-5c3f-9268-b3f43c44db51,03/05/2023 21:37:26",
+  "name": "1.55-oz",
+  "description": "1.55-oz",
+  "image": "",
+  "sku": "chewy-case of 16 — Make mealtimes memorable with Friskies Lil’ Gravies Roasted Turkey Flavor Cat Food Complement. Each pouch of this gravy-licious delight can be used as a topper for dry food or as a treat between meals.,InStock,,3.5,2,,,,,4e8b55cc-846a-5c3f-9268-b3f43c44db51,03/05/2023 21:37:26",
+  "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "other-pet"
+  ]
+}

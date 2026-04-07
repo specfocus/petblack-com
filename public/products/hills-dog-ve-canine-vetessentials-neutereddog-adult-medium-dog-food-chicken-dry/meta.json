@@ -1,0 +1,17 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-dry-food",
+  "url": "https://www.hillspet.co.uk/dog-food/ve-canine-vetessentials-neutereddog-adult-medium-dog-food-chicken-dry",
+  "foodForm": "dry food",
+  "lifeStage": "adult",
+  "breedSize": "medium",
+  "flavour": "with chicken",
+  "calories": "3336 kcal/kg (334 kcal/100g)",
+  "moisture": "0.0",
+  "protein": "26.3",
+  "fat": "14.0",
+  "ingredients": "['carrot', 'turkey_meal', 'flaxseed', 'tomato', 'crustacean_shell_hydrolysate', 'chicken_meal', 'green_pea', 'beet', 'coconut_oil', 'wheat', 'corn', 'chicken_fat']",
+  "category": [
+    "weight-management"
+  ]
+}

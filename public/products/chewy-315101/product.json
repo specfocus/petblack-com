@@ -1,0 +1,29 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-315101",
+  "name": "Frisco Celebration Dog & Cat PJs",
+  "description": "Every day should be a celebration when your pet is looking this darn good! Whether it’s time for bed or time to party, these PJs will look good on your pet, no matter what. The pullover style makes slipping in and out fast and easy, so there’s no time to be wasted getting ready for the big event. Both fashionable and functional, your furry friend won’t want to take these off, even when nap time is over. Talk about being the cat’s pajamas, er, and the dog’s pajamas. Frisco by Chewy has you covered with all the essentials for a happy pet, from potty supplies to apparel, toys, beds, dinnerware, leashes and collars, and lots more.",
+  "image": "",
+  "sku": "chewy-315101",
+  "brand": {
+    "@type": "Brand",
+    "name": "Frisco"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 11.71,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.5,
+    "reviewCount": 4
+  },
+  "keywords": [
+    "dog-accessory",
+    "cat",
+    "clothing-accessories"
+  ]
+}

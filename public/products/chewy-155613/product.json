@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-155613",
+  "name": "Milk-Bone Original Brushing Chews Daily Dental Dog Treats",
+  "description": "Milk-Bone Brushing Chews Daily Dental Dog Treats are made for dogs that aren’t so excited to see a toothbrush but still need to keep those pearly whites in good shape. When given to your dog daily, these dental bones are as effective as brushing his teeth twice a week in reducing tartar buildup. They hold the Veterinary Oral Health Council Seal of Acceptance for tartar control, and they’re clinically proven to cut down on tartar and fight bad breath. These flexible bones have a patented design that’s made to twist as your dog chews to clean even hard to reach teeth with its bristle-like nubs and ridges. Milk-Bone Brushing Chews make it easy to provide oral care for your pup because they have a delicious chicken taste dogs can’t resist.",
+  "image": "",
+  "sku": "chewy-155613",
+  "brand": {
+    "@type": "Brand",
+    "name": "Milk-Bone"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 13.48,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.4755,
+    "reviewCount": 408
+  },
+  "keywords": [
+    "dog-health",
+    "dog",
+    "treats",
+    "dental-treats"
+  ]
+}

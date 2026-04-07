@@ -1,0 +1,17 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-dry-food",
+  "url": "https://www.hillspet.co.uk/dog-food/pd-canine-metabolic-plus-mobility-with-chicken-dry",
+  "foodForm": "dry food",
+  "lifeStage": "-",
+  "flavour": "with chicken",
+  "calories": "3199 kcal/kg (320 kcal/100g)",
+  "moisture": "9.0",
+  "protein": "24.7",
+  "fat": "13.3",
+  "ingredients": "['carrot', 'flaxseed', 'fish_oil', 'molluscs_and_crustaceans', 'rice', 'chicken']",
+  "category": [
+    "weight-management",
+    "musculoskeletal-and-joint-care"
+  ]
+}

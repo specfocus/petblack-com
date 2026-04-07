@@ -1,0 +1,12 @@
+{
+  "source": "petsmart",
+  "url": "https://www.petsmart.com/bird/toys-perches-and-decor/toys/aande-cage-company-squidly-bird-toy-47628.html",
+  "breadcrumb": "bird > toys-perches-and-decor > toys > aande-cage-company-squidly-bird-toy-47628.html",
+  "bucket": "bird-toy",
+  "gtin13": "6444720086304",
+  "images": {
+    "large": "https://s7d2.scene7.com/is/image/PetSmart/5273888?$sclp-prd-main_large$",
+    "medium": "https://s7d2.scene7.com/is/image/PetSmart/5273888?$sclp-prd-main_medium$",
+    "small": "https://s7d2.scene7.com/is/image/PetSmart/5273888?$sclp-prd-main_small$"
+  }
+}

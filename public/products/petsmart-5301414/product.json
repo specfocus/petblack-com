@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5301414",
+  "name": "Only Natural Pet® PowerFood  Adult Dry Dog Food - Poultry, High-Protein, Grain Free",
+  "description": "Only Natural Pet&reg; PowerFood  Adult Dry Dog Food - Poultry, High-Protein, Grain Free",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5301414",
+  "brand": {
+    "@type": "Brand",
+    "name": "Only Natural Pet"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 43.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.508,
+    "reviewCount": 437
+  },
+  "keywords": [
+    "dog-dry-food",
+    "dog",
+    "food",
+    "dry-food"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5182763",
+  "name": "Hill's® Science Diet® Large Breed Adult Senior 7+ Dry Dog Food - Chicken Meal, Rice & Barley",
+  "description": "Hill's&reg; Science Diet&reg; Large Breed Adult Senior 7+ Dry Dog Food - Chicken Meal, Rice &amp; Barley",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5182763",
+  "brand": {
+    "@type": "Brand",
+    "name": "Hill's Science Diet"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 61.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.7168,
+    "reviewCount": 113
+  },
+  "keywords": [
+    "dog-dry-food",
+    "dog",
+    "food",
+    "dry-food"
+  ]
+}

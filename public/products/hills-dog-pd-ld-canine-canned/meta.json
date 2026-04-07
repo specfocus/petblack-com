@@ -1,0 +1,16 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-wet-food",
+  "url": "https://www.hillspet.com/dog-food/pd-ld-canine-canned",
+  "foodForm": "wet food",
+  "lifeStage": "-",
+  "flavour": "chicken flavor",
+  "calories": "565 kcal  / 13 oz (370 g) can",
+  "moisture": "78.0",
+  "protein": "4.1579999999999995",
+  "fat": "5.148",
+  "ingredients": "['salt', 'water', 'beet', 'fish_oil', 'soybean_oil', 'rice', 'egg', 'corn', 'chicken_fat', 'soybean']",
+  "category": [
+    "liver-care"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-dry-food",
+  "url": "https://www.hillspet.com/dog-food/pd-kd-canine-dry",
+  "foodForm": "dry food",
+  "lifeStage": "-",
+  "flavour": "with chicken",
+  "calories": "3991 kcal/kg 419 kcal/cup†",
+  "moisture": "0.0",
+  "protein": "15.6",
+  "fat": "21.1",
+  "ingredients": "['salt', 'brown_rice', 'lactic_acid', 'beet', 'fish_oil', 'soybean_oil', 'rice', 'egg', 'chicken', 'corn', 'oat', 'chicken_fat', 'whole_grain_sorghum']",
+  "category": [
+    "kidney-care"
+  ]
+}

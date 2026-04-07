@@ -1,0 +1,29 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5315227",
+  "name": "Thrive Desert Reptile Essentials Kit - 10G",
+  "description": "Thrive Desert Reptile Essentials Kit - 10G",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5315227",
+  "brand": {
+    "@type": "Brand",
+    "name": "Thrive"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 99.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 3.6757,
+    "reviewCount": 37
+  },
+  "keywords": [
+    "other-pet",
+    "reptile",
+    "starter-kits"
+  ]
+}

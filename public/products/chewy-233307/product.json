@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-233307",
+  "name": "Frisco Holiday Springs Cat Toy, 10 count",
+  "description": "Get holiday ready with a 10-pack of bouncy stocking stuffers to put a spring in your kitty’s step. They come in two festive colors—of course, red and green—and they’re guaranteed to get playful kitties bouncing and pouncing around the house. Give your cat a super special gift that they’ll love to stalk this year.",
+  "image": "",
+  "sku": "chewy-233307",
+  "brand": {
+    "@type": "Brand",
+    "name": "Frisco"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 3.59,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/OutOfStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.5954,
+    "reviewCount": 131
+  },
+  "keywords": [
+    "cat-toy",
+    "cat",
+    "toys",
+    "balls-chasers"
+  ]
+}

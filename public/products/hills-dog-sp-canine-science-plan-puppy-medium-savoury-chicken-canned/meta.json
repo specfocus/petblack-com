@@ -1,0 +1,16 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-wet-food",
+  "url": "https://www.hillspet.co.uk/dog-food/sp-canine-science-plan-puppy-medium-savoury-chicken-canned",
+  "foodForm": "wet food",
+  "lifeStage": "puppy",
+  "flavour": "chicken",
+  "calories": "367.5 kcal (370 g) can",
+  "moisture": "76.0",
+  "protein": "6.8",
+  "fat": "5.3",
+  "ingredients": "['rice', 'sunflower_oil', 'carrot', 'chicken']",
+  "category": [
+    "puppy-care"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B07KJRZRT3",
+  "name": "PetAmi Waterproof Dog Blanket for Bed Couch Sofa | Warm Sherpa Pet Throw Blanket | Super Soft Microfiber Fleece | Reversible Design for Puppy and Large Pet Dog | 60 x 80 Inches (Taupe/Taupe Sherpa)",
+  "description": "PetAmi Waterproof Dog Blanket for Bed Couch Sofa | Warm Sherpa Pet Throw Blanket | Super Soft Microfiber Fleece | Reversible Design for Puppy and Large Pet Dog | 60 x 80 Inches (Taupe/Taupe Sherpa)",
+  "image": "https://m.media-amazon.com/images/I/31fBGzYUr4L._SS522_.jpg",
+  "sku": "amazon-pet-B07KJRZRT3",
+  "brand": {
+    "@type": "Brand",
+    "name": "PetAmi"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 10.007,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "dog-accessory",
+    "pet-supplies",
+    "cats",
+    "beds-furniture",
+    "bedding",
+    "bed-blankets"
+  ]
+}

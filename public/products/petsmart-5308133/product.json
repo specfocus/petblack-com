@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5308133",
+  "name": "Top Paw® TUFF with Bite Shield&trade; Protection Dinosaur Dog Toy - Tough Plush",
+  "description": "Top Paw&reg; TUFF with Bite Shield&amp;trade; Protection Dinosaur Dog Toy - Tough Plush",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5308133",
+  "brand": {
+    "@type": "Brand",
+    "name": "Top Paw"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 8.97,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 3.3659,
+    "reviewCount": 41
+  },
+  "keywords": [
+    "dog-toy",
+    "dog",
+    "toys",
+    "plush-toys"
+  ]
+}

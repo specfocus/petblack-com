@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "hills-dog-sd-canine-adult-no-corn-wheat-soy-dry",
+  "name": "adult no corn, wheat, soy chicken & brown rice recipe dog food",
+  "description": "hill's science diet adult no corn, wheat, soy dry dog food is specially formulated to fuel the energy needs of dogs during the prime of their life. made with high quality, easy-to-digest ingredients. balanced nutrition for holistic health including added taurine omega-6s & vitamin e for beautiful skin & coat high-quality protein for lean muscles natural fibers for healthy digestion",
+  "image": "",
+  "sku": "hills-dog-sd-canine-adult-no-corn-wheat-soy-dry",
+  "brand": {
+    "@type": "Brand",
+    "name": "Hill's Pet Nutrition"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "GBP",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "dog-dry-food",
+    "food-sensitivity",
+    "skin-health",
+    "protein-23.6pct",
+    "adult",
+    "chicken-brown-rice-recipe"
+  ]
+}

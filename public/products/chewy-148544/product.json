@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-148544",
+  "name": "Credelio Chewable Tablet for Dogs, 4.4-6 lbs, (Yellow Box)",
+  "description": "Credelio is a chewable tablet that's easy on dogs and tough on ticks and fleas. This monthly prescription kills ticks and fleas, treats flea infestations and treats and controls tick infestations. Credelio starts working in just 4 hours and provides 100% monthly efficacy against fleas and more than 97% monthly efficacy against ticks. Credelio is approved for puppies and dogs 8 weeks of age and older that weigh 4.4 pounds or more.",
+  "image": "",
+  "sku": "chewy-148544",
+  "brand": {
+    "@type": "Brand",
+    "name": "Credelio"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 22.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "dog-health",
+    "dog",
+    "flea-tick",
+    "pills-chewables"
+  ]
+}

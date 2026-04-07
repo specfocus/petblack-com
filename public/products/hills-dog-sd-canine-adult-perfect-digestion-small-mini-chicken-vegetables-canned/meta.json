@@ -1,0 +1,16 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-wet-food",
+  "url": "https://www.hillspet.com/dog-food/sd-canine-adult-perfect-digestion-small-mini-chicken-vegetables-canned",
+  "foodForm": "wet food",
+  "lifeStage": "adult",
+  "breedSize": "small",
+  "flavour": "chicken & vegetables entrée",
+  "moisture": "78.0",
+  "protein": "6.16",
+  "fat": "3.52",
+  "ingredients": "['carrot', 'barley', 'pork_liver', 'flaxseed', 'salt', 'green_beans', 'potato_protein', 'beet', 'citrus', 'pumpkin', 'chicken_broth', 'soybean_oil', 'rice', 'ground_pecan_shell', 'cranberry', 'chicken']",
+  "category": [
+    "digestive-care"
+  ]
+}

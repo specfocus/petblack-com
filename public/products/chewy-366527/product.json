@@ -1,0 +1,24 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-366527",
+  "name": "SunCoast Sugar Gliders Wholesome Balance Sweet Potato Flavored Sugar Glider Food",
+  "description": "SunCoast Sugar Gliders Wholesome Balance Sweet Potato Flavored Sugar Glider Food is a soy-free and filler-free formula that’s crafted with real chicken because sugar gliders need real animal protein in their diet. This recipe was developed by an animal nutritionist and contains 32% protein. It is highly satiating, meaning your sugar glider buddy may eat less as she feels satisfied sooner. And since it is an essential free feed, this recipe won’t spoil if left out like fresh foods will. This sugar glider formula is a great option for all life stages past weaning, and it’s available in different flavors (sold separately), so you can find the recipe that’s right for your furry friend!",
+  "image": "",
+  "sku": "chewy-366527",
+  "brand": {
+    "@type": "Brand",
+    "name": "SunCoast Sugar Gliders"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 23.22,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "bird-food",
+    "small-pet",
+    "food"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5289792",
+  "name": "Snoozer® Overstuffed Luxury Show Dog Sofa Pet Bed",
+  "description": "Snoozer&reg; Overstuffed Luxury Show Dog Sofa Pet Bed",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5289792",
+  "brand": {
+    "@type": "Brand",
+    "name": "Snoozer"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 234.95,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "dog-accessory",
+    "dog",
+    "beds-and-furniture",
+    "cuddler-beds"
+  ]
+}

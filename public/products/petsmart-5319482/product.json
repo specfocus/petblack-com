@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5319482",
+  "name": "Dog MX&trade; Plastic E-Collar",
+  "description": "Dog MX&amp;trade; Plastic E-Collar",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5319482",
+  "brand": {
+    "@type": "Brand",
+    "name": "Dog MX"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 18.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 3.3559,
+    "reviewCount": 59
+  },
+  "keywords": [
+    "dog-health",
+    "dog",
+    "dental-care-and-wellness",
+    "treatments"
+  ]
+}

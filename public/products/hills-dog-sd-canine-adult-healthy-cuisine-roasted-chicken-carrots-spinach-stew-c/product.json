@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "hills-dog-sd-canine-adult-healthy-cuisine-roasted-chicken-carrots-spinach-stew-canned",
+  "name": "adult healthy cuisine roasted chicken, carrots & spinach stew dog food",
+  "description": "hill's science diet adult healthy cuisine roasted chicken, carrots & spinach stew combines the delicious flavors of roasted chicken and tender vegetables in a succulent stew - canned dog food with the perfect balance of taste and nutrition for your dog. supports healthy immune system, digestion, lean muscle & beautiful coat in adults 1–6 high-quality protein for lean muscles made with purposeful ingredients for a flavorful, nutritious meal easy to digest clinically proven antioxidants, vitamin c+e, for a healthy immune system omega-6 fatty acids & vitamin e for beautiful skin & coat pair this ",
+  "image": "",
+  "sku": "hills-dog-sd-canine-adult-healthy-cuisine-roasted-chicken-carrots-spinach-stew-canned",
+  "brand": {
+    "@type": "Brand",
+    "name": "Hill's Pet Nutrition"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "GBP",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "dog-wet-food",
+    "adult-care",
+    "protein-4.109999999999999pct",
+    "adult",
+    "roasted-chicken-carrots-spinach-stew"
+  ]
+}

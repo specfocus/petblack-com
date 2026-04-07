@@ -1,0 +1,12 @@
+{
+  "source": "petsmart",
+  "url": "https://www.petsmart.com/bird/food-and-treats/pet-bird-food/lafebers-nutri-berries-tropical-fruit-parrot-food-3922.html",
+  "breadcrumb": "bird > food-and-treats > pet-bird-food > lafebers-nutri-berries-tropical-fruit-parrot-food-3922.html",
+  "bucket": "bird-food",
+  "gtin13": "0041054826505",
+  "images": {
+    "large": "https://s7d2.scene7.com/is/image/PetSmart/1041486?$sclp-prd-main_large$",
+    "medium": "https://s7d2.scene7.com/is/image/PetSmart/1041486?$sclp-prd-main_medium$",
+    "small": "https://s7d2.scene7.com/is/image/PetSmart/1041486?$sclp-prd-main_small$"
+  }
+}

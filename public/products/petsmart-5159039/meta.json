@@ -1,0 +1,12 @@
+{
+  "source": "petsmart",
+  "url": "https://www.petsmart.com/bird/food-and-treats/treats/all-living-things-oat-sprays-bird-treat-4151.html",
+  "breadcrumb": "bird > food-and-treats > treats > all-living-things-oat-sprays-bird-treat-4151.html",
+  "bucket": "bird-food",
+  "gtin13": "0737257259607",
+  "images": {
+    "large": "https://s7d2.scene7.com/is/image/PetSmart/5159039?$sclp-prd-main_large$",
+    "medium": "https://s7d2.scene7.com/is/image/PetSmart/5159039?$sclp-prd-main_medium$",
+    "small": "https://s7d2.scene7.com/is/image/PetSmart/5159039?$sclp-prd-main_small$"
+  }
+}

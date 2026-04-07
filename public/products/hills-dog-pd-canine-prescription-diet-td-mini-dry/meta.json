@@ -1,0 +1,17 @@
+{
+  "source": "hills-dog-food",
+  "bucket": "dog-dry-food",
+  "url": "https://www.hillspet.co.uk/dog-food/pd-canine-prescription-diet-td-mini-dry",
+  "foodForm": "dry food",
+  "lifeStage": "-",
+  "breedSize": "small",
+  "flavour": "with chicken",
+  "calories": "3533 kcal/kg (353 kcal/100g)",
+  "moisture": "8.0",
+  "protein": "16.1",
+  "fat": "15.2",
+  "ingredients": "['carrot', 'sunflower_oil', 'rice', 'egg', 'chicken']",
+  "category": [
+    "dental-care"
+  ]
+}

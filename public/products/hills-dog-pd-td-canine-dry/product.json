@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "hills-dog-pd-td-canine-dry",
+  "name": "t/d chicken flavor dry dog food",
+  "description": "hill's prescription diet t/ddry dog food is clinically proven to reduce plaque, stain & tartar buildup and clean up to the gum line. it works like a toothbrush, dental floss and mouthwash all in one and is formulated as a complete and balanced nutritional solution for your dog's daily health regimen. clinically proven triple action fiber matrix technology unique kibble size, shape and texture helps clean right to the gum line complete & balanced nutrition with clinically proven antioxidants accepted for the reduction of buildup of both plaque & tartar by veterinary oral health council (vohc)*",
+  "image": "",
+  "sku": "hills-dog-pd-td-canine-dry",
+  "brand": {
+    "@type": "Brand",
+    "name": "Hill's Pet Nutrition"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "GBP",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "dog-dry-food",
+    "dental-care",
+    "protein-18.3pct",
+    "-",
+    "chicken-flavor"
+  ]
+}

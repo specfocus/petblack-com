@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5286358",
+  "name": "Greenies&trade; Feline Greenies SmartBites Hairball Control Adult Cat Treats - Tuna",
+  "description": "Greenies&amp;trade; Feline Greenies SmartBites Hairball Control Adult Cat Treats - Tuna",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5286358",
+  "brand": {
+    "@type": "Brand",
+    "name": "Greenies"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 18.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.8036,
+    "reviewCount": 224
+  },
+  "keywords": [
+    "cat-dry-food",
+    "cat",
+    "food-and-treats",
+    "treats"
+  ]
+}

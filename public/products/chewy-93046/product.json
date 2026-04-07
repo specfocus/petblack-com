@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "chewy-93046",
+  "name": "VICTOR Select Chicken Meal & Brown Rice Formula Dry Dog Food",
+  "description": "Give your pup a meal to be proud of with VICTOR Select Chicken Meal & Brown Rice Dry Dog Food. This diet is made with premium-quality chicken meal as the first ingredient and fortified with vitamins, minerals, essential fatty acids, protein and amino acids. It is also gluten-free and ideal for those dogs with allergies to other meat proteins. Made with all life stages in mind, Victor Select Chicken Meal & Brown Rice Dry Dog Food is a complete and balanced diet for your furry friend.",
+  "image": "https://image.chewy.com/is/image/catalog/93046_MAIN._AC_SS500_V1677680689_.jpg",
+  "sku": "chewy-93046",
+  "brand": {
+    "@type": "Brand",
+    "name": "VICTOR"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 69.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.4027,
+    "reviewCount": 149
+  },
+  "keywords": [
+    "dog-dry-food",
+    "dog",
+    "food",
+    "dry-food"
+  ]
+}

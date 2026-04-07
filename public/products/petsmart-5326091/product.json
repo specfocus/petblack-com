@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5326091",
+  "name": "Pets First Las Vegas Raiders Cat Scratcher",
+  "description": "Pets First Las Vegas Raiders Cat Scratcher",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5326091",
+  "brand": {
+    "@type": "Brand",
+    "name": "Pets First"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 25,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "cat-accessory",
+    "cat",
+    "beds-and-furniture",
+    "scratchers"
+  ]
+}

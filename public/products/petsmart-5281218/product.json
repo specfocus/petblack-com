@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5281218",
+  "name": "Solid Gold Leaping Waters&trade; Dog Food - Grain Free, Gluten Free",
+  "description": "Solid Gold Leaping Waters&amp;trade; Dog Food - Grain Free, Gluten Free",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5281218",
+  "brand": {
+    "@type": "Brand",
+    "name": "Solid Gold"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 2.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 5,
+    "reviewCount": 4
+  },
+  "keywords": [
+    "dog-wet-food",
+    "dog",
+    "food",
+    "canned-food"
+  ]
+}

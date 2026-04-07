@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5291031",
+  "name": "Thrive Sphagnum Reptile Moss",
+  "description": "Thrive Sphagnum Reptile Moss",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5291031",
+  "brand": {
+    "@type": "Brand",
+    "name": "Thrive"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 12.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.4444,
+    "reviewCount": 27
+  },
+  "keywords": [
+    "other-pet",
+    "reptile",
+    "substrate-and-bedding",
+    "thrive-sphagnum-reptile-moss-54546-html"
+  ]
+}

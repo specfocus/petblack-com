@@ -1,0 +1,12 @@
+{
+  "source": "petsmart",
+  "url": "https://www.petsmart.com/cat/food-and-treats/treats/purebites-all-natural-salmon-freeze-dried-value-pack-cat-treat-26343.html",
+  "breadcrumb": "cat > food-and-treats > treats > purebites-all-natural-salmon-freeze-dried-value-pack-cat-treat-26343.html",
+  "bucket": "cat-treat",
+  "gtin13": "0878968000932",
+  "images": {
+    "large": "https://s7d2.scene7.com/is/image/PetSmart/5222190?$sclp-prd-main_large$",
+    "medium": "https://s7d2.scene7.com/is/image/PetSmart/5222190?$sclp-prd-main_medium$",
+    "small": "https://s7d2.scene7.com/is/image/PetSmart/5222190?$sclp-prd-main_small$"
+  }
+}

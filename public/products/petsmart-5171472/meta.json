@@ -1,0 +1,12 @@
+{
+  "source": "petsmart",
+  "url": "https://www.petsmart.com/dog/food/dry-food/wellness-core-adult-dog-food---natural-grain-free-original-formula-30372.html",
+  "breadcrumb": "dog > food > dry-food > wellness-core-adult-dog-food---natural-grain-free-original-formula-30372.html",
+  "bucket": "dog-dry-food",
+  "gtin13": "0076344884088",
+  "images": {
+    "large": "https://s7d2.scene7.com/is/image/PetSmart/5171472?$sclp-prd-main_large$",
+    "medium": "https://s7d2.scene7.com/is/image/PetSmart/5171472?$sclp-prd-main_medium$",
+    "small": "https://s7d2.scene7.com/is/image/PetSmart/5171472?$sclp-prd-main_small$"
+  }
+}

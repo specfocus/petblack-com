@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5306544",
+  "name": "Merrick® Healthy Grains Healthy Weight Adult Dry Dog Food - Chicken, Carrageenan Free, Corn Free",
+  "description": "Merrick&reg; Healthy Grains Healthy Weight Adult Dry Dog Food - Chicken, Carrageenan Free, Corn Free",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5306544",
+  "brand": {
+    "@type": "Brand",
+    "name": "Merrick"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 22.98,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.4156,
+    "reviewCount": 77
+  },
+  "keywords": [
+    "dog-dry-food",
+    "dog",
+    "food",
+    "dry-food"
+  ]
+}

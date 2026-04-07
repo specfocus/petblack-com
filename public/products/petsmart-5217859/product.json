@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5217859",
+  "name": "Florida Gators NCAA Jersey",
+  "description": "Florida Gators NCAA Jersey",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5217859",
+  "brand": {
+    "@type": "Brand",
+    "name": "Pets First"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 26.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "dog-accessory",
+    "dog",
+    "clothing-and-shoes",
+    "jerseys-and-team-sports",
+    "florida-gators-ncaa-jersey-23335-html"
+  ]
+}

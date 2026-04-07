@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "amazon-pet-B09FZ7MMTW",
+  "name": "Woofy 20 Pcs Cat Nail Caps, Colorful Pet Cat and Dog Soft Claws Nail Covers for Cat Claws with Glue and Applicators (Color May Vary) (X- Small)",
+  "description": "RvPaws Size Guide: XS:Fit for 16 weeks to 5 months of age or up to about 5.5 lb cat. S: Fit for 5.5-11 lb cat M: Fit for 11-16.5 lb cat L: Fit for 16.5 lb and up cat Application Steps: 1.Correct size is important.Take one of the nail caps out and try it on your cat's claws without the glue to ensure a proper snug fit. 2.Trim cat claws to the same length with that of the nail caps. If the nail cap is too large, you may trim the open end of the nail cap until it fits. Note: Do not trim kittens claws before applying nail caps. You will need a sufficient claw surface for the glue to adhere properl",
+  "image": "https://m.media-amazon.com/images/I/21AbU2qtsJL._SS522_.jpg",
+  "sku": "amazon-pet-B09FZ7MMTW",
+  "brand": {
+    "@type": "Brand",
+    "name": "Woofy"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 229,
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock"
+  },
+  "keywords": [
+    "dog-dry-food",
+    "pet-supplies",
+    "cats",
+    "grooming",
+    "claw-care"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "petsmart-5303622",
+  "name": "Top Paw® Pineapple Washable Diaper Cover-Ups",
+  "description": "Top Paw&reg; Pineapple Washable Diaper Cover-Ups",
+  "image": "sclp-prd-main_large.jpg",
+  "sku": "petsmart-5303622",
+  "brand": {
+    "@type": "Brand",
+    "name": "Top Paw"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": 22.99,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.3913,
+    "reviewCount": 23
+  },
+  "keywords": [
+    "dog-accessory",
+    "dog",
+    "training-and-behavior",
+    "potty-training"
+  ]
+}
