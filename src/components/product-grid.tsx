@@ -23,11 +23,13 @@ import Typography from '@mui/material/Typography';
 import { useAtomValue, useSetAtom, useTranslations } from '@specfocus/atoms/lib/hooks';
 import useAlert from '@specfocus/shelly/lib/hooks/use-alert';
 import { AlertTypes } from '@specfocus/shelly/lib/alerts';
+import pushViewAtom from '@specfocus/shelly/lib/shell/atoms/swiper/push-view-atom';
 import { type FC, useState } from 'react';
 import shopActorAtom from '@/atoms/shop-actor-atom';
 import shopSnapshotBucketsAtom from '@/atoms/shop-snapshot-buckets-atom';
 import { ShopEventTypes } from '@/machines/shop/shop-event-types';
 import { ProductTags, type ProductJsonLd } from '@/types/product-jsonld';
+import { createProductViewContext } from '@/views/product/product-view-entry';
 
 // ── Star rating helper ─────────────────────────────────────────────────────────
 
@@ -267,8 +269,12 @@ const BucketPickerButton: FC<{ product: ProductJsonLd; disabled?: boolean; }> = 
 
 const ProductCard: FC<{ product: ProductJsonLd; }> = ({ product }) => {
     const { name, description, image, brand, offers, aggregateRating, keywords = [] } = product;
+    const pushView = useSetAtom(pushViewAtom);
     const price = offers.price.toFixed(2);
     const [whole, cents] = price.split('.');
+    const openProductView = () => {
+        pushView(createProductViewContext(product));
+    };
 
     // Derive availability tag from schema.org availability URL
     const availTag =
@@ -302,17 +308,19 @@ const ProductCard: FC<{ product: ProductJsonLd; }> = ({ product }) => {
             }}
         >
             {/* Product image */}
-            <CardMedia
-                component="img"
-                image={image}
-                alt={name}
-                sx={{
-                    height: 200,
-                    objectFit: 'contain',
-                    bgcolor: 'rgba(255,255,255,0.04)',
-                    p: 1.5,
-                }}
-            />
+            <ButtonBase onClick={openProductView} sx={{ width: '100%', display: 'block', textAlign: 'left' }}>
+                <CardMedia
+                    component="img"
+                    image={image}
+                    alt={name}
+                    sx={{
+                        height: { xs: 240, md: 280 },
+                        objectFit: 'contain',
+                        bgcolor: '#fff',
+                        p: 1,
+                    }}
+                />
+            </ButtonBase>
 
             <CardContent sx={{ flexGrow: 1, pb: 0.5 }}>
                 {/* Brand */}
@@ -326,22 +334,24 @@ const ProductCard: FC<{ product: ProductJsonLd; }> = ({ product }) => {
                 )}
 
                 {/* Title */}
-                <Typography
-                    variant="body1"
-                    fontWeight={600}
-                    sx={{
-                        color: '#F3F4F6',
-                        mt: 0.25,
-                        display: '-webkit-box',
-                        WebkitLineClamp: 2,
-                        WebkitBoxOrient: 'vertical',
-                        overflow: 'hidden',
-                        lineHeight: 1.4,
-                    }}
-                    title={name}
-                >
-                    {name}
-                </Typography>
+                <ButtonBase onClick={openProductView} sx={{ textAlign: 'left' }}>
+                    <Typography
+                        variant="body1"
+                        fontWeight={600}
+                        sx={{
+                            color: '#F3F4F6',
+                            mt: 0.25,
+                            display: '-webkit-box',
+                            WebkitLineClamp: 2,
+                            WebkitBoxOrient: 'vertical',
+                            overflow: 'hidden',
+                            lineHeight: 1.4,
+                        }}
+                        title={name}
+                    >
+                        {name}
+                    </Typography>
+                </ButtonBase>
 
                 {/* Stars */}
                 {aggregateRating && (
@@ -363,6 +373,19 @@ const ProductCard: FC<{ product: ProductJsonLd; }> = ({ product }) => {
                 >
                     {description}
                 </Typography>
+
+                <ButtonBase
+                    onClick={openProductView}
+                    sx={{
+                        mt: 0.75,
+                        fontSize: 12,
+                        color: '#93c5fd',
+                        textDecoration: 'underline',
+                        textUnderlineOffset: '2px',
+                    }}
+                >
+                    View details
+                </ButtonBase>
 
                 <Divider sx={{ my: 1, borderColor: 'rgba(255,255,255,0.12)' }} />
 
@@ -394,7 +417,7 @@ const ProductCardSkeleton: FC = () => (
         elevation={1}
         sx={{ borderRadius: 0, bgcolor: 'rgba(255,255,255,0.05)', border: '1px solid rgba(255,255,255,0.12)' }}
     >
-        <Skeleton variant="rectangular" height={200} sx={{ bgcolor: 'rgba(255,255,255,0.12)' }} />
+        <Skeleton variant="rectangular" height={280} sx={{ bgcolor: 'rgba(255,255,255,0.12)' }} />
         <CardContent>
             <Skeleton width="40%" height={16} sx={{ bgcolor: 'rgba(255,255,255,0.12)' }} />
             <Skeleton height={20} sx={{ mt: 0.5, bgcolor: 'rgba(255,255,255,0.12)' }} />

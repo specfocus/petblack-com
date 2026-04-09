@@ -110,11 +110,11 @@ export async function POST(req: Request) {
     }
 
     try {
-        const prompt = buildBuddyPromptWithMachineContext(input.buddy, input.message, {
+        const { systemInstruction, userPrompt } = buildBuddyPromptWithMachineContext(input.buddy, input.message, {
             shopSnapshot: input.shopSnapshot,
             shopMachineDoc: input.shopMachineDoc,
         });
-        const gemini = await generateBuddyResponseWithGemini(prompt);
+        const gemini = await generateBuddyResponseWithGemini(userPrompt, systemInstruction);
         const raw = gemini.text;
         const parsed = parseBuddyModelResponse(raw);
 

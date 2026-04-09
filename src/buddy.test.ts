@@ -182,7 +182,27 @@ test('intent "clean the cart" should remove all cart items', async () => {
 });
 
 test('buddy should execute a multi-step plan for pickup flow', async () => {
+    globalThis.fetch = (async () =>
+        ({
+            ok: true,
+            status: 200,
+            text: async () =>
+                JSON.stringify({
+                    reply: 'Let me find a store near you for pickup.',
+                    emotion: 'happy',
+                    events: [
+                        {
+                            id: 'evt-pickup-1',
+                            target: 'shop',
+                            eventType: 'shop.pickup.selectStore',
+                            payload: { query: 'dog food', fulfillment: 'pickup' },
+                        },
+                    ],
+                }),
+        }) as Response) as FetchMock;
+
     const actor = createTestAgentActor();
+    actor.send({ type: AgentEventTypes.BindBuddyProfile, profile });
     actor.send({
         type: AgentEventTypes.ChatRequestSubmitted,
         payload: makePayload(getPrefabMessage('pickup-dog-food')),

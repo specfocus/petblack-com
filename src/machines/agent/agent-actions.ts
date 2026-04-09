@@ -13,8 +13,53 @@ import type { BuddyProfile } from '@/widgets/buddy/domain/types';
 import { ShopEventTypes } from '../shop/shop-event-types';
 import type { ShopEventUnion } from '../shop/shop-events';
 import { PrefabBucketNames } from '@/domain/types';
+import { WIDGETS_PATH } from '@/widgets/widgets-path';
+import { ShellEventTypes } from '@specfocus/shelly/lib/shell/machine/shell-event-types';
+import { ShellEffectTaskTypes } from '@specfocus/shelly/lib/shell/machine/shell-effect-task';
+import type { EnqueueEffectTasksEvent } from '@specfocus/shelly/lib/shell/machine/shell-events';
 
 const { assign } = agentSetup;
+
+/** Build a shell event that toggles a widget panel open+visible. */
+const buildOpenWidgetShellEvent = (widgetName: string): EnqueueEffectTasksEvent => ({
+    type: ShellEventTypes.EnqueueEffectTasks,
+    tasks: [
+        {
+            type: ShellEffectTaskTypes.ToggleWorkspacePath,
+            path: [...WIDGETS_PATH, widgetName, 'toggles', 'show'],
+            value: true,
+        },
+        {
+            type: ShellEffectTaskTypes.ToggleWorkspacePath,
+            path: [...WIDGETS_PATH, widgetName, 'toggles', 'open'],
+            value: true,
+        },
+    ],
+});
+
+/** Build a shell event that only toggles a widget's show flag (icon visible, panel may stay closed). */
+const buildShowWidgetShellEvent = (widgetName: string, value: boolean): EnqueueEffectTasksEvent => ({
+    type: ShellEventTypes.EnqueueEffectTasks,
+    tasks: [
+        {
+            type: ShellEffectTaskTypes.ToggleWorkspacePath,
+            path: [...WIDGETS_PATH, widgetName, 'toggles', 'show'],
+            value,
+        },
+    ],
+});
+
+/** Build a shell event that only toggles a widget's open flag (expand/collapse the panel). */
+const buildToggleOpenWidgetShellEvent = (widgetName: string, value: boolean): EnqueueEffectTasksEvent => ({
+    type: ShellEventTypes.EnqueueEffectTasks,
+    tasks: [
+        {
+            type: ShellEffectTaskTypes.ToggleWorkspacePath,
+            path: [...WIDGETS_PATH, widgetName, 'toggles', 'open'],
+            value,
+        },
+    ],
+});
 
 const makeId = (): string => {
     if (typeof crypto !== 'undefined' && 'randomUUID' in crypto) {
@@ -45,44 +90,74 @@ const translateProposedEventsToShopEvents = (events: AgentEventEnvelope[]): Shop
         if (event.target !== 'shop') continue;
         const payload = event.payload ?? {};
         switch (event.eventType) {
-            case ShopEventTypes.OpenBucket: {
-                const name = toString(payload.name) ?? 'cart';
-                translated.push({ type: ShopEventTypes.OpenBucket, name });
-                break;
-            }
-            case ShopEventTypes.ToggleBucketShow: {
-                const name = toString(payload.id ?? payload.name) ?? 'cart';
-                translated.push({ type: ShopEventTypes.ToggleBucketShow, name });
-                if (name === 'cart') translated.push({ type: ShopEventTypes.OpenBucket, name: 'cart' });
-                break;
-            }
             case ShopEventTypes.AddItem: {
-                const bucketName = toString(payload.bucketName) ?? 'cart';
-                const sku = toString(payload.sku) ?? 'unknown-sku';
-                const name = toString(payload.name) ?? 'Unknown item';
+                const bucketName = toString(payload.bucketName);
+                const sku = toString(payload.sku);
+                const name = toString(payload.name);
                 const qty = toNumber(payload.qty) ?? 1;
+                if (!bucketName || !sku || !name) break;
                 translated.push({ type: ShopEventTypes.AddItem, bucketName, sku, name, qty });
                 break;
             }
             case ShopEventTypes.UpdateItemQty: {
-                const bucketName = toString(payload.bucketName) ?? 'cart';
-                const sku = toString(payload.sku) ?? 'unknown-sku';
-                const qty = toNumber(payload.qty) ?? 1;
+                const bucketName = toString(payload.bucketName);
+                const sku = toString(payload.sku);
+                const qty = toNumber(payload.qty);
+                if (!bucketName || !sku || qty === null) break;
                 translated.push({ type: ShopEventTypes.UpdateItemQty, bucketName, sku, qty });
                 break;
             }
             case ShopEventTypes.RemoveItem: {
-                const bucketName = toString(payload.bucketName) ?? 'cart';
-                const sku = toString(payload.sku) ?? 'unknown-sku';
+                const bucketName = toString(payload.bucketName);
+                const sku = toString(payload.sku);
+                if (!bucketName || !sku) break;
                 translated.push({ type: ShopEventTypes.RemoveItem, bucketName, sku });
                 break;
             }
             case ShopEventTypes.ClearCart:
                 translated.push({ type: ShopEventTypes.ClearCart });
                 break;
-            case ShopEventTypes.SearchProducts:
-                translated.push({ type: ShopEventTypes.SearchProducts, query: toString(payload.query) ?? '' });
+            case ShopEventTypes.SearchProducts: {
+                const query = toString(payload.query);
+                if (!query) break;
+                translated.push({ type: ShopEventTypes.SearchProducts, query });
                 break;
+            }
+            default:
+                break;
+        }
+    }
+    return translated;
+};
+
+/** Extract proposed events that should become shell-level UI actions (e.g. open a widget panel). */
+const translateProposedEventsToShellEvents = (events: AgentEventEnvelope[]): EnqueueEffectTasksEvent[] => {
+    const translated: EnqueueEffectTasksEvent[] = [];
+    for (const event of events) {
+        if (event.target !== 'shop') continue;
+        const payload = event.payload ?? {};
+        switch (event.eventType) {
+            case ShopEventTypes.OpenBucket: {
+                // openBucket = ensure both show and open are true (show icon + expand panel)
+                const name = toString(payload.name ?? payload.id);
+                if (!name) break;
+                translated.push(buildOpenWidgetShellEvent(name));
+                break;
+            }
+            case ShopEventTypes.ToggleBucketShow: {
+                // toggleBucketShow = toggle the icon visibility only (does not expand the panel)
+                const name = toString(payload.name ?? payload.id);
+                if (!name) break;
+                translated.push(buildShowWidgetShellEvent(name, true));
+                break;
+            }
+            case ShopEventTypes.ToggleBucketOpen: {
+                // toggleBucketOpen = expand or collapse the panel (icon stays visible)
+                const name = toString(payload.name ?? payload.id);
+                if (!name) break;
+                translated.push(buildToggleOpenWidgetShellEvent(name, true));
+                break;
+            }
             default:
                 break;
         }
@@ -167,6 +242,10 @@ const agentActions = {
             ? translateProposedEventsToShopEvents(parsed.events)
             : [];
 
+        const translatedShellEvents = parsed?.events
+            ? translateProposedEventsToShellEvents(parsed.events)
+            : [];
+
         return {
             isSending: false,
             lastReply: parsed?.reply ?? context.lastReply,
@@ -177,6 +256,7 @@ const agentActions = {
                 ? [...context.pendingEvents, ...parsed.events]
                 : context.pendingEvents,
             forwardedShopEvents: [...context.forwardedShopEvents, ...translatedShopEvents],
+            forwardedShellEvents: [...context.forwardedShellEvents, ...translatedShellEvents],
             debugTraces: [
                 ...context.debugTraces,
                 {
@@ -260,16 +340,16 @@ const agentActions = {
     // Intents are intentionally scaffolded first and translated incrementally.
     // For now they emit placeholder shop events to guide future implementation.
     translateIntentOpenCart: assign(({ context }) => ({
-        forwardedShopEvents: [
-            ...context.forwardedShopEvents,
-            { type: ShopEventTypes.OpenBucket, name: 'cart' },
+        forwardedShellEvents: [
+            ...context.forwardedShellEvents,
+            buildOpenWidgetShellEvent('cart'),
         ],
     })),
 
     translateIntentOpenAutoship: assign(({ context }) => ({
-        forwardedShopEvents: [
-            ...context.forwardedShopEvents,
-            { type: ShopEventTypes.OpenBucket, name: 'auto' },
+        forwardedShellEvents: [
+            ...context.forwardedShellEvents,
+            buildOpenWidgetShellEvent('auto'),
         ],
     })),
 

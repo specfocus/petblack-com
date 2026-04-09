@@ -8,7 +8,7 @@ import { BaseThemeNames } from '@specfocus/shelly/lib/theme/index';
 
 const ID = 'petblack';
 
-const petblackThemeEffectAtom: ReadonlyAtom<void> = atomEffect(
+const themeEffectAtom: ReadonlyAtom<void> = atomEffect(
     (get: GetterWithPeek, set: SetterWithRecurse) => {
         const base = get(activeBaseThemeAtom);
         const options = base === BaseThemeNames.Light ? petblackLight : petblackDark;
@@ -24,6 +24,6 @@ const petblackThemeEffectAtom: ReadonlyAtom<void> = atomEffect(
     }
 );
 
-petblackThemeEffectAtom.debugLabel = 'petblackThemeEffectAtom';
+themeEffectAtom.debugLabel = 'themeEffectAtom';
 
-export default petblackThemeEffectAtom;
+export default themeEffectAtom;

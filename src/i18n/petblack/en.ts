@@ -36,6 +36,9 @@ const petblackEn = {
             explore: {
                 label: 'Product Explorer',
             },
+            product: {
+                label: 'Product Details',
+            },
         },
         widgets: {
             /** WorkspaceWidgetEntry — `buddyWidgetEntry` in install; not the show/open toggles. */

@@ -1,9 +1,25 @@
 import { AppRouterCacheProvider } from '@mui/material-nextjs/v16-appRouter';
-import type { Metadata } from "next";
-import type { Viewport } from 'next';
+import type { Metadata, Viewport } from 'next';
 import { Geist, Geist_Mono } from "next/font/google";
-import ShellProviders from './shell-providers';
+import type { PropsWithChildren } from 'react';
+
 import './globals.css';
+
+import { Baloo_2, JetBrains_Mono } from 'next/font/google';
+
+import 'katex/dist/katex.min.css';
+
+const baloo = Baloo_2({
+    variable: '--font-baloo',
+    subsets: ['latin'],
+    weight: ['400', '500', '600', '700', '800'],
+});
+
+const jetbrainsMono = JetBrains_Mono({
+    variable: '--font-jetbrains-mono',
+    subsets: ['latin'],
+    weight: ['400', '500', '600', '700'],
+});
 
 const geistSans = Geist({
     variable: "--font-geist-sans",
@@ -47,16 +63,12 @@ export const viewport: Viewport = {
 
 export default function RootLayout({
     children,
-}: Readonly<{
-    children: React.ReactNode;
-}>) {
+}: PropsWithChildren) {
     return (
         <html lang="en">
-            <body className={`${geistSans.variable} ${geistMono.variable}`} data-app-shell>
+            <body className={`${geistSans.variable} ${geistMono.variable} ${baloo.variable} ${jetbrainsMono.variable}`} data-app-shell>
                 <AppRouterCacheProvider options={{ key: 'mui' }}>
-                    <ShellProviders>
-                        {children}
-                    </ShellProviders>
+                    {children}
                 </AppRouterCacheProvider>
             </body>
         </html>

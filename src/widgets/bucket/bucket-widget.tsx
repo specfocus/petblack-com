@@ -73,13 +73,13 @@ const BucketWidget: FC<BucketWidgetProps> = ({ bucketName = 'want' }) => {
                 <Box sx={{ overflowY: 'auto', flex: 1, px: 1, py: 0.5 }}>
                     <BucketDrillin bucketName={bucketName} />
                 </Box>
-                {/* Add by SKU */}
+                {/* Add by SKU
                 <Box sx={{ borderTop: 1, borderColor: 'divider', p: 1.25, display: 'flex', gap: 1, flexShrink: 0 }}>
                     <InputBase value={skuInput} onChange={e => setSkuInput(e.target.value)} placeholder="Add SKU…" onKeyDown={e => e.key === 'Enter' && handleAddSku()} sx={{ flex: 1, border: 1, borderColor: 'divider', px: 1.25, py: 0.75, fontSize: 13 }} />
                     <IconButton size="small" onClick={handleAddSku} disabled={!skuInput.trim()}>
                         <AddRoundedIcon fontSize="small" />
                     </IconButton>
-                </Box>
+                </Box> */}
             </>
         </Widget>
     );

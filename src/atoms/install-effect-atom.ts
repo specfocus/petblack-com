@@ -13,6 +13,7 @@
 import type { ReadonlyAtom } from '@specfocus/atoms/lib/atom';
 import atomEffect, { type GetterWithPeek, type SetterWithRecurse } from '@specfocus/atoms/lib/effect';
 import { installFeedbackActor } from '@specfocus/shelly/lib/machines/feedback';
+import { translationsAtom } from '@specfocus/atoms/lib/i18n';
 import installBuddy from '@/widgets/buddy/install';
 import installCart from '@/widgets/cart/install';
 import installAuto from '@/widgets/auto/install';
@@ -24,12 +25,20 @@ import installShopSettingsSection from '@/dialogs/settings/shop/install';
 import installShopperSettingsSection from '@/dialogs/settings/shopper/install';
 import installPetSettingsSection from '@/dialogs/settings/pet/install';
 import installExploreView from '@/views/explore/install';
+import installProductView from '@/views/product/install';
 import shopActorAtom from './shop-actor-atom';
 import installDebug from '@/widgets/debug/install';
 
-const petblackEffectAtom: ReadonlyAtom<void> = atomEffect(
+const installEffectAtom: ReadonlyAtom<void> = atomEffect(
     (get: GetterWithPeek, set: SetterWithRecurse) => {
+        // Register petblack translations
+        set(translationsAtom, (draft: [string, Promise<Record<string, unknown>>][]) => [
+            ...draft,
+            ['en', import('../i18n/en').then(m => m.default)],
+        ]);
+
         const cleanupExplore = installExploreView(get, set);
+        const cleanupProductView = installProductView(get, set);
         const cleanupBuddy = installBuddy(get, set);
         const cleanupCart = installCart(get, set);
         const cleanupAuto = installAuto(get, set);
@@ -56,11 +65,12 @@ const petblackEffectAtom: ReadonlyAtom<void> = atomEffect(
             cleanupAuto();
             cleanupCart();
             cleanupBuddy();
+            cleanupProductView();
             cleanupExplore();
         };
     }
 );
 
-petblackEffectAtom.debugLabel = 'petblackEffectAtom';
+installEffectAtom.debugLabel = 'petblackEffectAtom';
 
-export default petblackEffectAtom;
+export default installEffectAtom;

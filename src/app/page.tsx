@@ -1,4 +1,5 @@
-﻿// Shell renders the explore view via InitView in petblack-effect-atom.
-export default function Home() {
-    return null;
-}
+﻿import App from './app';
+
+const Page = () => <App />;
+
+export default Page;

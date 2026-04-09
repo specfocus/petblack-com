@@ -13,6 +13,7 @@
 import { buildBuddyProfile } from "@/widgets/buddy/domain/deterministic";
 import { getOrCreateVisitorId } from "@/widgets/buddy/domain/storage";
 import type { BuddyProfile } from "@/widgets/buddy/domain/types";
+import { DEFAULT_SHOP_MACHINE_DOC } from "@/widgets/buddy/server/promptBuilder";
 import CloseRoundedIcon from "@mui/icons-material/CloseRounded";
 import PetsRoundedIcon from "@mui/icons-material/PetsRounded";
 import SendRoundedIcon from "@mui/icons-material/SendRounded";
@@ -55,14 +56,7 @@ const BuddyWidget: FC = () => {
     const shopSnapshot = useAtomValue(shopSnapshotAtom);
     const sendAgentEvent = useSetAtom(agentActorAtom);
 
-    const shopMachineDoc = `Shop machine handles bucket toggles, custom buckets, and sku quantity updates.
-Allowed events include:
-- shop.toggleBucketShow { name (bucket id) }
-- shop.createCustomBucket { name, icon }
-- shop.removeCustomBucket { name (bucket id) }
-- shop.addItem { bucketName (bucketName), sku, name, qty }
-- shop.updateItemQty { bucketName (bucketName), sku, qty }
-- shop.removeItem { bucketName (bucketName), sku }`;
+    const shopMachineDoc = DEFAULT_SHOP_MACHINE_DOC;
 
     useEffect(() => {
         const id = getOrCreateVisitorId();
