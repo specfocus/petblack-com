@@ -58,17 +58,18 @@ const availabilityColor = (availability: ProductJsonLd['offers']['availability']
     return 'default';
 };
 
-const ProductView: FC = () => {
+const ProductView: FC<{ product?: ProductJsonLd; }> = ({ product: productProp }) => {
     const activeView = useAtomValue(activeViewAtom);
     const popView = useSetAtom(popViewAtom);
     const activeResourceObject = useAtomValue(activeWorkspaceEntryResourceObjectAtom);
 
     const metadataProduct = activeView?.metadata?.product;
     const product = useMemo(() => {
+        if (productProp) return productProp;
         if (isProductJsonLd(metadataProduct)) return metadataProduct;
         if (isProductJsonLd(activeResourceObject)) return activeResourceObject;
         return null;
-    }, [activeResourceObject, metadataProduct]);
+    }, [productProp, activeResourceObject, metadataProduct]);
 
     if (!product) {
         return (

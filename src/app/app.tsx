@@ -13,6 +13,7 @@ import ShellyBootstrap from '@specfocus/shelly/lib/bootstrap';
 import Shelly from '@specfocus/shelly/lib/shelly';
 import AppThemeProvider from '@specfocus/shelly/lib/theme/theme-provider';
 import { type FC, type PropsWithChildren } from 'react';
+import { PawSvg } from './icons/paw-svg';
 
 const Bootstrap: FC = () => {
     useAtomValue(installEffectAtom);
@@ -31,7 +32,7 @@ const App: FC<PropsWithChildren> = ({ children }) => (
             <ShellyBootstrap>
                 <Bootstrap />
             </ShellyBootstrap>
-            <Shelly>
+            <Shelly appIcon={<PawSvg size={20} fill="currentColor" />}>
                 {children}
             </Shelly>
             <Alerts />
