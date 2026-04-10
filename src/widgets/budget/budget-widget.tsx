@@ -1,8 +1,10 @@
 "use client";
 
 import shopSnapshotAtom from '@/atoms/shop-snapshot-atom';
+import { ledgerViewContext } from '@/views/ledger/ledger-view-entry';
 import { PrefabBucketNames, type BucketItem } from '@/domain/types';
 import CloseRoundedIcon from '@mui/icons-material/CloseRounded';
+import OpenInFullRoundedIcon from '@mui/icons-material/OpenInFullRounded';
 import SavingsRoundedIcon from '@mui/icons-material/SavingsRounded';
 import Box from '@mui/material/Box';
 import IconButton from '@mui/material/IconButton';
@@ -10,7 +12,9 @@ import InputAdornment from '@mui/material/InputAdornment';
 import InputBase from '@mui/material/InputBase';
 import LinearProgress from '@mui/material/LinearProgress';
 import Typography from '@mui/material/Typography';
-import { useAtom, useAtomValue } from '@specfocus/atoms/lib/hooks';
+import { useAtom, useAtomValue, useSetAtom } from '@specfocus/atoms/lib/hooks';
+import { SwiperEventTypes } from '@specfocus/shelly/lib/layouts/swiper/machine/swiper-event-types';
+import shellActorAtom from '@specfocus/shelly/lib/shell/atoms/shell-actor-atom';
 import Widget from '@specfocus/shelly/lib/widgets/widget';
 import { type FC, useState } from 'react';
 import budgetOpenAtom from './atoms/budget-open-atom';
@@ -31,6 +35,7 @@ const BudgetWidget: FC = () => {
     const [isOpen, setIsOpen] = useAtom(budgetOpenAtom as never);
     const [budget, setBudget] = useAtom(monthlyBudgetAtom);
     const shopSnapshot = useAtomValue(shopSnapshotAtom);
+    const sendShellEvent = useSetAtom(shellActorAtom);
     const [inputValue, setInputValue] = useState('');
     const [editing, setEditing] = useState(false);
 
@@ -60,9 +65,10 @@ const BudgetWidget: FC = () => {
                 sx={{
                     display: 'flex',
                     alignItems: 'center',
+                    gap: 0.5,
                     pl: 3,
                     pr: 0.5,
-                    py: 0.75,
+                    py: 0.5,
                     borderBottom: 1,
                     borderColor: 'divider',
                     flexShrink: 0,
@@ -72,6 +78,13 @@ const BudgetWidget: FC = () => {
             >
                 <SavingsRoundedIcon fontSize="small" sx={{ mr: 1, flexShrink: 0 }} />
                 <Typography variant="subtitle2" sx={{ flex: 1 }}>Monthly Budget</Typography>
+                <IconButton
+                    size="small"
+                    onClick={() => sendShellEvent({ type: SwiperEventTypes.PushView, view: ledgerViewContext })}
+                    title="Open purchase ledger"
+                >
+                    <OpenInFullRoundedIcon fontSize="small" />
+                </IconButton>
                 <IconButton size="small" onClick={() => setIsOpen(false)} title="Close">
                     <CloseRoundedIcon fontSize="small" />
                 </IconButton>

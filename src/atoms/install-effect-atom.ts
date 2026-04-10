@@ -27,6 +27,7 @@ import installShopperSettingsSection from '@/dialogs/settings/shopper/install';
 import installPetSettingsSection from '@/dialogs/settings/pet/install';
 import installExploreView from '@/views/explore/install';
 import installProductView from '@/views/product/install';
+import installLedgerView from '@/views/ledger/install';
 import shopActorAtom from './shop-actor-atom';
 import installDebug from '@/widgets/debug/install';
 
@@ -40,6 +41,7 @@ const installEffectAtom: ReadonlyAtom<void> = atomEffect(
 
         const cleanupExplore = installExploreView(get, set);
         const cleanupProductView = installProductView(get, set);
+        const cleanupLedgerView = installLedgerView(get, set);
         const cleanupBuddy = installBuddy(get, set);
         const cleanupCart = installCart(get, set);
         const cleanupBudget = installBudget(get, set);
@@ -68,6 +70,7 @@ const installEffectAtom: ReadonlyAtom<void> = atomEffect(
             cleanupBudget();
             cleanupCart();
             cleanupBuddy();
+            cleanupLedgerView();
             cleanupProductView();
             cleanupExplore();
         };
