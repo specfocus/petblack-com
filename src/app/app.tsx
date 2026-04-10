@@ -1,5 +1,3 @@
-'use client';
-
 import agentActorAtom from '@/atoms/agent-actor-atom';
 import agentForwardingEffectAtom from '@/atoms/agent-forwarding-effect-atom';
 import installEffectAtom from '@/atoms/install-effect-atom';
@@ -9,6 +7,7 @@ import queryClient from '@/lib/query-client';
 import themeEffectAtom from '@/theme/theme-effect-atom';
 import { Provider } from '@specfocus/atoms/lib/hooks/provider';
 import { useAtomValue } from '@specfocus/atoms/lib/hooks/use-atom-value';
+import { useHydrateAtoms } from '@specfocus/atoms/lib/hooks/use-hydrate-atoms';
 import { queryClientAtom } from '@specfocus/atoms/lib/query';
 import Alerts from '@specfocus/shelly/lib/alerts/alerts';
 import ShellyBootstrap from '@specfocus/shelly/lib/bootstrap';
@@ -18,6 +17,9 @@ import { type FC, type PropsWithChildren } from 'react';
 import { PawSvg } from './icons/paw-svg';
 
 const Bootstrap: FC = () => {
+    // Seed queryClientAtom into the jotai store before any atomWithQuery runs.
+    // useHydrateAtoms is the jotai v2 replacement for the removed initialValues prop.
+    useHydrateAtoms([[queryClientAtom, queryClient]]);
     useAtomValue(installEffectAtom);
     useAtomValue(storageActorAtom);
     useAtomValue(shopActorAtom);
@@ -29,7 +31,7 @@ const Bootstrap: FC = () => {
 };
 
 const App: FC<PropsWithChildren> = ({ children }) => (
-    <Provider initialValues={[[queryClientAtom, queryClient]]}>
+    <Provider>
         <AppThemeProvider>
             <ShellyBootstrap>
                 <Bootstrap />
