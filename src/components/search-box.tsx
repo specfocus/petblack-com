@@ -10,9 +10,11 @@ import { type FC, type FormEvent, useState } from 'react';
 interface SearchBoxProps {
     onSearch: (query: string) => void;
     loading?: boolean;
+    size?: 'small' | 'medium';
+    maxWidth?: number | string;
 }
 
-const SearchBox: FC<SearchBoxProps> = ({ onSearch, loading = false }) => {
+const SearchBox: FC<SearchBoxProps> = ({ onSearch, loading = false, size = 'medium', maxWidth = 720 }) => {
     const [value, setValue] = useState('');
 
     const handleSubmit = (e: FormEvent) => {
@@ -24,7 +26,7 @@ const SearchBox: FC<SearchBoxProps> = ({ onSearch, loading = false }) => {
         <Box
             component="form"
             onSubmit={handleSubmit}
-            sx={{ width: '100%', maxWidth: 720 }}
+            sx={{ width: '100%', maxWidth }}
             role="search"
         >
             <TextField
@@ -32,7 +34,7 @@ const SearchBox: FC<SearchBoxProps> = ({ onSearch, loading = false }) => {
                 value={value}
                 onChange={e => setValue(e.target.value)}
                 placeholder="Search for pet food, toys, accessories…"
-                size="medium"
+                size={size}
                 aria-label="Search products"
                 disabled={loading}
                 slotProps={{

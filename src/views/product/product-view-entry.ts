@@ -1,4 +1,4 @@
-import { lazy } from 'react';
+import { lazy, createElement, type FC } from 'react';
 import { WorkspaceEntryTypes, type WorkspacePath } from '@specfocus/atoms/lib/workspace';
 import { DialogKinds } from '@specfocus/shelly/lib/dialogs/dialog-kinds';
 import { DialogLayouts } from '@specfocus/shelly/lib/dialogs/dialog-layouts';
@@ -22,13 +22,18 @@ const getProductPath = (product: ProductJsonLd): WorkspacePath => {
 export const createProductViewContext = (product: ProductJsonLd): ViewContext => {
     const sku = product.sku ?? product['@id'] ?? product.name;
 
+    // Per-instance primary: closes over `product` so the preview card renders
+    // the correct product without reading from any global atom.
+    const BoundProductView: FC = () => createElement(LazyProductView, { product });
+    BoundProductView.displayName = `ProductView:${sku}`;
+
     return {
         id: `product:${sku}`,
         name: PRODUCT_VIEW,
         label: product.name,
         segment: PRODUCT_VIEW,
         path: getProductPath(product),
-        primary: LazyProductView,
+        primary: BoundProductView,
         skeleton: ProductViewSkeleton,
         metadata: {
             isProductView: true,

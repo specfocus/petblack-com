@@ -5,6 +5,7 @@ import { DialogLayouts } from '@specfocus/shelly/lib/dialogs/dialog-layouts';
 import { VIEW } from '@specfocus/shelly/lib/views/view-entry';
 import type { WorkspaceViewEntry } from '@specfocus/shelly/lib/views/view-entry';
 import type { ViewContext } from '@specfocus/shelly/lib/views/view-context';
+import ExploreHeader from './explore-header';
 
 export const EXPLORE_VIEW = 'explore';
 
@@ -37,6 +38,7 @@ export const exploreViewContext: ViewContext = {
     path: [EXPLORE_VIEW],
     primary: LazyExploreView,
     skeleton: ExploreViewSkeleton,
+    header: ExploreHeader,
 };
 
 export default exploreViewEntry;

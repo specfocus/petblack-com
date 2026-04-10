@@ -122,12 +122,14 @@ const BuddyWidget: FC = () => {
                     display: "flex",
                     alignItems: "center",
                     justifyContent: "space-between",
-                    px: 1.75,
-                    py: 1.5,
+                    pl: 3,   // clear the 18px drag-handle notch
+                    pr: 0.5, // room for the close button on the right edge
+                    py: 1,
                     borderBottom: 1,
                     borderColor: "divider",
                     flexShrink: 0,
                     width: '100%',
+                    boxSizing: 'border-box',
                 }}
             >
                 <Box sx={{ display: "flex", gap: 1.25, alignItems: "center", minWidth: 0 }}>
@@ -194,7 +196,9 @@ const BuddyWidget: FC = () => {
                 sx={{
                     borderTop: 1,
                     borderColor: "divider",
-                    p: 1.25,
+                    pl: 1.25,
+                    pr: 0.5,  // keep send button inside the right edge
+                    py: 1,
                     display: "grid",
                     gridTemplateColumns: "1fr auto",
                     gap: 1,
@@ -202,6 +206,7 @@ const BuddyWidget: FC = () => {
                     flexShrink: 0,
                     width: '100%',
                     minWidth: 0,
+                    boxSizing: 'border-box',
                 }}
             >
                 <InputBase
