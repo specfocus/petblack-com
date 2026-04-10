@@ -5,9 +5,11 @@ import agentForwardingEffectAtom from '@/atoms/agent-forwarding-effect-atom';
 import installEffectAtom from '@/atoms/install-effect-atom';
 import shopActorAtom from '@/atoms/shop-actor-atom';
 import storageActorAtom from '@/atoms/storage-actor-atom';
+import queryClient from '@/lib/query-client';
 import themeEffectAtom from '@/theme/theme-effect-atom';
 import { Provider } from '@specfocus/atoms/lib/hooks/provider';
 import { useAtomValue } from '@specfocus/atoms/lib/hooks/use-atom-value';
+import { queryClientAtom } from '@specfocus/atoms/lib/query';
 import Alerts from '@specfocus/shelly/lib/alerts/alerts';
 import ShellyBootstrap from '@specfocus/shelly/lib/bootstrap';
 import Shelly from '@specfocus/shelly/lib/shelly';
@@ -27,7 +29,7 @@ const Bootstrap: FC = () => {
 };
 
 const App: FC<PropsWithChildren> = ({ children }) => (
-    <Provider>
+    <Provider initialValues={[[queryClientAtom, queryClient]]}>
         <AppThemeProvider>
             <ShellyBootstrap>
                 <Bootstrap />

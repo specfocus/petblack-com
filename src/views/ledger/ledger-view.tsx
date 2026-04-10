@@ -23,8 +23,9 @@ import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import { useAtomValue } from '@specfocus/atoms/lib/hooks';
-import { type FC } from 'react';
-import { ledgerSeedEffectAtom } from '@/atoms/ledger-atom';
+import { useSetAtom } from '@specfocus/atoms/lib/hooks';
+import { type FC, useEffect } from 'react';
+import ledgerAtom, { ledgerQueryAtom } from '@/atoms/ledger-atom';
 import LedgerCharts from './ledger-charts';
 import LedgerTable from './ledger-table';
 
@@ -32,72 +33,81 @@ import LedgerTable from './ledger-table';
 
 const LedgerView: FC = () => {
     // Trigger demo-data fetch on first open when localStorage is empty
-    useAtomValue(ledgerSeedEffectAtom);
+    const ledgerQuery = useAtomValue(ledgerQueryAtom);
+    const setLedger = useSetAtom(ledgerAtom);
+
+    // Seed ledgerAtom from query result when localStorage was empty
+    useEffect(() => {
+        const entries = ledgerQuery.data?.entries;
+        if (Array.isArray(entries) && entries.length > 0) {
+            setLedger(prev => prev.length === 0 ? entries : prev);
+        }
+    }, [ledgerQuery.data, setLedger]);
 
     return (
-    <Box
-        sx={{
-            display: 'flex',
-            flexDirection: 'column',
-            height: '100%',
-            width: '100%',
-            overflow: 'hidden',
-        }}
-    >
-        {/* ── View header ── */}
         <Box
             sx={{
                 display: 'flex',
-                alignItems: 'center',
-                gap: 1,
-                px: 2,
-                py: 1.5,
-                borderBottom: 1,
-                borderColor: 'divider',
-                flexShrink: 0,
+                flexDirection: 'column',
+                height: '100%',
+                width: '100%',
+                overflow: 'hidden',
             }}
         >
-            <ReceiptLongRoundedIcon fontSize="small" color="action" />
-            <Typography variant="subtitle2">Purchase History</Typography>
-        </Box>
-
-        {/* ── Scrollable body ── */}
-        <Box sx={{ flex: 1, overflowY: 'auto', display: 'flex', flexDirection: 'column' }}>
-
-            {/* ── Charts accordion ── */}
-            <Accordion
-                defaultExpanded
-                disableGutters
-                elevation={0}
-                square
-                sx={{ '&:before': { display: 'none' }, borderBottom: 1, borderColor: 'divider' }}
+            {/* ── View header ── */}
+            <Box
+                sx={{
+                    display: 'flex',
+                    alignItems: 'center',
+                    gap: 1,
+                    px: 2,
+                    py: 1.5,
+                    borderBottom: 1,
+                    borderColor: 'divider',
+                    flexShrink: 0,
+                }}
             >
-                <AccordionSummary expandIcon={<ExpandMoreIcon />} sx={{ px: 2, minHeight: 40, '& .MuiAccordionSummary-content': { my: 0.75 } }}>
-                    <Typography variant="subtitle2">Charts</Typography>
-                </AccordionSummary>
-                <AccordionDetails sx={{ p: 0 }}>
-                    <LedgerCharts />
-                </AccordionDetails>
-            </Accordion>
+                <ReceiptLongRoundedIcon fontSize="small" color="action" />
+                <Typography variant="subtitle2">Purchase History</Typography>
+            </Box>
 
-            {/* ── Table accordion ── */}
-            <Accordion
-                defaultExpanded
-                disableGutters
-                elevation={0}
-                square
-                sx={{ '&:before': { display: 'none' }, flex: 1 }}
-            >
-                <AccordionSummary expandIcon={<ExpandMoreIcon />} sx={{ px: 2, minHeight: 40, borderBottom: 1, borderColor: 'divider', '& .MuiAccordionSummary-content': { my: 0.75 } }}>
-                    <Typography variant="subtitle2">Transactions</Typography>
-                </AccordionSummary>
-                <AccordionDetails sx={{ p: 0 }}>
-                    <LedgerTable />
-                </AccordionDetails>
-            </Accordion>
+            {/* ── Scrollable body ── */}
+            <Box sx={{ flex: 1, overflowY: 'auto', display: 'flex', flexDirection: 'column' }}>
 
+                {/* ── Charts accordion ── */}
+                <Accordion
+                    defaultExpanded
+                    disableGutters
+                    elevation={0}
+                    square
+                    sx={{ '&:before': { display: 'none' }, borderBottom: 1, borderColor: 'divider' }}
+                >
+                    <AccordionSummary expandIcon={<ExpandMoreIcon />} sx={{ px: 2, minHeight: 40, '& .MuiAccordionSummary-content': { my: 0.75 } }}>
+                        <Typography variant="subtitle2">Charts</Typography>
+                    </AccordionSummary>
+                    <AccordionDetails sx={{ p: 0 }}>
+                        <LedgerCharts />
+                    </AccordionDetails>
+                </Accordion>
+
+                {/* ── Table accordion ── */}
+                <Accordion
+                    defaultExpanded
+                    disableGutters
+                    elevation={0}
+                    square
+                    sx={{ '&:before': { display: 'none' }, flex: 1 }}
+                >
+                    <AccordionSummary expandIcon={<ExpandMoreIcon />} sx={{ px: 2, minHeight: 40, borderBottom: 1, borderColor: 'divider', '& .MuiAccordionSummary-content': { my: 0.75 } }}>
+                        <Typography variant="subtitle2">Transactions</Typography>
+                    </AccordionSummary>
+                    <AccordionDetails sx={{ p: 0 }}>
+                        <LedgerTable />
+                    </AccordionDetails>
+                </Accordion>
+
+            </Box>
         </Box>
-    </Box>
     );
 };
 

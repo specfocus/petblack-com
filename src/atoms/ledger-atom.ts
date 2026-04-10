@@ -6,16 +6,19 @@
  * Persisted array of LedgerEntry records (purchase history).
  * Stored in localStorage under LEDGER_KEY.
  *
- * On first load (empty localStorage) a seed-effect atom automatically
- * fetches demo data from GET /api/ledger so the Ledger view has
- * something to show immediately.
+ * ledgerQueryAtom uses atomWithQuery to fetch from GET /api/ledger when
+ * localStorage is empty, then seeds ledgerAtom with the result.
  */
 
 import atom from '@specfocus/atoms/lib/atom';
-import atomEffect from '@specfocus/atoms/lib/effect';
-import type { ReadonlyAtom } from '@specfocus/atoms/lib/atom';
+import { atomWithQuery } from '@specfocus/atoms/lib/query';
 import type { BucketItem } from '@/domain/types';
 import { LEDGER_KEY, LedgerSources, type LedgerEntry } from '@/domain/ledger-types';
+
+interface LedgerApiResponse {
+    entries: LedgerEntry[];
+    summary: unknown;
+}
 
 // ── persistence helpers ────────────────────────────────────────────────────────
 
@@ -59,38 +62,34 @@ ledgerAtom.debugLabel = 'ledgerAtom';
 
 export default ledgerAtom;
 
-// ── seed-from-API effect ──────────────────────────────────────────────────────
+// ── query atom ────────────────────────────────────────────────────────────────
 
 /**
- * ledgerSeedEffectAtom
+ * ledgerQueryAtom
  *
- * Mount once (e.g. inside LedgerView) to auto-fetch demo data from
- * GET /api/ledger when localStorage is empty.
- * Does nothing if the user already has stored entries.
+ * Fetches GET /api/ledger only when localStorage is empty (no existing history).
+ * Mount in LedgerView via `useAtomValue(ledgerQueryAtom)` and seed ledgerAtom
+ * when `data` arrives.
+ *
+ * Requires a QueryClient in the jotai store — provided via
+ * `initialValues={[[queryClientAtom, queryClient]]}` in App.
  */
-export const ledgerSeedEffectAtom: ReadonlyAtom<void> = atomEffect(
-    (_get, set) => {
-        if (typeof window === 'undefined') return;
-        const existing = loadLedger();
-        if (existing.length > 0) return; // already have data — skip
+export const ledgerQueryAtom = atomWithQuery<LedgerApiResponse>(() => ({
+    queryKey: ['ledger', 'seed'],
+    queryFn: async (): Promise<LedgerApiResponse> => {
+        const res = await fetch('/api/ledger?count=60&months=6');
+        if (!res.ok) throw new Error(`ledger API ${res.status}`);
+        return res.json() as Promise<LedgerApiResponse>;
+    },
+    // Only run when there is no local data
+    enabled: typeof window !== 'undefined' && loadLedger().length === 0,
+    // Never auto-refetch — this is a one-time seed
+    staleTime: Infinity,
+    refetchOnWindowFocus: false,
+    refetchOnMount: false,
+}));
 
-        let cancelled = false;
-
-        fetch('/api/ledger?count=60&months=6')
-            .then(r => r.ok ? r.json() : Promise.reject(r.status))
-            .then((body: { entries: LedgerEntry[]; }) => {
-                if (cancelled) return;
-                set(ledgerAtom, body.entries);
-            })
-            .catch(() => {
-                // API unavailable — leave ledger empty; user can still add entries manually
-            });
-
-        return () => { cancelled = true; };
-    }
-);
-
-ledgerSeedEffectAtom.debugLabel = 'ledgerSeedEffectAtom';
+ledgerQueryAtom.debugLabel = 'ledgerQueryAtom';
 
 // ── seed helper ──────────────────────────────────────────────────────────────
 
