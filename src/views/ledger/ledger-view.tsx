@@ -22,13 +22,19 @@ import AccordionSummary from '@mui/material/AccordionSummary';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import { useAtomValue } from '@specfocus/atoms/lib/hooks';
 import { type FC } from 'react';
+import { ledgerSeedEffectAtom } from '@/atoms/ledger-atom';
 import LedgerCharts from './ledger-charts';
 import LedgerTable from './ledger-table';
 
 // ── component ─────────────────────────────────────────────────────────────────
 
-const LedgerView: FC = () => (
+const LedgerView: FC = () => {
+    // Trigger demo-data fetch on first open when localStorage is empty
+    useAtomValue(ledgerSeedEffectAtom);
+
+    return (
     <Box
         sx={{
             display: 'flex',
@@ -92,7 +98,8 @@ const LedgerView: FC = () => (
 
         </Box>
     </Box>
-);
+    );
+};
 
 LedgerView.displayName = 'LedgerView';
 

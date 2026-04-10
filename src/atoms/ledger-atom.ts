@@ -6,11 +6,14 @@
  * Persisted array of LedgerEntry records (purchase history).
  * Stored in localStorage under LEDGER_KEY.
  *
- * Provides a seedLedger() helper that pre-populates demo data from
- * current cart/autoship bucket items when the store is empty.
+ * On first load (empty localStorage) a seed-effect atom automatically
+ * fetches demo data from GET /api/ledger so the Ledger view has
+ * something to show immediately.
  */
 
 import atom from '@specfocus/atoms/lib/atom';
+import atomEffect from '@specfocus/atoms/lib/effect';
+import type { ReadonlyAtom } from '@specfocus/atoms/lib/atom';
 import type { BucketItem } from '@/domain/types';
 import { LEDGER_KEY, LedgerSources, type LedgerEntry } from '@/domain/ledger-types';
 
@@ -55,6 +58,39 @@ const ledgerAtom = atom<LedgerEntry[], [LedgerEntry[] | LedgerUpdater], void>(
 ledgerAtom.debugLabel = 'ledgerAtom';
 
 export default ledgerAtom;
+
+// ── seed-from-API effect ──────────────────────────────────────────────────────
+
+/**
+ * ledgerSeedEffectAtom
+ *
+ * Mount once (e.g. inside LedgerView) to auto-fetch demo data from
+ * GET /api/ledger when localStorage is empty.
+ * Does nothing if the user already has stored entries.
+ */
+export const ledgerSeedEffectAtom: ReadonlyAtom<void> = atomEffect(
+    (_get, set) => {
+        if (typeof window === 'undefined') return;
+        const existing = loadLedger();
+        if (existing.length > 0) return; // already have data — skip
+
+        let cancelled = false;
+
+        fetch('/api/ledger?count=60&months=6')
+            .then(r => r.ok ? r.json() : Promise.reject(r.status))
+            .then((body: { entries: LedgerEntry[]; }) => {
+                if (cancelled) return;
+                set(ledgerAtom, body.entries);
+            })
+            .catch(() => {
+                // API unavailable — leave ledger empty; user can still add entries manually
+            });
+
+        return () => { cancelled = true; };
+    }
+);
+
+ledgerSeedEffectAtom.debugLabel = 'ledgerSeedEffectAtom';
 
 // ── seed helper ──────────────────────────────────────────────────────────────
 
