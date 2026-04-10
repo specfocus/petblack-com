@@ -6,6 +6,10 @@
  * Full-width transaction table using MUI Table (same components used by the
  * Shelly Table wrapper internally).
  * Columns: Date · Product · Category · Pet · Source · Qty · Unit Price · Total
+ *
+ * Responsive rules (window.innerWidth < 768 px — narrower than iPad portrait):
+ *   • Category and Pet columns are hidden via `sx` display toggle
+ *   • Qty, Unit Price, Total header cells are right-aligned
  */
 
 import ledgerAtom from '@/atoms/ledger-atom';
@@ -33,9 +37,35 @@ const fmtCurrency = (v: number): string =>
 const SOURCE_LABEL: Record<string, string> = { cart: 'Cart', auto: 'Autoship' };
 const SOURCE_COLOR: Record<string, 'primary' | 'success'> = { cart: 'primary', auto: 'success' };
 
+// ── responsive helpers ────────────────────────────────────────────────────────
+
+/** Hide this cell on viewports narrower than iPad portrait (768 px). */
+const HIDE_NARROW = {
+    display: 'none',
+    '@media (min-width: 768px)': { display: 'table-cell' },
+} as const;
+
+/** Right-aligned header / data cell for numeric columns. */
+const NUMERIC_CELL = { textAlign: 'right' } as const;
+
 // ── column header meta ────────────────────────────────────────────────────────
 
-const HEADERS = ['Date', 'Product', 'Category', 'Pet', 'Source', 'Qty', 'Unit Price', 'Total'] as const;
+interface ColMeta {
+    label: string;
+    hideNarrow?: boolean;
+    numeric?: boolean;
+}
+
+const COLS: ColMeta[] = [
+    { label: 'Date' },
+    { label: 'Product' },
+    { label: 'Category', hideNarrow: true },
+    { label: 'Pet', hideNarrow: true },
+    { label: 'Source' },
+    { label: 'Qty', numeric: true },
+    { label: 'Unit Price', numeric: true },
+    { label: 'Total', numeric: true },
+];
 
 // ── component ─────────────────────────────────────────────────────────────────
 
@@ -52,9 +82,15 @@ const LedgerTable: FC = () => {
             <MuiTable size="small" stickyHeader>
                 <MuiTableHead>
                     <MuiTableRow>
-                        {HEADERS.map(h => (
-                            <MuiTableCell key={h}>
-                                <Typography variant="caption" fontWeight={600}>{h}</Typography>
+                        {COLS.map(col => (
+                            <MuiTableCell
+                                key={col.label}
+                                sx={{
+                                    ...(col.hideNarrow ? HIDE_NARROW : {}),
+                                    ...(col.numeric ? NUMERIC_CELL : {}),
+                                }}
+                            >
+                                <Typography variant="caption" fontWeight={600}>{col.label}</Typography>
                             </MuiTableCell>
                         ))}
                     </MuiTableRow>
@@ -63,7 +99,7 @@ const LedgerTable: FC = () => {
                 <MuiTableBody>
                     {entries.length === 0 ? (
                         <MuiTableRow>
-                            <MuiTableCell colSpan={HEADERS.length} align="center">
+                            <MuiTableCell colSpan={COLS.length} align="center">
                                 <Typography variant="caption" color="text.disabled">
                                     No purchase history yet. Complete a cart checkout to record entries.
                                 </Typography>
@@ -78,10 +114,12 @@ const LedgerTable: FC = () => {
                                 <MuiTableCell sx={{ maxWidth: 220 }}>
                                     <Typography variant="body2" noWrap>{e.name}</Typography>
                                 </MuiTableCell>
-                                <MuiTableCell>
+                                {/* Category — hidden below 768 px */}
+                                <MuiTableCell sx={HIDE_NARROW}>
                                     <Typography variant="caption" noWrap>{e.category}</Typography>
                                 </MuiTableCell>
-                                <MuiTableCell>
+                                {/* Pet — hidden below 768 px */}
+                                <MuiTableCell sx={HIDE_NARROW}>
                                     <Typography variant="caption" noWrap>{e.petName}</Typography>
                                 </MuiTableCell>
                                 <MuiTableCell>
@@ -93,14 +131,17 @@ const LedgerTable: FC = () => {
                                         sx={{ height: 20, fontSize: 10 }}
                                     />
                                 </MuiTableCell>
-                                <MuiTableCell>
+                                {/* Qty — right-aligned numeric */}
+                                <MuiTableCell align="right">
                                     <Typography variant="caption">{e.qty}</Typography>
                                 </MuiTableCell>
+                                {/* Unit Price — right-aligned numeric */}
                                 <MuiTableCell align="right">
                                     <Typography variant="caption" fontFamily="monospace">
                                         {fmtCurrency(e.unitPrice)}
                                     </Typography>
                                 </MuiTableCell>
+                                {/* Total — right-aligned numeric */}
                                 <MuiTableCell align="right">
                                     <Typography variant="caption" fontFamily="monospace" fontWeight={600}>
                                         {fmtCurrency(ledgerEntryTotal(e))}
@@ -113,7 +154,7 @@ const LedgerTable: FC = () => {
                     {/* ── Grand-total footer row ── */}
                     {entries.length > 0 && (
                         <MuiTableRow sx={{ bgcolor: 'action.hover' }}>
-                            <MuiTableCell colSpan={HEADERS.length - 1}>
+                            <MuiTableCell colSpan={COLS.length - 1}>
                                 <Typography variant="caption" color="text.secondary">
                                     {entries.length} transaction{entries.length !== 1 ? 's' : ''}
                                 </Typography>
