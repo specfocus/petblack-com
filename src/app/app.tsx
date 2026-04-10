@@ -1,3 +1,5 @@
+'use client';
+
 import agentActorAtom from '@/atoms/agent-actor-atom';
 import agentForwardingEffectAtom from '@/atoms/agent-forwarding-effect-atom';
 import installEffectAtom from '@/atoms/install-effect-atom';
