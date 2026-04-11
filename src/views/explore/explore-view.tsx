@@ -77,10 +77,26 @@ const ExploreView: FC = () => {
     }, [query]);
 
     return (
-        <>
+        <Box
+            sx={{
+                height: '100%',
+                minHeight: 0,
+                minWidth: 0,
+                width: '100%',
+                display: 'flex',
+                flexDirection: 'column',
+                overflow: 'hidden',
+            }}
+        >
             {hasResults ? (
                 <Box
                     sx={{
+                        flex: 1,
+                        minHeight: 0,
+                        overflowY: 'auto',
+                        overflowX: 'hidden',
+                        WebkitOverflowScrolling: 'touch',
+                        scrollbarGutter: 'stable',
                         width: '100%',
                         mx: 'auto',
                         px: { xs: 2, sm: 3 },
@@ -97,9 +113,9 @@ const ExploreView: FC = () => {
                     <ProductGrid products={results} loading={loading} query={query} />
                 </Box>
             ) : (
-                <Box sx={{ flexGrow: 1 }} />
+                <Box sx={{ flex: 1, minHeight: 0 }} />
             )}
-        </>
+        </Box>
     );
 };
 
