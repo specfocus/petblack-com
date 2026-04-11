@@ -4,7 +4,6 @@ import { DialogKinds } from '@specfocus/shelly/lib/dialogs/dialog-kinds';
 import { DialogLayouts } from '@specfocus/shelly/lib/dialogs/dialog-layouts';
 import { VIEW } from '@specfocus/shelly/lib/views/view-entry';
 import type { WorkspaceViewEntry } from '@specfocus/shelly/lib/views/view-entry';
-import type { ViewContext } from '@specfocus/shelly/lib/views/view-context';
 
 export const DEBUG_VIEW = 'debug';
 
@@ -24,16 +23,6 @@ export const debugViewEntry: WorkspaceViewEntry = {
         name: DEBUG_VIEW,
         data: {},
     },
-    primary: LazyDebugView,
-    skeleton: DebugViewSkeleton,
-};
-
-export const debugViewContext: ViewContext = {
-    id: DEBUG_VIEW,
-    name: DEBUG_VIEW,
-    label: 'petblack.views.debug.label',
-    segment: DEBUG_VIEW,
-    path: [DEBUG_VIEW],
     primary: LazyDebugView,
     skeleton: DebugViewSkeleton,
 };

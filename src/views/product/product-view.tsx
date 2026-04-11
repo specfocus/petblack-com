@@ -59,11 +59,23 @@ const availabilityColor = (availability: ProductJsonLd['offers']['availability']
 };
 
 const ProductView: FC<{ product?: ProductJsonLd; }> = ({ product: productProp }) => {
-    const activeView = useAtomValue(activeViewAtom);
+    const activeSlot = useAtomValue(activeViewAtom);
+    const activeView = activeSlot?.[1];
+    const renderProps = activeSlot?.[2];
     const popView = useSetAtom(popViewAtom);
     const activeResourceObject = useAtomValue(activeWorkspaceEntryResourceObjectAtom);
 
-    const metadataProduct = activeView?.metadata?.product;
+    const fromRenderProps =
+        renderProps && 'product' in renderProps && isProductJsonLd(renderProps.product)
+            ? renderProps.product
+            : undefined;
+
+    const resourceData = activeView?.resource?.data;
+    const rawProduct =
+        resourceData && typeof resourceData === 'object' && 'product' in resourceData
+            ? (resourceData as unknown as { product: unknown }).product
+            : undefined;
+    const metadataProduct = isProductJsonLd(rawProduct) ? rawProduct : undefined;
     const product = useMemo(() => {
         if (productProp) return productProp;
         if (isProductJsonLd(metadataProduct)) return metadataProduct;
@@ -200,7 +212,7 @@ const ProductView: FC<{ product?: ProductJsonLd; }> = ({ product: productProp })
                             </CardContent>
                         </Card>
 
-                        <Button variant="text" color="inherit" size="small" onClick={popView} disabled={!activeView}>
+                        <Button variant="text" color="inherit" size="small" onClick={popView} disabled={!activeSlot?.[1]}>
                             Close view
                         </Button>
                     </Stack>

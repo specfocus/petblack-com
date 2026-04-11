@@ -29,7 +29,7 @@ import shopActorAtom from '@/atoms/shop-actor-atom';
 import shopSnapshotBucketsAtom from '@/atoms/shop-snapshot-buckets-atom';
 import { ShopEventTypes } from '@/machines/shop/shop-event-types';
 import { ProductTags, type ProductJsonLd } from '@/types/product-jsonld';
-import { createProductViewContext } from '@/views/product/product-view-entry';
+import { createProductViewEntry, productViewPathForProduct } from '@/views/product/product-view-entry';
 
 // ── Star rating helper ─────────────────────────────────────────────────────────
 
@@ -273,7 +273,7 @@ const ProductCard: FC<{ product: ProductJsonLd; }> = ({ product }) => {
     const price = offers.price.toFixed(2);
     const [whole, cents] = price.split('.');
     const openProductView = () => {
-        pushView(createProductViewContext(product));
+        pushView(createProductViewEntry(product), productViewPathForProduct(product), { product });
     };
 
     // Derive availability tag from schema.org availability URL

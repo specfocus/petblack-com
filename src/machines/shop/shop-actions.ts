@@ -40,7 +40,7 @@ const shopActions = {
             return { activeViewId: context.activeViewId };
         }
         return {
-            activeViewId: event.viewId,
+            activeViewId: event.viewPath?.join('/') ?? null,
         };
     }),
 

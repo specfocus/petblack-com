@@ -30,7 +30,7 @@
     "@mui/system": "^7.1.1",
     "@mui/utils": "^7.1.1",
     "@specfocus/atoms": "^0.0.51",
-    "@specfocus/shelly": "^0.0.71",
+    "@specfocus/shelly": "^0.0.75",
     "@swc/helpers": "^0.5.21",
     "axios": "^1.14.0",
     "clsx": "^2.1.1",
@@ -45,7 +45,6 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "recharts": "^3.8.1",
-    "swiper": "^12",
     "xstate": "^5"
   },
   "devDependencies": {

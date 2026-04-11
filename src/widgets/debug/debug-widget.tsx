@@ -9,9 +9,10 @@ import Typography from '@mui/material/Typography';
 import { useAtom, useSetAtom } from '@specfocus/atoms/lib/hooks';
 import { SwiperEventTypes } from '@specfocus/shelly/lib/layouts/swiper/machine/swiper-event-types';
 import shellActorAtom from '@specfocus/shelly/lib/shell/atoms/shell-actor-atom';
+import { VIEWS_PATH } from '@specfocus/shelly/lib/views/views-path';
 import Widget from '@specfocus/shelly/lib/widgets/widget';
 import { type FC } from 'react';
-import { debugViewContext } from '@/views/debug/debug-view-entry';
+import { DEBUG_VIEW, debugViewEntry } from '@/views/debug/debug-view-entry';
 import debugOpenAtom from './atoms/debug-open-atom';
 import debugShowAtom from './atoms/debug-show-atom';
 import DebugConsole from './debug-console';
@@ -42,7 +43,13 @@ const DebugWidget: FC = () => {
                 <Typography variant="subtitle2" sx={{ flex: 1 }}>Buddy Debug Console</Typography>
                 <IconButton
                     size="small"
-                    onClick={() => sendShellEvent({ type: SwiperEventTypes.PushView, view: debugViewContext })}
+                    onClick={() =>
+                        sendShellEvent({
+                            type: SwiperEventTypes.PushView,
+                            view: debugViewEntry,
+                            viewPath: [...VIEWS_PATH, DEBUG_VIEW],
+                        })
+                    }
                     title="Open debug view"
                 >
                     <OpenInFullRoundedIcon fontSize="small" />
