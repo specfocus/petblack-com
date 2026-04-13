@@ -1,7 +1,7 @@
 "use client";
 
 import shopSnapshotAtom from '@/atoms/shop-snapshot-atom';
-import { ledgerViewContext } from '@/views/ledger/ledger-view-entry';
+import { LEDGER_VIEW, ledgerViewEntry } from '@/views/ledger/ledger-view-entry';
 import { PrefabBucketNames, type BucketItem } from '@/domain/types';
 import CloseRoundedIcon from '@mui/icons-material/CloseRounded';
 import OpenInFullRoundedIcon from '@mui/icons-material/OpenInFullRounded';
@@ -15,6 +15,7 @@ import Typography from '@mui/material/Typography';
 import { useAtom, useAtomValue, useSetAtom } from '@specfocus/atoms/lib/hooks';
 import { SwiperEventTypes } from '@specfocus/shelly/lib/layouts/swiper/machine/swiper-event-types';
 import shellActorAtom from '@specfocus/shelly/lib/shell/atoms/shell-actor-atom';
+import { VIEWS_PATH } from '@specfocus/shelly/lib/views/views-path';
 import Widget from '@specfocus/shelly/lib/widgets/widget';
 import { type FC, useState } from 'react';
 import budgetOpenAtom from './atoms/budget-open-atom';
@@ -80,7 +81,13 @@ const BudgetWidget: FC = () => {
                 <Typography variant="subtitle2" sx={{ flex: 1 }}>Monthly Budget</Typography>
                 <IconButton
                     size="small"
-                    onClick={() => sendShellEvent({ type: SwiperEventTypes.PushView, view: ledgerViewContext })}
+                    onClick={() =>
+                        sendShellEvent({
+                            type: SwiperEventTypes.PushView,
+                            view: ledgerViewEntry,
+                            viewPath: [...VIEWS_PATH, LEDGER_VIEW],
+                        })
+                    }
                     title="Open purchase ledger"
                 >
                     <OpenInFullRoundedIcon fontSize="small" />

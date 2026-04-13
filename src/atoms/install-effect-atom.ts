@@ -2,12 +2,8 @@
  * petblack-effect-atom
  *
  * Single mount point for all petblack-specific effect atoms.
- * Mount alongside `<ShellyBootstrap />` in Bootstrap — kept separate
- * so the two lifecycles remain independent.
- *
- * Bootstrap mounts both:
- *   <ShellyBootstrap />                     // shelly built-ins + reactive effects
- *   useAtomValue(petblackEffectAtom);       // petblack additions
+ * Mount in `Bootstrap` after shelly shell effects
+ * (`shellyInstallEffectAtom`, etc. in `app.tsx`).
  */
 
 import type { ReadonlyAtom } from '@specfocus/atoms/lib/atom';

@@ -10,7 +10,7 @@ import { type FC } from 'react';
  * DebugView
  *
  * Full-width main-view version of the Buddy Debug Console.
- * Rendered as the primary component of debugViewContext.
+ * Rendered as the primary component of the debug view entry.
  * Reuses <DebugConsole variant="view" /> from the debug widget package.
  */
 const DebugView: FC = () => {

@@ -1,10 +1,10 @@
-import { lazy, createElement, type FC } from 'react';
+import { lazy } from 'react';
+import type { SimpleObject } from '@specfocus/atoms/lib/record';
 import { WorkspaceEntryTypes, type WorkspacePath } from '@specfocus/atoms/lib/workspace';
 import { DialogKinds } from '@specfocus/shelly/lib/dialogs/dialog-kinds';
 import { DialogLayouts } from '@specfocus/shelly/lib/dialogs/dialog-layouts';
-import { VIEW } from '@specfocus/shelly/lib/views/view-entry';
-import type { WorkspaceViewEntry } from '@specfocus/shelly/lib/views/view-entry';
-import type { ViewContext } from '@specfocus/shelly/lib/views/view-context';
+import { VIEW, type WorkspaceViewEntry } from '@specfocus/shelly/lib/views/view-entry';
+import { VIEWS_PATH } from '@specfocus/shelly/lib/views/views-path';
 import type { ProductJsonLd } from '@/types/product-jsonld';
 
 export const PRODUCT_VIEW = 'product';
@@ -14,32 +14,34 @@ const LazyProductView = lazy(() => import('./product-view'));
 const ProductViewSkeleton = () => null;
 ProductViewSkeleton.displayName = 'ProductViewSkeleton';
 
-const getProductPath = (product: ProductJsonLd): WorkspacePath => {
+/** Swiper stack identity for a product detail slide. */
+export const productViewPathForProduct = (product: ProductJsonLd): WorkspacePath => {
+    const sku = product.sku ?? product['@id'] ?? product.name;
+    return [...VIEWS_PATH, PRODUCT_VIEW, sku];
+};
+
+/** Workspace tree path for product JSON resources (unchanged). */
+export const getProductWorkspacePath = (product: ProductJsonLd): WorkspacePath => {
     const sku = product.sku ?? product['@id'] ?? product.name;
     return ['products', sku, 'product.json'];
 };
 
-export const createProductViewContext = (product: ProductJsonLd): ViewContext => {
+export const createProductViewEntry = (product: ProductJsonLd): WorkspaceViewEntry => {
     const sku = product.sku ?? product['@id'] ?? product.name;
 
-    // Per-instance primary: closes over `product` so the preview card renders
-    // the correct product without reading from any global atom.
-    const BoundProductView: FC = () => createElement(LazyProductView, { product });
-    BoundProductView.displayName = `ProductView:${sku}`;
-
     return {
-        id: `product:${sku}`,
-        name: PRODUCT_VIEW,
+        type: WorkspaceEntryTypes.Ephemeral,
+        ephemeral: true,
+        kind: DialogKinds.View,
+        layout: DialogLayouts.Column,
         label: product.name,
-        segment: PRODUCT_VIEW,
-        path: getProductPath(product),
-        primary: BoundProductView,
-        skeleton: ProductViewSkeleton,
-        metadata: {
-            isProductView: true,
-            product,
-            productSku: sku,
+        resource: {
+            '@type': VIEW,
+            name: PRODUCT_VIEW,
+            data: { product: product as unknown as SimpleObject, productSku: sku } as SimpleObject,
         },
+        primary: LazyProductView,
+        skeleton: ProductViewSkeleton,
     };
 };
 

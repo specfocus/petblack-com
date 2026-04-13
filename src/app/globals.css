@@ -41,6 +41,6 @@ body[data-app-shell] {
 body[data-app-shell][data-results] {
     background-image: none;
     animation: none;
-    overflow-y: auto;
-    overflow-x: hidden;
+    /* Scroll lives inside the explore slide (`overflow-y: auto` there), not on body. */
+    overflow: hidden;
 }
