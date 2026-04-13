@@ -20,8 +20,31 @@ import { windowSizeAtom } from '@specfocus/shelly/lib/shell/atoms/window-size-at
 import workspaceViewEffectAtom from '@specfocus/shelly/lib/workspace/atoms/workspace-view-effect-atom';
 import Shelly from '@specfocus/shelly/lib/shelly';
 import AppThemeProvider from '@specfocus/shelly/lib/theme/theme-provider';
-import { type FC, type PropsWithChildren } from 'react';
+import { type FC, type PropsWithChildren, useEffect } from 'react';
 import { PawSvg } from './icons/paw-svg';
+
+/** One-time hint on stage: shelly swiper logs are opt-in (`?shellyDebugSwiper=1` or localStorage). */
+const StageSwiperDebugHint: FC = () => {
+    useEffect(() => {
+        if (typeof window === 'undefined') return;
+        if (window.location.hostname !== 'stage.petblack.com') return;
+        try {
+            const enabled =
+                window.localStorage.getItem('shelly:debug:swiper') === '1' ||
+                new URLSearchParams(window.location.search).get('shellyDebugSwiper') === '1';
+            if (enabled) return;
+        } catch {
+            return;
+        }
+        console.info(
+            '[petblack][stage] Shelly swiper trace logs are OFF until you enable them. ' +
+                'Option A: add ?shellyDebugSwiper=1 to this URL and reload. ' +
+                'Option B: localStorage.setItem("shelly:debug:swiper","1"); location.reload(). ' +
+                'Then look for [shelly:swiper] lines — they use console.warn (show Warnings in the console filter).'
+        );
+    }, []);
+    return null;
+};
 
 const Bootstrap: FC = () => {
     // Seed queryClientAtom into the jotai store before any atomWithQuery runs.
@@ -47,6 +70,7 @@ const App: FC<PropsWithChildren> = ({ children }) => (
     <Provider>
         <AppThemeProvider>
             <Shelly appIcon={<PawSvg size={20} fill="currentColor" />}>
+                <StageSwiperDebugHint />
                 <Bootstrap />
                 {children}
             </Shelly>
