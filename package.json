@@ -30,7 +30,7 @@
     "@mui/system": "^7.1.1",
     "@mui/utils": "^7.1.1",
     "@specfocus/atoms": "^0.0.52",
-    "@specfocus/shelly": "^0.0.86",
+    "@specfocus/shelly": "^0.0.87",
     "@swc/helpers": "^0.5.21",
     "axios": "^1.14.0",
     "clsx": "^2.1.1",
