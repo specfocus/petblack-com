@@ -129,8 +129,17 @@ const shopActions = {
         const { name } = event as ShopToggleBucketOpenEvent;
         const bucket = context.buckets[name];
         if (!bucket) return {};
+        const nextOpen = !bucket.open;
+        // Capture the view this widget is being opened in so that on
+        // reload we can decide whether to restore the open state. Only
+        // widgets opened on the first slide (the Explorer) survive a
+        // refresh — see `loadBuckets` in `@/domain/storage`.
+        const nextOwnerViewPath = nextOpen ? context.activeViewId : null;
         return {
-            buckets: { ...context.buckets, [name]: { ...bucket, open: !bucket.open } },
+            buckets: {
+                ...context.buckets,
+                [name]: { ...bucket, open: nextOpen, ownerViewPath: nextOwnerViewPath },
+            },
         };
     }),
 

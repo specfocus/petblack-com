@@ -14,8 +14,16 @@ import {
     PREFAB_BUCKET_NAMES,
     BUCKET,
 } from './types';
+import { EXPLORE_VIEW_PATH } from '@/views/explore/explore-view-path';
 
 const STORAGE_KEY = 'petblack:shop-buckets';
+
+/**
+ * String form of the first-slide view path. Only widgets whose stored
+ * `ownerViewPath` matches this value are restored as `open: true` on
+ * reload — see `loadBuckets` for the full rationale.
+ */
+const FIRST_SLIDE_VIEW_PATH = EXPLORE_VIEW_PATH.join('/');
 
 // ── helpers ───────────────────────────────────────────────────────────────────
 
@@ -74,6 +82,25 @@ export function loadBuckets(): Record<string, Bucket> {
         if (typeof storedBuckets !== 'object' || storedBuckets === null || Array.isArray(storedBuckets)) return defaultBuckets;
 
         const buckets = { ...defaultBuckets, ...storedBuckets };
+
+        // Widget `open` state is only restored for widgets that were open
+        // on the FIRST slide (the Explorer — always present after reload).
+        //
+        // Rationale: the widget's open state is tied to the view it was
+        // opened in (`ownerViewPath`). After a reload the view stack is
+        // rebuilt from URL/navigation and deeper views may not exist,
+        // leaving the widget "stranded" — visually open but tied to a
+        // non-existent owner view. The first slide's view always exists,
+        // so restoring opens that were anchored there is safe.
+        //
+        // `show` (chain visibility), items, custom buckets, and
+        // timestamps ARE always restored.
+        for (const key of Object.keys(buckets)) {
+            const bucket = buckets[key];
+            if (!bucket || !bucket.open) continue;
+            if (bucket.ownerViewPath === FIRST_SLIDE_VIEW_PATH) continue;
+            buckets[key] = { ...bucket, open: false, ownerViewPath: null };
+        }
 
         return buckets;
     } catch {

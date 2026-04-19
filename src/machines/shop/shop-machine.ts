@@ -57,7 +57,7 @@ const shopMachine = shopSetup.extend({ actions: shopActions }).createMachine({
                     actions: ['setPersistError'],
                 },
                 [ShopEventTypes.ToggleBucketOpen]: {
-                    actions: ['toggleBucketOpen'],
+                    actions: ['toggleBucketOpen', 'persistBuckets', 'markPersisted'],
                 },
                 [ShopEventTypes.ToggleBucketShow]: {
                     actions: ['toggleBucketShow'],

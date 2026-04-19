@@ -74,6 +74,17 @@ export interface Bucket {
     '@type': typeof BUCKET;
     open?: boolean;
     show?: boolean;
+    /**
+     * Slash-joined `viewPath` of the view in which this bucket was last
+     * opened as a widget (see shelly `WorkspaceWidgetEntry.ownerViewPath`).
+     *
+     * Persisted so that on reload we can restore `open: true` ONLY for
+     * widgets that were open on the first slide (the Explorer — always
+     * present). Widgets opened in deeper views are force-closed on reload
+     * to avoid stranding them in a view that may not exist in the
+     * rebuilt view stack. See `loadBuckets`.
+     */
+    ownerViewPath?: string | null;
     /** Display name */
     name: string;
     /**
