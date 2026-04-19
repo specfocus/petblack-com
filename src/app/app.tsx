@@ -18,6 +18,7 @@ import { slotsPerSlideEffectAtom } from '@specfocus/shelly/lib/atoms/slots-per-s
 import sidebarLayoutGuardEffectAtom from '@specfocus/shelly/lib/shell/sidebars/atoms/sidebar-layout-guard-effect-atom';
 import { windowSizeAtom } from '@specfocus/shelly/lib/shell/atoms/window-size-atom';
 import workspaceViewEffectAtom from '@specfocus/shelly/lib/workspace/atoms/workspace-view-effect-atom';
+import widgetViewCleanupEffectAtom from '@specfocus/shelly/lib/widgets/atoms/widget-view-cleanup-effect-atom';
 import Shelly from '@specfocus/shelly/lib/shelly';
 import AppThemeProvider from '@specfocus/shelly/lib/theme/theme-provider';
 import { type FC, type PropsWithChildren, useEffect } from 'react';
@@ -38,9 +39,9 @@ const StageSwiperDebugHint: FC = () => {
         }
         console.info(
             '[petblack][stage] Shelly swiper trace logs are OFF until you enable them. ' +
-                'Option A: add ?shellyDebugSwiper=1 to this URL and reload. ' +
-                'Option B: localStorage.setItem("shelly:debug:swiper","1"); location.reload(). ' +
-                'Then look for [shelly:swiper] lines — they use console.warn (show Warnings in the console filter).'
+            'Option A: add ?shellyDebugSwiper=1 to this URL and reload. ' +
+            'Option B: localStorage.setItem("shelly:debug:swiper","1"); location.reload(). ' +
+            'Then look for [shelly:swiper] lines — they use console.warn (show Warnings in the console filter).'
         );
     }, []);
     return null;
@@ -56,6 +57,7 @@ const Bootstrap: FC = () => {
     useAtomValue(windowSizeAtom);
     useAtomValue(feedbackEffectAtom);
     useAtomValue(workspaceViewEffectAtom);
+    useAtomValue(widgetViewCleanupEffectAtom);
     useAtomValue(installEffectAtom);
     useAtomValue(storageActorAtom);
     useAtomValue(shopActorAtom);
