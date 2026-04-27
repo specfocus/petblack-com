@@ -18,10 +18,9 @@ import { WIDGETS_PATH } from '../widgets-path';
 import bucketsAtom from '../../atoms/buckets-atom';
 import shopSnapshotAtom from '@/atoms/shop-snapshot-atom';
 import shopActorAtom from '@/atoms/shop-actor-atom';
-import { TOGGLE, type ToggleAtom } from '@specfocus/atoms/lib/toggle';
+import { TOGGLE, type ToggleAtom, type ToggleEntry } from '@specfocus/atoms/lib/toggle';
 import atom, { Getter, Setter } from '@specfocus/atoms/lib/atom';
 import { ShopEventTypes } from '@/machines/shop/shop-event-types';
-import type { ToggleEntry } from '@specfocus/atoms/lib/toggle';
 import { ToggleVariants } from '@specfocus/atoms/lib/toggle';
 import { PrefabBucketNames } from '@/domain/types';
 
@@ -77,7 +76,6 @@ const installBuckets = (get: GetterWithPeek, set: SetterWithRecurse): Cleanup =>
 
         const bucketOpenToggle: ToggleEntry = {
             type: WorkspaceEntryTypes.Ephemeral,
-            ephemeral: true,
             icon: OpenInFullRoundedIcon,
             variant: ToggleVariants.Switch,
             label: `petblack.widgets.${bucketName}.toggles.open.label`,
@@ -86,7 +84,6 @@ const installBuckets = (get: GetterWithPeek, set: SetterWithRecurse): Cleanup =>
             atom: bucketOpenAtom,
             resource: {
                 '@type': TOGGLE,
-                data: {},
                 labelOn: `petblack.widgets.${bucketName}.toggles.open.labelOn`,
                 labelOff: `petblack.widgets.${bucketName}.toggles.open.labelOff`,
             },
@@ -94,7 +91,6 @@ const installBuckets = (get: GetterWithPeek, set: SetterWithRecurse): Cleanup =>
 
         const bucketShowToggle: ToggleEntry = {
             type: WorkspaceEntryTypes.Ephemeral,
-            ephemeral: true,
             icon: OpenInFullRoundedIcon,
             variant: ToggleVariants.Switch,
             label: `petblack.widgets.${bucketName}.toggles.show.label`,
@@ -103,7 +99,6 @@ const installBuckets = (get: GetterWithPeek, set: SetterWithRecurse): Cleanup =>
             atom: bucketShowAtom,
             resource: {
                 '@type': TOGGLE,
-                data: {},
                 labelOn: `petblack.widgets.${bucketName}.toggles.show.labelOn`,
                 labelOff: `petblack.widgets.${bucketName}.toggles.show.labelOff`,
             },
@@ -117,10 +112,9 @@ const installBuckets = (get: GetterWithPeek, set: SetterWithRecurse): Cleanup =>
 
         const bucketWidgetEntry: WorkspaceWidgetEntry = {
             type: WorkspaceEntryTypes.Ephemeral,
-            ephemeral: true,
             label: `petblack.widgets.${bucketName}.label`,
             tooltip: `petblack.widgets.${bucketName}.tooltip`,
-            resource: { '@type': WIDGET, data: {}, name: bucketName },
+            resource: { '@type': WIDGET, name: bucketName },
             component: LazyBucketWidget,
             toggle: bucketOpenTogglePath,
             showToggle: bucketShowTogglePath,

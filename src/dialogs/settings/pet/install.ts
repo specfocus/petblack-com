@@ -19,8 +19,7 @@ const installPetSettingsSection = (get: GetterWithPeek, set: SetterWithRecurse):
             name: PET,
             icon: PetsRoundedIcon,
             priority: 40,
-            actions: [],
-            data: {},
+            actions: []
         },
         component: PetSettingsSection,
     });

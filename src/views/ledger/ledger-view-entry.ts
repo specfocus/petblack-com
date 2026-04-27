@@ -14,14 +14,12 @@ LedgerViewSkeleton.displayName = 'LedgerViewSkeleton';
 
 export const ledgerViewEntry: WorkspaceViewEntry = {
     type: WorkspaceEntryTypes.Ephemeral,
-    ephemeral: true,
     kind: DialogKinds.View,
     layout: DialogLayouts.Column,
     label: 'petblack.views.ledger.label',
     resource: {
         '@type': VIEW,
-        name: LEDGER_VIEW,
-        data: {},
+        name: LEDGER_VIEW
     },
     primary: LazyLedgerView,
     skeleton: LedgerViewSkeleton,

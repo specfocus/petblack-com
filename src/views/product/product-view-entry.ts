@@ -31,14 +31,12 @@ export const createProductViewEntry = (product: ProductJsonLd): WorkspaceViewEnt
 
     return {
         type: WorkspaceEntryTypes.Ephemeral,
-        ephemeral: true,
         kind: DialogKinds.View,
         layout: DialogLayouts.Column,
         label: product.name,
         resource: {
             '@type': VIEW,
-            name: PRODUCT_VIEW,
-            data: { product: product as unknown as SimpleObject, productSku: sku } as SimpleObject,
+            name: PRODUCT_VIEW
         },
         primary: LazyProductView,
         skeleton: ProductViewSkeleton,
@@ -47,14 +45,12 @@ export const createProductViewEntry = (product: ProductJsonLd): WorkspaceViewEnt
 
 export const productViewEntry: WorkspaceViewEntry = {
     type: WorkspaceEntryTypes.Ephemeral,
-    ephemeral: true,
     kind: DialogKinds.View,
     layout: DialogLayouts.Column,
     label: 'petblack.views.product.label',
     resource: {
         '@type': VIEW,
-        name: PRODUCT_VIEW,
-        data: {},
+        name: PRODUCT_VIEW
     },
     primary: LazyProductView,
     skeleton: ProductViewSkeleton,

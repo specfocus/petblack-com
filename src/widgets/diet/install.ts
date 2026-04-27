@@ -25,10 +25,9 @@ const LazyDietWidget = lazy(() => import('./diet-widget'));
 
 const dietWidgetEntry: WorkspaceWidgetEntry = {
     type: WorkspaceEntryTypes.Ephemeral,
-    ephemeral: true,
     label: 'petblack.widgets.diet.label',
     tooltip: 'petblack.widgets.diet.tooltip',
-    resource: { '@type': WIDGET, data: {}, name: 'diet' },
+    resource: { '@type': WIDGET, name: 'diet' },
     component: LazyDietWidget,
     toggle: DIET_OPEN_TOGGLE_PATH,
     showToggle: DIET_SHOW_TOGGLE_PATH,

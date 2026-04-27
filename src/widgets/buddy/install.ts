@@ -29,10 +29,9 @@ const LazyBuddyWidget = lazy(() => import('./buddy-widget'));
 
 const buddyWidgetEntry: WorkspaceWidgetEntry = {
     type: WorkspaceEntryTypes.Ephemeral,
-    ephemeral: true,
     label: 'petblack.widgets.buddy.label',
     tooltip: 'petblack.widgets.buddy.tooltip',
-    resource: { '@type': WIDGET, data: {}, name: 'buddy' },
+    resource: { '@type': WIDGET, name: 'buddy' },
     component: LazyBuddyWidget,
     toggle: [...BUDDY_OPEN_TOGGLE_PATH],
     showToggle: [...BUDDY_SHOW_TOGGLE_PATH],

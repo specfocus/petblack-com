@@ -19,8 +19,7 @@ const installShopperSettingsSection = (get: GetterWithPeek, set: SetterWithRecur
             name: SHOPPER,
             icon: PersonRoundedIcon,
             priority: 60,
-            actions: [],
-            data: {},
+            actions: []
         },
         component: ShopperSettingsSection,
     });

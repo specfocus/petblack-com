@@ -11,10 +11,9 @@ const LazyDebugWidget = lazy(() => import('./debug-widget'));
 
 const debugWidgetEntry: WorkspaceWidgetEntry = {
     type: WorkspaceEntryTypes.Ephemeral,
-    ephemeral: true,
     label: 'petblack.widgets.debug.label',
     tooltip: 'petblack.widgets.debug.tooltip',
-    resource: { '@type': WIDGET, data: {}, name: 'debug' },
+    resource: { '@type': WIDGET, name: 'debug' },
     component: LazyDebugWidget,
     toggle: DEBUG_OPEN_TOGGLE_PATH,
     showToggle: DEBUG_SHOW_TOGGLE_PATH,

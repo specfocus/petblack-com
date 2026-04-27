@@ -61,7 +61,7 @@ const availabilityColor = (
     return 'default';
 };
 
-const ProductView: FC<{ product?: ProductJsonLd }> = ({ product: productProp }) => {
+const ProductView: FC<{ product?: ProductJsonLd; }> = ({ product: productProp }) => {
     const activeSlot = useAtomValue(activeViewAtom);
     const activeView = activeSlot?.[1];
     const renderProps = activeSlot?.[2];
@@ -73,10 +73,9 @@ const ProductView: FC<{ product?: ProductJsonLd }> = ({ product: productProp }) 
             ? renderProps.product
             : undefined;
 
-    const resourceData = activeView?.resource?.data;
     const rawProduct =
-        resourceData && typeof resourceData === 'object' && 'product' in resourceData
-            ? (resourceData as unknown as { product: unknown }).product
+        activeView?.resource && typeof activeView.resource === 'object' && 'product' in activeView.resource
+            ? (activeView?.resource as { product: unknown; }).product
             : undefined;
     const metadataProduct = isProductJsonLd(rawProduct) ? rawProduct : undefined;
     const product = useMemo(() => {

@@ -16,8 +16,7 @@ const installShopSettingsSection = (get: GetterWithPeek, set: SetterWithRecurse)
             name: SHOP,
             icon: ShoppingBagRoundedIcon,
             priority: 50,
-            actions: [],
-            data: {},
+            actions: []
         },
         component: ShopSettingsSection,
     });

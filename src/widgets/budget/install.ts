@@ -11,10 +11,9 @@ const LazyBudgetWidget = lazy(() => import('./budget-widget'));
 
 const budgetWidgetEntry: WorkspaceWidgetEntry = {
     type: WorkspaceEntryTypes.Ephemeral,
-    ephemeral: true,
     label: 'petblack.widgets.budget.label',
     tooltip: 'petblack.widgets.budget.tooltip',
-    resource: { '@type': WIDGET, data: {}, name: 'budget' },
+    resource: { '@type': WIDGET, name: 'budget' },
     component: LazyBudgetWidget,
     toggle: BUDGET_OPEN_TOGGLE_PATH,
     showToggle: BUDGET_SHOW_TOGGLE_PATH,

@@ -1,12 +1,11 @@
 import BugReportRoundedIcon from '@mui/icons-material/BugReportRounded';
-import type { ToggleEntry } from '@specfocus/atoms/lib/toggle';
+import { TOGGLE, type ToggleEntry } from '@specfocus/atoms/lib/toggle';
 import { ToggleVariants } from '@specfocus/atoms/lib/toggle';
 import { WorkspaceEntryTypes, Sizes } from '@specfocus/atoms/lib/workspace';
 import debugShowAtom from '../atoms/debug-show-atom';
 
 export const debugShowToggleEntry: ToggleEntry = {
     type: WorkspaceEntryTypes.Ephemeral,
-    ephemeral: true,
     icon: BugReportRoundedIcon,
     variant: ToggleVariants.Icon,
     label: 'petblack.widgets.debug.toggles.show.label',
@@ -14,8 +13,7 @@ export const debugShowToggleEntry: ToggleEntry = {
     size: Sizes.Small,
     atom: debugShowAtom,
     resource: {
-        '@type': 'toggle',
-        data: {},
+        '@type': TOGGLE,
         labelOn: 'petblack.widgets.debug.toggles.show.labelOn',
         labelOff: 'petblack.widgets.debug.toggles.show.labelOff',
     },

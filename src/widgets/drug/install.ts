@@ -25,10 +25,9 @@ const LazyDrugWidget = lazy(() => import('./drug-widget'));
 
 const drugWidgetEntry: WorkspaceWidgetEntry = {
     type: WorkspaceEntryTypes.Ephemeral,
-    ephemeral: true,
     label: 'petblack.widgets.drug.label',
     tooltip: 'petblack.widgets.drug.tooltip',
-    resource: { '@type': WIDGET, data: {}, name: 'drug' },
+    resource: { '@type': WIDGET, name: 'drug' },
     component: LazyDrugWidget,
     toggle: DRUG_OPEN_TOGGLE_PATH,
     showToggle: DRUG_SHOW_TOGGLE_PATH,

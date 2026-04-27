@@ -16,14 +16,12 @@ ExploreViewSkeleton.displayName = 'ExploreViewSkeleton';
 
 export const exploreViewEntry: WorkspaceViewEntry = {
     type: WorkspaceEntryTypes.Ephemeral,
-    ephemeral: true,
     kind: DialogKinds.View,
     layout: DialogLayouts.Column,
     label: 'petblack.views.explore.label',
     resource: {
         '@type': VIEW,
-        name: EXPLORE_VIEW,
-        data: {},
+        name: EXPLORE_VIEW
     },
     primary: LazyExploreView,
     skeleton: ExploreViewSkeleton,

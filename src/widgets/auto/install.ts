@@ -25,10 +25,9 @@ const LazyAutoWidget = lazy(() => import('./auto-widget'));
 
 const autoWidgetEntry: WorkspaceWidgetEntry = {
     type: WorkspaceEntryTypes.Ephemeral,
-    ephemeral: true,
     label: 'petblack.widgets.auto.label',
     tooltip: 'petblack.widgets.auto.tooltip',
-    resource: { '@type': WIDGET, data: {}, name: 'auto' },
+    resource: { '@type': WIDGET, name: 'auto' },
     component: LazyAutoWidget,
     toggle: AUTO_OPEN_TOGGLE_PATH,
     showToggle: AUTO_SHOW_TOGGLE_PATH,

@@ -25,10 +25,9 @@ const LazyPickWidget = lazy(() => import('./pick-widget'));
 
 const pickWidgetEntry: WorkspaceWidgetEntry = {
     type: WorkspaceEntryTypes.Ephemeral,
-    ephemeral: true,
     label: 'petblack.widgets.pick.label',
     tooltip: 'petblack.widgets.pick.tooltip',
-    resource: { '@type': WIDGET, data: {}, name: 'pick' },
+    resource: { '@type': WIDGET, name: 'pick' },
     component: LazyPickWidget,
     toggle: PICK_OPEN_TOGGLE_PATH,
     showToggle: PICK_SHOW_TOGGLE_PATH,

@@ -14,14 +14,12 @@ DebugViewSkeleton.displayName = 'DebugViewSkeleton';
 
 export const debugViewEntry: WorkspaceViewEntry = {
     type: WorkspaceEntryTypes.Ephemeral,
-    ephemeral: true,
     kind: DialogKinds.View,
     layout: DialogLayouts.Column,
     label: 'petblack.views.debug.label',
     resource: {
         '@type': VIEW,
-        name: DEBUG_VIEW,
-        data: {},
+        name: DEBUG_VIEW
     },
     primary: LazyDebugView,
     skeleton: DebugViewSkeleton,

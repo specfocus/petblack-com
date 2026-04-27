@@ -25,10 +25,9 @@ const LazyCartWidget = lazy(() => import('./cart-widget'));
 
 const cartWidgetEntry: WorkspaceWidgetEntry = {
     type: WorkspaceEntryTypes.Ephemeral,
-    ephemeral: true,
     label: 'petblack.widgets.cart.label',
     tooltip: 'petblack.widgets.cart.tooltip',
-    resource: { '@type': WIDGET, data: {}, name: 'cart' },
+    resource: { '@type': WIDGET, name: 'cart' },
     component: LazyCartWidget,
     toggle: CART_OPEN_TOGGLE_PATH,
     showToggle: CART_SHOW_TOGGLE_PATH,
